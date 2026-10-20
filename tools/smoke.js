@@ -1,0 +1,28 @@
+// node tools/smoke.js <url>  (needs puppeteer-core, chrome at /usr/bin/google-chrome)
+const p=require('puppeteer-core');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const u=process.argv[2];const b=await p.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox'],headless:'new'});
+const pg=await b.newPage();await pg.setViewport({width:390,height:844,isMobile:true,hasTouch:true});
+let errs=0;pg.on('pageerror',x=>{errs++;console.log('ERR',x.message)});
+const click=async t=>{const r=await pg.evaluate(t=>{const x=[...document.querySelectorAll('button,label,a,summary')].find(x=>x.innerText.trim().includes(t)&&!x.disabled);if(x){x.click();return 1}return 0},t);await sleep(350);if(!r)console.log('NOCLICK',t);return r};
+const type=async(label,val)=>{await pg.evaluate((label,val)=>{const f=[...document.querySelectorAll('.add-form label.field')].find(x=>x.innerText.trim().startsWith(label));const i=f.querySelector('input');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(i,val);i.dispatchEvent(new Event('input',{bubbles:true}))},label,val);await sleep(80)};
+const go=async h=>{await pg.goto(u+h);await pg.reload();await sleep(900)};
+const ok=(n,c)=>console.log(c?'PASS':'FAIL',n);
+await pg.goto(u+'#/more');await pg.evaluate(()=>localStorage.clear());await go('#/more');
+ok('more grid',await click('新增單字'));
+await type('單字','眺める');await type('中文意思','眺望');await click('儲存單字');
+const uw=await pg.evaluate(()=>JSON.parse(localStorage['mmv:vocabulary.userwords.v1']||'[]'));
+ok('add word + verb class',uw.length==1&&uw[0].vclass=='2'&&uw[0].masu=='眺めます');
+await go('#/more');await click('暫存區');await type('單字','Fernweh');await click('加入暫存區');
+ok('staging',(await pg.evaluate(()=>localStorage['mmv:vocabulary.staging.v1']||'')).includes('Fernweh'));
+await go('#/more');await click('設定');
+ok('settings build+changelog',await pg.evaluate(()=>/版本：v/.test(document.body.innerText)&&!!document.querySelector('.changelog')));
+await go('#/quiz');await click('日 → 中');await click('開始');
+await pg.evaluate(()=>document.querySelector('.quiz-options button').click());await sleep(400);
+ok('choice quiz answered',await pg.evaluate(()=>!!document.querySelector('.quiz-feedback')));
+const lv=await pg.evaluate(()=>JSON.parse(localStorage['mmv:vocabulary.catalog.v1']||'{}'));ok('familiarity written',Object.values(lv.entries||{}).some(e=>e.familiarity===1));
+await go('#/quiz');await click('拼字（鍵盤輸入）');await click('開始');
+await pg.type('.spell-input','x');await pg.keyboard.press('Enter');await sleep(300);await pg.tap('.next-btn');await sleep(400);
+ok('spell focus after next',await pg.evaluate(()=>document.activeElement.className.includes('spell-input')));
+await go('#/quiz');await click('熟悉度');await click('開始');await click('顯示釋義');await click('陌生');
+ok('familiar quiz no X',await pg.evaluate(()=>!document.querySelector('.mark-bad')));
+console.log('pageerrors',errs);await b.close()})();
