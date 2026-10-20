@@ -1,0 +1,1 @@
+# Shinnigammi-vocab
