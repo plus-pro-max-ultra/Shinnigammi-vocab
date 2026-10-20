@@ -10972,6 +10972,18 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v12",
+        d: "10/21",
+        items: [
+          "\u9078\u64C7\u3001\u719F\u6089\u5EA6\u6E2C\u9A57\uFF1A\u4F5C\u7B54\u5F8C\u4E0D\u518D\u81EA\u52D5\u5C55\u958B\u8AAA\u660E\uFF1B\u984C\u76EE\u5361\u7247\u5DE6\u4E0B\u89D2\u65B0\u589E\u300C\u8AAA\u660E\u300D\u6309\u9215\uFF0C\u9EDE\u7A7A\u767D\u8655\u6216\u8FD4\u56DE\u5373\u53EF\u7E7C\u7E8C",
+          "\u7B54\u5C0D\u5F8C\u518D\u9EDE\u4E00\u6B21\u6B63\u78BA\u7B54\u6848\u9032\u5165\u4E0B\u4E00\u984C\uFF1B\u7B54\u932F\u986F\u793A \u2717\uFF08\u53F3\u5074\uFF09\u8207 \u2713\uFF0C\u518D\u9EDE\u932F\u8AA4\u7B54\u6848\u958B\u555F\u8AAA\u660E",
+          "\u719F\u6089\u5EA6\u6E2C\u9A57\u7684\u9078\u9805\u6539\u70BA\u9577\u689D\u6309\u9215\uFF0C\u8207\u9078\u64C7\u984C\u4E00\u81F4\uFF1B\u9078\u5B8C\u5F8C\u518D\u9EDE\u4E00\u6B21\u540C\u4E00\u500B\u7B49\u7D1A\u9032\u5165\u4E0B\u4E00\u984C",
+          "\u5FB7\u6587\uFF0F\u82F1\u6587\u984C\u7684\u97F3\u6A19\u79FB\u5230\u984C\u76EE\u5361\u7247\u4E0B\u65B9\u7F6E\u4E2D",
+          "\u300C\u7D50\u675F\u300D\u56FA\u5B9A\u5728\u756B\u9762\u5E95\u90E8\uFF0C\u4E0D\u518D\u96A8\u5167\u5BB9\u4F4D\u79FB",
+          "\u5728\u300C\u65B0\u589E\u55AE\u5B57\u300D\u5132\u5B58\u7684\u55AE\u5B57\u6703\u540C\u6642\u52A0\u5165\u66AB\u5B58\u5340\uFF0C\u7531\u52A9\u7406\u6BCF\u65E5\u88DC\u5168\u8CC7\u8A0A\u4E26\u539F\u5730\u5347\u7D1A\uFF0C\u4E0D\u7522\u751F\u91CD\u8907",
+        ],
+      },
+      {
         v: "v11.1",
         d: "10/20 15:40",
         items: [
@@ -12076,9 +12088,27 @@ Error generating stack: ` +
       },
       tg = (l, z, v) => {
         if (!c.ready || !n.ready) return "\u8CC7\u6599\u5C1A\u672A\u8F09\u5165";
+        let sid = "s-" + Date.now();
+        l = { ...l, user: { ...l.user, ref: sid } };
         let S = Am(r, a, l, z, v);
         return S
-          ? (_o(S.userWords), i(S.userWords), o(S.catalog), S.id)
+          ? (_o(S.userWords),
+            i(S.userWords),
+            o(S.catalog),
+            x.ready &&
+              !d.some((q) => q.lang === l.lang && q.word === l.word) &&
+              ei([
+                ...d,
+                {
+                  id: sid,
+                  lang: l.lang,
+                  word: l.word,
+                  note: "\u5DF2\u65B0\u589E\uFF0C\u5F85\u88DC\u5168\u8CC7\u8A0A\uFF08" + S.id + "\uFF09",
+                  added: new Date().toISOString().slice(0, 10),
+                  uid: S.id,
+                },
+              ]),
+            S.id)
           : "\u8CC7\u6599\u683C\u5F0F\u4E0D\u6B63\u78BA\uFF0C\u672A\u5132\u5B58";
       },
       [rg, aa] = (0, s.useState)(""),
@@ -16276,7 +16306,8 @@ Error generating stack: ` +
       R = w ? (w.lang === "jp" ? w.reading : w.word) : "",
       [U, P] = (0, s.useState)(!1),
       [tr, Ce] = (0, s.useState)(!1),
-      [Lo, J] = (0, s.useState)([]);
+      [Lo, J] = (0, s.useState)([]),
+      [expOpen, setExpOpen] = (0, s.useState)(!1);
     (0, s.useEffect)(() => {
       if (
         (ve(w ? Math.floor(Math.random() * w.examples.length) : 0),
@@ -16310,8 +16341,25 @@ Error generating stack: ` +
         };
         (G([...A, ...Oo].sort((Ye, kt) => Qr(Ye) - Qr(kt))), oe([]));
       }
-      (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1));
+      (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1), setExpOpen(!1));
     }, [y]);
+    let openExp = () => {
+        (setExpOpen(!0),
+          history.pushState({ ...(history.state || {}), exp: 1 }, ""));
+      },
+      closeExp = () => {
+        history.state && history.state.exp
+          ? history.back()
+          : setExpOpen(!1);
+      };
+    (0, s.useEffect)(() => {
+      if (!expOpen) return;
+      let A = () => setExpOpen(!1);
+      return (
+        window.addEventListener("popstate", A),
+        () => window.removeEventListener("popstate", A)
+      );
+    }, [expOpen]);
     let _ = (A, O) => {
         if (!(!w || T || !n)) {
           if (O === void 0 && (a(w, A, e), j)) {
@@ -16482,6 +16530,23 @@ Error generating stack: ` +
                 },
                 "\u25D6))",
               ),
+              (e === "familiar" || (e === "forward" && w.lang === "de")) &&
+                s.default.createElement(
+                  "div",
+                  { className: "card-phon" },
+                  w.ipa ?? w.reading,
+                ),
+              T &&
+                (e === "forward" || e === "reverse" || e === "familiar") &&
+                s.default.createElement(
+                  "button",
+                  {
+                    className: "exp-open",
+                    "aria-label": "\u67E5\u770B\u8A73\u7D30\u8AAA\u660E",
+                    onClick: openExp,
+                  },
+                  "\u2139 \u8AAA\u660E",
+                ),
             ),
             (e === "forward" || e === "reverse") &&
               s.default.createElement(
@@ -16491,7 +16556,7 @@ Error generating stack: ` +
                   s.default.createElement(
                     "button",
                     {
-                      disabled: T || !n,
+                      disabled: !n,
                       className: T
                         ? A.id === w.id
                           ? "correct-option"
@@ -16501,7 +16566,11 @@ Error generating stack: ` +
                         : "",
                       key: A.id,
                       onClick: () => {
-                        (K(A.id), _(A.id === w.id));
+                        T
+                          ? A.id === w.id
+                            ? k(y + 1)
+                            : A.id === F && openExp()
+                          : (K(A.id), _(A.id === w.id));
                       },
                     },
                     T &&
@@ -16619,11 +16688,6 @@ Error generating stack: ` +
               s.default.createElement(
                 s.default.Fragment,
                 null,
-                s.default.createElement(
-                  "p",
-                  { className: "phonetic" },
-                  w.ipa ?? w.reading,
-                ),
                 N
                   ? s.default.createElement(
                       "div",
@@ -16652,10 +16716,16 @@ Error generating stack: ` +
                     s.default.createElement(
                       "button",
                       {
-                        disabled: T || !n,
+                        disabled: !n,
                         key: A,
-                        className: "fam-btn lv-" + (O + 1),
-                        onClick: () => _(O >= 2, O + 1),
+                        className:
+                          "fam-btn lv-" +
+                          (O + 1) +
+                          (T && h[h.length - 1]?.level === O + 1 ? " on" : ""),
+                        onClick: () =>
+                          T
+                            ? h[h.length - 1]?.level === O + 1 && k(y + 1)
+                            : _(O >= 2, O + 1),
                       },
                       A,
                     ),
@@ -16663,9 +16733,27 @@ Error generating stack: ` +
                 ),
               ),
             T &&
+              (e === "forward" || e === "reverse" || e === "familiar") &&
+              expOpen &&
+              s.default.createElement("div", {
+                className: "exp-backdrop",
+                onClick: closeExp,
+              }),
+            T &&
+              (!(e === "forward" || e === "reverse" || e === "familiar") || expOpen) &&
               s.default.createElement(
                 "div",
-                { className: "quiz-feedback", role: "status" },
+                {
+                  className:
+                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar") ? " exp-sheet" : ""),
+                  role: "status",
+                },
+                (e === "forward" || e === "reverse" || e === "familiar") &&
+                  s.default.createElement(
+                    "button",
+                    { className: "exp-close", onClick: closeExp },
+                    "\u2715 \u8FD4\u56DE",
+                  ),
                 e !== "familiar" &&
                   (h[h.length - 1]?.correct
                     ? s.default.createElement(
@@ -16813,6 +16901,7 @@ Error generating stack: ` +
                     s.default.Fragment,
                     null,
                     T &&
+                      !(e === "forward" || e === "reverse" || e === "familiar") &&
                       s.default.createElement(
                         "button",
                         {

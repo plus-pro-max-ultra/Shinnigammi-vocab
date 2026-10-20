@@ -18,7 +18,7 @@ await go('#/more');await click('設定');
 ok('settings build+changelog',await pg.evaluate(()=>/版本：v/.test(document.body.innerText)&&!!document.querySelector('.changelog')));
 await go('#/quiz');await click('日 → 中');await click('開始');
 await pg.evaluate(()=>document.querySelector('.quiz-options button').click());await sleep(400);
-ok('choice quiz answered',await pg.evaluate(()=>!!document.querySelector('.quiz-feedback')));
+ok('choice quiz answered',await pg.evaluate(()=>!!document.querySelector('.correct-option')));
 const lv=await pg.evaluate(()=>JSON.parse(localStorage['mmv:vocabulary.catalog.v1']||'{}'));ok('familiarity written',Object.values(lv.entries||{}).some(e=>e.familiarity===1));
 await go('#/quiz');await click('拼字（鍵盤輸入）');await click('開始');
 await pg.type('.spell-input','x');await pg.keyboard.press('Enter');await sleep(300);await pg.tap('.next-btn');await sleep(400);
