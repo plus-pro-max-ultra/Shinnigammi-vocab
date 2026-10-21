@@ -10493,25 +10493,9 @@ Error generating stack: ` +
       );
   var fm = __WORDS__;
   var jm = [
-    { id: "debook-1", name: "1 \xB7 sich vorstellen" },
-    { id: "debook-2", name: "1 \xB7 L\xE4nder und Sprachen" },
-    { id: "debook-3", name: "1 \xB7 gr\xFC\xDFen und verabschieden" },
-    { id: "debook-4", name: "1 \xB7 nach dem Befinden fragen" },
-    { id: "debook-5", name: "1 \xB7 Zahlen" },
-    { id: "debook-6", name: "1 \xB7 im Kurs" },
-    { id: "debook-7", name: "andere wichtige W\xF6rter und Wendungen (L1-L3)" },
-    { id: "debook-8", name: "2 \xB7 in der Freizeit" },
-    { id: "debook-9", name: "2 \xB7 Berufe und Arbeit" },
-    { id: "debook-10", name: "2 \xB7 Zeit" },
-    { id: "debook-11", name: "2 \xB7 Wochentage" },
-    { id: "debook-12", name: "2 \xB7 Informationen zur Person" },
-    { id: "debook-14", name: "3 \xB7 eine Stadttour" },
-    { id: "debook-15", name: "3 \xB7 Ma\xDFe angeben" },
-    { id: "debook-16", name: "3 \xB7 Verkehrsmittel" },
-    { id: "debook-17", name: "3 \xB7 einen Weg beschreiben" },
-    { id: "debook-18", name: "3 \xB7 Events" },
-    { id: "debook-19", name: "3 \xB7 Jahreszeiten" },
-    { id: "debook-20", name: "3 \xB7 Monate" },
+    { id: "debook-L1", name: "Lektion 1" },
+    { id: "debook-L2", name: "Lektion 2" },
+    { id: "debook-L3", name: "Lektion 3" },
   ];
   var Il = [
     {
@@ -10977,6 +10961,13 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.7",
+        d: "10/21 11:20",
+        items: [
+          "\u5FB7\u6587\u55AE\u4F4D\u6539\u4F9D\u8AB2\u6B21\u5206\u7D44\uFF1ALektion 1\uFF0891 \u5B57\uFF09\u3001Lektion 2\uFF08122 \u5B57\uFF09\u3001Lektion 3\uFF08112 \u5B57\uFF09\uFF1B\u539F\u4E3B\u984C\u4FDD\u7559\u5728\u5404\u55AE\u5B57\u7684\u8A73\u7D30\u9801\u6A19\u984C\u4E2D\uFF0C\u6E2C\u9A57\u8207\u5B57\u5361\u7BC4\u570D\u540C\u6B65\u66F4\u65B0\uFF0C\u9032\u5EA6\u8207\u719F\u6089\u5EA6\u4E0D\u53D7\u5F71\u97FF",
+        ],
+      },
       {
         v: "v14.6",
         d: "10/21 10:55",
@@ -12543,9 +12534,10 @@ Error generating stack: ` +
                     word: nt,
                     index: Yl,
                     count: Vo.length,
-                    bookName: (r.entries[nt.id]?.books ?? [])
-                      .map((l) => r.books.find((z) => z.id === l)?.name)
-                      .join(" \xB7 "),
+                    bookName:
+                      (r.entries[nt.id]?.books ?? [])
+                        .map((l) => r.books.find((z) => z.id === l)?.name)
+                        .join(" \xB7 ") + (nt.topic ? " \xB7 " + nt.topic : ""),
                     meaning: sr(nt),
                     extra: G[nt.id] ?? {},
                     saveExtra: (l) => ad(nt.id, l),
