@@ -10499,7 +10499,7 @@ Error generating stack: ` +
     { id: "debook-4", name: "1 \xB7 nach dem Befinden fragen" },
     { id: "debook-5", name: "1 \xB7 Zahlen" },
     { id: "debook-6", name: "1 \xB7 im Kurs" },
-    { id: "debook-7", name: "andere wichtige W\xF6rter und Wendungen (L1+L2)" },
+    { id: "debook-7", name: "andere wichtige W\xF6rter und Wendungen (L1-L3)" },
     { id: "debook-8", name: "2 \xB7 in der Freizeit" },
     { id: "debook-9", name: "2 \xB7 Berufe und Arbeit" },
     { id: "debook-10", name: "2 \xB7 Zeit" },
@@ -10512,7 +10512,6 @@ Error generating stack: ` +
     { id: "debook-18", name: "3 \xB7 Events" },
     { id: "debook-19", name: "3 \xB7 Jahreszeiten" },
     { id: "debook-20", name: "3 \xB7 Monate" },
-    { id: "debook-21", name: "3 \xB7 andere wichtige W\xF6rter und Wendungen" },
   ];
   var Il = [
     {
@@ -10978,6 +10977,15 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.6",
+        d: "10/21 10:55",
+        items: [
+          "\u300Candere wichtige W\u00F6rter und Wendungen\u300D\u7B2C\u4E09\u8AB2\u55AE\u5143\u4E00\u4F75\u4F75\u5165\uFF0C\u5408\u8A08 48 \u5B57\uFF08L1-L3\uFF09\uFF0C\u9032\u5EA6\u8207\u719F\u6089\u5EA6\u4E0D\u53D7\u5F71\u97FF",
+          "\u4FEE\u6B63\uFF1A\u6E2C\u9A57\u7BC4\u570D\u9078\u300C\u5168\u90E8\u689D\u76EE\u300D\u73FE\u5728\u5305\u542B JLPT \u5B57\u5EAB\uFF08\u65E5\u6587 1281 \u689D\uFF09\uFF0C\u4E4B\u524D\u53EA\u542B\u8AB2\u7A0B\u55AE\u5B57",
+          "\u55AE\u5B57\u9801\u5206\u9801\u540D\u7A31\u7D71\u4E00\u70BA\u300C\u610F\u601D\u300D\uFF08\u5FB7\u6587\u539F\u672C\u986F\u793A\u300C\u91CB\u7FA9\u300D\uFF09",
+        ],
+      },
       {
         v: "v14.5",
         d: "10/21 10:50",
@@ -12054,7 +12062,7 @@ Error generating stack: ` +
       Xr = oa(Ym),
       qs = (() => {
         let l = Wo.includes("all")
-          ? Ne
+          ? V.filter((z) => z.lang === J)
           : [
               ...new Map(
                 [
@@ -15885,7 +15893,7 @@ Error generating stack: ` +
       }, [e.id]));
     let R = [
       ["examples", "\u4F8B\u53E5"],
-      ["meaning", e.lang === "jp" ? "\u610F\u601D" : "\u91CB\u7FA9"],
+      ["meaning", "\u610F\u601D"],
       ["collocation", "\u642D\u914D"],
       ["similar", "\u76F8\u4F3C"],
     ];
