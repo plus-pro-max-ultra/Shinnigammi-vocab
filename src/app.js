@@ -10972,6 +10972,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v13.3",
+        d: "10/21 10:05",
+        items: [
+          "\u4FEE\u6B63\uFF1A\u55AE\u5143\uFF0F\u7B46\u8A18\u672C\uFF0F\u66F8\u7C64\u5167\u7684\u5C0F\u6E2C\u9A57\u6062\u5FA9\u300C\u9078\u64C7\u6E2C\u9A57\u985E\u578B\u300D\uFF08\u65E5\u2192\u4E2D\u3001\u4E2D\u2192\u65E5\u3001\u62FC\u5B57\u584A\u3001\u9375\u76E4\u62FC\u5B57\u3001\u719F\u6089\u5EA6\uFF09",
+        ],
+      },
+      {
         v: "v13.2",
         d: "10/21 08:35",
         items: [
@@ -11628,6 +11635,7 @@ Error generating stack: ` +
     lang: T,
   }) {
     let [u, h] = (0, s.useState)(!1),
+      [qp, setQp] = (0, s.useState)(null),
       g = j(r);
     return s.default.createElement(
       s.default.Fragment,
@@ -11665,7 +11673,7 @@ Error generating stack: ` +
           {
             "aria-label": "\u6E2C\u9A57\u9019\u4E9B\u55AE\u5B57",
             disabled: !r.length,
-            onClick: () => x(g.map((b) => b.id)),
+            onClick: () => setQp(g.map((b) => b.id)),
           },
           "\u270E",
         ),
@@ -11689,6 +11697,33 @@ Error generating stack: ` +
           "p",
           { className: "empty" },
           "\u9019\u500B\u7BC4\u570D\u76EE\u524D\u6C92\u6709\u689D\u76EE\u3002",
+        ),
+      qp &&
+        s.default.createElement(
+          "div",
+          { className: "sheet-backdrop", onClick: () => setQp(null) },
+          s.default.createElement(
+            "div",
+            { className: "sheet", onClick: (b) => b.stopPropagation() },
+            s.default.createElement("h3", null, "\u9078\u64C7\u6E2C\u9A57\u985E\u578B"),
+            s.default.createElement(
+              "div",
+              { className: "type-pick" },
+              [
+                ["forward", T === "jp" ? "\u65E5 \u2192 \u4E2D" : "DE \u2192 EN"],
+                ["reverse", T === "jp" ? "\u4E2D \u2192 \u65E5" : "EN \u2192 DE"],
+                ["tiles", "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"],
+                ["spell", "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"],
+                ["familiar", "\u719F\u6089\u5EA6"],
+              ].map(([b, N]) =>
+                s.default.createElement(
+                  "button",
+                  { key: b, onClick: () => (x(qp, b), setQp(null)) },
+                  N,
+                ),
+              ),
+            ),
+          ),
         ),
       u &&
         s.default.createElement(K1, {
@@ -12824,8 +12859,8 @@ Error generating stack: ` +
                         },
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
-                        onQuiz: (l) => {
-                          (Hl("all"), Rt("forward", l.slice(0, 30)));
+                        onQuiz: (l, z) => {
+                          (Hl("all"), Rt(z || "forward", l.slice(0, 30)));
                         },
                       }),
                     Q === "quiz" &&
@@ -13500,7 +13535,7 @@ Error generating stack: ` +
                         },
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
-                        onQuiz: (l) => Rt("forward", l.slice(0, 30)),
+                        onQuiz: (l, z) => Rt(z || "forward", l.slice(0, 30)),
                       }),
                     Q === "more" &&
                       O === "bookmarks" &&
@@ -13521,7 +13556,7 @@ Error generating stack: ` +
                         onBack: () => ne("grid"),
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
-                        onQuiz: (l) => Rt("forward", l.slice(0, 30)),
+                        onQuiz: (l, z) => Rt(z || "forward", l.slice(0, 30)),
                       }),
                     Q === "more" &&
                       O === "custom" &&

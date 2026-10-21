@@ -28,3 +28,6 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .spell-input.sp-ok{color:var(--ok);border-color:var(--ok)}
 .spell-answer{color:var(--ok);font-size:18px;font-weight:600;margin-top:8px}
 .tile-idk{grid-column:span 2;color:#8a8f98}
+
+.type-pick{display:flex;flex-direction:column;gap:8px}
+.type-pick button{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 12px;font-size:15px;text-align:left}
