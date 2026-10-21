@@ -10980,6 +10980,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.4",
+        d: "10/21 10:50",
+        items: [
+          "\u7B2C\u4E94\u8AB2 22 \u500B\u55AE\u5B57\u88DC\u4E0A\u7528\u6CD5\u63D0\u793A\uFF08\u7A31\u547C\u3001\u8B80\u97F3\u3001\u79AE\u8C8C\u7B49\uFF09\uFF0C\u986F\u793A\u65BC\u55AE\u5B57\u9801\u8207\u6E2C\u9A57\u8AAA\u660E",
+          "\u7528\u6CD5\u63D0\u793A\u7A3D\u6838\uFF1A\u65E5\u6587\u65B0\u589E\u52A9\u8A5E\u642D\u914D\u3001\u81EA\u4ED6\u52D5\u8A5E\u5C0D\u3001\u8B80\u97F3\u9677\u9631\u7B49 21 \u5247\uFF1B\u5FB7\u6587\u88DC 1 \u5247\u4ECB\u4FC2\u8A5E\u683C\u4F4D\u63D0\u793A\uFF0C\u5168\u7AD9\u5171 89 \u5247",
+        ],
+      },
+      {
         v: "v14.3",
         d: "10/21 10:45",
         items: [
@@ -16246,6 +16254,13 @@ Error generating stack: ` +
                     : s.default.createElement("p", null, e.zh),
                 ),
             ),
+            e.note &&
+              s.default.createElement(
+                "p",
+                { className: "usage-note" },
+                "\u63D0\u793A\uFF1A",
+                e.note,
+              ),
             s.default.createElement(Ws, {
               word: e,
               target: e.lang === "jp" ? "zh" : "en",
@@ -17066,6 +17081,13 @@ Error generating stack: ` +
                   w.ipa ?? w.reading,
                   w.romaji ? " \xB7 " + w.romaji : "",
                 ),
+                w.note &&
+                  s.default.createElement(
+                    "p",
+                    { className: "usage-note" },
+                    "\u63D0\u793A\uFF1A",
+                    w.note,
+                  ),
                 It(w) &&
                   s.default.createElement(
                     "p",
