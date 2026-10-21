@@ -11010,8 +11010,16 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14 1021-1030",
+    O1 = "v14.1 1021-1033",
     R1 = [
+      {
+        v: "v14.1",
+        d: "10/21 10:50",
+        items: [
+          "\u9078\u64C7\u984C\u8207\u719F\u6089\u5EA6\u984C\u7684\u300C\u8AAA\u660E\u300D\u6309\u9215\u6539\u70BA\u56FA\u5B9A\u986F\u793A\uFF08\u4F5C\u7B54\u524D\u4E5F\u53EF\u958B\u555F\uFF09",
+          "\u719F\u6089\u5EA6\u984C\u4F5C\u7B54\u5F8C\u4E0D\u518D\u986F\u793A\u91CB\u7FA9\u8207\u4F8B\u53E5\u8CC7\u8A0A\u5361\uFF1B\u9078\u300C\u964C\u751F\u300D\u6216\u300C\u6709\u5370\u8C61\u300D\u6703\u81EA\u52D5\u958B\u555F\u8AAA\u660E",
+        ],
+      },
       {
         v: "v14",
         d: "10/21 10:40",
@@ -16728,8 +16736,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.ipa ?? w.reading,
                 ),
-              T &&
-                (e === "forward" || e === "reverse" || e === "familiar") &&
+              (e === "forward" || e === "reverse" || e === "familiar") &&
                 s.default.createElement(
                   "button",
                   {
@@ -16867,7 +16874,7 @@ Error generating stack: ` +
               s.default.createElement(
                 s.default.Fragment,
                 null,
-                N
+                N && !T
                   ? s.default.createElement(
                       "div",
                       { className: "card" },
@@ -16883,11 +16890,12 @@ Error generating stack: ` +
                           w.examples[X].text,
                         ),
                     )
-                  : s.default.createElement(
-                      "button",
-                      { className: "primary-action", onClick: () => D(!0) },
-                      "\u986F\u793A\u91CB\u7FA9",
-                    ),
+                  : !T &&
+                      s.default.createElement(
+                        "button",
+                        { className: "primary-action", onClick: () => D(!0) },
+                        "\u986F\u793A\u91CB\u7FA9",
+                      ),
                 s.default.createElement(
                   "div",
                   { className: "fam-pick" },
@@ -16904,24 +16912,22 @@ Error generating stack: ` +
                         onClick: () =>
                           T
                             ? h[h.length - 1]?.level === O + 1 && k(y + 1)
-                            : _(O >= 2, O + 1),
+                            : (_(O >= 2, O + 1), O + 1 <= 2 && openExp()),
                       },
                       A,
                     ),
                   ),
                 ),
               ),
-            T &&
-              (e === "forward" || e === "reverse" || e === "familiar") &&
+            (e === "forward" || e === "reverse" || e === "familiar") &&
               expOpen &&
               s.default.createElement("div", {
                 className: "exp-backdrop",
                 onClick: closeExp,
               }),
-            T &&
-              (e === "spell"
-                ? spExp && !h[h.length - 1]?.correct
-                : !(e === "forward" || e === "reverse" || e === "familiar") || expOpen) &&
+            (e === "forward" || e === "reverse" || e === "familiar"
+              ? expOpen
+              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct))) &&
               s.default.createElement(
                 "div",
                 {
@@ -16935,7 +16941,8 @@ Error generating stack: ` +
                     { className: "exp-close", onClick: closeExp },
                     "\u2715 \u8FD4\u56DE",
                   ),
-                e !== "familiar" &&
+                T &&
+                  e !== "familiar" &&
                   (h[h.length - 1]?.correct
                     ? s.default.createElement(
                         "b",
