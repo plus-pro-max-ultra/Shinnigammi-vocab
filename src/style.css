@@ -63,3 +63,12 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .fc-bottom button.chosen{background:#4a5a80;color:#fff}
 .fc-back-text{font-size:22px;margin:0}
 .option-panel>button{display:block;width:100%;margin-top:8px;padding:10px;border-radius:10px}
+.reaper-app{height:100dvh}
+.flashcard.fc-swipe{min-height:0;height:clamp(220px,44dvh,340px)}
+.fc-bottom button{background:none;border:none;font-size:26px;padding:6px 12px;color:var(--dim)}
+.fc-bottom button.chosen{background:none;color:var(--accent)}
+.fc-sheet-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:60}
+.fc-sheet{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:70;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
+.fc-sheet h3{margin-top:0;padding-right:34px}
+.fc-sheet .fc-close{position:absolute;right:10px;top:10px;font-size:18px;color:var(--dim)}
+.fc-sheet>button{display:block;width:100%;margin-top:8px;padding:10px;border-radius:10px;background:var(--card);border:1px solid var(--line)}

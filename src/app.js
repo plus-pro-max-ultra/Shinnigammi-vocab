@@ -10962,6 +10962,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.9",
+        d: "10/21 15:55",
+        items: [
+          "\u4FEE\u6B63\u5B57\u5361\u5728 iPhone \u7684\u7248\u9762\uFF1A\u8A2D\u5B9A\u6539\u70BA\u5E95\u90E8\u5F48\u51FA\u8996\u7A97\uFF08\u4E0D\u518D\u88AB Safari \u5DE5\u5177\u5217\u906E\u4F4F\uFF09\u3001\u756B\u9762\u9AD8\u5EA6\u6539\u7528\u52D5\u614B\u8996\u7A97\u9AD8\u5EA6\u3001\u5FA9\u539F\u8207\u81EA\u52D5\u64AD\u653E\u6539\u70BA\u7121\u5E95\u8272\u5716\u793A\u3001\u5361\u7247\u9AD8\u5EA6\u96A8\u8996\u7A97\u8ABF\u6574\u907F\u514D\u5167\u5BB9\u88AB\u6A19\u984C\u5217\u906E\u4F4F",
+        ],
+      },
+      {
         v: "v14.8",
         d: "10/21 11:45",
         items: [
@@ -17133,9 +17140,29 @@ Error generating stack: ` +
                 ),
                 fcPanel &&
                   s.default.createElement(
-                    "div",
-                    { className: "option-panel" },
-                    s.default.createElement("h3", null, "\u5B57\u5361\u8A2D\u5B9A"),
+                    s.default.Fragment,
+                    null,
+                    s.default.createElement("div", {
+                      className: "fc-sheet-backdrop",
+                      onClick: () => setFcPanel(!1),
+                    }),
+                    s.default.createElement(
+                      "div",
+                      {
+                        className: "fc-sheet",
+                        role: "dialog",
+                        "aria-label": "\u5B57\u5361\u8A2D\u5B9A",
+                      },
+                      s.default.createElement(
+                        "button",
+                        {
+                          className: "fc-close",
+                          "aria-label": "\u95DC\u9589",
+                          onClick: () => setFcPanel(!1),
+                        },
+                        "\u2715",
+                      ),
+                      s.default.createElement("h3", null, "\u5B57\u5361\u8A2D\u5B9A"),
                     s.default.createElement(
                       "div",
                       { className: "mode-tiles" },
@@ -17175,6 +17202,7 @@ Error generating stack: ` +
                         },
                       },
                       "\u719F\u6089\u5EA6\uFF1A" + Mt[he],
+                    ),
                     ),
                   ),
               ),
