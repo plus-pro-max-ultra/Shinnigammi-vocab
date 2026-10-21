@@ -10980,6 +10980,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.3",
+        d: "10/21 10:45",
+        items: [
+          "\u65B0\u589E\u5B57\u5361\u6A21\u5F0F\uFF1A\u9EDE\u5361\u7247\u7FFB\u9762\u770B\u91CB\u7FA9\u8207\u4F8B\u53E5\uFF0C\u6A19\u8A18\u300C\u8A8D\u8B58\uFF0F\u9084\u4E0D\u719F\u300D\u6703\u66F4\u65B0\u719F\u6089\u5EA6\uFF0C\u53EF\u91CD\u65B0\u6D17\u724C\u3001\u52A0\u66F8\u7C64\uFF0C\u6709\u9032\u5EA6\u8207\u7D50\u7B97\u756B\u9762",
+        ],
+      },
+      {
         v: "v14.2",
         d: "10/21 11:00",
         items: [
@@ -11753,6 +11760,7 @@ Error generating stack: ` +
                 ["tiles", "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"],
                 ["spell", "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"],
                 ["familiar", "\u719F\u6089\u5EA6"],
+                ["cards", "\u5B57\u5361\uFF08\u7FFB\u5361\uFF09"],
               ].map(([b, N]) =>
                 s.default.createElement(
                   "button",
@@ -13060,6 +13068,7 @@ Error generating stack: ` +
                                 "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09",
                               ],
                               ["familiar", "\u719F\u6089\u5EA6"],
+                              ["cards", "\u5B57\u5361\uFF08\u7FFB\u5361\uFF09"],
                             ].map(([l, z]) =>
                               s.default.createElement(
                                 "button",
@@ -16451,7 +16460,9 @@ Error generating stack: ` +
       [b, E] = (0, s.useState)(""),
       [N, D] = (0, s.useState)(!1),
       [F, K] = (0, s.useState)(null),
-      w = r.find((A) => A.id === t[y]),
+      [ord, setOrd] = (0, s.useState)(null),
+      order = e === "cards" && ord ? ord : t,
+      w = r.find((A) => A.id === order[y]),
       [X, ve] = (0, s.useState)(0),
       [Je, G] = (0, s.useState)([]),
       [ze, oe] = (0, s.useState)([]),
@@ -16548,8 +16559,10 @@ Error generating stack: ` +
       return () => clearTimeout(A);
     }, [y, e]);
     (0, s.useEffect)(() => {
-      if (e !== "spell" || !T || !h.length || !h[h.length - 1].correct) return;
-      let A = setTimeout(() => k((O) => O + 1), 750);
+      if (!T || !h.length) return;
+      if (e === "spell" && !h[h.length - 1].correct) return;
+      if (e !== "spell" && e !== "cards") return;
+      let A = setTimeout(() => k((O) => O + 1), e === "cards" ? 450 : 750);
       return () => clearTimeout(A);
     }, [T, h.length, e]);
     let Ze =
@@ -16568,7 +16581,9 @@ Error generating stack: ` +
             _(W(O.map((ne) => Je[ne]).join("")) === W(R)));
       },
       Se =
-        e === "spell"
+        e === "cards"
+          ? "\u5B57\u5361"
+          : e === "spell"
           ? "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"
           : e === "tiles"
             ? "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"
@@ -16609,7 +16624,7 @@ Error generating stack: ` +
             null,
             w ? y + 1 : h.length,
             "/",
-            t.length,
+            order.length,
           ),
           s.default.createElement("small", null, Se),
         ),
@@ -16620,6 +16635,16 @@ Error generating stack: ` +
             s.default.createElement(
               s.default.Fragment,
               null,
+              e === "cards" &&
+                s.default.createElement(
+                  "button",
+                  {
+                    "aria-label": "\u91CD\u65B0\u6D17\u724C",
+                    onClick: () =>
+                      setOrd([...order.slice(0, y), ...Dt(order.slice(y))]),
+                  },
+                  "\u21C4",
+                ),
               s.default.createElement(
                 "button",
                 {
@@ -16653,6 +16678,7 @@ Error generating stack: ` +
         ? s.default.createElement(
             s.default.Fragment,
             null,
+            e !== "cards" &&
             s.default.createElement(
               "div",
               { className: "quiz-prompt" },
@@ -16874,6 +16900,74 @@ Error generating stack: ` +
                     "\u232B",
                   ),
                 ),
+              ),
+            e === "cards" &&
+              s.default.createElement(
+                s.default.Fragment,
+                null,
+                s.default.createElement(
+                  "div",
+                  { className: "flashcard", onClick: () => D(!N) },
+                  s.default.createElement(
+                    "h1",
+                    { lang: w.lang === "jp" ? "ja" : "de" },
+                    w.word,
+                  ),
+                  (w.ipa ?? w.reading) !== w.word &&
+                    s.default.createElement(
+                      "div",
+                      { className: "card-phon" },
+                      w.ipa ?? w.reading,
+                      w.romaji ? " \xB7 " + w.romaji : "",
+                    ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      "aria-label": "\u6717\u8B80",
+                      onClick: (A) => {
+                        (A.stopPropagation(), f(w));
+                      },
+                    },
+                    "\u25D6))",
+                  ),
+                  N
+                    ? s.default.createElement(
+                        s.default.Fragment,
+                        null,
+                        s.default.createElement(
+                          "p",
+                          { className: "word-meaning" },
+                          o(w),
+                        ),
+                        w.examples[X] &&
+                          s.default.createElement(
+                            "p",
+                            { className: "context-sentence" },
+                            w.examples[X].text,
+                          ),
+                      )
+                    : s.default.createElement(
+                        "p",
+                        { className: "muted" },
+                        "\u9EDE\u5361\u7247\u7FFB\u9762",
+                      ),
+                ),
+                N &&
+                  !T &&
+                  s.default.createElement(
+                    "div",
+                    { className: "card-grade" },
+                    s.default.createElement(
+                      "button",
+                      { className: "grade-no", onClick: () => _(!1) },
+                      "\u9084\u4E0D\u719F",
+                    ),
+                    s.default.createElement(
+                      "button",
+                      { className: "grade-ok", onClick: () => _(!0) },
+                      "\u8A8D\u8B58",
+                    ),
+                  ),
               ),
             e === "familiar" &&
               s.default.createElement(
