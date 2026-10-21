@@ -42,3 +42,24 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .card-grade .grade-no{background:#eceef1;color:#14161a}
 .card-grade .grade-ok{background:#4a5a80;color:#fff}
 .usage-note{font-size:14px;color:#b8912f;background:rgba(184,145,47,.08);border-radius:10px;padding:8px 12px;margin:8px 0}
+.flashcard.fc-swipe{touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab;transition:transform .18s ease,opacity .3s ease;min-height:340px}
+.flashcard.fc-dragging{transition:none}
+.flashcard.fc-right{border-color:#4caf7d}
+.flashcard.fc-left{border-color:#e08a3c}
+.flashcard.fc-out-r{transform:translateX(120%) rotate(12deg)!important;opacity:0}
+.flashcard.fc-out-l{transform:translateX(-120%) rotate(-12deg)!important;opacity:0}
+.flashcard .fc-speaker{position:absolute;left:8px;top:8px;right:auto}
+.flashcard .fc-star{position:absolute;right:8px;top:8px}
+.flashcard .fc-info{position:absolute;right:10px;bottom:10px;top:auto;width:28px;height:28px;border-radius:50%;background:#eceef1;color:#14161a;font-style:italic;font-weight:700}
+.fc-label-ok{position:absolute;left:14px;top:44px;color:#4caf7d;font-size:22px}
+.fc-label-no{position:absolute;right:14px;top:44px;color:#e08a3c;font-size:22px}
+.fc-progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin:2px 0 10px}
+.fc-progress i{display:block;height:100%;background:#4a5a80;transition:width .3s}
+.fc-meta{display:flex;justify-content:space-between;margin:0 2px 8px}
+.fc-cnt-no{color:#e08a3c;border:1px solid #e08a3c;border-radius:12px;padding:1px 12px;min-width:30px;text-align:center}
+.fc-cnt-ok{color:#4caf7d;border:1px solid #4caf7d;border-radius:12px;padding:1px 12px;min-width:30px;text-align:center}
+.fc-bottom{display:flex;justify-content:space-between;margin-top:12px}
+.fc-bottom button{font-size:20px;padding:8px 20px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.fc-bottom button.chosen{background:#4a5a80;color:#fff}
+.fc-back-text{font-size:22px;margin:0}
+.option-panel>button{display:block;width:100%;margin-top:8px;padding:10px;border-radius:10px}

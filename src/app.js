@@ -10962,6 +10962,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.8",
+        d: "10/21 11:45",
+        items: [
+          "\u5B57\u5361\u6539\u7248\uFF1A\u6ED1\u52D5\u5361\u7247\u5F0F\u64CD\u4F5C\uFF08\u53F3\u6ED1\u8A8D\u8B58\u3001\u5DE6\u6ED1\u4E0D\u719F\u6089\u3001\u9EDE\u4E00\u4E0B\u7FFB\u9762\uFF09\uFF0C\u9032\u5EA6\u689D\u8207\u5DE6\u53F3\u8A08\u6578\u3001\u5FA9\u539F\u8207\u81EA\u52D5\u64AD\u653E\u6309\u9215\u3001\u6B63\u9762\u8A9E\u8A00\u8A2D\u5B9A\uFF1B\u300C\u8A8D\u8B58\u300D\u719F\u6089\u5EA6\u6700\u9AD8\u53EA\u5347\u5230\u300C\u719F\u6089\u300D\uFF0C\u8A73\u7D30\u8AAA\u660E\u53EF\u9EDE\u5361\u7247\u4E0A\u7684 i \u6309\u9215",
+        ],
+      },
+      {
         v: "v14.7",
         d: "10/21 11:20",
         items: [
@@ -16482,6 +16489,16 @@ Error generating stack: ` +
       [N, D] = (0, s.useState)(!1),
       [F, K] = (0, s.useState)(null),
       [ord, setOrd] = (0, s.useState)(null),
+      [cardFront, setCardFront] = (0, s.useState)(() => {
+        try {
+          return localStorage.getItem("mmv:card-front.v1") || "word";
+        } catch {
+          return "word";
+        }
+      }),
+      [fcPanel, setFcPanel] = (0, s.useState)(!1),
+      [autoPlay, setAutoPlay] = (0, s.useState)(!1),
+      [dragX, setDragX] = (0, s.useState)(0),
       order = e === "cards" && ord ? ord : t,
       w = r.find((A) => A.id === order[y]),
       [X, ve] = (0, s.useState)(0),
@@ -16548,12 +16565,28 @@ Error generating stack: ` +
         if (!(!w || T || !n)) {
           if (O === void 0 && (a(w, A, e), j)) {
             let ne = d.entries[w.id]?.familiarity ?? 0,
-              He = Math.max(1, Math.min(Mt.length - 1, ne + (A ? 1 : -1)));
+              He = A
+                ? Math.max(
+                    ne,
+                    Math.min(
+                      e === "cards" ? Mt.length - 2 : Mt.length - 1,
+                      ne + 1,
+                    ),
+                  )
+                : Math.max(1, ne - 1);
             He !== ne && i(w.id, He);
           }
           (O !== void 0 && j && i(w.id, O),
             e === "spell" && !A && _t.current?.blur(),
-            g([...h, { id: w.id, correct: A, level: O }]),
+            g([
+              ...h,
+              {
+                id: w.id,
+                correct: A,
+                level: O,
+                prevFam: d.entries[w.id]?.familiarity ?? 0,
+              },
+            ]),
             u(!0),
             D(!0));
         }
@@ -16573,7 +16606,8 @@ Error generating stack: ` +
         w.lang === "jp" &&
         Ft(w.word) &&
         W(b) === W(w.reading),
-      _t = (0, s.useRef)(null);
+      _t = (0, s.useRef)(null),
+      dragRef = (0, s.useRef)(null);
     (0, s.useEffect)(() => {
       if (e !== "spell") return;
       let A = setTimeout(() => _t.current?.focus(), 60);
@@ -16586,6 +16620,14 @@ Error generating stack: ` +
       let A = setTimeout(() => k((O) => O + 1), e === "cards" ? 450 : 750);
       return () => clearTimeout(A);
     }, [T, h.length, e]);
+    (0, s.useEffect)(() => {
+      if (!autoPlay || e !== "cards" || !w) return;
+      let A = setTimeout(() => D(!0), 1200),
+        O = setTimeout(() => k((ne) => ne + 1), 2600);
+      return () => {
+        (clearTimeout(A), clearTimeout(O));
+      };
+    }, [autoPlay, y, e, w && w.id]);
     let Ze =
         e === "spell" && w
           ? W(b) === W(w.word) ||
@@ -16635,7 +16677,7 @@ Error generating stack: ` +
             "aria-label": "\u96E2\u958B\u6E2C\u9A57",
             onClick: m,
           },
-          "\u2039",
+          e === "cards" ? "\u2715" : "\u2039",
         ),
         s.default.createElement(
           "div",
@@ -16656,35 +16698,40 @@ Error generating stack: ` +
             s.default.createElement(
               s.default.Fragment,
               null,
-              e === "cards" &&
-                s.default.createElement(
-                  "button",
-                  {
-                    "aria-label": "\u91CD\u65B0\u6D17\u724C",
-                    onClick: () =>
-                      setOrd([...order.slice(0, y), ...Dt(order.slice(y))]),
-                  },
-                  "\u21C4",
-                ),
-              s.default.createElement(
-                "button",
-                {
-                  "aria-label": c[w.id]?.star
-                    ? "\u79FB\u9664\u66F8\u7C64"
-                    : "\u52A0\u5165\u66F8\u7C64",
-                  className: c[w.id]?.star ? "chosen" : "",
-                  onClick: () => p(w.id, !c[w.id]?.star),
-                },
-                c[w.id]?.star ? "\u2605" : "\u2606",
-              ),
-              s.default.createElement(
-                "button",
-                {
-                  "aria-label": "\u719F\u6089\u5EA6\uFF1A" + Mt[he],
-                  onClick: () => Ce(!0),
-                },
-                s.default.createElement("i", { className: "dot level-" + he }),
-              ),
+              e === "cards"
+                ? s.default.createElement(
+                    "button",
+                    {
+                      "aria-label": "\u5B57\u5361\u8A2D\u5B9A",
+                      onClick: () => setFcPanel(!fcPanel),
+                    },
+                    "\u2699",
+                  )
+                : s.default.createElement(
+                    s.default.Fragment,
+                    null,
+                    s.default.createElement(
+                      "button",
+                      {
+                        "aria-label": c[w.id]?.star
+                          ? "\u79FB\u9664\u66F8\u7C64"
+                          : "\u52A0\u5165\u66F8\u7C64",
+                        className: c[w.id]?.star ? "chosen" : "",
+                        onClick: () => p(w.id, !c[w.id]?.star),
+                      },
+                      c[w.id]?.star ? "\u2605" : "\u2606",
+                    ),
+                    s.default.createElement(
+                      "button",
+                      {
+                        "aria-label": "\u719F\u6089\u5EA6\uFF1A" + Mt[he],
+                        onClick: () => Ce(!0),
+                      },
+                      s.default.createElement("i", {
+                        className: "dot level-" + he,
+                      }),
+                    ),
+                  ),
             ),
         ),
       ),
@@ -16788,7 +16835,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.ipa ?? w.reading,
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar") &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
                 s.default.createElement(
                   "button",
                   {
@@ -16928,65 +16975,206 @@ Error generating stack: ` +
                 null,
                 s.default.createElement(
                   "div",
-                  { className: "flashcard", onClick: () => D(!N) },
+                  { className: "fc-progress" },
+                  s.default.createElement("i", {
+                    style: {
+                      width:
+                        Math.round(((y + (T ? 1 : 0)) / order.length) * 100) +
+                        "%",
+                    },
+                  }),
+                ),
+                s.default.createElement(
+                  "div",
+                  { className: "fc-meta" },
                   s.default.createElement(
-                    "h1",
-                    { lang: w.lang === "jp" ? "ja" : "de" },
-                    w.word,
+                    "span",
+                    { className: "fc-cnt-no" },
+                    rr,
                   ),
-                  (w.ipa ?? w.reading) !== w.word &&
-                    s.default.createElement(
-                      "div",
-                      { className: "card-phon" },
-                      w.ipa ?? w.reading,
-                      w.romaji ? " \xB7 " + w.romaji : "",
-                    ),
+                  s.default.createElement(
+                    "span",
+                    { className: "fc-cnt-ok" },
+                    ut,
+                  ),
+                ),
+                s.default.createElement(
+                  "div",
+                  {
+                    className:
+                      "flashcard fc-swipe" +
+                      (dragX !== 0 ? " fc-dragging" : "") +
+                      (dragX > 30 ? " fc-right" : dragX < -30 ? " fc-left" : "") +
+                      (T
+                        ? h[h.length - 1]?.correct
+                          ? " fc-out-r"
+                          : " fc-out-l"
+                        : ""),
+                    style: T
+                      ? void 0
+                      : {
+                          transform:
+                            "translateX(" +
+                            dragX +
+                            "px) rotate(" +
+                            dragX / 18 +
+                            "deg)",
+                        },
+                    onPointerDown: (A) => {
+                      if (T) return;
+                      ((dragRef.current = { x: A.clientX, moved: !1 }),
+                        A.currentTarget.setPointerCapture?.(A.pointerId));
+                    },
+                    onPointerMove: (A) => {
+                      let O = dragRef.current;
+                      if (!O) return;
+                      let ne = A.clientX - O.x;
+                      (Math.abs(ne) > 8 && (O.moved = !0), setDragX(ne));
+                    },
+                    onPointerUp: () => {
+                      let O = dragRef.current;
+                      if (!O) return;
+                      dragRef.current = null;
+                      let ne = dragX;
+                      (setDragX(0),
+                        Math.abs(ne) > 90 ? _(ne > 0) : O.moved || D(!N));
+                    },
+                  },
                   s.default.createElement(
                     "button",
                     {
+                      className: "fc-speaker",
                       "aria-label": "\u6717\u8B80",
+                      onPointerDown: (A) => A.stopPropagation(),
                       onClick: (A) => {
                         (A.stopPropagation(), f(w));
                       },
                     },
                     "\u25D6))",
                   ),
-                  N
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "fc-star" + (c[w.id]?.star ? " chosen" : ""),
+                      "aria-label": c[w.id]?.star
+                        ? "\u79FB\u9664\u66F8\u7C64"
+                        : "\u52A0\u5165\u66F8\u7C64",
+                      onPointerDown: (A) => A.stopPropagation(),
+                      onClick: (A) => {
+                        (A.stopPropagation(), p(w.id, !c[w.id]?.star));
+                      },
+                    },
+                    c[w.id]?.star ? "\u2605" : "\u2606",
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "fc-info",
+                      "aria-label": "\u8AAA\u660E",
+                      onPointerDown: (A) => A.stopPropagation(),
+                      onClick: (A) => {
+                        (A.stopPropagation(), openExp());
+                      },
+                    },
+                    "i",
+                  ),
+                  (N ? cardFront === "meaning" : cardFront === "word")
                     ? s.default.createElement(
-                        s.default.Fragment,
-                        null,
-                        s.default.createElement(
-                          "p",
-                          { className: "word-meaning" },
-                          o(w),
-                        ),
-                        w.examples[X] &&
-                          s.default.createElement(
-                            "p",
-                            { className: "context-sentence" },
-                            w.examples[X].text,
-                          ),
+                        "h1",
+                        { lang: w.lang === "jp" ? "ja" : "de" },
+                        w.word,
                       )
                     : s.default.createElement(
                         "p",
-                        { className: "muted" },
-                        "\u9EDE\u5361\u7247\u7FFB\u9762",
+                        { className: "word-meaning fc-back-text" },
+                        o(w),
                       ),
+                  dragX > 30 &&
+                    s.default.createElement(
+                      "b",
+                      { className: "fc-label-ok" },
+                      "\u8A8D\u8B58",
+                    ),
+                  dragX < -30 &&
+                    s.default.createElement(
+                      "b",
+                      { className: "fc-label-no" },
+                      "\u4E0D\u719F\u6089",
+                    ),
                 ),
-                N &&
-                  !T &&
+                s.default.createElement(
+                  "div",
+                  { className: "fc-bottom" },
+                  s.default.createElement(
+                    "button",
+                    {
+                      "aria-label": "\u5FA9\u539F\u4E0A\u4E00\u5F35",
+                      disabled: !h.length,
+                      onClick: () => {
+                        if (!h.length) return;
+                        let A = h[h.length - 1];
+                        (j && i(A.id, A.prevFam),
+                          g(h.slice(0, -1)),
+                          u(!1),
+                          k((O) => Math.max(0, O - 1)));
+                      },
+                    },
+                    "\u21A9",
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      "aria-label": "\u81EA\u52D5\u64AD\u653E",
+                      className: autoPlay ? "chosen" : "",
+                      onClick: () => setAutoPlay(!autoPlay),
+                    },
+                    "\u25B6",
+                  ),
+                ),
+                fcPanel &&
                   s.default.createElement(
                     "div",
-                    { className: "card-grade" },
+                    { className: "option-panel" },
+                    s.default.createElement("h3", null, "\u5B57\u5361\u8A2D\u5B9A"),
                     s.default.createElement(
-                      "button",
-                      { className: "grade-no", onClick: () => _(!1) },
-                      "\u9084\u4E0D\u719F",
+                      "div",
+                      { className: "mode-tiles" },
+                      [
+                        ["word", "\u55AE\u5B57"],
+                        ["meaning", "\u610F\u601D"],
+                      ].map(([A, O]) =>
+                        s.default.createElement(
+                          "button",
+                          {
+                            key: A,
+                            className: cardFront === A ? "tile-on" : "",
+                            onClick: () => {
+                              setCardFront(A);
+                              try {
+                                localStorage.setItem("mmv:card-front.v1", A);
+                              } catch {}
+                            },
+                          },
+                          "\u6B63\u9762\uFF1A" + O,
+                        ),
+                      ),
                     ),
                     s.default.createElement(
                       "button",
-                      { className: "grade-ok", onClick: () => _(!0) },
-                      "\u8A8D\u8B58",
+                      {
+                        onClick: () =>
+                          setOrd([...order.slice(0, y), ...Dt(order.slice(y))]),
+                      },
+                      "\u21C4 " + "\u91CD\u65B0\u6D17\u724C",
+                    ),
+                    s.default.createElement(
+                      "button",
+                      {
+                        onClick: () => {
+                          (setFcPanel(!1), Ce(!0));
+                        },
+                      },
+                      "\u719F\u6089\u5EA6\uFF1A" + Mt[he],
                     ),
                   ),
               ),
@@ -17039,23 +17227,23 @@ Error generating stack: ` +
                   ),
                 ),
               ),
-            (e === "forward" || e === "reverse" || e === "familiar") &&
+            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
               expOpen &&
               s.default.createElement("div", {
                 className: "exp-backdrop",
                 onClick: closeExp,
               }),
-            (e === "forward" || e === "reverse" || e === "familiar"
+            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards"
               ? expOpen
               : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct))) &&
               s.default.createElement(
                 "div",
                 {
                   className:
-                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar") ? " exp-sheet" : ""),
+                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar" || e === "cards") ? " exp-sheet" : ""),
                   role: "status",
                 },
-                (e === "forward" || e === "reverse" || e === "familiar") &&
+                (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
                   s.default.createElement(
                     "button",
                     { className: "exp-close", onClick: closeExp },
@@ -17229,7 +17417,7 @@ Error generating stack: ` +
                   "\u9001\u51FA",
                 ),
                     T &&
-                      !(e === "forward" || e === "reverse" || e === "familiar") &&
+                      !(e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
                       !(e === "spell" && h[h.length - 1]?.correct) &&
                       s.default.createElement(
                         "button",
