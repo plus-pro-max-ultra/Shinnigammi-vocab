@@ -10972,6 +10972,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v13.2",
+        d: "10/21 08:35",
+        items: [
+          "\u79FB\u9664\u6240\u6709\u6210\u529F\u63D0\u793A\u6587\u5B57\uFF08\u53EA\u4FDD\u7559\u932F\u8AA4\u8A0A\u606F\uFF09",
+          "\u958B\u555F\u6642\u81EA\u52D5\u6AA2\u67E5\u662F\u5426\u70BA\u6700\u65B0\u7248\uFF0C\u82E5\u662F\u820A\u7248\u5FEB\u53D6\u6703\u81EA\u52D5\u91CD\u65B0\u8F09\u5165",
+        ],
+      },
+      {
         v: "v13.1",
         d: "10/21 08:25",
         items: [
@@ -12274,7 +12282,7 @@ Error generating stack: ` +
           i(z),
           o({ ...r, entries: S }),
           nr([]),
-          Ce("\u5DF2\u522A\u9664\u81EA\u8A02\u55AE\u5B57\u3002"));
+          Ce(""));
       },
       sa = (l) => {
         if (n.ready) {
@@ -17338,6 +17346,18 @@ Error generating stack: ` +
       ),
     );
   }
+  try {
+    fetch(location.pathname + "?nc=" + Date.now(), { cache: "no-store" })
+      .then((r) => r.text())
+      .then((t) => {
+        let m = /O1 = "([^"]+)"/.exec(t);
+        if (m && m[1] !== O1 && sessionStorage.getItem("mmv:reloaded") !== m[1]) {
+          sessionStorage.setItem("mmv:reloaded", m[1]);
+          location.replace(location.pathname + "?v=" + encodeURIComponent(m[1]) + location.hash);
+        }
+      })
+      .catch(() => {});
+  } catch {}
   /^#\/word\//.test(location.hash) &&
     history.replaceState(null, "", location.pathname + location.search + "#/");
   (0, Mm.createRoot)(document.getElementById("root")).render(
