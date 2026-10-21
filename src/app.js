@@ -10980,6 +10980,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.2",
+        d: "10/21 11:00",
+        items: [
+          "\u6E2C\u9A57\u7BC4\u570D\u6539\u70BA\u53EF\u8907\u9078\uFF1A\u53EF\u540C\u6642\u52FE\u9078\u591A\u500B\u55AE\u5143\u6216\u5B57\u5EAB",
+        ],
+      },
+      {
         v: "v14.1",
         d: "10/21 10:50",
         items: [
@@ -11889,7 +11896,16 @@ Error generating stack: ` +
       [_m, Wl] = (0, s.useState)(null),
       [Lt, or] = (0, s.useState)(""),
       [Js, Jl] = (0, s.useState)(""),
-      [Wo, Hl] = (0, s.useState)("all"),
+      [Wo, HlSet] = (0, s.useState)(["all"]),
+      Hl = (l) => {
+        l === "all"
+          ? HlSet(["all"])
+          : HlSet((z) => {
+              let S = z.filter((L) => L !== "all");
+              S = S.includes(l) ? S.filter((L) => L !== l) : [...S, l];
+              return S.length ? S : ["all"];
+            });
+      },
       [Vl, Lm] = (0, s.useState)(10),
       [Kl, Om] = (0, s.useState)(!1),
       [$l, Rm] = (0, s.useState)(!1),
@@ -12015,14 +12031,19 @@ Error generating stack: ` +
       },
       Xr = oa(Ym),
       qs = (() => {
-        let l =
-          Wo === "all"
-            ? Ne
-            : Wo === "n5"
-              ? Ko
-              : Wo === "n4"
-                ? $o
-                : Ne.filter((z) => (r.entries[z.id]?.books ?? []).includes(Wo));
+        let l = Wo.includes("all")
+          ? Ne
+          : [
+              ...new Map(
+                [
+                  ...(Wo.includes("n5") ? Ko : []),
+                  ...(Wo.includes("n4") ? $o : []),
+                  ...Ne.filter((z) =>
+                    (r.entries[z.id]?.books ?? []).some((L) => Wo.includes(L)),
+                  ),
+                ].map((z) => [z.id, z]),
+              ).values(),
+            ];
         return (
           Kl && (l = l.filter((z) => G[z.id]?.star)),
           $l && (l = l.filter((z) => (r.entries[z.id]?.familiarity ?? 0) < 3)),
@@ -12930,14 +12951,16 @@ Error generating stack: ` +
                             { className: "field" },
                             "\u7BC4\u570D",
                             s.default.createElement(
-                              "select",
-                              {
-                                value: Wo,
-                                onChange: (l) => Hl(l.target.value),
-                              },
+                              "div",
+                              { className: "scope-list" },
                               s.default.createElement(
-                                "option",
-                                { value: "all" },
+                                "label",
+                                { className: "check-row" },
+                                s.default.createElement("input", {
+                                  type: "checkbox",
+                                  checked: Wo.includes("all"),
+                                  onChange: () => Hl("all"),
+                                }),
                                 "\u5168\u90E8\u689D\u76EE",
                               ),
                               J === "jp" &&
@@ -12945,13 +12968,23 @@ Error generating stack: ` +
                                   s.default.Fragment,
                                   null,
                                   s.default.createElement(
-                                    "option",
-                                    { value: "n5" },
+                                    "label",
+                                    { className: "check-row" },
+                                    s.default.createElement("input", {
+                                      type: "checkbox",
+                                      checked: Wo.includes("n5"),
+                                      onChange: () => Hl("n5"),
+                                    }),
                                     "JLPT \u5B57\u5EAB N5",
                                   ),
                                   s.default.createElement(
-                                    "option",
-                                    { value: "n4" },
+                                    "label",
+                                    { className: "check-row" },
+                                    s.default.createElement("input", {
+                                      type: "checkbox",
+                                      checked: Wo.includes("n4"),
+                                      onChange: () => Hl("n4"),
+                                    }),
                                     "JLPT \u5B57\u5EAB N4",
                                   ),
                                 ),
@@ -12965,8 +12998,13 @@ Error generating stack: ` +
                                 )
                                 .map((l) =>
                                   s.default.createElement(
-                                    "option",
-                                    { key: l.id, value: l.id },
+                                    "label",
+                                    { className: "check-row", key: l.id },
+                                    s.default.createElement("input", {
+                                      type: "checkbox",
+                                      checked: Wo.includes(l.id),
+                                      onChange: () => Hl(l.id),
+                                    }),
                                     l.name,
                                   ),
                                 ),
