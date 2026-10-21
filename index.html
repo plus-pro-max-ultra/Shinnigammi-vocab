@@ -18,6 +18,16 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .exp-close{display:block;margin:0 0 8px auto;color:var(--dim);font-size:13px;border:1px solid var(--line);border-radius:8px;padding:4px 10px}
 .quiz-screen .fam-pick .fam-btn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 12px;font-size:15px;font-weight:400;width:100%}
 .quiz-screen .fam-pick .fam-btn.on{border:2px solid currentColor}
+
+.idk-btn{color:#8a8f98!important;justify-content:center!important}
+.idk-btn.wrong-option{justify-content:space-between!important}
+.spell-row{display:flex;align-items:center;gap:8px;margin-top:10px}
+.spell-row .spell-input{flex:1;margin:0;min-width:0}
+.spell-row .mark-bad,.spell-row .mark-ok{font-size:20px}
+.spell-input.sp-bad{color:var(--bad);border-color:var(--bad)}
+.spell-input.sp-ok{color:var(--ok);border-color:var(--ok)}
+.spell-answer{color:var(--ok);font-size:18px;font-weight:600;margin-top:8px}
+.tile-idk{grid-column:span 2;color:#8a8f98}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -10989,8 +10999,19 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v12.1 1021-0812",
+    O1 = "v13 1021-0815",
     R1 = [
+      {
+        v: "v13",
+        d: "10/21 08:50",
+        items: [
+          "\u9078\u64C7\u984C\u8207\u62FC\u5B57\u584A\u984C\u65B0\u589E\u300C\u4E0D\u6703\u300D\u9078\u9805\uFF08\u8996\u70BA\u7B54\u932F\u3001\u986F\u793A\u6B63\u78BA\u7B54\u6848\u3001\u719F\u6089\u5EA6 -1\uFF09",
+          "\u9375\u76E4\u62FC\u5B57\u984C\u6539\u7248\uFF1A\u8F38\u5165\u6846\u79FB\u5165\u984C\u76EE\u5361\u7247\uFF0C\u7B54\u932F\u986F\u793A\u7D05 \u2717 \u8207\u6B63\u78BA\u62FC\u6CD5\uFF0C\u4E0D\u9700\u6372\u52D5",
+          "\u9375\u76E4\u62FC\u5B57\u984C\u7B54\u5C0D\u986F\u793A \u2713 \u4E26\u81EA\u52D5\u9032\u5165\u4E0B\u4E00\u984C",
+          "\u8A2D\u5B9A\u65B0\u589E\u300C\u9375\u76E4\u62FC\u5B57\u984C\u7B54\u932F\u5F8C\u986F\u793A\u8A73\u7D30\u8AAA\u660E\u300D\uFF08\u9810\u8A2D\u95DC\u9589\uFF09",
+          "\u7B54\u932F\u6642\u81EA\u52D5\u6536\u8D77\u9375\u76E4\uFF0C\u4E0B\u4E00\u984C\u81EA\u52D5\u91CD\u65B0\u958B\u555F",
+        ],
+      },
       {
         v: "v12.1",
         d: "10/21 08:30",
@@ -11753,6 +11774,7 @@ Error generating stack: ` +
         unitSize: 50,
         rememberTab: !1,
         quizFamiliar: !0,
+        spellExplain: !1,
         lastTab: "",
       }),
       [tr, Ce] = (0, s.useState)(""),
@@ -12412,6 +12434,7 @@ Error generating stack: ` +
                   onExit: () => Zl(""),
                   speak: td,
                   quizFam: R.quizFamiliar !== !1,
+                  spellExp: R.spellExplain === !0,
                 })
               : ed && nt
                 ? s.default.createElement(pf, {
@@ -14028,6 +14051,17 @@ Error generating stack: ` +
                             }),
                             "\u6E2C\u9A57\u7D50\u679C\u8A08\u5165\u719F\u6089\u5EA6\uFF08\u95DC\u9589\u5F8C\u6E2C\u9A57\u4E0D\u6703\u66F4\u6539\u719F\u6089\u5EA6\uFF09",
                           ),
+                        s.default.createElement(
+                          "label",
+                          { className: "check-row" },
+                          s.default.createElement("input", {
+                            type: "checkbox",
+                            checked: R.spellExplain === !0,
+                            onChange: (l) =>
+                              U({ ...R, spellExplain: l.target.checked }),
+                          }),
+                          "\u9375\u76E4\u62FC\u5B57\u984C\u7B54\u932F\u5F8C\u986F\u793A\u8A73\u7D30\u8AAA\u660E\uFF08\u9810\u8A2D\u95DC\u9589\uFF09",
+                        ),
                         ),
                         s.default.createElement(
                           "p",
@@ -16320,6 +16354,7 @@ Error generating stack: ` +
     onExit: m,
     speak: f,
     quizFam: j,
+    spellExp: spExp,
   }) {
     let [y, k] = (0, s.useState)(0),
       [T, u] = (0, s.useState)(!1),
@@ -16396,6 +16431,7 @@ Error generating stack: ` +
             He !== ne && i(w.id, He);
           }
           (O !== void 0 && j && i(w.id, O),
+            e === "spell" && !A && _t.current?.blur(),
             g([...h, { id: w.id, correct: A, level: O }]),
             u(!0),
             D(!0));
@@ -16422,6 +16458,11 @@ Error generating stack: ` +
       let A = setTimeout(() => _t.current?.focus(), 60);
       return () => clearTimeout(A);
     }, [y, e]);
+    (0, s.useEffect)(() => {
+      if (e !== "spell" || !T || !h.length || !h[h.length - 1].correct) return;
+      let A = setTimeout(() => k((O) => O + 1), 750);
+      return () => clearTimeout(A);
+    }, [T, h.length, e]);
     let Ze =
         e === "spell" && w
           ? W(b) === W(w.word) ||
@@ -16550,6 +16591,49 @@ Error generating stack: ` +
                         ([...w.word].length - [...b].length) +
                         "\uFF09",
                 ),
+              e === "spell" &&
+                s.default.createElement(
+                  "div",
+                  { className: "spell-row" },
+                  T &&
+                    s.default.createElement(
+                      "b",
+                      { className: h[h.length - 1]?.correct ? "mark-ok" : "mark-bad" },
+                      h[h.length - 1]?.correct ? "\u2713" : "\u2717",
+                    ),
+                s.default.createElement("input", {
+                  className: "spell-input" + (T ? (h[h.length - 1]?.correct ? " sp-ok" : " sp-bad") : ""),
+                  ref: _t,
+                  lang: w.lang === "jp" ? "ja" : "de",
+                  inputMode: "text",
+                  enterKeyHint: "done",
+                  autoFocus: !0,
+                  autoComplete: "off",
+                  autoCapitalize: "none",
+                  autoCorrect: "off",
+                  spellCheck: !1,
+                  name: w.lang === "jp" ? "answer-ja" : "answer-de",
+                  "data-lang": w.lang === "jp" ? "ja" : "de",
+                  "aria-disabled": T,
+                  value: b,
+                  "aria-label": "\u8F38\u5165\u55AE\u5B57",
+                  onChange: (A) => {
+                    T || E(A.target.value);
+                  },
+                  onKeyDown: (A) => {
+                    A.key === "Enter" && _(Ze);
+                  },
+                }),
+                ),
+              e === "spell" &&
+                T &&
+                !h[h.length - 1]?.correct &&
+                s.default.createElement(
+                  "div",
+                  { className: "spell-answer" },
+                  w.word,
+                  w.lang === "jp" && w.reading !== w.word ? "\u3000" + w.reading : "",
+                ),
               s.default.createElement(
                 "button",
                 {
@@ -16619,44 +16703,19 @@ Error generating stack: ` +
                     e === "reverse" ? A.word : o(A),
                   ),
                 ),
-              ),
-            e === "spell" &&
-              s.default.createElement(
-                s.default.Fragment,
-                null,
-                s.default.createElement("input", {
-                  className: "spell-input",
-                  ref: _t,
-                  lang: w.lang === "jp" ? "ja" : "de",
-                  inputMode: "text",
-                  enterKeyHint: "done",
-                  autoFocus: !0,
-                  autoComplete: "off",
-                  autoCapitalize: "none",
-                  autoCorrect: "off",
-                  spellCheck: !1,
-                  name: w.lang === "jp" ? "answer-ja" : "answer-de",
-                  "data-lang": w.lang === "jp" ? "ja" : "de",
-                  "aria-disabled": T,
-                  value: b,
-                  "aria-label": "\u8F38\u5165\u55AE\u5B57",
-                  onChange: (A) => {
-                    T || E(A.target.value);
-                  },
-                  onKeyDown: (A) => {
-                    A.key === "Enter" && _(Ze);
-                  },
-                }),
                 s.default.createElement(
                   "button",
                   {
-                    className: "primary-action",
-                    disabled: T || !n || !b,
-                    onPointerDown: (A) => A.preventDefault(),
-                    onMouseDown: (A) => A.preventDefault(),
-                    onClick: () => _(Ze),
+                    disabled: !n,
+                    className: "idk-btn" + (T && F === "idk" ? " wrong-option" : ""),
+                    onClick: () => {
+                      T ? F === "idk" && openExp() : (K("idk"), _(!1));
+                    },
                   },
-                  "\u9001\u51FA",
+                  T &&
+                    F === "idk" &&
+                    s.default.createElement("b", { className: "mark-bad" }, "\u2717"),
+                  "\u4E0D\u6703",
                 ),
               ),
             e === "tiles" &&
@@ -16702,6 +16761,15 @@ Error generating stack: ` +
                       },
                       A,
                     ),
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "tile-idk",
+                      disabled: T,
+                      onClick: () => _(!1),
+                    },
+                    "\u4E0D\u6703",
                   ),
                   s.default.createElement(
                     "button",
@@ -16771,7 +16839,9 @@ Error generating stack: ` +
                 onClick: closeExp,
               }),
             T &&
-              (!(e === "forward" || e === "reverse" || e === "familiar") || expOpen) &&
+              (e === "spell"
+                ? spExp && !h[h.length - 1]?.correct
+                : !(e === "forward" || e === "reverse" || e === "familiar") || expOpen) &&
               s.default.createElement(
                 "div",
                 {
@@ -16931,8 +17001,22 @@ Error generating stack: ` +
                 : s.default.createElement(
                     s.default.Fragment,
                     null,
+                    e === "spell" &&
+                      !T &&
+                s.default.createElement(
+                  "button",
+                  {
+                    className: "primary-action",
+                    disabled: T || !n || !b,
+                    onPointerDown: (A) => A.preventDefault(),
+                    onMouseDown: (A) => A.preventDefault(),
+                    onClick: () => _(Ze),
+                  },
+                  "\u9001\u51FA",
+                ),
                     T &&
                       !(e === "forward" || e === "reverse" || e === "familiar") &&
+                      !(e === "spell" && h[h.length - 1]?.correct) &&
                       s.default.createElement(
                         "button",
                         {

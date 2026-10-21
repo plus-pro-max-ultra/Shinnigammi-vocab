@@ -18,3 +18,13 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .exp-close{display:block;margin:0 0 8px auto;color:var(--dim);font-size:13px;border:1px solid var(--line);border-radius:8px;padding:4px 10px}
 .quiz-screen .fam-pick .fam-btn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 12px;font-size:15px;font-weight:400;width:100%}
 .quiz-screen .fam-pick .fam-btn.on{border:2px solid currentColor}
+
+.idk-btn{color:#8a8f98!important;justify-content:center!important}
+.idk-btn.wrong-option{justify-content:space-between!important}
+.spell-row{display:flex;align-items:center;gap:8px;margin-top:10px}
+.spell-row .spell-input{flex:1;margin:0;min-width:0}
+.spell-row .mark-bad,.spell-row .mark-ok{font-size:20px}
+.spell-input.sp-bad{color:var(--bad);border-color:var(--bad)}
+.spell-input.sp-ok{color:var(--ok);border-color:var(--ok)}
+.spell-answer{color:var(--ok);font-size:18px;font-weight:600;margin-top:8px}
+.tile-idk{grid-column:span 2;color:#8a8f98}
