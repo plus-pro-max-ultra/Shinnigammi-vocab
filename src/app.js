@@ -10972,6 +10972,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v12.1",
+        d: "10/21 08:30",
+        items: [
+          "\u4FEE\u6B63\uFF1A\u91CD\u65B0\u6574\u7406\u9801\u9762\u5F8C\u4E0D\u518D\u8DF3\u56DE\u4E0A\u6B21\u958B\u555F\u7684\u55AE\u5B57\uFF0C\u6539\u56DE\u9996\u9801",
+          "\u62FC\u5B57\u984C\u8F38\u5165\u6846\u4F9D\u984C\u76EE\u8A9E\u8A00\u8A2D\u5B9A\u8A9E\u8A00\u63D0\u793A\u8207\u95DC\u9589\u81EA\u52D5\u4FEE\u6B63\uFF1BiOS \u662F\u5426\u81EA\u52D5\u5207\u63DB\u9375\u76E4\u53D6\u6C7A\u65BC\u7CFB\u7D71\uFF0C\u8ACB\u5728 iOS \u8A2D\u5B9A\u52A0\u5165\u82F1\u6587\uFF0F\u5FB7\u6587\u9375\u76E4",
+        ],
+      },
+      {
         v: "v12",
         d: "10/21",
         items: [
@@ -16605,7 +16613,10 @@ Error generating stack: ` +
                   autoFocus: !0,
                   autoComplete: "off",
                   autoCapitalize: "none",
+                  autoCorrect: "off",
                   spellCheck: !1,
+                  name: w.lang === "jp" ? "answer-ja" : "answer-de",
+                  "data-lang": w.lang === "jp" ? "ja" : "de",
                   "aria-disabled": T,
                   value: b,
                   "aria-label": "\u8F38\u5165\u55AE\u5B57",
@@ -17246,6 +17257,8 @@ Error generating stack: ` +
       ),
     );
   }
+  /^#\/word\//.test(location.hash) &&
+    history.replaceState(null, "", location.pathname + location.search + "#/");
   (0, Mm.createRoot)(document.getElementById("root")).render(
     Ol.default.createElement(hm, null, Ol.default.createElement(Im, null)),
   );
