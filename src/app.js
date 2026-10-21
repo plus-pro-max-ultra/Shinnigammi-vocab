@@ -10506,6 +10506,14 @@ Error generating stack: ` +
     { id: "debook-11", name: "2 \xB7 Wochentage" },
     { id: "debook-12", name: "2 \xB7 Informationen zur Person" },
     { id: "debook-13", name: "2 \xB7 andere wichtige W\xF6rter und Wendungen" },
+    { id: "debook-14", name: "3 \xB7 eine Stadttour" },
+    { id: "debook-15", name: "3 \xB7 Ma\xDFe angeben" },
+    { id: "debook-16", name: "3 \xB7 Verkehrsmittel" },
+    { id: "debook-17", name: "3 \xB7 einen Weg beschreiben" },
+    { id: "debook-18", name: "3 \xB7 Events" },
+    { id: "debook-19", name: "3 \xB7 Jahreszeiten" },
+    { id: "debook-20", name: "3 \xB7 Monate" },
+    { id: "debook-21", name: "3 \xB7 andere wichtige W\xF6rter und Wendungen" },
   ];
   var Il = [
     {
@@ -10971,6 +10979,14 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14",
+        d: "10/21 10:40",
+        items: [
+          "\u5FB7\u6587\u65B0\u589E\u7B2C 3 \u8AB2\u55AE\u5B57\uFF088 \u500B\u55AE\u5143\uFF0C\u5171 112 \u7B46\uFF09\uFF0C\u7B2C 2 \u8AB2\u88DC\u4E0A die Friseurin",
+          "\u55AE\u5B57\u8CC7\u6599\u65B0\u589E\u9078\u586B\u6B04\u4F4D note\uFF08\u7528\u6CD5\u5C0F\u63D0\u9192\uFF09\uFF0C\u4E4B\u5F8C\u7684\u55AE\u5B57\u5BE9\u6838\u6703\u986F\u793A",
+        ],
+      },
       {
         v: "v13.4",
         d: "10/21 10:20",
