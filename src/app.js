@@ -10499,13 +10499,12 @@ Error generating stack: ` +
     { id: "debook-4", name: "1 \xB7 nach dem Befinden fragen" },
     { id: "debook-5", name: "1 \xB7 Zahlen" },
     { id: "debook-6", name: "1 \xB7 im Kurs" },
-    { id: "debook-7", name: "1 \xB7 andere wichtige W\xF6rter und Wendungen" },
+    { id: "debook-7", name: "andere wichtige W\xF6rter und Wendungen (L1+L2)" },
     { id: "debook-8", name: "2 \xB7 in der Freizeit" },
     { id: "debook-9", name: "2 \xB7 Berufe und Arbeit" },
     { id: "debook-10", name: "2 \xB7 Zeit" },
     { id: "debook-11", name: "2 \xB7 Wochentage" },
     { id: "debook-12", name: "2 \xB7 Informationen zur Person" },
-    { id: "debook-13", name: "2 \xB7 andere wichtige W\xF6rter und Wendungen" },
     { id: "debook-14", name: "3 \xB7 eine Stadttour" },
     { id: "debook-15", name: "3 \xB7 Ma\xDFe angeben" },
     { id: "debook-16", name: "3 \xB7 Verkehrsmittel" },
@@ -10979,6 +10978,13 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.5",
+        d: "10/21 10:50",
+        items: [
+          "\u5408\u4F75\u91CD\u8907\u55AE\u5143\u300Candere wichtige W\u00F6rter und Wendungen\u300D\uFF1A\u7B2C\u4E00\u8AB2\u8207\u7B2C\u4E8C\u8AB2\u7684\u540C\u540D\u55AE\u5143\u4F75\u70BA\u4E00\u500B\uFF0834 \u5B57\uFF09\uFF0C\u9032\u5EA6\u8207\u719F\u6089\u5EA6\u4E0D\u53D7\u5F71\u97FF",
+        ],
+      },
       {
         v: "v14.4",
         d: "10/21 10:50",
