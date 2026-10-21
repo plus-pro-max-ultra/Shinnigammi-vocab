@@ -11002,8 +11002,15 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v13.3 1021-0955",
+    O1 = "v13.4 1021-1011",
     R1 = [
+      {
+        v: "v13.4",
+        d: "10/21 10:20",
+        items: [
+          "\u4FEE\u6B63\uFF1A\u6E2C\u9A57\u6A19\u984C\u6539\u70BA\u8207\u6E2C\u9A57\u9078\u55AE\u540D\u7A31\u4E00\u81F4\uFF08\u65E5 \u2192 \u4E2D\u3001\u4E2D \u2192 \u65E5\u3001DE \u2192 EN\u3001EN \u2192 DE\u3001\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09\u3001\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09\u3001\u719F\u6089\u5EA6\uFF09\uFF0C\u5FB7\u6587\u53CD\u5411\u6E2C\u9A57\u4E0D\u518D\u986F\u793A\u300C\u4E2D\u7FFB\u65E5\u300D",
+        ],
+      },
       {
         v: "v13.3",
         d: "10/21 10:05",
@@ -16533,14 +16540,18 @@ Error generating stack: ` +
       },
       Se =
         e === "spell"
-          ? "\u62FC\u5B57"
+          ? "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"
           : e === "tiles"
-            ? "\u62FC\u5B57\u584A"
+            ? "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"
             : e === "familiar"
               ? "\u719F\u6089\u5EA6"
-              : e === "reverse"
-                ? "\u4E2D\u7FFB\u65E5"
-                : "\u9078\u64C7\u6E2C\u9A57",
+              : (r.find((A) => A.id === t[0])?.lang ?? "jp") === "jp"
+                ? e === "reverse"
+                  ? "\u4E2D \u2192 \u65E5"
+                  : "\u65E5 \u2192 \u4E2D"
+                : e === "reverse"
+                  ? "EN \u2192 DE"
+                  : "DE \u2192 EN",
       ut = h.filter((A) => A.correct).length,
       rr = h.filter((A) => !A.correct).length,
       Et = h.filter((A) => !A.correct).map((A) => A.id),
