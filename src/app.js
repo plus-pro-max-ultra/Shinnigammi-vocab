@@ -10962,6 +10962,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.10",
+        d: "10/21 17:55",
+        items: [
+          "\u6E2C\u9A57\u540D\u7A31\u7D71\u4E00\uFF1A\u300C\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09\u300D\u6539\u300C\u5B57\u584A\u62FC\u5B57\u300D\u3001\u300C\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09\u300D\u6539\u300C\u6253\u5B57\u62FC\u5B57\u300D\u3001\u300C\u5B57\u5361\uFF08\u7FFB\u5361\uFF09\u300D\u6539\u300C\u5B57\u5361\u300D",
+          "\u5B57\u5361\u756B\u9762\u79FB\u9664\u9F52\u8F2A\u8207\u5FA9\u539F\u7BAD\u982D\u5716\u793A\uFF1A\u8A2D\u5B9A\u6539\u70BA\u6A19\u984C\u5217\u7684\u300C\u8A2D\u5B9A\u300D\u6587\u5B57\u6309\u9215\uFF0C\u5FA9\u539F\u6539\u70BA\u5DE6\u4E0B\u89D2\u300C\u5FA9\u539F\u300D\u6587\u5B57\u6309\u9215",
+        ],
+      },
+      {
         v: "v14.9",
         d: "10/21 15:55",
         items: [
@@ -11784,10 +11792,10 @@ Error generating stack: ` +
               [
                 ["forward", T === "jp" ? "\u65E5 \u2192 \u4E2D" : "DE \u2192 EN"],
                 ["reverse", T === "jp" ? "\u4E2D \u2192 \u65E5" : "EN \u2192 DE"],
-                ["tiles", "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"],
-                ["spell", "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"],
+                ["tiles", "\u5B57\u584A\u62FC\u5B57"],
+                ["spell", "\u6253\u5B57\u62FC\u5B57"],
                 ["familiar", "\u719F\u6089\u5EA6"],
-                ["cards", "\u5B57\u5361\uFF08\u7FFB\u5361\uFF09"],
+                ["cards", "\u5B57\u5361"],
               ].map(([b, N]) =>
                 s.default.createElement(
                   "button",
@@ -13089,14 +13097,14 @@ Error generating stack: ` +
                               ],
                               [
                                 "tiles",
-                                "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09",
+                                "\u5B57\u584A\u62FC\u5B57",
                               ],
                               [
                                 "spell",
-                                "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09",
+                                "\u6253\u5B57\u62FC\u5B57",
                               ],
                               ["familiar", "\u719F\u6089\u5EA6"],
-                              ["cards", "\u5B57\u5361\uFF08\u7FFB\u5361\uFF09"],
+                              ["cards", "\u5B57\u5361"],
                             ].map(([l, z]) =>
                               s.default.createElement(
                                 "button",
@@ -16654,9 +16662,9 @@ Error generating stack: ` +
         e === "cards"
           ? "\u5B57\u5361"
           : e === "spell"
-          ? "\u62FC\u5B57\uFF08\u9375\u76E4\u8F38\u5165\uFF09"
+          ? "\u6253\u5B57\u62FC\u5B57"
           : e === "tiles"
-            ? "\u62FC\u5B57\uFF08\u9078\u5B57\u584A\uFF09"
+            ? "\u5B57\u584A\u62FC\u5B57"
             : e === "familiar"
               ? "\u719F\u6089\u5EA6"
               : (r.find((A) => A.id === t[0])?.lang ?? "jp") === "jp"
@@ -16709,10 +16717,11 @@ Error generating stack: ` +
                 ? s.default.createElement(
                     "button",
                     {
+                      className: "fc-hdr-text",
                       "aria-label": "\u5B57\u5361\u8A2D\u5B9A",
                       onClick: () => setFcPanel(!fcPanel),
                     },
-                    "\u2699",
+                    "\u8A2D\u5B9A",
                   )
                 : s.default.createElement(
                     s.default.Fragment,
@@ -17115,6 +17124,7 @@ Error generating stack: ` +
                   s.default.createElement(
                     "button",
                     {
+                      className: "fc-text-btn",
                       "aria-label": "\u5FA9\u539F\u4E0A\u4E00\u5F35",
                       disabled: !h.length,
                       onClick: () => {
@@ -17126,7 +17136,7 @@ Error generating stack: ` +
                           k((O) => Math.max(0, O - 1)));
                       },
                     },
-                    "\u21A9",
+                    "\u5FA9\u539F",
                   ),
                   s.default.createElement(
                     "button",
