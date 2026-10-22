@@ -10960,8 +10960,14 @@ Error generating stack: ` +
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
-    CONTROL_HTML = __CONTROL_HTML__,
     R1 = [
+      {
+        v: "v14.20",
+        d: "10/22 15:20",
+        items: [
+          "\u300C\u6307\u4EE4\u5340\u300D\u6539\u70BA\u9023\u7D50\u5230\u7368\u7ACB\u7684\u63A7\u5236\u4E2D\u5FC3\u7DB2\u7AD9\uFF08CONTROL.md \u5DF2\u9077\u51FA\u672C repo\uFF09\uFF1B\u63A7\u5236\u4E2D\u5FC3\u7DAD\u6301\u6700\u9AD8\u898F\u5247\u4F86\u6E90",
+        ],
+      },
       {
         v: "v14.19",
         d: "10/22 14:35",
@@ -13612,7 +13618,6 @@ Error generating stack: ` +
                             ["stats", "\u5B78\u7FD2\u7D71\u8A08", "\u8A08"],
                             ["backup", "\u5099\u4EFD\u8CC7\u6599", "\u5B58"],
                             ["settings", "\u8A2D\u5B9A", "\u8A2D"],
-                            ["control", "\u6307\u4EE4\u5340", "\u4EE4"],
                           ].map(([l, z, v]) =>
                             s.default.createElement(
                               "button",
@@ -13623,6 +13628,24 @@ Error generating stack: ` +
                                 v,
                               ),
                               s.default.createElement("span", null, z),
+                            ),
+                          ),
+                          s.default.createElement(
+                            "a",
+                            {
+                              href: "https://plus-pro-max-ultra.github.io/control-center/",
+                              target: "_blank",
+                              rel: "noreferrer",
+                            },
+                            s.default.createElement(
+                              "i",
+                              { "aria-hidden": "true" },
+                              "\u4EE4",
+                            ),
+                            s.default.createElement(
+                              "span",
+                              null,
+                              "\u6307\u4EE4\u5340",
                             ),
                           ),
                           s.default.createElement(
@@ -14431,37 +14454,6 @@ Error generating stack: ` +
                         ),
                       ),
                   ),
-
-        Q === "more" &&
-          O === "control" &&
-          s.default.createElement(
-            s.default.Fragment,
-            null,
-            s.default.createElement(We, {
-              title: "\u6307\u4EE4\u5340",
-              sub: "\u884C\u70BA\u6E96\u5247\u8207\u76EE\u524D\u72C0\u614B",
-              onBack: () => ne("grid"),
-            }),
-            s.default.createElement("div", {
-              className: "card ctl-doc",
-              dangerouslySetInnerHTML: { __html: CONTROL_HTML },
-            }),
-            s.default.createElement(
-              "p",
-              { className: "muted ctl-edit" },
-              "\u4FEE\u6539\u65B9\u5F0F\uFF1A",
-              s.default.createElement(
-                "a",
-                {
-                  href: "https://github.com/plus-pro-max-ultra/Shinnigammi-vocab/edit/main/CONTROL.md",
-                  target: "_blank",
-                  rel: "noreferrer",
-                },
-                "\u5728 GitHub \u7DE8\u8F2F CONTROL.md",
-              ),
-              "\uFF0C\u6216\u76F4\u63A5\u5728\u5C0D\u8A71\u4E2D\u544A\u8A34\u52A9\u7406\u3002\u52A9\u7406\u6BCF\u6B21\u5DE5\u4F5C\u958B\u59CB\u6642\u6703\u6AA2\u67E5\u4E26\u5957\u7528\u6700\u65B0\u5167\u5BB9\u3002",
-            ),
-          ),
 
         tr &&
           s.default.createElement(

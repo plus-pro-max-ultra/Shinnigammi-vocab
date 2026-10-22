@@ -76,12 +76,3 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .fc-bottom .fc-text-btn{font-size:15px;color:var(--dim);padding:8px 6px}
 .parts-list h3{margin:10px 0 4px}.part-row{margin:2px 0;display:flex;gap:8px;align-items:baseline}.part-w{font-weight:600}.part-m{color:var(--muted,#666)}
 
-.ctl-doc h1{font-size:18px;color:var(--accent);margin:4px 0 10px}
-.ctl-doc h2{font-size:16px;color:var(--accent);margin:16px 0 6px}
-.ctl-doc h3,.ctl-doc h4{font-size:14px;margin:12px 0 4px}
-.ctl-doc ul{margin:6px 0;padding-left:20px}
-.ctl-doc li{margin:4px 0}
-.ctl-doc p{margin:6px 0}
-.ctl-doc code{background:#16181d;border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
-.ctl-doc hr{border:none;border-top:1px solid var(--line);margin:12px 0}
-.ctl-edit a{color:var(--accent)}

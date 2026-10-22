@@ -38,8 +38,6 @@ def md_to_html(md):
     return '\n'.join(out)
 
 js=rd('app.js').replace('__WORDS__',rd('words.json').strip())
-ctl=open(os.path.join(R,'CONTROL.md'),encoding='utf-8').read()
-js=js.replace('__CONTROL_HTML__',json.dumps(md_to_html(ctl),ensure_ascii=True))
 ver=sys.argv[1] if len(sys.argv)>1 else 'dev'
 stamp=ver+' '+datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%m%d-%H%M')
 js=js.replace('__BUILD__',stamp)
