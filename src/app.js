@@ -10962,6 +10962,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.18",
+        d: "10/22 12:55",
+        items: [
+          "\u5fb7\u6587\u7b2c\u4e8c\u4f8b\u53e5\uff1a\u518d\u88dc 14 \u500b\uff08\u8a5e\u5e79\u6bd4\u5c0d\u4fee\u6b63\u5f8c\uff0c\u7d2f\u8a08 234/325\uff09\uff1b\u5176\u9918 91 \u500b\u56e0 Tatoeba \u9650\u901f\u6392\u5165\u4e0b\u4e00\u8f2a",
+        ],
+      },
+      {
         v: "v14.17",
         d: "10/22 08:52",
         items: [
