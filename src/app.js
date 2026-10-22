@@ -10962,6 +10962,16 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.13",
+        d: "10/22 08:30",
+        items: [
+          "\u6e2c\u9a57\u984c\u578b\u65b0\u9806\u5e8f\uff1a\u65e5\u2192\u4e2d\u3001\u4e2d\u2192\u65e5\u3001\u6f22\u5b57\u21c4\u5047\u540d\uff08\u65b0\uff09\u3001\u5b57\u584a\u62fc\u5b57\u3001\u6253\u5b57\u62fc\u5b57\u3001\u5b57\u5361\u3001\u719f\u6089\u5ea6",
+          "\u65b0\u984c\u578b\u300c\u6f22\u5b57 \u21c4 \u5047\u540d\u300d\uff08\u50c5\u65e5\u6587\uff09\uff1a\u770b\u6f22\u5b57\u9078\u8b80\u97f3\u3001\u770b\u8b80\u97f3\u9078\u6f22\u5b57\u4ea4\u66ff\u51fa\u984c\uff0c\u53ea\u51fa\u6709\u6f22\u5b57\u7684\u55ae\u5b57",
+          "\u65e5\u6587\u6e2c\u9a57\u5047\u540d\u8207\u6f22\u5b57\u7d81\u5b9a\uff1a\u65e5\u2192\u4e2d\u984c\u76ee\u7684\u6f22\u5b57\u4e0b\u65b9\u986f\u793a\u5047\u540d\uff1b\u4e2d\u2192\u65e5\u7684\u9078\u9805\u6f22\u5b57\u8207\u5047\u540d\u4e26\u5217",
+          "\u6587\u6cd5\u9801\uff1a\u76ee\u524d\u5b78\u7fd2\u8a9e\u8a00\u7684\u5340\u584a\u6392\u5728\u524d\u9762",
+        ],
+      },
+      {
         v: "v14.12",
         d: "10/22 07:10",
         items: [
@@ -13112,6 +13122,9 @@ Error generating stack: ` +
                                   ? "\u4E2D \u2192 \u65E5"
                                   : "EN \u2192 DE",
                               ],
+                              ...(J === "jp"
+                                ? [["kana", "\u6F22\u5B57 \u21C4 \u5047\u540D"]]
+                                : []),
                               [
                                 "tiles",
                                 "\u5B57\u584A\u62FC\u5B57",
@@ -13120,8 +13133,8 @@ Error generating stack: ` +
                                 "spell",
                                 "\u6253\u5B57\u62FC\u5B57",
                               ],
-                              ["familiar", "\u719F\u6089\u5EA6"],
                               ["cards", "\u5B57\u5361"],
+                              ["familiar", "\u719F\u6089\u5EA6"],
                             ].map(([l, z]) =>
                               s.default.createElement(
                                 "button",
@@ -14570,7 +14583,9 @@ Error generating stack: ` +
     );
   }
   function Q1() {
-    let e = Il;
+    let e = Il,
+      [gLang] = ht("vocabulary.language.v1", "jp"),
+      gOrder = gLang === "de" ? ["de", "jp"] : ["jp", "de"];
     return s.default.createElement(
       s.default.Fragment,
       null,
@@ -14584,7 +14599,7 @@ Error generating stack: ` +
         { to: "/library", className: "file-button is-compact" },
         "\u2039 \u8FD4\u56DE\u55AE\u5B57\u8207\u7247\u8A9E",
       ),
-      ["jp", "de"].map((t) =>
+      gOrder.map((t) =>
         s.default.createElement(
           zm,
           {
@@ -16531,7 +16546,22 @@ Error generating stack: ` +
       [fcPanel, setFcPanel] = (0, s.useState)(!1),
       [autoPlay, setAutoPlay] = (0, s.useState)(!1),
       [dragX, setDragX] = (0, s.useState)(0),
-      order = e === "cards" && ord ? ord : t,
+      order =
+        e === "cards" && ord
+          ? ord
+          : e === "kana"
+            ? t.filter((A) => {
+                let O = r.find((ne) => ne.id === A);
+                return (
+                  O &&
+                  O.lang === "jp" &&
+                  /[\u4e00-\u9fff\u3005]/.test(O.word) &&
+                  O.reading &&
+                  O.reading !== O.word
+                );
+              })
+            : t,
+      kd = y % 2 === 0,
       w = r.find((A) => A.id === order[y]),
       [X, ve] = (0, s.useState)(0),
       [Je, G] = (0, s.useState)([]),
@@ -16550,7 +16580,15 @@ Error generating stack: ` +
               w,
               ...Dt(
                 r.filter(
-                  (A) => A.lang === w.lang && A.id !== w.id && o(A) !== o(w),
+                  e === "kana"
+                    ? (A) =>
+                        A.lang === "jp" &&
+                        A.id !== w.id &&
+                        /[\u4e00-\u9fff\u3005]/.test(A.word) &&
+                        A.reading &&
+                        A.reading !== A.word &&
+                        A.reading !== w.reading
+                    : (A) => A.lang === w.lang && A.id !== w.id && o(A) !== o(w),
                 ),
               ).slice(0, 3),
             ]),
@@ -16676,7 +16714,9 @@ Error generating stack: ` +
             _(W(O.map((ne) => Je[ne]).join("")) === W(R)));
       },
       Se =
-        e === "cards"
+        e === "kana"
+          ? "\u6F22\u5B57 \u21C4 \u5047\u540D"
+          : e === "cards"
           ? "\u5B57\u5361"
           : e === "spell"
           ? "\u6253\u5B57\u62FC\u5B57"
@@ -16786,14 +16826,22 @@ Error generating stack: ` +
               s.default.createElement(
                 "small",
                 null,
-                e === "reverse" || e === "spell" || e === "tiles"
+                e === "kana"
+                  ? kd
+                    ? "\u770B\u6F22\u5B57\uFF0C\u9078\u8B80\u97F3"
+                    : "\u770B\u8B80\u97F3\uFF0C\u9078\u6F22\u5B57"
+                  : e === "reverse" || e === "spell" || e === "tiles"
                   ? "\u770B\u610F\u601D\uFF0C\u60F3\u55AE\u5B57"
                   : "\u770B\u55AE\u5B57\uFF0C\u60F3\u610F\u601D",
               ),
               s.default.createElement(
                 "h1",
                 { lang: w.lang === "jp" ? "ja" : "de" },
-                e === "reverse" || e === "spell" || e === "tiles"
+                e === "kana"
+                  ? kd
+                    ? w.word
+                    : w.reading
+                  : e === "reverse" || e === "spell" || e === "tiles"
                   ? o(w)
                   : w.word,
               ),
@@ -16862,13 +16910,15 @@ Error generating stack: ` +
                 },
                 "\u25D6))",
               ),
-              (e === "familiar" || (e === "forward" && w.lang === "de")) &&
+              (e === "familiar" ||
+                (e === "forward" &&
+                  (w.lang === "de" || w.reading !== w.word))) &&
                 s.default.createElement(
                   "div",
                   { className: "card-phon" },
-                  w.ipa ?? w.reading,
+                  w.lang === "jp" ? w.reading : (w.ipa ?? w.reading),
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana") &&
                 s.default.createElement(
                   "button",
                   {
@@ -16879,7 +16929,7 @@ Error generating stack: ` +
                   "\u2139 \u8AAA\u660E",
                 ),
             ),
-            (e === "forward" || e === "reverse") &&
+            (e === "forward" || e === "reverse" || e === "kana") &&
               s.default.createElement(
                 "div",
                 { className: "quiz-options" },
@@ -16919,7 +16969,15 @@ Error generating stack: ` +
                         { className: "mark-bad" },
                         "\u2717",
                       ),
-                    e === "reverse" ? A.word : o(A),
+                    e === "kana"
+                      ? kd
+                        ? A.reading
+                        : A.word
+                      : e === "reverse"
+                        ? A.lang === "jp" && A.reading && A.reading !== A.word
+                          ? A.word + "\u3000" + A.reading
+                          : A.word
+                        : o(A),
                   ),
                 ),
                 s.default.createElement(
