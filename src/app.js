@@ -10962,6 +10962,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.15",
+        d: "10/22 08:37",
+        items: [
+          "\u4fee\u6b63 v14.11 \u7a3d\u6838\u88dc\u8a5e\u6027\u7684\u932f\u8aa4\uff1a41 \u500b\u65e5\u6587\u55ae\u5b57\u8aa4\u6a19\u70ba\u300c\u8868\u73fe\u300d\uff08\u79c1\u3001\u98df\u3079\u308b\u3001\u6c34\u3001\u5b66\u6821 \u7b49\uff09\uff0c\u5df2\u4f9d Jisho \u56b4\u683c\u6bd4\u5c0d\u6539\u56de\u6b63\u78ba\u8a5e\u6027\uff08\u540d\u8a5e\uff0f\u52d5\u8a5e\uff0f\u4ee3\u540d\u8a5e\uff0f\u526f\u8a5e\uff09",
+          "\u7247\u8a9e\u9010\u5b57\u62c6\u89e3\uff1a50 \u500b\u7247\u8a9e\u4e2d 45 \u500b\u52a0\u4e0a parts \u9010\u5b57\u5c0d\u61c9\uff08\u65e5\u6587\u4e2d\u6587\u5c0d\u61c9\u3001\u5fb7\u6587\u82f1\u6587\u5c0d\u61c9\uff09\uff0c\u8a73\u7d30\u9801\u300c\u610f\u601d\u300d\u5206\u9801\u986f\u793a\uff1b\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059 \u7b49 5 \u500b\u56fa\u5b9a\u554f\u5019\u8a9e\u4f9d\u898f\u5247\u4e0d\u62c6\u89e3\uff0c\u6539\u52a0\u6574\u9ad4\u7528\u6cd5\u63d0\u793a",
+        ],
+      },
+      {
         v: "v14.14",
         d: "10/22 08:33",
         items: [
@@ -16356,6 +16364,24 @@ Error generating stack: ` +
                     : s.default.createElement("p", null, e.zh),
                 ),
             ),
+            e.parts?.length &&
+              s.default.createElement(
+                "div",
+                { className: "parts-list" },
+                s.default.createElement("h3", null, "\u9010\u5B57\u62C6\u89E3"),
+                e.parts.map((pt, i) =>
+                  s.default.createElement(
+                    "p",
+                    { key: i, className: "part-row" },
+                    s.default.createElement(
+                      "span",
+                      { className: "part-w", lang: e.lang === "jp" ? "ja" : "de" },
+                      pt.w,
+                    ),
+                    s.default.createElement("span", { className: "part-m" }, pt.m),
+                  ),
+                ),
+              ),
             e.note &&
               s.default.createElement(
                 "p",

@@ -74,3 +74,4 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .fc-sheet>button{display:block;width:100%;margin-top:8px;padding:10px;border-radius:10px;background:var(--card);border:1px solid var(--line)}
 .fc-hdr-text{font-size:14px;color:var(--dim);padding:4px 6px}
 .fc-bottom .fc-text-btn{font-size:15px;color:var(--dim);padding:8px 6px}
+.parts-list h3{margin:10px 0 4px}.part-row{margin:2px 0;display:flex;gap:8px;align-items:baseline}.part-w{font-weight:600}.part-m{color:var(--muted,#666)}
