@@ -37,7 +37,12 @@ def md_to_html(md):
     close_ul()
     return '\n'.join(out)
 
-js=rd('app.js').replace('__WORDS__',rd('words.json').strip())
+wj=rd('words.json').strip()
+js=rd('app.js').replace('__WORDS__',wj)
+import json as _json
+_w=_json.loads(wj)
+os.makedirs(os.path.join(R,'data'),exist_ok=True)
+open(os.path.join(R,'data','german-pool.json'),'w',encoding='utf-8').write(_json.dumps([x for x in _w if x.get('lang')=='de'],ensure_ascii=False,indent=1))
 ver=sys.argv[1] if len(sys.argv)>1 else 'dev'
 stamp=ver+' '+datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%m%d-%H%M')
 js=js.replace('__BUILD__',stamp)
