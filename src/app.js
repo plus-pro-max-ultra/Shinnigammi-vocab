@@ -10962,6 +10962,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.14",
+        d: "10/22 08:33",
+        items: [
+          "\u5fb7\u6587\u55ae\u5b57\u5eab\u65b0\u589e\u300c\u4e3b\u984c\u5206\u985e\u300d\u7be9\u9078\uff08sich vorstellen\u3001L\u00e4nder und Sprachen \u7b49\uff09\uff0c\u8de8\u8ab2\u6b21\u4f9d\u4e3b\u984c\u700f\u89bd\uff1b\u300c\u6e05\u9664\u7be9\u9078\u300d\u8207\u5207\u63db\u5206\u9801\u6703\u4e00\u4f75\u91cd\u8a2d",
+        ],
+      },
+      {
         v: "v14.13",
         d: "10/22 08:30",
         items: [
@@ -11961,6 +11968,7 @@ Error generating stack: ` +
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
+      [tp, Rp] = (0, s.useState)("all"),
       [Fm, Pm] = (0, s.useState)(""),
       [Rl, Qn] = (0, s.useState)(""),
       [_m, Wl] = (0, s.useState)(null),
@@ -12064,6 +12072,7 @@ Error generating stack: ` +
           (He === "all" || l.contentType === He) &&
           (Qr === "all" || String(r.entries[l.id]?.familiarity ?? 0) === Qr) &&
           (kt === "all" || r.entries[l.id]?.books.includes(kt)) &&
+          (tp === "all" || l.topic === tp) &&
           (!Gl || G[l.id]?.star) &&
           [
             l.word,
@@ -12500,6 +12509,7 @@ Error generating stack: ` +
           A(null),
           ne("grid"),
           Ro("all"),
+          Rp("all"),
           Ho(!1),
           or(""),
           nr([]));
@@ -12510,7 +12520,7 @@ Error generating stack: ` +
           Ce(""),
           A(null),
           l === "courses" && be("courses"),
-          l === "library" && (Ro("all"), Ho(!1)),
+          l === "library" && (Ro("all"), Rp("all"), Ho(!1)),
           l === "more" && ne("grid"));
       },
       ia = [T, g, N, K, n, oe, P, W],
@@ -13468,6 +13478,37 @@ Error generating stack: ` +
                               ),
                             ),
                           ),
+                          J === "de" &&
+                            s.default.createElement(
+                              "label",
+                              { className: "field" },
+                              "\u4E3B\u984C\u5206\u985E",
+                              s.default.createElement(
+                                "select",
+                                {
+                                  value: tp,
+                                  onChange: (l) => Rp(l.target.value),
+                                },
+                                s.default.createElement(
+                                  "option",
+                                  { value: "all" },
+                                  "\u5168\u90E8\u4E3B\u984C",
+                                ),
+                                [
+                                  ...new Set(
+                                    V.filter((l) => l.lang === "de" && l.topic).map(
+                                      (l) => l.topic,
+                                    ),
+                                  ),
+                                ].map((l) =>
+                                  s.default.createElement(
+                                    "option",
+                                    { key: l, value: l },
+                                    l,
+                                  ),
+                                ),
+                              ),
+                            ),
                           s.default.createElement(
                             "label",
                             { className: "check-row" },
@@ -13486,6 +13527,7 @@ Error generating stack: ` +
                                 (Oo("all"),
                                   Ye("all"),
                                   Ro("all"),
+                                  Rp("all"),
                                   or(""),
                                   Ho(!1));
                               },
