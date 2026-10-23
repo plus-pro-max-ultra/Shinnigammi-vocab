@@ -10858,6 +10858,61 @@ Error generating stack: ` +
       ],
     },
     {
+      id: "de-grammar-004",
+      contentType: "grammar",
+      lang: "de",
+      title:
+        "\u96d9\u5411\u4ecb\u8a5e\uff1a\u4f4d\u7f6e vs \u76ee\u7684\u5730 (Two-way prepositions: Wechselpr\u00e4positionen)",
+      rule: "Nine prepositions - an, auf, hinter, in, neben, \u00fcber, unter, vor, zwischen - take the dative or the accusative depending on their meaning. Use the accusative for a destination or change of location (Wohin? - where to?): someone or something moves to a new place. Use the dative for the location where something is or happens (Wo? - where?): the action takes place within one place, even when it involves movement.",
+      ruleZh:
+        "\u4e5d\u500b\u96d9\u5411\u4ecb\u8a5e\uff1aan\u3001auf\u3001hinter\u3001in\u3001neben\u3001\u00fcber\u3001unter\u3001vor\u3001zwischen\uff0c\u5f8c\u9762\u63a5\u7b2c\u4e09\u683c\u6216\u7b2c\u56db\u683c\u53d6\u6c7a\u65bc\u610f\u601d\u3002\u76ee\u7684\u5730\u6216\u4f4d\u7f6e\u6539\u8b8a\uff08Wohin? \u53bb\u54ea\u88e1\uff09\u7528\u7b2c\u56db\u683c\uff08Akkusativ\uff09\uff1a\u4eba\u6216\u6771\u897f\u79fb\u52d5\u5230\u65b0\u7684\u5730\u9ede\u3002\u6d3b\u52d5\u6216\u72c0\u614b\u767c\u751f\u7684\u4f4d\u7f6e\uff08Wo? \u5728\u54ea\u88e1\uff09\u7528\u7b2c\u4e09\u683c\uff08Dativ\uff09\uff1a\u52d5\u4f5c\u5728\u540c\u4e00\u500b\u5730\u9ede\u7bc4\u570d\u5167\u9032\u884c\uff0c\u5373\u4f7f\u6709\u79fb\u52d5\u4e5f\u7528\u7b2c\u4e09\u683c\u3002",
+      related: ["de-111", "de-340"],
+      notes: [
+        {
+          en: "Movement alone does not decide the case. Die Kinder laufen im Garten has plenty of movement, but the running stays within the garden - it is the location of the activity, so it takes the dative.",
+          zh: "\u6709\u79fb\u52d5\u4e0d\u4ee3\u8868\u7528\u7b2c\u56db\u683c\u3002Die Kinder laufen im Garten \u96d6\u7136\u4e00\u76f4\u5728\u52d5\uff0c\u4f46\u8dd1\u6b65\u7684\u7bc4\u570d\u4e0d\u51fa\u82b1\u5712\uff0c\u82b1\u5712\u662f\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\uff0c\u6240\u4ee5\u7528\u7b2c\u4e09\u683c\u3002",
+        },
+        {
+          en: "Ask Wo? (where?) for the dative and Wohin? (where to?) for the accusative. Common contractions: in + dem = im, in + das = ins, an + dem = am, an + das = ans.",
+          zh: "\u5224\u65b7\u65b9\u6cd5\uff1a\u554f Wo?\uff08\u5728\u54ea\u88e1\uff09\u7528\u7b2c\u4e09\u683c\uff0c\u554f Wohin?\uff08\u53bb\u54ea\u88e1\uff09\u7528\u7b2c\u56db\u683c\u3002\u5e38\u898b\u7e2e\u5beb\uff1ain + dem = im\u3001in + das = ins\u3001an + dem = am\u3001an + das = ans\u3002",
+        },
+      ],
+      examples: [
+        {
+          text: "Die Kinder laufen im Garten.",
+          en: "The children are running around in the garden. (location of the activity, dative)",
+          zh: "\u5b69\u5b50\u5011\u5728\u82b1\u5712\u88e1\u8dd1\u3002\uff08\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\uff0c\u7b2c\u4e09\u683c\uff09",
+        },
+        {
+          text: "Die Kinder laufen in den Garten.",
+          en: "The children run into the garden. (destination, accusative)",
+          zh: "\u5b69\u5b50\u5011\u8dd1\u9032\u82b1\u5712\u3002\uff08\u76ee\u7684\u5730\uff0c\u7b2c\u56db\u683c\uff09",
+        },
+        {
+          text: "Das Bild h\u00e4ngt an der Wand.",
+          en: "The picture is hanging on the wall. (location, dative)",
+          zh: "\u756b\u639b\u5728\u7246\u4e0a\u3002\uff08\u4f4d\u7f6e\uff0c\u7b2c\u4e09\u683c\uff09",
+        },
+        {
+          text: "Ich h\u00e4nge das Bild an die Wand.",
+          en: "I hang the picture onto the wall. (destination, accusative)",
+          zh: "\u6211\u628a\u756b\u639b\u5230\u7246\u4e0a\u3002\uff08\u76ee\u7684\u5730\uff0c\u7b2c\u56db\u683c\uff09",
+        },
+      ],
+      sourceUrl:
+        "https://resources.german.lsa.umich.edu/grammatik/prepositions/",
+      sources: [
+        {
+          label: "Two-way prepositions / \u96d9\u5411\u4ecb\u8a5e",
+          url: "https://resources.german.lsa.umich.edu/grammatik/prepositions/",
+        },
+        {
+          label: "Goethe Spickzettel Wechselpr\u00e4positionen",
+          url: "https://www.goethe.de/resources/files/pdf134/pdf-spickzettel-wechselprpositionen.pdf",
+        },
+      ],
+    },
+    {
       id: "jp-grammar-007",
       contentType: "grammar",
       lang: "jp",
@@ -10961,6 +11016,13 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.23",
+        d: "10/23",
+        items: [
+          "\u5fb7\u6587\u6587\u6cd5\u65b0\u8ab2\uff1a\u96d9\u5411\u4ecb\u8a5e\uff08Wechselpr\u00e4positionen\uff09\u2014 \u76ee\u7684\u5730\uff0f\u4f4d\u7f6e\u6539\u8b8a\u7528\u7b2c\u56db\u683c\uff0c\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\u7528\u7b2c\u4e09\u683c\uff0c\u9644 Die Kinder laufen im Garten\uff0fin den Garten \u5c0d\u6bd4\u4f8b\u53e5",
+        ],
+      },
       {
         v: "v14.22",
         d: "10/22 20:00",
