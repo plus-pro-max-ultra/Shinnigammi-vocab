@@ -3405,7 +3405,7 @@
       i.length !== 0 && e.push({ event: t, listeners: i });
     }
     var Gx = /\r\n?/g,
-      Qx = /\u0000|\uFFFD/g;
+      Qx = / |\uFFFD/g;
     function cp(e) {
       return (typeof e == "string" ? e : "" + e)
         .replace(
@@ -10862,52 +10862,52 @@ Error generating stack: ` +
       contentType: "grammar",
       lang: "de",
       title:
-        "\u96d9\u5411\u4ecb\u8a5e\uff1a\u4f4d\u7f6e vs \u76ee\u7684\u5730 (Two-way prepositions: Wechselpr\u00e4positionen)",
-      rule: "Nine prepositions - an, auf, hinter, in, neben, \u00fcber, unter, vor, zwischen - take the dative or the accusative depending on their meaning. Use the accusative for a destination or change of location (Wohin? - where to?): someone or something moves to a new place. Use the dative for the location where something is or happens (Wo? - where?): the action takes place within one place, even when it involves movement.",
+        "\u96D9\u5411\u4ECB\u8A5E\uFF1A\u4F4D\u7F6E vs \u76EE\u7684\u5730 (Two-way prepositions: Wechselpr\u00E4positionen)",
+      rule: "Nine prepositions - an, auf, hinter, in, neben, \u00FCber, unter, vor, zwischen - take the dative or the accusative depending on their meaning. Use the accusative for a destination or change of location (Wohin? - where to?): someone or something moves to a new place. Use the dative for the location where something is or happens (Wo? - where?): the action takes place within one place, even when it involves movement.",
       ruleZh:
-        "\u4e5d\u500b\u96d9\u5411\u4ecb\u8a5e\uff1aan\u3001auf\u3001hinter\u3001in\u3001neben\u3001\u00fcber\u3001unter\u3001vor\u3001zwischen\uff0c\u5f8c\u9762\u63a5\u7b2c\u4e09\u683c\u6216\u7b2c\u56db\u683c\u53d6\u6c7a\u65bc\u610f\u601d\u3002\u76ee\u7684\u5730\u6216\u4f4d\u7f6e\u6539\u8b8a\uff08Wohin? \u53bb\u54ea\u88e1\uff09\u7528\u7b2c\u56db\u683c\uff08Akkusativ\uff09\uff1a\u4eba\u6216\u6771\u897f\u79fb\u52d5\u5230\u65b0\u7684\u5730\u9ede\u3002\u6d3b\u52d5\u6216\u72c0\u614b\u767c\u751f\u7684\u4f4d\u7f6e\uff08Wo? \u5728\u54ea\u88e1\uff09\u7528\u7b2c\u4e09\u683c\uff08Dativ\uff09\uff1a\u52d5\u4f5c\u5728\u540c\u4e00\u500b\u5730\u9ede\u7bc4\u570d\u5167\u9032\u884c\uff0c\u5373\u4f7f\u6709\u79fb\u52d5\u4e5f\u7528\u7b2c\u4e09\u683c\u3002",
+        "\u4E5D\u500B\u96D9\u5411\u4ECB\u8A5E\uFF1Aan\u3001auf\u3001hinter\u3001in\u3001neben\u3001\u00FCber\u3001unter\u3001vor\u3001zwischen\uFF0C\u5F8C\u9762\u63A5\u7B2C\u4E09\u683C\u6216\u7B2C\u56DB\u683C\u53D6\u6C7A\u65BC\u610F\u601D\u3002\u76EE\u7684\u5730\u6216\u4F4D\u7F6E\u6539\u8B8A\uFF08Wohin? \u53BB\u54EA\u88E1\uFF09\u7528\u7B2C\u56DB\u683C\uFF08Akkusativ\uFF09\uFF1A\u4EBA\u6216\u6771\u897F\u79FB\u52D5\u5230\u65B0\u7684\u5730\u9EDE\u3002\u6D3B\u52D5\u6216\u72C0\u614B\u767C\u751F\u7684\u4F4D\u7F6E\uFF08Wo? \u5728\u54EA\u88E1\uFF09\u7528\u7B2C\u4E09\u683C\uFF08Dativ\uFF09\uFF1A\u52D5\u4F5C\u5728\u540C\u4E00\u500B\u5730\u9EDE\u7BC4\u570D\u5167\u9032\u884C\uFF0C\u5373\u4F7F\u6709\u79FB\u52D5\u4E5F\u7528\u7B2C\u4E09\u683C\u3002",
       related: ["de-111", "de-340"],
       notes: [
         {
           en: "Movement alone does not decide the case. Die Kinder laufen im Garten has plenty of movement, but the running stays within the garden - it is the location of the activity, so it takes the dative.",
-          zh: "\u6709\u79fb\u52d5\u4e0d\u4ee3\u8868\u7528\u7b2c\u56db\u683c\u3002Die Kinder laufen im Garten \u96d6\u7136\u4e00\u76f4\u5728\u52d5\uff0c\u4f46\u8dd1\u6b65\u7684\u7bc4\u570d\u4e0d\u51fa\u82b1\u5712\uff0c\u82b1\u5712\u662f\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\uff0c\u6240\u4ee5\u7528\u7b2c\u4e09\u683c\u3002",
+          zh: "\u6709\u79FB\u52D5\u4E0D\u4EE3\u8868\u7528\u7B2C\u56DB\u683C\u3002Die Kinder laufen im Garten \u96D6\u7136\u4E00\u76F4\u5728\u52D5\uFF0C\u4F46\u8DD1\u6B65\u7684\u7BC4\u570D\u4E0D\u51FA\u82B1\u5712\uFF0C\u82B1\u5712\u662F\u6D3B\u52D5\u767C\u751F\u7684\u4F4D\u7F6E\uFF0C\u6240\u4EE5\u7528\u7B2C\u4E09\u683C\u3002",
         },
         {
           en: "Ask Wo? (where?) for the dative and Wohin? (where to?) for the accusative. Common contractions: in + dem = im, in + das = ins, an + dem = am, an + das = ans.",
-          zh: "\u5224\u65b7\u65b9\u6cd5\uff1a\u554f Wo?\uff08\u5728\u54ea\u88e1\uff09\u7528\u7b2c\u4e09\u683c\uff0c\u554f Wohin?\uff08\u53bb\u54ea\u88e1\uff09\u7528\u7b2c\u56db\u683c\u3002\u5e38\u898b\u7e2e\u5beb\uff1ain + dem = im\u3001in + das = ins\u3001an + dem = am\u3001an + das = ans\u3002",
+          zh: "\u5224\u65B7\u65B9\u6CD5\uFF1A\u554F Wo?\uFF08\u5728\u54EA\u88E1\uFF09\u7528\u7B2C\u4E09\u683C\uFF0C\u554F Wohin?\uFF08\u53BB\u54EA\u88E1\uFF09\u7528\u7B2C\u56DB\u683C\u3002\u5E38\u898B\u7E2E\u5BEB\uFF1Ain + dem = im\u3001in + das = ins\u3001an + dem = am\u3001an + das = ans\u3002",
         },
       ],
       examples: [
         {
           text: "Die Kinder laufen im Garten.",
           en: "The children are running around in the garden. (location of the activity, dative)",
-          zh: "\u5b69\u5b50\u5011\u5728\u82b1\u5712\u88e1\u8dd1\u3002\uff08\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\uff0c\u7b2c\u4e09\u683c\uff09",
+          zh: "\u5B69\u5B50\u5011\u5728\u82B1\u5712\u88E1\u8DD1\u3002\uFF08\u6D3B\u52D5\u767C\u751F\u7684\u4F4D\u7F6E\uFF0C\u7B2C\u4E09\u683C\uFF09",
         },
         {
           text: "Die Kinder laufen in den Garten.",
           en: "The children run into the garden. (destination, accusative)",
-          zh: "\u5b69\u5b50\u5011\u8dd1\u9032\u82b1\u5712\u3002\uff08\u76ee\u7684\u5730\uff0c\u7b2c\u56db\u683c\uff09",
+          zh: "\u5B69\u5B50\u5011\u8DD1\u9032\u82B1\u5712\u3002\uFF08\u76EE\u7684\u5730\uFF0C\u7B2C\u56DB\u683C\uFF09",
         },
         {
-          text: "Das Bild h\u00e4ngt an der Wand.",
+          text: "Das Bild h\u00E4ngt an der Wand.",
           en: "The picture is hanging on the wall. (location, dative)",
-          zh: "\u756b\u639b\u5728\u7246\u4e0a\u3002\uff08\u4f4d\u7f6e\uff0c\u7b2c\u4e09\u683c\uff09",
+          zh: "\u756B\u639B\u5728\u7246\u4E0A\u3002\uFF08\u4F4D\u7F6E\uFF0C\u7B2C\u4E09\u683C\uFF09",
         },
         {
-          text: "Ich h\u00e4nge das Bild an die Wand.",
+          text: "Ich h\u00E4nge das Bild an die Wand.",
           en: "I hang the picture onto the wall. (destination, accusative)",
-          zh: "\u6211\u628a\u756b\u639b\u5230\u7246\u4e0a\u3002\uff08\u76ee\u7684\u5730\uff0c\u7b2c\u56db\u683c\uff09",
+          zh: "\u6211\u628A\u756B\u639B\u5230\u7246\u4E0A\u3002\uFF08\u76EE\u7684\u5730\uFF0C\u7B2C\u56DB\u683C\uFF09",
         },
       ],
       sourceUrl:
         "https://resources.german.lsa.umich.edu/grammatik/prepositions/",
       sources: [
         {
-          label: "Two-way prepositions / \u96d9\u5411\u4ecb\u8a5e",
+          label: "Two-way prepositions / \u96D9\u5411\u4ECB\u8A5E",
           url: "https://resources.german.lsa.umich.edu/grammatik/prepositions/",
         },
         {
-          label: "Goethe Spickzettel Wechselpr\u00e4positionen",
+          label: "Goethe Spickzettel Wechselpr\u00E4positionen",
           url: "https://www.goethe.de/resources/files/pdf134/pdf-spickzettel-wechselprpositionen.pdf",
         },
       ],
@@ -11017,6 +11017,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.26",
+        d: "10/23",
+        items: [
+          "\u4E00\u81F4\u6027\uFF1A\u8A2D\u5B9A\u9801\u8207\u55AE\u5B57\u8A73\u60C5\u7684\u300C\u6717\u8B80\u901F\u5EA6\u300D\u6539\u70BA 0.5x\u20131.5x \u6ED1\u687F\u3001\u300C\u6717\u8B80\u91CD\u8907\u6B21\u6578\u300D\u6539\u70BA +\uFF0F\u2212 \u6B65\u9032\u6309\u9215\uFF0C\u8207\u807D\u529B\u5340\u63A7\u5236\u4E00\u81F4\uFF08\u540C\u4E00\u8A2D\u5B9A\u503C\u5168\u7AD9\u5171\u7528\uFF09",
+        ],
+      },
+      {
         v: "v14.25",
         d: "10/23",
         items: [
@@ -11034,7 +11041,7 @@ Error generating stack: ` +
         v: "v14.23",
         d: "10/23",
         items: [
-          "\u5fb7\u6587\u6587\u6cd5\u65b0\u8ab2\uff1a\u96d9\u5411\u4ecb\u8a5e\uff08Wechselpr\u00e4positionen\uff09\u2014 \u76ee\u7684\u5730\uff0f\u4f4d\u7f6e\u6539\u8b8a\u7528\u7b2c\u56db\u683c\uff0c\u6d3b\u52d5\u767c\u751f\u7684\u4f4d\u7f6e\u7528\u7b2c\u4e09\u683c\uff0c\u9644 Die Kinder laufen im Garten\uff0fin den Garten \u5c0d\u6bd4\u4f8b\u53e5",
+          "\u5FB7\u6587\u6587\u6CD5\u65B0\u8AB2\uFF1A\u96D9\u5411\u4ECB\u8A5E\uFF08Wechselpr\u00E4positionen\uFF09\u2014 \u76EE\u7684\u5730\uFF0F\u4F4D\u7F6E\u6539\u8B8A\u7528\u7B2C\u56DB\u683C\uFF0C\u6D3B\u52D5\u767C\u751F\u7684\u4F4D\u7F6E\u7528\u7B2C\u4E09\u683C\uFF0C\u9644 Die Kinder laufen im Garten\uFF0Fin den Garten \u5C0D\u6BD4\u4F8B\u53E5",
         ],
       },
       {
@@ -11069,64 +11076,64 @@ Error generating stack: ` +
         v: "v14.18",
         d: "10/22 12:55",
         items: [
-          "\u5fb7\u6587\u7b2c\u4e8c\u4f8b\u53e5\uff1a\u518d\u88dc 14 \u500b\uff08\u8a5e\u5e79\u6bd4\u5c0d\u4fee\u6b63\u5f8c\uff0c\u7d2f\u8a08 234/325\uff09\uff1b\u5176\u9918 91 \u500b\u56e0 Tatoeba \u9650\u901f\u6392\u5165\u4e0b\u4e00\u8f2a",
+          "\u5FB7\u6587\u7B2C\u4E8C\u4F8B\u53E5\uFF1A\u518D\u88DC 14 \u500B\uFF08\u8A5E\u5E79\u6BD4\u5C0D\u4FEE\u6B63\u5F8C\uFF0C\u7D2F\u8A08 234/325\uFF09\uFF1B\u5176\u9918 91 \u500B\u56E0 Tatoeba \u9650\u901F\u6392\u5165\u4E0B\u4E00\u8F2A",
         ],
       },
       {
         v: "v14.17",
         d: "10/22 08:52",
         items: [
-          "\u5fb7\u6587\u7b2c\u4e8c\u4f8b\u53e5\u88dc\u9f4a\u9032\u5ea6\uff1a220/325 \u5b8c\u6210\uff08\u672c\u8f2a +74\uff0c\u4f86\u6e90 Tatoeba \u5fb7\u82f1\u4e2d\u5c0d\u7167\u53e5\uff09\uff1b\u5176\u9918 105 \u500b\u56e0\u5c0d\u7167\u53e5\u5eab\u6bd4\u5c0d\u4e0d\u5230\u5408\u9069\u53e5\u5b50\u66ab\u7f3a\uff0c\u4e0b\u4e00\u8f2a\u63db\u5206\u9801\u67e5\u8a62\u7e7c\u7e8c",
-          "\u522a\u9664\u91cd\u8907\u689d\u76ee\uff1a\u4e09\uff08\u30b5\u30f3\uff09\u4f75\u5165 \u4e09\uff08\u3055\u3093\uff09\uff1b\u7dba\u9e97 \u4f75\u5165 \u304d\u308c\u3044\uff08\u5e38\u7528\u5beb\u6cd5\uff09\uff0c\u7dba\u9e97 \u6539\u5217\u70ba\u300c\u76f8\u4f3c\u300d\u9805\u4e0b\u7684\u6f22\u5b57\u5beb\u6cd5\u5225\u540d\uff1b\u9032\u5ea6\u8207\u719f\u6089\u5ea6\u4ee5\u4fdd\u7559\u7684\u689d\u76ee\u70ba\u6e96",
+          "\u5FB7\u6587\u7B2C\u4E8C\u4F8B\u53E5\u88DC\u9F4A\u9032\u5EA6\uFF1A220/325 \u5B8C\u6210\uFF08\u672C\u8F2A +74\uFF0C\u4F86\u6E90 Tatoeba \u5FB7\u82F1\u4E2D\u5C0D\u7167\u53E5\uFF09\uFF1B\u5176\u9918 105 \u500B\u56E0\u5C0D\u7167\u53E5\u5EAB\u6BD4\u5C0D\u4E0D\u5230\u5408\u9069\u53E5\u5B50\u66AB\u7F3A\uFF0C\u4E0B\u4E00\u8F2A\u63DB\u5206\u9801\u67E5\u8A62\u7E7C\u7E8C",
+          "\u522A\u9664\u91CD\u8907\u689D\u76EE\uFF1A\u4E09\uFF08\u30B5\u30F3\uFF09\u4F75\u5165 \u4E09\uFF08\u3055\u3093\uFF09\uFF1B\u7DBA\u9E97 \u4F75\u5165 \u304D\u308C\u3044\uFF08\u5E38\u7528\u5BEB\u6CD5\uFF09\uFF0C\u7DBA\u9E97 \u6539\u5217\u70BA\u300C\u76F8\u4F3C\u300D\u9805\u4E0B\u7684\u6F22\u5B57\u5BEB\u6CD5\u5225\u540D\uFF1B\u9032\u5EA6\u8207\u719F\u6089\u5EA6\u4EE5\u4FDD\u7559\u7684\u689D\u76EE\u70BA\u6E96",
         ],
       },
       {
         v: "v14.16",
         d: "10/22 08:42",
         items: [
-          "\u7528\u6cd5\u63d0\u793a\u7b2c\u4e8c\u8f2a\uff1a23 \u500b\u6578\u8a5e\u5168\u90e8\u52a0\u4e0a\u8b80\u97f3\u8207\u97f3\u4fbf\u7b46\u8a18\uff08\u4e00\u3064\uff5e\u4e5d\u3064\u3001\u56db/\u4e03/\u4e5d \u7684\u5169\u8b80\u3001\u767e/\u5343 \u7684\u97f3\u4fbf\u7b49\uff09\u30016 \u500b\u656c\u8a9e\u52d5\u8a5e\u52a0\u4e0a\u8b19\u8b93\uff0f\u5c0a\u656c\u65b9\u5411\u7b46\u8a18\uff08\u81f4\u3059\u3001\u7533\u3059\u3001\u53c2\u308b\u3001\u53ec\u3057\u4e0a\u304c\u308b\u3001\u5dee\u3057\u4e0a\u3052\u308b\u3001\u3044\u3089\u3063\u3057\u3083\u308b\uff09\u30018 \u500b\u5f62\u5bb9\u8a5e\u9677\u9631\u7b46\u8a18\uff08\u304d\u308c\u3044\u30fb\u5acc\u3044 \u662f \u306a\u5f62\u5bb9\u8a5e\u3001\u5927\u304d\u3044\u30fb\u5c0f\u3055\u3044 \u7684 \u306a \u5f62\u3001\u7d50\u69cb\u30fb\u8272\u3005 \u7684\u7528\u6cd5\uff09",
+          "\u7528\u6CD5\u63D0\u793A\u7B2C\u4E8C\u8F2A\uFF1A23 \u500B\u6578\u8A5E\u5168\u90E8\u52A0\u4E0A\u8B80\u97F3\u8207\u97F3\u4FBF\u7B46\u8A18\uFF08\u4E00\u3064\uFF5E\u4E5D\u3064\u3001\u56DB/\u4E03/\u4E5D \u7684\u5169\u8B80\u3001\u767E/\u5343 \u7684\u97F3\u4FBF\u7B49\uFF09\u30016 \u500B\u656C\u8A9E\u52D5\u8A5E\u52A0\u4E0A\u8B19\u8B93\uFF0F\u5C0A\u656C\u65B9\u5411\u7B46\u8A18\uFF08\u81F4\u3059\u3001\u7533\u3059\u3001\u53C2\u308B\u3001\u53EC\u3057\u4E0A\u304C\u308B\u3001\u5DEE\u3057\u4E0A\u3052\u308B\u3001\u3044\u3089\u3063\u3057\u3083\u308B\uFF09\u30018 \u500B\u5F62\u5BB9\u8A5E\u9677\u9631\u7B46\u8A18\uFF08\u304D\u308C\u3044\u30FB\u5ACC\u3044 \u662F \u306A\u5F62\u5BB9\u8A5E\u3001\u5927\u304D\u3044\u30FB\u5C0F\u3055\u3044 \u7684 \u306A \u5F62\u3001\u7D50\u69CB\u30FB\u8272\u3005 \u7684\u7528\u6CD5\uFF09",
         ],
       },
       {
         v: "v14.15",
         d: "10/22 08:37",
         items: [
-          "\u4fee\u6b63 v14.11 \u7a3d\u6838\u88dc\u8a5e\u6027\u7684\u932f\u8aa4\uff1a41 \u500b\u65e5\u6587\u55ae\u5b57\u8aa4\u6a19\u70ba\u300c\u8868\u73fe\u300d\uff08\u79c1\u3001\u98df\u3079\u308b\u3001\u6c34\u3001\u5b66\u6821 \u7b49\uff09\uff0c\u5df2\u4f9d Jisho \u56b4\u683c\u6bd4\u5c0d\u6539\u56de\u6b63\u78ba\u8a5e\u6027\uff08\u540d\u8a5e\uff0f\u52d5\u8a5e\uff0f\u4ee3\u540d\u8a5e\uff0f\u526f\u8a5e\uff09",
-          "\u7247\u8a9e\u9010\u5b57\u62c6\u89e3\uff1a50 \u500b\u7247\u8a9e\u4e2d 45 \u500b\u52a0\u4e0a parts \u9010\u5b57\u5c0d\u61c9\uff08\u65e5\u6587\u4e2d\u6587\u5c0d\u61c9\u3001\u5fb7\u6587\u82f1\u6587\u5c0d\u61c9\uff09\uff0c\u8a73\u7d30\u9801\u300c\u610f\u601d\u300d\u5206\u9801\u986f\u793a\uff1b\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059 \u7b49 5 \u500b\u56fa\u5b9a\u554f\u5019\u8a9e\u4f9d\u898f\u5247\u4e0d\u62c6\u89e3\uff0c\u6539\u52a0\u6574\u9ad4\u7528\u6cd5\u63d0\u793a",
+          "\u4FEE\u6B63 v14.11 \u7A3D\u6838\u88DC\u8A5E\u6027\u7684\u932F\u8AA4\uFF1A41 \u500B\u65E5\u6587\u55AE\u5B57\u8AA4\u6A19\u70BA\u300C\u8868\u73FE\u300D\uFF08\u79C1\u3001\u98DF\u3079\u308B\u3001\u6C34\u3001\u5B66\u6821 \u7B49\uFF09\uFF0C\u5DF2\u4F9D Jisho \u56B4\u683C\u6BD4\u5C0D\u6539\u56DE\u6B63\u78BA\u8A5E\u6027\uFF08\u540D\u8A5E\uFF0F\u52D5\u8A5E\uFF0F\u4EE3\u540D\u8A5E\uFF0F\u526F\u8A5E\uFF09",
+          "\u7247\u8A9E\u9010\u5B57\u62C6\u89E3\uFF1A50 \u500B\u7247\u8A9E\u4E2D 45 \u500B\u52A0\u4E0A parts \u9010\u5B57\u5C0D\u61C9\uFF08\u65E5\u6587\u4E2D\u6587\u5C0D\u61C9\u3001\u5FB7\u6587\u82F1\u6587\u5C0D\u61C9\uFF09\uFF0C\u8A73\u7D30\u9801\u300C\u610F\u601D\u300D\u5206\u9801\u986F\u793A\uFF1B\u304A\u306F\u3088\u3046\u3054\u3056\u3044\u307E\u3059 \u7B49 5 \u500B\u56FA\u5B9A\u554F\u5019\u8A9E\u4F9D\u898F\u5247\u4E0D\u62C6\u89E3\uFF0C\u6539\u52A0\u6574\u9AD4\u7528\u6CD5\u63D0\u793A",
         ],
       },
       {
         v: "v14.14",
         d: "10/22 08:33",
         items: [
-          "\u5fb7\u6587\u55ae\u5b57\u5eab\u65b0\u589e\u300c\u4e3b\u984c\u5206\u985e\u300d\u7be9\u9078\uff08sich vorstellen\u3001L\u00e4nder und Sprachen \u7b49\uff09\uff0c\u8de8\u8ab2\u6b21\u4f9d\u4e3b\u984c\u700f\u89bd\uff1b\u300c\u6e05\u9664\u7be9\u9078\u300d\u8207\u5207\u63db\u5206\u9801\u6703\u4e00\u4f75\u91cd\u8a2d",
+          "\u5FB7\u6587\u55AE\u5B57\u5EAB\u65B0\u589E\u300C\u4E3B\u984C\u5206\u985E\u300D\u7BE9\u9078\uFF08sich vorstellen\u3001L\u00E4nder und Sprachen \u7B49\uFF09\uFF0C\u8DE8\u8AB2\u6B21\u4F9D\u4E3B\u984C\u700F\u89BD\uFF1B\u300C\u6E05\u9664\u7BE9\u9078\u300D\u8207\u5207\u63DB\u5206\u9801\u6703\u4E00\u4F75\u91CD\u8A2D",
         ],
       },
       {
         v: "v14.13",
         d: "10/22 08:30",
         items: [
-          "\u6e2c\u9a57\u984c\u578b\u65b0\u9806\u5e8f\uff1a\u65e5\u2192\u4e2d\u3001\u4e2d\u2192\u65e5\u3001\u6f22\u5b57\u21c4\u5047\u540d\uff08\u65b0\uff09\u3001\u5b57\u584a\u62fc\u5b57\u3001\u6253\u5b57\u62fc\u5b57\u3001\u5b57\u5361\u3001\u719f\u6089\u5ea6",
-          "\u65b0\u984c\u578b\u300c\u6f22\u5b57 \u21c4 \u5047\u540d\u300d\uff08\u50c5\u65e5\u6587\uff09\uff1a\u770b\u6f22\u5b57\u9078\u8b80\u97f3\u3001\u770b\u8b80\u97f3\u9078\u6f22\u5b57\u4ea4\u66ff\u51fa\u984c\uff0c\u53ea\u51fa\u6709\u6f22\u5b57\u7684\u55ae\u5b57",
-          "\u65e5\u6587\u6e2c\u9a57\u5047\u540d\u8207\u6f22\u5b57\u7d81\u5b9a\uff1a\u65e5\u2192\u4e2d\u984c\u76ee\u7684\u6f22\u5b57\u4e0b\u65b9\u986f\u793a\u5047\u540d\uff1b\u4e2d\u2192\u65e5\u7684\u9078\u9805\u6f22\u5b57\u8207\u5047\u540d\u4e26\u5217",
-          "\u6587\u6cd5\u9801\uff1a\u76ee\u524d\u5b78\u7fd2\u8a9e\u8a00\u7684\u5340\u584a\u6392\u5728\u524d\u9762",
+          "\u6E2C\u9A57\u984C\u578B\u65B0\u9806\u5E8F\uFF1A\u65E5\u2192\u4E2D\u3001\u4E2D\u2192\u65E5\u3001\u6F22\u5B57\u21C4\u5047\u540D\uFF08\u65B0\uFF09\u3001\u5B57\u584A\u62FC\u5B57\u3001\u6253\u5B57\u62FC\u5B57\u3001\u5B57\u5361\u3001\u719F\u6089\u5EA6",
+          "\u65B0\u984C\u578B\u300C\u6F22\u5B57 \u21C4 \u5047\u540D\u300D\uFF08\u50C5\u65E5\u6587\uFF09\uFF1A\u770B\u6F22\u5B57\u9078\u8B80\u97F3\u3001\u770B\u8B80\u97F3\u9078\u6F22\u5B57\u4EA4\u66FF\u51FA\u984C\uFF0C\u53EA\u51FA\u6709\u6F22\u5B57\u7684\u55AE\u5B57",
+          "\u65E5\u6587\u6E2C\u9A57\u5047\u540D\u8207\u6F22\u5B57\u7D81\u5B9A\uFF1A\u65E5\u2192\u4E2D\u984C\u76EE\u7684\u6F22\u5B57\u4E0B\u65B9\u986F\u793A\u5047\u540D\uFF1B\u4E2D\u2192\u65E5\u7684\u9078\u9805\u6F22\u5B57\u8207\u5047\u540D\u4E26\u5217",
+          "\u6587\u6CD5\u9801\uFF1A\u76EE\u524D\u5B78\u7FD2\u8A9E\u8A00\u7684\u5340\u584A\u6392\u5728\u524D\u9762",
         ],
       },
       {
         v: "v14.12",
         d: "10/22 07:10",
         items: [
-          "\u65b0\u589e\u65e5\u6587\u7b2c\u516d\u8ab2\u300c\u6642\u9593\u30fb\u661f\u671f\u300d30 \u500b\u55ae\u5b57\uff08jpl6-01\uff5e30\uff09\uff1a\u66dc\u65e5\u3001\u671d\u5915\u591c\u3001\u5348\u524d\u5348\u5f8c\u3001\u4eca\u9031\u4f86\u9031\u5148\u9031\u3001\u4eca\u6708\u4f86\u6708\u5148\u6708\u3001\u4eca\u5e74\u53bb\u5e74\u3001\u9031\u672b\u3001\u6642\u9593\u3001\u4f55\u6642\u7b49\uff0c\u6bcf\u5b57\u542b\u8b80\u97f3\u3001\u7f85\u99ac\u62fc\u97f3\u3001\u8a5e\u6027\u3001\u4e2d\u6587\u3001\u82f1\u6587\u30012 \u53e5\u4f8b\u53e5\uff08\u9ede\u4f8b\u53e5\u4e0b\u65b9\u7a7a\u767d\u770b\u7ffb\u8b6f\uff09\u8207\u8b80\u6cd5\u7b46\u8a18\uff1b\u65e5\u6587\u5df2\u6559\u55ae\u5b57\u7d2f\u8a08 126",
-          "\u4fee\u6b63\u6628\u65e5\u7a3d\u6838\u88dc\u7684 201 \u53e5\u65e5\u6587\u4f8b\u53e5\u6b04\u4f4d\u540d\u7a31\uff08jp\u2192text\uff09\uff0c\u4f8b\u53e5\u73fe\u5728\u6703\u6b63\u5e38\u986f\u793a",
+          "\u65B0\u589E\u65E5\u6587\u7B2C\u516D\u8AB2\u300C\u6642\u9593\u30FB\u661F\u671F\u300D30 \u500B\u55AE\u5B57\uFF08jpl6-01\uFF5E30\uFF09\uFF1A\u66DC\u65E5\u3001\u671D\u5915\u591C\u3001\u5348\u524D\u5348\u5F8C\u3001\u4ECA\u9031\u4F86\u9031\u5148\u9031\u3001\u4ECA\u6708\u4F86\u6708\u5148\u6708\u3001\u4ECA\u5E74\u53BB\u5E74\u3001\u9031\u672B\u3001\u6642\u9593\u3001\u4F55\u6642\u7B49\uFF0C\u6BCF\u5B57\u542B\u8B80\u97F3\u3001\u7F85\u99AC\u62FC\u97F3\u3001\u8A5E\u6027\u3001\u4E2D\u6587\u3001\u82F1\u6587\u30012 \u53E5\u4F8B\u53E5\uFF08\u9EDE\u4F8B\u53E5\u4E0B\u65B9\u7A7A\u767D\u770B\u7FFB\u8B6F\uFF09\u8207\u8B80\u6CD5\u7B46\u8A18\uFF1B\u65E5\u6587\u5DF2\u6559\u55AE\u5B57\u7D2F\u8A08 126",
+          "\u4FEE\u6B63\u6628\u65E5\u7A3D\u6838\u88DC\u7684 201 \u53E5\u65E5\u6587\u4F8B\u53E5\u6B04\u4F4D\u540D\u7A31\uFF08jp\u2192text\uFF09\uFF0C\u4F8B\u53E5\u73FE\u5728\u6703\u6B63\u5E38\u986F\u793A",
         ],
       },
       {
         v: "v14.11",
         d: "10/21 18:25",
         items: [
-          "\u5168\u5eab\u8cc7\u6599\u7a3d\u6838\u88dc\u9f4a\uff1a\u65e5\u6587 51 \u500b\u689d\u76ee\u88dc\u4e0a\u7f85\u99ac\u62fc\u97f3\u300149 \u500b\u88dc\u4e0a\u8a5e\u6027\uff08Jisho \u8cc7\u6599\uff09",
-          "\u65e5\u6587\u4f8b\u53e5\u88dc\u9f4a\uff1a204 \u500b\u4e0d\u8db3\u5169\u53e5\u7684\u689d\u76ee\u5f9e Tatoeba \u88dc\u4e0a\u65e5\u6587\u4f8b\u53e5\u8207\u4e2d\u6587\u7ffb\u8b6f\uff08\u7c21\u9ad4\u4f86\u6e90\u5df2\u8f49\u7e41\u9ad4\uff09\uff0c\u5176\u4e2d 136 \u500b\u5df2\u88dc\u6eff\u5169\u53e5",
-          "\u5fb7\u6587\u4f8b\u53e5\u958b\u59cb\u88dc\u7b2c\u4e8c\u53e5\uff1a\u5df2\u5b8c\u6210 21 \u500b\uff08Tatoeba \u82f1\uff0b\u4e2d\u5c0d\u7167\u53e5\uff09\uff0c\u5176\u9918\u6392\u5165\u660e\u65e5\u6279\u6b21",
+          "\u5168\u5EAB\u8CC7\u6599\u7A3D\u6838\u88DC\u9F4A\uFF1A\u65E5\u6587 51 \u500B\u689D\u76EE\u88DC\u4E0A\u7F85\u99AC\u62FC\u97F3\u300149 \u500B\u88DC\u4E0A\u8A5E\u6027\uFF08Jisho \u8CC7\u6599\uFF09",
+          "\u65E5\u6587\u4F8B\u53E5\u88DC\u9F4A\uFF1A204 \u500B\u4E0D\u8DB3\u5169\u53E5\u7684\u689D\u76EE\u5F9E Tatoeba \u88DC\u4E0A\u65E5\u6587\u4F8B\u53E5\u8207\u4E2D\u6587\u7FFB\u8B6F\uFF08\u7C21\u9AD4\u4F86\u6E90\u5DF2\u8F49\u7E41\u9AD4\uFF09\uFF0C\u5176\u4E2D 136 \u500B\u5DF2\u88DC\u6EFF\u5169\u53E5",
+          "\u5FB7\u6587\u4F8B\u53E5\u958B\u59CB\u88DC\u7B2C\u4E8C\u53E5\uFF1A\u5DF2\u5B8C\u6210 21 \u500B\uFF08Tatoeba \u82F1\uFF0B\u4E2D\u5C0D\u7167\u53E5\uFF09\uFF0C\u5176\u9918\u6392\u5165\u660E\u65E5\u6279\u6B21",
         ],
       },
       {
@@ -11545,7 +11552,7 @@ Error generating stack: ` +
     let r = e.replace(/^(der|die|das) /, "");
     if (t === r) return "-";
     if (t.startsWith(r)) return "-" + t.slice(r.length);
-    let o = { ä: "a", ö: "o", ü: "u" };
+    let o = { \u00E4: "a", \u00F6: "o", \u00FC: "u" };
     for (let n = r.length - 1; n >= 0; n--) {
       let a = r[n].toLowerCase();
       if ("aou".includes(a)) {
@@ -14291,47 +14298,67 @@ Error generating stack: ` +
                               "\u203A",
                             ),
                           ),
-                          s.default.createElement(
+                                                    s.default.createElement(
                             "label",
                             { className: "field" },
-                            "\u6717\u8B80\u901F\u5EA6",
+                            "\u6717\u8B80\u901F\u5EA6\uFF1A" +
+                              Math.round((R.rate ?? 0.9) * 100) / 100 +
+                              "x",
+                            s.default.createElement("input", {
+                              type: "range",
+                              min: 0.5,
+                              max: 1.5,
+                              step: 0.05,
+                              value: R.rate ?? 0.9,
+                              disabled: !P.ready,
+                              onChange: (l) =>
+                                U({ ...R, rate: Number(l.target.value) }),
+                            }),
                             s.default.createElement(
-                              "select",
-                              {
-                                value: R.rate,
-                                disabled: !P.ready,
-                                onChange: (l) =>
-                                  U({ ...R, rate: Number(l.target.value) }),
-                              },
-                              [0.7, 0.9, 1, 1.2].map((l) =>
-                                s.default.createElement(
-                                  "option",
-                                  { key: l, value: l },
-                                  l,
-                                  " \u500D",
-                                ),
-                              ),
+                              "span",
+                              { className: "range-ends" },
+                              "0.5x \u2013 1.5x",
                             ),
                           ),
-                          s.default.createElement(
-                            "label",
+                                                    s.default.createElement(
+                            "div",
                             { className: "field" },
-                            "\u6717\u8B80\u91CD\u8907\u6B21\u6578",
                             s.default.createElement(
-                              "select",
-                              {
-                                value: R.repeat ?? 1,
-                                disabled: !P.ready,
-                                onChange: (l) =>
-                                  U({ ...R, repeat: Number(l.target.value) }),
-                              },
-                              [1, 2, 3].map((l) =>
-                                s.default.createElement(
-                                  "option",
-                                  { key: l, value: l },
-                                  l,
-                                  " \u6B21",
-                                ),
+                              "span",
+                              null,
+                              "\u6717\u8B80\u91CD\u8907\u6B21\u6578",
+                            ),
+                            s.default.createElement(
+                              "div",
+                              { className: "stepper-row" },
+                              s.default.createElement(
+                                "button",
+                                {
+                                  onClick: () =>
+                                    U({
+                                      ...R,
+                                      repeat: Math.max(1, (R.repeat ?? 1) - 1),
+                                    }),
+                                  disabled: !P.ready || (R.repeat ?? 1) <= 1,
+                                },
+                                "\u2212",
+                              ),
+                              s.default.createElement(
+                                "strong",
+                                null,
+                                (R.repeat ?? 1) + " \u6B21",
+                              ),
+                              s.default.createElement(
+                                "button",
+                                {
+                                  onClick: () =>
+                                    U({
+                                      ...R,
+                                      repeat: Math.min(3, (R.repeat ?? 1) + 1),
+                                    }),
+                                  disabled: !P.ready || (R.repeat ?? 1) >= 3,
+                                },
+                                "+",
                               ),
                             ),
                           ),
@@ -14962,7 +14989,7 @@ Error generating stack: ` +
     let o = t.replace(/^(der|die|das) /, "");
     if (r && !e.includes(o)) {
       let a = o.endsWith("\u3059\u308B") ? o.slice(0, -2) : o.slice(0, -1);
-      a.length >= 1 && /[\u4e00-\u9fff]/.test(a) && e.includes(a) && (o = a);
+      a.length >= 1 && /[\u4E00-\u9FFF]/.test(a) && e.includes(a) && (o = a);
     }
     let n = e.toLocaleLowerCase().indexOf(o.toLocaleLowerCase());
     return n < 0
@@ -15063,21 +15090,21 @@ Error generating stack: ` +
     Y1 =
       "\u3042\u3044\u3046\u3048\u304A\u304B\u304D\u304F\u3051\u3053\u304C\u304E\u3050\u3052\u3054\u3055\u3057\u3059\u305B\u305D\u3056\u3058\u305A\u305C\u305E\u305F\u3061\u3064\u3066\u3068\u3060\u3062\u3065\u3067\u3069\u306A\u306B\u306C\u306D\u306E\u306F\u3072\u3075\u3078\u307B\u3070\u3073\u3076\u3079\u307C\u3071\u3074\u3077\u307A\u307D\u307E\u307F\u3080\u3081\u3082\u3084\u3086\u3088\u3089\u308A\u308B\u308C\u308D\u308F\u3092\u3093\u3083\u3085\u3087\u3063\u3041\u3043\u3045\u3047\u3049\u3090\u3091\u30FC",
     Ls = (e) =>
-      e.replace(/[\u30a1-\u30f6]/g, (t) =>
+      e.replace(/[\u30A1-\u30F6]/g, (t) =>
         String.fromCharCode(t.charCodeAt(0) - 96),
       ),
     Gn = (e) => e.length > 0 && [...Ls(e)].every((t) => Y1.includes(t)),
-    Os = (e) => /[\u4e00-\u9fff々]/.test(e),
+    Os = (e) => /[\u4E00-\u9FFF\u3005]/.test(e),
     Fl = {
-      う: "\u3044",
-      く: "\u304D",
-      ぐ: "\u304E",
-      す: "\u3057",
-      つ: "\u3061",
-      ぬ: "\u306B",
-      ぶ: "\u3073",
-      む: "\u307F",
-      る: "\u308A",
+      \u3046: "\u3044",
+      \u304F: "\u304D",
+      \u3050: "\u304E",
+      \u3059: "\u3057",
+      \u3064: "\u3061",
+      \u306C: "\u306B",
+      \u3076: "\u3073",
+      \u3080: "\u307F",
+      \u308B: "\u308A",
     },
     Pl = new Set([
       "\u5E30\u308B",
@@ -15178,23 +15205,23 @@ Error generating stack: ` +
         sure: !0,
       };
     let n = t && Gn(t) ? Ls(t) : Gn(r) ? Ls(r) : "";
-    if (/(する|為る)$/.test(r) && r.length >= 2)
+    if (/(\u3059\u308B|\u70BA\u308B)$/.test(r) && r.length >= 2)
       return {
         vclass: "3",
         vkind: "\u3059\u308B",
-        masu: r.replace(/(する|為る)$/, "") + "\u3057\u307E\u3059",
-        masuReading: n ? n.replace(/する$/, "") + "\u3057\u307E\u3059" : "",
+        masu: r.replace(/(\u3059\u308B|\u70BA\u308B)$/, "") + "\u3057\u307E\u3059",
+        masuReading: n ? n.replace(/\u3059\u308B$/, "") + "\u3057\u307E\u3059" : "",
         vsrc: "\u898F\u5247\u63A8\u6E2C",
         sure: !1,
       };
-    if (/(来る|來る|くる)$/.test(r))
+    if (/(\u6765\u308B|\u4F86\u308B|\u304F\u308B)$/.test(r))
       return {
         vclass: "3",
         vkind: "\u4F86\u308B",
-        masu: r.replace(/(来る|來る|くる)$/, (m) =>
+        masu: r.replace(/(\u6765\u308B|\u4F86\u308B|\u304F\u308B)$/, (m) =>
           m === "\u304F\u308B" ? "\u304D\u307E\u3059" : m[0] + "\u307E\u3059",
         ),
-        masuReading: n ? n.replace(/くる$/, "\u304D\u307E\u3059") : "",
+        masuReading: n ? n.replace(/\u304F\u308B$/, "\u304D\u307E\u3059") : "",
         vsrc: "\u898F\u5247\u63A8\u6E2C",
         sure: !1,
       };
@@ -15242,11 +15269,11 @@ Error generating stack: ` +
         a &&
         ((i =
           {
-            名詞: "noun",
-            動詞: "verb",
-            い形容詞: "i-adj",
-            な形容詞: "na-adj",
-            副詞: "adv",
+            \u540D\u8A5E: "noun",
+            \u52D5\u8A5E: "verb",
+            \u3044\u5F62\u5BB9\u8A5E: "i-adj",
+            \u306A\u5F62\u5BB9\u8A5E: "na-adj",
+            \u526F\u8A5E: "adv",
           }[a.pos] ?? ""),
         i &&
           n.push(
@@ -15260,15 +15287,15 @@ Error generating stack: ` +
           n.push(
             "\u8A5E\u6027\uFF1A\u4F9D\u5B57\u5C3E\u63A8\u6E2C\u70BA\u52D5\u8A5E",
           ))
-        : /[いし]$/.test(o) &&
+        : /[\u3044\u3057]$/.test(o) &&
             o.length >= 3 &&
-            (!Os(o) || /[\u4e00-\u9fff][ぁ-ん]*い$/.test(o)) &&
-            !/(きれい|おしゃれ)$/.test(o)
+            (!Os(o) || /[\u4E00-\u9FFF][\u3041-\u3093]*\u3044$/.test(o)) &&
+            !/(\u304D\u308C\u3044|\u304A\u3057\u3083\u308C)$/.test(o)
           ? ((i = "i-adj"),
             n.push(
               "\u8A5E\u6027\uFF1A\u4F9D\u5B57\u5C3E\u63A8\u6E2C\u70BA\u3044\u5F62\u5BB9\u8A5E",
             ))
-          : /^[\u30a0-\u30ff]+$/.test(o)
+          : /^[\u30A0-\u30FF]+$/.test(o)
             ? ((i = "noun"),
               n.push(
                 "\u8A5E\u6027\uFF1A\u7247\u5047\u540D\u8A5E\uFF0C\u63A8\u6E2C\u70BA\u540D\u8A5E",
@@ -15287,7 +15314,7 @@ Error generating stack: ` +
     return c;
   }
   var X1 = [
-    [/(ung|heit|keit|schaft|tion|ität|ie)$/i, "feminine"],
+    [/(ung|heit|keit|schaft|tion|it\u00E4t|ie)$/i, "feminine"],
     [/(chen|lein)$/i, "neuter"],
     [/(ismus)$/i, "masculine"],
   ];
@@ -15331,12 +15358,12 @@ Error generating stack: ` +
     }
     if (
       (d ||
-        (/^[A-ZÄÖÜ]/.test(o) && !/\s/.test(o)
+        (/^[A-Z\u00C4\u00D6\u00DC]/.test(o) && !/\s/.test(o)
           ? ((d = "noun"),
             n.push(
               "\u8A5E\u6027\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\uFF0C\u63A8\u6E2C\u70BA\u540D\u8A5E",
             ))
-          : /^[a-zäöüß]+(en|ern|eln)$/.test(o) && o.length >= 4
+          : /^[a-z\u00E4\u00F6\u00FC\u00DF]+(en|ern|eln)$/.test(o) && o.length >= 4
             ? ((d = "verb"),
               n.push(
                 "\u8A5E\u6027\uFF1A\u5B57\u5C3E -en\uFF0C\u63A8\u6E2C\u70BA\u52D5\u8A5E",
@@ -15508,7 +15535,7 @@ Error generating stack: ` +
       [m, f] = (0, s.useState)(""),
       [j, y] = (0, s.useState)(""),
       [k, T] = (0, s.useState)(""),
-      u = (E) => (/[\u3040-\u30ff\u4e00-\u9fff]/.test(E) ? "jp" : "de"),
+      u = (E) => (/[\u3040-\u30FF\u4E00-\u9FFF]/.test(E) ? "jp" : "de"),
       h = () =>
         `\u3010\u55AE\u5B57\u66AB\u5B58\u3011
 ` +
@@ -15914,9 +15941,9 @@ Error generating stack: ` +
             let W = _.target.value;
             (x(W),
               U(""),
-              /[\u3040-\u30ff\u4e00-\u9fff]/.test(W) && c !== "jp"
+              /[\u3040-\u30FF\u4E00-\u9FFF]/.test(W) && c !== "jp"
                 ? (d("jp"), ve([]), h(""))
-                : /^[A-Za-zÄÖÜäöüß\s.\x27-]+$/.test(W) &&
+                : /^[A-Za-z\u00C4\u00D6\u00DC\u00E4\u00F6\u00FC\u00DF\s.\x27-]+$/.test(W) &&
                   W.trim() &&
                   c !== "de" &&
                   (d("de"), ve([]), h("")));
@@ -16257,24 +16284,22 @@ Error generating stack: ` +
               "\u203A",
             ),
           ),
-          s.default.createElement(
+                    s.default.createElement(
             "label",
             { className: "field" },
-            "\u6717\u8B80\u901F\u5EA6",
+            "\u6717\u8B80\u901F\u5EA6\uFF1A" + Math.round((j.rate ?? 0.9) * 100) / 100 + "x",
+            s.default.createElement("input", {
+              type: "range",
+              min: 0.5,
+              max: 1.5,
+              step: 0.05,
+              value: j.rate ?? 0.9,
+              onChange: (U) => y({ ...j, rate: Number(U.target.value) }),
+            }),
             s.default.createElement(
-              "select",
-              {
-                value: j.rate,
-                onChange: (U) => y({ ...j, rate: Number(U.target.value) }),
-              },
-              [0.7, 0.9, 1, 1.2].map((U) =>
-                s.default.createElement(
-                  "option",
-                  { key: U, value: U },
-                  U,
-                  " \u500D",
-                ),
-              ),
+              "span",
+              { className: "range-ends" },
+              "0.5x \u2013 1.5x",
             ),
           ),
           s.default.createElement(
@@ -16792,7 +16817,7 @@ Error generating stack: ` +
                 return (
                   O &&
                   O.lang === "jp" &&
-                  /[\u4e00-\u9fff\u3005]/.test(O.word) &&
+                  /[\u4E00-\u9FFF\u3005]/.test(O.word) &&
                   O.reading &&
                   O.reading !== O.word
                 );
@@ -16821,7 +16846,7 @@ Error generating stack: ` +
                     ? (A) =>
                         A.lang === "jp" &&
                         A.id !== w.id &&
-                        /[\u4e00-\u9fff\u3005]/.test(A.word) &&
+                        /[\u4E00-\u9FFF\u3005]/.test(A.word) &&
                         A.reading &&
                         A.reading !== A.word &&
                         A.reading !== w.reading
@@ -16902,11 +16927,11 @@ Error generating stack: ` +
         A.normalize("NFKC")
           .trim()
           .toLocaleLowerCase()
-          .replace(/[。.!?\s]/g, "")
-          .replace(/[\u30a1-\u30f6]/g, (O) =>
+          .replace(/[\u3002.!?\s]/g, "")
+          .replace(/[\u30A1-\u30F6]/g, (O) =>
             String.fromCharCode(O.charCodeAt(0) - 96),
           ),
-      Ft = (A) => /[\u4e00-\u9fff々]/.test(A),
+      Ft = (A) => /[\u4E00-\u9FFF\u3005]/.test(A),
       Pt =
         e === "spell" &&
         !!w &&
