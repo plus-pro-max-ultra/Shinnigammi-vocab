@@ -11017,6 +11017,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.24",
+        d: "10/23",
+        items: [
+          "\u807D\u529B\u5340\u6539\u70BA\u64AD\u653E\u5668\u5F0F\u63A7\u5236\uFF1A\u4E0A\u4E00\u500B\uFF0F\u64AD\u653E\u66AB\u505C\uFF0F\u4E0B\u4E00\u500B\u5713\u5F62\u6309\u9215\uFF1B\u91CD\u8907\u6B21\u6578\u6539\u70BA +\uFF0F\u2212 \u6B65\u9032\u6309\u9215\uFF1B\u64AD\u653E\u901F\u5EA6\u6539\u70BA 0.5x\u20131.5x \u6ED1\u687F\uFF1B\u5168\u7AD9\u300C\u8AAA\u660E\u300D\u6309\u9215\u7D71\u4E00\u70BA\u5340\u584A\u5DE6\u4E0B\u89D2\u767D\u5E95 i \u5713\u9215",
+        ],
+      },
+      {
         v: "v14.23",
         d: "10/23",
         items: [
@@ -17125,7 +17132,7 @@ Error generating stack: ` +
                     "aria-label": "\u67E5\u770B\u8A73\u7D30\u8AAA\u660E",
                     onClick: openExp,
                   },
-                  "\u2139 \u8AAA\u660E",
+                  "i",
                 ),
             ),
             (e === "forward" || e === "reverse" || e === "kana") &&
@@ -17974,62 +17981,89 @@ Error generating stack: ` +
               s.default.createElement("p", { className: "word-meaning" }, r(f)),
               s.default.createElement(
                 "div",
-                { className: "mode-grid" },
+                { className: "player-controls" },
                 s.default.createElement(
                   "button",
-                  { onClick: () => d(Math.max(0, c - 1)) },
-                  "\u2039 \u4E0A\u4E00\u500B",
+                  {
+                    className: "player-btn",
+                    "aria-label": "\u4E0A\u4E00\u500B",
+                    onClick: () => d(Math.max(0, c - 1)),
+                  },
+                  "\u2039\u2039",
                 ),
                 s.default.createElement(
                   "button",
-                  { onClick: () => x(!p) },
-                  p ? "\u66AB\u505C" : "\u64AD\u653E",
+                  {
+                    className: "player-btn play",
+                    "aria-label": p ? "\u66AB\u505C" : "\u64AD\u653E",
+                    onClick: () => x(!p),
+                  },
+                  p ? "\u275A\u275A" : "\u25B6",
                 ),
                 s.default.createElement(
                   "button",
-                  { onClick: () => d(c + 1) },
-                  "\u4E0B\u4E00\u500B \u203A",
+                  {
+                    className: "player-btn",
+                    "aria-label": "\u4E0B\u4E00\u500B",
+                    onClick: () => d(c + 1),
+                  },
+                  "\u203A\u203A",
                 ),
               ),
               s.default.createElement(
-                "label",
+                "div",
                 { className: "field" },
-                "\u91CD\u8907\u6B21\u6578",
                 s.default.createElement(
-                  "select",
-                  {
-                    value: o.repeat ?? 1,
-                    onChange: (j) =>
-                      n({ ...o, repeat: Number(j.target.value) }),
-                  },
-                  [1, 2, 3].map((j) =>
-                    s.default.createElement(
-                      "option",
-                      { key: j, value: j },
-                      j,
-                      " \u6B21",
-                    ),
+                  "span",
+                  null,
+                  "\u91CD\u8907\u6B21\u6578",
+                ),
+                s.default.createElement(
+                  "div",
+                  { className: "stepper-row" },
+                  s.default.createElement(
+                    "button",
+                    {
+                      onClick: () =>
+                        n({ ...o, repeat: Math.max(1, (o.repeat ?? 1) - 1) }),
+                      disabled: (o.repeat ?? 1) <= 1,
+                    },
+                    "\u2212",
+                  ),
+                  s.default.createElement(
+                    "strong",
+                    null,
+                    (o.repeat ?? 1) + " \u6B21",
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      onClick: () =>
+                        n({ ...o, repeat: Math.min(3, (o.repeat ?? 1) + 1) }),
+                      disabled: (o.repeat ?? 1) >= 3,
+                    },
+                    "+",
                   ),
                 ),
               ),
               s.default.createElement(
                 "label",
                 { className: "field" },
-                "\u901F\u5EA6",
+                "\u901F\u5EA6\uFF1A" +
+                  Math.round((o.rate ?? 0.9) * 100) / 100 +
+                  "x",
+                s.default.createElement("input", {
+                  type: "range",
+                  min: 0.5,
+                  max: 1.5,
+                  step: 0.05,
+                  value: o.rate ?? 0.9,
+                  onChange: (j) => n({ ...o, rate: Number(j.target.value) }),
+                }),
                 s.default.createElement(
-                  "select",
-                  {
-                    value: o.rate,
-                    onChange: (j) => n({ ...o, rate: Number(j.target.value) }),
-                  },
-                  [0.7, 0.9, 1, 1.2].map((j) =>
-                    s.default.createElement(
-                      "option",
-                      { key: j, value: j },
-                      j,
-                      " \u500D",
-                    ),
-                  ),
+                  "span",
+                  { className: "range-ends" },
+                  "0.5x \u2013 1.5x",
                 ),
               ),
               s.default.createElement(

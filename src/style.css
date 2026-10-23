@@ -7,7 +7,7 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .quiz-footer button.next-btn{display:block;width:calc(100% - 24px);margin:0 12px 2px}
 .quiz-prompt{padding-bottom:34px}
 .card-phon{position:absolute;bottom:8px;left:0;right:0;text-align:center;color:var(--dim);font-size:13px}
-.exp-open{position:absolute;left:8px;bottom:6px;font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:8px;padding:3px 8px;background:var(--panel)}
+.reaper-app button.exp-open{position:absolute;left:8px;bottom:6px;width:26px;height:26px;border-radius:50%;background:#eceef1;color:#14161a;font-style:italic;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;padding:0;border:none}
 .quiz-options button{justify-content:space-between}
 .quiz-options button .mark-ok,.quiz-options button .mark-bad{order:2;margin-left:auto}
 .fam-pick{display:flex!important;flex-direction:column;gap:8px;margin-top:10px}
@@ -50,7 +50,7 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .flashcard.fc-out-l{transform:translateX(-120%) rotate(-12deg)!important;opacity:0}
 .flashcard .fc-speaker{position:absolute;left:8px;top:8px;right:auto}
 .flashcard .fc-star{position:absolute;right:8px;top:8px}
-.flashcard .fc-info{position:absolute;right:10px;bottom:10px;top:auto;width:28px;height:28px;border-radius:50%;background:#eceef1;color:#14161a;font-style:italic;font-weight:700}
+.flashcard .fc-info{position:absolute;left:10px;bottom:10px;top:auto;width:28px;height:28px;border-radius:50%;background:#eceef1;color:#14161a;font-style:italic;font-weight:700}
 .fc-label-ok{position:absolute;left:14px;top:44px;color:#4caf7d;font-size:22px}
 .fc-label-no{position:absolute;right:14px;top:44px;color:#e08a3c;font-size:22px}
 .fc-progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin:2px 0 10px}
@@ -75,4 +75,8 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .fc-hdr-text{font-size:14px;color:var(--dim);padding:4px 6px}
 .fc-bottom .fc-text-btn{font-size:15px;color:var(--dim);padding:8px 6px}
 .parts-list h3{margin:10px 0 4px}.part-row{margin:2px 0;display:flex;gap:8px;align-items:baseline}.part-w{font-weight:600}.part-m{color:var(--muted,#666)}
-
+.player-controls{display:flex;align-items:center;justify-content:center;gap:18px;margin:14px 0}
+.player-btn{width:52px;height:52px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:18px;display:inline-flex;align-items:center;justify-content:center}
+.player-btn.play{width:64px;height:64px;background:var(--btn);color:#fff;font-size:20px;border:none}
+.reaper-app input[type=range]{padding:0;border:none;background:none;width:100%;height:28px}
+.range-ends{font-size:11px;color:var(--dim);text-align:center}
