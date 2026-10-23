@@ -10981,6 +10981,85 @@ Error generating stack: ` +
       ],
       sourceUrl: "https://www.irodori.jpf.go.jp/starter/pdf.html",
     },
+    {
+      id: "jp-grammar-010",
+      contentType: "grammar",
+      lang: "jp",
+      title: "\u301C\u3092\uFF0B\u6578\u91CF\uFF0B\u304F\u3060\u3055\u3044",
+      rule: "\u8981\u5E7E\u500B\u6771\u897F\u6642\u8AAA\u300C\uFF08\u6771\u897F\uFF09\u3092\uFF08\u6578\u91CF\uFF09\u304F\u3060\u3055\u3044\u300D\u3002\u6578\u91CF\u7528\u4E00\u822C\u8A08\u6578 \u4E00\u3064\u30FB\u4E8C\u3064\u30FB\u4E09\u3064\u2026\uFF0C\u5341\u500B\u8B80 \u3068\u304A\uFF08\u4E0D\u52A0 \u3064\uFF09\u3002\u672C\u8AB2\u6559\u5B78\u53E5\uFF1A\u308A\u3093\u3054\u3092\u4E8C\u3064\u304F\u3060\u3055\u3044\uFF08\u8ACB\u7D66\u6211\u5169\u9846\u860B\u679C\uFF09\u3002",
+      examples: [
+        {
+          text: "\u5C01\u7B52\u3092\u304F\u3060\u3055\u3044\u3002",
+          zh: "\u8ACB\u7D66\u6211\u4E00\u500B\u4FE1\u5C01\u3002",
+          src: "tatoeba",
+          tid: "84069",
+        },
+        {
+          text: "\u6BDB\u5E03\u3092\u304F\u3060\u3055\u3044\u3002",
+          zh: "\u8ACB\u7D66\u6211\u4E00\u584A\u6BDB\u6BEF\u3002",
+          src: "tatoeba",
+          tid: "80172",
+        },
+      ],
+      sourceUrl: "https://tatoeba.org/en/sentences/show/84069",
+    },
+    {
+      id: "jp-grammar-011",
+      contentType: "grammar",
+      lang: "jp",
+      title: "\u4EBA\u6578\uFF1A\u4E00\u4EBA\u30FB\u4E8C\u4EBA\u30FB\u301C\u306B\u3093",
+      rule: "\u4E00\u500B\u4EBA\u3001\u5169\u500B\u4EBA\u662F\u7279\u6B8A\u8B80\u6CD5\uFF1A\u4E00\u4EBA \u3072\u3068\u308A\u3001\u4E8C\u4EBA \u3075\u305F\u308A\u3002\u4E09\u4EBA\u4EE5\u4E0A\u7528\u300C\u6578\u5B57\uFF0B\u306B\u3093\u300D\uFF0C\u5176\u4E2D\u56DB\u4EBA\u8B80 \u3088\u306B\u3093\u3002\u554F\u4EBA\u6578\u7528 \u4F55\u4EBA\uFF08\u306A\u3093\u306B\u3093\uFF09\u3002",
+      examples: [
+        {
+          text: "\u5BB6\u65CF\u306F\uFF14\u4EBA\u3067\u3059\u3002",
+          zh: "\u6211\u5BB6\u6709\u56DB\u500B\u4EBA\u3002",
+          src: "tatoeba",
+          tid: "186941",
+        },
+        {
+          text: "\u79C1\u9054\u306B\u306F\u5A18\u304C\u4E8C\u4EBA\u3044\u307E\u3059\u3002",
+          zh: "\u6211\u5011\u6709\u5169\u500B\u5973\u5152\u3002",
+          src: "tatoeba",
+          tid: "152010",
+        },
+        {
+          text: "\u4F55\u4EBA\u3067\u3059\u304B\u3002",
+          zh: "\u591A\u5C11\u4EBA\uFF1F",
+          src: "tatoeba",
+          tid: "187378",
+        },
+      ],
+      sourceUrl: "https://tatoeba.org/en/sentences/show/186941",
+    },
+    {
+      id: "jp-grammar-012",
+      contentType: "grammar",
+      lang: "jp",
+      title:
+        "\u50F9\u683C\u300C\u301C\u5186\u300D\u30FB\u5E74\u9F61\u300C\u301C\u6B73\u300D",
+      rule: "\u50F9\u683C\u7528\u300C\u6578\u5B57\uFF0B\u5186\u300D\uFF0C\u554F\u50F9\u9322\u7528 \u3044\u304F\u3089\u3067\u3059\u304B\uFF1B\u5E74\u9F61\u7528\u300C\u6578\u5B57\uFF0B\u6B73\u300D\uFF0C\u554F\u5E74\u9F61\u7528 \u4F55\u6B73\uFF08\u306A\u3093\u3055\u3044\uFF09\u3067\u3059\u304B\u3002\u4E8C\u5341\u6B72\u662F\u7279\u6B8A\u8B80\u6CD5 \u306F\u305F\u3061\u3002",
+      examples: [
+        {
+          text: "\u5168\u90E8\u3067\u4E09\u5343\u5186\u3067\u3059\u3002",
+          zh: "\u7E3D\u5171\u662F3000\u65E5\u5143\u3002",
+          src: "tatoeba",
+          tid: "205018",
+        },
+        {
+          text: "\uFF11\uFF19\u6B73\u3067\u3059\u3002",
+          zh: "\u6211 19 \u6B72\u3002",
+          src: "tatoeba",
+          tid: "235870",
+        },
+        {
+          text: "\u304A\u6BCD\u3055\u3093\u306F\u4F55\u6B73\uFF1F",
+          zh: "\u5ABD\u5ABD\u591A\u5927\u5E74\u7D00\uFF1F",
+          src: "tatoeba",
+          tid: "13226023",
+        },
+      ],
+      sourceUrl: "https://tatoeba.org/en/sentences/show/235870",
+    },
   ];
   var V = fm,
     P1 = "mmv:vocabulary.userwords.v1",
@@ -11016,6 +11095,13 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.27",
+        d: "10/24",
+        items: [
+          "\u65E5\u6587\u7B2C\u4E03\u8AB2\u300C\u6578\u5B57\u8207\u8A08\u6578\u300D\uFF1A30 \u500B\u6559\u5B78\u9805\u76EE\uFF0823 \u500B\u6CBF\u7528 N5 \u5B57\u5EAB\u65E2\u6709\u689D\u76EE\u8207\u9032\u5EA6\uFF0C\u53E6\u589E 6 \u500B\u65B0\u689D\u76EE\uFF1A\u4E5D\u30FB\u5186\u30FB\u6B73\u30FB\u3044\u304F\u3089\u30FB\u4F55\u6B73\u30FB\u96FB\u8A71\u756A\u53F7\uFF09\uFF1B\u65B0\u53E5\u578B 3 \u500B\uFF08\u301C\u3092\uFF0B\u6578\u91CF\uFF0B\u304F\u3060\u3055\u3044\u3001\u4EBA\u6578 \u3072\u3068\u308A\uFF0F\u3075\u305F\u308A \u8207\u301C\u306B\u3093\u3001\u301C\u5186\u30FB\u301C\u6B73\uFF09\uFF1B\u6578\u8A5E\u7B46\u8A18\u88DC\u4E0A \u56DB\u6642 \u3088\u3058\u30FB\u4E03\u6642 \u3057\u3061\u3058\u30FB\u4E00\u5343 \u3044\u3063\u305B\u3093\u30FB\u5341\u7684\u4E00\u822C\u8A08\u6578 \u3068\u304A\u30FB\u4E00\u4EBA\uFF0F\u4E8C\u4EBA \u7279\u6B8A\u8B80\u6CD5",
+        ],
+      },
       {
         v: "v14.26",
         d: "10/23",
@@ -11385,6 +11471,31 @@ Error generating stack: ` +
       "\u719F\u6089",
       "\u5DF2\u638C\u63E1",
     ],
+    Nm = {
+      "jp-511": 1,
+      "jp-324": 1,
+      "jp-361": 1,
+      "jp-622": 1,
+      "jp-358": 1,
+      "jp-398": 1,
+      "jp-620": 1,
+      "jp-395": 1,
+      "jp-350": 1,
+      "jp-216": 1,
+      "jp-383": 1,
+      "jp-503": 1,
+      "jp-266": 1,
+      "jp-296": 1,
+      "jp-368": 1,
+      "jp-397": 1,
+      "jp-402": 1,
+      "jp-532": 1,
+      "jp-410": 1,
+      "jp-539": 1,
+      "jp-409": 1,
+      "jp-613": 1,
+      "jp-614": 1,
+    },
     Fs = {
       books: [
         { id: "greetings", name: "\u554F\u5019\u8207\u4ECB\u7D39" },
@@ -11393,22 +11504,25 @@ Error generating stack: ` +
         { id: "food", name: "\u98F2\u98DF" },
         { id: "adjectives", name: "\u5F62\u5BB9\u8A5E" },
         { id: "family", name: "\u5BB6\u4EBA\u8207\u4EBA\u7269" },
+        { id: "numbers", name: "\u6578\u5B57\u8207\u8A08\u6578" },
         ...jm,
       ],
       entries: Object.fromEntries(
-        V.filter((e) => !e.bank).map((e) => [
+        V.filter((e) => !e.bank || Nm[e.id]).map((e) => [
           e.id,
           {
             books: [
               e.themeId ??
-                (Number(e.id.slice(3)) <= 6
-                  ? "greetings"
-                  : Number(e.id.slice(3)) <= 16
-                    ? "daily"
-                    : Number(e.id.slice(3)) <= 18 ||
-                        Number(e.id.slice(3)) === 21
-                      ? "time"
-                      : "food"),
+                (Nm[e.id]
+                  ? "numbers"
+                  : Number(e.id.slice(3)) <= 6
+                    ? "greetings"
+                    : Number(e.id.slice(3)) <= 16
+                      ? "daily"
+                      : Number(e.id.slice(3)) <= 18 ||
+                          Number(e.id.slice(3)) === 21
+                        ? "time"
+                        : "food"),
             ],
           },
         ]),
@@ -12006,7 +12120,9 @@ Error generating stack: ` +
     (0, s.useEffect)(() => {
       if (!n.ready) return;
       let l = Fs.books.filter((C) => !r.books.some((ae) => ae.id === C.id)),
-        z = V.filter((C) => !C.bank && !r.entries[C.id]);
+        z = V.filter(
+          (C) => (!C.bank || Nm[C.id]) && !r.entries[C.id],
+        );
       if (!z.length && !l.length) return;
       let v = [...r.books, ...l],
         S = { ...r.entries };
@@ -12179,6 +12295,7 @@ Error generating stack: ` +
           : 0,
       ),
       Ne = V.filter((l) => l.lang === J && !l.bank),
+      Nl = Ne.concat(V.filter((l) => l.lang === J && Nm[l.id])),
       mf = J === "jp" ? 30 : 10,
       Ur = Cm(),
       Gs = Ne.filter((l) => w[l.id] && w[l.id].d <= Ur),
@@ -12704,7 +12821,10 @@ Error generating stack: ` +
               ? "\u6B63\u5728\u5132\u5B58\u2026"
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
-      id = (l) => Ne.filter((z) => r.entries[z.id]?.books.includes(l.id)),
+      id = (l) =>
+        (l.id === "numbers" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+          (z) => r.entries[z.id]?.books.includes(l.id),
+        ),
       to = (l) =>
         l.length
           ? Math.round(
@@ -12845,9 +12965,9 @@ Error generating stack: ` +
                             s.default.createElement(
                               "small",
                               null,
-                              Ne.filter((l) => l.contentType === "word").length,
+                              Nl.filter((l) => l.contentType === "word").length,
                               " \u55AE\u5B57 \xB7 ",
-                              Ne.filter((l) => l.contentType === "phrase")
+                              Nl.filter((l) => l.contentType === "phrase")
                                 .length,
                               " ",
                               "\u7247\u8A9E",
@@ -12856,14 +12976,14 @@ Error generating stack: ` +
                               "span",
                               { className: "course-fam" },
                               "\u719F\u6089\u5EA6 ",
-                              to(Ne),
+                              to(Nl),
                               "%",
                             ),
                             s.default.createElement(
                               "div",
                               { className: "thin-bar" },
                               s.default.createElement("i", {
-                                style: { width: to(Ne) + "%" },
+                                style: { width: to(Nl) + "%" },
                               }),
                             ),
                           ),
@@ -13846,7 +13966,7 @@ Error generating stack: ` +
                       O === "notebooks" &&
                       s.default.createElement(G1, {
                         catalog: r,
-                        list: Ne,
+                        list: Ne.concat(V.filter((l) => Nm[l.id])),
                         visibleBooks: qr,
                         save: sa,
                         ready: n.ready,
