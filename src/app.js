@@ -13361,7 +13361,7 @@ Error generating stack: ` +
                           s.default.createElement(
                             "button",
                             {
-                              disabled: !FGs.length,
+                              disabled: !Far.length,
                               onClick: () => Rt("familiar", qmF()),
                             },
                             "\u6DF7\u5408\u8907\u7FD2 \u00B7 \u5230\u671F\u512A\u5148 ",
@@ -13707,7 +13707,7 @@ Error generating stack: ` +
                           s.default.createElement(
                             "button",
                             {
-                              disabled: !ar.length,
+                              disabled: !arG.length,
                               onClick: () => Rt("familiar", qm()),
                             },
                             "\u6DF7\u5408\u8907\u7FD2 \xB7 \u5230\u671F\u512A\u5148 ",
