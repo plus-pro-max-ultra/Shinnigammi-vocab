@@ -23,6 +23,6 @@ const lv=await pg.evaluate(()=>JSON.parse(localStorage['mmv:vocabulary.catalog.v
 await go('#/quiz');await click('打字拼字');await click('開始');
 await pg.type('.spell-input','x');await pg.keyboard.press('Enter');await sleep(300);await pg.tap('.next-btn');await sleep(400);
 ok('spell focus after next',await pg.evaluate(()=>document.activeElement.className.includes('spell-input')));
-await go('#/quiz');await click('熟悉度');await click('開始');await click('顯示釋義');await click('陌生');
+await go('#/quiz');await click('熟悉度');await click('開始');await click('陌生');
 ok('familiar quiz no X',await pg.evaluate(()=>!document.querySelector('.mark-bad')));
 console.log('pageerrors',errs);await b.close()})();
