@@ -10497,6 +10497,16 @@ Error generating stack: ` +
     { id: "debook-L2", name: "Lektion 2" },
     { id: "debook-L3", name: "Lektion 3" },
   ];
+  var FD = [
+    { id: "numerals", jp: "\u6578\u8A5E\u8207\u5E8F\u6578", de: "Zahlen \u00B7 \u6578\u8A5E\u8207\u5E8F\u6578" },
+    { id: "determiners", jp: "", de: "Artikel \u00B7 \u51A0\u8A5E\u8207\u9650\u5B9A\u8A5E" },
+    { id: "particles", jp: "\u52A9\u8A5E", de: "" },
+    { id: "prepositions", jp: "", de: "Pr\u00E4positionen \u00B7 \u4ECB\u4FC2\u8A5E" },
+    { id: "pronouns", jp: "\u4EE3\u540D\u8A5E", de: "Pronomen \u00B7 \u4EE3\u540D\u8A5E" },
+    { id: "demonstratives", jp: "\u6307\u793A\u8A5E", de: "" },
+    { id: "questions", jp: "\u7591\u554F\u8A5E", de: "W-Fragen \u00B7 \u7591\u554F\u8A5E" },
+    { id: "conjunctions", jp: "\u63A5\u7E8C\u8A5E", de: "" },
+  ];
   var Il = [
     {
       id: "jp-grammar-001",
@@ -11095,6 +11105,15 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {
+        v: "v14.29",
+        d: "10/25",
+        items: [
+          "\u65B0\u589E\u300C\u8A9E\u8A00\u57FA\u790E\u300D\u7368\u7ACB\u8AB2\u7A0B\uFF08\u65E5\u6587\u30FB\u5FB7\u6587\uFF09\uFF1A\u6578\u8A5E\u8207\u5E8F\u6578\u3001\u51A0\u8A5E\u8207\u9650\u5B9A\u8A5E\u3001\u52A9\u8A5E\uFF08\u65E5\uFF09\uFF0F\u4ECB\u4FC2\u8A5E\uFF08\u5FB7\uFF09\u3001\u4EE3\u540D\u8A5E\u3001\u6307\u793A\u8A5E\u3001\u7591\u554F\u8A5E\u3001\u63A5\u7E8C\u8A5E\u81EA\u6210\u8AB2\u7A0B\uFF0C\u6709\u5C08\u5C6C\u6E2C\u9A57\u7BC4\u570D\uFF0C\u4E0D\u518D\u6DF7\u5165\u4E00\u822C\u55AE\u5143\u8207\u6E2C\u9A57\uFF1B\u5168\u7AD9\u641C\u5C0B\u4ECD\u627E\u5F97\u5230\u3002\u689D\u76EE ID \u4E0D\u8B8A\uFF0C\u65E2\u6709\u719F\u6089\u5EA6\u3001\u8907\u7FD2\u9032\u5EA6\u8207\u5099\u4EFD\u4E0D\u53D7\u5F71\u97FF\uFF0C\u539F\u8AB2\u672C\u55AE\u5143\u6B78\u5C6C\u4FDD\u7559\u70BA\u53C3\u7167",
+          "\u4E00\u822C\u8AB2\u7A0B\u7684\u6DF7\u5408\u8907\u7FD2\u30FB\u5F31\u9805\u7DF4\u7FD2\u30FB\u4ECA\u65E5\u65B0\u5B57\u4E0D\u518D\u6DF7\u5165\u8A9E\u8A00\u57FA\u790E\u689D\u76EE\uFF08\u5132\u5B58\u7684\u9032\u5EA6\u8207\u6392\u7A0B\u5B8C\u5168\u4E0D\u52D5\uFF09\uFF1B\u8A9E\u8A00\u57FA\u790E\u8AB2\u7A0B\u5167\u6709\u81EA\u5DF1\u7684\u6DF7\u5408\u8907\u7FD2\u30FB\u5F31\u9805\u7DF4\u7FD2\u30FB\u672A\u5B78\u689D\u76EE\u5165\u53E3",
+          "\u6E2C\u9A57\u7BC4\u570D\u300C\u5168\u90E8\u689D\u76EE\u300D\u6A19\u660E\u300C\u4E0D\u542B\u8A9E\u8A00\u57FA\u790E\u300D\uFF1BJLPT \u5B57\u5EAB N5/N4 \u7DAD\u6301\u5B8C\u6574\u53C3\u8003\u8A5E\u5EAB\uFF0C\u5176\u7BC4\u570D\u52FE\u9078\u672C\u4F86\u5C31\u660E\u78BA\u6A19\u793A\u70BA\u5B57\u5EAB",
+        ],
+      },
       {
         v: "v14.28",
         d: "10/25",
@@ -12302,13 +12321,22 @@ Error generating stack: ` +
           : 0,
       ),
       Ne = V.filter((l) => l.lang === J && !l.bank),
-      Nl = Ne.concat(V.filter((l) => l.lang === J && Nm[l.id])),
+      Nl = Ne.concat(V.filter((l) => l.lang === J && Nm[l.id])).filter(
+        (l) => !l.foundations,
+      ),
+      FDl = V.filter((l) => l.lang === J && l.foundations),
       mf = J === "jp" ? 30 : 10,
       Ur = Cm(),
-      Gs = Ne.filter((l) => w[l.id] && w[l.id].d <= Ur),
+      NeG = Ne.filter((l) => !l.foundations),
+      Gs = NeG.filter((l) => w[l.id] && w[l.id].d <= Ur),
       ar = Ne.filter((l) => w[l.id]),
-      Qs = Ne.filter((l) => !w[l.id]),
-      ta = Ne.filter((l) => w[l.id]?.n === Ur).length,
+      arG = NeG.filter((l) => w[l.id]),
+      Qs = NeG.filter((l) => !w[l.id]),
+      ta = NeG.filter((l) => w[l.id]?.n === Ur).length,
+      FGs = FDl.filter((l) => w[l.id] && w[l.id].d <= Ur),
+      Far = FDl.filter((l) => w[l.id]),
+      FZs = Far.filter((l) => (r.entries[l.id]?.familiarity ?? 0) < 3),
+      FQs = FDl.filter((l) => !w[l.id]),
       Yr = ar.reduce((l, z) => l + w[z.id].ok, 0),
       ra = ar.reduce((l, z) => l + w[z.id].bad, 0),
       Te = (() => {
@@ -12330,7 +12358,7 @@ Error generating stack: ` +
         }
         return { r: l, c: z, sr: v, sc: S };
       })(),
-      Zs = ar.filter((l) => (r.entries[l.id]?.familiarity ?? 0) < 3),
+      Zs = arG.filter((l) => (r.entries[l.id]?.familiarity ?? 0) < 3),
       Ys = ar
         .filter((l) => w[l.id].bad > 0)
         .sort((l, z) => w[z.id].bad - w[l.id].bad || w[z.id].ok - w[l.id].ok)
@@ -12400,14 +12428,19 @@ Error generating stack: ` +
       Xr = oa(Ym),
       qs = (() => {
         let l = Wo.includes("all")
-          ? V.filter((z) => z.lang === J)
+          ? V.filter((z) => z.lang === J && !z.foundations)
           : [
               ...new Map(
                 [
                   ...(Wo.includes("n5") ? Ko : []),
                   ...(Wo.includes("n4") ? $o : []),
+                  ...(Wo.includes("foundations") ? FDl : []),
                   ...Ne.filter((z) =>
-                    (r.entries[z.id]?.books ?? []).some((L) => Wo.includes(L)),
+                    (r.entries[z.id]?.books ?? []).some(
+                      (L) =>
+                        Wo.includes(L) &&
+                        (!z.foundations || !Fs.books.some((S) => S.id === L)),
+                    ),
                   ),
                 ].map((z) => [z.id, z]),
               ).values(),
@@ -12468,11 +12501,22 @@ Error generating stack: ` +
           S === "courses" && be("words"));
       },
       qm = () => {
-        let l = Math.min(20, ar.length),
+        let l = Math.min(20, arG.length),
           z = Dt(Gs).slice(0, Math.ceil(l * 0.7));
         return Dt([
           ...z,
-          ...Dt(ar.filter((v) => !z.some((S) => S.id === v.id))).slice(
+          ...Dt(arG.filter((v) => !z.some((S) => S.id === v.id))).slice(
+            0,
+            l - z.length,
+          ),
+        ]).map((v) => v.id);
+      },
+      qmF = () => {
+        let l = Math.min(20, Far.length),
+          z = Dt(FGs).slice(0, Math.ceil(l * 0.7));
+        return Dt([
+          ...z,
+          ...Dt(Far.filter((v) => !z.some((S) => S.id === v.id))).slice(
             0,
             l - z.length,
           ),
@@ -12830,7 +12874,9 @@ Error generating stack: ` +
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
         (l.id === "numbers" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
-          (z) => r.entries[z.id]?.books.includes(l.id),
+          (z) =>
+            r.entries[z.id]?.books.includes(l.id) &&
+            (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
         ),
       to = (l) =>
         l.length
@@ -12994,6 +13040,49 @@ Error generating stack: ` +
                               }),
                             ),
                           ),
+                          s.default.createElement(
+                            "button",
+                            {
+                              className: "course-card",
+                              onClick: () => {
+                                (rr("foundations"), be("units"));
+                              },
+                            },
+                            s.default.createElement(
+                              "strong",
+                              null,
+                              J === "jp"
+                                ? "\u8A9E\u8A00\u57FA\u790E"
+                                : "Grundlagen \u00B7 \u8A9E\u8A00\u57FA\u790E",
+                            ),
+                            s.default.createElement(
+                              "span",
+                              { className: "course-sub" },
+                              J === "jp"
+                                ? "\u6578\u8A5E\u30FB\u6307\u793A\u8A5E\u30FB\u7591\u554F\u8A5E\u30FB\u4EE3\u540D\u8A5E\u7B49"
+                                : "Zahlen, Artikel, Pr\u00E4positionen usw.",
+                            ),
+                            s.default.createElement(
+                              "small",
+                              null,
+                              FDl.length,
+                              " \u689D\u76EE",
+                            ),
+                            s.default.createElement(
+                              "span",
+                              { className: "course-fam" },
+                              "\u719F\u6089\u5EA6 ",
+                              to(FDl),
+                              "%",
+                            ),
+                            s.default.createElement(
+                              "div",
+                              { className: "thin-bar" },
+                              s.default.createElement("i", {
+                                style: { width: to(FDl) + "%" },
+                              }),
+                            ),
+                          ),
                           J === "jp" &&
                             s.default.createElement(
                               s.default.Fragment,
@@ -13142,7 +13231,13 @@ Error generating stack: ` +
                         s.default.createElement(
                           "div",
                           { className: "unit-list" },
-                          qr.map((l, z) => {
+                          qr
+                            .filter(
+                              (l) =>
+                                id(l).length > 0 ||
+                                !Fs.books.some((z) => z.id === l.id),
+                            )
+                            .map((l, z) => {
                             let v = id(l),
                               S = v.filter((L) => G[L.id]?.star).length;
                             return s.default.createElement(
@@ -13196,7 +13291,131 @@ Error generating stack: ` +
                       ),
                     Q === "courses" &&
                       Et === "units" &&
+                      ut === "foundations" &&
+                      s.default.createElement(
+                        s.default.Fragment,
+                        null,
+                        s.default.createElement(We, {
+                          title:
+                            J === "jp" ? "\u8A9E\u8A00\u57FA\u790E" : "Grundlagen \u00B7 \u8A9E\u8A00\u57FA\u790E",
+                          sub: "\u9078\u64C7\u5206\u985E",
+                          onBack: () => be("courses"),
+                        }),
+                        s.default.createElement(
+                          "div",
+                          { className: "unit-list" },
+                          FD.map((l) => {
+                            let v = FDl.filter((z) => z.foundations === l.id),
+                              S = v.filter((L) => G[L.id]?.star).length;
+                            if (!v.length || !l[J]) return null;
+                            return s.default.createElement(
+                              "button",
+                              {
+                                className: "unit-row",
+                                key: l.id,
+                                onClick: () =>
+                                  Xs(
+                                    l[J],
+                                    `${v.length} \u500B\u689D\u76EE`,
+                                    v.map((L) => L.id),
+                                    "courses",
+                                  ),
+                              },
+                              s.default.createElement(
+                                "span",
+                                { className: "unit-top" },
+                                s.default.createElement(
+                                  "span",
+                                  { className: "unit-name" },
+                                  l[J],
+                                ),
+                                S > 0 &&
+                                  s.default.createElement(
+                                    "b",
+                                    { className: "row-star" },
+                                    "\u2605",
+                                    S,
+                                  ),
+                                s.default.createElement(
+                                  "span",
+                                  { className: "range-badge" },
+                                  v.length,
+                                  " \u5B57",
+                                ),
+                              ),
+                              s.default.createElement(vm, {
+                                counts: km(v, r),
+                                total: v.length,
+                              }),
+                            );
+                          }),
+                        ),
+                        s.default.createElement(
+                          "h3",
+                          { className: "section-head" },
+                          "\u5FEB\u901F\u8907\u7FD2",
+                        ),
+                        s.default.createElement(
+                          "div",
+                          { className: "menu-list" },
+                          s.default.createElement(
+                            "button",
+                            {
+                              disabled: !FGs.length,
+                              onClick: () => Rt("familiar", qmF()),
+                            },
+                            "\u6DF7\u5408\u8907\u7FD2 \u00B7 \u5230\u671F\u512A\u5148 ",
+                            s.default.createElement(
+                              "span",
+                              null,
+                              FGs.length,
+                              " \u203A",
+                            ),
+                          ),
+                          s.default.createElement(
+                            "button",
+                            {
+                              disabled: !FZs.length,
+                              onClick: () =>
+                                Rt(
+                                  "forward",
+                                  Dt(FZs)
+                                    .slice(0, 20)
+                                    .map((l) => l.id),
+                                ),
+                            },
+                            "\u5F31\u9805\u7DF4\u7FD2 \u00B7 \u4F4E\u65BC\u719F\u6089 ",
+                            s.default.createElement(
+                              "span",
+                              null,
+                              FZs.length,
+                              " \u203A",
+                            ),
+                          ),
+                          s.default.createElement(
+                            "button",
+                            {
+                              disabled: !FQs.length,
+                              onClick: () =>
+                                Rt(
+                                  "familiar",
+                                  FQs.slice(0, 20).map((l) => l.id),
+                                ),
+                            },
+                            "\u672A\u5B78\u689D\u76EE ",
+                            s.default.createElement(
+                              "span",
+                              null,
+                              FQs.length,
+                              " \u203A",
+                            ),
+                          ),
+                        ),
+                      ),
+                    Q === "courses" &&
+                      Et === "units" &&
                       ut !== "main" &&
+                      ut !== "foundations" &&
                       s.default.createElement(
                         s.default.Fragment,
                         null,
@@ -13334,7 +13553,19 @@ Error generating stack: ` +
                                   checked: Wo.includes("all"),
                                   onChange: () => Hl("all"),
                                 }),
-                                "\u5168\u90E8\u689D\u76EE",
+                                "\u5168\u90E8\u689D\u76EE\uFF08\u4E0D\u542B\u8A9E\u8A00\u57FA\u790E\uFF09",
+                              ),
+                              s.default.createElement(
+                                "label",
+                                { className: "check-row" },
+                                s.default.createElement("input", {
+                                  type: "checkbox",
+                                  checked: Wo.includes("foundations"),
+                                  onChange: () => Hl("foundations"),
+                                }),
+                                J === "jp"
+                                  ? "\u8A9E\u8A00\u57FA\u790E"
+                                  : "Grundlagen \u00B7 \u8A9E\u8A00\u57FA\u790E",
                               ),
                               J === "jp" &&
                                 s.default.createElement(

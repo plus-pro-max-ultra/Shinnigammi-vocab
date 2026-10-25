@@ -142,7 +142,8 @@
    }
   ],
   "romaji": "watashi",
-  "pos": "代名詞"
+  "pos": "代名詞",
+  "foundations": "pronouns"
  },
  {
   "id": "jp-006",
@@ -833,7 +834,8 @@
     "zh": "我的哥哥住在漢堡。"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-103",
@@ -859,7 +861,8 @@
     "zh": "那是你的書嗎？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-104",
@@ -885,7 +888,8 @@
     "zh": "那是您的書嗎？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-105",
@@ -1068,7 +1072,8 @@
    }
   ],
   "note": "表位置用第三格；表移動方向用第四格",
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "prepositions"
  },
  {
   "id": "de-112",
@@ -1120,7 +1125,8 @@
     "zh": "嗯？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-114",
@@ -1146,7 +1152,8 @@
     "zh": "誰？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-115",
@@ -1172,7 +1179,8 @@
     "zh": "浙江在哪裡？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-116",
@@ -1198,7 +1206,8 @@
     "zh": "你從哪裡來？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-117",
@@ -1463,7 +1472,8 @@
     "zh": "關燈。"
    }
   ],
-  "topic": "Länder und Sprachen"
+  "topic": "Länder und Sprachen",
+  "foundations": "prepositions"
  },
  {
   "id": "de-127",
@@ -2077,7 +2087,8 @@
     "zh": "汽車的數量在增長。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-146",
@@ -2103,7 +2114,8 @@
     "zh": "2010這個數字裡有兩個零。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-147",
@@ -2129,7 +2141,8 @@
     "zh": "再來一個！"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-148",
@@ -2155,7 +2168,8 @@
     "zh": "請來兩杯奶咖。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-149",
@@ -2181,7 +2195,8 @@
     "zh": "我三點鐘可以來。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-150",
@@ -2207,7 +2222,8 @@
     "zh": "我有四個孩子。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-151",
@@ -2233,7 +2249,8 @@
     "zh": "我看見五個男人。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-152",
@@ -2259,7 +2276,8 @@
     "zh": "我六英尺高。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-153",
@@ -2285,7 +2303,8 @@
     "zh": "七個？"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-154",
@@ -2311,7 +2330,8 @@
     "zh": "保重。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-155",
@@ -2337,7 +2357,8 @@
     "zh": "貓有九條命。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-156",
@@ -2363,7 +2384,8 @@
     "zh": "數到十。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-157",
@@ -2389,7 +2411,8 @@
     "zh": "俄羅斯有11個時區。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-158",
@@ -2415,7 +2438,8 @@
     "zh": "她十二歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-159",
@@ -2441,7 +2465,8 @@
     "zh": "我有十三隻貓。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-160",
@@ -2467,7 +2492,8 @@
     "zh": "這裡住著14個人。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-161",
@@ -2493,7 +2519,8 @@
     "zh": "我爸爸只有十五歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-162",
@@ -2519,7 +2546,8 @@
     "zh": "薩米十六歲左右。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-163",
@@ -2545,7 +2573,8 @@
     "zh": "她十七歲了。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-164",
@@ -2571,7 +2600,8 @@
     "zh": "我十八歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-165",
@@ -2592,7 +2622,8 @@
     "en": "The number is nineteen."
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-166",
@@ -2618,7 +2649,8 @@
     "zh": "它有二十個孩子"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-167",
@@ -3459,7 +3491,8 @@
     "zh": "什麼時候？"
    }
   ],
-  "topic": "in der Freizeit"
+  "topic": "in der Freizeit",
+  "foundations": "questions"
  },
  {
   "id": "de-198",
@@ -4011,7 +4044,8 @@
     "zh": "歡迎來到 Tatoeba！"
    }
   ],
-  "topic": "Berufe und Arbeit"
+  "topic": "Berufe und Arbeit",
+  "foundations": "prepositions"
  },
  {
   "id": "de-219",
@@ -4063,7 +4097,8 @@
     "zh": "你一定是開玩笑！"
    }
   ],
-  "topic": "Berufe und Arbeit"
+  "topic": "Berufe und Arbeit",
+  "foundations": "prepositions"
  },
  {
   "id": "de-221",
@@ -6111,7 +6146,8 @@
     "zh": "大家都歡呼了。"
    }
   ],
-  "topic": "andere wichtige Wörter und Wendungen"
+  "topic": "andere wichtige Wörter und Wendungen",
+  "foundations": "pronouns"
  },
  {
   "id": "de-299",
@@ -6493,7 +6529,8 @@
     "zh": "多少錢？"
    }
   ],
-  "topic": "andere wichtige Wörter und Wendungen"
+  "topic": "andere wichtige Wörter und Wendungen",
+  "foundations": "pronouns"
  },
  {
   "id": "de-312",
@@ -7267,7 +7304,8 @@
    }
   ],
   "note": "表示「超過」時後接數字；其他用法第三格（位置）或第四格（方向）",
-  "topic": "Maße angeben"
+  "topic": "Maße angeben",
+  "foundations": "prepositions"
  },
  {
   "id": "de-341",
@@ -7648,7 +7686,8 @@
    }
   ],
   "note": "去城市或沒有冠詞的國家用 nach；後接第三格",
-  "topic": "Verkehrsmittel"
+  "topic": "Verkehrsmittel",
+  "foundations": "prepositions"
  },
  {
   "id": "de-355",
@@ -10609,7 +10648,8 @@
    }
   ],
   "romaji": "kore",
-  "pos": "代名詞"
+  "pos": "代名詞",
+  "foundations": "demonstratives"
  },
  {
   "id": "jp-047",
@@ -10650,7 +10690,8 @@
    }
   ],
   "romaji": "sore",
-  "pos": "代名詞"
+  "pos": "代名詞",
+  "foundations": "demonstratives"
  },
  {
   "id": "jp-048",
@@ -10691,7 +10732,8 @@
    }
   ],
   "romaji": "are",
-  "pos": "代名詞"
+  "pos": "代名詞",
+  "foundations": "demonstratives"
  },
  {
   "id": "jp-049",
@@ -10733,7 +10775,8 @@
   ],
   "note": "有 なに・なん 兩種讀法（何ですか＝なん）",
   "romaji": "nani",
-  "pos": "代名詞"
+  "pos": "代名詞",
+  "foundations": "questions"
  },
  {
   "id": "jp-050",
@@ -17619,7 +17662,8 @@
     "tid": "13537075"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E4%B8%80%E7%95%AA"
+  "sourceUrl": "https://jisho.org/search/%E4%B8%80%E7%95%AA",
+  "foundations": "numerals"
  },
  {
   "id": "jp-214",
@@ -17741,7 +17785,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E7%99%BE",
-  "note": "音便多：三百 さんびゃく、六百 ろっぴゃく、八百 はっぴゃく"
+  "note": "音便多：三百 さんびゃく、六百 ろっぴゃく、八百 はっぴゃく",
+  "foundations": "numerals"
  },
  {
   "id": "jp-217",
@@ -18186,7 +18231,8 @@
     "src": "corpus",
     "n": 65
    }
-  ]
+  ],
+  "foundations": "pronouns"
  },
  {
   "id": "jp-226",
@@ -18878,7 +18924,8 @@
     "refId": "jpl5-26",
     "src": "app"
    }
-  ]
+  ],
+  "foundations": "questions"
  },
  {
   "id": "jp-240",
@@ -20071,7 +20118,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%80%E3%81%A4",
-  "note": "特殊讀音 ひとつ；「～つ」系列一到九各自不同"
+  "note": "特殊讀音 ひとつ；「～つ」系列一到九各自不同",
+  "foundations": "numerals"
  },
  {
   "id": "jp-267",
@@ -21488,7 +21536,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%BA%8C%E3%81%A4",
-  "note": "特殊讀音 ふたつ"
+  "note": "特殊讀音 ふたつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-297",
@@ -22774,7 +22823,8 @@
     "n": 3
    }
   ],
-  "note": "組合穩定唸 に：二つ ふたつ、二個 にこ、二本 にほん"
+  "note": "組合穩定唸 に：二つ ふたつ、二個 にこ、二本 にほん",
+  "foundations": "numerals"
  },
  {
   "id": "jp-325",
@@ -23899,7 +23949,8 @@
     "n": 2
    }
   ],
-  "note": "一般計數（十個）讀 とお，不加 つ；十分 じゅっぷん（口語 じっぷん）等組合有促音便"
+  "note": "一般計數（十個）讀 とお，不加 つ；十分 じゅっぷん（口語 じっぷん）等組合有促音便",
+  "foundations": "numerals"
  },
  {
   "id": "jp-351",
@@ -24207,7 +24258,8 @@
     "n": 2
    }
   ],
-  "note": "組合穩定唸 ご：五つ いつつ、五個 ごこ"
+  "note": "組合穩定唸 ご：五つ いつつ、五個 ごこ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-359",
@@ -24338,7 +24390,8 @@
     "src": "app"
    }
   ],
-  "note": "三つ みっつ（促音便）；三本 さんぼん（濁音便）"
+  "note": "三つ みっつ（促音便）；三本 さんぼん（濁音便）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-362",
@@ -24606,7 +24659,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%89%E3%81%A4",
-  "note": "促音便 みっつ"
+  "note": "促音便 みっつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-369",
@@ -25213,7 +25267,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%8D%83",
-  "note": "一千 いっせん；三千 さんぜん（濁音便）、八千 はっせん（促音便）"
+  "note": "一千 いっせん；三千 さんぜん（濁音便）、八千 はっせん（促音便）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-384",
@@ -25759,7 +25814,8 @@
     "n": 2
    }
   ],
-  "note": "八つ やっつ；八個 はっこ（促音便）"
+  "note": "八つ やっつ；八個 はっこ（促音便）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-396",
@@ -25834,7 +25890,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%9B%9B%E3%81%A4",
-  "note": "促音便 よっつ"
+  "note": "促音便 よっつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-398",
@@ -25862,7 +25919,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%85%AD",
-  "note": "六つ むっつ（促音便）；六個 ろっこ"
+  "note": "六つ むっつ（促音便）；六個 ろっこ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-399",
@@ -25989,7 +26047,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%BA%94%E3%81%A4",
-  "note": "特殊讀音 いつつ"
+  "note": "特殊讀音 いつつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-403",
@@ -26202,7 +26261,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B9%9D%E3%81%A4",
-  "note": "特殊讀音 ここのつ；九唸 きゅう 或 く（九時 くじ）"
+  "note": "特殊讀音 ここのつ；九唸 きゅう 或 く（九時 くじ）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-410",
@@ -26228,7 +26288,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%83%E3%81%A4",
-  "note": "特殊讀音 ななつ"
+  "note": "特殊讀音 ななつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-411",
@@ -30317,7 +30378,8 @@
     "n": 4
    }
   ],
-  "note": "一萬 いちまん；直接加在數字後"
+  "note": "一萬 いちまん；直接加在數字後",
+  "foundations": "numerals"
  },
  {
   "id": "jp-504",
@@ -30649,7 +30711,8 @@
     "n": 6
    }
   ],
-  "note": "單獨唸 いち；組合常變音：一つ ひとつ、一個 いっこ、一本 いっぽん"
+  "note": "單獨唸 いち；組合常變音：一つ ひとつ、一個 いっこ、一本 いっぽん",
+  "foundations": "numerals"
  },
  {
   "id": "jp-512",
@@ -31388,7 +31451,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%85%AD%E3%81%A4",
-  "note": "促音便 むっつ"
+  "note": "促音便 むっつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-533",
@@ -31578,7 +31642,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%85%AB%E3%81%A4",
-  "note": "促音便 やっつ"
+  "note": "促音便 やっつ",
+  "foundations": "numerals"
  },
  {
   "id": "jp-540",
@@ -32139,7 +32204,8 @@
     "tid": "228814"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E3%81%A7%E3%82%82"
+  "sourceUrl": "https://jisho.org/search/%E3%81%A7%E3%82%82",
+  "foundations": "conjunctions"
  },
  {
   "id": "jp-555",
@@ -34156,7 +34222,8 @@
     "tid": "105474"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E5%BD%BC"
+  "sourceUrl": "https://jisho.org/search/%E5%BD%BC",
+  "foundations": "pronouns"
  },
  {
   "id": "jp-603",
@@ -34525,7 +34592,8 @@
     "n": 23
    }
   ],
-  "note": "「一個人」的特殊讀法；三人以上用「數字＋にん」（四人 よにん）"
+  "note": "「一個人」的特殊讀法；三人以上用「數字＋にん」（四人 よにん）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-614",
@@ -34573,7 +34641,8 @@
     "n": 19
    }
   ],
-  "note": "「兩個人」的特殊讀法；三人以上用「數字＋にん」（四人 よにん）"
+  "note": "「兩個人」的特殊讀法；三人以上用「數字＋にん」（四人 よにん）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-615",
@@ -34818,7 +34887,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%83",
-  "note": "唸 しち 或 なな：七時 しちじ、七つ ななつ、七月 しちがつ（口語也唸 なながつ）"
+  "note": "唸 しち 或 なな：七時 しちじ、七つ ななつ、七月 しちがつ（口語也唸 なながつ）",
+  "foundations": "numerals"
  },
  {
   "id": "jp-621",
@@ -34869,7 +34939,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%9B%9B",
-  "note": "唸 し 或 よん：四つ よっつ、四時 よじ、四月 しがつ、四人 よにん"
+  "note": "唸 し 或 よん：四つ よっつ、四時 よじ、四月 しがつ、四人 よにん",
+  "foundations": "numerals"
  },
  {
   "id": "jp-623",
@@ -35259,7 +35330,8 @@
     "tid": "5804556"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%99%82"
+  "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%99%82",
+  "foundations": "questions"
  },
  {
   "id": "jp-635",
@@ -35503,7 +35575,8 @@
     "tid": "220065"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E8%AA%B0%E3%81%8B"
+  "sourceUrl": "https://jisho.org/search/%E8%AA%B0%E3%81%8B",
+  "foundations": "pronouns"
  },
  {
   "id": "jp-641",
@@ -35832,7 +35905,8 @@
     "w": "から",
     "m": "從～之後"
    }
-  ]
+  ],
+  "foundations": "conjunctions"
  },
  {
   "id": "jp-651",
@@ -41903,7 +41977,8 @@
     "tid": "108340"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E5%BD%BC"
+  "sourceUrl": "https://jisho.org/search/%E5%BD%BC",
+  "foundations": "pronouns"
  },
  {
   "id": "jp-808",
@@ -42256,7 +42331,8 @@
     "tid": "90519"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E5%BD%BC%E5%A5%B3"
+  "sourceUrl": "https://jisho.org/search/%E5%BD%BC%E5%A5%B3",
+  "foundations": "pronouns"
  },
  {
   "id": "jp-816",
@@ -58321,7 +58397,8 @@
     "tid": "10942478"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E3%81%A0%E3%81%8B%E3%82%89"
+  "sourceUrl": "https://jisho.org/search/%E3%81%A0%E3%81%8B%E3%82%89",
+  "foundations": "conjunctions"
  },
  {
   "id": "jp-1208",
@@ -60470,7 +60547,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%BD%BC",
-  "note": "也可指「男朋友」，依上下文判斷"
+  "note": "也可指「男朋友」，依上下文判斷",
+  "foundations": "pronouns"
  },
  {
   "id": "jpl5-17",
@@ -60494,7 +60572,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%BD%BC%E5%A5%B3",
-  "note": "也可指「女朋友」，依上下文判斷"
+  "note": "也可指「女朋友」，依上下文判斷",
+  "foundations": "pronouns"
  },
  {
   "id": "jpl5-18",
@@ -60881,7 +60960,8 @@
     "src": "app"
    }
   ],
-  "note": "疑問詞，放句中、句尾加 か（誰ですか）"
+  "note": "疑問詞，放句中、句尾加 か（誰ですか）",
+  "foundations": "questions"
  },
  {
   "id": "jpl5-27",
@@ -61244,7 +61324,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%9B%9C%E6%97%A5",
-  "note": "疑問詞，句尾加 か（今日は何曜日ですか）"
+  "note": "疑問詞，句尾加 か（今日は何曜日ですか）",
+  "foundations": "questions"
  },
  {
   "id": "jpl6-09",
@@ -61769,7 +61850,8 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%99%82",
-  "note": "疑問詞，句尾加 か（何時に起きますか）"
+  "note": "疑問詞，句尾加 か（何時に起きますか）",
+  "foundations": "questions"
  },
  {
   "id": "jpl7-01",
@@ -61797,7 +61879,8 @@
    }
   ],
   "note": "九時 くじ、九月 くがつ 讀 く；其他組合多讀 きゅう（九人 きゅうにん・九番 きゅうばん）",
-  "sourceUrl": "https://jisho.org/search/%E4%B9%9D"
+  "sourceUrl": "https://jisho.org/search/%E4%B9%9D",
+  "foundations": "numerals"
  },
  {
   "id": "jpl7-02",
@@ -61825,7 +61908,8 @@
    }
   ],
   "note": "價格用「數字＋円」；問價錢用「いくらですか」",
-  "sourceUrl": "https://jisho.org/search/%E5%86%86"
+  "sourceUrl": "https://jisho.org/search/%E5%86%86",
+  "foundations": "numerals"
  },
  {
   "id": "jpl7-03",
@@ -61853,7 +61937,8 @@
    }
   ],
   "note": "二十歳讀 はたち；一歳 いっさい、八歳 はっさい、十歳 じゅっさい 是促音便；問年齡用 何歳（なんさい）",
-  "sourceUrl": "https://jisho.org/search/%E6%AD%B3"
+  "sourceUrl": "https://jisho.org/search/%E6%AD%B3",
+  "foundations": "numerals"
  },
  {
   "id": "jpl7-04",
@@ -61881,7 +61966,8 @@
    }
   ],
   "note": "主要用來問價錢，也可問數量或程度，不只限於價格",
-  "sourceUrl": "https://jisho.org/search/%E3%81%84%E3%81%8F%E3%82%89"
+  "sourceUrl": "https://jisho.org/search/%E3%81%84%E3%81%8F%E3%82%89",
+  "foundations": "questions"
  },
  {
   "id": "jpl7-05",
@@ -61909,7 +61995,8 @@
    }
   ],
   "note": "問年齡；回答用「〜歳です」（二十歳 はたち）",
-  "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%AD%B3"
+  "sourceUrl": "https://jisho.org/search/%E4%BD%95%E6%AD%B3",
+  "foundations": "questions"
  },
  {
   "id": "jpl7-06",
@@ -61937,6 +62024,7 @@
    }
   ],
   "note": "號碼逐一唸數字；問號碼用「何番（なんばん）ですか」",
-  "sourceUrl": "https://jisho.org/search/%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7"
+  "sourceUrl": "https://jisho.org/search/%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7",
+  "foundations": "numerals"
  }
 ]

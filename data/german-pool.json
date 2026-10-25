@@ -49,7 +49,8 @@
     "zh": "我的哥哥住在漢堡。"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-103",
@@ -75,7 +76,8 @@
     "zh": "那是你的書嗎？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-104",
@@ -101,7 +103,8 @@
     "zh": "那是您的書嗎？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "determiners"
  },
  {
   "id": "de-105",
@@ -284,7 +287,8 @@
    }
   ],
   "note": "表位置用第三格；表移動方向用第四格",
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "prepositions"
  },
  {
   "id": "de-112",
@@ -336,7 +340,8 @@
     "zh": "嗯？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-114",
@@ -362,7 +367,8 @@
     "zh": "誰？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-115",
@@ -388,7 +394,8 @@
     "zh": "浙江在哪裡？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-116",
@@ -414,7 +421,8 @@
     "zh": "你從哪裡來？"
    }
   ],
-  "topic": "sich vorstellen"
+  "topic": "sich vorstellen",
+  "foundations": "questions"
  },
  {
   "id": "de-117",
@@ -679,7 +687,8 @@
     "zh": "關燈。"
    }
   ],
-  "topic": "Länder und Sprachen"
+  "topic": "Länder und Sprachen",
+  "foundations": "prepositions"
  },
  {
   "id": "de-127",
@@ -1293,7 +1302,8 @@
     "zh": "汽車的數量在增長。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-146",
@@ -1319,7 +1329,8 @@
     "zh": "2010這個數字裡有兩個零。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-147",
@@ -1345,7 +1356,8 @@
     "zh": "再來一個！"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-148",
@@ -1371,7 +1383,8 @@
     "zh": "請來兩杯奶咖。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-149",
@@ -1397,7 +1410,8 @@
     "zh": "我三點鐘可以來。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-150",
@@ -1423,7 +1437,8 @@
     "zh": "我有四個孩子。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-151",
@@ -1449,7 +1464,8 @@
     "zh": "我看見五個男人。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-152",
@@ -1475,7 +1491,8 @@
     "zh": "我六英尺高。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-153",
@@ -1501,7 +1518,8 @@
     "zh": "七個？"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-154",
@@ -1527,7 +1545,8 @@
     "zh": "保重。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-155",
@@ -1553,7 +1572,8 @@
     "zh": "貓有九條命。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-156",
@@ -1579,7 +1599,8 @@
     "zh": "數到十。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-157",
@@ -1605,7 +1626,8 @@
     "zh": "俄羅斯有11個時區。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-158",
@@ -1631,7 +1653,8 @@
     "zh": "她十二歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-159",
@@ -1657,7 +1680,8 @@
     "zh": "我有十三隻貓。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-160",
@@ -1683,7 +1707,8 @@
     "zh": "這裡住著14個人。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-161",
@@ -1709,7 +1734,8 @@
     "zh": "我爸爸只有十五歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-162",
@@ -1735,7 +1761,8 @@
     "zh": "薩米十六歲左右。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-163",
@@ -1761,7 +1788,8 @@
     "zh": "她十七歲了。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-164",
@@ -1787,7 +1815,8 @@
     "zh": "我十八歲。"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-165",
@@ -1808,7 +1837,8 @@
     "en": "The number is nineteen."
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-166",
@@ -1834,7 +1864,8 @@
     "zh": "它有二十個孩子"
    }
   ],
-  "topic": "Zahlen"
+  "topic": "Zahlen",
+  "foundations": "numerals"
  },
  {
   "id": "de-167",
@@ -2675,7 +2706,8 @@
     "zh": "什麼時候？"
    }
   ],
-  "topic": "in der Freizeit"
+  "topic": "in der Freizeit",
+  "foundations": "questions"
  },
  {
   "id": "de-198",
@@ -3227,7 +3259,8 @@
     "zh": "歡迎來到 Tatoeba！"
    }
   ],
-  "topic": "Berufe und Arbeit"
+  "topic": "Berufe und Arbeit",
+  "foundations": "prepositions"
  },
  {
   "id": "de-219",
@@ -3279,7 +3312,8 @@
     "zh": "你一定是開玩笑！"
    }
   ],
-  "topic": "Berufe und Arbeit"
+  "topic": "Berufe und Arbeit",
+  "foundations": "prepositions"
  },
  {
   "id": "de-221",
@@ -5327,7 +5361,8 @@
     "zh": "大家都歡呼了。"
    }
   ],
-  "topic": "andere wichtige Wörter und Wendungen"
+  "topic": "andere wichtige Wörter und Wendungen",
+  "foundations": "pronouns"
  },
  {
   "id": "de-299",
@@ -5709,7 +5744,8 @@
     "zh": "多少錢？"
    }
   ],
-  "topic": "andere wichtige Wörter und Wendungen"
+  "topic": "andere wichtige Wörter und Wendungen",
+  "foundations": "pronouns"
  },
  {
   "id": "de-312",
@@ -6483,7 +6519,8 @@
    }
   ],
   "note": "表示「超過」時後接數字；其他用法第三格（位置）或第四格（方向）",
-  "topic": "Maße angeben"
+  "topic": "Maße angeben",
+  "foundations": "prepositions"
  },
  {
   "id": "de-341",
@@ -6864,7 +6901,8 @@
    }
   ],
   "note": "去城市或沒有冠詞的國家用 nach；後接第三格",
-  "topic": "Verkehrsmittel"
+  "topic": "Verkehrsmittel",
+  "foundations": "prepositions"
  },
  {
   "id": "de-355",

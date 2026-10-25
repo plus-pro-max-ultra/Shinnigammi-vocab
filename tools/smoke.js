@@ -25,4 +25,16 @@ await pg.type('.spell-input','x');await pg.keyboard.press('Enter');await sleep(3
 ok('spell focus after next',await pg.evaluate(()=>document.activeElement.className.includes('spell-input')));
 await go('#/quiz');await click('熟悉度');await click('開始');await click('陌生');
 ok('familiar quiz no X',await pg.evaluate(()=>!document.querySelector('.mark-bad')));
+await go('#/');ok('foundations card',await click('語言基礎'));
+ok('foundations units jp',await pg.evaluate(()=>document.body.innerText.includes('數詞與序數')&&document.body.innerText.includes('疑問詞')&&document.body.innerText.includes('代名詞')));
+ok('open numerals',await click('數詞與序數'));
+ok('numerals list shows entries',await pg.evaluate(()=>document.body.innerText.includes('個條目')));
+await go('#/');await click('初級日文');
+ok('numbers book hidden from main units',await pg.evaluate(()=>!document.body.innerText.includes('數字與計數')));
+await go('#/');await pg.evaluate(()=>{const x=[...document.querySelectorAll('.lang-switch')];x.length&&x[0].click()});await sleep(500);
+ok('switch to de',await pg.evaluate(()=>document.body.innerText.includes('German A1')));
+await go('#/');ok('de foundations card',await click('Grundlagen'));
+ok('de foundations units',await pg.evaluate(()=>document.body.innerText.includes('Präpositionen')&&document.body.innerText.includes('Artikel')));
+await go('#/quiz');ok('foundations scope checkbox',await click('Grundlagen · 語言基礎'));
+ok('foundations pool nonempty',await pg.evaluate(()=>{const m=document.body.innerText.match(/範圍內的單字：\s*(\d+)/);return m&&Number(m[1])>=30}));
 console.log('pageerrors',errs);await b.close()})();
