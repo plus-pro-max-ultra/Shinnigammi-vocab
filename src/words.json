@@ -62026,5 +62026,199 @@
   "note": "號碼逐一唸數字；問號碼用「何番（なんばん）ですか」",
   "sourceUrl": "https://jisho.org/search/%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7",
   "foundations": "numerals"
+ },
+ {
+  "id": "jpl8-01",
+  "word": "Tシャツ",
+  "reading": "ティーシャツ",
+  "romaji": "tiishatsu",
+  "en": "T-shirt",
+  "zh": "T 恤",
+  "loan": "外來語 · 源自英語",
+  "examples": [
+   {
+    "text": "このＴシャツはいくらですか。",
+    "zh": "這件襯衫多少錢？",
+    "src": "tatoeba",
+    "tid": "224043"
+   },
+   {
+    "text": "このTシャツを欲しい？",
+    "zh": "你要這件T恤嗎？",
+    "src": "tatoeba",
+    "tid": "1920479"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/T%E3%82%B7%E3%83%A3%E3%83%84"
+ },
+ {
+  "id": "jpl8-02",
+  "word": "ズボン",
+  "reading": "ズボン",
+  "romaji": "zubon",
+  "en": "trousers; pants",
+  "zh": "長褲",
+  "loan": "外來語 · 源自法語",
+  "examples": [
+   {
+    "text": "それは僕のズボンです。",
+    "zh": "那是我的褲子。",
+    "src": "tatoeba",
+    "tid": "204861"
+   },
+   {
+    "text": "そのズボンは大きすぎます。",
+    "zh": "那條褲子太大了。",
+    "src": "tatoeba",
+    "tid": "2310258"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E3%82%BA%E3%83%9C%E3%83%B3"
+ },
+ {
+  "id": "jpl8-03",
+  "word": "かばん",
+  "reading": "かばん",
+  "romaji": "kaban",
+  "en": "bag",
+  "zh": "包包",
+  "examples": [
+   {
+    "text": "かばんが必要です。貸してくれませんか。",
+    "zh": "我需要個包包。可以借我嗎？",
+    "src": "tatoeba",
+    "tid": "226247"
+   },
+   {
+    "text": "昨日彼のかばんが盗まれた。",
+    "zh": "昨天他的包包被偷了。",
+    "src": "tatoeba",
+    "tid": "169836"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E3%81%8B%E3%81%B0%E3%82%93"
+ },
+ {
+  "id": "jpl8-04",
+  "word": "眼鏡",
+  "reading": "めがね",
+  "romaji": "megane",
+  "en": "glasses",
+  "zh": "眼鏡",
+  "examples": [
+   {
+    "text": "私の眼鏡はどこ？",
+    "zh": "我的眼鏡在哪裡？",
+    "src": "tatoeba",
+    "tid": "163890"
+   },
+   {
+    "text": "彼は眼鏡をかけている。",
+    "zh": "他戴眼鏡。",
+    "src": "tatoeba",
+    "tid": "108707"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E7%9C%BC%E9%8F%A1"
+ },
+ {
+  "id": "jpl8-05",
+  "word": "スーパー",
+  "reading": "スーパー",
+  "romaji": "suupaa",
+  "en": "supermarket",
+  "zh": "超市",
+  "loan": "外來語 · 源自英語",
+  "examples": [
+   {
+    "text": "大きなスーパーがある。",
+    "zh": "有一間大型超市。",
+    "src": "tatoeba",
+    "tid": "137746"
+   },
+   {
+    "text": "スーパーに行きました。",
+    "zh": "去了超市。",
+    "src": "tatoeba",
+    "tid": "4141464"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC"
+ },
+ {
+  "id": "jpl8-06",
+  "word": "コンビニ",
+  "reading": "コンビニ",
+  "romaji": "konbini",
+  "en": "convenience store",
+  "zh": "便利商店",
+  "loan": "外來語 · 源自英語",
+  "examples": [
+   {
+    "text": "コンビニの近くに住んでるんだ。",
+    "zh": "我住在便利商店附近。",
+    "src": "tatoeba",
+    "tid": "11198732"
+   },
+   {
+    "text": "コンビニで肉まんを買って食べた。",
+    "zh": "我在便利商店買了肉包吃。",
+    "src": "tatoeba",
+    "tid": "12324639"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B"
+ },
+ {
+  "id": "jpl8-07",
+  "word": "サイズ",
+  "reading": "サイズ",
+  "romaji": "saizu",
+  "en": "size",
+  "zh": "尺寸",
+  "loan": "外來語 · 源自英語",
+  "examples": [
+   {
+    "text": "もっと大きいサイズはありますか。",
+    "zh": "有沒有更大的尺寸？",
+    "src": "tatoeba",
+    "tid": "193236"
+   },
+   {
+    "text": "この靴で私に合うサイズはありますか。",
+    "zh": "這款鞋子有我的尺寸嗎？",
+    "src": "tatoeba",
+    "tid": "222267"
+   }
+  ],
+  "lang": "jp",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "shopping",
+  "sourceUrl": "https://jisho.org/search/%E3%82%B5%E3%82%A4%E3%82%BA"
  }
 ]

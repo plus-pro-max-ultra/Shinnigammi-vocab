@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.30",
+        d: "10/27",
+        items: [
+          "\u7B2C 8 \u8AB2\u300C\u8CFC\u7269\u8207\u8863\u8457\u300D\u55AE\u5143\uFF1A\u65B0\u589E 7 \u500B\u55AE\u5B57\uFF08T\u30B7\u30E3\u30C4\u30FB\u30BA\u30DC\u30F3\u30FB\u304B\u3070\u3093\u30FB\u773C\u93E1\u30FB\u30B9\u30FC\u30D1\u30FC\u30FB\u30B3\u30F3\u30D3\u30CB\u30FB\u30B5\u30A4\u30BA\uFF09\uFF0C\u53E6\u5C07 22 \u500B\u5DF2\u6559\u5B57\u5F9E\u53C3\u8003\u5B57\u5EAB\u6B78\u5165\u672C\u55AE\u5143\uFF08ID \u4E0D\u8B8A\u3001\u9032\u5EA6\u4FDD\u7559\uFF09\uFF1B\u4F8B\u53E5\u5747\u9644 Tatoeba \u4F86\u6E90\u7DE8\u865F\u3002\u30BB\u30FC\u30EB \u56E0\u7F3A\u4E4F\u7B2C\u4E8C\u500B\u4F86\u6E90\u4F8B\u53E5\u66AB\u7DE9\u52A0\u5165\u3002",
+        ],
+      },
+      {
         v: "v14.29",
         d: "10/25",
         items: [
@@ -11521,6 +11528,28 @@ Error generating stack: ` +
       "jp-409": 1,
       "jp-613": 1,
       "jp-614": 1,
+      "jp-292": "shopping",
+      "jp-573": "shopping",
+      "jp-582": "shopping",
+      "jp-117": "shopping",
+      "jp-176": "shopping",
+      "jp-120": "shopping",
+      "jp-141": "shopping",
+      "jp-096": "shopping",
+      "jp-126": "shopping",
+      "jp-081": "shopping",
+      "jp-974": "shopping",
+      "jp-654": "shopping",
+      "jp-133": "shopping",
+      "jp-072": "shopping",
+      "jp-175": "shopping",
+      "jp-166": "shopping",
+      "jp-174": "shopping",
+      "jp-179": "shopping",
+      "jp-163": "shopping",
+      "jp-130": "shopping",
+      "jp-240": "shopping",
+      "jp-1138": "shopping",
     },
     Fs = {
       books: [
@@ -11531,6 +11560,7 @@ Error generating stack: ` +
         { id: "adjectives", name: "\u5F62\u5BB9\u8A5E" },
         { id: "family", name: "\u5BB6\u4EBA\u8207\u4EBA\u7269" },
         { id: "numbers", name: "\u6578\u5B57\u8207\u8A08\u6578" },
+        { id: "shopping", name: "\u8CFC\u7269\u8207\u8863\u8457" },
         ...jm,
       ],
       entries: Object.fromEntries(
@@ -11539,8 +11569,10 @@ Error generating stack: ` +
           {
             books: [
               e.themeId ??
-                (Nm[e.id]
-                  ? "numbers"
+                (Nm[e.id] === "shopping"
+                  ? "shopping"
+                  : Nm[e.id]
+                    ? "numbers"
                   : Number(e.id.slice(3)) <= 6
                     ? "greetings"
                     : Number(e.id.slice(3)) <= 16
@@ -12873,7 +12905,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+        (l.id === "numbers" || l.id === "shopping" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
           (z) =>
             r.entries[z.id]?.books.includes(l.id) &&
             (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
