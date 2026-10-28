@@ -9074,5 +9074,35 @@
    }
   ],
   "topic": "andere wichtige Wörter und Wendungen"
+ },
+ {
+  "id": "de-431",
+  "lang": "de",
+  "word": "der Käufer",
+  "reading": "ˈkɔɪ̯fɐ",
+  "ipa": "/ˈkɔɪ̯fɐ/",
+  "en": "buyer",
+  "zh": "買家；購買者",
+  "grammar": "noun · masculine; plural Käufer",
+  "contentType": "word",
+  "themeId": "debook-L2",
+  "sourceUrl": "https://de.wiktionary.org/wiki/K%C3%A4ufer",
+  "examples": [
+   {
+    "text": "Ich werd’s verkaufen, sobald ich einen Käufer finde.",
+    "zh": "我一找到買家就會把它賣掉。",
+    "en": "I will sell it as soon as I find a buyer.",
+    "src": "tatoeba",
+    "tid": "10495674"
+   },
+   {
+    "text": "Sie haben immer noch keinen Käufer für das Haus gefunden.",
+    "zh": "他們還沒有找到房子的買家。",
+    "en": "They still haven't found a buyer for that house.",
+    "src": "tatoeba",
+    "tid": "480342"
+   }
+  ],
+  "topic": "Berufe und Arbeit"
  }
 ]

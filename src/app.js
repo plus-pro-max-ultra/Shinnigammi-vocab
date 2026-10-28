@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.38",
+        d: "10/28",
+        items: [
+          "新增德文單字 der Käufer（buyer，買家；Lektion 2「Berufe und Arbeit」，來自使用者提交）：音標與詞形來源 de.wiktionary，2 句 Tatoeba 例句（tid 10495674、480342，繁體中文為 Tatoeba 原有譯文）。",
+        ],
+      },
+      {
         v: "v14.37",
         d: "10/28",
         items: [
