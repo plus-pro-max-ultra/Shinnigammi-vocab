@@ -11551,6 +11551,19 @@ Error generating stack: ` +
       "jp-240": "shopping",
       "jp-1138": "shopping",
     },
+    Od = (e) =>
+      e.themeId ??
+      (Nm[e.id] === "shopping"
+        ? "shopping"
+        : Nm[e.id]
+          ? "numbers"
+          : Number(e.id.slice(3)) <= 6
+            ? "greetings"
+            : Number(e.id.slice(3)) <= 16
+              ? "daily"
+              : Number(e.id.slice(3)) <= 18 || Number(e.id.slice(3)) === 21
+                ? "time"
+                : "food"),
     Fs = {
       books: [
         { id: "greetings", name: "\u554F\u5019\u8207\u4ECB\u7D39" },
@@ -11568,20 +11581,8 @@ Error generating stack: ` +
           e.id,
           {
             books: [
-              e.themeId ??
-                (Nm[e.id] === "shopping"
-                  ? "shopping"
-                  : Nm[e.id]
-                    ? "numbers"
-                  : Number(e.id.slice(3)) <= 6
-                    ? "greetings"
-                    : Number(e.id.slice(3)) <= 16
-                      ? "daily"
-                      : Number(e.id.slice(3)) <= 18 ||
-                          Number(e.id.slice(3)) === 21
-                        ? "time"
-                        : "food"),
-            ],
+              e.themeId == null && !Nm[e.id] && e.foundations ? null : Od(e),
+            ].filter(Boolean),
           },
         ]),
       ),
@@ -12181,9 +12182,18 @@ Error generating stack: ` +
         z = V.filter(
           (C) => (!C.bank || Nm[C.id]) && !r.entries[C.id],
         );
-      if (!z.length && !l.length) return;
       let v = [...r.books, ...l],
-        S = { ...r.entries };
+        S = { ...r.entries },
+        Gf = 0;
+      V.filter(
+        (C) => C.foundations && C.themeId == null && !Nm[C.id] && r.entries[C.id],
+      ).forEach((C) => {
+        let ae = r.entries[C.id].books ?? [];
+        ae.length === 1 &&
+          ae[0] === Od(C) &&
+          ((S[C.id] = { ...r.entries[C.id], books: [] }), Gf++);
+      });
+      if (!z.length && !l.length && !Gf) return;
       z.forEach((C) => {
         let ae =
           Fs.entries[C.id]?.books.filter((ee) =>
@@ -12963,10 +12973,17 @@ Error generating stack: ` +
                     word: nt,
                     index: Yl,
                     count: Vo.length,
-                    bookName:
-                      (r.entries[nt.id]?.books ?? [])
-                        .map((l) => r.books.find((z) => z.id === l)?.name)
-                        .join(" \xB7 ") + (nt.topic ? " \xB7 " + nt.topic : ""),
+                    bookName: (() => {
+                      let l = (r.entries[nt.id]?.books ?? [])
+                        .map((z) => r.books.find((v) => v.id === z)?.name)
+                        .filter(Boolean)
+                        .join(" · ");
+                      if (!l && nt.foundations) {
+                        let z = FD.find((v) => v.id === nt.foundations);
+                        l = (J === "jp" ? z?.jp : z?.de) || "";
+                      }
+                      return l + (nt.topic ? " · " + nt.topic : "");
+                    })(),
                     meaning: sr(nt),
                     extra: G[nt.id] ?? {},
                     saveExtra: (l) => ad(nt.id, l),

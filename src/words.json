@@ -62220,5 +62220,35 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E3%82%B5%E3%82%A4%E3%82%BA"
+ },
+ {
+  "id": "de-426",
+  "lang": "de",
+  "word": "welche",
+  "reading": "ˈvɛlçə",
+  "ipa": "/ˈvɛlçə/",
+  "en": "which; which ones",
+  "zh": "哪些；哪個",
+  "grammar": "interrogative determiner / pronoun",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/welche",
+  "examples": [
+   {
+    "text": "Welche empfehlen Sie?",
+    "zh": "您推薦哪個？",
+    "en": "Which do you recommend?",
+    "src": "tatoeba",
+    "tid": "13916667"
+   },
+   {
+    "text": "Welche ist meine?",
+    "zh": "哪個是我的？",
+    "en": "Which one is mine?",
+    "src": "tatoeba",
+    "tid": "662244"
+   }
+  ],
+  "note": "welcher（陽性）／welche（陰性・複數）／welches（中性）是第一格（主格）形式；格也會改變詞尾；也可作關係代名詞",
+  "foundations": "questions"
  }
 ]
