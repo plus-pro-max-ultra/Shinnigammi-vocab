@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.37",
+        d: "10/28",
+        items: [
+          "修正直接以網址開啟「更多」子頁（例如 #/more/settings、#/more/progress）時頁面空白的問題：設定與學習統計現在可從網址直接開啟，舊的 #/settings、#/progress 也會開到對應頁面；無法辨識的網址一律回到課程頁，不再空白。",
+        ],
+      },
+      {
         v: "v14.36",
         d: "10/28",
         items: [
@@ -12250,7 +12257,7 @@ Error generating stack: ` +
     e.length <= 12 &&
     e.every((t) => typeof t == "string" && t.length > 0 && t.length <= 40) &&
     xe(e) <= 2e3;
-  function Tm({ initialTab: e, initialWord: t }) {
+  function Tm({ initialTab: e, initialWord: t, initialMoreView: mv }) {
     let [r, o, n] = ht("vocabulary.catalog.v1", Fs),
       [a, i, c] = ht("vocabulary.userwords.v1", []);
     (0, s.useEffect)(() => {
@@ -12396,7 +12403,7 @@ Error generating stack: ` +
     let [ut, rr] = (0, s.useState)("main"),
       [Et, be] = (0, s.useState)("courses"),
       [he, A] = (0, s.useState)(null),
-      [O, ne] = (0, s.useState)("grid"),
+      [O, ne] = (0, s.useState)(mv ?? "grid"),
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
@@ -18781,15 +18788,22 @@ Error generating stack: ` +
         ["search", "/search"],
         ["library", "/library"],
         ["more", "/more"],
-        ["more", "/progress"],
-        ["more", "/settings"],
+        ["more", "/more/progress", "stats"],
+        ["more", "/more/settings", "settings"],
+        ["more", "/progress", "stats"],
+        ["more", "/settings", "settings"],
         ["courses", "/study"],
         ["grammar", "/grammar"],
-      ].map(([e, t], r) =>
+        ["courses", "*"],
+      ].map(([e, t, r2], r) =>
         s.default.createElement(Po, {
           key: t + r,
           path: t,
-          element: s.default.createElement(Tm, { key: e + t, initialTab: e }),
+          element: s.default.createElement(Tm, {
+            key: e + t,
+            initialTab: e,
+            initialMoreView: r2,
+          }),
         }),
       ),
     );
