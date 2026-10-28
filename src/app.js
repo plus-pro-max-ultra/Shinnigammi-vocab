@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.42",
+        d: "10/28",
+        items: [
+          "修正德文單元清單仍殘留舊主題單元與順序錯誤的問題：前一版遷移漏掉兩個歷史預設單元（debook-13、debook-21），且未把 Lektion 1/2/3 排回正確順序。現在會移除所有 21 個歷史預設主題單元、把 Lektion 1/2/3 排為正序；你的自訂單元與學習進度不受影響。",
+        ],
+      },
+      {
         v: "v14.41",
         d: "10/28",
         items: [
@@ -12303,15 +12310,18 @@ Error generating stack: ` +
       let v = [...r.books, ...l],
         S = { ...r.entries },
         Gf = 0;
-      // v14.41 migration: drop the pre-v14.7 German topic units (MM 2026-10-21 instruction:
-      // German units = Lektion 1/2/3). Saved catalogs kept the old topic units because the
-      // defaults change never migrated them. Targets exactly the legacy default ids;
-      // custom books, other entry fields (familiarity etc.) and progress stay untouched.
+      // v14.41 migration (legacy id list completed in v14.42): drop the pre-v14.7
+      // German topic units (MM 2026-10-21 instruction: German units = Lektion 1/2/3).
+      // Saved catalogs kept old topic units because the defaults changes (v14.5 merge
+      // debook-13, v14.6 fold debook-21, v14.7 regroup) never migrated them. Targets
+      // exactly the 21 legacy default numeric ids; custom books (debook-u*, debook-auto-*)
+      // are never numeric, and custom books, other entry fields (familiarity etc.) and
+      // progress stay untouched.
       let OLDDE = [
           "debook-1", "debook-2", "debook-3", "debook-4", "debook-5", "debook-6",
           "debook-7", "debook-8", "debook-9", "debook-10", "debook-11", "debook-12",
-          "debook-14", "debook-15", "debook-16", "debook-17", "debook-18", "debook-19",
-          "debook-20",
+          "debook-13", "debook-14", "debook-15", "debook-16", "debook-17", "debook-18",
+          "debook-19", "debook-20", "debook-21",
         ],
         mig = 0;
       if (v.some((C) => OLDDE.includes(C.id))) {
@@ -12331,6 +12341,19 @@ Error generating stack: ` +
               ((S[C] = { ...cur, books: kept }), mig++);
           }));
       }
+      // v14.42: canonical Lektion 1/2/3 order. Devices that deleted and re-added units
+      // ended up with the lesson books out of order (e.g. L3, L1, L2). Normalize only
+      // the relative order of the three lesson books; custom books keep their positions.
+      let LSEQ = ["debook-L1", "debook-L2", "debook-L3"],
+        lslots = v.map((C, i) => (LSEQ.includes(C.id) ? i : -1)).filter((i) => i >= 0);
+      lslots.length === 3 &&
+        lslots.map((i) => v[i].id).join() !== LSEQ.join() &&
+        (() => {
+          let nv = [...v];
+          (lslots.forEach((idx, k) => (nv[idx] = v.find((C) => C.id === LSEQ[k]))),
+            (v = nv),
+            mig++);
+        })();
       V.filter(
         (C) => C.foundations && C.themeId == null && !Nm[C.id] && r.entries[C.id],
       ).forEach((C) => {
