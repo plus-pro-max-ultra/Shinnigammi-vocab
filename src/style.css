@@ -100,3 +100,6 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .pl-answer.sp-bad{border-color:var(--bad)}
 .pl-block{background:var(--card);border:1px solid var(--line);border-radius:8px;min-width:44px;padding:9px 4px;font-size:16px;color:var(--text)}
 @media (max-width:359px){.pl-answer{flex:1 1 100%}}
+.nq-actions{display:flex;gap:8px;align-items:stretch;margin:10px 0 2px}
+.nq-actions .primary-action{flex:1;margin:0}
+.nq-actions .nq-idk{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 16px;color:#8a8f98;font-weight:600}

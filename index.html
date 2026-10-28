@@ -100,6 +100,9 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .pl-answer.sp-bad{border-color:var(--bad)}
 .pl-block{background:var(--card);border:1px solid var(--line);border-radius:8px;min-width:44px;padding:9px 4px;font-size:16px;color:var(--text)}
 @media (max-width:359px){.pl-answer{flex:1 1 100%}}
+.nq-actions{display:flex;gap:8px;align-items:stretch;margin:10px 0 2px}
+.nq-actions .primary-action{flex:1;margin:0}
+.nq-actions .nq-idk{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 16px;color:#8a8f98;font-weight:600}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -73609,8 +73612,16 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.38 1028-2053",
+    O1 = "v14.39 1028-2143",
     R1 = [
+      {
+        v: "v14.39",
+        d: "10/28",
+        items: [
+          "名詞測驗答錯後的資訊卡改為彈出形式，與其他測驗一致（不再被底部按鈕遮住；點「✕ 返回」或背景關閉）；作答後點左下角 ⓘ 也可再次開啟。",
+          "修正名詞測驗「不會」按鈕未套用樣式、位置錯誤的問題：現在與「送出」並排，外觀與其他測驗的「不會」一致。",
+        ],
+      },
       {
         v: "v14.38",
         d: "10/28",
@@ -80247,7 +80258,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.lang === "jp" ? w.reading : (w.ipa ?? w.reading),
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || e === "noun") &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || (e === "noun" && T)) &&
                 s.default.createElement(
                   "button",
                   {
@@ -80461,28 +80472,33 @@ Error generating stack: ` +
                   ),
                 ),
                 s.default.createElement(
-                  "button",
-                  {
-                    className: "primary-action",
-                    disabled: !n || T || !gPick || !ze.length,
-                    onClick: () =>
-                      _(
-                        gPick === nq.gender &&
+                  "div",
+                  { className: "nq-actions" },
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "primary-action",
+                      disabled: !n || T || !gPick || !ze.length,
+                      onClick: () => {
+                        let A =
+                          gPick === nq.gender &&
                           (NQVAR[w.id] ?? [nq.seq]).some(
-                            (A) => A.join("") === ze.join(""),
-                          ),
-                      ),
-                  },
-                  "\u9001\u51FA",
-                ),
-                s.default.createElement(
-                  "button",
-                  {
-                    className: "tile-idk",
-                    disabled: T,
-                    onClick: () => _(!1),
-                  },
-                  "\u4E0D\u6703",
+                            (O) => O.join("") === ze.join(""),
+                          );
+                        (_(A), A || openExp());
+                      },
+                    },
+                    "\u9001\u51FA",
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "nq-idk",
+                      disabled: T,
+                      onClick: () => (_(!1), openExp()),
+                    },
+                    "\u4E0D\u6703",
+                  ),
                 ),
                 T &&
                   !(mst && h[h.length - 1]?.correct) &&
@@ -80751,7 +80767,7 @@ Error generating stack: ` +
                   ),
                 ),
               ),
-            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
+            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") &&
               expOpen &&
               s.default.createElement("div", {
                 className: "exp-backdrop",
@@ -80759,15 +80775,17 @@ Error generating stack: ` +
               }),
             (e === "forward" || e === "reverse" || e === "familiar" || e === "cards"
               ? expOpen
-              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
+              : e === "noun"
+                ? T && expOpen
+                : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
               s.default.createElement(
                 "div",
                 {
                   className:
-                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar" || e === "cards") ? " exp-sheet" : ""),
+                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") ? " exp-sheet" : ""),
                   role: "status",
                 },
-                (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
+                (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") &&
                   s.default.createElement(
                     "button",
                     { className: "exp-close", onClick: closeExp },

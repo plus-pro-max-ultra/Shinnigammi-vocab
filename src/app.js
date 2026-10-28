@@ -11106,6 +11106,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.39",
+        d: "10/28",
+        items: [
+          "名詞測驗答錯後的資訊卡改為彈出形式，與其他測驗一致（不再被底部按鈕遮住；點「✕ 返回」或背景關閉）；作答後點左下角 ⓘ 也可再次開啟。",
+          "修正名詞測驗「不會」按鈕未套用樣式、位置錯誤的問題：現在與「送出」並排，外觀與其他測驗的「不會」一致。",
+        ],
+      },
+      {
         v: "v14.38",
         d: "10/28",
         items: [
@@ -17741,7 +17749,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.lang === "jp" ? w.reading : (w.ipa ?? w.reading),
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || e === "noun") &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || (e === "noun" && T)) &&
                 s.default.createElement(
                   "button",
                   {
@@ -17955,28 +17963,33 @@ Error generating stack: ` +
                   ),
                 ),
                 s.default.createElement(
-                  "button",
-                  {
-                    className: "primary-action",
-                    disabled: !n || T || !gPick || !ze.length,
-                    onClick: () =>
-                      _(
-                        gPick === nq.gender &&
+                  "div",
+                  { className: "nq-actions" },
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "primary-action",
+                      disabled: !n || T || !gPick || !ze.length,
+                      onClick: () => {
+                        let A =
+                          gPick === nq.gender &&
                           (NQVAR[w.id] ?? [nq.seq]).some(
-                            (A) => A.join("") === ze.join(""),
-                          ),
-                      ),
-                  },
-                  "\u9001\u51FA",
-                ),
-                s.default.createElement(
-                  "button",
-                  {
-                    className: "tile-idk",
-                    disabled: T,
-                    onClick: () => _(!1),
-                  },
-                  "\u4E0D\u6703",
+                            (O) => O.join("") === ze.join(""),
+                          );
+                        (_(A), A || openExp());
+                      },
+                    },
+                    "\u9001\u51FA",
+                  ),
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "nq-idk",
+                      disabled: T,
+                      onClick: () => (_(!1), openExp()),
+                    },
+                    "\u4E0D\u6703",
+                  ),
                 ),
                 T &&
                   !(mst && h[h.length - 1]?.correct) &&
@@ -18245,7 +18258,7 @@ Error generating stack: ` +
                   ),
                 ),
               ),
-            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
+            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") &&
               expOpen &&
               s.default.createElement("div", {
                 className: "exp-backdrop",
@@ -18253,15 +18266,17 @@ Error generating stack: ` +
               }),
             (e === "forward" || e === "reverse" || e === "familiar" || e === "cards"
               ? expOpen
-              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
+              : e === "noun"
+                ? T && expOpen
+                : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
               s.default.createElement(
                 "div",
                 {
                   className:
-                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar" || e === "cards") ? " exp-sheet" : ""),
+                    "quiz-feedback" + ((e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") ? " exp-sheet" : ""),
                   role: "status",
                 },
-                (e === "forward" || e === "reverse" || e === "familiar" || e === "cards") &&
+                (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun") &&
                   s.default.createElement(
                     "button",
                     { className: "exp-close", onClick: closeExp },

@@ -48,16 +48,27 @@ ok('no auto-advance (mastery off)',await pg.evaluate(s=>document.querySelector('
 await shot('noun-correct');
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
 // Q2: wrong answer
+ok('no ⓘ leak before answer',await pg.evaluate(()=>!document.querySelector('.exp-open')));
+ok('idk styled+placed beside submit',await pg.evaluate(()=>{const x=document.querySelector('.nq-actions .nq-idk');if(!x)return false;const cs=getComputedStyle(x);return cs.backgroundColor!=='rgba(0, 0, 0, 0)'&&cs.borderRadius!=='0px'}));
 let q2=await answer(false);
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='送出');x.click()});await sleep(300);
 ok('wrong answer bad state',await pg.evaluate(()=>!!document.querySelector('.pl-answer.sp-bad')));
+ok('wrong card is popup (exp-sheet fixed)',await pg.evaluate(()=>{const f=document.querySelector('.quiz-feedback.exp-sheet');return !!f&&getComputedStyle(f).position==='fixed'}));
+ok('popup backdrop present',await pg.evaluate(()=>!!document.querySelector('.exp-backdrop')));
+ok('no inline feedback card for noun',await pg.evaluate(()=>[...document.querySelectorAll('.quiz-feedback')].every(x=>x.className.includes('exp-sheet'))));
+ok('ⓘ available after answer',await pg.evaluate(()=>!!document.querySelector('.exp-open')));
+await shot('noun-wrong-popup');
+await pg.evaluate(()=>document.querySelector('.exp-close').click());await sleep(250);
+ok('popup closes via ✕ 返回',await pg.evaluate(()=>!document.querySelector('.quiz-feedback')));
 ok('wrong shows correction',await pg.evaluate((full)=>document.body.innerText.includes(full),'die '+q2.plural));
 ok('wrong gender marked',await pg.evaluate(()=>!!document.querySelector('.gender-row button.correct-option')&&!!document.querySelector('.gender-row button.wrong-option')));
 await shot('noun-wrong');
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
 // Q3: 不會
-ok('idk marks wrong',await pg.evaluate(()=>{const x=[...document.querySelectorAll('.tile-idk')];if(!x.length)return false;x[0].click();return true}));
-await sleep(300);await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(300);
+ok('idk marks wrong',await pg.evaluate(()=>{const x=[...document.querySelectorAll('.nq-idk')];if(!x.length)return false;x[0].click();return true}));
+await sleep(300);
+ok('idk opens popup too',await pg.evaluate(()=>!!document.querySelector('.quiz-feedback.exp-sheet')));
+await pg.evaluate(()=>document.querySelector('.exp-close').click());await sleep(250);await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(300);
 // mastery ON: auto-advance after correct
 await pg.evaluate(()=>localStorage.setItem('mmv:vocabulary.ui.v1',JSON.stringify({mastery:true})));
 await pg.goto(u+'#/quiz');await pg.reload();await sleep(900);
