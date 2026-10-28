@@ -11668,13 +11668,44 @@ Error generating stack: ` +
       "jp-130": "shopping",
       "jp-240": "shopping",
       "jp-1138": "shopping",
+      "jp-418": "daily",
+      "jp-229": "daily",
+      "jp-425": "daily",
+      "jp-271": "daily",
+      "jp-472": "daily",
+      "jp-432": "daily",
+      "jp-087": "daily",
+      "jp-253": "daily",
+      "jp-245": "daily",
+      "jp-246": "daily",
+      "jp-326": "daily",
+      "jp-311": "daily",
+      "jp-437": "daily",
+      "jp-497": "daily",
+      "jp-430": "daily",
+      "jp-816": "daily",
+      "jp-419": "daily",
+      "jp-273": "daily",
+      "jp-447": "daily",
+      "jp-243": "daily",
+      "jp-424": "daily",
+      "jp-883": "daily",
+      "jp-542": "daily",
+      "jp-294": "daily",
+      "jp-262": "daily",
+      "jp-417": "daily",
+      "jp-426": "daily",
+      "jp-249": "daily",
+      "jp-260": "daily",
     },
     Od = (e) =>
       e.themeId ??
       (Nm[e.id] === "shopping"
         ? "shopping"
-        : Nm[e.id]
-          ? "numbers"
+        : Nm[e.id] === "daily"
+          ? "daily"
+          : Nm[e.id]
+            ? "numbers"
           : Number(e.id.slice(3)) <= 6
             ? "greetings"
             : Number(e.id.slice(3)) <= 16
@@ -13116,7 +13147,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
           (z) =>
             r.entries[z.id]?.books.includes(l.id) &&
             (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
