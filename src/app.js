@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.43",
+        d: "10/28",
+        items: [
+          "修正字塊拼字：答案含空格或標點（如 die Ausstellung、Guten Morgen.）時，空格與標點是看不見卻必須點的字塊，會卡住無法完成。現在空格與標點不需點選，拼到該位置時自動顯示在答案列；判定規則不變。",
+        ],
+      },
+      {
         v: "v14.42",
         d: "10/28",
         items: [
@@ -17499,7 +17506,12 @@ Error generating stack: ` +
           let kt = O.indexOf(Ye);
           return kt >= 0 ? kt : 1e3 + Ye.charCodeAt(0);
         };
-        (G([...new Set([...A, ...Oo])].sort((Ye, kt) => Qr(Ye) - Qr(kt))), oe([]));
+        (G(
+          [...new Set([...[...A].filter((Ye) => !/[\u3002.!?\s]/.test(Ye)), ...Oo])].sort(
+            (Ye, kt) => Qr(Ye) - Qr(kt),
+          ),
+        ),
+        oe([]));
       }
       (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1), setExpOpen(!1), oe([]), setGPick(null));
     }, [y]);
@@ -17600,7 +17612,8 @@ Error generating stack: ` +
         if (T) return;
         let O = [...ze, Je[A]];
         (oe(O),
-          O.length === [...R].length && _(W(O.join("")) === W(R)));
+          O.length === [...R].filter((ne) => !/[\u3002.!?\s]/.test(ne)).length &&
+            _(W(O.join("")) === W(R)));
       },
       Se =
         e === "noun"
@@ -17912,17 +17925,40 @@ Error generating stack: ` +
                         ? "\u8B80\u97F3\uFF08\u5047\u540D\uFF09"
                         : "\u55AE\u5B57",
                     ),
-                  ze.map((A, O) =>
-                    s.default.createElement(
-                      "button",
-                      {
-                        key: O,
-                        disabled: T,
-                        onClick: () => oe(ze.filter((ne, He) => He !== O)),
-                      },
-                      A,
-                    ),
-                  ),
+                  (() => {
+                    let ti = 0,
+                      out = [];
+                    return (
+                      [...R].forEach((A, O) => {
+                        if (/[\u3002.!?\s]/.test(A))
+                          return void (
+                            ti <= ze.length &&
+                            out.length &&
+                            out.push(
+                              s.default.createElement(
+                                "span",
+                                { key: "f" + O, className: "tile-fix" },
+                                A === " " ? "\u00A0" : A,
+                              ),
+                            )
+                          );
+                        let ne = ti++;
+                        ne < ze.length &&
+                          out.push(
+                            s.default.createElement(
+                              "button",
+                              {
+                                key: O,
+                                disabled: T,
+                                onClick: () => oe(ze.filter((He, Ye) => Ye !== ne)),
+                              },
+                              ze[ne],
+                            ),
+                          );
+                      }),
+                      out
+                    );
+                  })(),
                 ),
                 s.default.createElement(
                   "div",
