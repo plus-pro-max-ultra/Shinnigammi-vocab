@@ -48,7 +48,7 @@ ok('no auto-advance (mastery off)',await pg.evaluate(s=>document.querySelector('
 await shot('noun-correct');
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
 // Q2: wrong answer
-ok('no ⓘ leak before answer',await pg.evaluate(()=>!document.querySelector('.exp-open')));
+ok('ⓘ available before answer',await pg.evaluate(()=>!!document.querySelector('.exp-open')));
 ok('idk styled+placed beside submit',await pg.evaluate(()=>{const x=document.querySelector('.nq-actions .nq-idk');if(!x)return false;const cs=getComputedStyle(x);return cs.backgroundColor!=='rgba(0, 0, 0, 0)'&&cs.borderRadius!=='0px'}));
 let q2=await answer(false);
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='送出');x.click()});await sleep(300);
@@ -78,7 +78,7 @@ const s1=await pg.evaluate(()=>document.querySelector('.quiz-prompt h1').innerTe
 await answer(true);
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='送出');x.click()});
 await sleep(300);ok('mastery: still on same q at +300ms',await pg.evaluate(s=>document.querySelector('.quiz-prompt h1').innerText.trim()===s,s1));
-await sleep(800);ok('mastery: auto-advanced by ~1.1s',await pg.evaluate(s=>document.querySelector('.quiz-prompt h1').innerText.trim()!==s,s1));
+await sleep(800);ok('mastery: auto-advanced (0.7s timer)',await pg.evaluate(s=>document.querySelector('.quiz-prompt h1').innerText.trim()!==s,s1));
 // tiles answer states + spell mark position
 await pg.goto(u+'#/quiz');await pg.reload();await sleep(900);
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('.mode-tiles button')].find(x=>x.innerText.includes('字塊拼字'));x.click()});await sleep(200);

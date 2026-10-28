@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.40",
+        d: "10/28",
+        items: [
+          "名詞測驗恢復作答前的 ⓘ 說明按鈕（18:52 核准的固定說明按鈕設計）：作答前也可手動開啟資訊卡，與其他測驗一致。",
+        ],
+      },
+      {
         v: "v14.39",
         d: "10/28",
         items: [
@@ -17749,7 +17756,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.lang === "jp" ? w.reading : (w.ipa ?? w.reading),
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || (e === "noun" && T)) &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || e === "noun") &&
                 s.default.createElement(
                   "button",
                   {
@@ -18264,11 +18271,9 @@ Error generating stack: ` +
                 className: "exp-backdrop",
                 onClick: closeExp,
               }),
-            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards"
+            (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "noun"
               ? expOpen
-              : e === "noun"
-                ? T && expOpen
-                : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
+              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
               s.default.createElement(
                 "div",
                 {
