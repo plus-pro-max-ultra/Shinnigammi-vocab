@@ -8953,5 +8953,126 @@
   ],
   "note": "welcher（陽性）／welche（陰性・複數）／welches（中性）是第一格（主格）形式；格也會改變詞尾；也可作關係代名詞",
   "foundations": "questions"
+ },
+ {
+  "id": "de-427",
+  "lang": "de",
+  "word": "bisschen",
+  "reading": "ˈbɪsçən",
+  "ipa": "/ˈbɪsçən/",
+  "en": "a little; a bit",
+  "zh": "一點；一些",
+  "grammar": "indefinite pronoun / quantity word · undeclinable; usually ein bisschen",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/bisschen",
+  "examples": [
+   {
+    "text": "Hab ein bisschen Geduld!",
+    "zh": "耐心點。",
+    "en": "Just be patient.",
+    "src": "tatoeba",
+    "tid": "10345120"
+   },
+   {
+    "text": "Versuch ein bisschen.",
+    "zh": "試試吧。",
+    "en": "Try some.",
+    "src": "tatoeba",
+    "tid": "4561071"
+   }
+  ],
+  "note": "第二例句中文譯文由簡體轉為繁體（tatoeba 原文為簡體）",
+  "foundations": "pronouns"
+ },
+ {
+  "id": "de-428",
+  "lang": "de",
+  "word": "einmal",
+  "reading": "ˈaɪ̯nmaːl",
+  "ipa": "/ˈaɪ̯nmaːl/",
+  "en": "once; one time",
+  "zh": "一次；曾經",
+  "grammar": "adverb",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/einmal",
+  "examples": [
+   {
+    "text": "Einmal reicht.",
+    "zh": "一次就夠了。",
+    "en": "Once is enough.",
+    "src": "tatoeba",
+    "tid": "10267007"
+   },
+   {
+    "text": "Noch einmal.",
+    "zh": "再一次。",
+    "en": "Once again.",
+    "src": "tatoeba",
+    "tid": "555883"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen"
+ },
+ {
+  "id": "de-429",
+  "lang": "de",
+  "word": "Entschuldigung",
+  "reading": "ɛntˈʃʊldɪɡʊŋ",
+  "ipa": "/ɛntˈʃʊldɪɡʊŋ/",
+  "en": "apology; excuse me",
+  "zh": "道歉；對不起；借過",
+  "grammar": "noun · feminine; plural Entschuldigungen",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Entschuldigung",
+  "examples": [
+   {
+    "text": "Entschuldigung.",
+    "zh": "勞駕。",
+    "en": "I'm sorry.",
+    "src": "tatoeba",
+    "tid": "410211"
+   },
+   {
+    "text": "Entschuldigungen sind nutzlos.",
+    "zh": "藉口是沒用的。",
+    "en": "There is no use in making excuses.",
+    "src": "tatoeba",
+    "tid": "784053"
+   }
+  ],
+  "note": "也用作感嘆詞（對不起／借過）。第二例句中文譯文由簡體轉為繁體（tatoeba 原文為簡體）",
+  "topic": "andere wichtige Wörter und Wendungen"
+ },
+ {
+  "id": "de-430",
+  "lang": "de",
+  "word": "verstehen",
+  "reading": "fɛɐ̯ˈʃteːən",
+  "ipa": "/fɛɐ̯ˈʃteːən/",
+  "en": "to understand",
+  "zh": "理解；明白",
+  "grammar": "verb · verstehen: verstand, hat verstanden",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/verstehen",
+  "examples": [
+   {
+    "text": "Verstehst du?",
+    "zh": "你明白了嗎？",
+    "en": "Do you understand?",
+    "src": "tatoeba",
+    "tid": "1871688"
+   },
+   {
+    "text": "Niemand versteht.",
+    "zh": "沒人能理解。",
+    "en": "Nobody understands.",
+    "src": "tatoeba",
+    "tid": "7064866"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen"
  }
 ]
