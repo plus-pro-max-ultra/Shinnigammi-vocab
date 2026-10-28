@@ -11106,6 +11106,17 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.35",
+        d: "10/28",
+        items: [
+          "\u65B0\u589E\u5FB7\u6587\u300C\u540D\u8A5E\u6E2C\u9A57\u300D\uFF1A\u770B\u55AE\u5B57\u9078\u8A5E\u6027\uFF08der/das/die\uFF09\u4E26\u7528\u4E94\u500B\u5B57\u584A\uFF08\u00a8\u3001-\u3001e\u3001n\u3001s\uFF09\u62FC\u51FA\u8907\u6578\u5B57\u5C3E\uFF0C\u9001\u51FA\u5F8C\u4E00\u8D77\u5224\u5B9A\uFF1B\u5169\u90E8\u5206\u90FD\u5C0D\u624D\u7B97\u7B54\u5C0D\uFF0C\u7B54\u932F\u986F\u793A\u6B63\u78BA\u8A5E\u6027\u8207\u8907\u6578\u3002\u53EA\u51FA\u73FE\u8CC7\u6599\u5EAB\u5DF2\u6536\u9304\u8A5E\u6027\u8207\u8907\u6578\u3001\u4E14\u5B57\u5C3E\u53EF\u7531\u4E94\u500B\u5B57\u584A\u62FC\u51FA\u7684\u540D\u8A5E\uFF08-er \u985E\u3001\u55AE\u8907\u6578\u540C\u5F62\u4EE5\u5916\u8B8A\u5316\u3001\u53EA\u6709\u55AE\u6578\u6216\u53EA\u6709\u8907\u6578\u8005\u4E0D\u5217\u5165\uFF09\u3002",
+          "\u5B57\u584A\u62FC\u5B57\u8207\u540D\u8A5E\u6E2C\u9A57\u7684\u7B54\u6848\u5340\u5E95\u8272\u6BD4\u7167\u6253\u5B57\u62FC\u5B57\u8F38\u5165\u6B04\uFF08\u6DFA\u5E95\uFF09\uFF0C\u4F5C\u7B54\u5F8C\u4EE5\u908A\u6846\u986F\u793A\u5C0D\u932F\u3002",
+          "\u6253\u5B57\u62FC\u5B57\u7B54\u5C0D \u2713\uFF0F\u7B54\u932F \u2717 \u79FB\u5230\u8F38\u5165\u6B04\u5167\u53F3\u5074\u3002",
+          "\u7CBE\u719F\u8907\u7FD2\u6A21\u5F0F\u4E0B\u7B54\u5C0D\u81EA\u52D5\u63DB\u984C\u524D\u4E0D\u518D\u986F\u793A\u8AAA\u660E\u5361\uFF08\u5B57\u584A\u3001\u5047\u540D\u3001\u540D\u8A5E\uFF09\uFF1B\u7B54\u932F\u4ECD\u986F\u793A\u8A02\u6B63\u3002",
+          "\u540D\u8A5E\u6E2C\u9A57\u63A5\u53D7\u7D93\u67E5\u8B49\u7684\u591A\u91CD\u6709\u6548\u8907\u6578\uFF08der Tag -e/-s\u3001der Gast -\u00a8e/-en\u3001der Star -s/-e\u3001der Euro \u4E0D\u8B8A/-s\uFF0C\u4F9D de.wiktionary\uFF09\u3002",
+        ],
+      },
+      {
         v: "v14.34",
         d: "10/28",
         items: [
@@ -11616,6 +11627,37 @@ Error generating stack: ` +
       ),
     },
     xe = (e) => new TextEncoder().encode(JSON.stringify(e)).length,
+    NQ = (e) => {
+      if (!e || e.lang !== "de" || typeof e.grammar != "string") return null;
+      let t = /^noun \u00b7 (masculine|feminine|neuter)(?:\s*\([^)]*\))?; plural ([^;]+?)\s*(?:;.*)?$/.exec(
+        e.grammar.trim(),
+      );
+      if (!t) return null;
+      let r = t[1] === "masculine" ? "der" : t[1] === "feminine" ? "die" : "das",
+        o = t[2].trim();
+      if (!o || /[/(,]/.test(o)) return null;
+      let n = e.word.replace(/^(der|die|das)\s+/, "");
+      if (!n) return null;
+      let a = { a: "\u00e4", o: "\u00f6", u: "\u00fc", A: "\u00c4", O: "\u00d6", U: "\u00dc" },
+        i = n.replace(/[aouAOU]/, (d) => a[d]);
+      i = i === n ? null : i;
+      let c = [["nen", ["n", "e", "n"]], ["en", ["e", "n"]], ["e", ["e"]], ["n", ["n"]], ["s", ["s"]]];
+      if (o === n) return { stem: n, gender: r, plural: o, seq: ["-"] };
+      if (i && o === i) return { stem: n, gender: r, plural: o, seq: ["\u00a8"] };
+      for (let [d, p] of c)
+        if (o.length > d.length && o.endsWith(d)) {
+          let x = o.slice(0, -d.length);
+          if (x === n) return { stem: n, gender: r, plural: o, seq: p };
+          if (i && x === i) return { stem: n, gender: r, plural: o, seq: ["\u00a8", ...p] };
+        }
+      return null;
+    },
+    NQVAR = {
+      "de-255": [["e"], ["s"]],
+      "de-342": [["-"], ["s"]],
+      "de-379": [["\u00a8", "e"], ["e", "n"]],
+      "de-387": [["s"], ["e"]],
+    },
     wm = {
       "jp-005": "n5",
       "jp-017": "n5",
@@ -12166,6 +12208,7 @@ Error generating stack: ` +
               "div",
               { className: "type-pick" },
               [
+                ...(g.some((b) => NQ(b)) ? [["noun", "\u540D\u8A5E\u6E2C\u9A57"]] : []),
                 ["forward", T === "jp" ? "\u65E5 \u2192 \u4E2D" : "DE \u2192 EN"],
                 ["reverse", T === "jp" ? "\u4E2D \u2192 \u65E5" : "EN \u2192 DE"],
                 ["tiles", "\u5B57\u584A\u62FC\u5B57"],
@@ -13586,7 +13629,16 @@ Error generating stack: ` +
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
                         onQuiz: (l, z) => {
-                          (Hl("all"), Rt(z || "forward", l.slice(0, 30)));
+                          (Hl("all"), Rt(
+                            z || "forward",
+                            (z === "noun"
+                              ? l.filter((S) => {
+                                  let L = V.find((C) => C.id === S);
+                                  return L && NQ(L);
+                                })
+                              : l
+                            ).slice(0, 30),
+                          ));
                         },
                       }),
                     Q === "quiz" &&
@@ -13719,7 +13771,7 @@ Error generating stack: ` +
                             "p",
                             { className: "muted" },
                             "\u7BC4\u570D\u5167\u7684\u55AE\u5B57\uFF1A",
-                            qs.length,
+                            Hs === "noun" ? qs.filter((l) => NQ(l)).length : qs.length,
                           ),
                           s.default.createElement(
                             "div",
@@ -13739,6 +13791,9 @@ Error generating stack: ` +
                               ],
                               ...(J === "jp"
                                 ? [["kana", "\u6F22\u5B57 \u21C4 \u5047\u540D"]]
+                                : []),
+                              ...(J === "de"
+                                ? [["noun", "\u540D\u8A5E\u6E2C\u9A57"]]
                                 : []),
                               [
                                 "tiles",
@@ -13766,11 +13821,12 @@ Error generating stack: ` +
                             "button",
                             {
                               className: "primary-action",
-                              disabled: !qs.length || !Hs,
+                              disabled:
+                                (Hs === "noun" ? !qs.some((l) => NQ(l)) : !qs.length) || !Hs,
                               onClick: () =>
                                 Rt(
                                   Hs,
-                                  Dt(qs)
+                                  Dt(Hs === "noun" ? qs.filter((l) => NQ(l)) : qs)
                                     .slice(0, Vl)
                                     .map((l) => l.id),
                                 ),
@@ -14344,7 +14400,16 @@ Error generating stack: ` +
                         },
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
-                        onQuiz: (l, z) => Rt(z || "forward", l.slice(0, 30)),
+                        onQuiz: (l, z) => Rt(
+                            z || "forward",
+                            (z === "noun"
+                              ? l.filter((S) => {
+                                  let L = V.find((C) => C.id === S);
+                                  return L && NQ(L);
+                                })
+                              : l
+                            ).slice(0, 30),
+                          ),
                       }),
                     Q === "more" &&
                       O === "bookmarks" &&
@@ -14365,7 +14430,16 @@ Error generating stack: ` +
                         onBack: () => ne("grid"),
                         onOpen: (l, z) => eo(l, z),
                         onListen: (l) => Jo(l),
-                        onQuiz: (l, z) => Rt(z || "forward", l.slice(0, 30)),
+                        onQuiz: (l, z) => Rt(
+                            z || "forward",
+                            (z === "noun"
+                              ? l.filter((S) => {
+                                  let L = V.find((C) => C.id === S);
+                                  return L && NQ(L);
+                                })
+                              : l
+                            ).slice(0, 30),
+                          ),
                       }),
                     Q === "more" &&
                       O === "custom" &&
@@ -17282,6 +17356,7 @@ Error generating stack: ` +
       [X, ve] = (0, s.useState)(0),
       [Je, G] = (0, s.useState)([]),
       [ze, oe] = (0, s.useState)([]),
+      [gPick, setGPick] = (0, s.useState)(null),
       R = w ? (w.lang === "jp" ? w.reading : w.word) : "",
       [U, P] = (0, s.useState)(!1),
       [tr, Ce] = (0, s.useState)(!1),
@@ -17328,7 +17403,7 @@ Error generating stack: ` +
         };
         (G([...new Set([...A, ...Oo])].sort((Ye, kt) => Qr(Ye) - Qr(kt))), oe([]));
       }
-      (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1), setExpOpen(!1));
+      (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1), setExpOpen(!1), oe([]), setGPick(null));
     }, [y]);
     let openExp = () => {
         (setExpOpen(!0),
@@ -17402,7 +17477,7 @@ Error generating stack: ` +
     (0, s.useEffect)(() => {
       if (!T || !h.length || U) return;
       let okLast = h[h.length - 1].correct;
-      if (e === "cards" || (e === "spell" && okLast) || (mst && okLast && (e === "forward" || e === "reverse" || e === "kana" || e === "tiles"))) {
+      if (e === "cards" || (e === "spell" && okLast) || (mst && okLast && (e === "forward" || e === "reverse" || e === "kana" || e === "tiles" || e === "noun"))) {
         let A = setTimeout(() => k((O) => O + 1), e === "cards" ? 450 : e === "spell" ? 750 : 700);
         return () => clearTimeout(A);
       }
@@ -17430,7 +17505,9 @@ Error generating stack: ` +
           O.length === [...R].length && _(W(O.join("")) === W(R)));
       },
       Se =
-        e === "kana"
+        e === "noun"
+          ? "\u540D\u8A5E\u6E2C\u9A57"
+          : e === "kana"
           ? "\u6F22\u5B57 \u21C4 \u5047\u540D"
           : e === "cards"
           ? "\u5B57\u5361"
@@ -17451,7 +17528,8 @@ Error generating stack: ` +
       rr = h.filter((A) => !A.correct).length,
       Et = h.filter((A) => !A.correct).map((A) => A.id),
       be = h.length ? Math.round((ut / h.length) * 100) : 0,
-      he = w ? (d.entries[w.id]?.familiarity ?? 0) : 0;
+      he = w ? (d.entries[w.id]?.familiarity ?? 0) : 0,
+      nq = e === "noun" && w ? NQ(w) : null;
     return s.default.createElement(
       "section",
       { className: "quiz-screen" },
@@ -17542,7 +17620,9 @@ Error generating stack: ` +
               s.default.createElement(
                 "small",
                 null,
-                e === "kana"
+                e === "noun"
+                  ? "\u770B\u55AE\u5B57\uFF0C\u9078\u8A5E\u6027\u3001\u62FC\u8907\u6578"
+                  : e === "kana"
                   ? kd
                     ? "\u770B\u6F22\u5B57\uFF0C\u9078\u8B80\u97F3"
                     : "\u770B\u8B80\u97F3\uFF0C\u9078\u6F22\u5B57"
@@ -17553,7 +17633,9 @@ Error generating stack: ` +
               s.default.createElement(
                 "h1",
                 { lang: w.lang === "jp" ? "ja" : "de" },
-                e === "kana"
+                e === "noun" && nq
+                  ? nq.stem
+                  : e === "kana"
                   ? kd
                     ? w.word
                     : w.reading
@@ -17634,7 +17716,7 @@ Error generating stack: ` +
                   { className: "card-phon" },
                   w.lang === "jp" ? w.reading : (w.ipa ?? w.reading),
                 ),
-              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana") &&
+              (e === "forward" || e === "reverse" || e === "familiar" || e === "cards" || e === "kana" || e === "noun") &&
                 s.default.createElement(
                   "button",
                   {
@@ -17718,7 +17800,11 @@ Error generating stack: ` +
                 null,
                 s.default.createElement(
                   "div",
-                  { className: "tile-answer" },
+                  {
+                    className:
+                      "tile-answer" +
+                      (T ? (h[h.length - 1]?.correct ? " sp-ok" : " sp-bad") : ""),
+                  },
                   ze.length === 0 &&
                     s.default.createElement(
                       "span",
@@ -17775,6 +17861,105 @@ Error generating stack: ` +
                     "\u232B",
                   ),
                 ),
+              ),
+            e === "noun" &&
+              w &&
+              nq &&
+              s.default.createElement(
+                s.default.Fragment,
+                null,
+                s.default.createElement(
+                  "div",
+                  { className: "gender-row" },
+                  ["der", "das", "die"].map((A) =>
+                    s.default.createElement(
+                      "button",
+                      {
+                        key: A,
+                        disabled: T,
+                        className:
+                          (gPick === A ? "tile-on" : "") +
+                          (T && A === nq.gender ? " correct-option" : "") +
+                          (T && gPick === A && A !== nq.gender ? " wrong-option" : ""),
+                        onClick: () => setGPick(A),
+                      },
+                      A,
+                    ),
+                  ),
+                ),
+                s.default.createElement(
+                  "div",
+                  { className: "plural-row" },
+                  s.default.createElement(
+                    "div",
+                    {
+                      className:
+                        "pl-answer" +
+                        (T ? (h[h.length - 1]?.correct ? " sp-ok" : " sp-bad") : ""),
+                      title: "\u9EDE\u4E00\u4E0B\u522A\u9664\u6700\u5F8C\u4E00\u500B\u5B57\u584A",
+                      onClick: () => {
+                        T || oe(ze.slice(0, -1));
+                      },
+                    },
+                    ze.length === 0
+                      ? s.default.createElement(
+                          "span",
+                          { className: "muted" },
+                          "\u8907\u6578\u5B57\u5C3E",
+                        )
+                      : "-" + ze.join(""),
+                  ),
+                  ["\u00a8", "-", "e", "n", "s"].map((A) =>
+                    s.default.createElement(
+                      "button",
+                      {
+                        key: A,
+                        className: "pl-block",
+                        disabled: T,
+                        onClick: () => {
+                          let O;
+                          (A === "-"
+                            ? (O = ["-"])
+                            : (O = [...ze.filter((ne) => ne !== "-"), A]),
+                            O.length > 5 && (O = O.slice(0, 5)),
+                            oe(O));
+                        },
+                      },
+                      A,
+                    ),
+                  ),
+                ),
+                s.default.createElement(
+                  "button",
+                  {
+                    className: "primary-action",
+                    disabled: !n || T || !gPick || !ze.length,
+                    onClick: () =>
+                      _(
+                        gPick === nq.gender &&
+                          (NQVAR[w.id] ?? [nq.seq]).some(
+                            (A) => A.join("") === ze.join(""),
+                          ),
+                      ),
+                  },
+                  "\u9001\u51FA",
+                ),
+                s.default.createElement(
+                  "button",
+                  {
+                    className: "tile-idk",
+                    disabled: T,
+                    onClick: () => _(!1),
+                  },
+                  "\u4E0D\u6703",
+                ),
+                T &&
+                  !(mst && h[h.length - 1]?.correct) &&
+                  s.default.createElement(
+                    "div",
+                    { className: "spell-answer" },
+                    nq.gender + " " + nq.plural,
+                  ),
               ),
             e === "cards" &&
               s.default.createElement(
