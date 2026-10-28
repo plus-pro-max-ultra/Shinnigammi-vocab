@@ -1,0 +1,11 @@
+const p=require('puppeteer-core');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const b=await p.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox'],headless:'new'});
+const pg=await b.newPage();await pg.setViewport({width:390,height:844,isMobile:true,deviceScaleFactor:2});
+await pg.goto('http://localhost:8571/#/more');await sleep(800);
+await pg.evaluate(()=>{const b=[...document.querySelectorAll('button,a')].find(x=>x.innerText.includes('設定'));b&&b.click();});await sleep(700);
+await pg.evaluate(()=>{const l=[...document.querySelectorAll('label.check-row')].find(x=>x.textContent.includes('精熟複習模式'));l.querySelector('input').click();});
+await sleep(300);
+await pg.evaluate(()=>{const l=[...document.querySelectorAll('label.check-row')].find(x=>x.textContent.includes('精熟複習模式'));l.scrollIntoView({block:'center'});});
+await sleep(300);
+await pg.screenshot({path:'/downloads/mastery-toggle.png'});
+await b.close();console.log('ok');})().catch(e=>{console.error(e);process.exit(1)});

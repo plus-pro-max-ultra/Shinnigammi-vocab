@@ -73559,8 +73559,36 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.33 1028-1833",
+    O1 = "v14.34 1028-1934",
     R1 = [
+      {
+        v: "v14.34",
+        d: "10/28",
+        items: [
+          "新增「精熟複習模式」（設定中開關，預設關閉，納入備份）：選擇、假名、字塊拼字、拼字測驗答對時約 0.7 秒後自動換題，不再開資訊卡或需再按一次；答錯維持顯示訂正、手動換題。字卡與熟悉度仍自行評分，行為不變。",
+        ],
+      },
+      {
+        v: "v14.33",
+        d: "10/28",
+        items: [
+          "字塊拼字字塊改為可重複使用：每種字只顯示一個字塊，可重複點按不消失，點答案區的字可移除。",
+        ],
+      },
+      {
+        v: "v14.31",
+        d: "10/28",
+        items: [
+          "處理暫存區 welche（de-426，語言基礎・疑問詞）；修正語言基礎分類標籤顯示錯誤。",
+        ],
+      },
+      {
+        v: "v14.32",
+        d: "10/28",
+        items: [
+          "處理 4 個使用者提交的德文字：bisschen（基礎區代名詞）、einmal、Entschuldigung、verstehen（第一課），各附 2 則 Tatoeba 來源例句。",
+        ],
+      },
       {
         v: "v14.30",
         d: "10/27",
@@ -74691,6 +74719,7 @@ Error generating stack: ` +
         rememberTab: !1,
         quizFamiliar: !0,
         spellExplain: !1,
+        mastery: !1,
         lastTab: "",
       }),
       [tr, Ce] = (0, s.useState)(""),
@@ -75064,7 +75093,9 @@ Error generating stack: ` +
             !l.progress ||
             Array.isArray(l.progress) ||
             (l.userWords !== void 0 && !$n(l.userWords)) ||
-            (l.staging !== void 0 && !tf(l.staging))
+            (l.staging !== void 0 && !tf(l.staging)) ||
+            (l.ui !== void 0 &&
+              (typeof l.ui != "object" || l.ui === null || Array.isArray(l.ui)))
           )
             throw Error();
           let z = l.progress;
@@ -75099,7 +75130,8 @@ Error generating stack: ` +
           )
             throw Error();
           (l.staging !== void 0 && p(l.staging),
-            l.userWords !== void 0 && (_o(l.userWords), i(l.userWords)));
+            l.userWords !== void 0 && (_o(l.userWords), i(l.userWords)),
+            l.ui !== void 0 && U({ ...R, ...l.ui }));
           let S = [{}, {}, {}, {}];
           (Object.entries(z)
             .filter(([L]) => V.some((C) => C.id === L))
@@ -75423,6 +75455,7 @@ Error generating stack: ` +
                   speak: td,
                   quizFam: R.quizFamiliar !== !1,
                   spellExp: R.spellExplain === !0,
+                  mastery: R.mastery === !0,
                 })
               : ed && nt
                 ? s.default.createElement(pf, {
@@ -77032,7 +77065,7 @@ Error generating stack: ` +
                         s.default.createElement(
                           "p",
                           null,
-                          "\u542B\u5169\u7A2E\u8A9E\u8A00\u7684\u9032\u5EA6\u3001\u4E3B\u984C\u5206\u985E\u3001\u66F8\u7C64\u3001\u500B\u4EBA\u7B46\u8A18\u3001\u81EA\u5DF1\u65B0\u589E\u7684\u55AE\u5B57\u8207\u6BCF\u65E5\u7DF4\u7FD2\u7D71\u8A08\u3002\u820A\u7248\u5099\u4EFD\u4ECD\u53EF\u9084\u539F\uFF1B\u6C92\u6709\u65B0\u6B04\u4F4D\u6642\u4FDD\u7559\u73FE\u6709\u66F8\u7C64\u8207\u7B46\u8A18\u3002\u9084\u539F\u6703\u53D6\u4EE3\u5C0D\u61C9\u8CC7\u6599\u3002",
+                          "\u542B\u5169\u7A2E\u8A9E\u8A00\u7684\u9032\u5EA6\u3001\u4E3B\u984C\u5206\u985E\u3001\u66F8\u7C64\u3001\u500B\u4EBA\u7B46\u8A18\u3001\u81EA\u5DF1\u65B0\u589E\u7684\u55AE\u5B57\u8207\u6BCF\u65E5\u7DF4\u7FD2\u7D71\u8A08\u8207\u8A2D\u5B9A\u3002\u820A\u7248\u5099\u4EFD\u4ECD\u53EF\u9084\u539F\uFF1B\u6C92\u6709\u65B0\u6B04\u4F4D\u6642\u4FDD\u7559\u73FE\u6709\u66F8\u7C64\u8207\u7B46\u8A18\u3002\u9084\u539F\u6703\u53D6\u4EE3\u5C0D\u61C9\u8CC7\u6599\u3002",
                         ),
                         s.default.createElement(
                           "button",
@@ -77050,6 +77083,7 @@ Error generating stack: ` +
                                     daily: m,
                                     userWords: a,
                                     staging: d,
+                                    ui: R,
                                   },
                                   null,
                                   2,
@@ -77322,6 +77356,18 @@ Error generating stack: ` +
                                 U({ ...R, quizFamiliar: l.target.checked }),
                             }),
                             "\u6E2C\u9A57\u7D50\u679C\u8A08\u5165\u719F\u6089\u5EA6\uFF08\u95DC\u9589\u5F8C\u6E2C\u9A57\u4E0D\u6703\u66F4\u6539\u719F\u6089\u5EA6\uFF09",
+                          ),
+                          s.default.createElement(
+                            "label",
+                            { className: "check-row" },
+                            s.default.createElement("input", {
+                              type: "checkbox",
+                              checked: !!R.mastery,
+                              disabled: !P.ready,
+                              onChange: (l) =>
+                                U({ ...R, mastery: l.target.checked }),
+                            }),
+                            "精熟複習模式：答對約 0.7 秒後自動換題",
                           ),
                         s.default.createElement(
                           "label",
@@ -79653,6 +79699,7 @@ Error generating stack: ` +
     speak: f,
     quizFam: j,
     spellExp: spExp,
+    mastery: mst,
   }) {
     let [y, k] = (0, s.useState)(0),
       [T, u] = (0, s.useState)(!1),
@@ -79809,12 +79856,13 @@ Error generating stack: ` +
       return () => clearTimeout(A);
     }, [y, e]);
     (0, s.useEffect)(() => {
-      if (!T || !h.length) return;
-      if (e === "spell" && !h[h.length - 1].correct) return;
-      if (e !== "spell" && e !== "cards") return;
-      let A = setTimeout(() => k((O) => O + 1), e === "cards" ? 450 : 750);
-      return () => clearTimeout(A);
-    }, [T, h.length, e]);
+      if (!T || !h.length || U) return;
+      let okLast = h[h.length - 1].correct;
+      if (e === "cards" || (e === "spell" && okLast) || (mst && okLast && (e === "forward" || e === "reverse" || e === "kana" || e === "tiles"))) {
+        let A = setTimeout(() => k((O) => O + 1), e === "cards" ? 450 : e === "spell" ? 750 : 700);
+        return () => clearTimeout(A);
+      }
+    }, [T, h.length, e, mst, U]);
     (0, s.useEffect)(() => {
       if (!autoPlay || e !== "cards" || !w) return;
       let A = setTimeout(() => D(!0), 1200),
@@ -80450,7 +80498,7 @@ Error generating stack: ` +
               }),
             (e === "forward" || e === "reverse" || e === "familiar" || e === "cards"
               ? expOpen
-              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct))) &&
+              : T && (e !== "spell" || (spExp && !h[h.length - 1]?.correct)) && !(mst && h[h.length - 1]?.correct)) &&
               s.default.createElement(
                 "div",
                 {
