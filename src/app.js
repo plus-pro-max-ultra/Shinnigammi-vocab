@@ -11106,6 +11106,14 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.36",
+        d: "10/28",
+        items: [
+          "修正名詞測驗回饋：複數名詞誤用單數冠詞（例如顯示 der Tage），現在一律以複數冠詞 die 顯示；答對時顯示的複數形與你實際拼出的字尾一致。",
+          "移除 Tag、Gast、Star 三個複數變體接受：向 de.wiktionary 查證後確認 Tags／Gasten／Stare 屬於其他詞義（電腦標籤、船員用語、鳥名），不是這些單字在教材詞義下的複數；Euro 保留 Euro／Euros 雙複數（同一詞位列有兩種複數）。",
+        ],
+      },
+      {
         v: "v14.35",
         d: "10/28",
         items: [
@@ -11653,10 +11661,13 @@ Error generating stack: ` +
       return null;
     },
     NQVAR = {
-      "de-255": [["e"], ["s"]],
       "de-342": [["-"], ["s"]],
-      "de-379": [["\u00a8", "e"], ["e", "n"]],
-      "de-387": [["s"], ["e"]],
+    },
+    nqsurf = (q, seq) => {
+      let u = seq.includes("\u00a8"),
+        sfx = seq.filter((x) => x !== "\u00a8" && x !== "-").join(""),
+        a = { a: "\u00e4", o: "\u00f6", u: "\u00fc", A: "\u00c4", O: "\u00d6", U: "\u00dc" };
+      return (u ? q.stem.replace(/[aouAOU]/, (d) => a[d]) : q.stem) + sfx;
     },
     wm = {
       "jp-005": "n5",
@@ -17958,7 +17969,8 @@ Error generating stack: ` +
                   s.default.createElement(
                     "div",
                     { className: "spell-answer" },
-                    nq.gender + " " + nq.plural,
+                    "die " +
+                      (h[h.length - 1]?.correct ? nqsurf(nq, ze) : nq.plural),
                   ),
               ),
             e === "cards" &&

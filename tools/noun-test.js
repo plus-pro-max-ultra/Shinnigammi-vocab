@@ -43,7 +43,7 @@ const rest=q1.seq.slice(1);
 for(const b of rest){await pg.evaluate(b=>{[...document.querySelectorAll('.pl-block')].find(x=>x.innerText.trim()===b).click()},b);await sleep(80)}
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='送出');x.click()});await sleep(300);
 ok('correct answer ok state',await pg.evaluate(()=>!!document.querySelector('.pl-answer.sp-ok')));
-ok('feedback shows full form',await pg.evaluate((full)=>document.body.innerText.includes(full),q1.gender+' '+q1.plural));
+ok('feedback shows full form',await pg.evaluate((full)=>document.body.innerText.includes(full),'die '+q1.plural));
 ok('no auto-advance (mastery off)',await pg.evaluate(s=>document.querySelector('.quiz-prompt h1').innerText.trim()===s,q1.stem));
 await shot('noun-correct');
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
@@ -51,7 +51,7 @@ await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')]
 let q2=await answer(false);
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='送出');x.click()});await sleep(300);
 ok('wrong answer bad state',await pg.evaluate(()=>!!document.querySelector('.pl-answer.sp-bad')));
-ok('wrong shows correction',await pg.evaluate((full)=>document.body.innerText.includes(full),q2.gender+' '+q2.plural));
+ok('wrong shows correction',await pg.evaluate((full)=>document.body.innerText.includes(full),'die '+q2.plural));
 ok('wrong gender marked',await pg.evaluate(()=>!!document.querySelector('.gender-row button.correct-option')&&!!document.querySelector('.gender-row button.wrong-option')));
 await shot('noun-wrong');
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
