@@ -11106,6 +11106,13 @@ Error generating stack: ` +
     O1 = "__BUILD__",
     R1 = [
       {
+        v: "v14.41",
+        d: "10/28",
+        items: [
+          "修正德文單元在你的裝置上仍顯示舊主題單元的問題：10/21 已依你的指示把預設單元改為 Lektion 1/2/3，但當時沒有遷移已儲存的單元清單，導致舊主題單元一直留著。現在會移除舊預設主題單元、把德文單字歸到所屬課次；你的自訂單元與學習進度不受影響。",
+        ],
+      },
+      {
         v: "v14.40",
         d: "10/28",
         items: [
@@ -12296,6 +12303,34 @@ Error generating stack: ` +
       let v = [...r.books, ...l],
         S = { ...r.entries },
         Gf = 0;
+      // v14.41 migration: drop the pre-v14.7 German topic units (MM 2026-10-21 instruction:
+      // German units = Lektion 1/2/3). Saved catalogs kept the old topic units because the
+      // defaults change never migrated them. Targets exactly the legacy default ids;
+      // custom books, other entry fields (familiarity etc.) and progress stay untouched.
+      let OLDDE = [
+          "debook-1", "debook-2", "debook-3", "debook-4", "debook-5", "debook-6",
+          "debook-7", "debook-8", "debook-9", "debook-10", "debook-11", "debook-12",
+          "debook-14", "debook-15", "debook-16", "debook-17", "debook-18", "debook-19",
+          "debook-20",
+        ],
+        mig = 0;
+      if (v.some((C) => OLDDE.includes(C.id))) {
+        ((v = v.filter((C) => !OLDDE.includes(C.id))),
+          V.filter((C) => C.lang === "de" && C.themeId).forEach((C) => {
+            let cur = S[C.id],
+              kept = (cur?.books ?? []).filter((ee) => !OLDDE.includes(ee));
+            (kept.includes(C.themeId) || (kept = [C.themeId, ...kept]),
+              kept.join() !== (cur?.books ?? []).join()) &&
+              ((S[C.id] = { ...cur, books: kept }), mig++);
+          }),
+          Object.keys(S).forEach((C) => {
+            if (V.some((ae) => ae.id === C)) return;
+            let cur = S[C],
+              kept = (cur?.books ?? []).filter((ee) => !OLDDE.includes(ee));
+            kept.join() !== (cur?.books ?? []).join() &&
+              ((S[C] = { ...cur, books: kept }), mig++);
+          }));
+      }
       V.filter(
         (C) => C.foundations && C.themeId == null && !Nm[C.id] && r.entries[C.id],
       ).forEach((C) => {
@@ -12304,7 +12339,7 @@ Error generating stack: ` +
           ae[0] === Od(C) &&
           ((S[C.id] = { ...r.entries[C.id], books: [] }), Gf++);
       });
-      if (!z.length && !l.length && !Gf) return;
+      if (!z.length && !l.length && !Gf && !mig) return;
       z.forEach((C) => {
         let ae =
           Fs.entries[C.id]?.books.filter((ee) =>
