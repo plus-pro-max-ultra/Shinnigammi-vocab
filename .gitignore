@@ -1,1 +1,6 @@
 node_modules
+tools/*.png
+tools/quiz-sweep2.js
+tools/sw4.js
+tools/pos-check.js
+tools/pc2.js
