@@ -17279,7 +17279,7 @@ Error generating stack: ` +
           let kt = O.indexOf(Ye);
           return kt >= 0 ? kt : 1e3 + Ye.charCodeAt(0);
         };
-        (G([...A, ...Oo].sort((Ye, kt) => Qr(Ye) - Qr(kt))), oe([]));
+        (G([...new Set([...A, ...Oo])].sort((Ye, kt) => Qr(Ye) - Qr(kt))), oe([]));
       }
       (u(!1), D(!1), E(""), K(null), P(!1), Ce(!1), setExpOpen(!1));
     }, [y]);
@@ -17376,11 +17376,10 @@ Error generating stack: ` +
                 (!!w.masuReading && W(b) === W(w.masuReading))))
           : !1,
       Q = (A) => {
-        if (T || ze.includes(A)) return;
-        let O = [...ze, A];
+        if (T) return;
+        let O = [...ze, Je[A]];
         (oe(O),
-          O.length === [...R].length &&
-            _(W(O.map((ne) => Je[ne]).join("")) === W(R)));
+          O.length === [...R].length && _(W(O.join("")) === W(R)));
       },
       Se =
         e === "kana"
@@ -17689,7 +17688,7 @@ Error generating stack: ` +
                         disabled: T,
                         onClick: () => oe(ze.filter((ne, He) => He !== O)),
                       },
-                      Je[A],
+                      A,
                     ),
                   ),
                 ),
@@ -17701,8 +17700,8 @@ Error generating stack: ` +
                       "button",
                       {
                         key: O,
-                        disabled: T || ze.includes(O),
-                        className: ze.includes(O) ? "tile-used" : "",
+                        disabled: T,
+                        className: "",
                         onClick: () => Q(O),
                       },
                       A,
