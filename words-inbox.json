@@ -111,6 +111,14 @@
             "word": "ort",
             "skip": true,
             "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195643242",
+            "lang": "de",
+            "word": "jeden",
+            "skip": true,
+            "filledAt": "2026-10-29T03:16:17Z",
+            "note": "added as base form jeder (de-441) per MM 2026-10-29 standing instruction"
         }
     ]
 }

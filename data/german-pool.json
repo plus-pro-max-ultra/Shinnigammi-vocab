@@ -9377,5 +9377,35 @@
    }
   ],
   "topic": "andere wichtige Wörter und Wendungen"
+ },
+ {
+  "id": "de-441",
+  "lang": "de",
+  "word": "jeder",
+  "reading": "jeder",
+  "ipa": "/ˈjeːdɐ/",
+  "en": "every; each; everyone",
+  "zh": "每；每個；人人",
+  "grammar": "indefinite pronoun · base form; declines jeder/jede/jedes (acc. masc. jeden)",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/jeder",
+  "examples": [
+   {
+    "text": "Jeder lügt.",
+    "zh": "每個人都會說謊。",
+    "en": "Everyone lies.",
+    "src": "tatoeba",
+    "tid": "1038838"
+   },
+   {
+    "text": "Das weiß jeder.",
+    "zh": "那件事誰都知道。",
+    "en": "Everyone knows that.",
+    "src": "tatoeba",
+    "tid": "7885497"
+   }
+  ],
+  "foundations": "pronouns",
+  "note": "兩例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）；使用者提交 jeden，依 MM 2026-10-29 指示以原形 jeder 收錄"
  }
 ]
