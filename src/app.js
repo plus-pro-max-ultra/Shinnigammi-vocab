@@ -11751,7 +11751,7 @@ Error generating stack: ` +
       let a = { a: "\u00e4", o: "\u00f6", u: "\u00fc", A: "\u00c4", O: "\u00d6", U: "\u00dc" },
         i = n.replace(/[aouAOU]/, (d) => a[d]);
       i = i === n ? null : i;
-      let c = [["nen", ["n", "e", "n"]], ["en", ["e", "n"]], ["e", ["e"]], ["n", ["n"]], ["s", ["s"]]];
+      let c = [["nen", ["n", "e", "n"]], ["en", ["e", "n"]], ["er", ["e", "r"]], ["e", ["e"]], ["n", ["n"]], ["s", ["s"]]];
       if (o === n) return { stem: n, gender: r, plural: o, seq: ["-"] };
       if (i && o === i) return { stem: n, gender: r, plural: o, seq: ["\u00a8"] };
       for (let [d, p] of c)
@@ -18095,7 +18095,7 @@ Error generating stack: ` +
                         )
                       : "-" + ze.join(""),
                   ),
-                  ["\u00a8", "-", "e", "n", "s"].map((A) =>
+                  ["\u00a8", "-", "e", "n", "s", "r"].map((A) =>
                     s.default.createElement(
                       "button",
                       {

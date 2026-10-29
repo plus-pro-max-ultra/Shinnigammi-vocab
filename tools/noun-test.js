@@ -2,7 +2,7 @@
 const p=require('puppeteer-core');const fs=require('fs');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const UM={a:'ä',o:'ö',u:'ü',A:'Ä',O:'Ö',U:'Ü'};
 function uml(x){const m=x.search(/[aouAOU]/);return m<0?null:x.slice(0,m)+UM[x[m]]+x.slice(m+1)}
-const SFX=[["nen",["n","e","n"]],["en",["e","n"]],["e",["e"]],["n",["n"]],["s",["s"]]];
+const SFX=[["nen",["n","e","n"]],["en",["e","n"]],["er",["e","r"]],["e",["e"]],["n",["n"]],["s",["s"]]];
 function NQ(e){if(!e||e.lang!=='de'||typeof e.grammar!=='string')return null;
  const t=/^noun · (masculine|feminine|neuter)(?:\s*\([^)]*\))?; plural ([^;]+?)\s*(?:;.*)?$/.exec(e.grammar.trim());if(!t)return null;
  const g={masculine:'der',feminine:'die',neuter:'das'}[t[1]];const pl=t[2].trim();if(!pl||/[/(,]/.test(pl))return null;
