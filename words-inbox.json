@@ -1,46 +1,116 @@
 {
- "entries": [
-  {
-   "ref": "s-1793148001856",
-   "lang": "de",
-   "word": "welche",
-   "skip": true,
-   "filledAt": "2026-10-28T01:18:00Z"
-  },
-  {
-   "ref": "s-1793179621059",
-   "lang": "de",
-   "word": "bisschen",
-   "skip": true,
-   "filledAt": "2026-10-28T10:22:57Z"
-  },
-  {
-   "ref": "s-1793179625413",
-   "lang": "de",
-   "word": "einmal",
-   "skip": true,
-   "filledAt": "2026-10-28T10:22:57Z"
-  },
-  {
-   "ref": "s-1793179642337",
-   "lang": "de",
-   "word": "entschuldigung",
-   "skip": true,
-   "filledAt": "2026-10-28T10:22:57Z"
-  },
-  {
-   "ref": "s-1793179758874",
-   "lang": "de",
-   "word": "verstehen",
-   "skip": true,
-   "filledAt": "2026-10-28T10:22:57Z"
-  },
-  {
-   "ref": "s-1793182637478",
-   "lang": "de",
-   "word": "käufer",
-   "skip": true,
-   "filledAt": "2026-10-28T12:53:00Z"
-  }
- ]
+    "entries": [
+        {
+            "ref": "s-1793148001856",
+            "lang": "de",
+            "word": "welche",
+            "skip": true,
+            "filledAt": "2026-10-28T01:18:00Z"
+        },
+        {
+            "ref": "s-1793179621059",
+            "lang": "de",
+            "word": "bisschen",
+            "skip": true,
+            "filledAt": "2026-10-28T10:22:57Z"
+        },
+        {
+            "ref": "s-1793179625413",
+            "lang": "de",
+            "word": "einmal",
+            "skip": true,
+            "filledAt": "2026-10-28T10:22:57Z"
+        },
+        {
+            "ref": "s-1793179642337",
+            "lang": "de",
+            "word": "entschuldigung",
+            "skip": true,
+            "filledAt": "2026-10-28T10:22:57Z"
+        },
+        {
+            "ref": "s-1793179758874",
+            "lang": "de",
+            "word": "verstehen",
+            "skip": true,
+            "filledAt": "2026-10-28T10:22:57Z"
+        },
+        {
+            "ref": "s-1793182637478",
+            "lang": "de",
+            "word": "käufer",
+            "skip": true,
+            "filledAt": "2026-10-28T12:53:00Z"
+        },
+        {
+            "ref": "s-1793195621907",
+            "lang": "de",
+            "word": "Mann",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195616664",
+            "lang": "de",
+            "word": "man",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195726070",
+            "lang": "de",
+            "word": "immer",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195766100",
+            "lang": "de",
+            "word": "alles",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195828653",
+            "lang": "de",
+            "word": "Heft",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195834884",
+            "lang": "de",
+            "word": "Uhr",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195866898",
+            "lang": "de",
+            "word": "der Brief",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195882791",
+            "lang": "de",
+            "word": "der Zettel",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195907141",
+            "lang": "de",
+            "word": "die Rechnung",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        },
+        {
+            "ref": "s-1793195948713",
+            "lang": "de",
+            "word": "ort",
+            "skip": true,
+            "filledAt": "2026-10-29T01:21:57Z"
+        }
+    ]
 }

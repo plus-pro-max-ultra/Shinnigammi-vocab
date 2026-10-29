@@ -1,0 +1,11 @@
+const p=require('puppeteer-core');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const u='https://plus-pro-max-ultra.github.io/Shinnigammi-vocab/?nc='+Date.now();
+const b=await p.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox'],headless:'new'});
+const pg=await b.newPage();await pg.setViewport({width:390,height:844,isMobile:true,hasTouch:true});
+await pg.goto(u+'#/more');await sleep(1200);
+await pg.evaluate(()=>{const x=[...document.querySelectorAll('button,label,a,summary')].find(x=>x.offsetParent&&x.innerText.trim().includes('設定'));x&&x.click()});await sleep(800);
+const t=await pg.evaluate(()=>document.body.innerText);
+const m=t.match(/版本[：:]\s*(v[\d.]+)/);
+console.log('version line:',m?m[0]:'NOT FOUND', '| pass:', m&&m[1]==='v14.47');
+await pg.screenshot({path:'tools/l9-live-settings.png'});
+await b.close()})();

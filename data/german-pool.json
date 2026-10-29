@@ -9104,5 +9104,278 @@
    }
   ],
   "topic": "Berufe und Arbeit"
+ },
+ {
+  "id": "de-432",
+  "lang": "de",
+  "word": "der Mann",
+  "reading": "man",
+  "ipa": "/man/",
+  "en": "man; husband",
+  "zh": "男人；丈夫",
+  "grammar": "noun · masculine; plural Männer",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mann",
+  "examples": [
+   {
+    "text": "Er ist mein Mann.",
+    "zh": "他是我丈夫。",
+    "en": "He is my husband.",
+    "src": "tatoeba",
+    "tid": "13260806"
+   },
+   {
+    "text": "Männer sollten arbeiten.",
+    "zh": "男人應該工作。",
+    "en": "Men should work.",
+    "src": "tatoeba",
+    "tid": "7763776"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "第二例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-433",
+  "lang": "de",
+  "word": "man",
+  "reading": "man",
+  "ipa": "/man/",
+  "en": "one; you; they (indefinite)",
+  "zh": "人們；一個人（泛指）",
+  "grammar": "indefinite pronoun · nominative only; other cases use einem/einen",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/man",
+  "examples": [
+   {
+    "text": "Wie lernt man Fremdsprachen?",
+    "zh": "你如何學習外語？",
+    "en": "How do you learn foreign languages?",
+    "src": "tatoeba",
+    "tid": "13187144"
+   },
+   {
+    "text": "Merkt man es?",
+    "zh": "看得出來嗎？",
+    "en": "Does it show?",
+    "src": "tatoeba",
+    "tid": "1801881"
+   }
+  ],
+  "foundations": "pronouns"
+ },
+ {
+  "id": "de-434",
+  "lang": "de",
+  "word": "immer",
+  "reading": "ˈɪmɐ",
+  "ipa": "/ˈɪmɐ/",
+  "en": "always",
+  "zh": "總是；一直",
+  "grammar": "adverb",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/immer",
+  "examples": [
+   {
+    "text": "Er lernt immer.",
+    "zh": "他總是在學習。",
+    "en": "He is always studying.",
+    "src": "tatoeba",
+    "tid": "10653082"
+   },
+   {
+    "text": "Geh immer geradeaus!",
+    "zh": "一直往前走。",
+    "en": "Keep walking straight ahead.",
+    "src": "tatoeba",
+    "tid": "10849295"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen"
+ },
+ {
+  "id": "de-435",
+  "lang": "de",
+  "word": "alles",
+  "reading": "ˈaləs",
+  "ipa": "/ˈaləs/",
+  "en": "everything",
+  "zh": "一切；所有事物",
+  "grammar": "indefinite pronoun · inflected form of all",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/alles",
+  "examples": [
+   {
+    "text": "Alles Gute!",
+    "zh": "祝一切都好！",
+    "en": "All the best!",
+    "src": "tatoeba",
+    "tid": "1391541"
+   },
+   {
+    "text": "Alles in Ordnung?",
+    "zh": "全都好嗎？",
+    "en": "Everything okay?",
+    "src": "tatoeba",
+    "tid": "3018994"
+   }
+  ],
+  "foundations": "pronouns"
+ },
+ {
+  "id": "de-436",
+  "lang": "de",
+  "word": "das Heft",
+  "reading": "hɛft",
+  "ipa": "/hɛft/",
+  "en": "notebook; exercise book",
+  "zh": "筆記本",
+  "grammar": "noun · neuter; plural Hefte",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Heft",
+  "examples": [
+   {
+    "text": "Das Heft gehört dir nicht, es gehört ihm.",
+    "zh": "這本筆記本不是你的，是他的。",
+    "en": "The notebook is not yours. It's his.",
+    "src": "tatoeba",
+    "tid": "351837"
+   },
+   {
+    "text": "Das Heft ist nicht deines, es ist seines.",
+    "zh": "這本筆記本不是你的，是他的。",
+    "en": "The notebook is not yours. It's his.",
+    "src": "tatoeba",
+    "tid": "351836"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "兩例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-437",
+  "lang": "de",
+  "word": "die Uhr",
+  "reading": "uːɐ̯",
+  "ipa": "/uːɐ̯/",
+  "en": "clock; watch; o'clock",
+  "zh": "時鐘；錶；…點鐘",
+  "grammar": "noun · feminine; plural Uhren",
+  "contentType": "word",
+  "themeId": "debook-L2",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Uhr",
+  "examples": [
+   {
+    "text": "Es ist acht Uhr.",
+    "zh": "現在八點鐘。",
+    "en": "It's eight o'clock.",
+    "src": "tatoeba",
+    "tid": "8472861"
+   },
+   {
+    "text": "Wieviel Uhr ist es?",
+    "zh": "現在幾點？",
+    "en": "What time is it?",
+    "src": "tatoeba",
+    "tid": "5216493"
+   }
+  ],
+  "topic": "Zeit",
+  "note": "第一例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-438",
+  "lang": "de",
+  "word": "der Brief",
+  "reading": "bʁiːf",
+  "ipa": "/bʁiːf/",
+  "en": "letter",
+  "zh": "信；信件",
+  "grammar": "noun · masculine; plural Briefe",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Brief",
+  "examples": [
+   {
+    "text": "Sende diesen Brief.",
+    "zh": "把這封信寄了。",
+    "en": "Mail this letter.",
+    "src": "tatoeba",
+    "tid": "7319787"
+   },
+   {
+    "text": "Tom schreibt Briefe.",
+    "zh": "湯姆在寫信。",
+    "en": "Tom is writing letters.",
+    "src": "tatoeba",
+    "tid": "1713262"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "兩例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-439",
+  "lang": "de",
+  "word": "der Zettel",
+  "reading": "ˈt͡sɛtl̩",
+  "ipa": "/ˈt͡sɛtl̩/",
+  "en": "piece of paper; note",
+  "zh": "紙條；便條",
+  "grammar": "noun · masculine; plural Zettel",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zettel",
+  "examples": [
+   {
+    "text": "Gib mir einen Zettel!",
+    "zh": "給我一張紙。",
+    "en": "Give me a piece of paper.",
+    "src": "tatoeba",
+    "tid": "13076913"
+   },
+   {
+    "text": "Als Tom vom Stammtischabend mit seinen Freunden nach Hause kam, fand er an der Haustür einen handgeschriebenen Zettel mit der Handschrift seiner Frau: »Rechne nicht damit, dass ich zurückkomme – ich habe dich verlassen!«",
+    "zh": "湯姆晚上在酒吧裡和他的哥們兒們高興了一通以後回家發現前門上貼著一張字條，上有他妻子的筆跡，寫著：「絕對別覺得我可能會再回來，我跟你從此斷絕了！」",
+    "en": "Returning home from an evening down the pub with his mates, Tom found a handwritten note stuck to the front door; the handwriting was his wife's. It read: \"You can forget any idea that I might come back – I've left you!\"",
+    "src": "tatoeba",
+    "tid": "6563195"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "第一例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-440",
+  "lang": "de",
+  "word": "die Rechnung",
+  "reading": "ˈʁɛçnʊŋ",
+  "ipa": "/ˈʁɛçnʊŋ/",
+  "en": "bill; check; invoice",
+  "zh": "帳單",
+  "grammar": "noun · feminine; plural Rechnungen",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Rechnung",
+  "examples": [
+   {
+    "text": "Die Rechnung, bitte!",
+    "zh": "請結帳。",
+    "en": "The bill, please!",
+    "src": "tatoeba",
+    "tid": "688310"
+   },
+   {
+    "text": "Als Tom vom Stammtischabend mit seinen Freunden nach Hause kam, fand er einen Zettel, der an der Haustür klebte; darauf stand in der Handschrift seiner Frau: „Hoffe nicht auf meine Wiederkehr – ich habe dich verlassen!“",
+    "zh": "湯姆付了帳單。",
+    "en": "Tom paid the bill.",
+    "src": "tatoeba",
+    "tid": "1819170"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen"
  }
 ]

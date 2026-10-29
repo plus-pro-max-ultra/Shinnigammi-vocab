@@ -1,0 +1,14 @@
+const p=require('puppeteer-core');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const u=process.argv[2];const b=await p.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox'],headless:'new'});
+const pg=await b.newPage();await pg.setViewport({width:390,height:844,isMobile:true,hasTouch:true});
+const ok=(n,c)=>console.log(c?'PASS':'FAIL',n);
+await pg.goto(u+'#/');await sleep(1100);
+await pg.evaluate(()=>{const x=[...document.querySelectorAll('button,label,a,summary')].find(x=>x.offsetParent&&x.innerText.trim().includes('初級日文'));x&&x.click()});await sleep(700);
+await pg.evaluate(()=>{const x=[...document.querySelectorAll('button,label,a,summary')].find(x=>x.offsetParent&&x.innerText.trim().includes('日常動作'));x&&x.click()});await sleep(700);
+await pg.evaluate(()=>{const els=[...document.querySelectorAll('button,a,li,div')].filter(x=>x.offsetParent&&x.innerText&&x.innerText.trim().startsWith('全然')&&x.innerText.trim().length<30);els[0]&&els[0].click()});await sleep(900);
+await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.offsetParent&&x.innerText.trim()==='意思');x&&x.click()});await sleep(500);
+const det=await pg.evaluate(()=>document.body.innerText);
+ok('note visible under 意思 tab',det.includes('口語中也可接肯定形'));
+ok('note teaches negative pattern',det.includes('通常接否定形'));
+await pg.screenshot({path:'tools/l9-zenzen-note.png'});
+await b.close()})();

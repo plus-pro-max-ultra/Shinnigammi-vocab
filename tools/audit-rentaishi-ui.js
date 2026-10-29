@@ -1,0 +1,31 @@
+const puppeteer=require('puppeteer-core');
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{
+const b=await puppeteer.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});
+const p=await b.newPage();await p.setViewport({width:390,height:844});
+const errs=[];p.on('pageerror',e=>errs.push(String(e).slice(0,150)));
+const base=process.argv[2];
+await p.goto(base+'?nc='+Date.now());await sleep(1400);
+await p.evaluate(()=>{const x=[...document.querySelectorAll('button,label,a,summary,div,span')].find(e=>e.offsetParent&&e.innerText.trim()==='查詢');if(x)x.click()});
+await sleep(700);
+await p.evaluate(()=>{const i=[...document.querySelectorAll('input')].find(i=>i.offsetParent);Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(i,'同じ');i.dispatchEvent(new Event('input',{bubbles:true}))});
+await sleep(1000);
+const row1=await p.evaluate(()=>{const b=[...document.querySelectorAll('button.word-row')].find(e=>e.offsetParent&&e.innerText.includes('同じ'));return b?b.innerText:'none'});
+console.log('同じ search row:',JSON.stringify(row1));
+await p.screenshot({path:'tools/audit-ui-onnaji.png'});
+await p.evaluate(()=>{const i=[...document.querySelectorAll('input')].find(i=>i.offsetParent);Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(i,'大きな');i.dispatchEvent(new Event('input',{bubbles:true}))});
+await sleep(1000);
+const row2=await p.evaluate(()=>{const b=[...document.querySelectorAll('button.word-row')].find(e=>e.offsetParent&&e.innerText.includes('大きな'));return b?b.innerText:'none'});
+console.log('大きな search row:',JSON.stringify(row2));
+await p.screenshot({path:'tools/audit-ui-ookina.png'});
+// open 同じ detail to check pos line
+await p.evaluate(()=>{const i=[...document.querySelectorAll('input')].find(i=>i.offsetParent);Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(i,'同じ');i.dispatchEvent(new Event('input',{bubbles:true}))});
+await sleep(900);
+await p.evaluate(()=>{const b=[...document.querySelectorAll('button.word-row')].find(e=>e.offsetParent&&e.innerText.includes('同じ'));if(b)b.click()});
+await sleep(1000);
+const det=await p.evaluate(()=>document.body.innerText.split('\n').filter(x=>/同じ|連体詞|單字 · /.test(x)).slice(0,8));
+console.log('同じ detail lines:',JSON.stringify(det));
+await p.screenshot({path:'tools/audit-ui-onnaji-detail.png'});
+console.log('pageerrors',errs.length,errs);
+await b.close();
+})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,0 +1,28 @@
+const p=require('puppeteer-core');const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const u=process.argv[2];const b=await p.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox'],headless:'new'});
+const pg=await b.newPage();await pg.setViewport({width:390,height:844,isMobile:true,hasTouch:true});
+let errs=0;pg.on('pageerror',x=>{errs++;console.log('ERR',x.message)});
+const ok=(n,c)=>console.log(c?'PASS':'FAIL',n);
+const click=async t=>{const r=await pg.evaluate(t=>{const x=[...document.querySelectorAll('button,label,a,summary')].find(x=>x.offsetParent&&x.innerText.trim().includes(t)&&!x.disabled);if(x){x.click();return 1}return 0},t);await sleep(600);return r};
+await pg.goto(u+'#/');await pg.evaluate(()=>localStorage.clear());await pg.goto(u+'#/');await sleep(1200);
+await pg.screenshot({path:'tools/l9-home.png'});
+ok('open 初級日文',await click('初級日文'));
+await sleep(600);
+const body=await pg.evaluate(()=>document.body.innerText);
+console.log('units page excerpt:',body.split('\n').filter(x=>x.trim()).slice(0,25).join(' / '));
+ok('daily unit 54',/日常動作/.test(body)&&body.split('\n').some(x=>/54/.test(x)));
+await pg.screenshot({path:'tools/l9-units.png'});
+ok('open 日常動作',await click('日常動作'));
+await sleep(800);
+const lst=await pg.evaluate(()=>document.body.innerText);
+ok('全然 in unit list',lst.includes('全然'));
+ok('会う in unit list',lst.includes('会う'));
+ok('また in unit list',lst.includes('また'));
+await pg.screenshot({path:'tools/l9-daily-unit.png'});
+// quiz scope: 初級日文 pool size
+await pg.goto(u+'#/quiz');await sleep(1000);
+const q=await pg.evaluate(()=>document.body.innerText);
+const m=q.match(/範圍內的單字：(\d+)/);
+console.log('quiz pool (全部):',m&&m[1]);
+await pg.screenshot({path:'tools/l9-quiz-scope.png'});
+console.log('pageerrors',errs);await b.close()})();
