@@ -11182,5 +11182,235 @@
   "sourceUrl": "https://de.wiktionary.org/wiki/worum",
   "word": "worum",
   "zh": "關於什麼"
+ },
+ {
+  "id": "de-500",
+  "lang": "de",
+  "word": "Dänemark",
+  "reading": "ˈdɛːnəˌmaʁk",
+  "ipa": "/ˈdɛːnəˌmaʁk/",
+  "en": "Denmark",
+  "zh": "丹麥",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/D%C3%A4nemark",
+  "examples": [
+   {
+    "text": "Island gehörte zu Dänemark.",
+    "en": "Iceland belonged to Denmark.",
+    "src": "tatoeba",
+    "tid": "1520304",
+    "zh": "冰島曾屬於丹麥。"
+   }
+  ],
+  "topic": "Länder und Sprachen",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-501",
+  "lang": "de",
+  "word": "Ägypten",
+  "reading": "ˌɛˈɡʏptn̩",
+  "ipa": "/ˌɛˈɡʏptn̩/",
+  "en": "Egypt",
+  "zh": "埃及",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/%C3%84gypten",
+  "examples": [
+   {
+    "text": "Ich komme aus Ägypten.",
+    "en": "I am from Egypt.",
+    "src": "tatoeba",
+    "tid": "501875",
+    "zh": "我來自埃及。"
+   }
+  ],
+  "topic": "Länder und Sprachen",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-502",
+  "lang": "de",
+  "word": "Wien",
+  "reading": "viːn",
+  "ipa": "/viːn/",
+  "en": "Vienna",
+  "zh": "維也納",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wien",
+  "examples": [
+   {
+    "text": "Unsere Musiklehrerin hat mir geraten, Wien zu besuchen.",
+    "en": "Our music teacher advised me to visit Vienna.",
+    "src": "tatoeba",
+    "tid": "10256665",
+    "zh": "我們的音樂老師建議我去遊覽維也納。"
+   }
+  ],
+  "topic": "Länder und Sprachen",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-503",
+  "lang": "de",
+  "word": "das Symbol",
+  "reading": "zʏmˈboːl",
+  "ipa": "/zʏmˈboːl/",
+  "en": "symbol",
+  "zh": "符號；象徵",
+  "grammar": "noun · neuter; plural Symbole",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Symbol",
+  "examples": [
+   {
+    "text": "Das chemische Symbol „H“ steht für „Wasserstoff“.",
+    "en": "The chemical symbol \"H\" stands for hydrogen.",
+    "src": "tatoeba",
+    "tid": "6713541",
+    "zh": "化學符號“H”表示氫。"
+   }
+  ],
+  "topic": "im Kurs",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-504",
+  "lang": "de",
+  "word": "Moin",
+  "reading": "mɔɪ̯n",
+  "ipa": "/mɔɪ̯n/",
+  "en": "hi; hello (northern German)",
+  "zh": "嗨（北德問候語）",
+  "grammar": "greeting (northern German) · invariable",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/moin",
+  "examples": [
+   {
+    "text": "Moin!",
+    "en": "Hi!",
+    "src": "tatoeba",
+    "tid": "6859151",
+    "zh": "你好！"
+   }
+  ],
+  "topic": "grüßen und verabschieden",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-505",
+  "lang": "de",
+  "word": "das Pech",
+  "reading": "pɛç",
+  "ipa": "/pɛç/",
+  "en": "bad luck",
+  "zh": "壞運氣；倒霉",
+  "grammar": "noun · neuter; normally singular",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Pech",
+  "examples": [
+   {
+    "text": "Was für ein Pech ich habe!",
+    "en": "I'm so unlucky!",
+    "src": "tatoeba",
+    "tid": "394254",
+    "zh": "我真的很倒霉！"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-506",
+  "lang": "de",
+  "word": "der Aussagesatz",
+  "reading": "ˈaʊ̯szaːɡəˌzat͡s",
+  "ipa": "/ˈaʊ̯szaːɡəˌzat͡s/",
+  "en": "declarative sentence; statement",
+  "zh": "陳述句",
+  "grammar": "noun · masculine; plural Aussagesätze",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Aussagesatz",
+  "examples": [
+   {
+    "text": "Ist das ein Frage- oder ein Aussagesatz?",
+    "en": "Is that a question or a statement?",
+    "src": "tatoeba",
+    "tid": "13660677",
+    "zhPending": true
+   }
+  ],
+  "topic": "im Kurs",
+  "note": "第二句例句待補；例句中文翻譯待補（來源句無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-507",
+  "lang": "de",
+  "word": "das Nomen",
+  "reading": "ˈnoːmən",
+  "ipa": "/ˈnoːmən/",
+  "en": "noun",
+  "zh": "名詞",
+  "grammar": "noun · neuter; plural Nomen/Nomina",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Nomen",
+  "examples": [
+   {
+    "text": "Das Wort „Adverb“ ist ein Nomen.",
+    "en": "The word \"adverb\" is a noun.",
+    "src": "tatoeba",
+    "tid": "14016536",
+    "zhPending": true
+   },
+   {
+    "text": "Wie bildet man den Plural der Nomen?",
+    "en": "How do you make nouns plural?",
+    "src": "tatoeba",
+    "tid": "2165464",
+    "zhPending": true
+   }
+  ],
+  "topic": "im Kurs",
+  "note": "例句中文翻譯待補（來源句無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-508",
+  "lang": "de",
+  "word": "das Personalpronomen",
+  "reading": "pɛʁzoˈnaːlpʁoˌnoːmən",
+  "ipa": "/pɛʁzoˈnaːlpʁoˌnoːmən/",
+  "en": "personal pronoun",
+  "zh": "人稱代名詞",
+  "grammar": "noun · neuter; plural Personalpronomen/Personalpronomina",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Personalpronomen",
+  "examples": [
+   {
+    "text": "Bei „ich“, „sie“ und „wir“ handelt es sich um Personalpronomen.",
+    "en": "I, she, and we are all personal pronouns.",
+    "src": "tatoeba",
+    "tid": "13398721",
+    "zhPending": true
+   },
+   {
+    "text": "Ich, du, er, sie, es, wir, ihr, sie sind Personalpronomen.",
+    "en": "I, you, he, she, it, we, you, they are personal pronouns.",
+    "src": "tatoeba",
+    "tid": "827024",
+    "zhPending": true
+   }
+  ],
+  "topic": "im Kurs",
+  "note": "使用者提交「Personalprononmen」，依 MM 2026-10-29 確認以 das Personalpronomen 登錄；例句中文翻譯待補（來源句無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
  }
 ]

@@ -42,6 +42,6 @@ const ui=await pg.evaluate(()=>{const ul=document.querySelector('.unit-list');re
 const i1=ui.indexOf('Lektion 1'),i2=ui.indexOf('Lektion 2'),i3=ui.indexOf('Lektion 3');
 ok('UI Lektion order 1<2<3',i1>=0&&i1<i2&&i2<i3);
 ok('UI no legacy topic unit',!/andere wichtige/.test(ui));
-ok('UI counts 107/123/111',/Lektion 1[\s\S]{0,80}107 字/.test(ui)&&/Lektion 2[\s\S]{0,80}123 字/.test(ui)&&/Lektion 3[\s\S]{0,80}111 字/.test(ui));
+ok('UI counts 116/123/111',/Lektion 1[\s\S]{0,80}116 字/.test(ui)&&/Lektion 2[\s\S]{0,80}123 字/.test(ui)&&/Lektion 3[\s\S]{0,80}111 字/.test(ui));
 await pg.screenshot({path:'tools/mig2-units.png'});
 console.log('pageerrors',errs);await b.close()})();

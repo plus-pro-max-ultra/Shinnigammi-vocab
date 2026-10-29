@@ -550,6 +550,70 @@
             "word": "gleich",
             "skip": true,
             "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238233455",
+            "lang": "de",
+            "word": "Aussagesatz",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793238275743",
+            "lang": "de",
+            "word": "Personalprononmen",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z",
+            "note": "使用者提交「Personalprononmen」，依 MM 2026-10-29 確認以 das Personalpronomen 登錄 (de-508)；例句中文待補"
+        },
+        {
+            "ref": "s-1793238501009",
+            "lang": "de",
+            "word": "Dänemark",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793238519378",
+            "lang": "de",
+            "word": "Ägypten",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793238631433",
+            "lang": "de",
+            "word": "Wien",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793244445859",
+            "lang": "de",
+            "word": "Nomen",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793244544481",
+            "lang": "de",
+            "word": "Symbol",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793244570274",
+            "lang": "de",
+            "word": "Moin",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793244783087",
+            "lang": "de",
+            "word": "Pech",
+            "skip": true,
+            "filledAt": "2026-10-29T06:50:00Z"
         }
     ]
 }
