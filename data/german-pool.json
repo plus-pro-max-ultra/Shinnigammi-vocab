@@ -9407,5 +9407,1780 @@
   ],
   "foundations": "pronouns",
   "note": "兩例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）；使用者提交 jeden，依 MM 2026-10-29 指示以原形 jeder 收錄"
+ },
+ {
+  "id": "de-442",
+  "lang": "de",
+  "word": "Arabisch",
+  "reading": "aˈʁaːbɪʃ",
+  "ipa": "/aˈʁaːbɪʃ/",
+  "en": "Arabic",
+  "zh": "阿拉伯語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Arabisch",
+  "examples": [
+   {
+    "text": "Sprichst du arabisch?",
+    "zh": "你會說阿拉伯語嗎？",
+    "en": "Do you speak Arabic?",
+    "src": "tatoeba",
+    "tid": "11651516"
+   },
+   {
+    "text": "Kannst du Arabisch?",
+    "zh": "你會說阿拉伯語嗎？",
+    "en": "Do you speak Arabic?",
+    "src": "tatoeba",
+    "tid": "2739192"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-443",
+  "lang": "de",
+  "word": "Japanisch",
+  "reading": "jaˈpaːnɪʃ",
+  "ipa": "/jaˈpaːnɪʃ/",
+  "en": "Japanese",
+  "zh": "日語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Japanisch",
+  "examples": [
+   {
+    "text": "Sie spricht Japanisch.",
+    "zh": "她會說日語。",
+    "en": "She speaks Japanese.",
+    "src": "tatoeba",
+    "tid": "10224886"
+   },
+   {
+    "text": "Jane versteht Japanisch.",
+    "zh": "簡懂日語。",
+    "en": "Jane understands Japanese.",
+    "src": "tatoeba",
+    "tid": "8661875"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-444",
+  "lang": "de",
+  "word": "Englisch",
+  "reading": "ˈɛŋlɪʃ",
+  "ipa": "/ˈɛŋlɪʃ/",
+  "en": "English",
+  "zh": "英語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Englisch",
+  "examples": [
+   {
+    "text": "Ich lerne Englisch.",
+    "zh": "我在學英語.",
+    "en": "I'm studying English.",
+    "src": "tatoeba",
+    "tid": "4776682"
+   },
+   {
+    "text": "Ich studiere Englisch.",
+    "zh": "我學英語。",
+    "en": "I'm studying English.",
+    "src": "tatoeba",
+    "tid": "795008"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-445",
+  "lang": "de",
+  "word": "Spanisch",
+  "reading": "ˈʃpaːnɪʃ",
+  "ipa": "/ˈʃpaːnɪʃ/",
+  "en": "Spanish",
+  "zh": "西班牙語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Spanisch",
+  "examples": [
+   {
+    "text": "Du kannst Spanisch.",
+    "zh": "你會說西班牙語。",
+    "en": "You can speak Spanish.",
+    "src": "tatoeba",
+    "tid": "9240183"
+   },
+   {
+    "text": "Unterrichtest du Spanisch?",
+    "zh": "你教西班牙語嗎？",
+    "en": "Do you teach Spanish?",
+    "src": "tatoeba",
+    "tid": "8075170"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen"
+ },
+ {
+  "id": "de-446",
+  "lang": "de",
+  "word": "Türkisch",
+  "reading": "ˈtʏʁkɪʃ",
+  "ipa": "/ˈtʏʁkɪʃ/",
+  "en": "Turkish",
+  "zh": "土耳其語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/T%C3%BCrkisch",
+  "examples": [
+   {
+    "text": "Wir lernen Türkisch.",
+    "zh": "我們在學土耳其語。",
+    "en": "We're learning Turkish.",
+    "src": "tatoeba",
+    "tid": "13556083"
+   },
+   {
+    "text": "Sprichst du Türkisch?",
+    "zh": "你說土耳其語嗎？",
+    "en": "Do you speak Turkish?",
+    "src": "tatoeba",
+    "tid": "2066550"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-447",
+  "lang": "de",
+  "word": "Französisch",
+  "reading": "fʁanˈt͡søːzɪʃ",
+  "ipa": "/fʁanˈt͡søːzɪʃ/",
+  "en": "French",
+  "zh": "法語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Franz%C3%B6sisch",
+  "examples": [
+   {
+    "text": "Sie beherrscht Französisch.",
+    "zh": "她精通法語。",
+    "en": "She is proficient in French.",
+    "src": "tatoeba",
+    "tid": "10101468"
+   },
+   {
+    "text": "Warum Französisch lernen?",
+    "zh": "為什麼要學法語？",
+    "en": "Why learn French?",
+    "src": "tatoeba",
+    "tid": "9976293"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-448",
+  "lang": "de",
+  "word": "Portugiesisch",
+  "reading": "ˌpɔʁtuˈɡiːzɪʃ",
+  "ipa": "/ˌpɔʁtuˈɡiːzɪʃ/",
+  "en": "Portuguese",
+  "zh": "葡萄牙語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Portugiesisch",
+  "examples": [
+   {
+    "text": "Sie kann Portugiesisch.",
+    "zh": "她會說葡萄牙語。",
+    "en": "She can speak Portuguese.",
+    "src": "tatoeba",
+    "tid": "9327745"
+   },
+   {
+    "text": "Er kann Portugiesisch.",
+    "zh": "他會說葡萄牙語。",
+    "en": "He can speak Portuguese.",
+    "src": "tatoeba",
+    "tid": "9327731"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "使用者提交「Protugiesisch」，依 MM 2026-10-29 確認以 Portugiesisch 登錄"
+ },
+ {
+  "id": "de-449",
+  "lang": "de",
+  "word": "Chinesisch",
+  "reading": "çiˈneːzɪʃ",
+  "ipa": "/çiˈneːzɪʃ/",
+  "en": "Chinese",
+  "zh": "中文；漢語",
+  "grammar": "noun (language) · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Chinesisch",
+  "examples": [
+   {
+    "text": "Ich spreche Chinesisch.",
+    "zh": "我會說中文。",
+    "en": "I can speak Chinese.",
+    "src": "tatoeba",
+    "tid": "9240176"
+   },
+   {
+    "text": "Ich kann Chinesisch.",
+    "zh": "我會說中文。",
+    "en": "I can speak Chinese.",
+    "src": "tatoeba",
+    "tid": "9240172"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "使用者提交「Chinesish」，依 MM 2026-10-29 確認以 Chinesisch 登錄；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-450",
+  "lang": "de",
+  "word": "Frankreich",
+  "reading": "ˈfʁaŋkʁaɪ̯ç",
+  "ipa": "/ˈfʁaŋkʁaɪ̯ç/",
+  "en": "France",
+  "zh": "法國",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Frankreich",
+  "examples": [
+   {
+    "text": "Willkommen in Frankreich!",
+    "zh": "歡迎來到法國！",
+    "en": "Welcome to France!",
+    "src": "tatoeba",
+    "tid": "10103409"
+   },
+   {
+    "text": "Wir wollen nach Frankreich.",
+    "zh": "我們想去法國。",
+    "en": "We want to go to France.",
+    "src": "tatoeba",
+    "tid": "8667908"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-451",
+  "lang": "de",
+  "word": "Italien",
+  "reading": "iˈtaːli̯ən",
+  "ipa": "/iˈtaːli̯ən/",
+  "en": "Italy",
+  "zh": "義大利",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Italien",
+  "examples": [
+   {
+    "text": "Mario ist Bürger Italiens.",
+    "zh": "Mario是義大利的公民 。",
+    "en": "Mario is an Italian citizen.",
+    "src": "tatoeba",
+    "tid": "1307582"
+   },
+   {
+    "text": "Italien ist eine Halbinsel.",
+    "zh": "意大利是一個半島。",
+    "en": "Italy is a peninsula.",
+    "src": "tatoeba",
+    "tid": "693823"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-452",
+  "lang": "de",
+  "word": "Russland",
+  "reading": "ˈʁʊslant",
+  "ipa": "/ˈʁʊslant/",
+  "en": "Russia",
+  "zh": "俄羅斯",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Russland",
+  "examples": [
+   {
+    "text": "Das ist Russland!",
+    "zh": "這是俄羅斯！",
+    "en": "This is Russia!",
+    "src": "tatoeba",
+    "tid": "5318821"
+   },
+   {
+    "text": "Russland grenzt an China.",
+    "zh": "俄羅斯和中國接壤。",
+    "en": "Russia borders China.",
+    "src": "tatoeba",
+    "tid": "8598943"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-453",
+  "lang": "de",
+  "word": "Asien",
+  "reading": "ˈaːzi̯ən",
+  "ipa": "/ˈaːzi̯ən/",
+  "en": "Asia",
+  "zh": "亞洲",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Asien",
+  "examples": [
+   {
+    "text": "Japan liegt in Asien.",
+    "zh": "日本在亞洲。",
+    "en": "Japan is situated in Asia.",
+    "src": "tatoeba",
+    "tid": "1535886"
+   },
+   {
+    "text": "Asien hat viele ländliche Dörfer.",
+    "zh": "亞洲有許多鄉村。",
+    "en": "Asia has many rural villages.",
+    "src": "tatoeba",
+    "tid": "10070438"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-454",
+  "lang": "de",
+  "word": "Amerika",
+  "reading": "aˈmeːʁika",
+  "ipa": "/aˈmeːʁika/",
+  "en": "America",
+  "zh": "美洲；美國",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Amerika",
+  "examples": [
+   {
+    "text": "Ich wohne in Amerika.",
+    "zh": "我住在美國。",
+    "en": "I live in America.",
+    "src": "tatoeba",
+    "tid": "13132018"
+   },
+   {
+    "text": "In Amerika gilt Rechtsverkehr.",
+    "zh": "在美國，汽車靠右行駛。",
+    "en": "In America, cars drive on the right side of the road.",
+    "src": "tatoeba",
+    "tid": "4356876"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-455",
+  "lang": "de",
+  "word": "Japan",
+  "reading": "ˈjaːpan",
+  "ipa": "/ˈjaːpan/",
+  "en": "Japan",
+  "zh": "日本",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Japan",
+  "examples": [
+   {
+    "text": "Willkommen in Japan.",
+    "zh": "日本歡迎您。",
+    "en": "Welcome to Japan.",
+    "src": "tatoeba",
+    "tid": "1051999"
+   },
+   {
+    "text": "Da ist Japan.",
+    "zh": "這是日本。",
+    "en": "This is Japan.",
+    "src": "tatoeba",
+    "tid": "449590"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-456",
+  "lang": "de",
+  "word": "England",
+  "reading": "ˈɛŋˌlant",
+  "ipa": "/ˈɛŋˌlant/",
+  "en": "England",
+  "zh": "英格蘭",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/England",
+  "examples": [
+   {
+    "text": "Er lebt in England.",
+    "zh": "他居住在英格蘭。",
+    "en": "He lives in England.",
+    "src": "tatoeba",
+    "tid": "3519192"
+   },
+   {
+    "text": "Ich möchte nach England.",
+    "zh": "我想去英國。",
+    "en": "I want to go to England.",
+    "src": "tatoeba",
+    "tid": "2184001"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-457",
+  "lang": "de",
+  "word": "Polen",
+  "reading": "ˈpoːlən",
+  "ipa": "/ˈpoːlən/",
+  "en": "Poland",
+  "zh": "波蘭",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Polen",
+  "examples": [
+   {
+    "text": "Polen ist ein großes Land.",
+    "zh": "波蘭是個大國家。",
+    "en": "Poland is a big country.",
+    "src": "tatoeba",
+    "tid": "922787"
+   },
+   {
+    "text": "Hast du in Polen Verwandte oder Freunde?",
+    "zh": "你在波蘭有親人朋友嗎？",
+    "en": "Do you have family or friends in Poland?",
+    "src": "tatoeba",
+    "tid": "10705428"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-458",
+  "lang": "de",
+  "word": "Australien",
+  "reading": "aʊ̯sˈtʁaːli̯ən",
+  "ipa": "/aʊ̯sˈtʁaːli̯ən/",
+  "en": "Australia",
+  "zh": "澳洲",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Australien",
+  "examples": [
+   {
+    "text": "Ich komme aus Australien.",
+    "zh": "我來自澳大利亞。",
+    "en": "I'm from Australia.",
+    "src": "tatoeba",
+    "tid": "358402"
+   },
+   {
+    "text": "Ich kehrte nach Australien zurück.",
+    "zh": "我回到澳大利亞。",
+    "en": "I went back to Australia.",
+    "src": "tatoeba",
+    "tid": "10063352"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-459",
+  "lang": "de",
+  "word": "Griechenland",
+  "reading": "ˈɡʁiːçn̩ˌlant",
+  "ipa": "/ˈɡʁiːçn̩ˌlant/",
+  "en": "Greece",
+  "zh": "希臘",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Griechenland",
+  "examples": [
+   {
+    "text": "Er wurde in Griechenland geboren.",
+    "zh": "他生在希臘。",
+    "en": "He was born in Greece.",
+    "src": "tatoeba",
+    "tid": "5133620"
+   },
+   {
+    "text": "Griechenland ist ein altes Land.",
+    "zh": "希臘是個古老的國家。",
+    "en": "Greece is an old country.",
+    "src": "tatoeba",
+    "tid": "3935530"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-460",
+  "lang": "de",
+  "word": "Europa",
+  "reading": "ɔɪ̯ˈʁoːpa",
+  "ipa": "/ɔɪ̯ˈʁoːpa/",
+  "en": "Europe",
+  "zh": "歐洲",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Europa",
+  "examples": [
+   {
+    "text": "Ich reiste durch ganz Europa.",
+    "zh": "我環遊了歐洲。",
+    "en": "I travelled around Europe.",
+    "src": "tatoeba",
+    "tid": "693380"
+   },
+   {
+    "text": "Sie reisen häufig nach Europa.",
+    "zh": "他們經常去歐洲。",
+    "en": "They make frequent trips to Europe.",
+    "src": "tatoeba",
+    "tid": "450195"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-461",
+  "lang": "de",
+  "word": "Finnland",
+  "reading": "ˈfɪnlant",
+  "ipa": "/ˈfɪnlant/",
+  "en": "Finland",
+  "zh": "芬蘭",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Finnland",
+  "examples": [
+   {
+    "text": "Finnland heißt auf Finnisch „Suomi“.",
+    "zh": "芬蘭在芬蘭語中被稱為 Suomi 。",
+    "en": "Finland is called \"Suomi\" in Finnish.",
+    "src": "tatoeba",
+    "tid": "13254612"
+   },
+   {
+    "text": "Mein Onkel ist in Finnland gewesen.",
+    "zh": "我的叔叔去過芬蘭。",
+    "en": "My uncle has been to Finland.",
+    "src": "tatoeba",
+    "tid": "6402188"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "使用者提交「Fimland」，依 MM 2026-10-29 確認以 Finnland 登錄；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-462",
+  "lang": "de",
+  "word": "die Türkei",
+  "reading": "tʏʁˈkaɪ̯",
+  "ipa": "/tʏʁˈkaɪ̯/",
+  "en": "Turkey",
+  "zh": "土耳其",
+  "grammar": "proper noun · feminine; article required",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/T%C3%BCrkei",
+  "examples": [
+   {
+    "text": "Erdoğan ist der Präsident der Türkei.",
+    "zh": "埃爾多安是土耳其總統。",
+    "en": "Erdogan is the President of Turkey.",
+    "src": "tatoeba",
+    "tid": "9464321"
+   },
+   {
+    "text": "Er arbeitet gegenwärtig in der Türkei.",
+    "zh": "他目前在土耳其工作。",
+    "en": "He's working in Turkey.",
+    "src": "tatoeba",
+    "tid": "8511359"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-463",
+  "lang": "de",
+  "word": "die Ukraine",
+  "reading": "ˌukʁaˈiːnə",
+  "ipa": "/ˌukʁaˈiːnə/",
+  "en": "Ukraine",
+  "zh": "烏克蘭",
+  "grammar": "proper noun · feminine; article required",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ukraine",
+  "examples": [
+   {
+    "text": "Es lebe die Ukraine!",
+    "zh": "榮耀歸於烏克蘭！",
+    "en": "Glory to Ukraine!",
+    "src": "tatoeba",
+    "tid": "1497280"
+   },
+   {
+    "text": "Er wohnt in der Ukraine.",
+    "zh": "他住在烏克蘭。",
+    "en": "He lives in Ukraine.",
+    "src": "tatoeba",
+    "tid": "10524611"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-464",
+  "lang": "de",
+  "word": "die USA",
+  "reading": "ˌuːʔɛsˈʔaː",
+  "ipa": "/ˌuːʔɛsˈʔaː/",
+  "en": "the USA",
+  "zh": "美國",
+  "grammar": "proper noun · plural; article required",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/USA",
+  "examples": [
+   {
+    "text": "Die USA sind eine Republik.",
+    "zh": "美國是一個共和國。",
+    "en": "The United States is a republic.",
+    "src": "tatoeba",
+    "tid": "3089880"
+   },
+   {
+    "text": "Lucy kommt aus den USA.",
+    "zh": "露西來自美國。",
+    "en": "Lucy is from America.",
+    "src": "tatoeba",
+    "tid": "1417150"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-465",
+  "lang": "de",
+  "word": "der Staat",
+  "reading": "ʃtaːt",
+  "ipa": "/ʃtaːt/",
+  "en": "state; country",
+  "zh": "國家；州",
+  "grammar": "noun · masculine; plural Staaten",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Staat",
+  "examples": [
+   {
+    "text": "Der Staat bin ich!",
+    "zh": "朕即國家！",
+    "en": "I am the State!",
+    "src": "tatoeba",
+    "tid": "435667"
+   },
+   {
+    "text": "Ich lebe in den Vereinigten Staaten.",
+    "zh": "我住在美國。",
+    "en": "I live in the United States.",
+    "src": "tatoeba",
+    "tid": "900482"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-466",
+  "lang": "de",
+  "word": "Berlin",
+  "reading": "bɛʁˈliːn",
+  "ipa": "/bɛʁˈliːn/",
+  "en": "Berlin",
+  "zh": "柏林",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Berlin",
+  "examples": [
+   {
+    "text": "Herzlich willkommen in Berlin.",
+    "zh": "歡迎來到柏林。",
+    "en": "Welcome to Berlin.",
+    "src": "tatoeba",
+    "tid": "2401418"
+   },
+   {
+    "text": "Berlin ist eine deutsche Stadt.",
+    "zh": "柏林是德國城市。",
+    "en": "Berlin is a German town.",
+    "src": "tatoeba",
+    "tid": "933946"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-467",
+  "lang": "de",
+  "word": "Rom",
+  "reading": "ʁoːm",
+  "ipa": "/ʁoːm/",
+  "en": "Rome",
+  "zh": "羅馬",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Rom",
+  "examples": [
+   {
+    "text": "Ich komme aus Rom.",
+    "zh": "我是從羅馬來的。",
+    "en": "I'm from Rome.",
+    "src": "tatoeba",
+    "tid": "4411008"
+   },
+   {
+    "text": "Ich lebte in Rom.",
+    "zh": "我住在羅馬。",
+    "en": "I lived in Rome.",
+    "src": "tatoeba",
+    "tid": "786334"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-468",
+  "lang": "de",
+  "word": "Moskau",
+  "reading": "ˈmɔskaʊ̯",
+  "ipa": "/ˈmɔskaʊ̯/",
+  "en": "Moscow",
+  "zh": "莫斯科",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Moskau",
+  "examples": [
+   {
+    "text": "Ich bin in Moskau geboren.",
+    "zh": "我生於莫斯科。",
+    "en": "I was born in Moscow.",
+    "src": "tatoeba",
+    "tid": "10286031"
+   },
+   {
+    "text": "Es gibt eine Flugverbindung zwischen Tokio und Moskau.",
+    "zh": "在東京和莫斯科有一個航班。",
+    "en": "There is an air service between Tokyo and Moscow.",
+    "src": "tatoeba",
+    "tid": "772258"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-469",
+  "lang": "de",
+  "word": "München",
+  "reading": "ˈmʏnçn̩",
+  "ipa": "/ˈmʏnçn̩/",
+  "en": "Munich",
+  "zh": "慕尼黑",
+  "grammar": "proper noun · neuter; normally no article",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/M%C3%BCnchen",
+  "examples": [
+   {
+    "text": "Fährst du oft nach München?",
+    "zh": "你常去慕尼黑嗎？",
+    "en": "Do you go to Munich often?",
+    "src": "tatoeba",
+    "tid": "9987283"
+   },
+   {
+    "text": "„Wohin fährt Tom?“ – „Nach München.“",
+    "zh": "「湯姆要去哪兒？」「去慕尼黑。」",
+    "en": "\"Where's Tom going?\" \"To Munich.\"",
+    "src": "tatoeba",
+    "tid": "6739790"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "Länder und Sprachen"
+ },
+ {
+  "id": "de-470",
+  "lang": "de",
+  "word": "das Verb",
+  "reading": "vɛʁp",
+  "ipa": "/vɛʁp/",
+  "en": "verb",
+  "zh": "動詞",
+  "grammar": "noun · neuter; plural Verben",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Verb",
+  "examples": [
+   {
+    "text": "Ich lerne nicht gerne unregelmäßige Verben.",
+    "zh": "我不喜歡學習不規則動詞。",
+    "en": "I don't like learning irregular verbs.",
+    "src": "tatoeba",
+    "tid": "612"
+   },
+   {
+    "text": "Ein Satz hat normalerweise ein Subjekt und ein Verb.",
+    "zh": "句子通常有主詞和動詞。",
+    "en": "A sentence normally has a subject and a verb.",
+    "src": "tatoeba",
+    "tid": "806760"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "im Kurs",
+  "note": "使用者提交 Verben（複數），依 MM 2026-10-29 指示以原形 das Verb 收錄；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-471",
+  "lang": "de",
+  "word": "der Artikel",
+  "reading": "ˌaʁˈtiːkl̩",
+  "ipa": "/ˌaʁˈtiːkl̩/",
+  "en": "article",
+  "zh": "冠詞；文章",
+  "grammar": "noun · masculine; plural Artikel",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Artikel",
+  "examples": [
+   {
+    "text": "Hast du den Artikel gelesen?",
+    "zh": "你看文章了沒？",
+    "en": "Did you read the article?",
+    "src": "tatoeba",
+    "tid": "4193254"
+   },
+   {
+    "text": "Dieser Artikel ist ohne Wert.",
+    "zh": "這篇文章沒有價值。",
+    "en": "This article is of no value.",
+    "src": "tatoeba",
+    "tid": "605505"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "im Kurs",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-472",
+  "lang": "de",
+  "word": "der Schüler",
+  "reading": "ˈʃyːlɐ",
+  "ipa": "/ˈʃyːlɐ/",
+  "en": "pupil; school student",
+  "zh": "學生（中小學）",
+  "grammar": "noun · masculine; plural Schüler",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sch%C3%BCler",
+  "examples": [
+   {
+    "text": "Du bist Schüler.",
+    "zh": "你是學生。",
+    "en": "You are a student.",
+    "src": "tatoeba",
+    "tid": "10052987"
+   },
+   {
+    "text": "Sind Sie Schüler?",
+    "zh": "您們是學生嗎？",
+    "en": "Are you students?",
+    "src": "tatoeba",
+    "tid": "8839409"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "im Kurs"
+ },
+ {
+  "id": "de-473",
+  "lang": "de",
+  "word": "der Informatiker",
+  "reading": "ɪnfɔʁˈmaːtɪkɐ",
+  "ipa": "/ɪnfɔʁˈmaːtɪkɐ/",
+  "en": "computer scientist; IT specialist",
+  "zh": "資訊工程師；電腦科學家",
+  "grammar": "noun · masculine; plural Informatiker",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Informatiker",
+  "examples": [
+   {
+    "text": "Ich bin Informatiker.",
+    "zh": "我是一名電腦科學家。",
+    "en": "I'm a computer scientist.",
+    "src": "tatoeba",
+    "tid": "620754"
+   },
+   {
+    "text": "Du wirst nie Informatiker.",
+    "zh": "你永遠也成為不了計算機科學家。",
+    "en": "You will never become a computer scientist.",
+    "src": "tatoeba",
+    "tid": "8227689"
+   }
+  ],
+  "themeId": "debook-L2",
+  "topic": "Berufe und Arbeit",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-474",
+  "lang": "de",
+  "word": "der Ingenieur",
+  "reading": "ɪnʒeˈni̯øːɐ̯",
+  "ipa": "/ɪnʒeˈni̯øːɐ̯/",
+  "en": "engineer",
+  "zh": "工程師",
+  "grammar": "noun · masculine; plural Ingenieure",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ingenieur",
+  "examples": [
+   {
+    "text": "Er wird Ingenieur.",
+    "zh": "他將成為一名工程師。",
+    "en": "He is going to be an engineer.",
+    "src": "tatoeba",
+    "tid": "8809196"
+   },
+   {
+    "text": "Tom ist Ingenieur.",
+    "zh": "湯姆是工程師。",
+    "en": "Tom is an engineer.",
+    "src": "tatoeba",
+    "tid": "7463660"
+   }
+  ],
+  "themeId": "debook-L2",
+  "topic": "Berufe und Arbeit",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-475",
+  "lang": "de",
+  "word": "die Tablette",
+  "reading": "taˈblɛtə",
+  "ipa": "/taˈblɛtə/",
+  "en": "pill; tablet",
+  "zh": "藥錠",
+  "grammar": "noun · feminine; plural Tabletten",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tablette",
+  "examples": [
+   {
+    "text": "Die Tabletten haben meine Schmerzen verschwinden lassen.",
+    "zh": "藥片止住了我的疼痛。",
+    "en": "The tablets took away my pain.",
+    "src": "tatoeba",
+    "tid": "8860236"
+   },
+   {
+    "text": "Ohne Wasser zu trinken bekomme ich diese Tabletten nicht runtergeschluckt.",
+    "zh": "不喝水我咽不下這些藥片。",
+    "en": "I can't swallow these tablets without a drink of water.",
+    "src": "tatoeba",
+    "tid": "10852281"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "nach dem Befinden fragen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-476",
+  "lang": "de",
+  "word": "die Spritze",
+  "reading": "ˈʃpʁɪt͡sə",
+  "ipa": "/ˈʃpʁɪt͡sə/",
+  "en": "injection; syringe",
+  "zh": "注射；針劑",
+  "grammar": "noun · feminine; plural Spritzen",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Spritze",
+  "examples": [
+   {
+    "text": "Ich muss dir eine Spritze geben.",
+    "zh": "我得給你打一針。",
+    "en": "I need to give you an injection.",
+    "src": "tatoeba",
+    "tid": "10701642"
+   },
+   {
+    "text": "Die Ärztin gab mir eine Spritze.",
+    "zh": "醫生給我打了一針。",
+    "en": "The doctor gave me a shot.",
+    "src": "tatoeba",
+    "tid": "10033647"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "nach dem Befinden fragen",
+  "note": "使用者提交「doe Spritze」，依 MM 2026-10-29 確認以 die Spritze 登錄；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-477",
+  "lang": "de",
+  "word": "die Freizeit",
+  "reading": "ˈfʁaɪ̯ˌt͡saɪ̯t",
+  "ipa": "/ˈfʁaɪ̯ˌt͡saɪ̯t/",
+  "en": "free time; leisure time",
+  "zh": "空閒時間",
+  "grammar": "noun · feminine; normally singular",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Freizeit",
+  "examples": [
+   {
+    "text": "Hat er viel Freizeit?",
+    "zh": "你有很多休閒時間嗎？",
+    "en": "Do you have much time to spare?",
+    "src": "tatoeba",
+    "tid": "905522"
+   },
+   {
+    "text": "Ich habe kaum Freizeit.",
+    "zh": "我沒多少空餘時間。",
+    "en": "I am seldom at leisure.",
+    "src": "tatoeba",
+    "tid": "793921"
+   }
+  ],
+  "themeId": "debook-L2",
+  "topic": "in der Freizeit"
+ },
+ {
+  "id": "de-478",
+  "lang": "de",
+  "word": "das Bier",
+  "reading": "biːɐ̯",
+  "ipa": "/biːɐ̯/",
+  "en": "beer",
+  "zh": "啤酒",
+  "grammar": "noun · neuter; plural Biere",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bier",
+  "examples": [
+   {
+    "text": "Wer trinkt Bier?",
+    "zh": "誰在喝啤酒？",
+    "en": "Who's drinking beer?",
+    "src": "tatoeba",
+    "tid": "11978030"
+   },
+   {
+    "text": "Trinkst du Bier?",
+    "zh": "你喝啤酒嗎？",
+    "en": "Do you drink beer?",
+    "src": "tatoeba",
+    "tid": "3740950"
+   }
+  ],
+  "themeId": "debook-L2",
+  "topic": "in der Freizeit",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-479",
+  "lang": "de",
+  "word": "die Fahrt",
+  "reading": "faːɐ̯t",
+  "ipa": "/faːɐ̯t/",
+  "en": "trip; ride; journey",
+  "zh": "行程；車程",
+  "grammar": "noun · feminine; plural Fahrten",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fahrt",
+  "examples": [
+   {
+    "text": "Gute Fahrt!",
+    "zh": "祝你一路平安。",
+    "en": "Have a safe trip.",
+    "src": "tatoeba",
+    "tid": "1849084"
+   },
+   {
+    "text": "Gute Fahrt.",
+    "zh": "一路順風！",
+    "en": "Bon voyage!",
+    "src": "tatoeba",
+    "tid": "1391497"
+   }
+  ],
+  "themeId": "debook-L3",
+  "topic": "Verkehrsmittel",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-480",
+  "lang": "de",
+  "word": "Gute Nacht",
+  "reading": "ˌɡutə ˈnaxt",
+  "ipa": "/ˌɡutə ˈnaxt/",
+  "en": "good night",
+  "zh": "晚安",
+  "grammar": "phrase · greeting/farewell",
+  "contentType": "phrase",
+  "sourceUrl": "https://de.wiktionary.org/wiki/gute%20Nacht",
+  "examples": [
+   {
+    "text": "Gute Nacht.",
+    "zh": "晚安。",
+    "en": "Good night!",
+    "src": "tatoeba",
+    "tid": "4806337"
+   },
+   {
+    "text": "Gute Nacht!",
+    "zh": "晚安！",
+    "en": "Good night!",
+    "src": "tatoeba",
+    "tid": "438752"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "grüßen und verabschieden"
+ },
+ {
+  "id": "de-481",
+  "lang": "de",
+  "word": "gleich",
+  "reading": "ɡlaɪ̯ç",
+  "ipa": "/ɡlaɪ̯ç/",
+  "en": "same; equal; right away",
+  "zh": "相同的；馬上",
+  "grammar": "adjective/adverb",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/gleich",
+  "examples": [
+   {
+    "text": "Bis gleich!",
+    "zh": "一會兒見！",
+    "en": "See you in a minute.",
+    "src": "tatoeba",
+    "tid": "6546814"
+   },
+   {
+    "text": "Ich komme gleich.",
+    "zh": "我現在就來。",
+    "en": "I'll be there right away.",
+    "src": "tatoeba",
+    "tid": "2351717"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-482",
+  "lang": "de",
+  "word": "schlafen",
+  "reading": "ˈʃlaːfn̩",
+  "ipa": "/ˈʃlaːfn̩/",
+  "en": "to sleep",
+  "zh": "睡覺",
+  "grammar": "verb · irregular (schläft, schlief, hat geschlafen)",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schlafen",
+  "examples": [
+   {
+    "text": "Schlafen Fische?",
+    "zh": "魚睡覺嗎？",
+    "en": "Do fish sleep?",
+    "src": "tatoeba",
+    "tid": "8225107"
+   },
+   {
+    "text": "Sie schlafen.",
+    "zh": "他們在睡覺。",
+    "en": "They sleep.",
+    "src": "tatoeba",
+    "tid": "3303133"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-483",
+  "lang": "de",
+  "word": "lieben",
+  "reading": "ˈliːbn̩",
+  "ipa": "/ˈliːbn̩/",
+  "en": "to love",
+  "zh": "愛",
+  "grammar": "verb · regular",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/lieben",
+  "examples": [
+   {
+    "text": "Ich liebe Baumstämme.",
+    "zh": "我愛樹幹。",
+    "en": "I love the trunk.",
+    "src": "tatoeba",
+    "tid": "12432434"
+   },
+   {
+    "text": "Wer liebt wen?",
+    "zh": "誰愛誰？",
+    "en": "Who loved who?",
+    "src": "tatoeba",
+    "tid": "9979410"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "id": "de-484",
+  "lang": "de",
+  "word": "direkt",
+  "reading": "diˈʁɛkt",
+  "ipa": "/diˈʁɛkt/",
+  "en": "direct; directly",
+  "zh": "直接的；直接地",
+  "grammar": "adjective/adverb",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/direkt",
+  "examples": [
+   {
+    "text": "Ich war direkt hinter dir!",
+    "zh": "我就在你後面。",
+    "en": "I was right behind you.",
+    "src": "tatoeba",
+    "tid": "8582111"
+   },
+   {
+    "text": "Es ist direkt um die Ecke.",
+    "zh": "就在轉角處。",
+    "en": "It's just around the corner.",
+    "src": "tatoeba",
+    "tid": "4189791"
+   }
+  ],
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "使用者提交「direk」，依 MM 2026-10-29 確認以 direkt 登錄；例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）"
+ },
+ {
+  "contentType": "word",
+  "en": "I",
+  "examples": [
+   {
+    "text": "Ich!",
+    "zh": "我！",
+    "en": "Me!",
+    "src": "tatoeba",
+    "tid": "7251444"
+   },
+   {
+    "text": "Spinne ich?",
+    "zh": "我是不是瘋了？",
+    "en": "Am I nuts?",
+    "src": "tatoeba",
+    "tid": "12076568"
+   }
+  ],
+  "foundations": "pronouns",
+  "grammar": "personal pronoun · nominative; acc. mich, dat. mir",
+  "id": "de-485",
+  "ipa": "/ɪç/",
+  "lang": "de",
+  "note": "使用者提交 mich（acc.），依 MM 2026-10-29 指示以原形 ich 收錄",
+  "reading": "ɪç",
+  "sourceUrl": "https://de.wiktionary.org/wiki/ich",
+  "word": "ich",
+  "zh": "我"
+ },
+ {
+  "contentType": "word",
+  "en": "you (informal sg.)",
+  "examples": [
+   {
+    "text": "Lernst du?",
+    "zh": "你在學習嗎？",
+    "en": "Do you learn?",
+    "src": "tatoeba",
+    "tid": "10497855"
+   },
+   {
+    "text": "Verstehst du?",
+    "zh": "你明白了嗎?",
+    "en": "Do you understand?",
+    "src": "tatoeba",
+    "tid": "1871688"
+   }
+  ],
+  "foundations": "pronouns",
+  "grammar": "personal pronoun · nominative; acc. dich, dat. dir",
+  "id": "de-486",
+  "ipa": "/duː/",
+  "lang": "de",
+  "note": "使用者提交 dir（dat.）與 dich（acc.），依 MM 2026-10-29 指示以原形 du 收錄",
+  "reading": "duː",
+  "sourceUrl": "https://de.wiktionary.org/wiki/du",
+  "word": "du",
+  "zh": "你"
+ },
+ {
+  "contentType": "word",
+  "en": "you (formal)",
+  "examples": [
+   {
+    "text": "Träumen Sie!",
+    "zh": "做夢吧。",
+    "en": "Dream.",
+    "src": "tatoeba",
+    "tid": "10325607"
+   },
+   {
+    "text": "Atmen Sie?",
+    "zh": "您在呼吸嗎？",
+    "en": "Are you breathing?",
+    "src": "tatoeba",
+    "tid": "8861760"
+   }
+  ],
+  "foundations": "pronouns",
+  "grammar": "personal pronoun (formal) · nom./acc. Sie; dat. Ihnen",
+  "id": "de-487",
+  "ipa": "/ziː/",
+  "lang": "de",
+  "note": "使用者提交 Ihnen（dat.），依 MM 2026-10-29 指示以原形 Sie 收錄",
+  "reading": "ziː",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sie",
+  "word": "Sie",
+  "zh": "您"
+ },
+ {
+  "contentType": "word",
+  "en": "for",
+  "examples": [
+   {
+    "text": "Danke für gestern.",
+    "zh": "昨天的事真的要謝謝您了。",
+    "en": "Thanks for yesterday.",
+    "src": "tatoeba",
+    "tid": "4954949"
+   },
+   {
+    "text": "Danke für alles!",
+    "zh": "感謝你的付出。",
+    "en": "Thanks for everything.",
+    "src": "tatoeba",
+    "tid": "2107845"
+   }
+  ],
+  "foundations": "prepositions",
+  "grammar": "preposition · accusative",
+  "id": "de-488",
+  "ipa": "/fyːɐ̯/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "fyːɐ̯",
+  "sourceUrl": "https://de.wiktionary.org/wiki/f%C3%BCr",
+  "word": "für",
+  "zh": "為了；給"
+ },
+ {
+  "contentType": "word",
+  "en": "until; till",
+  "examples": [
+   {
+    "text": "Bis gleich!",
+    "zh": "一會兒見！",
+    "en": "See you in a minute.",
+    "src": "tatoeba",
+    "tid": "6546814"
+   },
+   {
+    "text": "Bis Donnerstag!",
+    "zh": "週四再見！",
+    "en": "Until Thursday!",
+    "src": "tatoeba",
+    "tid": "3254453"
+   }
+  ],
+  "foundations": "prepositions",
+  "grammar": "preposition · accusative; also conjunction",
+  "id": "de-489",
+  "ipa": "/bɪs/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "bɪs",
+  "sourceUrl": "https://de.wiktionary.org/wiki/bis",
+  "word": "bis",
+  "zh": "直到"
+ },
+ {
+  "contentType": "word",
+  "en": "at the; on the (an dem)",
+  "examples": [
+   {
+    "text": "Beginnt am Anfang.",
+    "zh": "從頭開始。",
+    "en": "Start at the beginning.",
+    "src": "tatoeba",
+    "tid": "7485753"
+   },
+   {
+    "text": "Beginne am Anfang.",
+    "zh": "從頭開始。",
+    "en": "Start at the beginning.",
+    "src": "tatoeba",
+    "tid": "7485751"
+   }
+  ],
+  "foundations": "prepositions",
+  "grammar": "contraction of an dem (dat.)",
+  "id": "de-490",
+  "ipa": "/am/",
+  "lang": "de",
+  "reading": "am",
+  "sourceUrl": "https://de.wiktionary.org/wiki/am",
+  "word": "am",
+  "zh": "在…（an dem 的縮合）"
+ },
+ {
+  "contentType": "word",
+  "en": "in the (in dem)",
+  "examples": [
+   {
+    "text": "Im Ernst?",
+    "zh": "真的？",
+    "en": "Really?",
+    "src": "tatoeba",
+    "tid": "937379"
+   },
+   {
+    "text": "Willkommen im Klub!",
+    "zh": "歡迎來到俱樂部。",
+    "en": "Welcome to the club.",
+    "src": "tatoeba",
+    "tid": "2185723"
+   }
+  ],
+  "foundations": "prepositions",
+  "grammar": "contraction of in dem (dat.)",
+  "id": "de-491",
+  "ipa": "/ɪm/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "ɪm",
+  "sourceUrl": "https://de.wiktionary.org/wiki/im",
+  "word": "im",
+  "zh": "在…裡（in dem 的縮合）"
+ },
+ {
+  "contentType": "word",
+  "en": "to the (zu dem)",
+  "examples": [
+   {
+    "text": "Zum Wohl!",
+    "zh": "乾杯!",
+    "en": "Bottoms up!",
+    "src": "tatoeba",
+    "tid": "957535"
+   },
+   {
+    "text": "Vorwärts zum Ruhm!",
+    "zh": "走向前去，為榮耀！",
+    "en": "Onwards, to glory!",
+    "src": "tatoeba",
+    "tid": "10178926"
+   }
+  ],
+  "foundations": "prepositions",
+  "grammar": "contraction of zu dem (dat.)",
+  "id": "de-492",
+  "ipa": "/t͡sʊm/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "t͡sʊm",
+  "sourceUrl": "https://de.wiktionary.org/wiki/zum",
+  "word": "zum",
+  "zh": "到…（zu dem 的縮合）"
+ },
+ {
+  "contentType": "word",
+  "en": "but",
+  "examples": [
+   {
+    "text": "Aber natürlich!",
+    "zh": "當然哪！",
+    "en": "Of course!",
+    "src": "tatoeba",
+    "tid": "6562009"
+   },
+   {
+    "text": "Aber sicher!",
+    "zh": "當然!",
+    "en": "Definitely!",
+    "src": "tatoeba",
+    "tid": "1371212"
+   }
+  ],
+  "foundations": "conjunctions",
+  "grammar": "conjunction",
+  "id": "de-493",
+  "ipa": "/ˈaːbɐ/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "ˈaːbɐ",
+  "sourceUrl": "https://de.wiktionary.org/wiki/aber",
+  "word": "aber",
+  "zh": "但是"
+ },
+ {
+  "contentType": "word",
+  "en": "and",
+  "examples": [
+   {
+    "text": "Und ich?",
+    "zh": "那我呢?",
+    "en": "What about me?",
+    "src": "tatoeba",
+    "tid": "6625078"
+   },
+   {
+    "text": "Und du?",
+    "zh": "你呢？",
+    "en": "And you?",
+    "src": "tatoeba",
+    "tid": "522709"
+   }
+  ],
+  "foundations": "conjunctions",
+  "grammar": "conjunction",
+  "id": "de-494",
+  "ipa": "/ʊnt/",
+  "lang": "de",
+  "reading": "ʊnt",
+  "sourceUrl": "https://de.wiktionary.org/wiki/und",
+  "word": "und",
+  "zh": "和；而且"
+ },
+ {
+  "contentType": "word",
+  "en": "or",
+  "examples": [
+   {
+    "text": "Oder?",
+    "zh": "對嗎？",
+    "en": "Right?",
+    "src": "tatoeba",
+    "tid": "1190470"
+   },
+   {
+    "text": "Du verstehst, oder?",
+    "zh": "你懂嘛?",
+    "en": "You understand, don't you?",
+    "src": "tatoeba",
+    "tid": "6155053"
+   }
+  ],
+  "foundations": "conjunctions",
+  "grammar": "conjunction",
+  "id": "de-495",
+  "ipa": "/ˈoːdɐ/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "ˈoːdɐ",
+  "sourceUrl": "https://de.wiktionary.org/wiki/oder",
+  "word": "oder",
+  "zh": "或"
+ },
+ {
+  "contentType": "word",
+  "en": "hundred",
+  "examples": [
+   {
+    "text": "Er hatte nur hundert Dollar.",
+    "zh": "他只有100美元。",
+    "en": "He only had 100 dollars.",
+    "src": "tatoeba",
+    "tid": "1552473"
+   },
+   {
+    "text": "Ich verdiene hundert Euro pro Tag.",
+    "zh": "我一天賺一百歐元。",
+    "en": "I make €100 a day.",
+    "src": "tatoeba",
+    "tid": "1090438"
+   }
+  ],
+  "foundations": "numerals",
+  "grammar": "numeral",
+  "id": "de-496",
+  "ipa": "/ˈhʊndɐt/",
+  "lang": "de",
+  "reading": "ˈhʊndɐt",
+  "sourceUrl": "https://de.wiktionary.org/wiki/hundert",
+  "word": "hundert",
+  "zh": "一百"
+ },
+ {
+  "contentType": "word",
+  "en": "thousand",
+  "examples": [
+   {
+    "text": "Tausend Yen reichen.",
+    "zh": "1000日元足夠了。",
+    "en": "A thousand yen will do.",
+    "src": "tatoeba",
+    "tid": "8835862"
+   },
+   {
+    "text": "Brahe katalogisierte über tausend Sterne.",
+    "zh": "布拉赫為一千多顆恆星做了編目。",
+    "en": "Brahe catalogued over 1000 stars.",
+    "src": "tatoeba",
+    "tid": "6358900"
+   }
+  ],
+  "foundations": "numerals",
+  "grammar": "numeral",
+  "id": "de-497",
+  "ipa": "/ˈtaʊ̯zn̩t/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "ˈtaʊ̯zn̩t",
+  "sourceUrl": "https://de.wiktionary.org/wiki/tausend",
+  "word": "tausend",
+  "zh": "一千"
+ },
+ {
+  "contentType": "word",
+  "en": "million",
+  "examples": [
+   {
+    "text": "Brasilien hat fast 200 Millionen Einwohner.",
+    "zh": "巴西的居民快數到2億。",
+    "en": "Brazil has almost 200 million inhabitants.",
+    "src": "tatoeba",
+    "tid": "1358305"
+   },
+   {
+    "text": "Der Verlust beträgt eine Million Dollar.",
+    "zh": "損失高達一百萬美元。",
+    "en": "The loss amounts to a million dollars.",
+    "src": "tatoeba",
+    "tid": "667399"
+   }
+  ],
+  "foundations": "numerals",
+  "grammar": "numeral (noun) · feminine; plural Millionen",
+  "id": "de-498",
+  "ipa": "/mɪˈli̯oːn/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "mɪˈli̯oːn",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Million",
+  "word": "die Million",
+  "zh": "一百萬"
+ },
+ {
+  "contentType": "word",
+  "en": "about what; around what",
+  "examples": [
+   {
+    "text": "Worum hat sie dich gebeten?",
+    "zh": "她找妳要了甚麼？",
+    "en": "What did she ask you for?",
+    "src": "tatoeba",
+    "tid": "8361788"
+   },
+   {
+    "text": "Worum geht es in dem Buch?",
+    "zh": "這本書的內容是什麼？",
+    "en": "What is the book about?",
+    "src": "tatoeba",
+    "tid": "1538190"
+   }
+  ],
+  "foundations": "questions",
+  "grammar": "interrogative adverb",
+  "id": "de-499",
+  "ipa": "/voˈʁʊm/",
+  "lang": "de",
+  "note": "例句中文譯文標記處由簡體轉為繁體（tatoeba 原文為簡體，繁體取自 tatoeba 自動轉寫）",
+  "reading": "voˈʁʊm",
+  "sourceUrl": "https://de.wiktionary.org/wiki/worum",
+  "word": "worum",
+  "zh": "關於什麼"
  }
 ]

@@ -119,6 +119,437 @@
             "skip": true,
             "filledAt": "2026-10-29T03:16:17Z",
             "note": "added as base form jeder (de-441) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793195741899",
+            "lang": "de",
+            "word": "direk",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "使用者提交「direk」，依 MM 2026-10-29 確認以 direkt 登錄 (de-484)"
+        },
+        {
+            "ref": "s-1793237106153",
+            "lang": "de",
+            "word": "dir",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "inflected form; filed under base form du (de-486) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793237306910",
+            "lang": "de",
+            "word": "Ihnen",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "inflected form (dative); filed under base form Sie (de-487) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793237978449",
+            "lang": "de",
+            "word": "Arabisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238005165",
+            "lang": "de",
+            "word": "Protugiesisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "使用者提交「Protugiesisch」，依 MM 2026-10-29 確認以 Portugiesisch 登錄 (de-448)"
+        },
+        {
+            "ref": "s-1793238025891",
+            "lang": "de",
+            "word": "Frankreich",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238034845",
+            "lang": "de",
+            "word": "Italien",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238045560",
+            "lang": "de",
+            "word": "Japanisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238056956",
+            "lang": "de",
+            "word": "Englisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238068716",
+            "lang": "de",
+            "word": "Russland",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238079150",
+            "lang": "de",
+            "word": "Spanisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238090995",
+            "lang": "de",
+            "word": "Türkisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238123362",
+            "lang": "de",
+            "word": "aber",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238154071",
+            "lang": "de",
+            "word": "Türkei",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238164020",
+            "lang": "de",
+            "word": "Ukraine",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238169132",
+            "lang": "de",
+            "word": "USA",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238253598",
+            "lang": "de",
+            "word": "Verben",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "inflected form (plural); filed under base form das Verb (de-470) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793238416792",
+            "lang": "de",
+            "word": "Asien",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238427754",
+            "lang": "de",
+            "word": "Amerika",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238433766",
+            "lang": "de",
+            "word": "Japan",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238441081",
+            "lang": "de",
+            "word": "England",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238449895",
+            "lang": "de",
+            "word": "Berlin",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238461210",
+            "lang": "de",
+            "word": "Fimland",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "使用者提交「Fimland」，依 MM 2026-10-29 確認以 Finnland 登錄 (de-461)"
+        },
+        {
+            "ref": "s-1793238471886",
+            "lang": "de",
+            "word": "Polen",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238482115",
+            "lang": "de",
+            "word": "Rom",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238533460",
+            "lang": "de",
+            "word": "München",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238587497",
+            "lang": "de",
+            "word": "Australien",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238595604",
+            "lang": "de",
+            "word": "Moskau",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238605285",
+            "lang": "de",
+            "word": "Europa",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238624054",
+            "lang": "de",
+            "word": "Griechenland",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238653488",
+            "lang": "de",
+            "word": "Gute Nacht",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238795589",
+            "lang": "de",
+            "word": "Million",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238808092",
+            "lang": "de",
+            "word": "tausend",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793238842338",
+            "lang": "de",
+            "word": "hundert",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793239101850",
+            "lang": "de",
+            "word": "Staat",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793239130893",
+            "lang": "de",
+            "word": "Schüler",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793239145460",
+            "lang": "de",
+            "word": "Bier",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793239235696",
+            "lang": "de",
+            "word": "Französisch",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793239252575",
+            "lang": "de",
+            "word": "Chinesish",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "使用者提交「Chinesish」，依 MM 2026-10-29 確認以 Chinesisch 登錄 (de-449)"
+        },
+        {
+            "ref": "s-1793239288498",
+            "lang": "de",
+            "word": "ya",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "duplicate of de-287 ja (spelling confirmed by MM 2026-10-29)"
+        },
+        {
+            "ref": "s-1793243306775",
+            "lang": "de",
+            "word": "schlafen",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243327179",
+            "lang": "de",
+            "word": "Freizeit",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243482508",
+            "lang": "de",
+            "word": "lieben",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243488627",
+            "lang": "de",
+            "word": "dich",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "inflected form; filed under base form du (de-486) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793243495196",
+            "lang": "de",
+            "word": "mich",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "inflected form; filed under base form ich (de-485) per MM 2026-10-29 standing instruction"
+        },
+        {
+            "ref": "s-1793243524012",
+            "lang": "de",
+            "word": "am",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243529189",
+            "lang": "de",
+            "word": "im",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243773285",
+            "lang": "de",
+            "word": "die Tablette",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243790925",
+            "lang": "de",
+            "word": "doe Spritze",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z",
+            "note": "使用者提交「doe Spritze」，依 MM 2026-10-29 確認以 die Spritze 登錄 (de-476)"
+        },
+        {
+            "ref": "s-1793243836616",
+            "lang": "de",
+            "word": "Artikel",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243846275",
+            "lang": "de",
+            "word": "oder",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793243852273",
+            "lang": "de",
+            "word": "und",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244222031",
+            "lang": "de",
+            "word": "Informatiker",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244241310",
+            "lang": "de",
+            "word": "Ingenieur",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244332879",
+            "lang": "de",
+            "word": "bis",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244530917",
+            "lang": "de",
+            "word": "für",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244558696",
+            "lang": "de",
+            "word": "worum",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244626666",
+            "lang": "de",
+            "word": "Fahrt",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244662036",
+            "lang": "de",
+            "word": "zum",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
+        },
+        {
+            "ref": "s-1793244757815",
+            "lang": "de",
+            "word": "gleich",
+            "skip": true,
+            "filledAt": "2026-10-29T04:47:00Z"
         }
     ]
 }

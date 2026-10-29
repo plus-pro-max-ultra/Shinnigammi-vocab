@@ -26,10 +26,17 @@ await pg.evaluate(()=>{const x=[...document.querySelectorAll('.mode-tiles button
 await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='開始');x.click()});await sleep(800);
 ok('r tile present',await pg.evaluate(()=>[...document.querySelectorAll('.pl-block')].some(x=>x.innerText.trim()==='r')));
 ok('six tiles',await pg.evaluate(()=>document.querySelectorAll('.pl-block').length===6));
-let hit=false;
-for(let i=0;i<40&&!hit;i++){
+let hit=false;let restarts=0;
+for(let i=0;i<70&&!hit;i++){
  const stem=await pg.evaluate(()=>document.querySelector('.quiz-prompt h1')&&document.querySelector('.quiz-prompt h1').innerText.trim());
- if(!stem){console.log('no prompt at iter',i);break}
+ if(!stem){
+   restarts++;if(restarts>8){console.log('no prompt after',restarts,'restarts');break}
+   console.log('round ended at iter',i,'- starting new round');
+   await pg.goto(u+'#/quiz');await pg.reload();await sleep(900);
+   await pg.evaluate(()=>{const x=[...document.querySelectorAll('.mode-tiles button')].find(x=>x.innerText.includes('名詞測驗'));x.click()});await sleep(300);
+   await pg.evaluate(()=>{const x=[...document.querySelectorAll('button')].find(x=>x.innerText.trim()==='開始');x.click()});await sleep(800);
+   continue;
+ }
  const q=elig.map(x=>NQ(x)).find(q=>q&&q.stem===stem);
  if(!q){console.log('skip unmapped',stem);break}
  if(q.seq.includes('r')){
@@ -46,5 +53,5 @@ for(let i=0;i<40&&!hit;i++){
    await pg.evaluate(()=>{const x=[...document.querySelectorAll('button.next-btn')];x.length&&x[0].click()});await sleep(400);
  }
 }
-ok('hit an -er question within 40',hit);
+ok('hit an -er question within 70',hit);
 console.log('pageerrors',errs);await b.close()})();
