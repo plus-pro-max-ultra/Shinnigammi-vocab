@@ -11697,6 +11697,22 @@ Error generating stack: ` +
       "jp-426": "daily",
       "jp-249": "daily",
       "jp-260": "daily",
+      "jp-092": "weekend",
+      "jp-093": "weekend",
+      "jp-116": "weekend",
+      "jp-123": "weekend",
+      "jp-089": "weekend",
+      "jp-102": "weekend",
+      "jp-121": "weekend",
+      "jp-067": "weekend",
+      "jp-285": "weekend",
+      "jp-078": "weekend",
+      "jp-101": "weekend",
+      "jp-157": "weekend",
+      "jp-1165": "weekend",
+      "jp-674": "weekend",
+      "jp-290": "weekend",
+      "jp-391": "weekend",
     },
     Od = (e) =>
       e.themeId ??
@@ -11704,8 +11720,10 @@ Error generating stack: ` +
         ? "shopping"
         : Nm[e.id] === "daily"
           ? "daily"
-          : Nm[e.id]
-            ? "numbers"
+          : Nm[e.id] === "weekend"
+            ? "weekend"
+            : Nm[e.id]
+              ? "numbers"
           : Number(e.id.slice(3)) <= 6
             ? "greetings"
             : Number(e.id.slice(3)) <= 16
@@ -11723,6 +11741,7 @@ Error generating stack: ` +
         { id: "family", name: "\u5BB6\u4EBA\u8207\u4EBA\u7269" },
         { id: "numbers", name: "\u6578\u5B57\u8207\u8A08\u6578" },
         { id: "shopping", name: "\u8CFC\u7269\u8207\u8863\u8457" },
+        { id: "weekend", name: "\u9031\u672B\u6D3B\u52D5" },
         ...jm,
       ],
       entries: Object.fromEntries(
@@ -13147,7 +13166,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
           (z) =>
             r.entries[z.id]?.books.includes(l.id) &&
             (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
@@ -15753,7 +15772,7 @@ Error generating stack: ` +
             ),
           ),
         ),
-        e.examples.some((i) => i.src === "tatoeba") &&
+        e.examples.some((i) => i.src === "tatoeba" && i.zh) &&
           s.default.createElement(
             "p",
             { className: "muted src-note" },
