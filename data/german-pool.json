@@ -11202,10 +11202,17 @@
     "src": "tatoeba",
     "tid": "1520304",
     "zh": "冰島曾屬於丹麥。"
+   },
+   {
+    "text": "Kopenhagen ist die Hauptstadt Dänemarks.",
+    "en": "Copenhagen is the capital of Denmark.",
+    "src": "tatoeba",
+    "tid": "2310787",
+    "zhPending": true
    }
   ],
   "topic": "Länder und Sprachen",
-  "note": "第二句雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+  "note": "第二句例句中文譯文待補（2026-10-30 補上德英來源句 tid 2310787，來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示）"
  },
  {
   "id": "de-501",
