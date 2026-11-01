@@ -11233,6 +11233,13 @@
     "src": "tatoeba",
     "tid": "501875",
     "zh": "我來自埃及。"
+   },
+   {
+    "text": "Wir verbinden Ägypten mit dem Nil.",
+    "en": "We associate Egypt with the Nile.",
+    "src": "tatoeba",
+    "tid": "370486",
+    "zh": "講到埃及就想到了尼羅河。"
    }
   ],
   "topic": "Länder und Sprachen",
@@ -11257,6 +11264,13 @@
     "src": "tatoeba",
     "tid": "10256665",
     "zh": "我們的音樂老師建議我去遊覽維也納。"
+   },
+   {
+    "text": "Wien liegt nicht im Zentrum, sondern am Rande Österreichs.",
+    "en": "Vienna lies not in the centre of Austria, but at the country's periphery.",
+    "src": "tatoeba",
+    "tid": "4833997",
+    "zhPending": true
    }
   ],
   "topic": "Länder und Sprachen",
@@ -11281,6 +11295,13 @@
     "src": "tatoeba",
     "tid": "6713541",
     "zh": "化學符號“H”表示氫。"
+   },
+   {
+    "text": "Hammer und Sichel sind ein Symbol des Kommunismus.",
+    "en": "The hammer and sickle are a symbol of communism.",
+    "src": "tatoeba",
+    "tid": "2067097",
+    "zhPending": true
    }
   ],
   "topic": "im Kurs",
@@ -11329,6 +11350,13 @@
     "src": "tatoeba",
     "tid": "394254",
     "zh": "我真的很倒霉！"
+   },
+   {
+    "text": "Ein zerbrochener Spiegel bringt Pech.",
+    "en": "A broken mirror brings bad luck.",
+    "src": "tatoeba",
+    "tid": "10113813",
+    "zhPending": true
    }
   ],
   "topic": "andere wichtige Wörter und Wendungen",
