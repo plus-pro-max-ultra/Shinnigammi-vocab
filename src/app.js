@@ -11713,6 +11713,21 @@ Error generating stack: ` +
       "jp-674": "weekend",
       "jp-290": "weekend",
       "jp-391": "weekend",
+      "jp-015": "morning",
+      "jp-016": "morning",
+      "jp-007": "morning",
+      "jp-008": "morning",
+      "jp-442": "morning",
+      "jp-311": "morning",
+      "jp-451": "morning",
+      "jp-588": "morning",
+      "jp-155": "morning",
+      "jp-524": "morning",
+      "jp-326": "morning",
+      "jp-277": "morning",
+      "jp-011": "morning",
+      "jp-135": "morning",
+      "jp-552": "morning",
     },
     Od = (e) =>
       e.themeId ??
@@ -11742,6 +11757,7 @@ Error generating stack: ` +
         { id: "numbers", name: "\u6578\u5B57\u8207\u8A08\u6578" },
         { id: "shopping", name: "\u8CFC\u7269\u8207\u8863\u8457" },
         { id: "weekend", name: "\u9031\u672B\u6D3B\u52D5" },
+        { id: "morning", name: "\u65E9\u6668\u751F\u6D3B" },
         ...jm,
       ],
       entries: Object.fromEntries(
@@ -13166,7 +13182,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
           (z) =>
             r.entries[z.id]?.books.includes(l.id) &&
             (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
