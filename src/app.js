@@ -11740,8 +11740,10 @@ Error generating stack: ` +
           ? "daily"
           : Nm[e.id] === "weekend"
             ? "weekend"
-            : Nm[e.id]
-              ? "numbers"
+            : Nm[e.id] === "morning"
+              ? "morning"
+              : Nm[e.id]
+                ? "numbers"
           : Number(e.id.slice(3)) <= 6
             ? "greetings"
             : Number(e.id.slice(3)) <= 16
@@ -12458,6 +12460,20 @@ Error generating stack: ` +
         ae.length === 1 &&
           ae[0] === Od(C) &&
           ((S[C.id] = { ...r.entries[C.id], books: [] }), Gf++);
+      });
+      // v14.61: v14.59 mapped 15 reused ids to the morning unit in Nm but never
+      // added the Od branch, so fresh seeds landed in the numbers book and the
+      // morning unit missed them. Reassign exactly those ids to the morning
+      // book; custom books and progress untouched.
+      V.filter((C) => Nm[C.id] === "morning").forEach((C) => {
+        let cur = S[C.id],
+          ae = (cur?.books ?? []).filter(
+            (ee) =>
+              !["numbers", "daily", "food", "time", "greetings", "shopping", "weekend"].includes(ee),
+          );
+        ae.includes("morning") || (ae = ["morning", ...ae]);
+        (cur == null || (cur.books ?? []).join() !== ae.join()) &&
+          ((S[C.id] = { ...cur, books: ae }), mig++);
       });
       if (!z.length && !l.length && !Gf && !mig) return;
       z.forEach((C) => {
@@ -13185,7 +13201,9 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne).filter(
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne)
+          .filter((z, i2, arr) => arr.findIndex((y) => y.id === z.id) === i2)
+          .filter(
           (z) =>
             r.entries[z.id]?.books.includes(l.id) &&
             (!z.foundations || !Fs.books.some((S) => S.id === l.id)),
