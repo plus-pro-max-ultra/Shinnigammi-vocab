@@ -10496,6 +10496,9 @@ Error generating stack: ` +
     { id: "debook-L1", name: "Lektion 1" },
     { id: "debook-L2", name: "Lektion 2" },
     { id: "debook-L3", name: "Lektion 3" },
+    { id: "debook-L4", name: "Lektion 4" },
+    { id: "debook-L5", name: "Lektion 5" },
+    { id: "debook-L6", name: "Lektion 6" },
   ];
   var FD = [
     { id: "numerals", jp: "\u6578\u8A5E\u8207\u5E8F\u6578", de: "Zahlen \u00B7 \u6578\u8A5E\u8207\u5E8F\u6578" },

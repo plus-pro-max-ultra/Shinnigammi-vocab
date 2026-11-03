@@ -11447,5 +11447,8500 @@
   ],
   "topic": "im Kurs",
   "note": "使用者提交「Personalprononmen」，依 MM 2026-10-29 確認以 das Personalpronomen 登錄；例句中文翻譯待補（來源句無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-509",
+  "lang": "de",
+  "word": "der Preis",
+  "en": "price",
+  "zh": "價格",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Die Preise steigen.",
+    "src": "tatoeba",
+    "tid": "616844",
+    "zh": "物價在上漲。"
+   },
+   {
+    "text": "Freiheit hat einen Preis.",
+    "src": "tatoeba",
+    "tid": "9927573",
+    "zh": "自由有價。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Preise",
+  "reading": "pʁaɪ̯s",
+  "ipa": "/pʁaɪ̯s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Preis"
+ },
+ {
+  "id": "de-510",
+  "lang": "de",
+  "word": "Das macht … Euro, bitte.",
+  "en": "That comes to ... euros, please.",
+  "zh": "總共是…歐元，謝謝。",
+  "contentType": "phrase",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Überprüfe das!",
+    "src": "tatoeba",
+    "tid": "8875753",
+    "zh": "檢查一下！"
+   },
+   {
+    "text": "Der Nächste!",
+    "src": "tatoeba",
+    "tid": "8647390",
+    "zh": "下一位！"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "das maxt ˈɔɪ̯ʁo ˈbɪtə",
+  "ipa": "/das maxt ˈɔɪ̯ʁo ˈbɪtə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Das",
+  "note": "結帳金額句型；省略號代入金額。Ellipsis takes the total amount."
+ },
+ {
+  "id": "de-511",
+  "lang": "de",
+  "word": "der Kassenzettel",
+  "en": "receipt (till slip)",
+  "zh": "收據（收銀條）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Vergessen Sie den Kassenzettel nicht.",
+    "src": "tatoeba",
+    "tid": "1251",
+    "zh": "不要忘記收據。"
+   },
+   {
+    "text": "Ich habe den Kassenzettel verloren.",
+    "src": "tatoeba",
+    "tid": "10159135",
+    "en": "I lost the receipt.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Kassenzettel",
+  "reading": "ˈkasn̩ˌt͡sɛtl̩",
+  "ipa": "/ˈkasn̩ˌt͡sɛtl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kassenzettel",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-512",
+  "lang": "de",
+  "word": "teuer",
+  "en": "expensive",
+  "zh": "貴的；昂貴的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Zu teuer!",
+    "src": "tatoeba",
+    "tid": "4639277",
+    "zh": "太貴了！"
+   },
+   {
+    "text": "Wie teuer!",
+    "src": "tatoeba",
+    "tid": "1193153",
+    "zh": "太貴了！"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈtɔɪ̯ɐ",
+  "ipa": "/ˈtɔɪ̯ɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/teuer"
+ },
+ {
+  "id": "de-513",
+  "lang": "de",
+  "word": "wechseln",
+  "en": "to change (money); to exchange",
+  "zh": "兌換（零錢）；更換",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Sie wechselte die Taktik.",
+    "src": "tatoeba",
+    "tid": "9402786",
+    "zh": "她換了策略。"
+   },
+   {
+    "text": "Er wechselte das Thema.",
+    "src": "tatoeba",
+    "tid": "2978631",
+    "zh": "他轉變了話題。"
+   }
+  ],
+  "grammar": "verb · regular: wechselte, hat gewechselt",
+  "reading": "ˈvɛksl̩n",
+  "ipa": "/ˈvɛksl̩n/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wechseln"
+ },
+ {
+  "id": "de-514",
+  "lang": "de",
+  "word": "Können Sie wechseln, bitte?",
+  "en": "Can you change (money), please?",
+  "zh": "可以請您換零錢嗎？",
+  "contentType": "phrase",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen (Forts.)",
+  "examples": [
+   {
+    "text": "Können wir bitte das Thema wechseln?",
+    "src": "tatoeba",
+    "tid": "3939920",
+    "en": "Can we change the subject, please?",
+    "zhPending": true
+   },
+   {
+    "text": "Könntest du bitte wegschauen, während ich meine Kleidung wechsle?",
+    "src": "tatoeba",
+    "tid": "13294879",
+    "en": "Could you please look the other way while I change my clothes?",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈkœnən ziː ˈvɛksl̩n ˈbɪtə",
+  "ipa": "/ˈkœnən ziː ˈvɛksl̩n ˈbɪtə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Können",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-515",
+  "lang": "de",
+  "word": "Guten Appetit!",
+  "en": "Enjoy your meal!",
+  "zh": "請慢用！",
+  "contentType": "phrase",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Guten Appetit!",
+    "src": "tatoeba",
+    "tid": "1211",
+    "zh": "請慢用！"
+   },
+   {
+    "text": "„Guten Appetit!“ – „Gleichfalls.“",
+    "src": "tatoeba",
+    "tid": "4029421",
+    "zh": "“祝好胃口！”“同祝。”"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈɡuːtn̩ apeˈtiːt",
+  "ipa": "/ˈɡuːtn̩ apeˈtiːt/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Guten",
+  "note": "用餐前固定祝福語（成語，不逐字拆解）。"
+ },
+ {
+  "id": "de-516",
+  "lang": "de",
+  "word": "das Essen",
+  "en": "meal; food",
+  "zh": "餐；食物",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Essen!",
+    "src": "tatoeba",
+    "tid": "1972760",
+    "zh": "食物！"
+   },
+   {
+    "text": "Er aß.",
+    "src": "tatoeba",
+    "tid": "10051184",
+    "zh": "她喫。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Essen",
+  "reading": "ˈɛsn̩",
+  "ipa": "/ˈɛsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Essen"
+ },
+ {
+  "id": "de-517",
+  "lang": "de",
+  "word": "essen",
+  "en": "to eat",
+  "zh": "吃",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Essen!",
+    "src": "tatoeba",
+    "tid": "1972760",
+    "zh": "食物！"
+   },
+   {
+    "text": "Er aß.",
+    "src": "tatoeba",
+    "tid": "10051184",
+    "zh": "她喫。"
+   }
+  ],
+  "grammar": "verb · irregular: du isst, er isst; aß, hat gegessen",
+  "reading": "ˈɛsn̩",
+  "ipa": "/ˈɛsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/essen"
+ },
+ {
+  "id": "de-518",
+  "lang": "de",
+  "word": "trinken",
+  "en": "to drink",
+  "zh": "喝",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Trink.",
+    "src": "tatoeba",
+    "tid": "7425521",
+    "zh": "喝吧。"
+   },
+   {
+    "text": "Trink Tee.",
+    "src": "tatoeba",
+    "tid": "12258498",
+    "zh": "喝茶。"
+   }
+  ],
+  "grammar": "verb · irregular: du trinkst, er trinkt; trank, hat getrunken",
+  "reading": "ˈtʁɪŋkn̩",
+  "ipa": "/ˈtʁɪŋkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/trinken"
+ },
+ {
+  "id": "de-519",
+  "lang": "de",
+  "word": "fertig",
+  "en": "ready; finished; done",
+  "zh": "完成的；準備好的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Fertig.",
+    "src": "tatoeba",
+    "tid": "9971569",
+    "zh": "完成了。"
+   },
+   {
+    "text": "Fertig?",
+    "src": "tatoeba",
+    "tid": "6215991",
+    "zh": "好了嗎？"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈfɛʁtɪç",
+  "ipa": "/ˈfɛʁtɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/fertig",
+  "note": "課本例：Das Essen ist gleich fertig.（飯快好了）"
+ },
+ {
+  "id": "de-520",
+  "lang": "de",
+  "word": "mögen",
+  "en": "to like",
+  "zh": "喜歡",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Es mag dich.",
+    "src": "tatoeba",
+    "tid": "13814720",
+    "zh": "牠喜歡你。"
+   },
+   {
+    "text": "Ich mag Blumen.",
+    "src": "tatoeba",
+    "tid": "13810919",
+    "zh": "我喜歡花。"
+   }
+  ],
+  "grammar": "verb · irregular: du magst, er mag; mochte, hat gemocht",
+  "reading": "ˈmøːɡn̩",
+  "ipa": "/ˈmøːɡn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/mögen"
+ },
+ {
+  "id": "de-521",
+  "lang": "de",
+  "word": "nehmen",
+  "en": "to take",
+  "zh": "拿；取；點（餐）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Nehmt.",
+    "src": "tatoeba",
+    "tid": "4944460",
+    "zh": "拿着。"
+   },
+   {
+    "text": "Nimm das.",
+    "src": "tatoeba",
+    "tid": "6643157",
+    "zh": "抓住那個。"
+   }
+  ],
+  "grammar": "verb · irregular: du nimmst, er nimmt; nahm, hat genommen",
+  "reading": "ˈneːmən",
+  "ipa": "/ˈneːmən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/nehmen"
+ },
+ {
+  "id": "de-522",
+  "lang": "de",
+  "word": "schmecken",
+  "en": "to taste (good)",
+  "zh": "嚐起來；（覺得）好吃",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Schmeckt's?",
+    "src": "tatoeba",
+    "tid": "6035960",
+    "zh": "好喫嗎？"
+   },
+   {
+    "text": "Schmeckt gut!",
+    "src": "tatoeba",
+    "tid": "13167442",
+    "zh": "非常美味！"
+   }
+  ],
+  "grammar": "verb · regular: schmeckte, hat geschmeckt",
+  "reading": "ˈʃmɛkn̩",
+  "ipa": "/ˈʃmɛkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schmecken",
+  "note": "課本例：Schmeckt's?（好吃嗎？）"
+ },
+ {
+  "id": "de-523",
+  "lang": "de",
+  "word": "lecker",
+  "en": "tasty, delicious",
+  "zh": "好吃的；美味的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Lecker!",
+    "src": "tatoeba",
+    "tid": "5343980",
+    "zh": "美味！"
+   },
+   {
+    "text": "Wie lecker!",
+    "src": "tatoeba",
+    "tid": "1288941",
+    "zh": "多可愛啊！"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈlɛkɐ",
+  "ipa": "/ˈlɛkɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/lecker"
+ },
+ {
+  "id": "de-524",
+  "lang": "de",
+  "word": "süß",
+  "en": "sweet",
+  "zh": "甜的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Süße Träume!",
+    "src": "tatoeba",
+    "tid": "3872955",
+    "zh": "祝你好夢。"
+   },
+   {
+    "text": "Träum süß!",
+    "src": "tatoeba",
+    "tid": "554111",
+    "zh": "祝你好夢。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "zyːs",
+  "ipa": "/zyːs/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/süß"
+ },
+ {
+  "id": "de-525",
+  "lang": "de",
+  "word": "frisch",
+  "en": "fresh",
+  "zh": "新鮮的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Essen",
+  "examples": [
+   {
+    "text": "Diese sind frisch.",
+    "src": "tatoeba",
+    "tid": "7456548",
+    "zh": "這些都很新鮮。"
+   },
+   {
+    "text": "Vorsicht! Frisch gestrichen!",
+    "src": "tatoeba",
+    "tid": "2600876",
+    "zh": "注意！油漆未乾"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "fʁɪʃ",
+  "ipa": "/fʁɪʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/frisch"
+ },
+ {
+  "id": "de-526",
+  "lang": "de",
+  "word": "das Frühstück",
+  "en": "breakfast",
+  "zh": "早餐",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Mahlzeiten",
+  "examples": [
+   {
+    "text": "Wir frühstücken.",
+    "src": "tatoeba",
+    "tid": "1000060",
+    "zh": "我們喫早餐。"
+   },
+   {
+    "text": "Frühstücken Sie gewöhnlich?",
+    "src": "tatoeba",
+    "tid": "9858862",
+    "zh": "你有喫早餐的習慣嗎？"
+   }
+  ],
+  "grammar": "noun · neuter; plural Frühstücke",
+  "reading": "ˈfʁyːˌʃtʏk",
+  "ipa": "/ˈfʁyːˌʃtʏk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Frühstück"
+ },
+ {
+  "id": "de-527",
+  "lang": "de",
+  "word": "frühstücken",
+  "en": "to have breakfast",
+  "zh": "吃早餐",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Mahlzeiten",
+  "examples": [
+   {
+    "text": "Tom frühstückte.",
+    "src": "tatoeba",
+    "tid": "6619467",
+    "zh": "湯姆喫了早餐。"
+   },
+   {
+    "text": "Wir frühstücken.",
+    "src": "tatoeba",
+    "tid": "1000060",
+    "zh": "我們喫早餐。"
+   }
+  ],
+  "grammar": "verb · regular: frühstückte, hat gefrühstückt",
+  "reading": "ˈfʁyːˌʃtʏkn̩",
+  "ipa": "/ˈfʁyːˌʃtʏkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/frühstücken"
+ },
+ {
+  "id": "de-528",
+  "lang": "de",
+  "word": "das Mittagessen",
+  "en": "lunch",
+  "zh": "午餐",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Mahlzeiten",
+  "examples": [
+   {
+    "text": "Mittagessen ist fertig.",
+    "src": "tatoeba",
+    "tid": "409096",
+    "zh": "午餐送到了。"
+   },
+   {
+    "text": "Er isst gerade Mittagessen.",
+    "src": "tatoeba",
+    "tid": "9755839",
+    "zh": "他在喫午餐。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Mittagessen",
+  "reading": "ˈmɪtaːkˌʔɛsn̩",
+  "ipa": "/ˈmɪtaːkˌʔɛsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mittagessen"
+ },
+ {
+  "id": "de-529",
+  "lang": "de",
+  "word": "das Abendessen",
+  "en": "dinner; evening meal",
+  "zh": "晚餐",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Mahlzeiten",
+  "examples": [
+   {
+    "text": "Zeit zum Abendessen.",
+    "src": "tatoeba",
+    "tid": "761373",
+    "zh": "喫晚飯的時間到了。"
+   },
+   {
+    "text": "Iss mich zum Abendessen!",
+    "src": "tatoeba",
+    "tid": "12537049",
+    "zh": "把我當晚餐喫了吧！"
+   }
+  ],
+  "grammar": "noun · neuter; plural Abendessen",
+  "reading": "ˈaːbn̩tˌʔɛsn̩",
+  "ipa": "/ˈaːbn̩tˌʔɛsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Abendessen"
+ },
+ {
+  "id": "de-530",
+  "lang": "de",
+  "word": "das Gericht",
+  "en": "dish (course)",
+  "zh": "（一道）菜；菜餚",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gerichte",
+  "examples": [
+   {
+    "text": "Dieses Gericht ist sehr lecker.",
+    "src": "tatoeba",
+    "tid": "13599852",
+    "zh": "這個菜很對胃口。"
+   },
+   {
+    "text": "Serviert dieses Restaurant vegane Gerichte?",
+    "src": "tatoeba",
+    "tid": "9049195",
+    "zh": "這家餐廳提供純素食菜嗎？"
+   }
+  ],
+  "grammar": "noun · neuter; plural Gerichte",
+  "reading": "ɡəˈʁɪçt",
+  "ipa": "/ɡəˈʁɪçt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gericht"
+ },
+ {
+  "id": "de-531",
+  "lang": "de",
+  "word": "die Suppe",
+  "en": "soup",
+  "zh": "湯",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gerichte",
+  "examples": [
+   {
+    "text": "Ich esse Suppe.",
+    "src": "tatoeba",
+    "tid": "8320897",
+    "zh": "我喝湯。"
+   },
+   {
+    "text": "Diese Suppe schmeckt seltsam.",
+    "src": "tatoeba",
+    "tid": "13971858",
+    "zh": "這碗湯的味道嚐起來很奇怪。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Suppen",
+  "reading": "ˈzʊpə",
+  "ipa": "/ˈzʊpə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Suppe"
+ },
+ {
+  "id": "de-532",
+  "lang": "de",
+  "word": "die Pizza",
+  "en": "pizza",
+  "zh": "披薩",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gerichte",
+  "examples": [
+   {
+    "text": "Ich mag Pizza.",
+    "src": "tatoeba",
+    "tid": "3751369",
+    "zh": "我喜歡披薩。"
+   },
+   {
+    "text": "Ich liebe Pizza.",
+    "src": "tatoeba",
+    "tid": "662063",
+    "zh": "我非常喜歡比薩。"
+   }
+  ],
+  "grammar": "noun · feminine; plural -s/Pizzen",
+  "reading": "ˈpɪt͡sa",
+  "ipa": "/ˈpɪt͡sa/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Pizza"
+ },
+ {
+  "id": "de-533",
+  "lang": "de",
+  "word": "die Pommes frites (Pl.)",
+  "en": "fries; chips",
+  "zh": "薯條",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gerichte",
+  "examples": [
+   {
+    "text": "Fisch mit Pommes frites ist das bekannteste englische Gericht.",
+    "src": "tatoeba",
+    "tid": "2671957",
+    "zh": "英國的食物以炸魚排加炸薯條最爲有名。"
+   },
+   {
+    "text": "Pommes frites bitte.",
+    "src": "tatoeba",
+    "tid": "13772947",
+    "en": "Some chips, please.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · plural only",
+  "reading": "pɔmˈfʁɪt",
+  "ipa": "/pɔmˈfʁɪt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Pommes frites",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-534",
+  "lang": "de",
+  "word": "morgens",
+  "en": "in the morning(s)",
+  "zh": "早上；上午（習慣性）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Morgen.",
+    "src": "tatoeba",
+    "tid": "10298104",
+    "zh": "早！"
+   },
+   {
+    "text": "Guten Morgen.",
+    "src": "tatoeba",
+    "tid": "4325231",
+    "zh": "你好。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈmɔʁɡn̩s",
+  "ipa": "/ˈmɔʁɡn̩s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/morgens"
+ },
+ {
+  "id": "de-535",
+  "lang": "de",
+  "word": "der Mittag",
+  "en": "midday; noon",
+  "zh": "中午",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Ich esse Mittag.",
+    "src": "tatoeba",
+    "tid": "1438049",
+    "zh": "我在喫午餐。"
+   },
+   {
+    "text": "Es ist erst Mittag.",
+    "src": "tatoeba",
+    "tid": "13999752",
+    "zh": "現在才中午。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Mittage",
+  "reading": "ˈmɪtaːk",
+  "ipa": "/ˈmɪtaːk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mittag"
+ },
+ {
+  "id": "de-536",
+  "lang": "de",
+  "word": "mittags",
+  "en": "at noon; at lunchtime",
+  "zh": "中午（習慣性）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Ich esse Mittag.",
+    "src": "tatoeba",
+    "tid": "1438049",
+    "zh": "我在喫午餐。"
+   },
+   {
+    "text": "Es ist erst Mittag.",
+    "src": "tatoeba",
+    "tid": "13999752",
+    "zh": "現在才中午。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈmɪtaːks",
+  "ipa": "/ˈmɪtaːks/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/mittags"
+ },
+ {
+  "id": "de-537",
+  "lang": "de",
+  "word": "nachmittags",
+  "en": "in the afternoon(s)",
+  "zh": "下午（習慣性）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Er kommt heute Nachmittag.",
+    "src": "tatoeba",
+    "tid": "1561884",
+    "zh": "他今天下午會來的。"
+   },
+   {
+    "text": "Er wird nachmittags kommen.",
+    "src": "tatoeba",
+    "tid": "1284398",
+    "zh": "他今天下午會來的。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈnaːxmɪˌtaːks",
+  "ipa": "/ˈnaːxmɪˌtaːks/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/nachmittags"
+ },
+ {
+  "id": "de-538",
+  "lang": "de",
+  "word": "abends",
+  "en": "in the evening(s)",
+  "zh": "晚上（習慣性）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Ich sehe abends fern.",
+    "src": "tatoeba",
+    "tid": "7328448",
+    "zh": "我在晚上看電視。"
+   },
+   {
+    "text": "Was macht sie abends?",
+    "src": "tatoeba",
+    "tid": "2128027",
+    "zh": "她晚上做什麼?"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈaːbn̩t͡s",
+  "ipa": "/ˈaːbn̩t͡s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/abends"
+ },
+ {
+  "id": "de-539",
+  "lang": "de",
+  "word": "die Nacht",
+  "en": "night",
+  "zh": "夜晚",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Tageszeiten",
+  "examples": [
+   {
+    "text": "Gute Nacht.",
+    "src": "tatoeba",
+    "tid": "4806337",
+    "zh": "你好。"
+   },
+   {
+    "text": "Gute Nacht!",
+    "src": "tatoeba",
+    "tid": "438752",
+    "zh": "好好睡！"
+   }
+  ],
+  "grammar": "noun · feminine; plural Nächte",
+  "reading": "naxt",
+  "ipa": "/naxt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Nacht"
+ },
+ {
+  "id": "de-540",
+  "lang": "de",
+  "word": "die Einladung",
+  "en": "invitation",
+  "zh": "邀請；請帖",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Danke für die Einladung!",
+    "src": "tatoeba",
+    "tid": "1590910",
+    "zh": "謝謝你的邀請。"
+   },
+   {
+    "text": "Du hast keine Einladung bekommen.",
+    "src": "tatoeba",
+    "tid": "9363437",
+    "zh": "你沒受到邀請。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Einladungen",
+  "reading": "ˈaɪ̯nˌlaːdʊŋ",
+  "ipa": "/ˈaɪ̯nˌlaːdʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Einladung"
+ },
+ {
+  "id": "de-541",
+  "lang": "de",
+  "word": "nett",
+  "en": "nice; kind",
+  "zh": "親切的；和善的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wie nett!",
+    "src": "tatoeba",
+    "tid": "4659736",
+    "zh": "多可愛啊！"
+   },
+   {
+    "text": "Sei nett!",
+    "src": "tatoeba",
+    "tid": "1998565",
+    "zh": "友好點。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "nɛt",
+  "ipa": "/nɛt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/nett"
+ },
+ {
+  "id": "de-542",
+  "lang": "de",
+  "word": "gesund",
+  "en": "healthy",
+  "zh": "健康的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Fisch ist gesund.",
+    "src": "tatoeba",
+    "tid": "12404586",
+    "zh": "喫魚有益於你的健康。"
+   },
+   {
+    "text": "Werde schnell gesund!",
+    "src": "tatoeba",
+    "tid": "6730120",
+    "zh": "早日康復。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ɡəˈzʊnt",
+  "ipa": "/ɡəˈzʊnt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/gesund"
+ },
+ {
+  "id": "de-543",
+  "lang": "de",
+  "word": "waschen",
+  "en": "to wash",
+  "zh": "洗",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wasch dich.",
+    "src": "tatoeba",
+    "tid": "580478",
+    "zh": "去清洗一下。"
+   },
+   {
+    "text": "Ich wasche Äpfel.",
+    "src": "tatoeba",
+    "tid": "12261063",
+    "zh": "我在洗蘋果。"
+   }
+  ],
+  "grammar": "verb · irregular: du wäschst, er wäscht; wusch, hat gewaschen",
+  "reading": "ˈvaʃn̩",
+  "ipa": "/ˈvaʃn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/waschen"
+ },
+ {
+  "id": "de-544",
+  "lang": "de",
+  "word": "schneiden",
+  "en": "to cut",
+  "zh": "切；剪",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Schneide die Kartoffeln!",
+    "src": "tatoeba",
+    "tid": "3545837",
+    "zh": "把土豆切一下。"
+   },
+   {
+    "text": "Schneide die Kartoffeln.",
+    "src": "tatoeba",
+    "tid": "435699",
+    "zh": "切土豆。"
+   }
+  ],
+  "grammar": "verb · irregular: du schneidest, er schneidet; schnitt, hat geschnitten",
+  "reading": "ˈʃnaɪ̯dn̩",
+  "ipa": "/ˈʃnaɪ̯dn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schneiden"
+ },
+ {
+  "id": "de-545",
+  "lang": "de",
+  "word": "grillen",
+  "en": "to grill; to barbecue",
+  "zh": "烤；烤肉",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Er grillt sehr gerne.",
+    "src": "tatoeba",
+    "tid": "8597966",
+    "zh": "他很愛烤肉。"
+   },
+   {
+    "text": "Wir werden am Strand grillen.",
+    "src": "tatoeba",
+    "tid": "1820335",
+    "zh": "我們將在海灘舉行燒烤聚會。"
+   }
+  ],
+  "grammar": "verb · regular: grillte, hat gegrillt",
+  "reading": "ˈɡʁɪlən",
+  "ipa": "/ˈɡʁɪlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/grillen"
+ },
+ {
+  "id": "de-546",
+  "lang": "de",
+  "word": "probieren",
+  "en": "to try; to taste",
+  "zh": "嘗試；試吃",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Probieren wir mal.",
+    "src": "tatoeba",
+    "tid": "9927405",
+    "zh": "我們試試。"
+   },
+   {
+    "text": "Möchtest du probieren?",
+    "src": "tatoeba",
+    "tid": "9075631",
+    "zh": "你要嚐嚐嗎？"
+   }
+  ],
+  "grammar": "verb · regular: probierte, hat probiert",
+  "reading": "pʁoˈbiːʁən",
+  "ipa": "/pʁoˈbiːʁən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/probieren"
+ },
+ {
+  "id": "de-547",
+  "lang": "de",
+  "word": "die Kantine",
+  "en": "canteen; cafeteria",
+  "zh": "（公司、學校）食堂",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wo geht es zur Kantine?",
+    "src": "tatoeba",
+    "tid": "7894704",
+    "zh": "食堂怎麼走？"
+   },
+   {
+    "text": "Hat die Kantine schon geöffnet?",
+    "src": "tatoeba",
+    "tid": "3407446",
+    "zh": "食堂開了嗎？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Kantinen",
+  "reading": "kanˈtiːnə",
+  "ipa": "/kanˈtiːnə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kantine"
+ },
+ {
+  "id": "de-548",
+  "lang": "de",
+  "word": "wenig",
+  "en": "little; few",
+  "zh": "少的；少量的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Weniger Lärm, bitte.",
+    "src": "tatoeba",
+    "tid": "915203",
+    "zh": "請安靜點。"
+   },
+   {
+    "text": "Wartet hier ein wenig.",
+    "src": "tatoeba",
+    "tid": "12503770",
+    "zh": "在這兒等一會兒。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈveːnɪç",
+  "ipa": "/ˈveːnɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wenig"
+ },
+ {
+  "id": "de-549",
+  "lang": "de",
+  "word": "vielleicht",
+  "en": "perhaps; maybe",
+  "zh": "也許",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Vielleicht morgen.",
+    "src": "tatoeba",
+    "tid": "4072956",
+    "zh": "可能明天吧。"
+   },
+   {
+    "text": "Ein Dieb vielleicht?",
+    "src": "tatoeba",
+    "tid": "4932065",
+    "zh": "是小偷吧！"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "fiˈlaɪ̯çt",
+  "ipa": "/fiˈlaɪ̯çt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/vielleicht"
+ },
+ {
+  "id": "de-550",
+  "lang": "de",
+  "word": "wichtig",
+  "en": "important",
+  "zh": "重要的",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ideen sind wichtig.",
+    "src": "tatoeba",
+    "tid": "8598882",
+    "zh": "想法很重要。"
+   },
+   {
+    "text": "Tom ist wichtig.",
+    "src": "tatoeba",
+    "tid": "6619154",
+    "zh": "湯姆是個重要的人。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈvɪçtɪç",
+  "ipa": "/ˈvɪçtɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wichtig"
+ },
+ {
+  "id": "de-551",
+  "lang": "de",
+  "word": "das Obst (Sg.)",
+  "en": "fruit (collective)",
+  "zh": "水果（集合名詞）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Obst",
+  "examples": [
+   {
+    "text": "Iss Obst!",
+    "src": "tatoeba",
+    "tid": "6886357",
+    "zh": "喫水果。"
+   },
+   {
+    "text": "Möchtest du Obst?",
+    "src": "tatoeba",
+    "tid": "12124104",
+    "zh": "你想要水果嗎？"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "oːpst",
+  "ipa": "/oːpst/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Obst"
+ },
+ {
+  "id": "de-552",
+  "lang": "de",
+  "word": "der Apfel",
+  "en": "apple",
+  "zh": "蘋果",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Obst",
+  "examples": [
+   {
+    "text": "Schäle den Apfel!",
+    "src": "tatoeba",
+    "tid": "6398616",
+    "zh": "將蘋果削皮。"
+   },
+   {
+    "text": "Der Apfel war lecker.",
+    "src": "tatoeba",
+    "tid": "12528328",
+    "zh": "那顆蘋果很好喫。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Äpfel",
+  "reading": "ˈap͡fl̩",
+  "ipa": "/ˈap͡fl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Apfel"
+ },
+ {
+  "id": "de-553",
+  "lang": "de",
+  "word": "die Banane",
+  "en": "banana",
+  "zh": "香蕉",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Obst",
+  "examples": [
+   {
+    "text": "Tom liebte Bananen.",
+    "src": "tatoeba",
+    "tid": "6619079",
+    "zh": "湯姆喜歡香蕉。"
+   },
+   {
+    "text": "Bananen schmecken gut.",
+    "src": "tatoeba",
+    "tid": "3553312",
+    "zh": "香蕉很好喫。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Bananen",
+  "reading": "baˈnaːnə",
+  "ipa": "/baˈnaːnə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Banane"
+ },
+ {
+  "id": "de-554",
+  "lang": "de",
+  "word": "die Birne",
+  "en": "pear",
+  "zh": "梨子",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Obst",
+  "examples": [
+   {
+    "text": "Das ist eine Birne.",
+    "src": "tatoeba",
+    "tid": "5318879",
+    "zh": "這是個梨。"
+   },
+   {
+    "text": "Ich esse eine Birne.",
+    "src": "tatoeba",
+    "tid": "2135084",
+    "zh": "我喫一個梨。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Birnen",
+  "reading": "ˈbɪʁnə",
+  "ipa": "/ˈbɪʁnə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Birne"
+ },
+ {
+  "id": "de-555",
+  "lang": "de",
+  "word": "das Gemüse (Sg.)",
+  "en": "vegetables (collective)",
+  "zh": "蔬菜（集合名詞）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Esst viel Gemüse.",
+    "src": "tatoeba",
+    "tid": "402004",
+    "zh": "多喫點蔬菜。"
+   },
+   {
+    "text": "Gemüse kann nicht sprechen.",
+    "src": "tatoeba",
+    "tid": "10745960",
+    "zh": "蔬菜不能說話。"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "ɡəˈmyːzə",
+  "ipa": "/ɡəˈmyːzə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gemüse"
+ },
+ {
+  "id": "de-556",
+  "lang": "de",
+  "word": "die Gurke",
+  "en": "cucumber",
+  "zh": "小黃瓜；黃瓜",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Was für eine lange Gurke!",
+    "src": "tatoeba",
+    "tid": "928205",
+    "zh": "那條黃瓜多長啊！"
+   },
+   {
+    "text": "Gurken sind grün.",
+    "src": "tatoeba",
+    "tid": "10103453",
+    "en": "The cucumber is green.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Gurken",
+  "reading": "ˈɡʊʁkə",
+  "ipa": "/ˈɡʊʁkə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gurke",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-557",
+  "lang": "de",
+  "word": "die Kartoffel",
+  "en": "potato",
+  "zh": "馬鈴薯",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Ich mag Kartoffeln.",
+    "src": "tatoeba",
+    "tid": "8100271",
+    "zh": "我喜歡土豆。"
+   },
+   {
+    "text": "Schneide die Kartoffeln!",
+    "src": "tatoeba",
+    "tid": "3545837",
+    "zh": "把土豆切一下。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Kartoffeln",
+  "reading": "kaʁˈtɔfl̩",
+  "ipa": "/kaʁˈtɔfl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kartoffel"
+ },
+ {
+  "id": "de-558",
+  "lang": "de",
+  "word": "der Salat",
+  "en": "lettuce; salad",
+  "zh": "生菜；沙拉",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Ich mag keinen Salat.",
+    "src": "tatoeba",
+    "tid": "4454497",
+    "zh": "我不喜歡喫沙拉。"
+   },
+   {
+    "text": "Ich mag Salat nicht.",
+    "src": "tatoeba",
+    "tid": "4444734",
+    "zh": "我不喜歡喫沙拉。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Salate",
+  "reading": "zaˈlaːt",
+  "ipa": "/zaˈlaːt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Salat"
+ },
+ {
+  "id": "de-559",
+  "lang": "de",
+  "word": "die Tomate",
+  "en": "tomato",
+  "zh": "番茄",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Ich hasse Tomaten.",
+    "src": "tatoeba",
+    "tid": "8306083",
+    "zh": "我討厭番茄。"
+   },
+   {
+    "text": "Aubergine, Karotte, Tomate.",
+    "src": "tatoeba",
+    "tid": "7319109",
+    "zh": "茄子，胡蘿蔔，西紅柿。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Tomaten",
+  "reading": "toˈmaːtə",
+  "ipa": "/toˈmaːtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tomate"
+ },
+ {
+  "id": "de-560",
+  "lang": "de",
+  "word": "die Olive",
+  "en": "olive",
+  "zh": "橄欖",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Das Öl wurde aus Oliven gewonnen.",
+    "src": "tatoeba",
+    "tid": "8733142",
+    "zh": "油是從橄欖中提煉出來的。"
+   },
+   {
+    "text": "Dies sind Oliven.",
+    "src": "tatoeba",
+    "tid": "10692403",
+    "en": "These are olives.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Oliven",
+  "reading": "oˈliːvə",
+  "ipa": "/oˈliːvə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Olive",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-561",
+  "lang": "de",
+  "word": "die Zwiebel",
+  "en": "onion",
+  "zh": "洋蔥",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Gemüse",
+  "examples": [
+   {
+    "text": "Zwiebeln schmecken mir nicht.",
+    "src": "tatoeba",
+    "tid": "10324104",
+    "zh": "我不喜歡洋蔥的味道。"
+   },
+   {
+    "text": "Ich mag Zwiebeln nicht.",
+    "src": "tatoeba",
+    "tid": "8701083",
+    "zh": "我不喜歡蔥。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Zwiebeln",
+  "reading": "ˈt͡sviːbl̩",
+  "ipa": "/ˈt͡sviːbl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zwiebel"
+ },
+ {
+  "id": "de-562",
+  "lang": "de",
+  "word": "das Brot",
+  "en": "bread",
+  "zh": "麵包",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Backwaren",
+  "examples": [
+   {
+    "text": "Sie isst Brot.",
+    "src": "tatoeba",
+    "tid": "8320408",
+    "zh": "她喫麵包。"
+   },
+   {
+    "text": "Er isst Brot.",
+    "src": "tatoeba",
+    "tid": "8320407",
+    "zh": "他喫麵包。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Brote",
+  "reading": "bʁoːt",
+  "ipa": "/bʁoːt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Brot"
+ },
+ {
+  "id": "de-563",
+  "lang": "de",
+  "word": "das Brötchen",
+  "en": "bread roll",
+  "zh": "小圓麵包",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Backwaren",
+  "examples": [
+   {
+    "text": "Jetzt gibt es keine gedämpften Brötchen.",
+    "src": "tatoeba",
+    "tid": "1047366",
+    "zh": "現在沒有饅頭。"
+   },
+   {
+    "text": "Brötchen sind ausverkauft.",
+    "src": "tatoeba",
+    "tid": "13709944",
+    "en": "They're out of buns.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Brötchen",
+  "reading": "ˈbʁøːtçən",
+  "ipa": "/ˈbʁøːtçən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Brötchen",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-564",
+  "lang": "de",
+  "word": "der Keks",
+  "en": "biscuit; cookie",
+  "zh": "餅乾",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Backwaren",
+  "examples": [
+   {
+    "text": "Er macht Kekse.",
+    "src": "tatoeba",
+    "tid": "808155",
+    "zh": "他在做曲奇。"
+   },
+   {
+    "text": "Die Kekse sind vegan.",
+    "src": "tatoeba",
+    "tid": "10346493",
+    "zh": "餅乾都是純素的。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Keks",
+  "reading": "keːks",
+  "ipa": "/keːks/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Keks"
+ },
+ {
+  "id": "de-565",
+  "lang": "de",
+  "word": "der Kuchen",
+  "en": "cake",
+  "zh": "蛋糕",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Backwaren",
+  "examples": [
+   {
+    "text": "Nimm vom Kuchen!",
+    "src": "tatoeba",
+    "tid": "2938737",
+    "zh": "你們自己喫蛋糕。"
+   },
+   {
+    "text": "Nehmt vom Kuchen!",
+    "src": "tatoeba",
+    "tid": "2938736",
+    "zh": "你們自己喫蛋糕。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Kuchen",
+  "reading": "ˈkuːxn̩",
+  "ipa": "/ˈkuːxn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kuchen"
+ },
+ {
+  "id": "de-566",
+  "lang": "de",
+  "word": "das Fleisch (Sg.)",
+  "en": "meat",
+  "zh": "肉",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Fleischprodukte",
+  "examples": [
+   {
+    "text": "Sie essen Fleisch.",
+    "src": "tatoeba",
+    "tid": "1764367",
+    "zh": "他們喫肉。"
+   },
+   {
+    "text": "Esst ihr Fleisch?",
+    "src": "tatoeba",
+    "tid": "657230",
+    "zh": "您喫不喫肉？"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "flaɪ̯ʃ",
+  "ipa": "/flaɪ̯ʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fleisch"
+ },
+ {
+  "id": "de-567",
+  "lang": "de",
+  "word": "das Hähnchen",
+  "en": "chicken",
+  "zh": "雞肉；雞",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Fleischprodukte",
+  "examples": [
+   {
+    "text": "Ich esse Hähnchen.",
+    "src": "tatoeba",
+    "tid": "8320841",
+    "en": "I am eating chicken.",
+    "zhPending": true
+   },
+   {
+    "text": "Das Hähnchen ist gekocht.",
+    "src": "tatoeba",
+    "tid": "7086981",
+    "en": "The chicken is cooked.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Hähnchen",
+  "reading": "ˈhɛːnçən",
+  "ipa": "/ˈhɛːnçən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hähnchen",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-568",
+  "lang": "de",
+  "word": "der Schinken",
+  "en": "ham",
+  "zh": "火腿",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Fleischprodukte",
+  "examples": [
+   {
+    "text": "Nimm dir von dem Schinken.",
+    "src": "tatoeba",
+    "tid": "4943240",
+    "zh": "喫些火腿。"
+   },
+   {
+    "text": "Geben Sie mir fünfzig Dekagramm Schinken!",
+    "src": "tatoeba",
+    "tid": "3638672",
+    "zh": "給我一磅火腿!"
+   }
+  ],
+  "grammar": "noun · masculine; plural Schinken",
+  "reading": "ˈʃɪŋkn̩",
+  "ipa": "/ˈʃɪŋkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schinken"
+ },
+ {
+  "id": "de-569",
+  "lang": "de",
+  "word": "die Wurst",
+  "en": "sausage",
+  "zh": "香腸",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Fleischprodukte",
+  "examples": [
+   {
+    "text": "Wollen Sie Speck oder Wurst?",
+    "src": "tatoeba",
+    "tid": "398608",
+    "zh": "你要培根還是要香腸?"
+   },
+   {
+    "text": "Es ist mir wurst, wer gewinnt.",
+    "src": "tatoeba",
+    "tid": "8816013",
+    "zh": "我無所謂誰贏。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Würste",
+  "reading": "vʊʁst",
+  "ipa": "/vʊʁst/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wurst"
+ },
+ {
+  "id": "de-570",
+  "lang": "de",
+  "word": "das Würstchen",
+  "en": "small sausage",
+  "zh": "小香腸",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Fleischprodukte",
+  "examples": [
+   {
+    "text": "Wir grillen Würstchen.",
+    "src": "tatoeba",
+    "tid": "12089212",
+    "en": "We are grilling sausage.",
+    "zhPending": true
+   },
+   {
+    "text": "Mögen Sie Würstchen?",
+    "src": "tatoeba",
+    "tid": "7290979",
+    "en": "Do you like small sausages?",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Würstchen",
+  "reading": "ˈvʏʁstçən",
+  "ipa": "/ˈvʏʁstçən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Würstchen",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-571",
+  "lang": "de",
+  "word": "die Butter (Sg.)",
+  "en": "butter",
+  "zh": "奶油；牛油",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Milchprodukte",
+  "examples": [
+   {
+    "text": "Ich brauche mehr Butter.",
+    "src": "tatoeba",
+    "tid": "4959851",
+    "zh": "我需要更多黃油。"
+   },
+   {
+    "text": "Ich ziehe Butter Käse vor.",
+    "src": "tatoeba",
+    "tid": "8913480",
+    "zh": "比起奶酪，我更喜歡黃油。"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "ˈbʊtɐ",
+  "ipa": "/ˈbʊtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Butter"
+ },
+ {
+  "id": "de-572",
+  "lang": "de",
+  "word": "der/das Joghurt",
+  "en": "yogurt",
+  "zh": "優格；優酪乳",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Milchprodukte",
+  "examples": [
+   {
+    "text": "Im Kühlschrank ist Joghurt.",
+    "src": "tatoeba",
+    "tid": "10890251",
+    "zh": "冰箱裡有優格。"
+   },
+   {
+    "text": "Wonach schmeckt dieser Joghurt?",
+    "src": "tatoeba",
+    "tid": "9855319",
+    "zh": "這個酸奶是什麼口味的？"
+   }
+  ],
+  "grammar": "noun · masculine/neuter; plural Joghurts",
+  "reading": "ˈjoːɡʊʁt",
+  "ipa": "/ˈjoːɡʊʁt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Joghurt"
+ },
+ {
+  "id": "de-573",
+  "lang": "de",
+  "word": "der Käse (Sg.)",
+  "en": "cheese",
+  "zh": "起司；乳酪",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Milchprodukte",
+  "examples": [
+   {
+    "text": "Käse!",
+    "src": "tatoeba",
+    "tid": "6599661",
+    "zh": "瞎說！"
+   },
+   {
+    "text": "Ich esse Käse.",
+    "src": "tatoeba",
+    "tid": "3813565",
+    "zh": "我喫芝士。"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ˈkɛːzə",
+  "ipa": "/ˈkɛːzə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Käse"
+ },
+ {
+  "id": "de-574",
+  "lang": "de",
+  "word": "die Milch (Sg.)",
+  "en": "milk",
+  "zh": "牛奶",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Milchprodukte",
+  "examples": [
+   {
+    "text": "Trink Milch!",
+    "src": "tatoeba",
+    "tid": "5984470",
+    "zh": "喝牛奶吧！"
+   },
+   {
+    "text": "Tom trinkt Milch.",
+    "src": "tatoeba",
+    "tid": "8991202",
+    "zh": "湯姆在喝牛奶。"
+   }
+  ],
+  "grammar": "noun · feminine; usually singular",
+  "reading": "mɪlç",
+  "ipa": "/mɪlç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Milch"
+ },
+ {
+  "id": "de-575",
+  "lang": "de",
+  "word": "die Sahne (Sg.)",
+  "en": "cream",
+  "zh": "鮮奶油",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Milchprodukte",
+  "examples": [
+   {
+    "text": "Uns ist die Sahne ausgegangen.",
+    "src": "tatoeba",
+    "tid": "673497",
+    "zh": "我們沒奶油了。"
+   },
+   {
+    "text": "Nimmst du Sahne in den Kaffee?",
+    "src": "tatoeba",
+    "tid": "8815582",
+    "zh": "您想在咖啡裡加點奶油嗎？"
+   }
+  ],
+  "grammar": "noun · feminine; usually singular",
+  "reading": "ˈzaːnə",
+  "ipa": "/ˈzaːnə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sahne"
+ },
+ {
+  "id": "de-576",
+  "lang": "de",
+  "word": "der Pfeffer (Sg.)",
+  "en": "pepper",
+  "zh": "胡椒",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Gib Pfeffer dazu!",
+    "src": "tatoeba",
+    "tid": "10308697",
+    "zh": "加胡椒！"
+   },
+   {
+    "text": "Sie hasst grünen Pfeffer.",
+    "src": "tatoeba",
+    "tid": "340876",
+    "zh": "她討厭青椒。"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ˈp͡fɛfɐ",
+  "ipa": "/ˈp͡fɛfɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Pfeffer"
+ },
+ {
+  "id": "de-577",
+  "lang": "de",
+  "word": "das Salz",
+  "en": "salt",
+  "zh": "鹽",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Salz konserviert Lebensmittel.",
+    "src": "tatoeba",
+    "tid": "10015919",
+    "zh": "鹽可以幫助保存食物避免腐爛。"
+   },
+   {
+    "text": "Ratschläge sind wie Salz.",
+    "src": "tatoeba",
+    "tid": "4070803",
+    "zh": "忠告像鹽。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Salze",
+  "reading": "zalt͡s",
+  "ipa": "/zalt͡s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Salz"
+ },
+ {
+  "id": "de-578",
+  "lang": "de",
+  "word": "der Zucker (Sg.)",
+  "en": "sugar",
+  "zh": "糖",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Zucker ist wasserlöslich.",
+    "src": "tatoeba",
+    "tid": "1389642",
+    "zh": "糖溶於水。"
+   },
+   {
+    "text": "Ist Zucker da?",
+    "src": "tatoeba",
+    "tid": "525126",
+    "zh": "有沒有糖？"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ˈt͡sʊkɐ",
+  "ipa": "/ˈt͡sʊkɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zucker"
+ },
+ {
+  "id": "de-579",
+  "lang": "de",
+  "word": "der Essig",
+  "en": "vinegar",
+  "zh": "醋",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Nimm Zitronensaft statt Essig.",
+    "src": "tatoeba",
+    "tid": "2948943",
+    "zh": "用擰檬汁代替醋。"
+   },
+   {
+    "text": "Wir müssen Essig kaufen.",
+    "src": "tatoeba",
+    "tid": "924853",
+    "zh": "我們需要買醋。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Essige",
+  "reading": "ˈɛsɪç",
+  "ipa": "/ˈɛsɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Essig"
+ },
+ {
+  "id": "de-580",
+  "lang": "de",
+  "word": "das Öl",
+  "en": "oil",
+  "zh": "油",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Öl schwimmt auf Wasser.",
+    "src": "tatoeba",
+    "tid": "3794364",
+    "zh": "油漂浮在水上。"
+   },
+   {
+    "text": "Das Öl wurde aus Oliven gewonnen.",
+    "src": "tatoeba",
+    "tid": "8733142",
+    "zh": "油是從橄欖中提煉出來的。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Öle",
+  "reading": "øːl",
+  "ipa": "/øːl/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Öl"
+ },
+ {
+  "id": "de-581",
+  "lang": "de",
+  "word": "die Nudel",
+  "en": "noodle; pasta",
+  "zh": "麵條；義大利麵",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Ich esse Nudeln.",
+    "src": "tatoeba",
+    "tid": "349837",
+    "zh": "我喫麵"
+   },
+   {
+    "text": "Ich esse gerade Nudeln.",
+    "src": "tatoeba",
+    "tid": "1211001",
+    "zh": "我在喫麪。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Nudeln",
+  "reading": "ˈnuːdl̩",
+  "ipa": "/ˈnuːdl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Nudel"
+ },
+ {
+  "id": "de-582",
+  "lang": "de",
+  "word": "der Reis (Sg.)",
+  "en": "rice",
+  "zh": "米；米飯",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Wollen Sie Reis?",
+    "src": "tatoeba",
+    "tid": "12549430",
+    "zh": "你們要米飯嗎？"
+   },
+   {
+    "text": "Wollt ihr Reis?",
+    "src": "tatoeba",
+    "tid": "12549428",
+    "zh": "你們要米飯嗎？"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ʁaɪ̯s",
+  "ipa": "/ʁaɪ̯s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Reis"
+ },
+ {
+  "id": "de-583",
+  "lang": "de",
+  "word": "das Ei",
+  "en": "egg",
+  "zh": "蛋；雞蛋",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Das ist Eis.",
+    "src": "tatoeba",
+    "tid": "8861777",
+    "zh": "這是冰塊。"
+   },
+   {
+    "text": "Schildkröten legen Eier.",
+    "src": "tatoeba",
+    "tid": "7825095",
+    "zh": "海龜下蛋。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Eier",
+  "reading": "aɪ̯",
+  "ipa": "/aɪ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ei"
+ },
+ {
+  "id": "de-584",
+  "lang": "de",
+  "word": "der Fisch",
+  "en": "fish",
+  "zh": "魚",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Schlafen Fische?",
+    "src": "tatoeba",
+    "tid": "8225107",
+    "zh": "魚睡覺嗎？"
+   },
+   {
+    "text": "Fisch, bitte.",
+    "src": "tatoeba",
+    "tid": "450252",
+    "zh": "魚，謝謝。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Fische",
+  "reading": "fɪʃ",
+  "ipa": "/fɪʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fisch"
+ },
+ {
+  "id": "de-585",
+  "lang": "de",
+  "word": "die Schokolade",
+  "en": "chocolate",
+  "zh": "巧克力",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Mögen Sie Schokolade?",
+    "src": "tatoeba",
+    "tid": "10311714",
+    "zh": "您喜歡巧克力嗎？"
+   },
+   {
+    "text": "Ann liebt Schokolade.",
+    "src": "tatoeba",
+    "tid": "7696949",
+    "zh": "安喜歡巧克力。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Schokoladen",
+  "reading": "ʃokoˈlaːdə",
+  "ipa": "/ʃokoˈlaːdə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schokolade"
+ },
+ {
+  "id": "de-586",
+  "lang": "de",
+  "word": "die Marmelade",
+  "en": "jam",
+  "zh": "果醬",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Selbst gemachter Joghurt schmeckt sehr gut mit Marmelade darin.",
+    "src": "tatoeba",
+    "tid": "8701085",
+    "zh": "自制酸奶里加上果醬會很好喫。"
+   },
+   {
+    "text": "Ich kleckerte Marmelade auf die Steckdose und es gab einen Kurzschluss.",
+    "src": "tatoeba",
+    "tid": "9949260",
+    "zh": "我把果醬撒到電源插座上短路了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Marmeladen",
+  "reading": "ˌmaʁməˈlaːdə",
+  "ipa": "/ˌmaʁməˈlaːdə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Marmelade"
+ },
+ {
+  "id": "de-587",
+  "lang": "de",
+  "word": "das Müsli",
+  "en": "muesli; granola",
+  "zh": "燕麥片（什錦麥片）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "andere Lebensmittel",
+  "examples": [
+   {
+    "text": "Ich möchte Müsli.",
+    "src": "tatoeba",
+    "tid": "11885055",
+    "en": "I want cereal.",
+    "zhPending": true
+   },
+   {
+    "text": "Ich mag Müsli.",
+    "src": "tatoeba",
+    "tid": "8342946",
+    "en": "I like muesli.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Müsli",
+  "reading": "ˈmyːsli",
+  "ipa": "/ˈmyːsli/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Müsli",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-588",
+  "lang": "de",
+  "word": "das Getränk",
+  "en": "drink; beverage",
+  "zh": "飲料",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Sind Getränke kostenlos?",
+    "src": "tatoeba",
+    "tid": "340891",
+    "zh": "飲料是免費的嗎？"
+   },
+   {
+    "text": "Habt ihr nichtalkoholische Getränke?",
+    "src": "tatoeba",
+    "tid": "358162",
+    "zh": "有沒有不含酒精的飲品？"
+   }
+  ],
+  "grammar": "noun · neuter; plural Getränke",
+  "reading": "ɡəˈtʁɛŋk",
+  "ipa": "/ɡəˈtʁɛŋk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Getränk"
+ },
+ {
+  "id": "de-589",
+  "lang": "de",
+  "word": "das Wasser",
+  "en": "water",
+  "zh": "水",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Trink Wasser.",
+    "src": "tatoeba",
+    "tid": "6766214",
+    "zh": "喝水。"
+   },
+   {
+    "text": "Wasser bitte.",
+    "src": "tatoeba",
+    "tid": "1922207",
+    "zh": "請給我些水。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Wasser",
+  "reading": "ˈvasɐ",
+  "ipa": "/ˈvasɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wasser"
+ },
+ {
+  "id": "de-590",
+  "lang": "de",
+  "word": "der Saft",
+  "en": "juice",
+  "zh": "果汁",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Möchtest du Saft?",
+    "src": "tatoeba",
+    "tid": "10362974",
+    "zh": "你想要些果汁嗎？"
+   },
+   {
+    "text": "Möchten Sie Saft?",
+    "src": "tatoeba",
+    "tid": "8839364",
+    "zh": "您想要果汁嗎？"
+   }
+  ],
+  "grammar": "noun · masculine; plural Säfte",
+  "reading": "zaft",
+  "ipa": "/zaft/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Saft"
+ },
+ {
+  "id": "de-591",
+  "lang": "de",
+  "word": "die Limonade",
+  "en": "lemonade; soft drink",
+  "zh": "檸檬汽水；汽水",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Tom trank Limonade.",
+    "src": "tatoeba",
+    "tid": "7466907",
+    "en": "Tom drank lemonade.",
+    "zhPending": true
+   },
+   {
+    "text": "Ich hatte Limonade.",
+    "src": "tatoeba",
+    "tid": "1764357",
+    "en": "I had lemonade.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Limonaden",
+  "reading": "limoˈnaːdə",
+  "ipa": "/limoˈnaːdə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Limonade",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-592",
+  "lang": "de",
+  "word": "die Cola",
+  "en": "cola",
+  "zh": "可樂",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Trinken wir doch Champagner anstatt Cola!",
+    "src": "tatoeba",
+    "tid": "9587176",
+    "zh": "與其喝可樂，倒不如喝香檳。"
+   },
+   {
+    "text": "Zwei Hamburger und eine Cola, bitte!",
+    "src": "tatoeba",
+    "tid": "707548",
+    "zh": "可以給我來兩個漢堡和一杯可樂嗎？謝謝。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Colas",
+  "reading": "ˈkoːla",
+  "ipa": "/ˈkoːla/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Cola"
+ },
+ {
+  "id": "de-593",
+  "lang": "de",
+  "word": "der Kaffee",
+  "en": "coffee",
+  "zh": "咖啡",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Kaffee?",
+    "src": "tatoeba",
+    "tid": "13139641",
+    "zh": "咖啡嗎？"
+   },
+   {
+    "text": "Kaffee, bitte.",
+    "src": "tatoeba",
+    "tid": "11734033",
+    "zh": "我要咖啡，謝謝。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Kaffees",
+  "reading": "ˈkafe",
+  "ipa": "/ˈkafe/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kaffee"
+ },
+ {
+  "id": "de-594",
+  "lang": "de",
+  "word": "der Tee",
+  "en": "tea",
+  "zh": "茶",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Getränke",
+  "examples": [
+   {
+    "text": "Trink Tee.",
+    "src": "tatoeba",
+    "tid": "12258498",
+    "zh": "喝茶。"
+   },
+   {
+    "text": "Trink Tee!",
+    "src": "tatoeba",
+    "tid": "10101369",
+    "zh": "喝茶。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Tees",
+  "reading": "teː",
+  "ipa": "/teː/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tee"
+ },
+ {
+  "id": "de-595",
+  "lang": "de",
+  "word": "die Bäckerei",
+  "en": "bakery",
+  "zh": "麵包店",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Geschäfte",
+  "examples": [
+   {
+    "text": "Die Bäckerei ist geschlossen.",
+    "src": "tatoeba",
+    "tid": "6379891",
+    "zh": "麪包房打烊了。"
+   },
+   {
+    "text": "Ich gehe zur Bäckerei. Möchtest du was?",
+    "src": "tatoeba",
+    "tid": "10251863",
+    "zh": "我現在要去麪包店了。你想要什麼嗎？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Bäckereien",
+  "reading": "ˌbɛkəˈʁaɪ̯",
+  "ipa": "/ˌbɛkəˈʁaɪ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bäckerei"
+ },
+ {
+  "id": "de-596",
+  "lang": "de",
+  "word": "die Metzgerei",
+  "en": "butcher's shop",
+  "zh": "肉舖",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Geschäfte",
+  "examples": [
+   {
+    "text": "Die Metzgerei verkauft diverse Fleischstücke.",
+    "src": "tatoeba",
+    "tid": "12825046",
+    "en": "The butcher shop sells assorted cuts of meat.",
+    "zhPending": true
+   },
+   {
+    "text": "In der Metzgerei gibt es Fleisch.",
+    "src": "tatoeba",
+    "tid": "3748991",
+    "en": "There's meat at the butcher's.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Metzgereien",
+  "reading": "mɛt͡sɡəˈʁaɪ̯",
+  "ipa": "/mɛt͡sɡəˈʁaɪ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Metzgerei",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-597",
+  "lang": "de",
+  "word": "der Supermarkt",
+  "en": "supermarket",
+  "zh": "超市",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Geschäfte",
+  "examples": [
+   {
+    "text": "Ich war im Supermarkt.",
+    "src": "tatoeba",
+    "tid": "3893071",
+    "zh": "去了超市。"
+   },
+   {
+    "text": "Der Supermarkt ist offen.",
+    "src": "tatoeba",
+    "tid": "925490",
+    "zh": "這超市是開着的。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Supermärkte",
+  "reading": "ˈzuːpɐˌmaʁkt",
+  "ipa": "/ˈzuːpɐˌmaʁkt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Supermarkt"
+ },
+ {
+  "id": "de-598",
+  "lang": "de",
+  "word": "die Packung",
+  "en": "package; pack",
+  "zh": "包裝；一包",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Sie öffnete eine Packung Kekse.",
+    "src": "tatoeba",
+    "tid": "10212245",
+    "zh": "她打開了一包餅乾。"
+   },
+   {
+    "text": "Ich habe eine Packung Tiefkühlmais gekauft.",
+    "src": "tatoeba",
+    "tid": "9788521",
+    "zh": "我買了一包冰凍玉米。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Packungen",
+  "reading": "ˈpakʊŋ",
+  "ipa": "/ˈpakʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Packung"
+ },
+ {
+  "id": "de-599",
+  "lang": "de",
+  "word": "der Becher",
+  "en": "cup; beaker; tub",
+  "zh": "杯；（優格等）杯裝容器",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Mein Becher ist leer.",
+    "src": "tatoeba",
+    "tid": "11483923",
+    "en": "My cup's empty.",
+    "zhPending": true
+   },
+   {
+    "text": "Der Becher ist leer.",
+    "src": "tatoeba",
+    "tid": "8300302",
+    "en": "The cup is empty.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Becher",
+  "reading": "ˈbɛçɐ",
+  "ipa": "/ˈbɛçɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Becher",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-600",
+  "lang": "de",
+  "word": "die Dose",
+  "en": "can; tin",
+  "zh": "罐頭；罐",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Die Dose ist leer.",
+    "src": "tatoeba",
+    "tid": "435725",
+    "zh": "罐子是空的。"
+   },
+   {
+    "text": "Kann ich zwei Dosen Milchpulver bestellen?",
+    "src": "tatoeba",
+    "tid": "9208699",
+    "zh": "我能預訂兩桶奶粉嗎？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Dosen",
+  "reading": "ˈdoːzə",
+  "ipa": "/ˈdoːzə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Dose"
+ },
+ {
+  "id": "de-601",
+  "lang": "de",
+  "word": "das Stück",
+  "en": "piece",
+  "zh": "塊；個；片",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Zwei Stück Pizza, bitte!",
+    "src": "tatoeba",
+    "tid": "10810501",
+    "zh": "請來兩片比薩。"
+   },
+   {
+    "text": "Noch ein Stück Kuchen?",
+    "src": "tatoeba",
+    "tid": "6051797",
+    "zh": "你要再來一塊蛋糕嗎?"
+   }
+  ],
+  "grammar": "noun · neuter; plural Stücke",
+  "reading": "ʃtʏk",
+  "ipa": "/ʃtʏk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Stück"
+ },
+ {
+  "id": "de-602",
+  "lang": "de",
+  "word": "die Tüte",
+  "en": "bag; sachet",
+  "zh": "袋子；小袋",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Sind das deine Tüten?",
+    "src": "tatoeba",
+    "tid": "8826225",
+    "zh": "這些包包是你的？"
+   },
+   {
+    "text": "Welche Tüte ist deine?",
+    "src": "tatoeba",
+    "tid": "754445",
+    "zh": "哪個包是你的？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Tüten",
+  "reading": "ˈtyːtə",
+  "ipa": "/ˈtyːtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tüte"
+ },
+ {
+  "id": "de-603",
+  "lang": "de",
+  "word": "das Gramm (g)",
+  "en": "gram (g)",
+  "zh": "公克（g）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Geben Sie mir fünfhundert Gramm Schinken!",
+    "src": "tatoeba",
+    "tid": "3638665",
+    "zh": "給我一磅火腿!"
+   },
+   {
+    "text": "Eine Schale Reis wiegt circa 180 Gramm.",
+    "src": "tatoeba",
+    "tid": "4928319",
+    "zh": "一碗飯大約重一百八十克。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Gramme",
+  "reading": "ɡʁam",
+  "ipa": "/ɡʁam/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gramm"
+ },
+ {
+  "id": "de-604",
+  "lang": "de",
+  "word": "das Kilo(gramm) (kg)",
+  "en": "kilogram (kg)",
+  "zh": "公斤（kg）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Ich habe drei Kilogramm abgenommen.",
+    "src": "tatoeba",
+    "tid": "12437147",
+    "zh": "我瘦了三公斤。"
+   },
+   {
+    "text": "Geben Sie mir ein halbes Kilogramm Schinken!",
+    "src": "tatoeba",
+    "tid": "3638663",
+    "zh": "給我一磅火腿!"
+   }
+  ],
+  "grammar": "noun · neuter; plural Kilogramme",
+  "reading": "kiloˈɡʁam",
+  "ipa": "/kiloˈɡʁam/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kilogramm"
+ },
+ {
+  "id": "de-605",
+  "lang": "de",
+  "word": "der Liter (l)",
+  "en": "liter (l)",
+  "zh": "公升（l）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "Packungen und Maße",
+  "examples": [
+   {
+    "text": "Ein Kubikmeter entspricht 1000 Litern.",
+    "src": "tatoeba",
+    "tid": "561",
+    "zh": "1立方米等於1000升。"
+   },
+   {
+    "text": "Im letzten Monat haben wir fünfzig Liter Regenwasser aufgefangen.",
+    "src": "tatoeba",
+    "tid": "3379421",
+    "zh": "上個月我們收集了五升雨水。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Liter",
+  "reading": "ˈliːtɐ",
+  "ipa": "/ˈliːtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Liter"
+ },
+ {
+  "id": "de-606",
+  "lang": "de",
+  "word": "kaufen",
+  "en": "to buy",
+  "zh": "買",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Ich kaufe Bänder.",
+    "src": "tatoeba",
+    "tid": "12530031",
+    "zh": "我買磁帶。"
+   },
+   {
+    "text": "Ich kaufe Kassetten.",
+    "src": "tatoeba",
+    "tid": "12530030",
+    "zh": "我買磁帶。"
+   }
+  ],
+  "grammar": "verb · regular: kaufte, hat gekauft",
+  "reading": "ˈkaʊ̯fn̩",
+  "ipa": "/ˈkaʊ̯fn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/kaufen"
+ },
+ {
+  "id": "de-607",
+  "lang": "de",
+  "word": "ein|kaufen",
+  "en": "to shop (for groceries)",
+  "zh": "採買；購物",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Sie geht einkaufen.",
+    "src": "tatoeba",
+    "tid": "7842150",
+    "zh": "她去買東西。"
+   },
+   {
+    "text": "Ich gehe einkaufen.",
+    "src": "tatoeba",
+    "tid": "5311880",
+    "zh": "我去買東西。"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du kaufst ein, er kauft ein; kaufte ein, hat eingekauft",
+  "reading": "ˈaɪ̯nˌkaʊ̯fn̩",
+  "ipa": "/ˈaɪ̯nˌkaʊ̯fn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/einkaufen"
+ },
+ {
+  "id": "de-608",
+  "lang": "de",
+  "word": "der Einkaufswagen",
+  "en": "shopping cart",
+  "zh": "購物車（手推車）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Ich kann keinen Einkaufswagen finden.",
+    "src": "tatoeba",
+    "tid": "12839580",
+    "en": "I can't find a shopping trolley.",
+    "zhPending": true
+   },
+   {
+    "text": "Kann ich diesen Einkaufswagen benutzen?",
+    "src": "tatoeba",
+    "tid": "6009224",
+    "en": "Can I use this shopping trolley?",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Einkaufswagen",
+  "reading": "ˈaɪ̯nkaʊ̯fsˌvaːɡn̩",
+  "ipa": "/ˈaɪ̯nkaʊ̯fsˌvaːɡn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Einkaufswagen",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-609",
+  "lang": "de",
+  "word": "brauchen",
+  "en": "to need",
+  "zh": "需要",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Du brauchst Schutz.",
+    "src": "tatoeba",
+    "tid": "12387658",
+    "zh": "你需要保護。"
+   },
+   {
+    "text": "Sie brauchen Schutz.",
+    "src": "tatoeba",
+    "tid": "10717333",
+    "zh": "你需要保護。"
+   }
+  ],
+  "grammar": "verb · regular: brauchte, hat gebraucht",
+  "reading": "ˈbʁaʊ̯xn̩",
+  "ipa": "/ˈbʁaʊ̯xn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/brauchen"
+ },
+ {
+  "id": "de-610",
+  "lang": "de",
+  "word": "möchten",
+  "en": "would like (to)",
+  "zh": "想要（客氣說法）",
+  "contentType": "word",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Es mag dich.",
+    "src": "tatoeba",
+    "tid": "13814720",
+    "zh": "牠喜歡你。"
+   },
+   {
+    "text": "Ich mag Blumen.",
+    "src": "tatoeba",
+    "tid": "13810919",
+    "zh": "我喜歡花。"
+   }
+  ],
+  "grammar": "verb · modal (Subjunktiv II of mögen): er möchte; mochte, hat gemocht",
+  "reading": "ˈmœçtn̩",
+  "ipa": "/ˈmœçtn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/möchten"
+ },
+ {
+  "id": "de-611",
+  "lang": "de",
+  "word": "Wo gibt es …?",
+  "en": "Where is/are there ...?",
+  "zh": "哪裡有…？",
+  "contentType": "phrase",
+  "themeId": "debook-L4",
+  "topic": "beim Einkaufen",
+  "examples": [
+   {
+    "text": "Entschuldigung, wo gibt es hier einen Taxistand?",
+    "src": "tatoeba",
+    "tid": "3073149",
+    "zh": "請問，出租車站在哪裏？"
+   },
+   {
+    "text": "Wo du lebst, gibt es viele Seen.",
+    "src": "tatoeba",
+    "tid": "3953328",
+    "zh": "在你生活的地方有許多湖泊。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "voː ɡiːpt ɛs",
+  "ipa": "/voː ɡiːpt ɛs/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wo",
+  "note": "詢問地點句型；省略號代入尋找的物品。"
+ },
+ {
+  "id": "de-612",
+  "lang": "de",
+  "word": "duschen",
+  "en": "to shower",
+  "zh": "淋浴；洗澡",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Ich duschte.",
+    "src": "tatoeba",
+    "tid": "2497055",
+    "zh": "我洗了個澡。"
+   },
+   {
+    "text": "Tom duscht.",
+    "src": "tatoeba",
+    "tid": "1713259",
+    "zh": "Tom在洗澡。"
+   }
+  ],
+  "grammar": "verb · regular: duschte, hat geduscht",
+  "reading": "ˈduːʃn̩",
+  "ipa": "/ˈduːʃn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/duschen"
+ },
+ {
+  "id": "de-613",
+  "lang": "de",
+  "word": "besuchen",
+  "en": "to visit",
+  "zh": "拜訪；參觀",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Besuche uns.",
+    "src": "tatoeba",
+    "tid": "3625814",
+    "zh": "過來見我們。"
+   },
+   {
+    "text": "Komm uns besuchen!",
+    "src": "tatoeba",
+    "tid": "9433061",
+    "zh": "過來見我們。"
+   }
+  ],
+  "grammar": "verb · regular: besuchte, hat besucht",
+  "reading": "bəˈzuːxn̩",
+  "ipa": "/bəˈzuːxn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/besuchen"
+ },
+ {
+  "id": "de-614",
+  "lang": "de",
+  "word": "treffen",
+  "en": "to meet",
+  "zh": "見面；碰面",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Es trifft zu.",
+    "src": "tatoeba",
+    "tid": "2157497",
+    "zh": "這是對的。"
+   },
+   {
+    "text": "Triff deine Wahl.",
+    "src": "tatoeba",
+    "tid": "1856391",
+    "zh": "做出您的選擇。"
+   }
+  ],
+  "grammar": "verb · irregular: du triffst, er trifft; traf, hat getroffen",
+  "reading": "ˈtʁɛfn̩",
+  "ipa": "/ˈtʁɛfn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/treffen"
+ },
+ {
+  "id": "de-615",
+  "lang": "de",
+  "word": "die Nachricht",
+  "en": "message; news",
+  "zh": "訊息；消息",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Schaust du die Nachrichten?",
+    "src": "tatoeba",
+    "tid": "11475901",
+    "zh": "你看新聞嗎？"
+   },
+   {
+    "text": "Die Nachricht bekümmerte sie.",
+    "src": "tatoeba",
+    "tid": "3429636",
+    "zh": "新聞使她不安。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Nachrichten",
+  "reading": "ˈnaːxˌʁɪçt",
+  "ipa": "/ˈnaːxˌʁɪçt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Nachricht"
+ },
+ {
+  "id": "de-616",
+  "lang": "de",
+  "word": "die Uni",
+  "en": "university (colloquial)",
+  "zh": "大學（口語）",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Geht dein Sohn auf die Uni?",
+    "src": "tatoeba",
+    "tid": "9685397",
+    "zh": "你兒子在上大學嗎？"
+   },
+   {
+    "text": "Tom studiert Philosophie an der Uni.",
+    "src": "tatoeba",
+    "tid": "4275117",
+    "zh": "湯姆在大學裏學的是哲學。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Unis",
+  "reading": "ˈʊni",
+  "ipa": "/ˈʊni/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Uni"
+ },
+ {
+  "id": "de-617",
+  "lang": "de",
+  "word": "in die Uni/Schule fahren",
+  "en": "to go (drive) to university/school",
+  "zh": "（搭車）去大學／學校",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Geht dein Sohn auf die Uni?",
+    "src": "tatoeba",
+    "tid": "9685397",
+    "zh": "你兒子在上大學嗎？"
+   },
+   {
+    "text": "Tom studiert Philosophie an der Uni.",
+    "src": "tatoeba",
+    "tid": "4275117",
+    "zh": "湯姆在大學裏學的是哲學。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɪn diː ˈʊni ˈʃuːlə ˈfaːʁən",
+  "ipa": "/ɪn diː ˈʊni ˈʃuːlə ˈfaːʁən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Uni/Schule",
+  "parts": [
+   {
+    "w": "in die",
+    "m": "to the"
+   },
+   {
+    "w": "Uni/Schule",
+    "m": "university/school"
+   },
+   {
+    "w": "fahren",
+    "m": "to go (by vehicle)"
+   }
+  ]
+ },
+ {
+  "id": "de-618",
+  "lang": "de",
+  "word": "die Mensa",
+  "en": "(university) cafeteria",
+  "zh": "（大學）食堂",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Ich habe in der Mensa gegessen.",
+    "src": "tatoeba",
+    "tid": "3947445",
+    "zh": "我是在食堂喫的飯。"
+   },
+   {
+    "text": "Schade, dass es keine Feigenplätzchen in der Mensa gibt.",
+    "src": "tatoeba",
+    "tid": "344637",
+    "zh": "可惜大學食堂沒有無花果餅乾。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Mensen",
+  "reading": "ˈmɛnza",
+  "ipa": "/ˈmɛnza/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mensa"
+ },
+ {
+  "id": "de-619",
+  "lang": "de",
+  "word": "die Bibliothek",
+  "en": "library",
+  "zh": "圖書館",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "In der Bibliothek.",
+    "src": "tatoeba",
+    "tid": "13634807",
+    "zh": "在圖書館。"
+   },
+   {
+    "text": "Das ist eine Bibliothek.",
+    "src": "tatoeba",
+    "tid": "13228460",
+    "zh": "這是一個圖書館。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Bibliotheken",
+  "reading": "biblioˈteːk",
+  "ipa": "/biblioˈteːk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bibliothek"
+ },
+ {
+  "id": "de-620",
+  "lang": "de",
+  "word": "die Musikschule",
+  "en": "music school",
+  "zh": "音樂學校",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Er nimmt an der Musikschule Gesangsstunden.",
+    "src": "tatoeba",
+    "tid": "13749027",
+    "en": "He takes singing lessons at a school of music.",
+    "zhPending": true
+   },
+   {
+    "text": "Er nimmt Gesangsstunden an der Musikschule.",
+    "src": "tatoeba",
+    "tid": "13749026",
+    "en": "He takes singing lessons at a school of music.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Musikschulen",
+  "reading": "muˈziːkˌʃuːlə",
+  "ipa": "/muˈziːkˌʃuːlə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Musikschule",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-621",
+  "lang": "de",
+  "word": "die Hausaufgabe",
+  "en": "homework (assignment)",
+  "zh": "家庭作業",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Mach deine Hausaufgaben.",
+    "src": "tatoeba",
+    "tid": "360305",
+    "zh": "做你的作業。"
+   },
+   {
+    "text": "Geh deine Hausaufgaben machen!",
+    "src": "tatoeba",
+    "tid": "8852697",
+    "zh": "快去做作業。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Hausaufgaben",
+  "reading": "ˈhaʊ̯sʔaʊ̯fˌɡaːbə",
+  "ipa": "/ˈhaʊ̯sʔaʊ̯fˌɡaːbə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hausaufgabe"
+ },
+ {
+  "id": "de-622",
+  "lang": "de",
+  "word": "die Zeitung",
+  "en": "newspaper",
+  "zh": "報紙",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Ich lese keine Zeitung.",
+    "src": "tatoeba",
+    "tid": "11244241",
+    "zh": "我不看報紙。"
+   },
+   {
+    "text": "Alle Zeitungen berichteten darüber.",
+    "src": "tatoeba",
+    "tid": "10759779",
+    "zh": "所有報紙都在報導這件事。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Zeitungen",
+  "reading": "ˈt͡saɪ̯tʊŋ",
+  "ipa": "/ˈt͡saɪ̯tʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zeitung"
+ },
+ {
+  "id": "de-623",
+  "lang": "de",
+  "word": "am Computer arbeiten",
+  "en": "to work at the computer",
+  "zh": "在電腦前工作",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Sie arbeitet am Computer.",
+    "src": "tatoeba",
+    "tid": "3324604",
+    "en": "She works on computer.",
+    "zhPending": true
+   },
+   {
+    "text": "Das Arbeiten mit dem neuen Computer war mir am Anfang zu beschwerlich.",
+    "src": "tatoeba",
+    "tid": "1691795",
+    "en": "The new computer was too complicated for me to use at first.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "am kɔmˈpjuːtɐ ˈaʁbaɪ̯tn̩",
+  "ipa": "/am kɔmˈpjuːtɐ ˈaʁbaɪ̯tn̩/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Computer",
+  "parts": [
+   {
+    "w": "am Computer",
+    "m": "at the computer"
+   },
+   {
+    "w": "arbeiten",
+    "m": "to work"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-624",
+  "lang": "de",
+  "word": "die Homepage",
+  "en": "homepage; website",
+  "zh": "首頁；網站",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [],
+  "grammar": "noun · feminine; plural Homepages",
+  "reading": "ˈhɔʊ̯mpɛɪ̯t͡ʃ",
+  "ipa": "/ˈhɔʊ̯mpɛɪ̯t͡ʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Homepage",
+  "note": "雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-625",
+  "lang": "de",
+  "word": "der Stress (Sg.)",
+  "en": "stress",
+  "zh": "壓力",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Alltag",
+  "examples": [
+   {
+    "text": "Ich bin immer im Stress.",
+    "src": "tatoeba",
+    "tid": "12182426",
+    "zh": "我總是覺得壓力很大。"
+   },
+   {
+    "text": "Sie sagen, dass Stress Bluthochdruck verursacht.",
+    "src": "tatoeba",
+    "tid": "9413524",
+    "zh": "他們說壓力導致高血壓。"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ʃtʁɛs",
+  "ipa": "/ʃtʁɛs/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Stress"
+ },
+ {
+  "id": "de-626",
+  "lang": "de",
+  "word": "Wie viel Uhr ist es?",
+  "en": "What time is it?",
+  "zh": "現在幾點？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Wie viel Uhr ist es?",
+    "src": "tatoeba",
+    "tid": "460",
+    "zh": "現在幾點鐘？"
+   },
+   {
+    "text": "Wie viel Uhr ist es, bitte?",
+    "src": "tatoeba",
+    "tid": "10925980",
+    "zh": "幾點了？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "viː fiːl uːɐ̯ ɪst ɛs",
+  "ipa": "/viː fiːl uːɐ̯ ɪst ɛs/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wie",
+  "parts": [
+   {
+    "w": "Wie viel Uhr",
+    "m": "what o'clock"
+   },
+   {
+    "w": "ist es",
+    "m": "is it"
+   }
+  ]
+ },
+ {
+  "id": "de-627",
+  "lang": "de",
+  "word": "Wie spät ist es?",
+  "en": "What time is it?",
+  "zh": "現在幾點？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Wie spät ist es?",
+    "src": "tatoeba",
+    "tid": "478461",
+    "zh": "現在幾點鐘?"
+   },
+   {
+    "text": "Wie spät ist es jetzt?",
+    "src": "tatoeba",
+    "tid": "1097419",
+    "zh": "現在幾點鐘?"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "viː ʃpɛːt ɪst ɛs",
+  "ipa": "/viː ʃpɛːt ɪst ɛs/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wie",
+  "parts": [
+   {
+    "w": "Wie spät",
+    "m": "how late"
+   },
+   {
+    "w": "ist es",
+    "m": "is it"
+   }
+  ]
+ },
+ {
+  "id": "de-628",
+  "lang": "de",
+  "word": "Es ist vier Uhr.",
+  "en": "It is four o'clock.",
+  "zh": "現在四點。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Es ist jetzt genau vier Uhr.",
+    "src": "tatoeba",
+    "tid": "10289161",
+    "zh": "現在四點整。"
+   },
+   {
+    "text": "Nach meiner Uhr ist es vier.",
+    "src": "tatoeba",
+    "tid": "361994",
+    "zh": "我表上是4點。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst fiːɐ̯ uːɐ̯",
+  "ipa": "/ɛs ɪst fiːɐ̯ uːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Uhr",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "vier Uhr",
+    "m": "four o'clock"
+   }
+  ]
+ },
+ {
+  "id": "de-629",
+  "lang": "de",
+  "word": "Es ist Viertel vor vier.",
+  "en": "It is quarter to four.",
+  "zh": "現在三點四十五（差一刻四點）。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Es ist viertel vor sieben.",
+    "src": "tatoeba",
+    "tid": "10967009",
+    "zh": "六點四十五了。"
+   },
+   {
+    "text": "Es ist drei viertel neun.",
+    "src": "tatoeba",
+    "tid": "10966962",
+    "zh": "八點四十五了。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst ˈfɪʁtl̩ foːɐ̯ fiːɐ̯",
+  "ipa": "/ɛs ɪst ˈfɪʁtl̩ foːɐ̯ fiːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Viertel",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "Viertel vor vier",
+    "m": "quarter to four"
+   }
+  ]
+ },
+ {
+  "id": "de-630",
+  "lang": "de",
+  "word": "Es ist Viertel nach vier.",
+  "en": "It is quarter past four.",
+  "zh": "現在四點十五（四點過一刻）。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Es ist Viertel nach vier.",
+    "src": "tatoeba",
+    "tid": "8857480",
+    "en": "It's 4.15.",
+    "zhPending": true
+   },
+   {
+    "text": "Es ist jetzt Viertel nach vier.",
+    "src": "tatoeba",
+    "tid": "2710557",
+    "en": "It's a quarter after four.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst ˈfɪʁtl̩ naːx fiːɐ̯",
+  "ipa": "/ɛs ɪst ˈfɪʁtl̩ naːx fiːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Viertel",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "Viertel nach vier",
+    "m": "quarter past four"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-631",
+  "lang": "de",
+  "word": "Es ist halb fünf.",
+  "en": "It is half past four.",
+  "zh": "現在四點半。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Es war kaum halb fünf.",
+    "src": "tatoeba",
+    "tid": "11784297",
+    "en": "It was barely 4:30.",
+    "zhPending": true
+   },
+   {
+    "text": "Es ist halb fünf Uhr morgens.",
+    "src": "tatoeba",
+    "tid": "12656162",
+    "en": "It's half past four in the morning.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst halp fʏnf",
+  "ipa": "/ɛs ɪst halp fʏnf/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Es",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "halb fünf",
+    "m": "half to five (4:30)"
+   }
+  ]
+ },
+ {
+  "id": "de-632",
+  "lang": "de",
+  "word": "Es ist kurz vor vier.",
+  "en": "It is just before four.",
+  "zh": "快四點了。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Ich!",
+    "src": "tatoeba",
+    "tid": "7251444",
+    "zh": "我！"
+   },
+   {
+    "text": "Sprechen Sie!",
+    "src": "tatoeba",
+    "tid": "14095168",
+    "zh": "說啊！"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst kʊʁt͡s foːɐ̯ fiːɐ̯",
+  "ipa": "/ɛs ɪst kʊʁt͡s foːɐ̯ fiːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Es",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "kurz vor vier",
+    "m": "just before four"
+   }
+  ]
+ },
+ {
+  "id": "de-633",
+  "lang": "de",
+  "word": "Es ist zehn nach vier.",
+  "en": "It is ten past four.",
+  "zh": "現在四點十分。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Es ist jetzt zehn nach vier.",
+    "src": "tatoeba",
+    "tid": "12507114",
+    "en": "It's ten past four now.",
+    "zhPending": true
+   },
+   {
+    "text": "Es ist jetzt zehn Minuten nach vier.",
+    "src": "tatoeba",
+    "tid": "12507112",
+    "en": "It's ten past four now.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɛs ɪst t͡seːn naːx fiːɐ̯",
+  "ipa": "/ɛs ɪst t͡seːn naːx fiːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Es",
+  "parts": [
+   {
+    "w": "Es ist",
+    "m": "it is"
+   },
+   {
+    "w": "zehn nach vier",
+    "m": "ten past four"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-634",
+  "lang": "de",
+  "word": "um",
+  "en": "at (clock time)",
+  "zh": "在…（幾點）",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Kehr um!",
+    "src": "tatoeba",
+    "tid": "2265346",
+    "zh": "回來。"
+   },
+   {
+    "text": "Dreh um.",
+    "src": "tatoeba",
+    "tid": "773896",
+    "zh": "轉過來。"
+   }
+  ],
+  "grammar": "preposition · with accusative (clock time)",
+  "reading": "ʊm",
+  "ipa": "/ʊm/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/um",
+  "note": "課本例：um drei Uhr（在三點）。"
+ },
+ {
+  "id": "de-635",
+  "lang": "de",
+  "word": "die Sekunde",
+  "en": "second",
+  "zh": "秒",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Eine Minute sind sechzig Sekunden.",
+    "src": "tatoeba",
+    "tid": "12026001",
+    "zh": "一分鐘有六十秒。"
+   },
+   {
+    "text": "Eine Minute umfasst sechzig Sekunden.",
+    "src": "tatoeba",
+    "tid": "2182652",
+    "zh": "一分鐘有六十秒。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Sekunden",
+  "reading": "zeˈkʊndə",
+  "ipa": "/zeˈkʊndə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sekunde"
+ },
+ {
+  "id": "de-636",
+  "lang": "de",
+  "word": "die Minute",
+  "en": "minute",
+  "zh": "分鐘",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Jede Minute zählt.",
+    "src": "tatoeba",
+    "tid": "3570187",
+    "zh": "分秒必爭。"
+   },
+   {
+    "text": "Wartest du eine Minute?",
+    "src": "tatoeba",
+    "tid": "3998596",
+    "zh": "麻煩您等一下。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Minuten",
+  "reading": "miˈnuːtə",
+  "ipa": "/miˈnuːtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Minute"
+ },
+ {
+  "id": "de-637",
+  "lang": "de",
+  "word": "eine halbe Stunde",
+  "en": "half an hour",
+  "zh": "半小時",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Sie ließ ihn eine halbe Stunde warten.",
+    "src": "tatoeba",
+    "tid": "10824252",
+    "zh": "她讓他等了半小時。"
+   },
+   {
+    "text": "Sie ließ mich eine halbe Stunde warten.",
+    "src": "tatoeba",
+    "tid": "2592884",
+    "zh": "她讓我等了30分鐘。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈaɪ̯nə ˈhalbə ˈʃtʊndə",
+  "ipa": "/ˈaɪ̯nə ˈhalbə ˈʃtʊndə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Stunde",
+  "parts": [
+   {
+    "w": "eine",
+    "m": "a"
+   },
+   {
+    "w": "halbe",
+    "m": "half"
+   },
+   {
+    "w": "Stunde",
+    "m": "hour"
+   }
+  ]
+ },
+ {
+  "id": "de-638",
+  "lang": "de",
+  "word": "die Verspätung",
+  "en": "delay",
+  "zh": "延誤；遲到",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Entschuldige die Verspätung!",
+    "src": "tatoeba",
+    "tid": "2419433",
+    "zh": "對不起，我來晚了。"
+   },
+   {
+    "text": "Entschuldigt meine Verspätung.",
+    "src": "tatoeba",
+    "tid": "1821179",
+    "zh": "對不起，我來晚了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Verspätungen",
+  "reading": "fɛɐ̯ˈʃpɛːtʊŋ",
+  "ipa": "/fɛɐ̯ˈʃpɛːtʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Verspätung"
+ },
+ {
+  "id": "de-639",
+  "lang": "de",
+  "word": "pünktlich",
+  "en": "punctual; on time",
+  "zh": "準時的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Sei pünktlich!",
+    "src": "tatoeba",
+    "tid": "8941306",
+    "zh": "要守時！"
+   },
+   {
+    "text": "Sei pünktlich.",
+    "src": "tatoeba",
+    "tid": "7060136",
+    "zh": "要守時！"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈpʏŋktlɪç",
+  "ipa": "/ˈpʏŋktlɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/pünktlich"
+ },
+ {
+  "id": "de-640",
+  "lang": "de",
+  "word": "zu spät kommen",
+  "en": "to arrive late; to be late",
+  "zh": "遲到",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Uhrzeit",
+  "examples": [
+   {
+    "text": "Entschuldige, dass ich zu spät komme.",
+    "src": "tatoeba",
+    "tid": "8134625",
+    "zh": "對不起，我遲到了。"
+   },
+   {
+    "text": "Warum bist du zu spät gekommen?",
+    "src": "tatoeba",
+    "tid": "361541",
+    "zh": "你爲什麼遲到？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "t͡suː ʃpɛːt ˈkɔmən",
+  "ipa": "/t͡suː ʃpɛːt ˈkɔmən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/zu",
+  "parts": [
+   {
+    "w": "zu spät",
+    "m": "too late"
+   },
+   {
+    "w": "kommen",
+    "m": "to come"
+   }
+  ]
+ },
+ {
+  "id": "de-641",
+  "lang": "de",
+  "word": "die Familie",
+  "en": "family",
+  "zh": "家庭；家人",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Wir sind eine Familie.",
+    "src": "tatoeba",
+    "tid": "3449793",
+    "zh": "我們是個家庭。"
+   },
+   {
+    "text": "Tom hatte keine Familie.",
+    "src": "tatoeba",
+    "tid": "2577482",
+    "zh": "過去湯姆沒有家。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Familien",
+  "reading": "faˈmiːli̯ə",
+  "ipa": "/faˈmiːli̯ə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Familie"
+ },
+ {
+  "id": "de-642",
+  "lang": "de",
+  "word": "der/die Verwandte",
+  "en": "relative",
+  "zh": "親戚；親屬",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Ich verwende das.",
+    "src": "tatoeba",
+    "tid": "6643888",
+    "zh": "我使用這個。"
+   },
+   {
+    "text": "Wirst du das verwenden?",
+    "src": "tatoeba",
+    "tid": "6011573",
+    "zh": "你要用這東西嗎？"
+   }
+  ],
+  "grammar": "noun · masculine/neuter; plural (plural unverified)",
+  "reading": "fɛɐ̯ˈvantɐ",
+  "ipa": "/fɛɐ̯ˈvantɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Verwandter"
+ },
+ {
+  "id": "de-643",
+  "lang": "de",
+  "word": "das Baby",
+  "en": "baby",
+  "zh": "嬰兒",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Das Baby schläft.",
+    "src": "tatoeba",
+    "tid": "626191",
+    "zh": "寶寶正在睡覺。"
+   },
+   {
+    "text": "Das Baby schlief fest.",
+    "src": "tatoeba",
+    "tid": "4379752",
+    "zh": "嬰兒睡得正香。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Babys",
+  "reading": "ˈbeːbi",
+  "ipa": "/ˈbeːbi/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Baby"
+ },
+ {
+  "id": "de-644",
+  "lang": "de",
+  "word": "das Kind",
+  "en": "child",
+  "zh": "小孩",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Arme Kinder!",
+    "src": "tatoeba",
+    "tid": "6298652",
+    "zh": "可憐的孩子們呀！"
+   },
+   {
+    "text": "Schau her, Kind!",
+    "src": "tatoeba",
+    "tid": "11931565",
+    "zh": "看這裡，小孩。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Kinder",
+  "reading": "kɪnt",
+  "ipa": "/kɪnt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kind"
+ },
+ {
+  "id": "de-645",
+  "lang": "de",
+  "word": "der Junge",
+  "en": "boy",
+  "zh": "男孩",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Raucher sterben jung.",
+    "src": "tatoeba",
+    "tid": "6149730",
+    "zh": "抽菸的人死的早。"
+   },
+   {
+    "text": "Dieser Junge rennt.",
+    "src": "tatoeba",
+    "tid": "1287830",
+    "zh": "那個男孩在跑步。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Jungen",
+  "reading": "ˈjʊŋə",
+  "ipa": "/ˈjʊŋə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Junge"
+ },
+ {
+  "id": "de-646",
+  "lang": "de",
+  "word": "das Mädchen",
+  "en": "girl",
+  "zh": "女孩",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Zwei Mädchen setzten sich.",
+    "src": "tatoeba",
+    "tid": "9210614",
+    "zh": "兩個女孩坐了下來。"
+   },
+   {
+    "text": "Können Mädchen auch masturbieren?",
+    "src": "tatoeba",
+    "tid": "8688318",
+    "zh": "女孩子也會自慰嗎？"
+   }
+  ],
+  "grammar": "noun · neuter; plural Mädchen",
+  "reading": "ˈmɛːtçən",
+  "ipa": "/ˈmɛːtçən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mädchen"
+ },
+ {
+  "id": "de-647",
+  "lang": "de",
+  "word": "der Sohn",
+  "en": "son",
+  "zh": "兒子",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Mein Sohn!",
+    "src": "tatoeba",
+    "tid": "5320082",
+    "zh": "我的兒子！"
+   },
+   {
+    "text": "Sein Sohn sitzt.",
+    "src": "tatoeba",
+    "tid": "676383",
+    "zh": "他的兒子正在服役。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Söhne",
+  "reading": "zoːn",
+  "ipa": "/zoːn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sohn"
+ },
+ {
+  "id": "de-648",
+  "lang": "de",
+  "word": "die Tochter",
+  "en": "daughter",
+  "zh": "女兒",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Er hat eine Tochter.",
+    "src": "tatoeba",
+    "tid": "14021818",
+    "zh": "他有一個女兒。"
+   },
+   {
+    "text": "Meine Tochter ist krank.",
+    "src": "tatoeba",
+    "tid": "12812026",
+    "zh": "我的孩子病了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Töchter",
+  "reading": "ˈtɔxtɐ",
+  "ipa": "/ˈtɔxtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tochter"
+ },
+ {
+  "id": "de-649",
+  "lang": "de",
+  "word": "die Mutter",
+  "en": "mother",
+  "zh": "母親",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Mutter Erde.",
+    "src": "tatoeba",
+    "tid": "1340010",
+    "zh": "地球母親。"
+   },
+   {
+    "text": "Meine Mutter kommt.",
+    "src": "tatoeba",
+    "tid": "13197079",
+    "zh": "我媽來了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Mütter",
+  "reading": "ˈmʊtɐ",
+  "ipa": "/ˈmʊtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mutter"
+ },
+ {
+  "id": "de-650",
+  "lang": "de",
+  "word": "der Vater",
+  "en": "father",
+  "zh": "父親",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Mein Vater sitzt.",
+    "src": "tatoeba",
+    "tid": "12978000",
+    "zh": "我老爸在蹲監獄。"
+   },
+   {
+    "text": "Vater gießt Blumen.",
+    "src": "tatoeba",
+    "tid": "1801829",
+    "zh": "父親在澆花。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Väter",
+  "reading": "ˈfaːtɐ",
+  "ipa": "/ˈfaːtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Vater"
+ },
+ {
+  "id": "de-651",
+  "lang": "de",
+  "word": "die Eltern (Pl.)",
+  "en": "parents",
+  "zh": "父母",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Gehorche deinen Eltern.",
+    "src": "tatoeba",
+    "tid": "9123253",
+    "zh": "聽父母的。"
+   },
+   {
+    "text": "Seine Eltern sind Russen.",
+    "src": "tatoeba",
+    "tid": "10500181",
+    "zh": "他的父母是俄國人。"
+   }
+  ],
+  "grammar": "noun · plural only",
+  "reading": "ˈɛltɐn",
+  "ipa": "/ˈɛltɐn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Eltern"
+ },
+ {
+  "id": "de-652",
+  "lang": "de",
+  "word": "der Bruder",
+  "en": "brother",
+  "zh": "兄弟",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Meine Brüder!",
+    "src": "tatoeba",
+    "tid": "705935",
+    "zh": "我的兄弟們！"
+   },
+   {
+    "text": "Sind das Brüder?",
+    "src": "tatoeba",
+    "tid": "3882329",
+    "zh": "他們是兄弟嗎？"
+   }
+  ],
+  "grammar": "noun · masculine; plural Brüder",
+  "reading": "ˈbʁuːdɐ",
+  "ipa": "/ˈbʁuːdɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bruder"
+ },
+ {
+  "id": "de-653",
+  "lang": "de",
+  "word": "die Schwester",
+  "en": "sister",
+  "zh": "姐妹",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Ruf deine Schwestern.",
+    "src": "tatoeba",
+    "tid": "1185836",
+    "zh": "叫你的姐妹們。"
+   },
+   {
+    "text": "Ich habe Schwestern.",
+    "src": "tatoeba",
+    "tid": "782851",
+    "zh": "我有姊妹。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Schwestern",
+  "reading": "ˈʃvɛstɐ",
+  "ipa": "/ˈʃvɛstɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schwester"
+ },
+ {
+  "id": "de-654",
+  "lang": "de",
+  "word": "die Geschwister (Pl.)",
+  "en": "siblings",
+  "zh": "兄弟姊妹",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Haben Sie Geschwister?",
+    "src": "tatoeba",
+    "tid": "541100",
+    "zh": "你有兄弟姐妹嗎？"
+   },
+   {
+    "text": "Hast du Geschwister?",
+    "src": "tatoeba",
+    "tid": "541099",
+    "zh": "你有兄弟姐妹嗎？"
+   }
+  ],
+  "grammar": "noun · plural only",
+  "reading": "ɡəˈʃvɪstɐ",
+  "ipa": "/ɡəˈʃvɪstɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geschwister"
+ },
+ {
+  "id": "de-655",
+  "lang": "de",
+  "word": "die Großmutter",
+  "en": "grandmother",
+  "zh": "祖母；外祖母",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Meine Großmutter lebt allein.",
+    "src": "tatoeba",
+    "tid": "1935811",
+    "zh": "我祖母獨自生活。"
+   },
+   {
+    "text": "Dies ist meine Großmutter.",
+    "src": "tatoeba",
+    "tid": "1744435",
+    "zh": "這是我的外祖母。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Großmütter",
+  "reading": "ˈɡʁoːsˌmʊtɐ",
+  "ipa": "/ˈɡʁoːsˌmʊtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Großmutter"
+ },
+ {
+  "id": "de-656",
+  "lang": "de",
+  "word": "die Oma",
+  "en": "grandma",
+  "zh": "奶奶；外婆",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Oma schaut gerne Fernsehen.",
+    "src": "tatoeba",
+    "tid": "860319",
+    "zh": "祖母非常喜歡看電視。"
+   },
+   {
+    "text": "Das ist das Rezept meiner Oma.",
+    "src": "tatoeba",
+    "tid": "10346436",
+    "zh": "這是我奶奶的食譜。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Omas",
+  "reading": "ˈoːma",
+  "ipa": "/ˈoːma/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Oma"
+ },
+ {
+  "id": "de-657",
+  "lang": "de",
+  "word": "der Großvater",
+  "en": "grandfather",
+  "zh": "祖父；外祖父",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Mein Großvater war Polizist.",
+    "src": "tatoeba",
+    "tid": "13355488",
+    "zh": "我的祖父是警察。"
+   },
+   {
+    "text": "Ich bin Toms Großvater.",
+    "src": "tatoeba",
+    "tid": "4757356",
+    "zh": "我是Tom的爺爺。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Großväter",
+  "reading": "ˈɡʁoːsˌfaːtɐ",
+  "ipa": "/ˈɡʁoːsˌfaːtɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Großvater"
+ },
+ {
+  "id": "de-658",
+  "lang": "de",
+  "word": "der Opa",
+  "en": "grandpa",
+  "zh": "爺爺；外公",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Opa lebt allein.",
+    "src": "tatoeba",
+    "tid": "11786543",
+    "zh": "爺爺一人獨居。"
+   },
+   {
+    "text": "Opa wohnt allein.",
+    "src": "tatoeba",
+    "tid": "11786540",
+    "zh": "爺爺一人獨居。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Opas",
+  "reading": "ˈoːpa",
+  "ipa": "/ˈoːpa/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Opa"
+ },
+ {
+  "id": "de-659",
+  "lang": "de",
+  "word": "die Großeltern (Pl.)",
+  "en": "grandparents",
+  "zh": "祖父母；外祖父母",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Lucy wurde von ihren Großeltern aufgezogen.",
+    "src": "tatoeba",
+    "tid": "822237",
+    "zh": "露西被她的祖父母揶揄。"
+   },
+   {
+    "text": "Meine Großeltern sind aus Lissabon, aber meine Eltern sind aus Rio de Janeiro.",
+    "src": "tatoeba",
+    "tid": "10230249",
+    "zh": "我的祖父母來自里斯本，但是我的父母來自里約熱內盧。"
+   }
+  ],
+  "grammar": "noun · plural only",
+  "reading": "ˈɡʁoːsˌʔɛltɐn",
+  "ipa": "/ˈɡʁoːsˌʔɛltɐn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Großeltern"
+ },
+ {
+  "id": "de-660",
+  "lang": "de",
+  "word": "die Frau",
+  "en": "woman; wife; Mrs./Ms.",
+  "zh": "女人；妻子；女士",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Frau Guan!",
+    "src": "tatoeba",
+    "tid": "13154917",
+    "zh": "關老師！"
+   },
+   {
+    "text": "Frauen zuerst!",
+    "src": "tatoeba",
+    "tid": "667657",
+    "zh": "女士優先!"
+   }
+  ],
+  "grammar": "noun · feminine; plural Frauen",
+  "reading": "fʁaʊ̯",
+  "ipa": "/fʁaʊ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Frau",
+  "note": "課本搭配：meine Frau（我太太）。"
+ },
+ {
+  "id": "de-661",
+  "lang": "de",
+  "word": "ledig",
+  "en": "single (unmarried)",
+  "zh": "單身（未婚）的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Ich bin ledig.",
+    "src": "tatoeba",
+    "tid": "1551774",
+    "zh": "我未婚。"
+   },
+   {
+    "text": "Ich bin noch ledig.",
+    "src": "tatoeba",
+    "tid": "1400493",
+    "zh": "我還是單身。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈleːdɪç",
+  "ipa": "/ˈleːdɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/ledig"
+ },
+ {
+  "id": "de-662",
+  "lang": "de",
+  "word": "verheiratet",
+  "en": "married",
+  "zh": "已婚的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Familie",
+  "examples": [
+   {
+    "text": "Tom ist verheiratet.",
+    "src": "tatoeba",
+    "tid": "1997685",
+    "zh": "湯姆已經結婚了。"
+   },
+   {
+    "text": "Bist du verheiratet?",
+    "src": "tatoeba",
+    "tid": "501314",
+    "zh": "你結婚了沒有？"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "fɛɐ̯ˈhaɪ̯ʁaːtət",
+  "ipa": "/fɛɐ̯ˈhaɪ̯ʁaːtət/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/verheiratet"
+ },
+ {
+  "id": "de-663",
+  "lang": "de",
+  "word": "die Zeit",
+  "en": "time",
+  "zh": "時間",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Zeit, aufzustehen.",
+    "src": "tatoeba",
+    "tid": "1299438",
+    "zh": "該起牀了。"
+   },
+   {
+    "text": "Lass dir Zeit!",
+    "src": "tatoeba",
+    "tid": "11966622",
+    "zh": "慢慢來。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Zeiten",
+  "reading": "t͡saɪ̯t",
+  "ipa": "/t͡saɪ̯t/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zeit"
+ },
+ {
+  "id": "de-664",
+  "lang": "de",
+  "word": "Hast du morgen Zeit?",
+  "en": "Do you have time tomorrow?",
+  "zh": "你明天有空嗎？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Haben Sie morgen Zeit?",
+    "src": "tatoeba",
+    "tid": "1317792",
+    "zh": "你明天有空嗎？"
+   },
+   {
+    "text": "Habt ihr morgen Zeit?",
+    "src": "tatoeba",
+    "tid": "1317791",
+    "zh": "你明天有空嗎？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "hast duː ˈmɔʁɡn̩ t͡saɪ̯t",
+  "ipa": "/hast duː ˈmɔʁɡn̩ t͡saɪ̯t/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hast",
+  "parts": [
+   {
+    "w": "Hast du",
+    "m": "do you have"
+   },
+   {
+    "w": "morgen",
+    "m": "tomorrow"
+   },
+   {
+    "w": "Zeit",
+    "m": "time"
+   }
+  ]
+ },
+ {
+  "id": "de-665",
+  "lang": "de",
+  "word": "telefonieren",
+  "en": "to (make a) phone call",
+  "zh": "打電話",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Ich telefonierte.",
+    "src": "tatoeba",
+    "tid": "936354",
+    "zh": "我打過電話。"
+   },
+   {
+    "text": "Er telefoniert.",
+    "src": "tatoeba",
+    "tid": "344592",
+    "zh": "他正在打電話。"
+   }
+  ],
+  "grammar": "verb · regular: telefonierte, hat telefoniert",
+  "reading": "teləfoˈniːʁən",
+  "ipa": "/teləfoˈniːʁən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/telefonieren"
+ },
+ {
+  "id": "de-666",
+  "lang": "de",
+  "word": "Auf Wiederhören.",
+  "en": "Goodbye (on the phone).",
+  "zh": "再見（電話用語）。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Vielen Dank und auf Wiederhören!",
+    "src": "tatoeba",
+    "tid": "13838292",
+    "en": "Thank you very much and goodbye!",
+    "zhPending": true
+   },
+   {
+    "text": "Ich muss jetzt gehen. Auf Wiederhören, Frau Schmitt!",
+    "src": "tatoeba",
+    "tid": "14061767",
+    "en": "I have to go now. Goodbye, Mrs. Schmitt!",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "aʊ̯f ˈviːdɐˌhøːʁən",
+  "ipa": "/aʊ̯f ˈviːdɐˌhøːʁən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Auf",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-667",
+  "lang": "de",
+  "word": "von … bis",
+  "en": "from ... to/until",
+  "zh": "從…到…",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Zähle von zehn zurück bis null.",
+    "src": "tatoeba",
+    "tid": "3007000",
+    "zh": "從10倒數到0。"
+   },
+   {
+    "text": "Er arbeitet von Montag bis Freitag.",
+    "src": "tatoeba",
+    "tid": "1526890",
+    "zh": "他週一到週五上班。。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "fɔn bɪs",
+  "ipa": "/fɔn bɪs/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/von",
+  "note": "課本例：von Montag bis Freitag（週一到週五）。",
+  "parts": [
+   {
+    "w": "von …",
+    "m": "from ..."
+   },
+   {
+    "w": "bis",
+    "m": "to, until"
+   }
+  ]
+ },
+ {
+  "id": "de-668",
+  "lang": "de",
+  "word": "können",
+  "en": "can; to be able to",
+  "zh": "能；可以",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Können wir.",
+    "src": "tatoeba",
+    "tid": "13531712",
+    "zh": "我們可以。"
+   },
+   {
+    "text": "Kann ich?",
+    "src": "tatoeba",
+    "tid": "440918",
+    "zh": "我能嗎？"
+   }
+  ],
+  "grammar": "verb · irregular: du kannst, er kann; konnte, hat können",
+  "reading": "ˈkœnən",
+  "ipa": "/ˈkœnən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/können"
+ },
+ {
+  "id": "de-669",
+  "lang": "de",
+  "word": "müssen",
+  "en": "must; to have to",
+  "zh": "必須",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Sie muß essen.",
+    "src": "tatoeba",
+    "tid": "13287416",
+    "zh": "她需要喫飯。"
+   },
+   {
+    "text": "Wir müssen nicht.",
+    "src": "tatoeba",
+    "tid": "11294017",
+    "zh": "我們無需這樣做。"
+   }
+  ],
+  "grammar": "verb · irregular: du musst, er muss; musste, hat gemusst",
+  "reading": "ˈmʏsn̩",
+  "ipa": "/ˈmʏsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/müssen"
+ },
+ {
+  "id": "de-670",
+  "lang": "de",
+  "word": "wollen",
+  "en": "to want (to)",
+  "zh": "想要",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Wohin willst du?",
+    "src": "tatoeba",
+    "tid": "13859626",
+    "zh": "你想去哪裡?"
+   },
+   {
+    "text": "Ich will nicht!",
+    "src": "tatoeba",
+    "tid": "13200243",
+    "zh": "討厭！"
+   }
+  ],
+  "grammar": "verb · irregular: du willst, er will; wollte, hat gewollt",
+  "reading": "ˈvɔlən",
+  "ipa": "/ˈvɔlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wollen"
+ },
+ {
+  "id": "de-671",
+  "lang": "de",
+  "word": "die Party",
+  "en": "party",
+  "zh": "派對",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Ich liebe Partys.",
+    "src": "tatoeba",
+    "tid": "2300294",
+    "zh": "我愛派對。"
+   },
+   {
+    "text": "Die Party kann starten.",
+    "src": "tatoeba",
+    "tid": "12459741",
+    "zh": "讓我們開始這個派對吧。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Partys",
+  "reading": "ˈpaːɐ̯ti",
+  "ipa": "/ˈpaːɐ̯ti/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Party"
+ },
+ {
+  "id": "de-672",
+  "lang": "de",
+  "word": "eine Party machen",
+  "en": "to throw/have a party",
+  "zh": "辦派對",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Wir werden am nächsten Samstag eine Party machen.",
+    "src": "tatoeba",
+    "tid": "653545",
+    "zh": "我們下個星期六將舉行派對。"
+   },
+   {
+    "text": "Tom macht eine Party zur Wohnungseinweihung.",
+    "src": "tatoeba",
+    "tid": "7906268",
+    "en": "Tom is having a flat-warming party.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈaɪ̯nə ˈpaːɐ̯ti ˈmaxn̩",
+  "ipa": "/ˈaɪ̯nə ˈpaːɐ̯ti ˈmaxn̩/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Party",
+  "parts": [
+   {
+    "w": "eine Party",
+    "m": "a party"
+   },
+   {
+    "w": "machen",
+    "m": "to make, to have"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-673",
+  "lang": "de",
+  "word": "die Bar",
+  "en": "bar",
+  "zh": "酒吧",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Ich zahle bar.",
+    "src": "tatoeba",
+    "tid": "1048918",
+    "zh": "我用現金支付。"
+   },
+   {
+    "text": "Ich bezahle in bar.",
+    "src": "tatoeba",
+    "tid": "13183807",
+    "zh": "我用現金支付。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Bars",
+  "reading": "baːɐ̯",
+  "ipa": "/baːɐ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bar"
+ },
+ {
+  "id": "de-674",
+  "lang": "de",
+  "word": "sitzen",
+  "en": "to sit; to be seated",
+  "zh": "坐；坐著",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Sitz still.",
+    "src": "tatoeba",
+    "tid": "4941776",
+    "zh": "別動。"
+   },
+   {
+    "text": "Mein Vater sitzt.",
+    "src": "tatoeba",
+    "tid": "12978000",
+    "zh": "我老爸在蹲監獄。"
+   }
+  ],
+  "grammar": "verb · irregular: du sitzt, er sitzt; saß, hat gesessen",
+  "reading": "ˈzɪt͡sn̩",
+  "ipa": "/ˈzɪt͡sn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/sitzen"
+ },
+ {
+  "id": "de-675",
+  "lang": "de",
+  "word": "der Kalender",
+  "en": "calendar",
+  "zh": "日曆；行事曆",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Ich notiere im Kalender.",
+    "src": "tatoeba",
+    "tid": "3875130",
+    "zh": "我在日曆上作記號。"
+   },
+   {
+    "text": "Der Kalender hängt an der Wand.",
+    "src": "tatoeba",
+    "tid": "2810135",
+    "zh": "日曆掛在牆上。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Kalender",
+  "reading": "kaˈlɛndɐ",
+  "ipa": "/kaˈlɛndɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kalender"
+ },
+ {
+  "id": "de-676",
+  "lang": "de",
+  "word": "die Besprechung",
+  "en": "meeting",
+  "zh": "會議",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Die Besprechung dauerte zwei Stunden.",
+    "src": "tatoeba",
+    "tid": "767031",
+    "zh": "這個會議持續了兩個小時。"
+   },
+   {
+    "text": "Die Besprechung findet morgen statt.",
+    "src": "tatoeba",
+    "tid": "656973",
+    "zh": "會議將於明天舉行。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Besprechungen",
+  "reading": "bəˈʃpʁɛçʊŋ",
+  "ipa": "/bəˈʃpʁɛçʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Besprechung"
+ },
+ {
+  "id": "de-677",
+  "lang": "de",
+  "word": "Was kann ich für Sie tun?",
+  "en": "What can I do for you?",
+  "zh": "我能為您做什麼？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine und Verabredungen",
+  "examples": [
+   {
+    "text": "Was kann ich heute Abend für dich tun?",
+    "src": "tatoeba",
+    "tid": "7353005",
+    "zh": "今晚我能爲您做什麼？"
+   },
+   {
+    "text": "Sie hat alles für ihn getan, was sie konnte.",
+    "src": "tatoeba",
+    "tid": "8688396",
+    "zh": "她爲了他竭盡所能。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "vas kan ɪç fyːɐ̯ ziː tuːn",
+  "ipa": "/vas kan ɪç fyːɐ̯ ziː tuːn/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Was",
+  "parts": [
+   {
+    "w": "Was",
+    "m": "what"
+   },
+   {
+    "w": "kann ich",
+    "m": "can I"
+   },
+   {
+    "w": "für Sie",
+    "m": "for you"
+   },
+   {
+    "w": "tun",
+    "m": "do"
+   }
+  ]
+ },
+ {
+  "id": "de-678",
+  "lang": "de",
+  "word": "Ich hätte gern einen Termin.",
+  "en": "I would like an appointment.",
+  "zh": "我想預約。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine (Redemittel)",
+  "examples": [
+   {
+    "text": "Ich hätte gern einen Termin.",
+    "src": "tatoeba",
+    "tid": "3853938",
+    "en": "I'd like to schedule an appointment.",
+    "zhPending": true
+   },
+   {
+    "text": "Ich hätte gern für morgen einen Termin.",
+    "src": "tatoeba",
+    "tid": "3853940",
+    "en": "I'd like to schedule an appointment for tomorrow.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɪç ˈhɛtə ɡɛʁn ˈaɪ̯nən tɛʁˈmiːn",
+  "ipa": "/ɪç ˈhɛtə ɡɛʁn ˈaɪ̯nən tɛʁˈmiːn/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ich",
+  "parts": [
+   {
+    "w": "Ich hätte gern",
+    "m": "I would like"
+   },
+   {
+    "w": "einen Termin",
+    "m": "an appointment"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-679",
+  "lang": "de",
+  "word": "Haben Sie am … einen Termin frei?",
+  "en": "Do you have an appointment slot free on ...?",
+  "zh": "您…有空檔可以預約嗎？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine (Redemittel)",
+  "examples": [
+   {
+    "text": "Hab Vertrauen.",
+    "src": "tatoeba",
+    "tid": "6644875",
+    "zh": "有信念。"
+   },
+   {
+    "text": "Hab dich.",
+    "src": "tatoeba",
+    "tid": "4560056",
+    "zh": "明白。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈhaːbn̩ ziː am ˈaɪ̯nən tɛʁˈmiːn fʁaɪ̯",
+  "ipa": "/ˈhaːbn̩ ziː am ˈaɪ̯nən tɛʁˈmiːn fʁaɪ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Haben",
+  "note": "省略號代入日期或時間。",
+  "parts": [
+   {
+    "w": "Haben Sie",
+    "m": "do you have"
+   },
+   {
+    "w": "am …",
+    "m": "on ..."
+   },
+   {
+    "w": "einen Termin frei",
+    "m": "an appointment free"
+   }
+  ]
+ },
+ {
+  "id": "de-680",
+  "lang": "de",
+  "word": "Geht es am … um …?",
+  "en": "Does ... at ... work for you?",
+  "zh": "…的…可以嗎？",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "Termine (Redemittel)",
+  "examples": [
+   {
+    "text": "Wie gehen Sie mit Kollegen um, die das Klima am Arbeitsplatz vergiften?",
+    "src": "tatoeba",
+    "tid": "12448316",
+    "en": "How do you deal with toxic co-workers in the workplace?",
+    "zhPending": true
+   },
+   {
+    "text": "Ich gehe nur, um am Morgen einer neuen Liebe einen Stern erscheinen zu sehen.",
+    "src": "tatoeba",
+    "tid": "13522798",
+    "en": "I'll only go if it's to see a star appear on the morning of a new love.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ɡeːt ɛs am ʊm",
+  "ipa": "/ɡeːt ɛs am ʊm/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geht",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）",
+  "parts": [
+   {
+    "w": "Geht es",
+    "m": "does it work"
+   },
+   {
+    "w": "am … um …",
+    "m": "on ... at ..."
+   }
+  ]
+ },
+ {
+  "id": "de-681",
+  "lang": "de",
+  "word": "krank",
+  "en": "ill; sick",
+  "zh": "生病的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Sie wurde krank.",
+    "src": "tatoeba",
+    "tid": "10055761",
+    "zh": "她生病了。"
+   },
+   {
+    "text": "Ist Tom krank?",
+    "src": "tatoeba",
+    "tid": "4932090",
+    "zh": "湯姆是不是身體不太好？"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "kʁaŋk",
+  "ipa": "/kʁaŋk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/krank"
+ },
+ {
+  "id": "de-682",
+  "lang": "de",
+  "word": "der Sport (Sg.)",
+  "en": "sport; sports",
+  "zh": "運動",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wir haben Sport.",
+    "src": "tatoeba",
+    "tid": "13399246",
+    "zh": "我們有上體育課。"
+   },
+   {
+    "text": "Tom hasst Sport.",
+    "src": "tatoeba",
+    "tid": "6619424",
+    "zh": "湯姆恨運動。"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ʃpɔʁt",
+  "ipa": "/ʃpɔʁt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sport"
+ },
+ {
+  "id": "de-683",
+  "lang": "de",
+  "word": "der Ball",
+  "en": "ball",
+  "zh": "球",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Bälle sind rund.",
+    "src": "tatoeba",
+    "tid": "400967",
+    "zh": "球是圓的。"
+   },
+   {
+    "text": "Du hast zwei Bälle.",
+    "src": "tatoeba",
+    "tid": "1652228",
+    "zh": "你有兩顆球。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Bälle",
+  "reading": "bal",
+  "ipa": "/bal/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ball"
+ },
+ {
+  "id": "de-684",
+  "lang": "de",
+  "word": "das Motorrad",
+  "en": "motorcycle",
+  "zh": "摩托車",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Mein Motorrad ist neu.",
+    "src": "tatoeba",
+    "tid": "7500241",
+    "zh": "我的摩托車是新的。"
+   },
+   {
+    "text": "Sie fährt gut Motorrad.",
+    "src": "tatoeba",
+    "tid": "675458",
+    "zh": "她騎摩托車的技術不錯！"
+   }
+  ],
+  "grammar": "noun · neuter; plural Motorräder",
+  "reading": "ˈmoːtoːɐ̯ˌʁaːt",
+  "ipa": "/ˈmoːtoːɐ̯ˌʁaːt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Motorrad"
+ },
+ {
+  "id": "de-685",
+  "lang": "de",
+  "word": "die Geige",
+  "en": "violin",
+  "zh": "小提琴",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich spiele Geige.",
+    "src": "tatoeba",
+    "tid": "362743",
+    "zh": "我拉小提琴。"
+   },
+   {
+    "text": "Sie spielt gut Geige.",
+    "src": "tatoeba",
+    "tid": "8860625",
+    "zh": "她的小提琴拉得很好。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Geigen",
+  "reading": "ˈɡaɪ̯ɡə",
+  "ipa": "/ˈɡaɪ̯ɡə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geige"
+ },
+ {
+  "id": "de-686",
+  "lang": "de",
+  "word": "Geige spielen",
+  "en": "to play the violin",
+  "zh": "拉小提琴",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich spiele Geige.",
+    "src": "tatoeba",
+    "tid": "362743",
+    "zh": "我拉小提琴。"
+   },
+   {
+    "text": "Können Sie Geige spielen?",
+    "src": "tatoeba",
+    "tid": "2928351",
+    "zh": "你會拉小提琴嗎？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈɡaɪ̯ɡə ˈʃpiːlən",
+  "ipa": "/ˈɡaɪ̯ɡə ˈʃpiːlən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geige",
+  "parts": [
+   {
+    "w": "Geige",
+    "m": "violin"
+   },
+   {
+    "w": "spielen",
+    "m": "to play"
+   }
+  ]
+ },
+ {
+  "id": "de-687",
+  "lang": "de",
+  "word": "das Saxofon",
+  "en": "saxophone",
+  "zh": "薩克斯風",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich spiele Saxofon.",
+    "src": "tatoeba",
+    "tid": "13425695",
+    "en": "I play the saxophone.",
+    "zhPending": true
+   },
+   {
+    "text": "Trompete und Posaune sind Blechblasinstrumente, Saxofon ein Holzblasinstrument.",
+    "src": "tatoeba",
+    "tid": "594948",
+    "en": "Trumpets and trombones are brass instruments, while saxophones are woodwind instruments.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Saxofone",
+  "reading": "ˌzaksoˈfoːn",
+  "ipa": "/ˌzaksoˈfoːn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Saxofon",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-688",
+  "lang": "de",
+  "word": "die Trompete",
+  "en": "trumpet",
+  "zh": "小號（樂器）",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ted spielt gerne Trompete.",
+    "src": "tatoeba",
+    "tid": "441608",
+    "zh": "泰德喜歡吹小號。"
+   },
+   {
+    "text": "Tom spielt Trompete.",
+    "src": "tatoeba",
+    "tid": "7952371",
+    "en": "Tom plays the trumpet.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Trompeten",
+  "reading": "tʁɔmˈpeːtə",
+  "ipa": "/tʁɔmˈpeːtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Trompete",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-689",
+  "lang": "de",
+  "word": "der Hund",
+  "en": "dog",
+  "zh": "狗",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Träumen Hunde?",
+    "src": "tatoeba",
+    "tid": "10052930",
+    "zh": "狗會做夢嗎？"
+   },
+   {
+    "text": "Hunde bellen.",
+    "src": "tatoeba",
+    "tid": "934436",
+    "zh": "狗會叫。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Hunde",
+  "reading": "hʊnt",
+  "ipa": "/hʊnt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hund"
+ },
+ {
+  "id": "de-690",
+  "lang": "de",
+  "word": "die Idee",
+  "en": "idea",
+  "zh": "主意；想法",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ideen sind wichtig.",
+    "src": "tatoeba",
+    "tid": "8598882",
+    "zh": "想法很重要。"
+   },
+   {
+    "text": "Die Idee wurde konkretisiert.",
+    "src": "tatoeba",
+    "tid": "10799768",
+    "zh": "想法被具體化了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Ideen",
+  "reading": "iˈdeː",
+  "ipa": "/iˈdeː/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Idee"
+ },
+ {
+  "id": "de-691",
+  "lang": "de",
+  "word": "Gute Idee!",
+  "en": "Good idea!",
+  "zh": "好主意！",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Das ist keine gute Idee.",
+    "src": "tatoeba",
+    "tid": "1497520",
+    "zh": "這不是好主意。"
+   },
+   {
+    "text": "Hast du eine bessere Idee?",
+    "src": "tatoeba",
+    "tid": "1322215",
+    "zh": "有什麼更好的建議嗎？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈɡuːtə iˈdeː",
+  "ipa": "/ˈɡuːtə iˈdeː/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gute",
+  "note": "固定短語（成語，不逐字拆解）。"
+ },
+ {
+  "id": "de-692",
+  "lang": "de",
+  "word": "liebe Grüße",
+  "en": "kind regards; love",
+  "zh": "誠摯的問候（書信結尾）",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Liebe Grüße.",
+    "src": "tatoeba",
+    "tid": "8459562",
+    "en": "Warm regards.",
+    "zhPending": true
+   },
+   {
+    "text": "Liebe Grüße!",
+    "src": "tatoeba",
+    "tid": "7748583",
+    "en": "Greetings!",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈliːbə ˈɡʁyːsə",
+  "ipa": "/ˈliːbə ˈɡʁyːsə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Grüße",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-693",
+  "lang": "de",
+  "word": "willkommen",
+  "en": "welcome",
+  "zh": "歡迎的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Willkommen!",
+    "src": "tatoeba",
+    "tid": "362772",
+    "zh": "歡迎。"
+   },
+   {
+    "text": "Willkommen zurück!",
+    "src": "tatoeba",
+    "tid": "4659708",
+    "zh": "歡迎回來。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "vɪlˈkɔmən",
+  "ipa": "/vɪlˈkɔmən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/willkommen"
+ },
+ {
+  "id": "de-694",
+  "lang": "de",
+  "word": "cool",
+  "en": "cool",
+  "zh": "酷；不錯",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich bin cool.",
+    "src": "tatoeba",
+    "tid": "8933742",
+    "zh": "我很酷。"
+   },
+   {
+    "text": "Diese Brille ist cool.",
+    "src": "tatoeba",
+    "tid": "8305471",
+    "zh": "這眼鏡真酷。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "kuːl",
+  "ipa": "/kuːl/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/cool"
+ },
+ {
+  "id": "de-695",
+  "lang": "de",
+  "word": "falsch",
+  "en": "wrong; false",
+  "zh": "錯誤的",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Falsch!",
+    "src": "tatoeba",
+    "tid": "5387338",
+    "zh": "錯！"
+   },
+   {
+    "text": "Falsch.",
+    "src": "tatoeba",
+    "tid": "364118",
+    "zh": "謬也。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "falʃ",
+  "ipa": "/falʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/falsch"
+ },
+ {
+  "id": "de-696",
+  "lang": "de",
+  "word": "das Problem",
+  "en": "problem",
+  "zh": "問題",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ohne Probleme.",
+    "src": "tatoeba",
+    "tid": "4750038",
+    "zh": "沒事。"
+   },
+   {
+    "text": "Kein Problem.",
+    "src": "tatoeba",
+    "tid": "728746",
+    "zh": "什麼問題都沒有！"
+   }
+  ],
+  "grammar": "noun · neuter; plural Probleme",
+  "reading": "pʁoˈbleːm",
+  "ipa": "/pʁoˈbleːm/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Problem"
+ },
+ {
+  "id": "de-697",
+  "lang": "de",
+  "word": "die Praxis",
+  "en": "practice (doctor's office)",
+  "zh": "診所",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Es Ist schwierig, Ideen in die Praxis umzusetzen.",
+    "src": "tatoeba",
+    "tid": "2124640",
+    "zh": "把想法付諸實踐是困難的。"
+   },
+   {
+    "text": "Wie können wir das in die Praxis umsetzen?",
+    "src": "tatoeba",
+    "tid": "1400263",
+    "zh": "我們怎樣才能將其付出實踐？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Praxen",
+  "reading": "ˈpʁaksɪs",
+  "ipa": "/ˈpʁaksɪs/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Praxis"
+ },
+ {
+  "id": "de-698",
+  "lang": "de",
+  "word": "schade",
+  "en": "a pity; too bad",
+  "zh": "可惜；遺憾",
+  "contentType": "word",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Schade.",
+    "src": "tatoeba",
+    "tid": "402766",
+    "zh": "好可惜。"
+   },
+   {
+    "text": "Wie schade!",
+    "src": "tatoeba",
+    "tid": "542291",
+    "zh": "可惜！"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈʃaːdə",
+  "ipa": "/ˈʃaːdə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schade",
+  "note": "常單獨感嘆：Schade!（真可惜！）"
+ },
+ {
+  "id": "de-699",
+  "lang": "de",
+  "word": "Tut mir leid.",
+  "en": "(I am) sorry.",
+  "zh": "抱歉；對不起。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Tut mir leid!",
+    "src": "tatoeba",
+    "tid": "1129998",
+    "zh": "對不起！"
+   },
+   {
+    "text": "Es tat mir leid.",
+    "src": "tatoeba",
+    "tid": "763320",
+    "zh": "我覺得不好了。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "tuːt miːɐ̯ laɪ̯t",
+  "ipa": "/tuːt miːɐ̯ laɪ̯t/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tut",
+  "parts": [
+   {
+    "w": "Tut",
+    "m": "does"
+   },
+   {
+    "w": "mir leid",
+    "m": "sorry to me (idiom)"
+   }
+  ]
+ },
+ {
+  "id": "de-700",
+  "lang": "de",
+  "word": "Bitte entschuldigen Sie.",
+  "en": "Please excuse me. (formal)",
+  "zh": "請見諒。（正式）",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Bitte entschuldigen Sie mein Zuspätkommen.",
+    "src": "tatoeba",
+    "tid": "361464",
+    "zh": "對不起，我來晚了。"
+   },
+   {
+    "text": "Entschuldigen Sie bitte meine Verspätung.",
+    "src": "tatoeba",
+    "tid": "2323863",
+    "zh": "對不起，我來晚了。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈbɪtə ɛntˈʃʊldɪɡn̩ ziː",
+  "ipa": "/ˈbɪtə ɛntˈʃʊldɪɡn̩ ziː/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bitte",
+  "parts": [
+   {
+    "w": "Bitte",
+    "m": "please"
+   },
+   {
+    "w": "entschuldigen Sie",
+    "m": "excuse (formal)"
+   }
+  ]
+ },
+ {
+  "id": "de-701",
+  "lang": "de",
+  "word": "Macht nichts.",
+  "en": "It doesn't matter.; Never mind.",
+  "zh": "沒關係。",
+  "contentType": "phrase",
+  "themeId": "debook-L5",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Es macht nichts.",
+    "src": "tatoeba",
+    "tid": "4320349",
+    "zh": "沒關係！"
+   },
+   {
+    "text": "Das macht nichts!",
+    "src": "tatoeba",
+    "tid": "676200",
+    "zh": "沒關係！"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "maxt nɪçt͡s",
+  "ipa": "/maxt nɪçt͡s/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Macht",
+  "note": "固定安慰用語（字面「不算什麼」，不逐字拆解）。"
+ },
+ {
+  "id": "de-702",
+  "lang": "de",
+  "word": "das Programm",
+  "en": "program; schedule",
+  "zh": "節目；程序；活動安排",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Alle meine Programme sind quelloffen.",
+    "src": "tatoeba",
+    "tid": "8688304",
+    "zh": "我的軟件全都是開源的。"
+   },
+   {
+    "text": "Du verstehst das Programm nicht.",
+    "src": "tatoeba",
+    "tid": "8602969",
+    "zh": "你不明白流程。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Programme",
+  "reading": "pʁoˈɡʁam",
+  "ipa": "/pʁoˈɡʁam/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Programm"
+ },
+ {
+  "id": "de-703",
+  "lang": "de",
+  "word": "los sein",
+  "en": "to be going on; to be up",
+  "zh": "發生；進行中",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Was ist los?",
+    "src": "tatoeba",
+    "tid": "360789",
+    "zh": "你好嗎？"
+   },
+   {
+    "text": "Was ist los ?",
+    "src": "tatoeba",
+    "tid": "12601009",
+    "zh": "怎麼了？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "loːs zaɪ̯n",
+  "ipa": "/loːs zaɪ̯n/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/los",
+  "note": "課本例：Was ist los?（發生什麼事？）",
+  "parts": [
+   {
+    "w": "los",
+    "m": "going on"
+   },
+   {
+    "w": "sein",
+    "m": "to be"
+   }
+  ]
+ },
+ {
+  "id": "de-704",
+  "lang": "de",
+  "word": "(keine) Lust haben",
+  "en": "to feel like (doing); (not) to want to",
+  "zh": "（不）想做；有（沒有）興致",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Ich hatte keine Lust auszugehen.",
+    "src": "tatoeba",
+    "tid": "5243210",
+    "zh": "我沒心情出門。"
+   },
+   {
+    "text": "Ich habe keine Lust fernzusehen.",
+    "src": "tatoeba",
+    "tid": "1771200",
+    "zh": "我不高興看電視。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈkaɪ̯nə lʊst ˈhaːbn̩",
+  "ipa": "/ˈkaɪ̯nə lʊst ˈhaːbn̩/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Lust",
+  "parts": [
+   {
+    "w": "(keine) Lust",
+    "m": "(no) desire"
+   },
+   {
+    "w": "haben",
+    "m": "to have"
+   }
+  ]
+ },
+ {
+  "id": "de-705",
+  "lang": "de",
+  "word": "mit|kommen",
+  "en": "to come along",
+  "zh": "一起來；跟著去",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Du kannst mitkommen.",
+    "src": "tatoeba",
+    "tid": "1084057",
+    "zh": "你可以跟我來。"
+   },
+   {
+    "text": "Willst du mitkommen?",
+    "src": "tatoeba",
+    "tid": "365931",
+    "zh": "你想不想一起去？"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du kommst mit, er kommt mit; kam mit, ist mitgekommen",
+  "reading": "ˈmɪtˌkɔmən",
+  "ipa": "/ˈmɪtˌkɔmən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/mitkommen"
+ },
+ {
+  "id": "de-706",
+  "lang": "de",
+  "word": "der Treffpunkt",
+  "en": "meeting point",
+  "zh": "碰面地點",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Wo ist der Treffpunkt?",
+    "src": "tatoeba",
+    "tid": "11034009",
+    "zh": "我們在哪裏集合？"
+   },
+   {
+    "text": "Wir nähern uns dem Treffpunkt.",
+    "src": "tatoeba",
+    "tid": "12592226",
+    "en": "We're approaching the rendezvous point.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Treffpunkte",
+  "reading": "ˈtʁɛfˌpʊŋkt",
+  "ipa": "/ˈtʁɛfˌpʊŋkt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Treffpunkt",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-707",
+  "lang": "de",
+  "word": "der Eintritt",
+  "en": "admission; entrance fee",
+  "zh": "入場；入場費",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Eintritt verboten!",
+    "src": "tatoeba",
+    "tid": "842034",
+    "zh": "禁止入內。"
+   },
+   {
+    "text": "Eintritt frei.",
+    "src": "tatoeba",
+    "tid": "602958",
+    "zh": "免費入場。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Eintritte",
+  "reading": "ˈaɪ̯nˌtʁɪt",
+  "ipa": "/ˈaɪ̯nˌtʁɪt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Eintritt"
+ },
+ {
+  "id": "de-708",
+  "lang": "de",
+  "word": "die Anmeldung",
+  "en": "registration; sign-up",
+  "zh": "報名；註冊",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Funktioniert das auch ohne Anmeldung?",
+    "src": "tatoeba",
+    "tid": "5974",
+    "zh": "不註冊也行嗎？"
+   },
+   {
+    "text": "Ich bin zuerst zur Anmeldung gegangen.",
+    "src": "tatoeba",
+    "tid": "5965521",
+    "en": "I went to reception first.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Anmeldungen",
+  "reading": "ˈanˌmɛldʊŋ",
+  "ipa": "/ˈanˌmɛldʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Anmeldung",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-709",
+  "lang": "de",
+  "word": "beginnen",
+  "en": "to begin",
+  "zh": "開始",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Beginne hier.",
+    "src": "tatoeba",
+    "tid": "3236124",
+    "zh": "從這裡開始。"
+   },
+   {
+    "text": "Beginnt am Anfang.",
+    "src": "tatoeba",
+    "tid": "7485753",
+    "zh": "從頭開始。"
+   }
+  ],
+  "grammar": "verb · irregular: du beginnst, er beginnt; begann, hat begonnen",
+  "reading": "bəˈɡɪnən",
+  "ipa": "/bəˈɡɪnən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/beginnen"
+ },
+ {
+  "id": "de-710",
+  "lang": "de",
+  "word": "enden",
+  "en": "to end",
+  "zh": "結束",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Wann endet es?",
+    "src": "tatoeba",
+    "tid": "7324273",
+    "zh": "什麼時候結束？"
+   },
+   {
+    "text": "Das Meeting endete.",
+    "src": "tatoeba",
+    "tid": "1552575",
+    "zh": "會議結束了。"
+   }
+  ],
+  "grammar": "verb · irregular: du endest, er endet; endete, hat geendet",
+  "reading": "ˈɛndn̩",
+  "ipa": "/ˈɛndn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/enden"
+ },
+ {
+  "id": "de-711",
+  "lang": "de",
+  "word": "die Karte",
+  "en": "ticket; card; map",
+  "zh": "票；卡片；地圖",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Veranstaltungen",
+  "examples": [
+   {
+    "text": "Hast du Karten gekauft?",
+    "src": "tatoeba",
+    "tid": "12278847",
+    "zh": "買了票嗎？"
+   },
+   {
+    "text": "Wirf eine Karte ab!",
+    "src": "tatoeba",
+    "tid": "10565059",
+    "zh": "丟棄一張手牌。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Karten",
+  "reading": "ˈkaʁtə",
+  "ipa": "/ˈkaʁtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Karte"
+ },
+ {
+  "id": "de-712",
+  "lang": "de",
+  "word": "ab|holen",
+  "en": "to pick up (someone/something)",
+  "zh": "接；領取",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich werde ihn abholen gehen.",
+    "src": "tatoeba",
+    "tid": "7763772",
+    "zh": "我會去接他的。"
+   },
+   {
+    "text": "Wann soll ich dich abholen?",
+    "src": "tatoeba",
+    "tid": "2601707",
+    "zh": "我該幾點去接你？"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du holst ab, er holt ab; holte ab, hat abgeholt",
+  "reading": "ˈapˌhoːlən",
+  "ipa": "/ˈapˌhoːlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/abholen"
+ },
+ {
+  "id": "de-713",
+  "lang": "de",
+  "word": "an|fangen",
+  "en": "to start; to begin",
+  "zh": "開始",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Kann ich anfangen?",
+    "src": "tatoeba",
+    "tid": "8336141",
+    "zh": "我可以開始了嗎？"
+   },
+   {
+    "text": "Wir können anfangen.",
+    "src": "tatoeba",
+    "tid": "4834400",
+    "zh": "我們能開始。"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du fängst an, er fängt an; fing an, hat angefangen",
+  "reading": "ˈanˌfaŋən",
+  "ipa": "/ˈanˌfaŋən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/anfangen"
+ },
+ {
+  "id": "de-714",
+  "lang": "de",
+  "word": "an|rufen",
+  "en": "to call (on the phone)",
+  "zh": "打電話給（某人）",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich will Mama anrufen.",
+    "src": "tatoeba",
+    "tid": "11838475",
+    "zh": "我要給媽媽打電話。"
+   },
+   {
+    "text": "Darf ich nachher anrufen?",
+    "src": "tatoeba",
+    "tid": "4343383",
+    "zh": "晚一點給我打電話，好嗎？"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du rufst an, er ruft an; rief an, hat angerufen",
+  "reading": "ˈanˌʁuːfn̩",
+  "ipa": "/ˈanˌʁuːfn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/anrufen"
+ },
+ {
+  "id": "de-715",
+  "lang": "de",
+  "word": "auf|hören",
+  "en": "to stop; to quit",
+  "zh": "停止",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Soll ich aufhören?",
+    "src": "tatoeba",
+    "tid": "9477466",
+    "zh": "你要我停止嗎？"
+   },
+   {
+    "text": "Wir sollten aufhören.",
+    "src": "tatoeba",
+    "tid": "9182459",
+    "zh": "我們應該停止。"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du hörst auf, er hört auf; hörte auf, hat aufgehört",
+  "reading": "ˈaʊ̯fˌhøːʁən",
+  "ipa": "/ˈaʊ̯fˌhøːʁən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/aufhören"
+ },
+ {
+  "id": "de-716",
+  "lang": "de",
+  "word": "mit|machen",
+  "en": "to join in; to take part",
+  "zh": "參加；一起做",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Ich möchte mitmachen.",
+    "src": "tatoeba",
+    "tid": "5298660",
+    "zh": "我想參加。"
+   },
+   {
+    "text": "Darf ich mitmachen?",
+    "src": "tatoeba",
+    "tid": "4506369",
+    "zh": "我可以參加嗎？"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du machst mit, er macht mit; machte mit, hat mitgemacht",
+  "reading": "ˈmɪtˌmaxn̩",
+  "ipa": "/ˈmɪtˌmaxn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/mitmachen"
+ },
+ {
+  "id": "de-717",
+  "lang": "de",
+  "word": "glauben",
+  "en": "to believe; to think",
+  "zh": "相信；認為",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Glauben Sie ihm?",
+    "src": "tatoeba",
+    "tid": "13616621",
+    "zh": "你相信他嗎？"
+   },
+   {
+    "text": "Bitte glaubt mir!",
+    "src": "tatoeba",
+    "tid": "12556574",
+    "zh": "請相信我。"
+   }
+  ],
+  "grammar": "verb · regular: glaubte, hat geglaubt",
+  "reading": "ˈɡlaʊ̯bn̩",
+  "ipa": "/ˈɡlaʊ̯bn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/glauben"
+ },
+ {
+  "id": "de-718",
+  "lang": "de",
+  "word": "laufen",
+  "en": "to run; to walk",
+  "zh": "跑；步行",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Er läuft.",
+    "src": "tatoeba",
+    "tid": "5687977",
+    "zh": "他跑了。"
+   },
+   {
+    "text": "Sie laufen.",
+    "src": "tatoeba",
+    "tid": "4732108",
+    "zh": "你跑。"
+   }
+  ],
+  "grammar": "verb · irregular: du läufst, er läuft; lief, ist gelaufen",
+  "reading": "ˈlaʊ̯fn̩",
+  "ipa": "/ˈlaʊ̯fn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/laufen"
+ },
+ {
+  "id": "de-719",
+  "lang": "de",
+  "word": "genießen",
+  "en": "to enjoy",
+  "zh": "享受",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Eilt voran, Genossen!",
+    "src": "tatoeba",
+    "tid": "12275436",
+    "zh": "快步前進，同志們！"
+   },
+   {
+    "text": "Genieße den Tag.",
+    "src": "tatoeba",
+    "tid": "3885876",
+    "zh": "抓住每一天。"
+   }
+  ],
+  "grammar": "verb · irregular: du genießt, er genießt; genoss, hat genossen",
+  "reading": "ɡəˈniːsn̩",
+  "ipa": "/ɡəˈniːsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/genießen"
+ },
+ {
+  "id": "de-720",
+  "lang": "de",
+  "word": "passieren",
+  "en": "to happen",
+  "zh": "發生",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Unfälle passieren.",
+    "src": "tatoeba",
+    "tid": "9833501",
+    "zh": "事故發生。"
+   },
+   {
+    "text": "Nix passiert.",
+    "src": "tatoeba",
+    "tid": "525058",
+    "zh": "什麼事都沒有發生。"
+   }
+  ],
+  "grammar": "verb · regular: passierte, hat passiert",
+  "reading": "paˈsiːʁən",
+  "ipa": "/paˈsiːʁən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/passieren"
+ },
+ {
+  "id": "de-721",
+  "lang": "de",
+  "word": "zu Hause",
+  "en": "at home",
+  "zh": "在家",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Bleibt zu Hause.",
+    "src": "tatoeba",
+    "tid": "8621182",
+    "zh": "待在家裡。"
+   },
+   {
+    "text": "Bleib zu Hause.",
+    "src": "tatoeba",
+    "tid": "1812451",
+    "zh": "待在家裡。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "t͡suː ˈhaʊ̯zə",
+  "ipa": "/t͡suː ˈhaʊ̯zə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hause",
+  "note": "固定副詞短語（也寫作 zuhause）。"
+ },
+ {
+  "id": "de-722",
+  "lang": "de",
+  "word": "kalt",
+  "en": "cold",
+  "zh": "冷的",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Das ist kalt.",
+    "src": "tatoeba",
+    "tid": "9968581",
+    "zh": "這是冷的。"
+   },
+   {
+    "text": "Mir wurde kalt.",
+    "src": "tatoeba",
+    "tid": "7774040",
+    "zh": "我開始冷了。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "kalt",
+  "ipa": "/kalt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/kalt"
+ },
+ {
+  "id": "de-723",
+  "lang": "de",
+  "word": "warm",
+  "en": "warm",
+  "zh": "溫暖的",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Uns ist warm.",
+    "src": "tatoeba",
+    "tid": "11092122",
+    "zh": "我們熱了。"
+   },
+   {
+    "text": "Mir ist warm.",
+    "src": "tatoeba",
+    "tid": "2508819",
+    "zh": "我覺得很熱。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "vaʁm",
+  "ipa": "/vaʁm/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/warm"
+ },
+ {
+  "id": "de-724",
+  "lang": "de",
+  "word": "wieder",
+  "en": "again",
+  "zh": "再次",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Komm wieder!",
+    "src": "tatoeba",
+    "tid": "3040044",
+    "zh": "回來。"
+   },
+   {
+    "text": "Komm morgen wieder.",
+    "src": "tatoeba",
+    "tid": "7770696",
+    "zh": "明天回來。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈviːdɐ",
+  "ipa": "/ˈviːdɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wieder"
+ },
+ {
+  "id": "de-725",
+  "lang": "de",
+  "word": "typisch",
+  "en": "typical",
+  "zh": "典型的",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Das sind typische Jungspunde.",
+    "src": "tatoeba",
+    "tid": "10208862",
+    "zh": "他們是典型的年輕人。"
+   },
+   {
+    "text": "Er ist ein typischer Japaner.",
+    "src": "tatoeba",
+    "tid": "759782",
+    "zh": "他是典型的日本人。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ˈtyːpɪʃ",
+  "ipa": "/ˈtyːpɪʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/typisch"
+ },
+ {
+  "id": "de-726",
+  "lang": "de",
+  "word": "verboten",
+  "en": "forbidden; prohibited",
+  "zh": "禁止的",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Spoiler verboten!",
+    "src": "tatoeba",
+    "tid": "10366603",
+    "zh": "禁止劇透。"
+   },
+   {
+    "text": "Parken verboten.",
+    "src": "tatoeba",
+    "tid": "9927447",
+    "zh": "禁止停車。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "fɛɐ̯ˈboːtn̩",
+  "ipa": "/fɛɐ̯ˈboːtn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/verboten"
+ },
+ {
+  "id": "de-727",
+  "lang": "de",
+  "word": "überall",
+  "en": "everywhere",
+  "zh": "到處",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wir sind überall.",
+    "src": "tatoeba",
+    "tid": "10317275",
+    "zh": "我們無處不在。"
+   },
+   {
+    "text": "Gott ist überall.",
+    "src": "tatoeba",
+    "tid": "3254460",
+    "zh": "神無處不在。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "yːbɐˈʔal",
+  "ipa": "/yːbɐˈʔal/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/überall"
+ },
+ {
+  "id": "de-728",
+  "lang": "de",
+  "word": "besonders",
+  "en": "especially; particularly",
+  "zh": "特別；尤其",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Das ist besonders.",
+    "src": "tatoeba",
+    "tid": "10314364",
+    "zh": "這很特別。"
+   },
+   {
+    "text": "Wir sind besonders.",
+    "src": "tatoeba",
+    "tid": "7769436",
+    "zh": "我們很特別。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "bəˈzɔndɐs",
+  "ipa": "/bəˈzɔndɐs/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/besonders",
+  "note": "課本例：Was ist besonders?（什麼比較特別？）"
+ },
+ {
+  "id": "de-729",
+  "lang": "de",
+  "word": "der Spielplatz",
+  "en": "playground",
+  "zh": "遊樂場",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Die Spielplätze sind leer.",
+    "src": "tatoeba",
+    "tid": "8626256",
+    "en": "Playgrounds are empty.",
+    "zhPending": true
+   },
+   {
+    "text": "Die Kinder rannten zum Spielplatz.",
+    "src": "tatoeba",
+    "tid": "9962204",
+    "en": "The kids ran toward the playground.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Spielplätze",
+  "reading": "ˈʃpiːlˌplat͡s",
+  "ipa": "/ˈʃpiːlˌplat͡s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Spielplatz",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-730",
+  "lang": "de",
+  "word": "früh",
+  "en": "early",
+  "zh": "早",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Komm früh nachhause.",
+    "src": "tatoeba",
+    "tid": "578329",
+    "zh": "請早點回家。"
+   },
+   {
+    "text": "Steht morgens früh auf.",
+    "src": "tatoeba",
+    "tid": "12503936",
+    "zh": "早上要早起。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "fʁyː",
+  "ipa": "/fʁyː/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/früh"
+ },
+ {
+  "id": "de-731",
+  "lang": "de",
+  "word": "Warum nicht?",
+  "en": "Why not?",
+  "zh": "為什麼不呢？",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Warum nicht?",
+    "src": "tatoeba",
+    "tid": "489750",
+    "zh": "爲什麼不？"
+   },
+   {
+    "text": "Natürlich, warum nicht?",
+    "src": "tatoeba",
+    "tid": "1611203",
+    "zh": "當然，爲什麼不？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "vaˈʁʊm nɪçt",
+  "ipa": "/vaˈʁʊm nɪçt/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Warum",
+  "note": "固定反問（不逐字拆解）。"
+ },
+ {
+  "id": "de-732",
+  "lang": "de",
+  "word": "Alles klar?",
+  "en": "All clear? Everything okay?",
+  "zh": "都清楚了嗎？／還好嗎？",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Alles klar.",
+    "src": "tatoeba",
+    "tid": "1339033",
+    "zh": "原來如此。"
+   },
+   {
+    "text": "Jetzt wird mir alles klar.",
+    "src": "tatoeba",
+    "tid": "9550871",
+    "zh": "現在一切都明白了。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈaləs klaːɐ̯",
+  "ipa": "/ˈaləs klaːɐ̯/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Alles",
+  "note": "口語固定問句（不逐字拆解）。"
+ },
+ {
+  "id": "de-733",
+  "lang": "de",
+  "word": "Wann denn?",
+  "en": "When, then?",
+  "zh": "那什麼時候呢？",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Wann kommt Papa denn nach Peking?",
+    "src": "tatoeba",
+    "tid": "10966968",
+    "zh": "爸爸什麼時候來北京呢？"
+   },
+   {
+    "text": "Wann kommt euer Buch denn raus?",
+    "src": "tatoeba",
+    "tid": "10457093",
+    "zh": "你們的書什麼時候會出版呢？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "van dɛn",
+  "ipa": "/van dɛn/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Wann",
+  "note": "denn 為語氣小品詞，帶催促或好奇口吻。"
+ },
+ {
+  "id": "de-734",
+  "lang": "de",
+  "word": "Klingt gut.",
+  "en": "Sounds good.",
+  "zh": "聽起來不錯。",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "examples": [
+   {
+    "text": "Dieser Vorschlag klingt ganz gut.",
+    "src": "tatoeba",
+    "tid": "935488",
+    "zh": "這方案聽起來不錯。"
+   },
+   {
+    "text": "Das klang gut.",
+    "src": "tatoeba",
+    "tid": "12780091",
+    "en": "That sounded good.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "klɪŋt ɡuːt",
+  "ipa": "/klɪŋt ɡuːt/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Klingt",
+  "parts": [
+   {
+    "w": "Klingt",
+    "m": "sounds"
+   },
+   {
+    "w": "gut",
+    "m": "good"
+   }
+  ],
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-735",
+  "lang": "de",
+  "word": "ins Fitness-Studio gehen",
+  "en": "to go to the gym",
+  "zh": "去健身房",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [],
+  "grammar": "phrase",
+  "reading": "ɪns ˈfɪtnɛsˌʃtuːdi̯o ˈɡeːən",
+  "ipa": "/ɪns ˈfɪtnɛsˌʃtuːdi̯o ˈɡeːən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fitness-Studio",
+  "parts": [
+   {
+    "w": "ins Fitness-Studio",
+    "m": "to the gym"
+   },
+   {
+    "w": "gehen",
+    "m": "to go"
+   }
+  ],
+  "note": "雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-736",
+  "lang": "de",
+  "word": "klettern",
+  "en": "to climb",
+  "zh": "攀爬",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Tom kletterte vom Baum herab.",
+    "src": "tatoeba",
+    "tid": "6462388",
+    "zh": "湯姆從樹上爬了下來。"
+   },
+   {
+    "text": "Ich kletterte zum Fenster hinein.",
+    "src": "tatoeba",
+    "tid": "6033023",
+    "zh": "我從窗口爬進來的。"
+   }
+  ],
+  "grammar": "verb · regular: kletterte, ist geklettert",
+  "reading": "ˈklɛtɐn",
+  "ipa": "/ˈklɛtɐn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/klettern"
+ },
+ {
+  "id": "de-737",
+  "lang": "de",
+  "word": "Ski fahren",
+  "en": "to ski; to go skiing",
+  "zh": "滑雪",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Kannst du Ski fahren?",
+    "src": "tatoeba",
+    "tid": "10987682",
+    "zh": "你能滑雪嗎？"
+   },
+   {
+    "text": "Können Sie Ski fahren?",
+    "src": "tatoeba",
+    "tid": "7953564",
+    "zh": "你能滑雪嗎？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ʃiː ˈfaːʁən",
+  "ipa": "/ʃiː ˈfaːʁən/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ski",
+  "parts": [
+   {
+    "w": "Ski",
+    "m": "ski"
+   },
+   {
+    "w": "fahren",
+    "m": "to ride, to go"
+   }
+  ]
+ },
+ {
+  "id": "de-738",
+  "lang": "de",
+  "word": "wandern",
+  "en": "to hike; to wander",
+  "zh": "健行；徒步",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Wandern Sie?",
+    "src": "tatoeba",
+    "tid": "7409804",
+    "zh": "您遠足嗎？"
+   },
+   {
+    "text": "Wandert ihr?",
+    "src": "tatoeba",
+    "tid": "7409802",
+    "zh": "您遠足嗎？"
+   }
+  ],
+  "grammar": "verb · regular: wanderte, ist gewandert",
+  "reading": "ˈvandɐn",
+  "ipa": "/ˈvandɐn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wandern"
+ },
+ {
+  "id": "de-739",
+  "lang": "de",
+  "word": "der Ausflug",
+  "en": "excursion; trip",
+  "zh": "郊遊；短途旅行",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Er führte während des Ausflugs ein Tagebuch.",
+    "src": "tatoeba",
+    "tid": "2363578",
+    "zh": "他旅行期間，寫了旅遊日記。"
+   },
+   {
+    "text": "Ich habe Lust, einen Ausflug zu machen.",
+    "src": "tatoeba",
+    "tid": "1401468",
+    "zh": "我想去旅行。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Ausflüge",
+  "reading": "ˈaʊ̯sˌfluːk",
+  "ipa": "/ˈaʊ̯sˌfluːk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ausflug"
+ },
+ {
+  "id": "de-740",
+  "lang": "de",
+  "word": "einen Ausflug machen",
+  "en": "to go on an excursion",
+  "zh": "去郊遊",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Ich habe Lust, einen Ausflug zu machen.",
+    "src": "tatoeba",
+    "tid": "1401468",
+    "zh": "我想去旅行。"
+   },
+   {
+    "text": "Letztes Wochenende habe ich einen Ausflug in die Berge gemacht.",
+    "src": "tatoeba",
+    "tid": "918325",
+    "zh": "上週末我爬山去了。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈaɪ̯nən ˈaʊ̯sˌfluːk ˈmaxn̩",
+  "ipa": "/ˈaɪ̯nən ˈaʊ̯sˌfluːk ˈmaxn̩/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ausflug",
+  "parts": [
+   {
+    "w": "einen Ausflug",
+    "m": "an excursion"
+   },
+   {
+    "w": "machen",
+    "m": "to make, to have"
+   }
+  ]
+ },
+ {
+  "id": "de-741",
+  "lang": "de",
+  "word": "die Fahrradtour",
+  "en": "bike tour",
+  "zh": "自行車之旅",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Maria mag lange Fahrradtouren.",
+    "src": "tatoeba",
+    "tid": "13054896",
+    "zh": "瑪麗亞喜歡長途騎行。"
+   },
+   {
+    "text": "Maria unternimmt gerne lange Fahrradtouren.",
+    "src": "tatoeba",
+    "tid": "13054898",
+    "zh": "瑪麗亞喜歡長途騎行。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Fahrradtouren",
+  "reading": "ˈfaːɐ̯ʁaːtˌtuːɐ̯",
+  "ipa": "/ˈfaːɐ̯ʁaːtˌtuːɐ̯/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fahrradtour"
+ },
+ {
+  "id": "de-742",
+  "lang": "de",
+  "word": "das Picknick",
+  "en": "picnic",
+  "zh": "野餐",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Freizeitaktivitäten",
+  "examples": [
+   {
+    "text": "Morgen gehe ich picknicken.",
+    "src": "tatoeba",
+    "tid": "3208328",
+    "zh": "我明天去野餐。"
+   },
+   {
+    "text": "Lasst uns zum Picknick gehen.",
+    "src": "tatoeba",
+    "tid": "785308",
+    "zh": "讓我們去野餐。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Picknicke",
+  "reading": "ˈpɪkˌnɪk",
+  "ipa": "/ˈpɪkˌnɪk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Picknick"
+ },
+ {
+  "id": "de-743",
+  "lang": "de",
+  "word": "das Fest",
+  "en": "festival; celebration",
+  "zh": "節慶；慶典",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Tom schlief fest.",
+    "src": "tatoeba",
+    "tid": "6625295",
+    "zh": "湯姆睡的很沉。"
+   },
+   {
+    "text": "Wir sitzen hier fest.",
+    "src": "tatoeba",
+    "tid": "10301472",
+    "zh": "我們卡在這兒了。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Feste",
+  "reading": "fɛst",
+  "ipa": "/fɛst/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Fest"
+ },
+ {
+  "id": "de-744",
+  "lang": "de",
+  "word": "feiern",
+  "en": "to celebrate",
+  "zh": "慶祝",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Feier schön!",
+    "src": "tatoeba",
+    "tid": "1079989",
+    "zh": "玩得開心。"
+   },
+   {
+    "text": "Er feiert gerne.",
+    "src": "tatoeba",
+    "tid": "2195834",
+    "zh": "他愛去聚會。"
+   }
+  ],
+  "grammar": "verb · regular: feierte, hat gefeiert",
+  "reading": "ˈfaɪ̯ɐn",
+  "ipa": "/ˈfaɪ̯ɐn/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/feiern"
+ },
+ {
+  "id": "de-745",
+  "lang": "de",
+  "word": "der Geburtstag",
+  "en": "birthday",
+  "zh": "生日",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Wer hat Geburtstag?",
+    "src": "tatoeba",
+    "tid": "11831075",
+    "zh": "誰的生日？"
+   },
+   {
+    "text": "Geburtstage sind wichtig.",
+    "src": "tatoeba",
+    "tid": "1898613",
+    "zh": "週年紀念很重要。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Geburtstage",
+  "reading": "ɡəˈbuːɐ̯t͡sˌtaːk",
+  "ipa": "/ɡəˈbuːɐ̯t͡sˌtaːk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geburtstag"
+ },
+ {
+  "id": "de-746",
+  "lang": "de",
+  "word": "werden",
+  "en": "to become; will (future)",
+  "zh": "變成；將要",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Was wurde gefragt?",
+    "src": "tatoeba",
+    "tid": "12882860",
+    "zh": "他們問了什麼？"
+   },
+   {
+    "text": "Ihr werdet scheitern.",
+    "src": "tatoeba",
+    "tid": "12539141",
+    "zh": "你會失敗。"
+   }
+  ],
+  "grammar": "verb · irregular: du wirst, er wird; wurde, ist geworden",
+  "reading": "ˈveːɐ̯dn̩",
+  "ipa": "/ˈveːɐ̯dn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/werden",
+  "note": "課本例：Sie wird 30 Jahre alt.（她將滿 30 歲）"
+ },
+ {
+  "id": "de-747",
+  "lang": "de",
+  "word": "schenken",
+  "en": "to give (as a gift)",
+  "zh": "贈送",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Sie schenkte mir etwas.",
+    "src": "tatoeba",
+    "tid": "978375",
+    "zh": "她給了我一件禮物。"
+   },
+   {
+    "text": "Sie hat mir etwas geschenkt.",
+    "src": "tatoeba",
+    "tid": "12820929",
+    "zh": "她給了我一件禮物。"
+   }
+  ],
+  "grammar": "verb · regular: schenkte, hat geschenkt",
+  "reading": "ˈʃɛŋkn̩",
+  "ipa": "/ˈʃɛŋkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schenken"
+ },
+ {
+  "id": "de-748",
+  "lang": "de",
+  "word": "das Geschenk",
+  "en": "gift; present",
+  "zh": "禮物",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Danke für das Geschenk.",
+    "src": "tatoeba",
+    "tid": "830123",
+    "zh": "謝謝你的禮物！"
+   },
+   {
+    "text": "Danke für dein Geschenk.",
+    "src": "tatoeba",
+    "tid": "618612",
+    "zh": "謝謝你的禮物。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Geschenke",
+  "reading": "ɡəˈʃɛŋk",
+  "ipa": "/ɡəˈʃɛŋk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Geschenk"
+ },
+ {
+  "id": "de-749",
+  "lang": "de",
+  "word": "ein|laden",
+  "en": "to invite",
+  "zh": "邀請",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Ich werde dich einladen.",
+    "src": "tatoeba",
+    "tid": "563396",
+    "zh": "我請你。"
+   },
+   {
+    "text": "Ich möchte dich zur Party einladen.",
+    "src": "tatoeba",
+    "tid": "11917558",
+    "zh": "我想請你參加派對。"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du lädst ein, er lädt ein; lud ein, hat eingeladen",
+  "reading": "ˈaɪ̯nˌlaːdn̩",
+  "ipa": "/ˈaɪ̯nˌlaːdn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/einladen"
+ },
+ {
+  "id": "de-750",
+  "lang": "de",
+  "word": "das Datum (Sg.)",
+  "en": "date",
+  "zh": "日期",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Welches Datum ist heute?",
+    "src": "tatoeba",
+    "tid": "451354",
+    "zh": "今天幾號？"
+   },
+   {
+    "text": "Was ist das Datum heute?",
+    "src": "tatoeba",
+    "tid": "13911481",
+    "zh": "今天是幾號？"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "ˈdaːtʊm",
+  "ipa": "/ˈdaːtʊm/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Datum"
+ },
+ {
+  "id": "de-751",
+  "lang": "de",
+  "word": "die Überraschung",
+  "en": "surprise",
+  "zh": "驚喜",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Es ist eine Überraschung.",
+    "src": "tatoeba",
+    "tid": "1765971",
+    "zh": "這是一個驚喜。"
+   },
+   {
+    "text": "Japan ist voller Überraschungen!",
+    "src": "tatoeba",
+    "tid": "426347",
+    "zh": "日本充滿驚奇。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Überraschungen",
+  "reading": "yːbɐˈʁaʃʊŋ",
+  "ipa": "/yːbɐˈʁaʃʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Überraschung"
+ },
+ {
+  "id": "de-752",
+  "lang": "de",
+  "word": "Achtung!",
+  "en": "Watch out!; Attention!",
+  "zh": "注意！小心！",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Achtung!",
+    "src": "tatoeba",
+    "tid": "2679329",
+    "zh": "請注意！"
+   },
+   {
+    "text": "Alle Achtung!",
+    "src": "tatoeba",
+    "tid": "1993490",
+    "zh": "做得很好。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈaxtʊŋ",
+  "ipa": "/ˈaxtʊŋ/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Achtung",
+  "note": "固定警示語（不逐字拆解）。"
+ },
+ {
+  "id": "de-753",
+  "lang": "de",
+  "word": "wissen",
+  "en": "to know (a fact)",
+  "zh": "知道",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Weiß nicht.",
+    "src": "tatoeba",
+    "tid": "12824331",
+    "zh": "不知道。"
+   },
+   {
+    "text": "Ich weiß!",
+    "src": "tatoeba",
+    "tid": "3225831",
+    "zh": "我知道啦。"
+   }
+  ],
+  "grammar": "verb · irregular: du weißt, er weiß; wusste, hat gewusst",
+  "reading": "ˈvɪsn̩",
+  "ipa": "/ˈvɪsn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/wissen",
+  "note": "課本例：Achtung, sie weiß nichts.（注意，她什麼都不知道——指驚喜保密）"
+ },
+ {
+  "id": "de-754",
+  "lang": "de",
+  "word": "mit|bringen",
+  "en": "to bring along",
+  "zh": "帶來",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Essen bitte selber mitbringen!",
+    "src": "tatoeba",
+    "tid": "10271930",
+    "zh": "請自帶食物！"
+   },
+   {
+    "text": "Essen bitte selber mitbringen.",
+    "src": "tatoeba",
+    "tid": "10266533",
+    "zh": "請自帶食物。"
+   }
+  ],
+  "grammar": "verb · separable, irregular: du bringst mit, er bringt mit; brachte mit, hat mitgebracht",
+  "reading": "ˈmɪtˌbʁɪŋən",
+  "ipa": "/ˈmɪtˌbʁɪŋən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/mitbringen"
+ },
+ {
+  "id": "de-755",
+  "lang": "de",
+  "word": "Spaß haben",
+  "en": "to have fun",
+  "zh": "玩得開心",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Wir haben Spaß.",
+    "src": "tatoeba",
+    "tid": "7346984",
+    "zh": "我們在高興地玩。"
+   },
+   {
+    "text": "Lasst uns Spaß haben.",
+    "src": "tatoeba",
+    "tid": "353532",
+    "zh": "我們玩點什麼吧"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ʃpaːs ˈhaːbn̩",
+  "ipa": "/ʃpaːs ˈhaːbn̩/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Spaß",
+  "parts": [
+   {
+    "w": "Spaß",
+    "m": "fun"
+   },
+   {
+    "w": "haben",
+    "m": "to have"
+   }
+  ]
+ },
+ {
+  "id": "de-756",
+  "lang": "de",
+  "word": "hoffentlich",
+  "en": "hopefully",
+  "zh": "但願；希望",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Feste/Partys",
+  "examples": [
+   {
+    "text": "Hoffentlich ist es wahr.",
+    "src": "tatoeba",
+    "tid": "6141014",
+    "zh": "我希望這是對的。"
+   },
+   {
+    "text": "Hoffentlich ist bald Wochenende.",
+    "src": "tatoeba",
+    "tid": "3871476",
+    "zh": "週末怎麼還不快點來呀。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈhɔfn̩tlɪç",
+  "ipa": "/ˈhɔfn̩tlɪç/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/hoffentlich",
+  "note": "課本例：Hoffentlich kommt ihr.（希望你們會來）"
+ },
+ {
+  "id": "de-757",
+  "lang": "de",
+  "word": "die Mail",
+  "en": "(e)mail",
+  "zh": "電子郵件",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "eine Mail schreiben",
+  "examples": [
+   {
+    "text": "Was ist deine E-Mail-Adresse?",
+    "src": "tatoeba",
+    "tid": "13224725",
+    "zh": "你的電子郵件地址是什麼？"
+   },
+   {
+    "text": "Was ist Ihre E-Mail-Adresse?",
+    "src": "tatoeba",
+    "tid": "6973869",
+    "zh": "你的電子郵件地址是什麼？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Mails",
+  "reading": "mɛɪ̯l",
+  "ipa": "/mɛɪ̯l/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mail"
+ },
+ {
+  "id": "de-758",
+  "lang": "de",
+  "word": "schicken",
+  "en": "to send",
+  "zh": "寄；傳送",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "eine Mail schreiben",
+  "examples": [
+   {
+    "text": "Hat Tom Sie geschickt?",
+    "src": "tatoeba",
+    "tid": "5912414",
+    "zh": "湯姆派了你們來嗎？"
+   },
+   {
+    "text": "Hat Tom euch geschickt?",
+    "src": "tatoeba",
+    "tid": "5912413",
+    "zh": "湯姆派了你們來嗎？"
+   }
+  ],
+  "grammar": "verb · regular: schickte, hat geschickt",
+  "reading": "ˈʃɪkn̩",
+  "ipa": "/ˈʃɪkn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/schicken"
+ },
+ {
+  "id": "de-759",
+  "lang": "de",
+  "word": "der Betreff",
+  "en": "subject (line)",
+  "zh": "（郵件）主旨",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "eine Mail schreiben",
+  "examples": [
+   {
+    "text": "Wir stellen hier eine Liste der häufigsten Fragen, die Esperanto betreffen, zur Verfügung.",
+    "src": "tatoeba",
+    "tid": "504711",
+    "zh": "我們在這裡羅列了常見的有關世界語的問題。"
+   },
+   {
+    "text": "Verändere den Betreff.",
+    "src": "tatoeba",
+    "tid": "4692195",
+    "en": "Change the subject.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Betreffe",
+  "reading": "bəˈtʁɛf",
+  "ipa": "/bəˈtʁɛf/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Betreff",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-760",
+  "lang": "de",
+  "word": "die Anrede",
+  "en": "salutation; form of address",
+  "zh": "稱呼語",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "eine Mail schreiben",
+  "examples": [
+   {
+    "text": "Wie soll ich Sie anreden?",
+    "src": "tatoeba",
+    "tid": "7839561",
+    "en": "What am I supposed to call you?",
+    "zhPending": true
+   },
+   {
+    "text": "Wie soll ich dich anreden?",
+    "src": "tatoeba",
+    "tid": "7839560",
+    "en": "What am I supposed to call you?",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Anreden",
+  "reading": "ˈanˌʁeːdə",
+  "ipa": "/ˈanˌʁeːdə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Anrede",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-761",
+  "lang": "de",
+  "word": "herzliche Grüße",
+  "en": "warm regards",
+  "zh": "誠摯的問候（書信結尾）",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "eine Mail schreiben",
+  "examples": [
+   {
+    "text": "Herzliche Grüße von uns allen!",
+    "src": "tatoeba",
+    "tid": "2818108",
+    "zh": "我們所有人都祝福你。"
+   },
+   {
+    "text": "Herzliche Grüße.",
+    "src": "tatoeba",
+    "tid": "8459560",
+    "en": "Warm regards.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ˈhɛʁt͡slɪçə ˈɡʁyːsə",
+  "ipa": "/ˈhɛʁt͡slɪçə ˈɡʁyːsə/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Grüße",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-762",
+  "lang": "de",
+  "word": "die Schorle",
+  "en": "spritzer (juice with sparkling water)",
+  "zh": "氣泡果汁（果汁兌氣泡水）",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [],
+  "grammar": "noun · feminine; plural Schorlen",
+  "reading": "ˈʃɔʁlə",
+  "ipa": "/ˈʃɔʁlə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schorle",
+  "note": "雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-763",
+  "lang": "de",
+  "word": "das Eis (Sg.)",
+  "en": "ice cream; ice",
+  "zh": "冰淇淋；冰",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [
+   {
+    "text": "Das ist Eis.",
+    "src": "tatoeba",
+    "tid": "8861777",
+    "zh": "這是冰塊。"
+   },
+   {
+    "text": "Schildkröten legen Eier.",
+    "src": "tatoeba",
+    "tid": "7825095",
+    "zh": "海龜下蛋。"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "aɪ̯s",
+  "ipa": "/aɪ̯s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Eis"
+ },
+ {
+  "id": "de-764",
+  "lang": "de",
+  "word": "die Salami",
+  "en": "salami",
+  "zh": "薩拉米香腸",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [
+   {
+    "text": "Ich verstehe nicht, wieso Pizza mit scharfer Salami so beliebt ist.",
+    "src": "tatoeba",
+    "tid": "10160861",
+    "zh": "我不懂為何義式辣腸披薩如此受歡迎。"
+   },
+   {
+    "text": "Ich mag Salami.",
+    "src": "tatoeba",
+    "tid": "10794180",
+    "en": "I like salami.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Salami",
+  "reading": "zaˈlaːmi",
+  "ipa": "/zaˈlaːmi/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Salami",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-765",
+  "lang": "de",
+  "word": "das Schnitzel",
+  "en": "schnitzel (cutlet)",
+  "zh": "炸肉排",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [
+   {
+    "text": "Ich nehme bitte ein Wiener Schnitzel.",
+    "src": "tatoeba",
+    "tid": "8246323",
+    "en": "A Vienna schnitzel, please.",
+    "zhPending": true
+   },
+   {
+    "text": "Ich habe Schnitzel für das Abendessen gekauft.",
+    "src": "tatoeba",
+    "tid": "13166189",
+    "en": "I bought schnitzel for dinner.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Schnitzel",
+  "reading": "ˈʃnɪt͡sl̩",
+  "ipa": "/ˈʃnɪt͡sl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schnitzel",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-766",
+  "lang": "de",
+  "word": "die Tomatensuppe",
+  "en": "tomato soup",
+  "zh": "番茄湯",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [
+   {
+    "text": "Ich liebe Tomatensuppe.",
+    "src": "tatoeba",
+    "tid": "13638731",
+    "en": "I love tomato soup.",
+    "zhPending": true
+   },
+   {
+    "text": "Ich mag Tomatensuppe.",
+    "src": "tatoeba",
+    "tid": "7946222",
+    "en": "I like tomato soup.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; plural Tomatensuppen",
+  "reading": "toˈmaːtn̩ˌzʊpə",
+  "ipa": "/toˈmaːtn̩ˌzʊpə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tomatensuppe",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-767",
+  "lang": "de",
+  "word": "der Sandwich",
+  "en": "sandwich",
+  "zh": "三明治",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Speisen und Getränke",
+  "examples": [
+   {
+    "text": "Gib mir dein Sandwich.",
+    "src": "tatoeba",
+    "tid": "8599495",
+    "zh": "把你的三明治給我。"
+   },
+   {
+    "text": "Tom machte ein Sandwich.",
+    "src": "tatoeba",
+    "tid": "5778027",
+    "zh": "湯姆做了個三明治。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Sandwichs",
+  "reading": "ˈzɛntvɪt͡ʃ",
+  "ipa": "/ˈzɛntvɪt͡ʃ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sandwich",
+  "note": "課本標 der（奧地利用法亦常見 das）。"
+ },
+ {
+  "id": "de-768",
+  "lang": "de",
+  "word": "der Durst (Sg.)",
+  "en": "thirst",
+  "zh": "口渴",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Tom hat Durst.",
+    "src": "tatoeba",
+    "tid": "4009881",
+    "zh": "湯姆渴了。"
+   },
+   {
+    "text": "Wer hat Durst?",
+    "src": "tatoeba",
+    "tid": "2852577",
+    "zh": "誰渴了 ?"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "dʊʁst",
+  "ipa": "/dʊʁst/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Durst"
+ },
+ {
+  "id": "de-769",
+  "lang": "de",
+  "word": "der Hunger (Sg.)",
+  "en": "hunger",
+  "zh": "飢餓",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Sie haben Hunger.",
+    "src": "tatoeba",
+    "tid": "4943066",
+    "zh": "他們餓了。"
+   },
+   {
+    "text": "Ich habe Hunger.",
+    "src": "tatoeba",
+    "tid": "2095976",
+    "zh": "我餓了！"
+   }
+  ],
+  "grammar": "noun · masculine; usually singular",
+  "reading": "ˈhʊŋɐ",
+  "ipa": "/ˈhʊŋɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Hunger"
+ },
+ {
+  "id": "de-770",
+  "lang": "de",
+  "word": "die Speisekarte",
+  "en": "menu",
+  "zh": "菜單",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Die Speisekarte bitte!",
+    "src": "tatoeba",
+    "tid": "12890051",
+    "zh": "麻煩給我菜單。"
+   },
+   {
+    "text": "Wer hat die Speisekarten?",
+    "src": "tatoeba",
+    "tid": "10473261",
+    "zh": "菜單在誰手裡啊？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Speisekarten",
+  "reading": "ˈʃpaɪ̯zəˌkaʁtə",
+  "ipa": "/ˈʃpaɪ̯zəˌkaʁtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Speisekarte"
+ },
+ {
+  "id": "de-771",
+  "lang": "de",
+  "word": "die Bestellung",
+  "en": "order",
+  "zh": "點餐；訂單",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Ihre Bestellung wurde aufgegeben.",
+    "src": "tatoeba",
+    "tid": "10212284",
+    "zh": "您的訂單已經提交了。"
+   },
+   {
+    "text": "Wir nehmen Bestellungen telefonisch entgegen.",
+    "src": "tatoeba",
+    "tid": "913640",
+    "zh": "我們接受電話預定。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Bestellungen",
+  "reading": "bəˈʃtɛlʊŋ",
+  "ipa": "/bəˈʃtɛlʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bestellung"
+ },
+ {
+  "id": "de-772",
+  "lang": "de",
+  "word": "bestellen",
+  "en": "to order",
+  "zh": "點（餐）；訂購",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Möchten Sie bestellen?",
+    "src": "tatoeba",
+    "tid": "1190222",
+    "zh": "你要點菜嗎？"
+   },
+   {
+    "text": "Ich bestellte Froschnudeln.",
+    "src": "tatoeba",
+    "tid": "1016775",
+    "zh": "我點了青蛙加麪條。"
+   }
+  ],
+  "grammar": "verb · regular: bestellte, hat bestellt",
+  "reading": "bəˈʃtɛlən",
+  "ipa": "/bəˈʃtɛlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/bestellen"
+ },
+ {
+  "id": "de-773",
+  "lang": "de",
+  "word": "bringen",
+  "en": "to bring",
+  "zh": "帶來；端上",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Bring es her!",
+    "src": "tatoeba",
+    "tid": "13474156",
+    "zh": "把他帶過來。"
+   },
+   {
+    "text": "Bring sie her!",
+    "src": "tatoeba",
+    "tid": "13474155",
+    "zh": "把他帶過來。"
+   }
+  ],
+  "grammar": "verb · irregular: du bringst, er bringt; brachte, hat gebracht",
+  "reading": "ˈbʁɪŋən",
+  "ipa": "/ˈbʁɪŋən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/bringen"
+ },
+ {
+  "id": "de-774",
+  "lang": "de",
+  "word": "Für wen ist …?",
+  "en": "For whom is ...?",
+  "zh": "這是誰的？／…是給誰的？",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Wer ist für den Vertrieb zuständig?",
+    "src": "tatoeba",
+    "tid": "11036273",
+    "zh": "誰負責銷售部門？"
+   },
+   {
+    "text": "Wer ist verantwortlich für diesen Bereich?",
+    "src": "tatoeba",
+    "tid": "2667770",
+    "zh": "誰負責這個部門？"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "fyːɐ̯ veːn ɪst",
+  "ipa": "/fyːɐ̯ veːn ɪst/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Für",
+  "note": "上菜時確認句型；省略號代入菜名。",
+  "parts": [
+   {
+    "w": "Für wen",
+    "m": "for whom"
+   },
+   {
+    "w": "ist",
+    "m": "is"
+   }
+  ]
+ },
+ {
+  "id": "de-775",
+  "lang": "de",
+  "word": "bezahlen",
+  "en": "to pay",
+  "zh": "付款",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Ich bezahle.",
+    "src": "tatoeba",
+    "tid": "882361",
+    "zh": "我買了。"
+   },
+   {
+    "text": "Ich habe bezahlt.",
+    "src": "tatoeba",
+    "tid": "7141489",
+    "zh": "我付了錢。"
+   }
+  ],
+  "grammar": "verb · regular: bezahlte, hat bezahlt",
+  "reading": "bəˈt͡saːlən",
+  "ipa": "/bəˈt͡saːlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/bezahlen"
+ },
+ {
+  "id": "de-776",
+  "lang": "de",
+  "word": "zahlen",
+  "en": "to pay",
+  "zh": "付款",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Ich zahlte.",
+    "src": "tatoeba",
+    "tid": "7141490",
+    "zh": "我付了錢。"
+   },
+   {
+    "text": "Bitte zahlen!",
+    "src": "tatoeba",
+    "tid": "4699838",
+    "zh": "買單。"
+   }
+  ],
+  "grammar": "verb · regular: zahlte, hat gezahlt",
+  "reading": "ˈt͡saːlən",
+  "ipa": "/ˈt͡saːlən/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/zahlen",
+  "note": "課本例：Zahlen, bitte.（請結帳）"
+ },
+ {
+  "id": "de-777",
+  "lang": "de",
+  "word": "Zusammen oder getrennt?",
+  "en": "Together or separate?",
+  "zh": "一起算還是分開算？",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Zusammen oder getrennt?",
+    "src": "tatoeba",
+    "tid": "537454",
+    "zh": "一起算還是分開算？"
+   },
+   {
+    "text": "Zahlt ihr zusammen oder getrennt?",
+    "src": "tatoeba",
+    "tid": "5571204",
+    "en": "Are you paying together or separately?",
+    "zhPending": true
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "t͡suˈzamən ˈoːdɐ ɡəˈtʁɛnt",
+  "ipa": "/t͡suˈzamən ˈoːdɐ ɡəˈtʁɛnt/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Zusammen",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-778",
+  "lang": "de",
+  "word": "das Trinkgeld (Sg.)",
+  "en": "tip",
+  "zh": "小費",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Habt ihr Trinkgeld gegeben?",
+    "src": "tatoeba",
+    "tid": "949231",
+    "zh": "你們給了小費嗎？"
+   },
+   {
+    "text": "Trinkgelder werden nicht angenommen.",
+    "src": "tatoeba",
+    "tid": "621159",
+    "zh": "不收小費。"
+   }
+  ],
+  "grammar": "noun · neuter; usually singular",
+  "reading": "ˈtʁɪŋkˌɡelt",
+  "ipa": "/ˈtʁɪŋkˌɡelt/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Trinkgeld"
+ },
+ {
+  "id": "de-779",
+  "lang": "de",
+  "word": "geben",
+  "en": "to give",
+  "zh": "給",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Gebt Acht!",
+    "src": "tatoeba",
+    "tid": "12444706",
+    "zh": "保重。"
+   },
+   {
+    "text": "Gib acht!",
+    "src": "tatoeba",
+    "tid": "1853920",
+    "zh": "請注意！"
+   }
+  ],
+  "grammar": "verb · irregular: du gibst, er gibt; gab, hat gegeben",
+  "reading": "ˈɡeːbn̩",
+  "ipa": "/ˈɡeːbn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/geben"
+ },
+ {
+  "id": "de-780",
+  "lang": "de",
+  "word": "Stimmt so.",
+  "en": "Keep the change.",
+  "zh": "不用找了。",
+  "contentType": "phrase",
+  "themeId": "debook-L6",
+  "topic": "bestellen und bezahlen",
+  "examples": [
+   {
+    "text": "Stimmt so.",
+    "src": "tatoeba",
+    "tid": "1341231",
+    "zh": "不用找零錢了。"
+   },
+   {
+    "text": "Deine singende Stimme ist so klar wie das Wasser des Pazifiks.",
+    "src": "tatoeba",
+    "tid": "618172",
+    "zh": "你的歌聲清澈如太平洋的海水。"
+   }
+  ],
+  "grammar": "phrase",
+  "reading": "ʃtɪmt zoː",
+  "ipa": "/ʃtɪmt zoː/",
+  "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Stimmt",
+  "note": "固定結帳用語（不逐字拆解）。"
+ },
+ {
+  "id": "de-781",
+  "lang": "de",
+  "word": "die Gabel",
+  "en": "fork",
+  "zh": "叉子",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Eine Gabel fehlt.",
+    "src": "tatoeba",
+    "tid": "556198",
+    "zh": "少一把叉子。"
+   },
+   {
+    "text": "Die Gabel ist weg.",
+    "src": "tatoeba",
+    "tid": "10271730",
+    "zh": "叉子不見了。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Gabeln",
+  "reading": "ˈɡaːbl̩",
+  "ipa": "/ˈɡaːbl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gabel"
+ },
+ {
+  "id": "de-782",
+  "lang": "de",
+  "word": "das Messer",
+  "en": "knife",
+  "zh": "刀子",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Dein Messer ist rostig.",
+    "src": "tatoeba",
+    "tid": "12120414",
+    "zh": "你的刀生鏽了。"
+   },
+   {
+    "text": "Lass das Messer fallen!",
+    "src": "tatoeba",
+    "tid": "9137789",
+    "zh": "把刀放下！"
+   }
+  ],
+  "grammar": "noun · neuter; plural Messer",
+  "reading": "ˈmɛsɐ",
+  "ipa": "/ˈmɛsɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Messer"
+ },
+ {
+  "id": "de-783",
+  "lang": "de",
+  "word": "der Löffel",
+  "en": "spoon",
+  "zh": "湯匙",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Uns fehlt ein Löffel.",
+    "src": "tatoeba",
+    "tid": "7766250",
+    "zh": "缺一把勺子。"
+   },
+   {
+    "text": "Gib mir den Löffel.",
+    "src": "tatoeba",
+    "tid": "749709",
+    "zh": "把勺子給我。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Löffel",
+  "reading": "ˈlœfl̩",
+  "ipa": "/ˈlœfl̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Löffel"
+ },
+ {
+  "id": "de-784",
+  "lang": "de",
+  "word": "das Glas",
+  "en": "glass",
+  "zh": "玻璃杯",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Ich hole Gläser.",
+    "src": "tatoeba",
+    "tid": "394191",
+    "zh": "我會去拿一些玻璃杯。"
+   },
+   {
+    "text": "Glas zerbricht leicht.",
+    "src": "tatoeba",
+    "tid": "340407",
+    "zh": "玻璃易碎。"
+   }
+  ],
+  "grammar": "noun · neuter; plural Gläser",
+  "reading": "ɡlaːs",
+  "ipa": "/ɡlaːs/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Glas"
+ },
+ {
+  "id": "de-785",
+  "lang": "de",
+  "word": "die Tasse",
+  "en": "cup",
+  "zh": "杯子（有把）",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Eine Tasse Tee bitte!",
+    "src": "tatoeba",
+    "tid": "10543616",
+    "zh": "來杯茶吧。"
+   },
+   {
+    "text": "Ich benutze diese Tasse.",
+    "src": "tatoeba",
+    "tid": "9211835",
+    "zh": "我用這個文件夾。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Tassen",
+  "reading": "ˈtasə",
+  "ipa": "/ˈtasə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tasse"
+ },
+ {
+  "id": "de-786",
+  "lang": "de",
+  "word": "der Teller",
+  "en": "plate",
+  "zh": "盤子",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Wasch die Teller ab!",
+    "src": "tatoeba",
+    "tid": "9137649",
+    "zh": "把盤子洗了。"
+   },
+   {
+    "text": "Ich brauche einen Teller.",
+    "src": "tatoeba",
+    "tid": "8824935",
+    "zh": "我需要盤子。"
+   }
+  ],
+  "grammar": "noun · masculine; plural Teller",
+  "reading": "ˈtɛlɐ",
+  "ipa": "/ˈtɛlɐ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Teller"
+ },
+ {
+  "id": "de-787",
+  "lang": "de",
+  "word": "die Serviette",
+  "en": "napkin",
+  "zh": "餐巾",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Auf dem Tisch",
+  "examples": [
+   {
+    "text": "Die Servietten sind im Regal hinten.",
+    "src": "tatoeba",
+    "tid": "10852307",
+    "zh": "餐巾紙在後面的架子上。"
+   },
+   {
+    "text": "Könnte ich bitte eine Serviette haben?",
+    "src": "tatoeba",
+    "tid": "445043",
+    "zh": "請給我一張餐巾紙好嗎？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Servietten",
+  "reading": "zɛʁˈvi̯ɛtə",
+  "ipa": "/zɛʁˈvi̯ɛtə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Serviette"
+ },
+ {
+  "id": "de-788",
+  "lang": "de",
+  "word": "die Kneipe",
+  "en": "pub",
+  "zh": "小酒館",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Sie trinken in der Kneipe.",
+    "src": "tatoeba",
+    "tid": "10058441",
+    "zh": "他們在酒吧喝酒。"
+   },
+   {
+    "text": "Gleich um die Ecke ist eine Kneipe.",
+    "src": "tatoeba",
+    "tid": "3012701",
+    "zh": "在轉角有一家酒吧。"
+   }
+  ],
+  "grammar": "noun · feminine; plural Kneipen",
+  "reading": "ˈknaɪ̯pə",
+  "ipa": "/ˈknaɪ̯pə/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kneipe"
+ },
+ {
+  "id": "de-789",
+  "lang": "de",
+  "word": "das Kaffeehaus",
+  "en": "coffeehouse",
+  "zh": "咖啡館",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Ich hätte gerne ein Kaffeehaus.",
+    "src": "tatoeba",
+    "tid": "2325350",
+    "zh": "我想要一杯咖啡。"
+   },
+   {
+    "text": "Das Kaffeehaus ist mein Lieblingsplatz.",
+    "src": "tatoeba",
+    "tid": "1892353",
+    "en": "That coffee shop is my favorite haunt.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Kaffeehäuser",
+  "reading": "kaˈfeːˌhaʊ̯s",
+  "ipa": "/kaˈfeːˌhaʊ̯s/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Kaffeehaus",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-790",
+  "lang": "de",
+  "word": "das Lokal",
+  "en": "restaurant/pub; venue",
+  "zh": "餐館；店家",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Er war regelmäßiger Kunde der Lokale hier in der Nähe.",
+    "src": "tatoeba",
+    "tid": "2287408",
+    "zh": "他是這裏附近酒吧和酒館的常客。"
+   },
+   {
+    "text": "Global denken, lokal handeln.",
+    "src": "tatoeba",
+    "tid": "13223679",
+    "en": "Think global, act local.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · neuter; plural Lokale",
+  "reading": "loˈkaːl",
+  "ipa": "/loˈkaːl/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Lokal",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-791",
+  "lang": "de",
+  "word": "der Biergarten",
+  "en": "beer garden",
+  "zh": "啤酒花園（露天啤酒座）",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Tom und Maria sitzen im Biergarten.",
+    "src": "tatoeba",
+    "tid": "10009947",
+    "en": "Tom and Mary are sitting in the beer garden.",
+    "zhPending": true
+   },
+   {
+    "text": "Tom trifft seine Freunde im Biergarten.",
+    "src": "tatoeba",
+    "tid": "8801783",
+    "en": "Tom's meeting his friends at a beer garden.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · masculine; plural Biergärten",
+  "reading": "ˈbiːɐ̯ˌɡaʁtn̩",
+  "ipa": "/ˈbiːɐ̯ˌɡaʁtn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Biergarten",
+  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-792",
+  "lang": "de",
+  "word": "die Bank",
+  "en": "bench",
+  "zh": "長椅",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Wann schließt die Bank?",
+    "src": "tatoeba",
+    "tid": "4105365",
+    "zh": "銀行什麼時候關門？"
+   },
+   {
+    "text": "Wann öffnet die Bank?",
+    "src": "tatoeba",
+    "tid": "4057797",
+    "zh": "銀行什麼時候開門？"
+   }
+  ],
+  "grammar": "noun · feminine; plural Bänke",
+  "reading": "baŋk",
+  "ipa": "/baŋk/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Bank",
+  "note": "此處為「長椅」義（非銀行 die Bank, -en）。"
+ },
+ {
+  "id": "de-793",
+  "lang": "de",
+  "word": "die Selbstbedienung (Sg.)",
+  "en": "self-service",
+  "zh": "自助（自取）",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "In der Cafeteria war Selbstbedienung.",
+    "src": "tatoeba",
+    "tid": "822491",
+    "en": "The cafeteria was self-service.",
+    "zhPending": true
+   }
+  ],
+  "grammar": "noun · feminine; usually singular",
+  "reading": "ˈzɛlpstbəˌdiːnʊŋ",
+  "ipa": "/ˈzɛlpstbəˌdiːnʊŋ/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Selbstbedienung",
+  "note": "雙語例句待補（來源不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+ },
+ {
+  "id": "de-794",
+  "lang": "de",
+  "word": "geöffnet",
+  "en": "open (for business)",
+  "zh": "營業中；開著的",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Öffne das Buch.",
+    "src": "tatoeba",
+    "tid": "10733793",
+    "zh": "打開書。"
+   },
+   {
+    "text": "Öffne deinen Geist.",
+    "src": "tatoeba",
+    "tid": "10361709",
+    "zh": "打開你的思想。"
+   }
+  ],
+  "grammar": "adjective",
+  "reading": "ɡəˈʔœfnət",
+  "ipa": "/ɡəˈʔœfnət/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/geöffnet"
+ },
+ {
+  "id": "de-795",
+  "lang": "de",
+  "word": "draußen",
+  "en": "outside",
+  "zh": "在外面",
+  "contentType": "word",
+  "themeId": "debook-L6",
+  "topic": "Lokale",
+  "examples": [
+   {
+    "text": "Draußen liegt Schnee.",
+    "src": "tatoeba",
+    "tid": "12195635",
+    "zh": "外面在下雪呢。"
+   },
+   {
+    "text": "Draußen herrscht Nebel.",
+    "src": "tatoeba",
+    "tid": "11813725",
+    "zh": "外面起霧了。"
+   }
+  ],
+  "grammar": "adverb",
+  "reading": "ˈdʁaʊ̯sn̩",
+  "ipa": "/ˈdʁaʊ̯sn̩/",
+  "sourceUrl": "https://de.wiktionary.org/wiki/draußen",
+  "note": "課本例：Man kann draußen sitzen.（可以坐外面）"
  }
 ]
