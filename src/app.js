@@ -11073,6 +11073,8 @@ Error generating stack: ` +
       ],
       sourceUrl: "https://tatoeba.org/en/sentences/show/235870",
     },
+    {"id": "jp-grammar-013", "lang": "jp", "contentType": "grammar", "title": "～ています：正在進行的動作", "rule": "動詞て形＋います，普通形為 ている。本課先學動作正在進行；不能把所有 ている 都解成「正在」，還有習慣與結果狀態等用法。", "examples": [{"text": "パンを食べています。", "zh": "我們在喫麪包。", "src": "tatoeba", "tid": "4839619"}, {"text": "りんごを食べています。", "zh": "他在喫蘋果。", "src": "tatoeba", "tid": "192448"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B-te-iru-meaning/"},
+    {"id": "jp-grammar-014", "lang": "jp", "contentType": "grammar", "title": "て形連接：依序描述動作", "rule": "前面的動詞用て形，最後一個動詞決定整句的時態與禮貌程度。可描述動作先後；依上下文也可能表示同時、手段或原因，不是所有て形都等於「然後」。", "examples": [{"text": "起きてトイレに行った。", "zh": "待補（來源例句中文待核對）"}, {"text": "走ってシャワーをする。", "zh": "待補（來源例句中文待核對）"}], "sourceUrl": "https://www.tofugu.com/japanese-grammar/te-form/"},
   ];
   var V = fm,
     P1 = "mmv:vocabulary.userwords.v1",
@@ -11108,6 +11110,7 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {"v": "v14.62", "d": "11/05", "items": ["Lesson 12：晚間生活與習慣30詞，新增11條（含2片語），沿用19條；早く／遅く依原形早い／遅い收錄，晩酌釋義限在家晚餐飲酒。", "新增2文法：～ています進行式、て形動作連接；例句全部取自已核對來源，缺例句或中文標待補。"]},
       {
         v: "v14.46",
         d: "10/29",
@@ -11731,6 +11734,25 @@ Error generating stack: ` +
       "jp-011": "morning",
       "jp-135": "morning",
       "jp-552": "morning",
+      "jp-274": "evening",
+      "jp-300": "evening",
+      "jp-454": "evening",
+      "jp-159": "evening",
+      "jp-791": "evening",
+      "jp-899": "evening",
+      "jp-882": "evening",
+      "jp-1244": "evening",
+      "jp-711": "evening",
+      "jp-571": "evening",
+      "jp-153": "evening",
+      "jp-100": "evening",
+      "jp-119": "evening",
+      "jp-103": "evening",
+      "jp-638": "evening",
+      "jp-160": "evening",
+      "jp-1103": "evening",
+      "jp-269": "evening",
+      "jp-1071": "evening",
     },
     Od = (e) =>
       e.themeId ??
@@ -11740,6 +11762,8 @@ Error generating stack: ` +
           ? "daily"
           : Nm[e.id] === "weekend"
             ? "weekend"
+            : Nm[e.id] === "evening"
+              ? "evening"
             : Nm[e.id] === "morning"
               ? "morning"
               : Nm[e.id]
@@ -11763,6 +11787,7 @@ Error generating stack: ` +
         { id: "shopping", name: "\u8CFC\u7269\u8207\u8863\u8457" },
         { id: "weekend", name: "\u9031\u672B\u6D3B\u52D5" },
         { id: "morning", name: "\u65E9\u6668\u751F\u6D3B" },
+        { id: "evening", name: "晚間生活與習慣" },
         ...jm,
       ],
       entries: Object.fromEntries(
@@ -12474,6 +12499,10 @@ Error generating stack: ` +
         ae.includes("morning") || (ae = ["morning", ...ae]);
         (cur == null || (cur.books ?? []).join() !== ae.join()) &&
           ((S[C.id] = { ...cur, books: ae }), mig++);
+      });
+      V.filter((C) => Nm[C.id] === "evening").forEach((C) => {
+        let cur = S[C.id], ae = cur?.books ?? [];
+        if (!ae.includes("evening")) { S[C.id] = { ...cur, books: [...ae, "evening"] }; mig++; }
       });
       if (!z.length && !l.length && !Gf && !mig) return;
       z.forEach((C) => {
@@ -13201,7 +13230,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne)
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" || l.id === "evening" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne)
           .filter((z, i2, arr) => arr.findIndex((y) => y.id === z.id) === i2)
           .filter(
           (z) =>
@@ -15755,6 +15784,7 @@ Error generating stack: ` +
           { className: "muted" },
           "\u9EDE\u4F8B\u53E5\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7FFB\u8B6F",
         ),
+        e.examplesPending > 0 && s.default.createElement("p", { className: "muted" }, "來源例句待補：", e.examplesPending, " 句（不編造）"),
         e.examples.map((i, c) =>
           s.default.createElement(
             "div",
