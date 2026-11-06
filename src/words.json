@@ -74510,5 +74510,60 @@
    }
   ],
   "note": "例句／中文待補：缺 0 句來源例句、2 句已收例句中文；不編造，後續查核回補。"
+ },
+ {
+  "id": "jpl13-01",
+  "lang": "jp",
+  "word": "薬局",
+  "reading": "やっきょく",
+  "romaji": "yakkyoku",
+  "zh": "藥局",
+  "en": "pharmacy",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "town",
+  "sourceUrl": "https://jisho.org/search/薬局",
+  "examples": [
+   {
+    "text": "一番近い薬局はどこにありますか。",
+    "src": "tatoeba",
+    "tid": "190098",
+    "zh": "最近的藥店在哪裡？"
+   },
+   {
+    "text": "ここから一番近い薬局はどこですか。",
+    "src": "tatoeba",
+    "tid": "224774",
+    "zh": "離這裡最近的藥局在哪裡？"
+   }
+  ]
+ },
+ {
+  "id": "jpl13-02",
+  "lang": "jp",
+  "word": "バス停",
+  "reading": "バスてい",
+  "romaji": "basutei",
+  "zh": "公車站",
+  "en": "bus stop",
+  "pos": "名詞",
+  "contentType": "word",
+  "themeId": "town",
+  "sourceUrl": "https://jisho.org/search/バス停",
+  "loan": "外來語（バス＋停）",
+  "examples": [
+   {
+    "text": "バス停はどこにありますか。",
+    "src": "tatoeba",
+    "tid": "198045",
+    "zh": "巴士站在哪裏？"
+   },
+   {
+    "text": "バス停は学校の近くにある。",
+    "src": "tatoeba",
+    "tid": "198044",
+    "zh": "巴士站離我們的學校近。"
+   }
+  ]
  }
 ]

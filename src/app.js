@@ -11075,6 +11075,8 @@ Error generating stack: ` +
     },
     {"id": "jp-grammar-013", "lang": "jp", "contentType": "grammar", "title": "～ています：正在進行的動作", "rule": "動詞て形＋います，普通形為 ている。本課先學動作正在進行；不能把所有 ている 都解成「正在」，還有習慣與結果狀態等用法。", "examples": [{"text": "パンを食べています。", "zh": "我們在喫麪包。", "src": "tatoeba", "tid": "4839619"}, {"text": "りんごを食べています。", "zh": "他在喫蘋果。", "src": "tatoeba", "tid": "192448"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B-te-iru-meaning/"},
     {"id": "jp-grammar-014", "lang": "jp", "contentType": "grammar", "title": "て形連接：依序描述動作", "rule": "前面的動詞用て形，最後一個動詞決定整句的時態與禮貌程度。可描述動作先後；依上下文也可能表示同時、手段或原因，不是所有て形都等於「然後」。", "examples": [{"text": "起きてトイレに行った。", "zh": "待補（來源例句中文待核對）"}, {"text": "走ってシャワーをする。", "zh": "待補（來源例句中文待核對）"}], "sourceUrl": "https://www.tofugu.com/japanese-grammar/te-form/"},
+    {"id": "jp-grammar-015", "lang": "jp", "contentType": "grammar", "title": "～てもいいです／～てもいいですか：許可", "rule": "動詞て形＋もいいです，表示「可以～」；句尾加か（～てもいいですか）是詢問對方許可。回答許可時可說「いいですよ」，不許可時需另用禁止的說法。", "examples": [{"text": "入ってもいいですか？", "zh": "我可以進來嗎?", "src": "tatoeba", "tid": "4147428"}, {"text": "触ってもいいですか？", "zh": "可以碰嗎？", "src": "tatoeba", "tid": "9698661"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%82%82%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-temo-ii-desu-ka-meaning/"},
+    {"id": "jp-grammar-016", "lang": "jp", "contentType": "grammar", "title": "～てはいけません：禁止", "rule": "動詞て形＋はいけません，表示「不可以～」，是明確的禁止；普通形為 てはいけない。本課只學禁止用法，不把「なくてはいけません」（必須）混在一起。", "examples": [{"text": "約束を破ってはいけません。", "zh": "我們不能違背我們的承諾。", "src": "tatoeba", "tid": "79515"}, {"text": "人を指差してはいけません。", "zh": "不能用手指人。", "src": "tatoeba", "tid": "144393"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84-te-wa-ikenai-meaning/"},
   ];
   var V = fm,
     P1 = "mmv:vocabulary.userwords.v1",
@@ -11110,6 +11112,7 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
       {"v": "v14.63", "d": "11/05", "items": ["歯を磨く補入已核對第二例句（Tatoeba492913），中文標待補；晩酌2句來源例句、Lesson12共6句詞條中文與2句文法中文仍待補。"]},
       {"v": "v14.62", "d": "11/05", "items": ["Lesson 12：晚間生活與習慣30詞，新增11條（含2片語），沿用19條；早く／遅く依原形早い／遅い收錄，晩酌釋義限在家晚餐飲酒。", "新增2文法：～ています進行式、て形動作連接；例句全部取自已核對來源，缺例句或中文標待補。"]},
@@ -11755,6 +11758,34 @@ Error generating stack: ` +
       "jp-1103": "evening",
       "jp-269": "evening",
       "jp-1071": "evening",
+      "jp-149": "town",
+      "jp-192": "town",
+      "jp-561": "town",
+      "jp-569": "town",
+      "jp-173": "town",
+      "jp-180": "town",
+      "jp-692": "town",
+      "jp-691": "town",
+      "jp-781": "town",
+      "jp-969": "town",
+      "jp-716": "town",
+      "jp-960": "town",
+      "jp-625": "town",
+      "jp-737": "town",
+      "jp-145": "town",
+      "jp-128": "town",
+      "jp-618": "town",
+      "jp-184": "town",
+      "jp-139": "town",
+      "jp-248": "town",
+      "jp-733": "town",
+      "jp-344": "town",
+      "jp-485": "town",
+      "jp-510": "town",
+      "jp-487": "town",
+      "jp-476": "town",
+      "jp-318": "town",
+      "jp-624": "town",
     },
     Od = (e) =>
       e.themeId ??
@@ -11764,6 +11795,8 @@ Error generating stack: ` +
           ? "daily"
           : Nm[e.id] === "weekend"
             ? "weekend"
+            : Nm[e.id] === "town"
+              ? "town"
             : Nm[e.id] === "evening"
               ? "evening"
             : Nm[e.id] === "morning"
@@ -11790,6 +11823,7 @@ Error generating stack: ` +
         { id: "weekend", name: "\u9031\u672B\u6D3B\u52D5" },
         { id: "morning", name: "\u65E9\u6668\u751F\u6D3B" },
         { id: "evening", name: "晚間生活與習慣" },
+        { id: "town", name: "城鎮與問路" },
         ...jm,
       ],
       entries: Object.fromEntries(
@@ -12501,6 +12535,10 @@ Error generating stack: ` +
         ae.includes("morning") || (ae = ["morning", ...ae]);
         (cur == null || (cur.books ?? []).join() !== ae.join()) &&
           ((S[C.id] = { ...cur, books: ae }), mig++);
+      });
+      V.filter((C) => Nm[C.id] === "town").forEach((C) => {
+        let cur = S[C.id], ae = cur?.books ?? [];
+        if (!ae.includes("town")) { S[C.id] = { ...cur, books: [...ae, "town"] }; mig++; }
       });
       V.filter((C) => Nm[C.id] === "evening").forEach((C) => {
         let cur = S[C.id], ae = cur?.books ?? [];
@@ -13232,7 +13270,7 @@ Error generating stack: ` +
               : "\u5DF2\u5132\u5B58\u5728\u6B64\u88DD\u7F6E\u3002"),
       sd = V.filter((l) => l.lang === J && G[l.id]?.star),
       id = (l) =>
-        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" || l.id === "evening" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne)
+        (l.id === "numbers" || l.id === "shopping" || l.id === "daily" || l.id === "weekend" || l.id === "morning" || l.id === "evening" || l.id === "town" ? Ne.concat(V.filter((z) => Nm[z.id])) : Ne)
           .filter((z, i2, arr) => arr.findIndex((y) => y.id === z.id) === i2)
           .filter(
           (z) =>
