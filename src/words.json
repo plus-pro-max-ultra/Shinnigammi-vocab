@@ -74143,6 +74143,37 @@
   "note": "課本例：Man kann draußen sitzen.（可以坐外面）"
  },
  {
+  "id": "de-796",
+  "lang": "de",
+  "word": "der Stift",
+  "reading": "ʃtɪft",
+  "ipa": "/ʃtɪft/",
+  "en": "pen; pencil",
+  "zh": "筆；鉛筆",
+  "grammar": "noun · masculine; plural Stifte",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Stift",
+  "examples": [
+   {
+    "text": "Dieser Stift gehört mir.",
+    "zh": "這支筆是我的。",
+    "en": "This pen belongs to me.",
+    "src": "tatoeba",
+    "tid": "12388745"
+   },
+   {
+    "text": "Wem gehören diese Stifte?",
+    "zh": "這幾枝筆是誰的？",
+    "en": "Whose pens are these?",
+    "src": "tatoeba",
+    "tid": "1408186"
+   }
+  ],
+  "topic": "andere wichtige Wörter und Wendungen",
+  "note": "Stift 另指細長的釘／銷（pin），口語亦指學徒；das Stift（修道院、基金會）是不同名詞。小寫 stift 另是動詞 stiften 的命令式（來源：de.wiktionary）。"
+ },
+ {
   "id": "jpl12-01",
   "lang": "jp",
   "word": "剃る",

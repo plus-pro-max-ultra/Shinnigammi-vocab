@@ -614,6 +614,14 @@
             "word": "Pech",
             "skip": true,
             "filledAt": "2026-10-29T06:50:00Z"
+        },
+        {
+            "ref": "s-1793856852646",
+            "lang": "de",
+            "word": "stift",
+            "skip": true,
+            "filledAt": "2026-11-06T01:14:12Z",
+            "note": "使用者暫存「stift」，登錄為名詞 der Stift (de-796)；小寫 stift 同時是動詞 stiften 的命令式，依名詞（筆）解讀"
         }
     ]
 }
