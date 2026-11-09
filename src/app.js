@@ -12128,10 +12128,26 @@ Error generating stack: ` +
           ? "courses"
           : "more"
         : e;
-  function V1({ tab: e, go: t }) {
+  function V1({ tab: e, go: t, onLessons: ol, lessonNum: ln, lessonsOn: lo }) {
     return s.default.createElement(
       "nav",
       { className: "bottom-nav", "aria-label": "\u4E3B\u8981\u529F\u80FD" },
+      ol &&
+        s.default.createElement(
+          "button",
+          {
+            key: "cal",
+            className: "nav-cal" + (lo ? " selected" : ""),
+            "aria-label": "\u6BCF\u65E5\u8AB2\u7A0B",
+            "aria-current": lo ? "page" : void 0,
+            onClick: ol,
+          },
+          s.default.createElement(
+            "i",
+            { className: "cal-ic", "aria-hidden": "true" },
+            ln == null ? "" : String(ln),
+          ),
+        ),
       [
         ["courses", "\u8AB2\u7A0B", "\u25A6"],
         ["quiz", "\u6E2C\u9A57", "\u270E"],
@@ -14505,7 +14521,6 @@ Error generating stack: ` +
                           "div",
                           { className: "more-grid" },
                           [
-                            ["lessons", "\u6BCF\u65E5\u8AB2\u7A0B", "\u8AB2"],
                             ["add", "\u65B0\u589E\u55AE\u5B57", "\uFF0B"],
                             ["staging", "\u66AB\u5B58\u5340", "\u66AB"],
                             [
@@ -15439,7 +15454,15 @@ Error generating stack: ` +
           !Vs.length &&
           !Xn &&
           !ed &&
-          s.default.createElement(V1, { tab: Q, go: dg }),
+          s.default.createElement(V1, {
+            tab: Q,
+            go: dg,
+            onLessons: () => {
+              (Se("more"), or(""), Ce(""), A(null), ne("lessons"));
+            },
+            lessonNum: LESSON_NUM,
+            lessonsOn: Q === "more" && O === "lessons",
+          }),
         s.default.createElement(
           "footer",
           { className: "storage-note", role: "status" },
@@ -15686,13 +15709,17 @@ Error generating stack: ` +
             .filter((r) => r.lang === t)
             .map((r) =>
               s.default.createElement(
-                "section",
+                "details",
                 {
                   className: "grammar-lesson",
                   key: r.id,
                   "data-content-type": "grammar",
                 },
-                s.default.createElement("h3", null, r.title),
+                s.default.createElement(
+                  "summary",
+                  null,
+                  s.default.createElement("h3", null, r.title),
+                ),
                 s.default.createElement("p", null, r.rule),
                 r.ruleZh &&
                   s.default.createElement(
@@ -15934,6 +15961,16 @@ Error generating stack: ` +
     );
   }
   var LESSONS_DATA = __LESSONS__;
+  // Latest lesson's course number, taken from the trailing digits of its id
+  // (e.g. "de-13" -> 13). Updates automatically when a new daily lesson lands.
+  var LESSON_NUM = (() => {
+    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1));
+    for (let v of L) {
+      let m = /(\d+)\s*$/.exec((v && v.id) || "");
+      if (m) return m[1];
+    }
+    return null;
+  })();
   function lessonLinkify(e) {
     return e.split(/(https?:\/\/[^\s)]+)/g).map((t, r) =>
       /^https?:/.test(t)
@@ -16057,26 +16094,37 @@ Error generating stack: ` +
               w = d >= 0 ? u.slice(d).join("\n") : "",
               N = m >= 0 ? f.slice(m).join("\n") : "";
             return s.default.createElement(
-              "section",
-              { key: y, className: "examples" },
-              v.h && s.default.createElement("h3", null, v.h),
-              renderLessonText(g.join("\n")),
+              "details",
+              { key: y, className: "lesson-sec" },
+              s.default.createElement(
+                "summary",
+                null,
+                v.h || "\u7B2C " + (y + 1) + " \u6BB5",
+              ),
               s.default.createElement(
                 "div",
-                { className: "muted" },
-                renderLessonText(b.join("\n")),
+                { className: "lesson-sec-body" },
+                renderLessonText(g.join("\n")),
+                s.default.createElement(
+                  "div",
+                  { className: "muted" },
+                  renderLessonText(b.join("\n")),
+                ),
+                (w || N) &&
+                  s.default.createElement(LessonAnswerSlot, { en: w, zh: N }),
               ),
-              (w || N) &&
-                s.default.createElement(LessonAnswerSlot, { en: w, zh: N }),
             );
           }),
           h.words &&
             h.words.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u672C\u8AB2\u55AE\u5B57"),
-              h.words.map((v) => {
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u672C\u8AB2\u55AE\u5B57"),
+              s.default.createElement(
+                "div",
+                { className: "lesson-sec-body" },
+                h.words.map((v) => {
                 let y = d[v];
                 return y
                   ? s.default.createElement(
@@ -16098,57 +16146,66 @@ Error generating stack: ` +
                       { key: v, className: "muted" },
                       v,
                     );
-              }),
+                }),
+              ),
             ),
           h.grammar &&
             h.grammar.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u6587\u6CD5"),
-              h.grammar.map((v, y) =>
-                s.default.createElement(
-                  "div",
-                  { key: y, className: "example" },
-                  s.default.createElement("p", null, v.point),
-                  v.note &&
-                    s.default.createElement("p", { className: "muted" }, v.note),
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u6587\u6CD5"),
+              s.default.createElement(
+                "div",
+                { className: "lesson-sec-body" },
+                h.grammar.map((v, y) =>
+                  s.default.createElement(
+                    "div",
+                    { key: y, className: "example" },
+                    s.default.createElement("p", null, v.point),
+                    v.note &&
+                      s.default.createElement("p", { className: "muted" }, v.note),
+                  ),
                 ),
               ),
             ),
           h.practice &&
             h.practice.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u7DF4\u7FD2"),
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u7DF4\u7FD2"),
               s.default.createElement(
-                "p",
-                { className: "muted" },
-                "\u9EDE\u984C\u76EE\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7B54\u6848",
-              ),
-              h.practice.map((v, y) =>
+                "div",
+                { className: "lesson-sec-body" },
                 s.default.createElement(
-                  "div",
-                  { key: y, className: "example" },
-                  s.default.createElement("p", null, v.q),
+                  "p",
+                  { className: "muted" },
+                  "\u9EDE\u984C\u76EE\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7B54\u6848",
+                ),
+                h.practice.map((v, y) =>
                   s.default.createElement(
-                    "button",
-                    {
-                      className: "translation-slot",
-                      "aria-expanded": i.includes(y),
-                      onClick: () =>
-                        c((u) =>
-                          u.includes(y) ? u.filter((f) => f !== y) : [...u, y],
-                        ),
-                    },
-                    i.includes(y)
-                      ? v.a
-                      : s.default.createElement(
-                          "span",
-                          { "aria-hidden": "true" },
-                          "\u3000",
-                        ),
+                    "div",
+                    { key: y, className: "example" },
+                    s.default.createElement("p", null, v.q),
+                    s.default.createElement(
+                      "button",
+                      {
+                        className: "translation-slot",
+                        "aria-expanded": i.includes(y),
+                        onClick: () =>
+                          c((u) =>
+                            u.includes(y) ? u.filter((f) => f !== y) : [...u, y],
+                          ),
+                      },
+                      i.includes(y)
+                        ? v.a
+                        : s.default.createElement(
+                            "span",
+                            { "aria-hidden": "true" },
+                            "\u3000",
+                          ),
+                    ),
                   ),
                 ),
               ),

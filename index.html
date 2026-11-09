@@ -103,6 +103,25 @@ html,body{margin:0;padding:0;background:#14161a}body{font-family:-apple-system,B
 .nq-actions{display:flex;gap:8px;align-items:stretch;margin:10px 0 2px}
 .nq-actions .primary-action{flex:1;margin:0}
 .nq-actions .nq-idk{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 16px;color:#8a8f98;font-weight:600}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.reaper-app{overflow-x:clip}
+.lesson-sec{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:10px 0}
+.lesson-sec>summary{cursor:pointer;padding:10px 12px;font-size:14px;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.lesson-sec>summary::-webkit-details-marker{display:none}
+.lesson-sec>summary::after{content:"\25B8";color:var(--dim);font-size:12px;flex-shrink:0}
+.lesson-sec[open]>summary::after{content:"\25BE"}
+.lesson-sec-body{padding:0 12px 10px}
+.lesson-sec-body p,.lesson-sec-body li{overflow-wrap:break-word}
+.grammar-lesson>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.grammar-lesson>summary::-webkit-details-marker{display:none}
+.grammar-lesson>summary h3{margin:0;flex:1;min-width:0}
+.grammar-lesson>summary::after{content:"\25B8";color:var(--dim);font-size:12px;flex-shrink:0}
+.grammar-lesson[open]>summary::after{content:"\25BE"}
+.grammar-lesson[open]>summary{margin-bottom:8px}
+.nav-cal{flex:0 0 auto;display:flex;align-items:center;justify-content:center;padding:8px 10px 10px;color:var(--dim);border-top:2px solid transparent}
+.nav-cal.selected{color:var(--accent);border-top-color:var(--accent)}
+.cal-ic{position:relative;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border:1.5px solid currentColor;border-radius:7px;font-style:normal;font-size:12px;font-weight:700;padding-top:7px;box-sizing:border-box}
+.cal-ic::before{content:"";position:absolute;top:3px;left:4px;right:4px;height:2px;border-radius:1px;background:currentColor;opacity:.6}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -85658,7 +85677,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.71 1109-1252",
+    O1 = "v14.72 1109-1324",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -86676,10 +86695,26 @@ Error generating stack: ` +
           ? "courses"
           : "more"
         : e;
-  function V1({ tab: e, go: t }) {
+  function V1({ tab: e, go: t, onLessons: ol, lessonNum: ln, lessonsOn: lo }) {
     return s.default.createElement(
       "nav",
       { className: "bottom-nav", "aria-label": "\u4E3B\u8981\u529F\u80FD" },
+      ol &&
+        s.default.createElement(
+          "button",
+          {
+            key: "cal",
+            className: "nav-cal" + (lo ? " selected" : ""),
+            "aria-label": "\u6BCF\u65E5\u8AB2\u7A0B",
+            "aria-current": lo ? "page" : void 0,
+            onClick: ol,
+          },
+          s.default.createElement(
+            "i",
+            { className: "cal-ic", "aria-hidden": "true" },
+            ln == null ? "" : String(ln),
+          ),
+        ),
       [
         ["courses", "\u8AB2\u7A0B", "\u25A6"],
         ["quiz", "\u6E2C\u9A57", "\u270E"],
@@ -89053,7 +89088,6 @@ Error generating stack: ` +
                           "div",
                           { className: "more-grid" },
                           [
-                            ["lessons", "\u6BCF\u65E5\u8AB2\u7A0B", "\u8AB2"],
                             ["add", "\u65B0\u589E\u55AE\u5B57", "\uFF0B"],
                             ["staging", "\u66AB\u5B58\u5340", "\u66AB"],
                             [
@@ -89987,7 +90021,15 @@ Error generating stack: ` +
           !Vs.length &&
           !Xn &&
           !ed &&
-          s.default.createElement(V1, { tab: Q, go: dg }),
+          s.default.createElement(V1, {
+            tab: Q,
+            go: dg,
+            onLessons: () => {
+              (Se("more"), or(""), Ce(""), A(null), ne("lessons"));
+            },
+            lessonNum: LESSON_NUM,
+            lessonsOn: Q === "more" && O === "lessons",
+          }),
         s.default.createElement(
           "footer",
           { className: "storage-note", role: "status" },
@@ -90234,13 +90276,17 @@ Error generating stack: ` +
             .filter((r) => r.lang === t)
             .map((r) =>
               s.default.createElement(
-                "section",
+                "details",
                 {
                   className: "grammar-lesson",
                   key: r.id,
                   "data-content-type": "grammar",
                 },
-                s.default.createElement("h3", null, r.title),
+                s.default.createElement(
+                  "summary",
+                  null,
+                  s.default.createElement("h3", null, r.title),
+                ),
                 s.default.createElement("p", null, r.rule),
                 r.ruleZh &&
                   s.default.createElement(
@@ -90579,6 +90625,16 @@ Error generating stack: ` +
   ]
  }
 ];
+  // Latest lesson's course number, taken from the trailing digits of its id
+  // (e.g. "de-13" -> 13). Updates automatically when a new daily lesson lands.
+  var LESSON_NUM = (() => {
+    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1));
+    for (let v of L) {
+      let m = /(\d+)\s*$/.exec((v && v.id) || "");
+      if (m) return m[1];
+    }
+    return null;
+  })();
   function lessonLinkify(e) {
     return e.split(/(https?:\/\/[^\s)]+)/g).map((t, r) =>
       /^https?:/.test(t)
@@ -90702,26 +90758,37 @@ Error generating stack: ` +
               w = d >= 0 ? u.slice(d).join("\n") : "",
               N = m >= 0 ? f.slice(m).join("\n") : "";
             return s.default.createElement(
-              "section",
-              { key: y, className: "examples" },
-              v.h && s.default.createElement("h3", null, v.h),
-              renderLessonText(g.join("\n")),
+              "details",
+              { key: y, className: "lesson-sec" },
+              s.default.createElement(
+                "summary",
+                null,
+                v.h || "\u7B2C " + (y + 1) + " \u6BB5",
+              ),
               s.default.createElement(
                 "div",
-                { className: "muted" },
-                renderLessonText(b.join("\n")),
+                { className: "lesson-sec-body" },
+                renderLessonText(g.join("\n")),
+                s.default.createElement(
+                  "div",
+                  { className: "muted" },
+                  renderLessonText(b.join("\n")),
+                ),
+                (w || N) &&
+                  s.default.createElement(LessonAnswerSlot, { en: w, zh: N }),
               ),
-              (w || N) &&
-                s.default.createElement(LessonAnswerSlot, { en: w, zh: N }),
             );
           }),
           h.words &&
             h.words.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u672C\u8AB2\u55AE\u5B57"),
-              h.words.map((v) => {
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u672C\u8AB2\u55AE\u5B57"),
+              s.default.createElement(
+                "div",
+                { className: "lesson-sec-body" },
+                h.words.map((v) => {
                 let y = d[v];
                 return y
                   ? s.default.createElement(
@@ -90743,57 +90810,66 @@ Error generating stack: ` +
                       { key: v, className: "muted" },
                       v,
                     );
-              }),
+                }),
+              ),
             ),
           h.grammar &&
             h.grammar.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u6587\u6CD5"),
-              h.grammar.map((v, y) =>
-                s.default.createElement(
-                  "div",
-                  { key: y, className: "example" },
-                  s.default.createElement("p", null, v.point),
-                  v.note &&
-                    s.default.createElement("p", { className: "muted" }, v.note),
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u6587\u6CD5"),
+              s.default.createElement(
+                "div",
+                { className: "lesson-sec-body" },
+                h.grammar.map((v, y) =>
+                  s.default.createElement(
+                    "div",
+                    { key: y, className: "example" },
+                    s.default.createElement("p", null, v.point),
+                    v.note &&
+                      s.default.createElement("p", { className: "muted" }, v.note),
+                  ),
                 ),
               ),
             ),
           h.practice &&
             h.practice.length > 0 &&
             s.default.createElement(
-              "section",
-              { className: "examples" },
-              s.default.createElement("h3", null, "\u7DF4\u7FD2"),
+              "details",
+              { className: "lesson-sec" },
+              s.default.createElement("summary", null, "\u7DF4\u7FD2"),
               s.default.createElement(
-                "p",
-                { className: "muted" },
-                "\u9EDE\u984C\u76EE\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7B54\u6848",
-              ),
-              h.practice.map((v, y) =>
+                "div",
+                { className: "lesson-sec-body" },
                 s.default.createElement(
-                  "div",
-                  { key: y, className: "example" },
-                  s.default.createElement("p", null, v.q),
+                  "p",
+                  { className: "muted" },
+                  "\u9EDE\u984C\u76EE\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7B54\u6848",
+                ),
+                h.practice.map((v, y) =>
                   s.default.createElement(
-                    "button",
-                    {
-                      className: "translation-slot",
-                      "aria-expanded": i.includes(y),
-                      onClick: () =>
-                        c((u) =>
-                          u.includes(y) ? u.filter((f) => f !== y) : [...u, y],
-                        ),
-                    },
-                    i.includes(y)
-                      ? v.a
-                      : s.default.createElement(
-                          "span",
-                          { "aria-hidden": "true" },
-                          "\u3000",
-                        ),
+                    "div",
+                    { key: y, className: "example" },
+                    s.default.createElement("p", null, v.q),
+                    s.default.createElement(
+                      "button",
+                      {
+                        className: "translation-slot",
+                        "aria-expanded": i.includes(y),
+                        onClick: () =>
+                          c((u) =>
+                            u.includes(y) ? u.filter((f) => f !== y) : [...u, y],
+                          ),
+                      },
+                      i.includes(y)
+                        ? v.a
+                        : s.default.createElement(
+                            "span",
+                            { "aria-hidden": "true" },
+                            "\u3000",
+                          ),
+                    ),
                   ),
                 ),
               ),
