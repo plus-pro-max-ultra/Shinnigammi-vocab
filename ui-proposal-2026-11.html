@@ -15,35 +15,36 @@ li{margin:6px 0}
 .note{border:1px solid #2c313a;border-radius:10px;padding:10px 12px;background:#1b1e24;font-size:13px;color:#979da6;margin:14px 0}
 .sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin:0 3px}
 </style></head><body><main>
-<span class="tag">草案 v2 · 2026-11-09</span>
+<span class="tag">草案 v3 · 2026-11-09</span>
 <h1>單字網站 UI 統一提案</h1>
 <p class="sub">依 2026-11-09 的方向指示整理：以參考圖二與 Apple 液態玻璃（Liquid Glass）為方向，統一全站視覺語言與互動原則。本頁只是提案；未經同意前，正式網站不會套用玻璃樣式。</p>
 
-<h2>本次修訂（v1 → v2）</h2>
+<h2>修訂紀錄</h2>
 <ul>
 <li>色彩：依 MM 指示「色彩不改變」，移除原先的 A/B 色彩二選一，全站維持現有配色（深色底＋金黃 <span class="sw" style="background:#f2c63d"></span> 點綴）。</li>
 <li>圖示與比例：MM 指出「比例看起來有點怪，有些圖示的大小不一、課程圖示意義不明」。操縱欄圖示已改為同一套線條圖示（相同 20px 視覺大小、相同 1.8px 線條粗細），「課程」改用書本圖示，中央分頁列高度與兩側圓鈕對齊。這部分屬現行缺陷修正，已於 v14.75 上線。</li>
 <li>對照圖更新為現行 v14.75 實際畫面 vs 提案模擬。</li>
+<li>v2 → v3：依 MM 15:25 提供的參考圖微調操縱欄——中央分頁列改為浮動膠囊外殼（圓角加大、頂緣高光更柔），啟用分頁改為內嵌深色圓角塊；圖示維持線條風格置於標籤上方。色彩與左課程右測驗的配置不變（參考圖之標籤與顏色僅作風格參考）。</li>
 </ul>
 
 <h2>現行 vs 提案對照（手機 390px 實際畫面）</h2>
 <p>左為現行 v14.75，右為同一畫面套用提案玻璃樣式的模擬。提案只改表面質感，不改配色、版面結構與內容。</p>
 <div class="pair">
 <figure><img src="proposal-assets/v1475-home.png" alt="現行課程首頁"><figcaption>現行 · 課程首頁</figcaption></figure>
-<figure><img src="proposal-assets/prop2-home.png" alt="提案課程首頁"><figcaption>提案 · 課程首頁</figcaption></figure>
+<figure><img src="proposal-assets/prop3-home.png" alt="提案課程首頁"><figcaption>提案 · 課程首頁</figcaption></figure>
 </div>
 <div class="pair">
 <figure><img src="proposal-assets/v1475-lesson.png" alt="現行每日課程"><figcaption>現行 · 每日課程</figcaption></figure>
-<figure><img src="proposal-assets/prop2-lesson.png" alt="提案每日課程"><figcaption>提案 · 每日課程</figcaption></figure>
+<figure><img src="proposal-assets/prop3-lesson.png" alt="提案每日課程"><figcaption>提案 · 每日課程</figcaption></figure>
 </div>
 <div class="pair">
 <figure><img src="proposal-assets/v1475-word.png" alt="現行單字頁"><figcaption>現行 · 單字頁</figcaption></figure>
-<figure><img src="proposal-assets/prop2-word.png" alt="提案單字頁"><figcaption>提案 · 單字頁</figcaption></figure>
+<figure><img src="proposal-assets/prop3-word.png" alt="提案單字頁"><figcaption>提案 · 單字頁</figcaption></figure>
 </div>
 
 <h2>視覺原則</h2>
 <ul>
-<li>浮動磨砂層：底部操縱欄與頂部標題改為浮動半透明層，後方內容隱約透出；層次來自前後關係，不靠厚重陰影。</li>
+<li>浮動磨砂層：底部操縱欄與頂部標題改為浮動半透明層，後方內容隱約透出；層次來自前後關係，不靠厚重陰影。中央分頁列為膠囊外殼，啟用分頁以內嵌深色圓角塊呈現，整體圓角更柔、高光更淡。</li>
 <li>卡片玻璃化：圓角加大（18px）、1px 細邊框、頂緣一道細高光、底色微透。</li>
 <li>配色完全不變：深色基底保留，只加一層極淡的頂部漸層增加深度；金黃仍只用於啟用態、熟悉度、主要操作。</li>
 <li>閱讀區（課文、單字內容）維持穩定實色，不罩玻璃層。</li>
