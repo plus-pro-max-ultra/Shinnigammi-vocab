@@ -1226,9 +1226,8 @@
     "en": "How are you? - Well, thanks."
    },
    {
-    "text": "„Danke für die Hilfe.“ – „Keine Ursache.“",
-    "en": "\"Thank you for helping me.\" \"Don't mention it.\"",
-    "zh": "“謝謝你幫了我。”“沒什麼。”"
+    "text": "Danke, sehr gut!",
+    "zh": "很好，謝謝。"
    }
   ],
   "ipaNote": "Phrase IPA assembled from standard word pronunciations / 片語音標依單字讀音組合",
@@ -2929,9 +2928,8 @@
     "en": "The theatre is here."
    },
    {
-    "text": "Wo kann ich Theaterkarten kaufen?",
-    "en": "Where can I buy tickets to the theatre?",
-    "zh": "我可以在哪裡買到戲票？"
+    "text": "Geht ihr heute Abend ins Theater?",
+    "zh": "你今晚要去劇院嗎？"
    }
   ],
   "topic": "in der Freizeit"
@@ -3792,9 +3790,8 @@
     "en": "The course is here."
    },
    {
-    "text": "Wie ist der Wechselkurs?",
-    "en": "What is the exchange rate?",
-    "zh": "匯率是多少？"
+    "text": "Der Kurs fängt um zehn an.",
+    "zh": "十點開始上課。"
    }
   ],
   "topic": "Berufe und Arbeit"
@@ -4231,9 +4228,8 @@
     "en": "It is a lovely day."
    },
    {
-    "text": "Herzlichen Glückwunsch zum Geburtstag, Muiriel!",
-    "en": "Happy birthday, Muiriel!",
-    "zh": "生日快樂，Muiriel！"
+    "text": "Schönen Tag!",
+    "zh": "祝你愉快！"
    }
   ],
   "topic": "Zeit"
@@ -5135,9 +5131,8 @@
     "en": "Take notes."
    },
    {
-    "text": "Ich habe heute mein Notizbuch verloren.",
-    "en": "I lost my notebook today.",
-    "zh": "今天我的筆記本掉了。"
+    "text": "Er hat mir eine Notiz zugesteckt.",
+    "zh": "他悄悄地遞給我一張紙條。"
    }
   ],
   "topic": "andere wichtige Wörter und Wendungen"
@@ -18820,12 +18815,6 @@
   "topic": "eine Mail schreiben",
   "examples": [
    {
-    "text": "Wir stellen hier eine Liste der häufigsten Fragen, die Esperanto betreffen, zur Verfügung.",
-    "src": "tatoeba",
-    "tid": "504711",
-    "zh": "我們在這裡羅列了常見的有關世界語的問題。"
-   },
-   {
     "text": "Verändere den Betreff.",
     "src": "tatoeba",
     "tid": "4692195",
@@ -18837,7 +18826,7 @@
   "reading": "bəˈtʁɛf",
   "ipa": "/bəˈtʁɛf/",
   "sourceUrl": "https://de.wiktionary.org/wiki/Betreff",
-  "note": "例句中文譯文待補（tatoeba 來源句尚無中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "de-760",
