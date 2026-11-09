@@ -12733,6 +12733,7 @@ Error generating stack: ` +
       [Et, be] = (0, s.useState)("courses"),
       [he, A] = (0, s.useState)(null),
       [O, ne] = (0, s.useState)(mv ?? "grid"),
+      [lesRst, lesRstSet] = (0, s.useState)(0),
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
@@ -14633,6 +14634,7 @@ Error generating stack: ` +
                     Q === "more" &&
                       O === "lessons" &&
                       s.default.createElement(LessonsView, {
+                        key: lesRst,
                         lessons: LESSONS_DATA,
                         words: V,
                         onBack: () => ne("grid"),
@@ -15509,7 +15511,7 @@ Error generating stack: ` +
             tab: Q,
             go: dg,
             onLessons: () => {
-              (Se("more"), or(""), Ce(""), A(null), ne("lessons"));
+              (Se("more"), or(""), Ce(""), A(null), ne("lessons"), lesRstSet((l) => l + 1));
             },
             lessonNum: LESSON_NUM,
             lessonsOn: Q === "more" && O === "lessons",

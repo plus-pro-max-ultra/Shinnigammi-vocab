@@ -85692,7 +85692,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.75 1109-1516",
+    O1 = "v14.76 1109-1528",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -87315,6 +87315,7 @@ Error generating stack: ` +
       [Et, be] = (0, s.useState)("courses"),
       [he, A] = (0, s.useState)(null),
       [O, ne] = (0, s.useState)(mv ?? "grid"),
+      [lesRst, lesRstSet] = (0, s.useState)(0),
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
@@ -89215,6 +89216,7 @@ Error generating stack: ` +
                     Q === "more" &&
                       O === "lessons" &&
                       s.default.createElement(LessonsView, {
+                        key: lesRst,
                         lessons: LESSONS_DATA,
                         words: V,
                         onBack: () => ne("grid"),
@@ -90091,7 +90093,7 @@ Error generating stack: ` +
             tab: Q,
             go: dg,
             onLessons: () => {
-              (Se("more"), or(""), Ce(""), A(null), ne("lessons"));
+              (Se("more"), or(""), Ce(""), A(null), ne("lessons"), lesRstSet((l) => l + 1));
             },
             lessonNum: LESSON_NUM,
             lessonsOn: Q === "more" && O === "lessons",
