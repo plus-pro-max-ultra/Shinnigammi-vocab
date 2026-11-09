@@ -14505,6 +14505,7 @@ Error generating stack: ` +
                           "div",
                           { className: "more-grid" },
                           [
+                            ["lessons", "\u6BCF\u65E5\u8AB2\u7A0B", "\u8AB2"],
                             ["add", "\u65B0\u589E\u55AE\u5B57", "\uFF0B"],
                             ["staging", "\u66AB\u5B58\u5340", "\u66AB"],
                             [
@@ -14563,6 +14564,22 @@ Error generating stack: ` +
                           ),
                         ),
                       ),
+                    Q === "more" &&
+                      O === "lessons" &&
+                      s.default.createElement(LessonsView, {
+                        lessons: LESSONS_DATA,
+                        words: V,
+                        onBack: () => ne("grid"),
+                        onOpenWord: (l) => {
+                          let z = V.find((v) => v.id === l);
+                          z &&
+                            (_(z.lang),
+                            eo(
+                              z,
+                              V.filter((v) => v.lang === z.lang && !v.bank),
+                            ));
+                        },
+                      }),
                     Q === "more" &&
                       O === "add" &&
                       s.default.createElement(
@@ -15914,6 +15931,150 @@ Error generating stack: ` +
             "\u4F8B\u53E5\u4F86\u81EA Tatoeba\uFF08CC BY 2.0 FR\uFF09\uFF0C\u4E2D\u6587\u70BA\u793E\u7FA4\u7FFB\u8B6F\u4E26\u81EA\u52D5\u8F49\u70BA\u7E41\u9AD4\uFF0C\u672A\u9010\u53E5\u4EBA\u5DE5\u6821\u5C0D\u3002",
           ),
       )
+    );
+  }
+  var LESSONS_DATA = __LESSONS__;
+  function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o }) {
+    let [n, a] = (0, s.useState)(null),
+      [i, c] = (0, s.useState)([]),
+      d = {};
+    t.forEach((v) => (d[v.id] = v));
+    let p = [...e].sort((v, y) => (v.date < y.date ? 1 : -1)),
+      h = e.find((v) => v.id === n);
+    return s.default.createElement(
+      s.default.Fragment,
+      null,
+      s.default.createElement(We, {
+        title: "\u6BCF\u65E5\u8AB2\u7A0B",
+        sub: h ? h.date : "\u6BCF\u65E5\u8AB2\u7A0B\u6B78\u6A94",
+        onBack: h ? () => a(null) : o,
+      }),
+      !h &&
+        e.length === 0 &&
+        s.default.createElement(
+          "p",
+          { className: "empty" },
+          "\u5C1A\u7121\u8AB2\u7A0B\uFF1B\u6BCF\u65E5\u8AB2\u7A0B\u4EA4\u4ED8\u5F8C\u6703\u6B78\u6A94\u5728\u9019\u88E1\u3002",
+        ),
+      !h &&
+        p.map((v) =>
+          s.default.createElement(
+            "button",
+            { className: "word-row", key: v.id, onClick: () => a(v.id) },
+            s.default.createElement(
+              "span",
+              null,
+              s.default.createElement("strong", null, v.title || v.date),
+            ),
+            s.default.createElement(
+              "span",
+              { className: "muted" },
+              v.date,
+              " \u00B7 ",
+              v.lang === "jp" ? "\u65E5\u6587" : "\u5FB7\u6587",
+              v.words && v.words.length
+                ? " \u00B7 " + v.words.length + " \u500B\u55AE\u5B57"
+                : "",
+            ),
+          ),
+        ),
+      h &&
+        s.default.createElement(
+          s.default.Fragment,
+          null,
+          (h.sections || []).map((v, y) =>
+            s.default.createElement(
+              "section",
+              { key: y, className: "examples" },
+              v.h && s.default.createElement("h3", null, v.h),
+              v.en && s.default.createElement("p", null, v.en),
+              v.zh && s.default.createElement("p", { className: "muted" }, v.zh),
+            ),
+          ),
+          h.words &&
+            h.words.length > 0 &&
+            s.default.createElement(
+              "section",
+              { className: "examples" },
+              s.default.createElement("h3", null, "\u672C\u8AB2\u55AE\u5B57"),
+              h.words.map((v) => {
+                let y = d[v];
+                return y
+                  ? s.default.createElement(
+                      "button",
+                      { className: "word-row", key: v, onClick: () => r(v) },
+                      s.default.createElement(
+                        "span",
+                        null,
+                        s.default.createElement("strong", null, y.word),
+                      ),
+                      s.default.createElement(
+                        "span",
+                        { className: "muted" },
+                        [y.reading, y.zh || y.en].filter(Boolean).join(" \u00B7 "),
+                      ),
+                    )
+                  : s.default.createElement(
+                      "p",
+                      { key: v, className: "muted" },
+                      v,
+                    );
+              }),
+            ),
+          h.grammar &&
+            h.grammar.length > 0 &&
+            s.default.createElement(
+              "section",
+              { className: "examples" },
+              s.default.createElement("h3", null, "\u6587\u6CD5"),
+              h.grammar.map((v, y) =>
+                s.default.createElement(
+                  "div",
+                  { key: y, className: "example" },
+                  s.default.createElement("p", null, v.point),
+                  v.note &&
+                    s.default.createElement("p", { className: "muted" }, v.note),
+                ),
+              ),
+            ),
+          h.practice &&
+            h.practice.length > 0 &&
+            s.default.createElement(
+              "section",
+              { className: "examples" },
+              s.default.createElement("h3", null, "\u7DF4\u7FD2"),
+              s.default.createElement(
+                "p",
+                { className: "muted" },
+                "\u9EDE\u984C\u76EE\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7B54\u6848",
+              ),
+              h.practice.map((v, y) =>
+                s.default.createElement(
+                  "div",
+                  { key: y, className: "example" },
+                  s.default.createElement("p", null, v.q),
+                  s.default.createElement(
+                    "button",
+                    {
+                      className: "translation-slot",
+                      "aria-expanded": i.includes(y),
+                      onClick: () =>
+                        c((u) =>
+                          u.includes(y) ? u.filter((f) => f !== y) : [...u, y],
+                        ),
+                    },
+                    i.includes(y)
+                      ? v.a
+                      : s.default.createElement(
+                          "span",
+                          { "aria-hidden": "true" },
+                          "\u3000",
+                        ),
+                  ),
+                ),
+              ),
+            ),
+        ),
     );
   }
   var Dm = {
@@ -19115,6 +19276,7 @@ Error generating stack: ` +
         ["search", "/search"],
         ["library", "/library"],
         ["more", "/more"],
+        ["more", "/more/lessons", "lessons"],
         ["more", "/more/progress", "stats"],
         ["more", "/more/settings", "settings"],
         ["more", "/progress", "stats"],

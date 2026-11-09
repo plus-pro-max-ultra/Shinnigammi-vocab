@@ -39,6 +39,7 @@ def md_to_html(md):
 
 wj=rd('words.json').strip()
 js=rd('app.js').replace('__WORDS__',wj)
+js=js.replace('__LESSONS__',rd('lessons.json').strip())
 import json as _json
 _w=_json.loads(wj)
 # Data validation: duplicate examples within an entry are fatal (a repeated
