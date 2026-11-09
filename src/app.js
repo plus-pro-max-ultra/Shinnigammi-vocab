@@ -15934,6 +15934,70 @@ Error generating stack: ` +
     );
   }
   var LESSONS_DATA = __LESSONS__;
+  function lessonLinkify(e) {
+    return e.split(/(https?:\/\/[^\s)]+)/g).map((t, r) =>
+      /^https?:/.test(t)
+        ? s.default.createElement(
+            "a",
+            { key: r, href: t, target: "_blank", rel: "noreferrer" },
+            t,
+          )
+        : t,
+    );
+  }
+  function renderLessonText(e) {
+    let t = [],
+      r = null,
+      o = 0;
+    let n = () => {
+      r &&
+        (t.push(s.default.createElement("ul", { key: "l" + o++ }, r)),
+        (r = null));
+    };
+    e.split("\n").forEach((a) => {
+      let i = a.trim();
+      if (!i) return n();
+      if (i.startsWith("- "))
+        return (r = r || []).push(
+          s.default.createElement("li", { key: "i" + o++ }, lessonLinkify(i.slice(2))),
+        );
+      n();
+      t.push(s.default.createElement("p", { key: "p" + o++ }, lessonLinkify(i)));
+    });
+    n();
+    return t;
+  }
+  function LessonAnswerSlot({ en: e, zh: t }) {
+    let [r, o] = (0, s.useState)(!1);
+    return s.default.createElement(
+      "div",
+      { className: "example" },
+      s.default.createElement(
+        "button",
+        {
+          className: "translation-slot",
+          "aria-expanded": r,
+          onClick: () => o(!r),
+        },
+        r
+          ? s.default.createElement(
+              "span",
+              null,
+              renderLessonText(e),
+              s.default.createElement(
+                "span",
+                { className: "muted" },
+                renderLessonText(t),
+              ),
+            )
+          : s.default.createElement(
+              "span",
+              { className: "muted" },
+              "\u9EDE\u6309\u770B\u7B54\u6848",
+            ),
+      ),
+    );
+  }
   function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o }) {
     let [n, a] = (0, s.useState)(null),
       [i, c] = (0, s.useState)([]),
@@ -15982,15 +16046,30 @@ Error generating stack: ` +
         s.default.createElement(
           s.default.Fragment,
           null,
-          (h.sections || []).map((v, y) =>
-            s.default.createElement(
+          (h.sections || []).map((v, y) => {
+            let u = (v.en || "").split("\n"),
+              f = (v.zh || "").split("\n");
+            v.h && u[0] && u[0].trim().startsWith(v.h) && (u = u.slice(1));
+            let d = u.findIndex((z) => /^\s*Answers\s*[:\uFF1A]/.test(z)),
+              m = f.findIndex((z) => /^\s*\u7B54\u6848\s*[:\uFF1A]/.test(z)),
+              g = d >= 0 ? u.slice(0, d) : u,
+              b = m >= 0 ? f.slice(0, m) : f,
+              w = d >= 0 ? u.slice(d).join("\n") : "",
+              N = m >= 0 ? f.slice(m).join("\n") : "";
+            return s.default.createElement(
               "section",
               { key: y, className: "examples" },
               v.h && s.default.createElement("h3", null, v.h),
-              v.en && s.default.createElement("p", null, v.en),
-              v.zh && s.default.createElement("p", { className: "muted" }, v.zh),
-            ),
-          ),
+              renderLessonText(g.join("\n")),
+              s.default.createElement(
+                "div",
+                { className: "muted" },
+                renderLessonText(b.join("\n")),
+              ),
+              (w || N) &&
+                s.default.createElement(LessonAnswerSlot, { en: w, zh: N }),
+            );
+          }),
           h.words &&
             h.words.length > 0 &&
             s.default.createElement(
