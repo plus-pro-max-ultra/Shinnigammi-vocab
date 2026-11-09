@@ -15,31 +15,38 @@ li{margin:6px 0}
 .note{border:1px solid #2c313a;border-radius:10px;padding:10px 12px;background:#1b1e24;font-size:13px;color:#979da6;margin:14px 0}
 .sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin:0 3px}
 </style></head><body><main>
-<span class="tag">草案 v1 · 2026-11-09</span>
+<span class="tag">草案 v2 · 2026-11-09</span>
 <h1>單字網站 UI 統一提案</h1>
-<p class="sub">依 2026-11-09 的方向指示整理：以參考圖二與 Apple 液態玻璃（Liquid Glass）為方向，統一全站視覺語言與互動原則。本頁只是提案；未經同意前，正式網站不會更動。</p>
+<p class="sub">依 2026-11-09 的方向指示整理：以參考圖二與 Apple 液態玻璃（Liquid Glass）為方向，統一全站視覺語言與互動原則。本頁只是提案；未經同意前，正式網站不會套用玻璃樣式。</p>
+
+<h2>本次修訂（v1 → v2）</h2>
+<ul>
+<li>色彩：依 MM 指示「色彩不改變」，移除原先的 A/B 色彩二選一，全站維持現有配色（深色底＋金黃 <span class="sw" style="background:#f2c63d"></span> 點綴）。</li>
+<li>圖示與比例：MM 指出「比例看起來有點怪，有些圖示的大小不一、課程圖示意義不明」。操縱欄圖示已改為同一套線條圖示（相同 20px 視覺大小、相同 1.8px 線條粗細），「課程」改用書本圖示，中央分頁列高度與兩側圓鈕對齊。這部分屬現行缺陷修正，已於 v14.75 上線。</li>
+<li>對照圖更新為現行 v14.75 實際畫面 vs 提案模擬。</li>
+</ul>
 
 <h2>現行 vs 提案對照（手機 390px 實際畫面）</h2>
-<p>左為現行 v14.74，右為同一畫面套用提案樣式的模擬。</p>
+<p>左為現行 v14.75，右為同一畫面套用提案玻璃樣式的模擬。提案只改表面質感，不改配色、版面結構與內容。</p>
 <div class="pair">
-<figure><img src="proposal-assets/cur-home.png" alt="現行課程首頁"><figcaption>現行 · 課程首頁</figcaption></figure>
-<figure><img src="proposal-assets/prop-home.png" alt="提案課程首頁"><figcaption>提案 · 課程首頁</figcaption></figure>
+<figure><img src="proposal-assets/v1475-home.png" alt="現行課程首頁"><figcaption>現行 · 課程首頁</figcaption></figure>
+<figure><img src="proposal-assets/prop2-home.png" alt="提案課程首頁"><figcaption>提案 · 課程首頁</figcaption></figure>
 </div>
 <div class="pair">
-<figure><img src="proposal-assets/cur-lesson.png" alt="現行每日課程"><figcaption>現行 · 每日課程</figcaption></figure>
-<figure><img src="proposal-assets/prop-lesson.png" alt="提案每日課程"><figcaption>提案 · 每日課程</figcaption></figure>
+<figure><img src="proposal-assets/v1475-lesson.png" alt="現行每日課程"><figcaption>現行 · 每日課程</figcaption></figure>
+<figure><img src="proposal-assets/prop2-lesson.png" alt="提案每日課程"><figcaption>提案 · 每日課程</figcaption></figure>
 </div>
 <div class="pair">
-<figure><img src="proposal-assets/cur-word.png" alt="現行單字頁"><figcaption>現行 · 單字頁</figcaption></figure>
-<figure><img src="proposal-assets/prop-word.png" alt="提案單字頁"><figcaption>提案 · 單字頁</figcaption></figure>
+<figure><img src="proposal-assets/v1475-word.png" alt="現行單字頁"><figcaption>現行 · 單字頁</figcaption></figure>
+<figure><img src="proposal-assets/prop2-word.png" alt="提案單字頁"><figcaption>提案 · 單字頁</figcaption></figure>
 </div>
 
 <h2>視覺原則</h2>
 <ul>
 <li>浮動磨砂層：底部操縱欄與頂部標題改為浮動半透明層，後方內容隱約透出；層次來自前後關係，不靠厚重陰影。</li>
 <li>卡片玻璃化：圓角加大（18px）、1px 細邊框、頂緣一道細高光、底色微透。</li>
-<li>深色基底保留，只加一層極淡的頂部漸層增加深度。</li>
-<li>小按鍵統一為圓形／膠囊語彙，與操縱欄一致。</li>
+<li>配色完全不變：深色基底保留，只加一層極淡的頂部漸層增加深度；金黃仍只用於啟用態、熟悉度、主要操作。</li>
+<li>閱讀區（課文、單字內容）維持穩定實色，不罩玻璃層。</li>
 </ul>
 
 <h2>互動原則</h2>
@@ -48,13 +55,6 @@ li{margin:6px 0}
 <li>狀態改變一定有動畫以外的依據（顏色或圖示），不靠動畫傳達。</li>
 <li>以點按為主，不新增滑動手勢；測驗作答流程不變。</li>
 </ul>
-
-<h2>色彩方案（請 MM 二選一）</h2>
-<ul>
-<li><strong>A（建議）</strong>：保留金黃 <span class="sw" style="background:#f2c63d"></span> 為唯一點綴色，只用於啟用態、熟悉度、主要操作。理由：學習場景需要一眼辨認「現在在哪、什麼可按」；參考圖的全灰階適合系統控制列，但全站單色在深色玻璃上對比偏弱。金色是既有識別，不是新增裝飾。</li>
-<li><strong>B</strong>：全灰階＋白色強調，完全貼近參考圖；啟用態以白色與粗細區分。代價：熟悉度色階與啟用態的辨識較弱。</li>
-</ul>
-<p>兩案都不新增色彩、不做裝飾性視覺，避免「AI 感」的花俏外觀。</p>
 
 <h2>守護與降級</h2>
 <ul>
@@ -72,5 +72,5 @@ li{margin:6px 0}
 </ul>
 <p>每階段以手機尺寸截圖驗證後再進行下一步。</p>
 
-<div class="note">待 MM 決定：色彩方案 A 或 B；是否進入第一階段。</div>
+<div class="note">待 MM 決定：是否進入第一階段（玻璃樣式套用於操縱欄、頁首與卡片）。色彩已定不變；圖示與比例修正已於 v14.75 上線，若有不合再調整。</div>
 </main></body></html>
