@@ -11077,6 +11077,9 @@ Error generating stack: ` +
     {"id": "jp-grammar-014", "lang": "jp", "contentType": "grammar", "title": "て形連接：依序描述動作", "rule": "前面的動詞用て形，最後一個動詞決定整句的時態與禮貌程度。可描述動作先後；依上下文也可能表示同時、手段或原因，不是所有て形都等於「然後」。", "examples": [{"text": "起きてトイレに行った。", "zh": "待補（來源例句中文待核對）"}, {"text": "走ってシャワーをする。", "zh": "待補（來源例句中文待核對）"}], "sourceUrl": "https://www.tofugu.com/japanese-grammar/te-form/"},
     {"id": "jp-grammar-015", "lang": "jp", "contentType": "grammar", "title": "～てもいいです／～てもいいですか：許可", "rule": "動詞て形＋もいいです，表示「可以～」；句尾加か（～てもいいですか）是詢問對方許可。回答許可時可說「いいですよ」，不許可時需另用禁止的說法。", "examples": [{"text": "入ってもいいですか？", "zh": "我可以進來嗎?", "src": "tatoeba", "tid": "4147428"}, {"text": "触ってもいいですか？", "zh": "可以碰嗎？", "src": "tatoeba", "tid": "9698661"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%82%82%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-temo-ii-desu-ka-meaning/"},
     {"id": "jp-grammar-016", "lang": "jp", "contentType": "grammar", "title": "～てはいけません：禁止", "rule": "動詞て形＋はいけません，表示「不可以～」，是明確的禁止；普通形為 てはいけない。本課只學禁止用法，不把「なくてはいけません」（必須）混在一起。", "examples": [{"text": "約束を破ってはいけません。", "zh": "我們不能違背我們的承諾。", "src": "tatoeba", "tid": "79515"}, {"text": "人を指差してはいけません。", "zh": "不能用手指人。", "src": "tatoeba", "tid": "144393"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84-te-wa-ikenai-meaning/"},
+    {"id": "jp-grammar-017", "lang": "jp", "contentType": "grammar", "title": "～てから：做完之後再做", "rule": "動詞て形＋から，表示先完成前一動作，再進行後一動作；強調先後順序。", "examples": [{"text": "考えてから言いなさい。", "src": "tatoeba", "tid": "173468", "zh": "你在說話前應該先思考。"}, {"text": "電話をしてから来てください。", "src": "tatoeba", "tid": "124665", "zh": "待補（來源無已核對直接中文譯文）", "zhPending": true}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%8B%E3%82%89-te-kara-meaning/"},
+    {"id": "jp-grammar-018", "lang": "jp", "contentType": "grammar", "title": "～ています：習慣與反覆動作", "rule": "動詞て形＋います也可表示習慣或經常反覆發生的動作，常與毎日、毎朝、いつも等搭配；須按動詞與上下文判斷，不能一律譯為正在。", "examples": [{"text": "毎日英語を勉強していますか？", "src": "tatoeba", "tid": "231555", "zh": "待補（來源無已核對直接中文譯文）", "zhPending": true}, {"text": "毎日朝と夜、猫に餌を与えています。", "src": "tatoeba", "tid": "897051", "zh": "每天早晚，我給我的貓餵食。"}], "sourceUrl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B-te-iru-meaning/"},
+
   ];
   var V = fm,
     P1 = "mmv:vocabulary.userwords.v1",
@@ -11824,6 +11827,7 @@ Error generating stack: ` +
         { id: "morning", name: "\u65E9\u6668\u751F\u6D3B" },
         { id: "evening", name: "晚間生活與習慣" },
         { id: "town", name: "城鎮與問路" },
+        { id: "health", name: "身體與感受" },
         ...jm,
       ],
       entries: Object.fromEntries(

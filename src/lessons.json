@@ -94,5 +94,122 @@
     "a": "Free writing; send to Instinct anytime for correction."
    }
   ]
+ },
+ {
+  "id": "2026-11-10-jp",
+  "num": 14,
+  "date": "2026-11-10",
+  "lang": "jp",
+  "title": "Japanese - Lesson 14: Body & how you feel - te kara and habitual te-iru",
+  "sections": [
+   {
+    "h": "Quick recall",
+    "en": "Quick recall (answers at the end):\n1. ここで写真を撮って___いいですか。(May I take photos here?)\n2. ここでタバコを吸っては___。(You must not smoke here.)\n3. What does てもいいですか mean?\n4. 「バス停」の読み方は?\n5. Say in Japanese: \"You must not enter.\" 入って___。\n\nAnswers: 1. も; 2. いけません; 3. \"May I ...?\"; 4. バスてい (bus stop); 5. 入ってはいけません。",
+    "zh": "暖身複習(答案在最後):\n1. ここで写真を撮って___いいですか。(我可以在這裡拍照嗎?)\n2. ここでタバコを吸っては___。(不可以在這裡吸菸。)\n3. てもいいですか 是什麼意思?\n4. 「バス停」怎麼讀?\n5. 用日文說「不可以進去」:入って___。\n\n答案:1. も;2. いけません;3. 「我可以~嗎?」;4. バスてい(公車站);5. 入ってはいけません。"
+   },
+   {
+    "h": "Point 1: Verb te-form + kara",
+    "en": "Point 1: Verb te-form + kara - \"after doing\"\nPattern: verb te-form + から. It marks that one action finishes, then the next happens. Use it when the order matters.\n- 朝ご飯を食べてから、学校に行きます。(After eating breakfast, I go to school.)\n- シャワーを浴びてから、出かけます。(After taking a shower, I go out.)\n- 手を洗ってから、ご飯を食べます。(After washing my hands, I eat.)\nCompare with plain te-form chaining (Lesson 11): 起きて、顔を洗います just lists actions in order; てから stresses \"after, and only after\".",
+    "zh": "重點 1:動詞て形 + から - 「做完~之後」\n句型:動詞て形 + から。表示一個動作完成後,接著做下一個動作;強調順序。\n- 朝ご飯を食べてから、学校に行きます。(吃完早餐後去學校。)\n- シャワーを浴びてから、出かけます。(洗完澡後出門。)\n- 手を洗ってから、ご飯を食べます。(洗完手後吃飯。)\n和第 11 課的て形連接比較:起きて、顔を洗います 只是依序列出動作;てから 強調「做完之後才」。"
+   },
+   {
+    "h": "Point 2: te-iru for habits",
+    "en": "Point 2: te-iru for habits\nYou know ています for actions in progress (Lesson 10). The same form also describes habits: things you do regularly.\n- 毎朝、歯を磨いています。(I brush my teeth every morning.)\n- 毎日、日本語を勉強しています。(I study Japanese every day.)\n- 週に三回、運動しています。(I exercise three times a week.)\nThe time word tells you which meaning it is: 今 (now) = in progress; 毎日・毎朝・いつも = habit.",
+    "zh": "重點 2:表示習慣的 ている\n第 10 課學過 ています 表示正在進行的動作。同一個句型也可以表示習慣:經常做的事。\n- 毎朝、歯を磨いています。(我每天早上刷牙。)\n- 毎日、日本語を勉強しています。(我每天讀日文。)\n- 週に三回、運動しています。(我一週運動三次。)\n看時間詞分辨意思:今(現在)= 正在進行;毎日・毎朝・いつも = 習慣。"
+   },
+   {
+    "h": "New words (30)",
+    "en": "New words (30, all genuinely new - verified against pool v14.65):\nBody parts:\n- 喉 (のど) - throat\n- 肩 (かた) - shoulder\n- 胸 (むね) - chest\n- 腰 (こし) - lower back / waist\n- 膝 (ひざ) - knee\n- 肌 (はだ) - skin\n- 爪 (つめ) - nail (finger/toe)\n- 手首 (てくび) - wrist\n- 足首 (あしくび) - ankle\n- 舌 (した) - tongue\n- 唇 (くちびる) - lips\n- 頬 (ほほ) - cheek\n- 顎 (あご) - chin\nHealth & feelings:\n- 咳 (せき) - cough\n- 頭痛 (ずつう) - headache\n- 健康 (けんこう) - health\n- 怪我 (けが) - injury\n- 汗 (あせ) - sweat\n- 心配 (しんぱい) - worry\n- 嬉しい (うれしい) - happy / glad\n- くしゃみ (くしゃみ) - sneeze\n- 食欲 (しょくよく) - appetite\n- 渇く (かわく) - to be thirsty\nWeather & moisture:\n- 気温 (きおん) - temperature\n- 蒸し暑い (むしあつい) - humid / muggy\n- 梅雨 (つゆ) - rainy season\n- 湿気 (しっけ) - humidity / moisture\nSelf-care phrases:\n- 顔を洗う (かおをあらう) - to wash one's face\n- シャワーを浴びる (しゃわーをあびる) - to take a shower\n- 着替える (きがえる) - to change clothes",
+    "zh": "新單字(30 個,全部為新詞 - 已對照當前字庫 v15.04 查重):\n身體部位:\n- 喉(のど)- 喉嚨\n- 肩(かた)- 肩膀\n- 胸(むね)- 胸口、胸部\n- 腰(こし)- 腰\n- 膝(ひざ)- 膝蓋\n- 肌(はだ)- 肌膚\n- 爪(つめ)- 指甲\n- 手首(てくび)- 手腕\n- 足首(あしくび)- 腳踝\n- 舌(した)- 舌頭\n- 唇(くちびる)- 嘴唇\n- 頬(ほほ)- 臉頰\n- 顎(あご)- 下巴\n身體狀況與心情:\n- 咳(せき)- 咳嗽\n- 頭痛(ずつう)- 頭痛\n- 健康(けんこう)- 健康\n- 怪我(けが)- 受傷\n- 汗(あせ)- 汗\n- 心配(しんぱい)- 擔心\n- 嬉しい(うれしい)- 開心的\n- くしゃみ(くしゃみ)- 打噴嚏\n- 食欲(しょくよく)- 食慾\n- 渇く(かわく)- 口渴\n天氣與濕氣:\n- 気温(きおん)- 氣溫\n- 蒸し暑い(むしあつい)- 悶熱的\n- 梅雨(つゆ)- 梅雨季\n- 湿気(しっけ)- 濕氣\n日常自理:\n- 顔を洗う(かおをあらう)- 洗臉\n- シャワーを浴びる(しゃわーをあびる)- 洗淋浴\n- 着替える(きがえる)- 換衣服"
+   },
+   {
+    "h": "Review words",
+    "en": "Review words (from your pool): 起きる (jp-015), 歯を磨く (jpl12-11), 通勤 (jpl11-08), 頭 (jp-196), 薬 (jp-302), 元気 (jp-064)",
+    "zh": "複習單字(來自你的字庫):起きる (jp-015)、歯を磨く (jpl12-11)、通勤 (jpl11-08)、頭 (jp-196)、薬 (jp-302)、元気 (jp-064)"
+   },
+   {
+    "h": "Learn more",
+    "en": "Learn more:\nてから (jlptsensei, N5): https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%8B%E3%82%89-te-kara-meaning/\nている (jlptsensei, N5; see the habitual section): https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B-te-iru-meaning/",
+    "zh": "延伸資源:\nてから(jlptsensei,N5):https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%8B%E3%82%89-te-kara-meaning/\nている(jlptsensei,N5,見習慣用法一節):https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%84%E3%82%8B-te-iru-meaning/"
+   }
+  ],
+  "words": [
+   "jpl14-01",
+   "jpl14-02",
+   "jpl14-03",
+   "jpl14-04",
+   "jpl14-05",
+   "jpl14-06",
+   "jpl14-07",
+   "jpl14-08",
+   "jpl14-09",
+   "jpl14-10",
+   "jpl14-11",
+   "jpl14-12",
+   "jpl14-13",
+   "jpl14-14",
+   "jpl14-15",
+   "jpl14-16",
+   "jpl14-17",
+   "jpl14-18",
+   "jpl14-19",
+   "jpl14-20",
+   "jpl14-21",
+   "jpl14-22",
+   "jpl14-23",
+   "jpl14-24",
+   "jpl14-25",
+   "jpl14-26",
+   "jpl14-27",
+   "jpl14-28",
+   "jpl14-29",
+   "jpl14-30",
+   "jp-015",
+   "jpl12-11",
+   "jpl11-08",
+   "jp-196",
+   "jp-302",
+   "jp-064"
+  ],
+  "grammar": [
+   {
+    "point": "Verb te-form + kara",
+    "note": "After doing X, then Y; stresses that the first action finishes before the next. Compare plain te-form chaining which only lists actions in order."
+   },
+   {
+    "point": "te-iru for habits",
+    "note": "Same ています form as the in-progress use; time words decide the meaning: 今 = in progress, 毎日・毎朝・いつも = habit."
+   }
+  ],
+  "practice": [
+   {
+    "q": "Fill in with てから: ご飯を食べ___、出かけます。",
+    "a": "食べてから"
+   },
+   {
+    "q": "Fill in (habit): 毎朝、歯を磨いて___。",
+    "a": "磨いています"
+   },
+   {
+    "q": "Translate: シャワーを浴びてから、寝ます。",
+    "a": "After taking a shower, I go to sleep."
+   },
+   {
+    "q": "「喉」の読み方は?意味は?",
+    "a": "のど - throat"
+   },
+   {
+    "q": "「あしくび」の漢字は?意味は?",
+    "a": "足首 - ankle"
+   },
+   {
+    "q": "Which is a habit: 今、ご飯を食べています。/ 毎日、ご飯を食べています。",
+    "a": "毎日、ご飯を食べています。(毎日 marks a habit.)"
+   },
+   {
+    "q": "Your turn: 3 sentences - one てから, one habit with ています, one with a new body word.",
+    "a": "Free writing; send to Instinct anytime for correction."
+   }
+  ]
  }
 ]
