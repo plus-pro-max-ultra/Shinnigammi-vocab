@@ -12128,6 +12128,33 @@ Error generating stack: ` +
           ? "courses"
           : "more"
         : e;
+  function Ic({ d: e, dots: t }) {
+    return s.default.createElement(
+      "svg",
+      {
+        className: "nav-ic",
+        viewBox: "0 0 24 24",
+        "aria-hidden": "true",
+        fill: "none",
+        stroke: "currentColor",
+        "stroke-width": "1.8",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+      },
+      t
+        ? t.map(([cx, cy]) =>
+            s.default.createElement("circle", {
+              key: cx,
+              cx: cx,
+              cy: cy,
+              r: "1.6",
+              fill: "currentColor",
+              stroke: "none",
+            }),
+          )
+        : s.default.createElement("path", { d: e }),
+    );
+  }
   function V1({ tab: e, go: t, onLessons: ol, lessonNum: ln, lessonsOn: lo }) {
     return s.default.createElement(
       "nav",
@@ -12152,10 +12179,10 @@ Error generating stack: ` +
         "div",
         { className: "nav-group" },
         [
-          ["courses", "\u8AB2\u7A0B", "\u25A6"],
-          ["search", "\u67E5\u8A62", "\u2315"],
-          ["library", "\u55AE\u5B57\u5EAB", "\u2630"],
-          ["more", "\u66F4\u591A", "\u22EF"],
+          ["courses", "\u8AB2\u7A0B", "M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"],
+          ["search", "\u67E5\u8A62", "M18 11a7 7 0 1 1-14 0 7 7 0 0 1 14 0zM21 21l-4.3-4.3"],
+          ["library", "\u55AE\u5B57\u5EAB", "M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01"],
+          ["more", "\u66F4\u591A", "dots"],
         ].map(([o, n, a]) =>
           s.default.createElement(
             "button",
@@ -12165,7 +12192,15 @@ Error generating stack: ` +
               "aria-current": e === o && !lo ? "page" : void 0,
               onClick: () => t(o),
             },
-            s.default.createElement("i", { "aria-hidden": "true" }, a),
+            a === "dots"
+              ? s.default.createElement(Ic, {
+                  dots: [
+                    [5, 12],
+                    [12, 12],
+                    [19, 12],
+                  ],
+                })
+              : s.default.createElement(Ic, { d: a }),
             s.default.createElement("span", null, n),
           ),
         ),
@@ -12179,7 +12214,9 @@ Error generating stack: ` +
           "aria-current": e === "quiz" ? "page" : void 0,
           onClick: () => t("quiz"),
         },
-        s.default.createElement("i", { "aria-hidden": "true" }, "\u270E"),
+        s.default.createElement(Ic, {
+          d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z",
+        }),
       ),
     );
   }
