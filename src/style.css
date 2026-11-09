@@ -164,3 +164,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .unit-top .nav-ic,.word-row .nav-ic,.detail-top .nav-ic{width:18px;height:18px}
 .reaper-app .fam-dot-btn{display:inline-flex;align-items:center;gap:6px;width:auto;height:44px;padding:0 14px;border:1px solid var(--line);border-radius:22px;color:var(--dim);font-size:12px}
 .reaper-app .fam-dot-btn .dot-label{font-size:12px;color:var(--dim)}
+/* v15.02: tap targets + Japanese font clarity (MM 2026-11-09 20:25 feedback) */
+.reaper-app .hdr-actions button,.reaper-app .hdr-text{min-width:40px;height:40px}
+.reaper-app .hdr-actions .nav-ic{width:18px;height:18px}
+.reaper-app .hdr-back{width:40px;height:40px}
+.reaper-app .word-actions{gap:20px}
+.reaper-app .word-actions button{width:48px;height:48px;font-size:21px}
+.reaper-app .word-actions .fam-dot-btn{width:auto;height:48px;padding:0 16px;font-size:13px}
+.reaper-app.lang-jp .word-hero h1,.reaper-app.lang-jp .phonetic,.reaper-app.lang-jp .word-row-main strong,.reaper-app.lang-jp .example p,.reaper-app.lang-jp .tile-grid button,.reaper-app.lang-jp .tile-answer button,.reaper-app.lang-jp .fb-word{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",sans-serif}

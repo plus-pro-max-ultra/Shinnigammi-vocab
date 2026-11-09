@@ -13360,7 +13360,10 @@ Error generating stack: ` +
       s.default.createElement(
         "div",
         {
-          className: "reaper-app" + (window.parent !== window ? " framed" : ""),
+          className:
+          "reaper-app lang-" +
+          J +
+          (window.parent !== window ? " framed" : ""),
         },
         e === "grammar"
           ? s.default.createElement(Q1, null)
