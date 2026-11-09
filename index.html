@@ -141,6 +141,27 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .reaper-app .hdr-back{width:36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;color:var(--text);padding:0;flex:0 0 auto;font-size:0}
 .hdr-back .nav-ic{width:18px;height:18px}
 .hdr-spacer{width:36px}
+/* v15.00: site-wide glass style pass; colors unchanged */
+.reaper-app{background:radial-gradient(1100px 760px at 18% -8%,#1e222b 0%,#14161a 55%)}
+.screen-header{background:rgba(27,30,36,.55);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.08)}
+.reaper-app .bottom-nav{background:transparent;border-top:none}
+.reaper-app .bottom-nav .nav-side,.reaper-app .bottom-nav .nav-group{background:rgba(38,43,51,.55);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border:1px solid rgba(255,255,255,.09);box-shadow:0 10px 28px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.12)}
+.reaper-app .bottom-nav .nav-group{border-radius:26px;padding:4px;gap:2px}
+.reaper-app .bottom-nav .nav-group button{border-radius:20px}
+.reaper-app .bottom-nav .nav-group button.selected{background:rgba(18,20,25,.9);box-shadow:inset 0 1px 0 rgba(255,255,255,.07)}
+.reaper-app .course-card,.reaper-app .lesson-row,.reaper-app .unit-row,.reaper-app .grammar-lesson,.reaper-app .file-card,.reaper-app .card,.reaper-app .mode-tiles button,.reaper-app .tile-grid-2 button,.reaper-app .fc-sheet>button,.reaper-app .more-grid i,.reaper-app .definition-box{background:rgba(31,35,42,.55);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border:1px solid rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.07)}
+.reaper-app .course-card,.reaper-app .lesson-row,.reaper-app .unit-row,.reaper-app .grammar-lesson,.reaper-app .file-card,.reaper-app .card{border-radius:18px}
+.reaper-app .sheet,.reaper-app .fc-sheet{background:rgba(27,30,36,.72);backdrop-filter:blur(22px) saturate(1.4);-webkit-backdrop-filter:blur(22px) saturate(1.4);border:1px solid rgba(255,255,255,.1);box-shadow:0 -12px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.1)}
+.reaper-app .chip{background:rgba(31,35,42,.5);border:1px solid rgba(255,255,255,.08)}
+.reaper-app .player-btn{background:rgba(31,35,42,.55);border:1px solid rgba(255,255,255,.08)}
+.more-grid .nav-ic{width:22px;height:22px}
+.hdr-actions .nav-ic{width:16px;height:16px}
+.player-btn .nav-ic{width:22px;height:22px}
+.player-btn.play .nav-ic{width:26px;height:26px}
+.text-control .nav-ic{width:14px;height:14px}
+.tile-back .nav-ic{width:20px;height:20px}
+.inline-audio .nav-ic{width:15px;height:15px;vertical-align:-2px}
+.unit-top .nav-ic,.word-row .nav-ic,.detail-top .nav-ic{width:18px;height:18px}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -85696,7 +85717,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.77 1109-1530",
+    O1 = "v15.00 1109-1731",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -86714,15 +86735,15 @@ Error generating stack: ` +
           ? "courses"
           : "more"
         : e;
-  function Ic({ d: e, dots: t }) {
+  function Ic({ d: e, dots: t, fill: f }) {
     return s.default.createElement(
       "svg",
       {
         className: "nav-ic",
         viewBox: "0 0 24 24",
         "aria-hidden": "true",
-        fill: "none",
-        stroke: "currentColor",
+        fill: f ? "currentColor" : "none",
+        stroke: f ? "none" : "currentColor",
         "stroke-width": "1.8",
         "stroke-linecap": "round",
         "stroke-linejoin": "round",
@@ -87011,7 +87032,7 @@ Error generating stack: ` +
         s.default.createElement(
           "button",
           { "aria-label": "\u6392\u5E8F\u65B9\u5F0F", onClick: () => h(!0) },
-          "\u21C5",
+          s.default.createElement(Ic, { d: "M7 4v16M7 4L4 7M7 4l3 3M17 20V4M17 20l3-3M17 20l-3-3" }),
         ),
         s.default.createElement(
           "button",
@@ -87031,7 +87052,7 @@ Error generating stack: ` +
             disabled: !r.length,
             onClick: () => p(g.map((b) => b.id)),
           },
-          "\u266A",
+          s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
         ),
         s.default.createElement(
           "button",
@@ -87040,7 +87061,7 @@ Error generating stack: ` +
             disabled: !r.length,
             onClick: () => setQp(g.map((b) => b.id)),
           },
-          "\u270E",
+          s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
         ),
       ),
       s.default.createElement(
@@ -88862,7 +88883,7 @@ Error generating stack: ` +
                                 "aria-label": "\u6E05\u9664\u641C\u5C0B",
                                 onClick: () => or(""),
                               },
-                              "\u2715",
+                              s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                             ),
                         ),
                         Lt.trim()
@@ -88960,7 +88981,7 @@ Error generating stack: ` +
                               disabled: !Xr.length,
                               onClick: () => Jo(Xr.map((l) => l.id)),
                             },
-                            "\u266A",
+                            s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                           ),
                         ),
                         s.default.createElement(
@@ -88979,7 +89000,7 @@ Error generating stack: ` +
                                 "aria-label": "\u6E05\u9664\u641C\u5C0B",
                                 onClick: () => or(""),
                               },
-                              "\u2715",
+                              s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                             ),
                         ),
                         s.default.createElement(
@@ -89159,26 +89180,29 @@ Error generating stack: ` +
                           "div",
                           { className: "more-grid" },
                           [
-                            ["add", "\u65B0\u589E\u55AE\u5B57", "\uFF0B"],
-                            ["staging", "\u66AB\u5B58\u5340", "\u66AB"],
+                            ["add", "\u65B0\u589E\u55AE\u5B57", "M12 5v14M5 12h14", 0],
+                            ["staging", "\u66AB\u5B58\u5340", "M22 12h-6l-2 3h-4l-2-3H2M5.5 5.1L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z", 0],
                             [
                               "notebooks",
                               "\u6211\u7684\u55AE\u5B57\u672C",
-                              "\u229E",
+                              "M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z",
+                              0,
                             ],
-                            ["bookmarks", "\u66F8\u7C64\u8907\u7FD2", "\u2605"],
-                            ["custom", "\u81EA\u8A02\u55AE\u5143", "\u270E"],
-                            ["stats", "\u5B78\u7FD2\u7D71\u8A08", "\u8A08"],
-                            ["backup", "\u5099\u4EFD\u8CC7\u6599", "\u5B58"],
-                            ["settings", "\u8A2D\u5B9A", "\u8A2D"],
-                          ].map(([l, z, v]) =>
+                            ["bookmarks", "\u66F8\u7C64\u8907\u7FD2", "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", 1],
+                            ["custom", "\u81EA\u8A02\u55AE\u5143", "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z", 0],
+                            ["stats", "\u5B78\u7FD2\u7D71\u8A08", "M5 20v-8M12 20V4M19 20v-5", 0],
+                            ["backup", "\u5099\u4EFD\u8CC7\u6599", "M4 8h16v12H4zM4 8l2-4h12l2 4M10 12h4", 0],
+                            ["settings", "\u8A2D\u5B9A", "M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1", 0],
+                          ].map(([l, z, v, f]) =>
                             s.default.createElement(
                               "button",
                               { key: l, onClick: () => ne(l) },
                               s.default.createElement(
                                 "i",
                                 { "aria-hidden": "true" },
-                                v,
+                                f
+                                  ? s.default.createElement(Ic, { d: v, fill: !0 })
+                                  : s.default.createElement(Ic, { d: v }),
                               ),
                               s.default.createElement("span", null, z),
                             ),
@@ -89193,7 +89217,7 @@ Error generating stack: ` +
                             s.default.createElement(
                               "i",
                               { "aria-hidden": "true" },
-                              "\u4EE4",
+                              s.default.createElement(Ic, { d: "M14 4h6v6M20 4L10 14M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6" }),
                             ),
                             s.default.createElement(
                               "span",
@@ -89207,7 +89231,7 @@ Error generating stack: ` +
                             s.default.createElement(
                               "i",
                               { "aria-hidden": "true" },
-                              "\u6587",
+                              s.default.createElement(Ic, { d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" }),
                             ),
                             s.default.createElement(
                               "span",
@@ -90273,7 +90297,7 @@ Error generating stack: ` +
                         (j(h.id), k(h.name), d(null));
                       },
                     },
-                    "\u270E",
+                    s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -90282,7 +90306,7 @@ Error generating stack: ` +
                       "aria-label": "\u522A\u9664 " + h.name,
                       onClick: () => d(h.id),
                     },
-                    "\u2715",
+                    s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                   ),
                 ),
             c === h.id &&
@@ -90528,7 +90552,7 @@ Error generating stack: ` +
                     "aria-label": `\u6717\u8B80\u7B2C ${c + 1} \u53E5`,
                     onClick: () => o(e, i.text),
                   },
-                  "\u25D6))",
+                  s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                 ),
             ),
             s.default.createElement(
@@ -92112,17 +92136,23 @@ Error generating stack: ` +
           s.default.createElement(
             "button",
             { "aria-label": "\u96A8\u6A5F\u6392\u5E8F", onClick: b },
-            "\u21C4",
+            s.default.createElement(Ic, { d: "M4 7h11M15 4l3 3-3 3M20 17H9M9 14l-3 3 3 3" }),
           ),
           s.default.createElement(
             "button",
             { "aria-label": "\u6717\u8B80\u55AE\u5B57", onClick: () => T(e) },
-            "\u25B6",
+            s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
           ),
           s.default.createElement(
             "button",
             { "aria-label": "\u55AE\u5B57\u9078\u9805", onClick: () => D(!N) },
-            "\u22EF",
+            s.default.createElement(Ic, {
+              dots: [
+                [5, 12],
+                [12, 12],
+                [19, 12],
+              ],
+            }),
           ),
         ),
       ),
@@ -92223,7 +92253,7 @@ Error generating stack: ` +
               className: F ? "chosen" : "",
               onClick: () => K(!F),
             },
-            "\u2295",
+            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
           ),
           s.default.createElement(
             "button",
@@ -92235,7 +92265,9 @@ Error generating stack: ` +
               className: a.star ? "chosen" : "",
               onClick: () => i({ star: !a.star }),
             },
-            a.star ? "\u2605" : "\u2606",
+            a.star
+              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
           ),
           s.default.createElement(
             "button",
@@ -92259,7 +92291,7 @@ Error generating stack: ` +
           s.default.createElement(
             "button",
             { "aria-label": "\u6717\u8B80\u767C\u97F3", onClick: () => T(e) },
-            "\u25D6))",
+            s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
           ),
         ),
         j.hideMeaning && !G
@@ -92360,7 +92392,7 @@ Error generating stack: ` +
             "aria-label": "\u7DE8\u8F2F\u500B\u4EBA\u7B46\u8A18",
             onClick: () => X(!w),
           },
-          "\u270E",
+          s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
         ),
       ),
       s.default.createElement(
@@ -92943,7 +92975,9 @@ Error generating stack: ` +
                         className: c[w.id]?.star ? "chosen" : "",
                         onClick: () => p(w.id, !c[w.id]?.star),
                       },
-                      c[w.id]?.star ? "\u2605" : "\u2606",
+                      c[w.id]?.star
+                        ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+                        : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
                     ),
                     s.default.createElement(
                       "button",
@@ -93063,7 +93097,7 @@ Error generating stack: ` +
                   "aria-label": "\u6717\u8B80\u984C\u76EE",
                   onClick: () => f(w),
                 },
-                "\u25D6))",
+                s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
               ),
               (e === "familiar" ||
                 (e === "forward" &&
@@ -93238,7 +93272,7 @@ Error generating stack: ` +
                       disabled: T || !ze.length,
                       onClick: () => oe(ze.slice(0, -1)),
                     },
-                    "\u232B",
+                    s.default.createElement(Ic, { d: "M21 6H8l-5 6 5 6h13V6zM12 9.5l5 5M17 9.5l-5 5" }),
                   ),
                 ),
               ),
@@ -93428,7 +93462,7 @@ Error generating stack: ` +
                         (A.stopPropagation(), f(w));
                       },
                     },
-                    "\u25D6))",
+                    s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -93442,7 +93476,9 @@ Error generating stack: ` +
                         (A.stopPropagation(), p(w.id, !c[w.id]?.star));
                       },
                     },
-                    c[w.id]?.star ? "\u2605" : "\u2606",
+                    c[w.id]?.star
+                      ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+                      : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -93532,7 +93568,7 @@ Error generating stack: ` +
                           "aria-label": "\u95DC\u9589",
                           onClick: () => setFcPanel(!1),
                         },
-                        "\u2715",
+                        s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                       ),
                       s.default.createElement("h3", null, "\u5B57\u5361\u8A2D\u5B9A"),
                     s.default.createElement(
@@ -94048,7 +94084,7 @@ Error generating stack: ` +
                     "aria-label": "\u4E0A\u4E00\u500B",
                     onClick: () => d(Math.max(0, c - 1)),
                   },
-                  "\u2039\u2039",
+                  s.default.createElement(Ic, { d: "M12 6l-6 6 6 6M19 6l-6 6 6 6" }),
                 ),
                 s.default.createElement(
                   "button",
@@ -94057,7 +94093,7 @@ Error generating stack: ` +
                     "aria-label": p ? "\u66AB\u505C" : "\u64AD\u653E",
                     onClick: () => x(!p),
                   },
-                  p ? "\u275A\u275A" : "\u25B6",
+                  p ? s.default.createElement(Ic, { d: "M9 5v14M15 5v14" }) : s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
                 ),
                 s.default.createElement(
                   "button",
@@ -94066,7 +94102,7 @@ Error generating stack: ` +
                     "aria-label": "\u4E0B\u4E00\u500B",
                     onClick: () => d(c + 1),
                   },
-                  "\u203A\u203A",
+                  s.default.createElement(Ic, { d: "M12 6l6 6-6 6M5 6l6 6-6 6" }),
                 ),
               ),
               s.default.createElement(

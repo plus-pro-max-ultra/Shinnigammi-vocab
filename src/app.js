@@ -12128,15 +12128,15 @@ Error generating stack: ` +
           ? "courses"
           : "more"
         : e;
-  function Ic({ d: e, dots: t }) {
+  function Ic({ d: e, dots: t, fill: f }) {
     return s.default.createElement(
       "svg",
       {
         className: "nav-ic",
         viewBox: "0 0 24 24",
         "aria-hidden": "true",
-        fill: "none",
-        stroke: "currentColor",
+        fill: f ? "currentColor" : "none",
+        stroke: f ? "none" : "currentColor",
         "stroke-width": "1.8",
         "stroke-linecap": "round",
         "stroke-linejoin": "round",
@@ -12425,7 +12425,7 @@ Error generating stack: ` +
         s.default.createElement(
           "button",
           { "aria-label": "\u6392\u5E8F\u65B9\u5F0F", onClick: () => h(!0) },
-          "\u21C5",
+          s.default.createElement(Ic, { d: "M7 4v16M7 4L4 7M7 4l3 3M17 20V4M17 20l3-3M17 20l-3-3" }),
         ),
         s.default.createElement(
           "button",
@@ -12445,7 +12445,7 @@ Error generating stack: ` +
             disabled: !r.length,
             onClick: () => p(g.map((b) => b.id)),
           },
-          "\u266A",
+          s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
         ),
         s.default.createElement(
           "button",
@@ -12454,7 +12454,7 @@ Error generating stack: ` +
             disabled: !r.length,
             onClick: () => setQp(g.map((b) => b.id)),
           },
-          "\u270E",
+          s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
         ),
       ),
       s.default.createElement(
@@ -14276,7 +14276,7 @@ Error generating stack: ` +
                                 "aria-label": "\u6E05\u9664\u641C\u5C0B",
                                 onClick: () => or(""),
                               },
-                              "\u2715",
+                              s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                             ),
                         ),
                         Lt.trim()
@@ -14374,7 +14374,7 @@ Error generating stack: ` +
                               disabled: !Xr.length,
                               onClick: () => Jo(Xr.map((l) => l.id)),
                             },
-                            "\u266A",
+                            s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                           ),
                         ),
                         s.default.createElement(
@@ -14393,7 +14393,7 @@ Error generating stack: ` +
                                 "aria-label": "\u6E05\u9664\u641C\u5C0B",
                                 onClick: () => or(""),
                               },
-                              "\u2715",
+                              s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                             ),
                         ),
                         s.default.createElement(
@@ -14573,26 +14573,29 @@ Error generating stack: ` +
                           "div",
                           { className: "more-grid" },
                           [
-                            ["add", "\u65B0\u589E\u55AE\u5B57", "\uFF0B"],
-                            ["staging", "\u66AB\u5B58\u5340", "\u66AB"],
+                            ["add", "\u65B0\u589E\u55AE\u5B57", "M12 5v14M5 12h14", 0],
+                            ["staging", "\u66AB\u5B58\u5340", "M22 12h-6l-2 3h-4l-2-3H2M5.5 5.1L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z", 0],
                             [
                               "notebooks",
                               "\u6211\u7684\u55AE\u5B57\u672C",
-                              "\u229E",
+                              "M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z",
+                              0,
                             ],
-                            ["bookmarks", "\u66F8\u7C64\u8907\u7FD2", "\u2605"],
-                            ["custom", "\u81EA\u8A02\u55AE\u5143", "\u270E"],
-                            ["stats", "\u5B78\u7FD2\u7D71\u8A08", "\u8A08"],
-                            ["backup", "\u5099\u4EFD\u8CC7\u6599", "\u5B58"],
-                            ["settings", "\u8A2D\u5B9A", "\u8A2D"],
-                          ].map(([l, z, v]) =>
+                            ["bookmarks", "\u66F8\u7C64\u8907\u7FD2", "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", 1],
+                            ["custom", "\u81EA\u8A02\u55AE\u5143", "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z", 0],
+                            ["stats", "\u5B78\u7FD2\u7D71\u8A08", "M5 20v-8M12 20V4M19 20v-5", 0],
+                            ["backup", "\u5099\u4EFD\u8CC7\u6599", "M4 8h16v12H4zM4 8l2-4h12l2 4M10 12h4", 0],
+                            ["settings", "\u8A2D\u5B9A", "M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1", 0],
+                          ].map(([l, z, v, f]) =>
                             s.default.createElement(
                               "button",
                               { key: l, onClick: () => ne(l) },
                               s.default.createElement(
                                 "i",
                                 { "aria-hidden": "true" },
-                                v,
+                                f
+                                  ? s.default.createElement(Ic, { d: v, fill: !0 })
+                                  : s.default.createElement(Ic, { d: v }),
                               ),
                               s.default.createElement("span", null, z),
                             ),
@@ -14607,7 +14610,7 @@ Error generating stack: ` +
                             s.default.createElement(
                               "i",
                               { "aria-hidden": "true" },
-                              "\u4EE4",
+                              s.default.createElement(Ic, { d: "M14 4h6v6M20 4L10 14M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6" }),
                             ),
                             s.default.createElement(
                               "span",
@@ -14621,7 +14624,7 @@ Error generating stack: ` +
                             s.default.createElement(
                               "i",
                               { "aria-hidden": "true" },
-                              "\u6587",
+                              s.default.createElement(Ic, { d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" }),
                             ),
                             s.default.createElement(
                               "span",
@@ -15687,7 +15690,7 @@ Error generating stack: ` +
                         (j(h.id), k(h.name), d(null));
                       },
                     },
-                    "\u270E",
+                    s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -15696,7 +15699,7 @@ Error generating stack: ` +
                       "aria-label": "\u522A\u9664 " + h.name,
                       onClick: () => d(h.id),
                     },
-                    "\u2715",
+                    s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                   ),
                 ),
             c === h.id &&
@@ -15942,7 +15945,7 @@ Error generating stack: ` +
                     "aria-label": `\u6717\u8B80\u7B2C ${c + 1} \u53E5`,
                     onClick: () => o(e, i.text),
                   },
-                  "\u25D6))",
+                  s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                 ),
             ),
             s.default.createElement(
@@ -17429,17 +17432,23 @@ Error generating stack: ` +
           s.default.createElement(
             "button",
             { "aria-label": "\u96A8\u6A5F\u6392\u5E8F", onClick: b },
-            "\u21C4",
+            s.default.createElement(Ic, { d: "M4 7h11M15 4l3 3-3 3M20 17H9M9 14l-3 3 3 3" }),
           ),
           s.default.createElement(
             "button",
             { "aria-label": "\u6717\u8B80\u55AE\u5B57", onClick: () => T(e) },
-            "\u25B6",
+            s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
           ),
           s.default.createElement(
             "button",
             { "aria-label": "\u55AE\u5B57\u9078\u9805", onClick: () => D(!N) },
-            "\u22EF",
+            s.default.createElement(Ic, {
+              dots: [
+                [5, 12],
+                [12, 12],
+                [19, 12],
+              ],
+            }),
           ),
         ),
       ),
@@ -17540,7 +17549,7 @@ Error generating stack: ` +
               className: F ? "chosen" : "",
               onClick: () => K(!F),
             },
-            "\u2295",
+            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
           ),
           s.default.createElement(
             "button",
@@ -17552,7 +17561,9 @@ Error generating stack: ` +
               className: a.star ? "chosen" : "",
               onClick: () => i({ star: !a.star }),
             },
-            a.star ? "\u2605" : "\u2606",
+            a.star
+              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
           ),
           s.default.createElement(
             "button",
@@ -17576,7 +17587,7 @@ Error generating stack: ` +
           s.default.createElement(
             "button",
             { "aria-label": "\u6717\u8B80\u767C\u97F3", onClick: () => T(e) },
-            "\u25D6))",
+            s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
           ),
         ),
         j.hideMeaning && !G
@@ -17677,7 +17688,7 @@ Error generating stack: ` +
             "aria-label": "\u7DE8\u8F2F\u500B\u4EBA\u7B46\u8A18",
             onClick: () => X(!w),
           },
-          "\u270E",
+          s.default.createElement(Ic, { d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" }),
         ),
       ),
       s.default.createElement(
@@ -18260,7 +18271,9 @@ Error generating stack: ` +
                         className: c[w.id]?.star ? "chosen" : "",
                         onClick: () => p(w.id, !c[w.id]?.star),
                       },
-                      c[w.id]?.star ? "\u2605" : "\u2606",
+                      c[w.id]?.star
+                        ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+                        : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
                     ),
                     s.default.createElement(
                       "button",
@@ -18380,7 +18393,7 @@ Error generating stack: ` +
                   "aria-label": "\u6717\u8B80\u984C\u76EE",
                   onClick: () => f(w),
                 },
-                "\u25D6))",
+                s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
               ),
               (e === "familiar" ||
                 (e === "forward" &&
@@ -18555,7 +18568,7 @@ Error generating stack: ` +
                       disabled: T || !ze.length,
                       onClick: () => oe(ze.slice(0, -1)),
                     },
-                    "\u232B",
+                    s.default.createElement(Ic, { d: "M21 6H8l-5 6 5 6h13V6zM12 9.5l5 5M17 9.5l-5 5" }),
                   ),
                 ),
               ),
@@ -18745,7 +18758,7 @@ Error generating stack: ` +
                         (A.stopPropagation(), f(w));
                       },
                     },
-                    "\u25D6))",
+                    s.default.createElement(Ic, { d: "M11 5L6 9H3v6h3l5 4V5zM15.5 8.5a5 5 0 0 1 0 7" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -18759,7 +18772,9 @@ Error generating stack: ` +
                         (A.stopPropagation(), p(w.id, !c[w.id]?.star));
                       },
                     },
-                    c[w.id]?.star ? "\u2605" : "\u2606",
+                    c[w.id]?.star
+                      ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+                      : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
                   ),
                   s.default.createElement(
                     "button",
@@ -18849,7 +18864,7 @@ Error generating stack: ` +
                           "aria-label": "\u95DC\u9589",
                           onClick: () => setFcPanel(!1),
                         },
-                        "\u2715",
+                        s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" }),
                       ),
                       s.default.createElement("h3", null, "\u5B57\u5361\u8A2D\u5B9A"),
                     s.default.createElement(
@@ -19365,7 +19380,7 @@ Error generating stack: ` +
                     "aria-label": "\u4E0A\u4E00\u500B",
                     onClick: () => d(Math.max(0, c - 1)),
                   },
-                  "\u2039\u2039",
+                  s.default.createElement(Ic, { d: "M12 6l-6 6 6 6M19 6l-6 6 6 6" }),
                 ),
                 s.default.createElement(
                   "button",
@@ -19374,7 +19389,7 @@ Error generating stack: ` +
                     "aria-label": p ? "\u66AB\u505C" : "\u64AD\u653E",
                     onClick: () => x(!p),
                   },
-                  p ? "\u275A\u275A" : "\u25B6",
+                  p ? s.default.createElement(Ic, { d: "M9 5v14M15 5v14" }) : s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
                 ),
                 s.default.createElement(
                   "button",
@@ -19383,7 +19398,7 @@ Error generating stack: ` +
                     "aria-label": "\u4E0B\u4E00\u500B",
                     onClick: () => d(c + 1),
                   },
-                  "\u203A\u203A",
+                  s.default.createElement(Ic, { d: "M12 6l6 6-6 6M5 6l6 6-6 6" }),
                 ),
               ),
               s.default.createElement(

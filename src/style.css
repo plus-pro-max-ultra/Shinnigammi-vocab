@@ -141,3 +141,24 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .reaper-app .hdr-back{width:36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;color:var(--text);padding:0;flex:0 0 auto;font-size:0}
 .hdr-back .nav-ic{width:18px;height:18px}
 .hdr-spacer{width:36px}
+/* v15.00: site-wide glass style pass; colors unchanged */
+.reaper-app{background:radial-gradient(1100px 760px at 18% -8%,#1e222b 0%,#14161a 55%)}
+.screen-header{background:rgba(27,30,36,.55);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.08)}
+.reaper-app .bottom-nav{background:transparent;border-top:none}
+.reaper-app .bottom-nav .nav-side,.reaper-app .bottom-nav .nav-group{background:rgba(38,43,51,.55);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border:1px solid rgba(255,255,255,.09);box-shadow:0 10px 28px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.12)}
+.reaper-app .bottom-nav .nav-group{border-radius:26px;padding:4px;gap:2px}
+.reaper-app .bottom-nav .nav-group button{border-radius:20px}
+.reaper-app .bottom-nav .nav-group button.selected{background:rgba(18,20,25,.9);box-shadow:inset 0 1px 0 rgba(255,255,255,.07)}
+.reaper-app .course-card,.reaper-app .lesson-row,.reaper-app .unit-row,.reaper-app .grammar-lesson,.reaper-app .file-card,.reaper-app .card,.reaper-app .mode-tiles button,.reaper-app .tile-grid-2 button,.reaper-app .fc-sheet>button,.reaper-app .more-grid i,.reaper-app .definition-box{background:rgba(31,35,42,.55);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border:1px solid rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.07)}
+.reaper-app .course-card,.reaper-app .lesson-row,.reaper-app .unit-row,.reaper-app .grammar-lesson,.reaper-app .file-card,.reaper-app .card{border-radius:18px}
+.reaper-app .sheet,.reaper-app .fc-sheet{background:rgba(27,30,36,.72);backdrop-filter:blur(22px) saturate(1.4);-webkit-backdrop-filter:blur(22px) saturate(1.4);border:1px solid rgba(255,255,255,.1);box-shadow:0 -12px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.1)}
+.reaper-app .chip{background:rgba(31,35,42,.5);border:1px solid rgba(255,255,255,.08)}
+.reaper-app .player-btn{background:rgba(31,35,42,.55);border:1px solid rgba(255,255,255,.08)}
+.more-grid .nav-ic{width:22px;height:22px}
+.hdr-actions .nav-ic{width:16px;height:16px}
+.player-btn .nav-ic{width:22px;height:22px}
+.player-btn.play .nav-ic{width:26px;height:26px}
+.text-control .nav-ic{width:14px;height:14px}
+.tile-back .nav-ic{width:20px;height:20px}
+.inline-audio .nav-ic{width:15px;height:15px;vertical-align:-2px}
+.unit-top .nav-ic,.word-row .nav-ic,.detail-top .nav-ic{width:18px;height:18px}
