@@ -15864,13 +15864,41 @@ Error generating stack: ` +
                   ? s.default.createElement(
                       s.default.Fragment,
                       null,
-                      s.default.createElement("span", null, i.en),
+                      s.default.createElement("span", null, i.en || ""),
                       s.default.createElement("br", null),
-                      i.zh,
+                      i.zh ||
+                        s.default.createElement(
+                          "span",
+                          { className: "muted" },
+                          "\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC",
+                        ),
                     )
                   : e.lang === "jp" || t === "zh"
-                    ? i.zh
-                    : i.en
+                    ? i.zh ||
+                      (i.en
+                        ? s.default.createElement(
+                            s.default.Fragment,
+                            null,
+                            i.en,
+                            " ",
+                            s.default.createElement(
+                              "span",
+                              { className: "muted" },
+                              "\uFF08\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC\uFF09",
+                            ),
+                          )
+                        : s.default.createElement(
+                            "span",
+                            { className: "muted" },
+                            "\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC",
+                          ))
+                    : i.en ||
+                      i.zh ||
+                      s.default.createElement(
+                        "span",
+                        { className: "muted" },
+                        "\u7FFB\u8B6F\u5F85\u88DC",
+                      )
                 : s.default.createElement(
                     "span",
                     { "aria-hidden": "true" },

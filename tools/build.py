@@ -41,6 +41,21 @@ wj=rd('words.json').strip()
 js=rd('app.js').replace('__WORDS__',wj)
 import json as _json
 _w=_json.loads(wj)
+# Data validation: duplicate examples within an entry are fatal (a repeated
+# sentence must not satisfy the two-example requirement); incomplete entries
+# without a 待補 note are warnings.
+_dup=[]; _incomplete=[]
+for _e in _w:
+    _ex=_e.get('examples') or []
+    _texts=[(_x.get('text') or '').strip() for _x in _ex]
+    if len(_texts)!=len(set(_texts)):
+        _dup.append(_e.get('id'))
+    if len(_ex)<2 and '待補' not in (_e.get('note') or ''):
+        _incomplete.append(_e.get('id'))
+if _dup:
+    print('FATAL: duplicate example sentences in entries:',', '.join(_dup)); sys.exit(1)
+if _incomplete:
+    print('WARN: <2 examples without 待補 note:',', '.join(_incomplete))
 os.makedirs(os.path.join(R,'data'),exist_ok=True)
 open(os.path.join(R,'data','german-pool.json'),'w',encoding='utf-8').write(_json.dumps([x for x in _w if x.get('lang')=='de'],ensure_ascii=False,indent=1))
 ver=sys.argv[1] if len(sys.argv)>1 else 'dev'
