@@ -172,3 +172,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .reaper-app .word-actions button{width:48px;height:48px;font-size:21px}
 .reaper-app .word-actions .fam-dot-btn{width:auto;height:48px;padding:0 16px;font-size:13px}
 .reaper-app.lang-jp .word-hero h1,.reaper-app.lang-jp .phonetic,.reaper-app.lang-jp .word-row-main strong,.reaper-app.lang-jp .example p,.reaper-app.lang-jp .tile-grid button,.reaper-app.lang-jp .tile-answer button,.reaper-app.lang-jp .fb-word,.reaper-app.lang-jp .quiz-prompt h1[lang="ja"],.reaper-app.lang-jp .quiz-options button[lang="ja"],.reaper-app.lang-jp .grammar-lesson summary h3,.reaper-app.lang-jp .grammar-related a,.reaper-app.lang-jp .phrase-row > strong{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",sans-serif}
+
+.detail-arrows{align-items:center;gap:4px;flex-wrap:wrap}
+.detail-arrows .word-actions{margin:0;gap:8px}
+.detail-arrows .word-actions button{width:40px;height:40px;font-size:18px;padding:0;border-radius:50%;background:none}
+.detail-arrows .word-actions .fam-dot-btn{border-radius:20px}
+.detail-arrows .word-actions .fam-dot-btn{width:auto;height:40px;padding:0 8px;font-size:13px}
+@media (max-width:380px){
+  .detail-arrows .word-actions{order:-1;flex-basis:100%;justify-content:center;margin-bottom:8px}
+}

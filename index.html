@@ -172,6 +172,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .reaper-app .word-actions button{width:48px;height:48px;font-size:21px}
 .reaper-app .word-actions .fam-dot-btn{width:auto;height:48px;padding:0 16px;font-size:13px}
 .reaper-app.lang-jp .word-hero h1,.reaper-app.lang-jp .phonetic,.reaper-app.lang-jp .word-row-main strong,.reaper-app.lang-jp .example p,.reaper-app.lang-jp .tile-grid button,.reaper-app.lang-jp .tile-answer button,.reaper-app.lang-jp .fb-word,.reaper-app.lang-jp .quiz-prompt h1[lang="ja"],.reaper-app.lang-jp .quiz-options button[lang="ja"],.reaper-app.lang-jp .grammar-lesson summary h3,.reaper-app.lang-jp .grammar-related a,.reaper-app.lang-jp .phrase-row > strong{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",sans-serif}
+
+.detail-arrows{align-items:center;gap:4px;flex-wrap:wrap}
+.detail-arrows .word-actions{margin:0;gap:8px}
+.detail-arrows .word-actions button{width:40px;height:40px;font-size:18px;padding:0;border-radius:50%;background:none}
+.detail-arrows .word-actions .fam-dot-btn{border-radius:20px}
+.detail-arrows .word-actions .fam-dot-btn{width:auto;height:40px;padding:0 8px;font-size:13px}
+@media (max-width:380px){
+  .detail-arrows .word-actions{order:-1;flex-basis:100%;justify-content:center;margin-bottom:8px}
+}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -85727,7 +85736,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v15.03 1109-2037",
+    O1 = "v15.04 1109-2114",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -90539,11 +90548,6 @@ Error generating stack: ` +
         "section",
         { className: "examples", "aria-label": "\u4F8B\u53E5" },
         r && s.default.createElement("h3", null, "\u4F8B\u53E5"),
-        s.default.createElement(
-          "p",
-          { className: "muted" },
-          "\u9EDE\u4F8B\u53E5\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7FFB\u8B6F",
-        ),
         e.examplesPending > 0 && s.default.createElement("p", { className: "muted" }, "來源例句待補：", e.examplesPending, " 句（不編造）"),
         e.examples.map((i, c) =>
           s.default.createElement(
@@ -92255,48 +92259,7 @@ Error generating stack: ` +
           { lang: e.lang === "jp" ? "ja" : "de" },
           e.word,
         ),
-        s.default.createElement(
-          "div",
-          { className: "word-actions" },
-          s.default.createElement(
-            "button",
-            {
-              "aria-label": "\u52A0\u5165\u55AE\u5B57\u7C3F",
-              disabled: !k,
-              className: F ? "chosen" : "",
-              onClick: () => K(!F),
-            },
-            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
-          ),
-          s.default.createElement(
-            "button",
-            {
-              "aria-label": a.star
-                ? "\u79FB\u9664\u66F8\u7C64"
-                : "\u52A0\u5165\u66F8\u7C64",
-              disabled: !k,
-              className: a.star ? "chosen" : "",
-              onClick: () => i({ star: !a.star }),
-            },
-            a.star
-              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
-              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
-          ),
-          s.default.createElement(
-            "button",
-            {
-              className: "fam-dot-btn",
-              "aria-label":
-                "\u719F\u6089\u5EA6\uFF1A" +
-                Mt[c] +
-                "\uFF0C\u9EDE\u4E00\u4E0B\u66F4\u6539",
-              disabled: !k,
-              onClick: () => Je(!0),
-            },
-            s.default.createElement("i", { className: "dot level-" + c }),
-            s.default.createElement("span", { className: "dot-label" }, Mt[c]),
-          ),
-        ),
+
         s.default.createElement(
           "p",
           { className: "phonetic" },
@@ -92669,12 +92632,6 @@ Error generating stack: ` +
               "\u522A\u9664\u9019\u500B\u81EA\u8A02\u55AE\u5B57",
             ),
           ),
-        e.sourceUrl &&
-          s.default.createElement(
-            Ms,
-            { href: e.sourceUrl },
-            "\u8B80\u97F3\u8207\u8A5E\u5F62\u4F86\u6E90",
-          ),
         s.default.createElement(
           "div",
           { className: "detail-arrows" },
@@ -92683,6 +92640,48 @@ Error generating stack: ` +
             { disabled: !t, onClick: () => p(-1) },
             "\u2039 \u4E0A\u4E00\u500B",
           ),
+        s.default.createElement(
+          "div",
+          { className: "word-actions" },
+          s.default.createElement(
+            "button",
+            {
+              "aria-label": "\u52A0\u5165\u55AE\u5B57\u7C3F",
+              disabled: !k,
+              className: F ? "chosen" : "",
+              onClick: () => K(!F),
+            },
+            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
+          ),
+          s.default.createElement(
+            "button",
+            {
+              "aria-label": a.star
+                ? "\u79FB\u9664\u66F8\u7C64"
+                : "\u52A0\u5165\u66F8\u7C64",
+              disabled: !k,
+              className: a.star ? "chosen" : "",
+              onClick: () => i({ star: !a.star }),
+            },
+            a.star
+              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
+          ),
+          s.default.createElement(
+            "button",
+            {
+              className: "fam-dot-btn",
+              "aria-label":
+                "\u719F\u6089\u5EA6\uFF1A" +
+                Mt[c] +
+                "\uFF0C\u9EDE\u4E00\u4E0B\u66F4\u6539",
+              disabled: !k,
+              onClick: () => Je(!0),
+            },
+            s.default.createElement("i", { className: "dot level-" + c }),
+            s.default.createElement("span", { className: "dot-label" }, Mt[c]),
+          ),
+        ),
           s.default.createElement(
             "button",
             { disabled: t >= r - 1, onClick: () => p(1) },

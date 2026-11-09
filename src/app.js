@@ -15922,11 +15922,6 @@ Error generating stack: ` +
         "section",
         { className: "examples", "aria-label": "\u4F8B\u53E5" },
         r && s.default.createElement("h3", null, "\u4F8B\u53E5"),
-        s.default.createElement(
-          "p",
-          { className: "muted" },
-          "\u9EDE\u4F8B\u53E5\u4E0B\u65B9\u7A7A\u767D\u8655\u770B\u7FFB\u8B6F",
-        ),
         e.examplesPending > 0 && s.default.createElement("p", { className: "muted" }, "來源例句待補：", e.examplesPending, " 句（不編造）"),
         e.examples.map((i, c) =>
           s.default.createElement(
@@ -17541,48 +17536,7 @@ Error generating stack: ` +
           { lang: e.lang === "jp" ? "ja" : "de" },
           e.word,
         ),
-        s.default.createElement(
-          "div",
-          { className: "word-actions" },
-          s.default.createElement(
-            "button",
-            {
-              "aria-label": "\u52A0\u5165\u55AE\u5B57\u7C3F",
-              disabled: !k,
-              className: F ? "chosen" : "",
-              onClick: () => K(!F),
-            },
-            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
-          ),
-          s.default.createElement(
-            "button",
-            {
-              "aria-label": a.star
-                ? "\u79FB\u9664\u66F8\u7C64"
-                : "\u52A0\u5165\u66F8\u7C64",
-              disabled: !k,
-              className: a.star ? "chosen" : "",
-              onClick: () => i({ star: !a.star }),
-            },
-            a.star
-              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
-              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
-          ),
-          s.default.createElement(
-            "button",
-            {
-              className: "fam-dot-btn",
-              "aria-label":
-                "\u719F\u6089\u5EA6\uFF1A" +
-                Mt[c] +
-                "\uFF0C\u9EDE\u4E00\u4E0B\u66F4\u6539",
-              disabled: !k,
-              onClick: () => Je(!0),
-            },
-            s.default.createElement("i", { className: "dot level-" + c }),
-            s.default.createElement("span", { className: "dot-label" }, Mt[c]),
-          ),
-        ),
+
         s.default.createElement(
           "p",
           { className: "phonetic" },
@@ -17955,12 +17909,6 @@ Error generating stack: ` +
               "\u522A\u9664\u9019\u500B\u81EA\u8A02\u55AE\u5B57",
             ),
           ),
-        e.sourceUrl &&
-          s.default.createElement(
-            Ms,
-            { href: e.sourceUrl },
-            "\u8B80\u97F3\u8207\u8A5E\u5F62\u4F86\u6E90",
-          ),
         s.default.createElement(
           "div",
           { className: "detail-arrows" },
@@ -17969,6 +17917,48 @@ Error generating stack: ` +
             { disabled: !t, onClick: () => p(-1) },
             "\u2039 \u4E0A\u4E00\u500B",
           ),
+        s.default.createElement(
+          "div",
+          { className: "word-actions" },
+          s.default.createElement(
+            "button",
+            {
+              "aria-label": "\u52A0\u5165\u55AE\u5B57\u7C3F",
+              disabled: !k,
+              className: F ? "chosen" : "",
+              onClick: () => K(!F),
+            },
+            s.default.createElement(Ic, { d: "M12 8v8M8 12h8M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" }),
+          ),
+          s.default.createElement(
+            "button",
+            {
+              "aria-label": a.star
+                ? "\u79FB\u9664\u66F8\u7C64"
+                : "\u52A0\u5165\u66F8\u7C64",
+              disabled: !k,
+              className: a.star ? "chosen" : "",
+              onClick: () => i({ star: !a.star }),
+            },
+            a.star
+              ? s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z", fill: !0 })
+              : s.default.createElement(Ic, { d: "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5z" }),
+          ),
+          s.default.createElement(
+            "button",
+            {
+              className: "fam-dot-btn",
+              "aria-label":
+                "\u719F\u6089\u5EA6\uFF1A" +
+                Mt[c] +
+                "\uFF0C\u9EDE\u4E00\u4E0B\u66F4\u6539",
+              disabled: !k,
+              onClick: () => Je(!0),
+            },
+            s.default.createElement("i", { className: "dot level-" + c }),
+            s.default.createElement("span", { className: "dot-label" }, Mt[c]),
+          ),
+        ),
           s.default.createElement(
             "button",
             { disabled: t >= r - 1, onClick: () => p(1) },
