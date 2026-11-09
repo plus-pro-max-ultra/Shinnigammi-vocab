@@ -137,6 +137,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .nav-ic{width:20px;height:20px;display:block}
 .bottom-nav .nav-group{height:44px;margin:0;align-items:stretch}
 .bottom-nav .nav-group button{padding:0;justify-content:center;gap:3px}
+/* v14.77: consistent round back button (Safari-style chevron) on every page header */
+.reaper-app .hdr-back{width:36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;color:var(--text);padding:0;flex:0 0 auto;font-size:0}
+.hdr-back .nav-ic{width:18px;height:18px}
+.hdr-spacer{width:36px}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -85692,7 +85696,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.76 1109-1528",
+    O1 = "v14.77 1109-1530",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -86810,7 +86814,7 @@ Error generating stack: ` +
         ? s.default.createElement(
             "button",
             { className: "hdr-back", "aria-label": "\u8FD4\u56DE", onClick: r },
-            "\u2039",
+            s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
           )
         : s.default.createElement("span", { className: "hdr-spacer" }),
       s.default.createElement(
@@ -92090,7 +92094,7 @@ Error generating stack: ` +
             "aria-label": "\u8FD4\u56DE\u55AE\u5B57\u5217\u8868",
             onClick: x,
           },
-          "\u2039",
+          s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
         ),
         s.default.createElement(
           "div",
@@ -92894,7 +92898,9 @@ Error generating stack: ` +
             "aria-label": "\u96E2\u958B\u6E2C\u9A57",
             onClick: m,
           },
-          e === "cards" ? "\u2715" : "\u2039",
+          e === "cards"
+            ? s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" })
+            : s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
         ),
         s.default.createElement(
           "div",

@@ -137,3 +137,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .nav-ic{width:20px;height:20px;display:block}
 .bottom-nav .nav-group{height:44px;margin:0;align-items:stretch}
 .bottom-nav .nav-group button{padding:0;justify-content:center;gap:3px}
+/* v14.77: consistent round back button (Safari-style chevron) on every page header */
+.reaper-app .hdr-back{width:36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;color:var(--text);padding:0;flex:0 0 auto;font-size:0}
+.hdr-back .nav-ic{width:18px;height:18px}
+.hdr-spacer{width:36px}

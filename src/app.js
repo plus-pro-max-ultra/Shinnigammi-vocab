@@ -12228,7 +12228,7 @@ Error generating stack: ` +
         ? s.default.createElement(
             "button",
             { className: "hdr-back", "aria-label": "\u8FD4\u56DE", onClick: r },
-            "\u2039",
+            s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
           )
         : s.default.createElement("span", { className: "hdr-spacer" }),
       s.default.createElement(
@@ -17411,7 +17411,7 @@ Error generating stack: ` +
             "aria-label": "\u8FD4\u56DE\u55AE\u5B57\u5217\u8868",
             onClick: x,
           },
-          "\u2039",
+          s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
         ),
         s.default.createElement(
           "div",
@@ -18215,7 +18215,9 @@ Error generating stack: ` +
             "aria-label": "\u96E2\u958B\u6E2C\u9A57",
             onClick: m,
           },
-          e === "cards" ? "\u2715" : "\u2039",
+          e === "cards"
+            ? s.default.createElement(Ic, { d: "M6 6l12 12M18 6L6 18" })
+            : s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
         ),
         s.default.createElement(
           "div",
