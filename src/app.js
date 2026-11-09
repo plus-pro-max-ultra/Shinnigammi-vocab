@@ -14585,7 +14585,7 @@ Error generating stack: ` +
                             ["custom", "\u81EA\u8A02\u55AE\u5143", "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z", 0],
                             ["stats", "\u5B78\u7FD2\u7D71\u8A08", "M5 20v-8M12 20V4M19 20v-5", 0],
                             ["backup", "\u5099\u4EFD\u8CC7\u6599", "M4 8h16v12H4zM4 8l2-4h12l2 4M10 12h4", 0],
-                            ["settings", "\u8A2D\u5B9A", "M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1", 0],
+                            ["settings", "\u8A2D\u5B9A", "M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z", 0],
                           ].map(([l, z, v, f]) =>
                             s.default.createElement(
                               "button",
@@ -17568,6 +17568,7 @@ Error generating stack: ` +
           s.default.createElement(
             "button",
             {
+              className: "fam-dot-btn",
               "aria-label":
                 "\u719F\u6089\u5EA6\uFF1A" +
                 Mt[c] +
@@ -17576,6 +17577,7 @@ Error generating stack: ` +
               onClick: () => Je(!0),
             },
             s.default.createElement("i", { className: "dot level-" + c }),
+            s.default.createElement("span", { className: "dot-label" }, Mt[c]),
           ),
         ),
         s.default.createElement(
@@ -18278,12 +18280,18 @@ Error generating stack: ` +
                     s.default.createElement(
                       "button",
                       {
+                        className: "fam-dot-btn",
                         "aria-label": "\u719F\u6089\u5EA6\uFF1A" + Mt[he],
                         onClick: () => Ce(!0),
                       },
                       s.default.createElement("i", {
                         className: "dot level-" + he,
                       }),
+                      s.default.createElement(
+                        "span",
+                        { className: "dot-label" },
+                        Mt[he],
+                      ),
                     ),
                   ),
             ),
