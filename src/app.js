@@ -15971,7 +15971,7 @@ Error generating stack: ` +
               { className: "muted" },
               v.date,
               " \u00B7 ",
-              v.lang === "jp" ? "\u65E5\u6587" : "\u5FB7\u6587",
+              v.lang === "jp" ? "\u65E5\u6587" : v.lang === "de" ? "\u5FB7\u6587" : "\u65E5\u6587\uFF0B\u5FB7\u6587",
               v.words && v.words.length
                 ? " \u00B7 " + v.words.length + " \u500B\u55AE\u5B57"
                 : "",

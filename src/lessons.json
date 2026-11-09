@@ -1,1 +1,98 @@
-[]
+[
+ {
+  "id": "de-13",
+  "date": "2026-11-09",
+  "lang": "de",
+  "title": "German - Lesson 13: Strong participles - finishing the Perfekt arc",
+  "sections": [
+   {
+    "h": "Quick recall",
+    "en": "Quick recall (answers at the end):\n1. Helper and participle: \"I came.\" Ich ___ ___.\n2. Participle of gehen?\n3. Which verb group takes sein?\n4. Was ___ passiert? (What happened?)\n5. Helper for reisen: Sie ___ nach Österreich gereist.\n\nAnswers: 1. bin gekommen; 2. gegangen; 3. verbs of movement and change of state, plus sein, bleiben, passieren; 4. ist; 5. ist.",
+    "zh": "暖身複習(答案在最後):\n1. 助動詞和分詞:「我來了。」Ich ___ ___.\n2. gehen 的過去分詞?\n3. 哪一群動詞配 sein?\n4. Was ___ passiert?(發生什麼事?)\n5. reisen 的助動詞:Sie ___ nach Österreich gereist.\n\n答案:1. bin gekommen;2. gegangen;3. 移動和狀態改變的動詞,加上 sein、bleiben、passieren;4. ist;5. ist。"
+   },
+   {
+    "h": "Point 1: Strong participles",
+    "en": "Point 1: Strong participles\nSimple strong verbs like today's six form the participle this way: ge + stem + en, and the stem vowel often changes. (Verbs with prefixes and -ieren verbs follow their own patterns; you already know -ieren drops ge-, and prefixes come later.) Memorize these frequent ones as words:\n- lesen → gelesen (read)\n- sehen → gesehen (seen)\n- essen → gegessen (eaten)\n- trinken → getrunken (drunk)\n- schreiben → geschrieben (written)\n- sprechen → gesprochen (spoken)\nNo full table today; collect more of them as you meet them.",
+    "zh": "重點 1:強變化(不規則)分詞\n像今天這六個簡單的強變化動詞,分詞是:ge + 詞幹 + en,詞幹母音常常改變。(帶前綴的動詞和 -ieren 動詞各有規則;-ieren 不加 ge- 你已經學過,前綴之後再教。)這幾個最常見的當單字背:\n- lesen → gelesen(讀)\n- sehen → gesehen(看)\n- essen → gegessen(吃)\n- trinken → getrunken(喝)\n- schreiben → geschrieben(寫)\n- sprechen → gesprochen(說)\n今天不給完整表,遇到一個收一個。"
+   },
+   {
+    "h": "Point 2: Using them",
+    "en": "Point 2: Using them\nSame Perfekt frame as before: haben in position 2 in statements (first in yes/no questions), participle at the end of the clause. In sentences like these, nicht goes directly before the participle.\n- Ich habe das Buch gelesen. (I read the book.)\n- Hast du das Foto gesehen? (Did you see the photo?)\n- Sie hat das Wort nicht geschrieben. (She did not write the word.)",
+    "zh": "重點 2:怎麼用\n句型和之前一樣:直述句 haben 放第二位(是非問句放句首),分詞放子句尾。在這類句子裡,nicht 直接放在分詞前面。\n- Ich habe das Buch gelesen.(我讀了那本書。)\n- Hast du das Foto gesehen?(你看到那張照片了嗎?)\n- Sie hat das Wort nicht geschrieben.(她沒寫那個字。)"
+   },
+   {
+    "h": "Point 3: haben or sein - the quick check",
+    "en": "Point 3: haben or sein - the quick check\nFor the verbs in this lesson: no accusative object + movement from place to place or a change of state, or the verb is sein, bleiben, passieren → sein. Otherwise → haben.\n- Ich bin gegangen. (I went.)\n- Ich habe gelesen. (I read.)\nWatch the same verb switch: with a direct object, a movement verb takes haben. Ich habe das Auto gefahren. (I drove the car.) vs Ich bin nach Hause gefahren. (I drove home.)",
+    "zh": "重點 3:haben 還是 sein - 快速判斷\n以這一課的動詞來說:沒有賓格受詞、而且是移動或狀態改變,或動詞是 sein、bleiben、passieren → 用 sein。其他 → 用 haben。\n- Ich bin gegangen.(我去了。)\n- Ich habe gelesen.(我讀了。)\n注意同一個動詞會變:帶直接受詞時,移動動詞改用 haben。Ich habe das Auto gefahren.(我開了那台車。)vs Ich bin nach Hause gefahren.(我開車回家了。)"
+   },
+   {
+    "h": "Review words",
+    "en": "Review words (from your pool): das Wort, die E-Mail-Adresse, das Foto, lernen, fragen, machen",
+    "zh": "複習單字(來自你的字庫):das Wort、die E-Mail-Adresse、das Foto、lernen、fragen、machen"
+   },
+   {
+    "h": "Learn more",
+    "en": "Learn more:\nStrong participles overview (elon.io): https://elon.io/grammar/german/verbs/perfekt/participle-strong\ndeutsch-meister, Perfekt with haben (regular review): https://deutsch-meister.de/grammar/a2.1/perfect-tense-haben/\ndeutsch-meister, Perfekt with sein (quick check): https://deutsch-meister.de/grammar/a2.1/perfect-tense-sein/",
+    "zh": "延伸資源:\n強變化分詞總覽(elon.io):https://elon.io/grammar/german/verbs/perfekt/participle-strong\ndeutsch-meister Perfekt(haben,規則複習):https://deutsch-meister.de/grammar/a2.1/perfect-tense-haben/\ndeutsch-meister Perfekt(sein,快速判斷):https://deutsch-meister.de/grammar/a2.1/perfect-tense-sein/"
+   }
+  ],
+  "words": [
+   "de-183",
+   "de-118",
+   "de-211",
+   "de-128",
+   "de-167",
+   "de-171",
+   "de-170",
+   "de-328",
+   "de-517",
+   "de-518",
+   "de-176",
+   "de-129",
+   "de-125",
+   "de-302",
+   "de-720",
+   "de-213"
+  ],
+  "grammar": [
+   {
+    "point": "Strong participles of simple strong verbs",
+    "note": "ge + stem + en, stem vowel often changes; six high-frequency verbs: lesen, sehen, essen, trinken, schreiben, sprechen. Prefix verbs and -ieren verbs follow other patterns."
+   },
+   {
+    "point": "Perfekt frame reuse",
+    "note": "haben in position 2 in statements (first in yes/no questions); participle at clause end; in these example sentences nicht goes directly before the participle."
+   },
+   {
+    "point": "haben vs sein quick check",
+    "note": "No accusative object + movement from place to place or change of state, or the verb is sein/bleiben/passieren, then sein; otherwise haben. A movement verb with a direct object takes haben: Ich habe das Auto gefahren vs Ich bin nach Hause gefahren."
+   }
+  ],
+  "practice": [
+   {
+    "q": "Participle: lesen",
+    "a": "gelesen"
+   },
+   {
+    "q": "Participle: trinken",
+    "a": "getrunken"
+   },
+   {
+    "q": "Order: habe / ich / das Buch / gelesen",
+    "a": "Ich habe das Buch gelesen."
+   },
+   {
+    "q": "Ask in German: \"Did you (du) see the photo?\"",
+    "a": "Hast du das Foto gesehen?"
+   },
+   {
+    "q": "Choose: Er ___ nach Hause gegangen. (hat / ist)",
+    "a": "ist"
+   },
+   {
+    "q": "Your turn: write 3 Perfekt sentences - one with a strong participle and haben, one with sein (movement), one negative.",
+    "a": "Free writing; send to Instinct anytime for correction."
+   }
+  ]
+ }
+]
