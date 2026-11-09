@@ -12309,7 +12309,7 @@ Error generating stack: ` +
       ),
     );
   }
-  function Nm({ level: e, onPick: t, onClose: r }) {
+  function FamPickSheet({ level: e, onPick: t, onClose: r }) {
     return s.default.createElement(
       Sm,
       { title: "\u719F\u6089\u5EA6", onClose: r },
@@ -17648,7 +17648,7 @@ Error generating stack: ` +
         ),
       ),
       ve &&
-        s.default.createElement(Nm, {
+        s.default.createElement(FamPickSheet, {
           level: c,
           onPick: (U) => d(U),
           onClose: () => Je(!1),
@@ -18302,7 +18302,7 @@ Error generating stack: ` +
       ),
       tr &&
         w &&
-        s.default.createElement(Nm, {
+        s.default.createElement(FamPickSheet, {
           level: he,
           onPick: (A) => i(w.id, A),
           onClose: () => Ce(!1),
@@ -18330,7 +18330,7 @@ Error generating stack: ` +
               ),
               s.default.createElement(
                 "h1",
-                { lang: w.lang === "jp" ? "ja" : "de" },
+                { lang: e === "reverse" || e === "spell" || e === "tiles" ? "zh-Hant" : w.lang === "jp" ? "ja" : "de" },
                 e === "noun" && nq
                   ? nq.stem
                   : e === "kana"
@@ -18434,6 +18434,12 @@ Error generating stack: ` +
                     "button",
                     {
                       disabled: !n,
+                      lang:
+                        e === "kana" || e === "reverse"
+                          ? A.lang === "jp"
+                            ? "ja"
+                            : "de"
+                          : "zh-Hant",
                       className: T
                         ? A.id === w.id
                           ? "correct-option"

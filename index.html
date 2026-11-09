@@ -171,7 +171,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .reaper-app .word-actions{gap:20px}
 .reaper-app .word-actions button{width:48px;height:48px;font-size:21px}
 .reaper-app .word-actions .fam-dot-btn{width:auto;height:48px;padding:0 16px;font-size:13px}
-.reaper-app.lang-jp .word-hero h1,.reaper-app.lang-jp .phonetic,.reaper-app.lang-jp .word-row-main strong,.reaper-app.lang-jp .example p,.reaper-app.lang-jp .tile-grid button,.reaper-app.lang-jp .tile-answer button,.reaper-app.lang-jp .fb-word{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",sans-serif}
+.reaper-app.lang-jp .word-hero h1,.reaper-app.lang-jp .phonetic,.reaper-app.lang-jp .word-row-main strong,.reaper-app.lang-jp .example p,.reaper-app.lang-jp .tile-grid button,.reaper-app.lang-jp .tile-answer button,.reaper-app.lang-jp .fb-word,.reaper-app.lang-jp .quiz-prompt h1[lang="ja"],.reaper-app.lang-jp .quiz-options button[lang="ja"],.reaper-app.lang-jp .grammar-lesson summary h3,.reaper-app.lang-jp .grammar-related a,.reaper-app.lang-jp .phrase-row > strong{font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP","Meiryo",sans-serif}
 </style></head><body><div id="root"></div><script>(() => {
   var hg = Object.create;
   var cd = Object.defineProperty;
@@ -85727,7 +85727,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v15.02 1109-2028",
+    O1 = "v15.03 1109-2037",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -86926,7 +86926,7 @@ Error generating stack: ` +
       ),
     );
   }
-  function Nm({ level: e, onPick: t, onClose: r }) {
+  function FamPickSheet({ level: e, onPick: t, onClose: r }) {
     return s.default.createElement(
       Sm,
       { title: "\u719F\u6089\u5EA6", onClose: r },
@@ -92362,7 +92362,7 @@ Error generating stack: ` +
         ),
       ),
       ve &&
-        s.default.createElement(Nm, {
+        s.default.createElement(FamPickSheet, {
           level: c,
           onPick: (U) => d(U),
           onClose: () => Je(!1),
@@ -93016,7 +93016,7 @@ Error generating stack: ` +
       ),
       tr &&
         w &&
-        s.default.createElement(Nm, {
+        s.default.createElement(FamPickSheet, {
           level: he,
           onPick: (A) => i(w.id, A),
           onClose: () => Ce(!1),
@@ -93044,7 +93044,7 @@ Error generating stack: ` +
               ),
               s.default.createElement(
                 "h1",
-                { lang: w.lang === "jp" ? "ja" : "de" },
+                { lang: e === "reverse" || e === "spell" || e === "tiles" ? "zh-Hant" : w.lang === "jp" ? "ja" : "de" },
                 e === "noun" && nq
                   ? nq.stem
                   : e === "kana"
@@ -93148,6 +93148,12 @@ Error generating stack: ` +
                     "button",
                     {
                       disabled: !n,
+                      lang:
+                        e === "kana" || e === "reverse"
+                          ? A.lang === "jp"
+                            ? "ja"
+                            : "de"
+                          : "zh-Hant",
                       className: T
                         ? A.id === w.id
                           ? "correct-option"
