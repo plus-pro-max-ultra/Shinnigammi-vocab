@@ -85677,7 +85677,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v14.72 1109-1324",
+    O1 = "v14.73 1109-1329",
     R1 = [
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -86726,8 +86726,8 @@ Error generating stack: ` +
           "button",
           {
             key: o,
-            className: e === o ? "selected" : "",
-            "aria-current": e === o ? "page" : void 0,
+            className: e === o && !lo ? "selected" : "",
+            "aria-current": e === o && !lo ? "page" : void 0,
             onClick: () => t(o),
           },
           s.default.createElement("i", { "aria-hidden": "true" }, a),
@@ -90625,15 +90625,18 @@ Error generating stack: ` +
   ]
  }
 ];
-  // Latest lesson's course number, taken from the trailing digits of its id
-  // (e.g. "de-13" -> 13). Updates automatically when a new daily lesson lands.
+  // Latest lesson's course number for the calendar shortcut. Prefer the
+  // explicit `num` metadata field so canonical date-lang ids ("2026-11-10-jp",
+  // Sunday mixed "2026-11-16-sun") work; only the legacy lang-number id
+  // pattern ("de-13" -> 13) is parsed, so a date is never mistaken for the
+  // number. Blank rather than wrong when neither exists.
   var LESSON_NUM = (() => {
-    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1));
-    for (let v of L) {
-      let m = /(\d+)\s*$/.exec((v && v.id) || "");
-      if (m) return m[1];
-    }
-    return null;
+    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1))[0];
+    if (!L) return null;
+    let n = parseInt(L.num, 10);
+    if (Number.isInteger(n) && n > 0) return n;
+    let m = /^[a-z]{2}-(\d+)$/.exec(L.id || "");
+    return m ? m[1] : null;
   })();
   function lessonLinkify(e) {
     return e.split(/(https?:\/\/[^\s)]+)/g).map((t, r) =>

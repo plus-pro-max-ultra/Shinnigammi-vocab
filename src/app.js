@@ -12159,8 +12159,8 @@ Error generating stack: ` +
           "button",
           {
             key: o,
-            className: e === o ? "selected" : "",
-            "aria-current": e === o ? "page" : void 0,
+            className: e === o && !lo ? "selected" : "",
+            "aria-current": e === o && !lo ? "page" : void 0,
             onClick: () => t(o),
           },
           s.default.createElement("i", { "aria-hidden": "true" }, a),
@@ -15961,15 +15961,18 @@ Error generating stack: ` +
     );
   }
   var LESSONS_DATA = __LESSONS__;
-  // Latest lesson's course number, taken from the trailing digits of its id
-  // (e.g. "de-13" -> 13). Updates automatically when a new daily lesson lands.
+  // Latest lesson's course number for the calendar shortcut. Prefer the
+  // explicit `num` metadata field so canonical date-lang ids ("2026-11-10-jp",
+  // Sunday mixed "2026-11-16-sun") work; only the legacy lang-number id
+  // pattern ("de-13" -> 13) is parsed, so a date is never mistaken for the
+  // number. Blank rather than wrong when neither exists.
   var LESSON_NUM = (() => {
-    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1));
-    for (let v of L) {
-      let m = /(\d+)\s*$/.exec((v && v.id) || "");
-      if (m) return m[1];
-    }
-    return null;
+    let L = [...LESSONS_DATA].sort((v, y) => (v.date < y.date ? 1 : -1))[0];
+    if (!L) return null;
+    let n = parseInt(L.num, 10);
+    if (Number.isInteger(n) && n > 0) return n;
+    let m = /^[a-z]{2}-(\d+)$/.exec(L.id || "");
+    return m ? m[1] : null;
   })();
   function lessonLinkify(e) {
     return e.split(/(https?:\/\/[^\s)]+)/g).map((t, r) =>
