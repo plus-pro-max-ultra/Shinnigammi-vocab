@@ -12762,6 +12762,8 @@ Error generating stack: ` +
       [he, A] = (0, s.useState)(null),
       [O, ne] = (0, s.useState)(mv ?? "grid"),
       [lesRst, lesRstSet] = (0, s.useState)(0),
+      [lesSel, lesSelSet] = (0, s.useState)(null),
+      lesScr = (0, s.useRef)(0),
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
@@ -14680,10 +14682,16 @@ Error generating stack: ` +
                         lessons: LESSONS_DATA,
                         words: V,
                         onBack: () => dg("courses"),
+                        sel: lesSel,
+                        onSel: lesSelSet,
+                        savedScroll: lesScr.current,
                         onOpenWord: (l) => {
                           let z = V.find((v) => v.id === l);
                           z &&
-                            (_(z.lang),
+                            ((lesScr.current =
+                              document.querySelector(".reaper-app")?.scrollTop ||
+                              0),
+                            _(z.lang),
                             eo(
                               z,
                               V.filter((v) => v.lang === z.lang && !v.bank),
@@ -15558,7 +15566,7 @@ Error generating stack: ` +
             tab: Q,
             go: dg,
             onLessons: () => {
-              (Se("daily"), or(""), Ce(""), A(null), ne("grid"), lesRstSet((l) => l + 1));
+              (Se("daily"), or(""), Ce(""), A(null), ne("grid"), lesSelSet(null), (lesScr.current = 0), lesRstSet((l) => l + 1));
             },
             lessonNum: LESSON_NUM,
             lessonsOn: Q === "daily",
@@ -16106,11 +16114,17 @@ Error generating stack: ` +
       ),
     );
   }
-  function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o }) {
-    let [n, a] = (0, s.useState)(null),
-      [i, c] = (0, s.useState)([]),
+  function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o, sel: n, onSel: a, savedScroll: sScr }) {
+    let [i, c] = (0, s.useState)([]),
       [lm, slm] = (0, s.useState)("both"),
       d = {};
+    (0, s.useEffect)(() => {
+      if (n != null && sScr)
+        requestAnimationFrame(() => {
+          let el = document.querySelector(".reaper-app");
+          el && (el.scrollTop = sScr);
+        });
+    }, []);
     t.forEach((v) => (d[v.id] = v));
     let p = [...e].sort((v, y) => (v.date < y.date ? 1 : -1)),
       h = e.find((v) => v.id === n);

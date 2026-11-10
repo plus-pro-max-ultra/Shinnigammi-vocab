@@ -86710,7 +86710,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v15.11 1110-1944",
+    O1 = "v15.12 1110-1948",
     R1 = [
       {"v": "v15.10", "d": "11/10", "items": ["單字頁右上三項功能（隨機排序、朗讀單字、單字選項）移入頁底操縱欄（MM 2026-11-10「右上的三個也移到控制欄」）；頂部只留返回與進度，其餘操作與滑動切換不變。"]},
       {"v": "v15.09", "d": "11/10", "items": ["單字頁排版調整（MM 2026-11-10 照片指示）：單字與讀音改為靠左排列；德文名詞性別改以 m.／f.／n. 標示；加入單字簿、書籤、熟悉度三項功能集中至頁底浮動操縱欄。", "移除單字頁「上一個／下一個」按鍵（MM 2026-11-10）：切換單字統一改用左右滑動。"]},
@@ -88342,6 +88342,8 @@ Error generating stack: ` +
       [he, A] = (0, s.useState)(null),
       [O, ne] = (0, s.useState)(mv ?? "grid"),
       [lesRst, lesRstSet] = (0, s.useState)(0),
+      [lesSel, lesSelSet] = (0, s.useState)(null),
+      lesScr = (0, s.useRef)(0),
       [He, Oo] = (0, s.useState)("all"),
       [Qr, Ye] = (0, s.useState)("all"),
       [kt, Ro] = (0, s.useState)("all"),
@@ -90260,10 +90262,16 @@ Error generating stack: ` +
                         lessons: LESSONS_DATA,
                         words: V,
                         onBack: () => dg("courses"),
+                        sel: lesSel,
+                        onSel: lesSelSet,
+                        savedScroll: lesScr.current,
                         onOpenWord: (l) => {
                           let z = V.find((v) => v.id === l);
                           z &&
-                            (_(z.lang),
+                            ((lesScr.current =
+                              document.querySelector(".reaper-app")?.scrollTop ||
+                              0),
+                            _(z.lang),
                             eo(
                               z,
                               V.filter((v) => v.lang === z.lang && !v.bank),
@@ -91138,7 +91146,7 @@ Error generating stack: ` +
             tab: Q,
             go: dg,
             onLessons: () => {
-              (Se("daily"), or(""), Ce(""), A(null), ne("grid"), lesRstSet((l) => l + 1));
+              (Se("daily"), or(""), Ce(""), A(null), ne("grid"), lesSelSet(null), (lesScr.current = 0), lesRstSet((l) => l + 1));
             },
             lessonNum: LESSON_NUM,
             lessonsOn: Q === "daily",
@@ -93206,11 +93214,17 @@ Error generating stack: ` +
       ),
     );
   }
-  function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o }) {
-    let [n, a] = (0, s.useState)(null),
-      [i, c] = (0, s.useState)([]),
+  function LessonsView({ lessons: e, words: t, onOpenWord: r, onBack: o, sel: n, onSel: a, savedScroll: sScr }) {
+    let [i, c] = (0, s.useState)([]),
       [lm, slm] = (0, s.useState)("both"),
       d = {};
+    (0, s.useEffect)(() => {
+      if (n != null && sScr)
+        requestAnimationFrame(() => {
+          let el = document.querySelector(".reaper-app");
+          el && (el.scrollTop = sScr);
+        });
+    }, []);
     t.forEach((v) => (d[v.id] = v));
     let p = [...e].sort((v, y) => (v.date < y.date ? 1 : -1)),
       h = e.find((v) => v.id === n);
