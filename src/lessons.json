@@ -1517,5 +1517,92 @@
     "a": "Free writing; send to Instinct anytime for correction."
    }
   ]
+ },
+ {
+  "id": "2026-11-11-de",
+  "num": 14,
+  "date": "2026-11-11",
+  "lang": "de",
+  "title": "German - Lesson 14: Completing the modals - dürfen and sollen",
+  "sections": [
+   {
+    "h": "Quick recall",
+    "en": "Quick recall (answers at the end):\n1. Participle of schreiben?\n2. Ich ___ das Buch gelesen. (helper)\n3. Sie ___ nach Hause gegangen. (helper)\n4. Ich habe das Auto ___. (participle of fahren - why haben?)\n5. Participle of essen?\n\nAnswers: 1. geschrieben; 2. habe; 3. ist; 4. gefahren - with a direct object (das Auto), fahren takes haben; 5. gegessen.",
+    "zh": "暖身複習(答案在最後):\n1. schreiben 的過去分詞?\n2. Ich ___ das Buch gelesen.(助動詞)\n3. Sie ___ nach Hause gegangen.(助動詞)\n4. Ich habe das Auto ___.(fahren 的分詞 - 為什麼用 haben?)\n5. essen 的過去分詞?\n\n答案:1. geschrieben;2. habe;3. ist;4. gefahren - 帶直接受詞(das Auto)時 fahren 用 haben;5. gegessen。"
+   },
+   {
+    "h": "Point 1: dürfen - permission",
+    "en": "Point 1: dürfen - permission\ndürfen means \"may / to be allowed to\". It conjugates like the modals you know: ich darf, du darfst, er/sie/es darf, wir dürfen, ihr dürft, sie/Sie dürfen. Same frame as always: modal in position 2, the main verb as infinitive at the end.\n- Darf ich fragen? (May I ask?)\n- Ich darf hier schwimmen. (I am allowed to swim here.)\nWatch the negative: nicht dürfen means NOT ALLOWED, not \"don't have to\".\n- Ich darf meinen Hund nicht mitbringen. (I am not allowed to bring my dog.)\n- Kinder dürfen keinen Alkohol trinken. (Children are not allowed to drink alcohol.)\n(Compare müssen: Ich muss nicht arbeiten. = I don't have to work. For \"must not\", German uses nicht dürfen.)",
+    "zh": "重點 1:dürfen - 允許\ndürfen 是「可以、被允許」。變化和學過的情態動詞一樣:ich darf, du darfst, er/sie/es darf, wir dürfen, ihr dürft, sie/Sie dürfen。句型不變:情態動詞放第二位,主要動詞用原型放句尾。\n- Darf ich fragen?(我可以問嗎?)\n- Ich darf hier schwimmen.(我被允許在這裡游泳。)\n注意否定:nicht dürfen 是「不被允許」,不是「不必」。\n- Ich darf meinen Hund nicht mitbringen.(我不可以帶我的狗。)\n- Kinder dürfen keinen Alkohol trinken.(小孩不可以喝酒。)\n(對比 müssen:Ich muss nicht arbeiten. = 我不必工作。要說「不可以」,德文用 nicht dürfen。)"
+   },
+   {
+    "h": "Point 2: sollen - obligation from someone else",
+    "en": "Point 2: sollen - obligation from someone else\nsollen means \"should / to be supposed to\" - the instruction or advice comes from another person, not from yourself. Conjugation: ich soll, du sollst, er/sie/es soll, wir sollen, ihr sollt, sie/Sie sollen.\n- Du sollst mehr Wasser trinken. (You should drink more water.)\n- Ich soll mehr Sport machen - mein Arzt sagt das. (I am supposed to do more sports - my doctor says so.)\n- Soll ich kommen? (Should I come? / Am I supposed to come?)",
+    "zh": "重點 2:sollen - 來自別人的要求\nsollen 是「應該」- 指示或建議來自別人,不是自己決定的。變化:ich soll, du sollst, er/sie/es soll, wir sollen, ihr sollt, sie/Sie sollen。\n- Du sollst mehr Wasser trinken.(你應該多喝水。)\n- Ich soll mehr Sport machen - mein Arzt sagt das.(我應該多運動 - 我醫生說的。)\n- Soll ich kommen?(我該來嗎?)"
+   },
+   {
+    "h": "Point 3: your five modals together",
+    "en": "Point 3: your five modals together\nThe five modals you have learned: können (can), müssen (must), wollen (want), dürfen (may), sollen (should). (The sixth German modal, mögen/möchte, comes later.) All share the same frame: modal conjugated in position 2, infinitive at the end. One meaning caution from today: for \"must not\", say nicht dürfen, not nicht müssen.\n- Ich kann schwimmen. / Ich muss arbeiten. / Ich will kommen. / Ich darf fragen. / Ich soll kommen.",
+    "zh": "重點 3:學過的五個情態動詞\n你學過的五個情態動詞:können(能)、müssen(必須)、wollen(想要)、dürfen(可以)、sollen(應該)。(第六個情態動詞 mögen/möchte 之後再學。)句型都一樣:情態動詞變化後放第二位,原型動詞放句尾。今天一個意思提醒:「不可以」要說 nicht dürfen,不是 nicht müssen。\n- Ich kann schwimmen. / Ich muss arbeiten. / Ich will kommen. / Ich darf fragen. / Ich soll kommen."
+   },
+   {
+    "h": "Review words",
+    "en": "Review words (from your pool): arbeiten, kommen, machen, lernen, trinken, sprechen",
+    "zh": "複習單字(來自你的字庫):arbeiten、kommen、machen、lernen、trinken、sprechen"
+   },
+   {
+    "h": "Learn more",
+    "en": "Learn more:\nModal verbs intro incl. dürfen/sollen (deutsch-meister, A1.2): https://deutsch-meister.de/grammar/a1.2/modal-verbs-intro/",
+    "zh": "延伸資源:\n情態動詞總覽(含 dürfen/sollen,deutsch-meister,A1.2):https://deutsch-meister.de/grammar/a1.2/modal-verbs-intro/"
+   }
+  ],
+  "words": [
+   "de-217",
+   "de-125",
+   "de-171",
+   "de-128",
+   "de-518",
+   "de-129"
+  ],
+  "grammar": [
+   {
+    "point": "dürfen (permission)",
+    "note": "may / be allowed to; ich darf, du darfst, er darf, wir dürfen, ihr dürft, sie dürfen; modal in position 2, infinitive at clause end. nicht dürfen = not allowed (not 'don't have to')."
+   },
+   {
+    "point": "sollen (external obligation/advice)",
+    "note": "should / be supposed to; the instruction comes from someone else; ich soll, du sollst, er soll, wir sollen, ihr sollt, sie sollen."
+   },
+   {
+    "point": "Your five modals together",
+    "note": "können, müssen, wollen, dürfen, sollen share one frame: conjugated modal in position 2, infinitive at the end. 'Must not' = nicht dürfen, not nicht müssen. (Sixth modal mögen/möchte comes later.)"
+   }
+  ],
+  "practice": [
+   {
+    "q": "Conjugate: du (dürfen)",
+    "a": "darfst"
+   },
+   {
+    "q": "Translate: \"May I ask?\"",
+    "a": "Darf ich fragen?"
+   },
+   {
+    "q": "Fill in (not allowed): Sie ___ hier nicht parken.",
+    "a": "dürfen"
+   },
+   {
+    "q": "Fill in (advice): Du ___ mehr Wasser trinken.",
+    "a": "sollst"
+   },
+   {
+    "q": "Order: schwimmen / ich / hier / darf",
+    "a": "Ich darf hier schwimmen."
+   },
+   {
+    "q": "Your turn: one permission question with dürfen, one nicht dürfen, one advice with sollen.",
+    "a": "Free writing; send to Instinct anytime for correction."
+   }
+  ]
  }
 ]
