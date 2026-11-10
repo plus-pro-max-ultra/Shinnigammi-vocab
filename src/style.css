@@ -181,3 +181,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 @media (max-width:380px){
   .detail-arrows .word-actions{order:-1;flex-basis:100%;justify-content:center;margin-bottom:8px}
 }
+
+/* v15.09: word page layout per MM photo refs — left-aligned hero, floating function bar, swipe-only nav */
+.word-hero{text-align:left}
+.detail-arrows{position:fixed;left:16px;right:16px;bottom:calc(10px + env(safe-area-inset-bottom, 0px));z-index:40;flex-wrap:nowrap;justify-content:center;margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:28px;background:rgba(31,35,42,.96);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.detail-arrows .word-actions{order:0;flex-basis:auto;justify-content:center;margin:0;gap:14px}
+.detail-screen{padding-bottom:96px}

@@ -11132,6 +11132,8 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {"v": "v15.09", "d": "11/10", "items": ["單字頁排版調整（MM 2026-11-10 照片指示）：單字與讀音改為靠左排列；德文名詞性別改以 m.／f.／n. 標示；加入單字簿、書籤、熟悉度三項功能集中至頁底浮動操縱欄。", "移除單字頁「上一個／下一個」按鍵（MM 2026-11-10）：切換單字統一改用左右滑動。"]},
+      {"v": "v15.08", "d": "11/10", "items": ["修正單字左右滑動不順（MM 2026-11-10）：詳情頁從任何位置起手都能滑動切換，補上 touch-action 與 overscroll 設定；字卡模式加方向判定，上下捲動不再干擾。"]},
       {"v": "v15.07", "d": "11/10", "items": ["德文基礎區新增「單位與量詞」分類（MM 手寫筆記 11 字）：der Liter、das Gramm、das Kilo、das Glas、die Flasche、der Becher、die Packung、die Dose、das Stück、die Tasse 原已在 Lektion 1／4／6，改以跨分類收錄（ID 不變、課程保留、進度共享）；die Tafel 新收錄（Wiktionary 音標詞形、2 句 Tatoeba 例句，中文待補）。", "移除單字詳情頁淺灰色註記文字（MM 2026-11-10）：例句來源註記、待補句數提示、翻譯待補佔位文字；來源授權標示移至設定頁保留，單字內容與來源資料不變。"]},
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
@@ -12023,9 +12025,9 @@ Error generating stack: ` +
               : "\u4E09\u985E\u52D5\u8A5E\uFF08\u3059\u308B\u30FB\u4E0D\u898F\u5247\uFF09"
         : "",
     bm = {
-      masculine: "\u967D\u6027 der",
-      feminine: "\u9670\u6027 die",
-      neuter: "\u4E2D\u6027 das",
+      masculine: "m.",
+      feminine: "f.",
+      neuter: "n.",
     };
   function J1(e, t) {
     let r = e.replace(/^(der|die|das) /, "");
@@ -12062,9 +12064,12 @@ Error generating stack: ` +
       let r = Object.keys(bm).find((i) => t.includes(i)),
         o = t.match(/plural ([^;]+)/),
         n = [
-          t.startsWith("proper") ? "\u5C08\u6709\u540D\u8A5E" : "\u540D\u8A5E",
+          t.startsWith("proper")
+            ? "\u5C08\u6709\u540D\u8A5E" + (r ? " " + bm[r] : "")
+            : r
+              ? bm[r]
+              : "\u540D\u8A5E",
         ];
-      r && n.push(bm[r]);
       let a = "";
       if (o) {
         let i = o[1].trim(),
@@ -17909,11 +17914,6 @@ Error generating stack: ` +
         s.default.createElement(
           "div",
           { className: "detail-arrows" },
-          s.default.createElement(
-            "button",
-            { disabled: !t, onClick: () => p(-1) },
-            "\u2039 \u4E0A\u4E00\u500B",
-          ),
         s.default.createElement(
           "div",
           { className: "word-actions" },
@@ -17956,11 +17956,6 @@ Error generating stack: ` +
             s.default.createElement("span", { className: "dot-label" }, Mt[c]),
           ),
         ),
-          s.default.createElement(
-            "button",
-            { disabled: t >= r - 1, onClick: () => p(1) },
-            "\u4E0B\u4E00\u500B \u203A",
-          ),
         ),
         s.default.createElement(
           er,
