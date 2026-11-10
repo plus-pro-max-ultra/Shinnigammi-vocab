@@ -14674,13 +14674,12 @@ Error generating stack: ` +
                           ),
                         ),
                       ),
-                    Q === "more" &&
-                      O === "lessons" &&
+                    Q === "daily" &&
                       s.default.createElement(LessonsView, {
                         key: lesRst,
                         lessons: LESSONS_DATA,
                         words: V,
-                        onBack: () => ne("grid"),
+                        onBack: () => dg("courses"),
                         onOpenWord: (l) => {
                           let z = V.find((v) => v.id === l);
                           z &&
@@ -15559,10 +15558,10 @@ Error generating stack: ` +
             tab: Q,
             go: dg,
             onLessons: () => {
-              (Se("more"), or(""), Ce(""), A(null), ne("lessons"), lesRstSet((l) => l + 1));
+              (Se("daily"), or(""), Ce(""), A(null), ne("grid"), lesRstSet((l) => l + 1));
             },
             lessonNum: LESSON_NUM,
-            lessonsOn: Q === "more" && O === "lessons",
+            lessonsOn: Q === "daily",
           }),
         s.default.createElement(
           "footer",
@@ -15785,15 +15784,21 @@ Error generating stack: ` +
     return s.default.createElement(
       s.default.Fragment,
       null,
-      s.default.createElement(xm, {
-        title: "\u6587\u6CD5 / Grammar",
-        intro:
-          "\u7368\u7ACB\u6574\u7406\u53E5\u578B\u8207\u898F\u5247\uFF0C\u4E0D\u8207\u55AE\u5B57\u3001\u7247\u8A9E\u6DF7\u5408\u8A08\u6578\u3002",
-      }),
       s.default.createElement(
-        er,
-        { to: "/library", className: "file-button is-compact" },
-        "\u2039 \u8FD4\u56DE\u55AE\u5B57\u8207\u7247\u8A9E",
+        "div",
+        { className: "screen-header" },
+        s.default.createElement(
+          er,
+          { to: "/library", className: "hdr-back", "aria-label": "\u8FD4\u56DE" },
+          s.default.createElement(Ic, { d: "M15 6l-6 6 6 6" }),
+        ),
+        s.default.createElement(
+          "div",
+          { className: "hdr-title" },
+          s.default.createElement("strong", null, "\u6587\u6CD5 / Grammar"),
+          s.default.createElement("small", null, "\u53E5\u578B\u8207\u898F\u5247\uFF0C\u7368\u7ACB\u65BC\u55AE\u5B57\u8A08\u6578"),
+        ),
+        s.default.createElement("div", { className: "hdr-actions" }),
       ),
       gOrder.map((t) =>
         s.default.createElement(
@@ -16125,27 +16130,47 @@ Error generating stack: ` +
           "\u5C1A\u7121\u8AB2\u7A0B\uFF1B\u6BCF\u65E5\u8AB2\u7A0B\u4EA4\u4ED8\u5F8C\u6703\u6B78\u6A94\u5728\u9019\u88E1\u3002",
         ),
       !h &&
-        p.map((v) =>
-          s.default.createElement(
-            "button",
-            { className: "lesson-row", key: v.id, onClick: () => a(v.id) },
-            s.default.createElement(
-              "span",
-              { className: "lesson-meta" },
-              v.date,
-              " \u00B7 ",
-              v.lang === "jp" ? "\u65E5\u6587" : v.lang === "de" ? "\u5FB7\u6587" : "\u65E5\u6587\uFF0B\u5FB7\u6587",
-              v.words && v.words.length
-                ? " \u00B7 " + v.words.length + " \u500B\u55AE\u5B57"
-                : "",
-            ),
-            s.default.createElement(
-              "strong",
-              { className: "lesson-title" },
-              v.title || v.date,
-            ),
-          ),
-        ),
+        [
+          ["jp", "日文課程"],
+          ["de", "德文課程"],
+          ["sun", "週日綜合複習"],
+        ].map(([gl, gt]) => {
+          let items = e
+            .filter((v) =>
+              gl === "sun" ? v.lang !== "jp" && v.lang !== "de" : v.lang === gl,
+            )
+            .sort(
+              (v, y) =>
+                (v.num ?? 999) - (y.num ?? 999) || (v.date < y.date ? -1 : 1),
+            );
+          return items.length
+            ? s.default.createElement(
+                "section",
+                { key: gl, className: "lesson-group" },
+                s.default.createElement("h3", null, gt),
+                items.map((v) =>
+                  s.default.createElement(
+                    "button",
+                    { className: "lesson-row", key: v.id, onClick: () => a(v.id) },
+                    s.default.createElement(
+                      "span",
+                      { className: "lesson-meta" },
+                      v.date,
+                      v.num != null ? " · 第" + v.num + "課" : "",
+                      v.words && v.words.length
+                        ? " · " + v.words.length + " 個單字"
+                        : "",
+                    ),
+                    s.default.createElement(
+                      "strong",
+                      { className: "lesson-title" },
+                      v.title || v.date,
+                    ),
+                  ),
+                ),
+              )
+            : null;
+        }),
       h &&
         s.default.createElement(
           s.default.Fragment,
@@ -19498,7 +19523,8 @@ Error generating stack: ` +
         ["search", "/search"],
         ["library", "/library"],
         ["more", "/more"],
-        ["more", "/more/lessons", "lessons"],
+        ["daily", "/lessons"],
+        ["daily", "/more/lessons"],
         ["more", "/more/progress", "stats"],
         ["more", "/more/settings", "settings"],
         ["more", "/progress", "stats"],
