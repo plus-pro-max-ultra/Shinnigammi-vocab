@@ -16118,6 +16118,7 @@ Error generating stack: ` +
     let [i, c] = (0, s.useState)([]),
       [lm, slm] = (0, s.useState)("both"),
       d = {};
+    let [ord, setOrd] = (0, s.useState)("asc");
     (0, s.useEffect)(() => {
       if (n != null && sScr)
         requestAnimationFrame(() => {
@@ -16144,47 +16145,65 @@ Error generating stack: ` +
           "\u5C1A\u7121\u8AB2\u7A0B\uFF1B\u6BCF\u65E5\u8AB2\u7A0B\u4EA4\u4ED8\u5F8C\u6703\u6B78\u6A94\u5728\u9019\u88E1\u3002",
         ),
       !h &&
-        [
-          ["jp", "日文課程"],
-          ["de", "德文課程"],
-          ["sun", "週日綜合複習"],
-        ].map(([gl, gt]) => {
-          let items = e
-            .filter((v) =>
-              gl === "sun" ? v.lang !== "jp" && v.lang !== "de" : v.lang === gl,
-            )
-            .sort(
-              (v, y) =>
-                (v.num ?? 999) - (y.num ?? 999) || (v.date < y.date ? -1 : 1),
-            );
-          return items.length
-            ? s.default.createElement(
-                "section",
-                { key: gl, className: "lesson-group" },
-                s.default.createElement("h3", null, gt),
-                items.map((v) =>
+        e.length > 0 &&
+        s.default.createElement(
+          s.default.Fragment,
+          null,
+          s.default.createElement(
+            "div",
+            {
+              className: "chip-row lesson-ord",
+              role: "group",
+              "aria-label": "排序",
+            },
+            [
+              ["asc", "由舊到新"],
+              ["desc", "由新到舊"],
+            ].map(([k, z]) =>
+              s.default.createElement(
+                "button",
+                {
+                  key: k,
+                  className: "chip" + (ord === k ? " on" : ""),
+                  onClick: () => setOrd(k),
+                },
+                z,
+              ),
+            ),
+          ),
+          s.default.createElement(
+            "section",
+            { className: "lesson-group" },
+            [...e]
+              .sort((v, y) => {
+                let c =
+                  (v.date < y.date ? -1 : v.date > y.date ? 1 : 0) ||
+                  (v.num ?? 999) - (y.num ?? 999) ||
+                  (v.id < y.id ? -1 : 1);
+                return ord === "desc" ? -c : c;
+              })
+              .map((v) =>
+                s.default.createElement(
+                  "button",
+                  { className: "lesson-row", key: v.id, onClick: () => a(v.id) },
                   s.default.createElement(
-                    "button",
-                    { className: "lesson-row", key: v.id, onClick: () => a(v.id) },
-                    s.default.createElement(
-                      "span",
-                      { className: "lesson-meta" },
-                      v.date,
-                      v.num != null ? " · 第" + v.num + "課" : "",
-                      v.words && v.words.length
-                        ? " · " + v.words.length + " 個單字"
-                        : "",
-                    ),
-                    s.default.createElement(
-                      "strong",
-                      { className: "lesson-title" },
-                      v.title || v.date,
-                    ),
+                    "span",
+                    { className: "lesson-meta" },
+                    v.date,
+                    v.num != null ? " · 第" + v.num + "課" : "",
+                    v.words && v.words.length
+                      ? " · " + v.words.length + " 個單字"
+                      : "",
+                  ),
+                  s.default.createElement(
+                    "strong",
+                    { className: "lesson-title" },
+                    v.title || v.date,
                   ),
                 ),
-              )
-            : null;
-        }),
+              ),
+          ),
+        ),
       h &&
         s.default.createElement(
           s.default.Fragment,
