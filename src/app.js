@@ -10509,6 +10509,23 @@ Error generating stack: ` +
     { id: "demonstratives", jp: "\u6307\u793A\u8A5E", de: "" },
     { id: "questions", jp: "\u7591\u554F\u8A5E", de: "W-Fragen \u00B7 \u7591\u554F\u8A5E" },
     { id: "conjunctions", jp: "\u63A5\u7E8C\u8A5E", de: "Konjunktionen \u00B7 \u9023\u63A5\u8A5E" },
+    {
+      id: "units",
+      jp: "",
+      de: "Einheiten & Mengen \u00B7 \u55AE\u4F4D\u8207\u91CF\u8A5E",
+      include: [
+        "de-185",
+        "de-598",
+        "de-599",
+        "de-600",
+        "de-601",
+        "de-603",
+        "de-604",
+        "de-605",
+        "de-784",
+        "de-785",
+      ],
+    },
   ];
   var Il = [
     {
@@ -11115,6 +11132,7 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {"v": "v15.07", "d": "11/10", "items": ["德文基礎區新增「單位與量詞」分類（MM 手寫筆記 11 字）：der Liter、das Gramm、das Kilo、das Glas、die Flasche、der Becher、die Packung、die Dose、das Stück、die Tasse 原已在 Lektion 1／4／6，改以跨分類收錄（ID 不變、課程保留、進度共享）；die Tafel 新收錄（Wiktionary 音標詞形、2 句 Tatoeba 例句，中文待補）。", "移除單字詳情頁淺灰色註記文字（MM 2026-11-10）：例句來源註記、待補句數提示、翻譯待補佔位文字；來源授權標示移至設定頁保留，單字內容與來源資料不變。"]},
       {"v": "v14.65", "d": "11/07", "items": ["Lesson 13：城鎮與問路30詞，新增2條（薬局、バス停），沿用28條（入口沿用既有「入り口」）。", "新增2文法：～てもいいです（許可）、～てはいけません（禁止）；例句全部取自已核對的 Tatoeba。"]},
       {"v": "v14.64", "d": "11/06", "items": ["德文暫存區單字 stift 已補全並收錄為 der Stift（筆；鉛筆），含 Wiktionary 音標與詞性變化、兩個 Tatoeba 例句（含中文）。"]},
       {"v": "v14.63", "d": "11/05", "items": ["歯を磨く補入已核對第二例句（Tatoeba492913），中文標待補；晩酌2句來源例句、Lesson12共6句詞條中文與2句文法中文仍待補。"]},
@@ -12790,7 +12808,12 @@ Error generating stack: ` +
       Nl = Ne.concat(V.filter((l) => l.lang === J && Nm[l.id])).filter(
         (l) => !l.foundations,
       ),
-      FDl = V.filter((l) => l.lang === J && l.foundations),
+      FDl = V.filter(
+        (l) =>
+          l.lang === J &&
+          (l.foundations ||
+            FD.some((c) => (c.include || []).includes(l.id))),
+      ),
       mf = J === "jp" ? 30 : 10,
       Ur = Cm(),
       NeG = Ne.filter((l) => !l.foundations),
@@ -13787,7 +13810,11 @@ Error generating stack: ` +
                           "div",
                           { className: "unit-list" },
                           FD.map((l) => {
-                            let v = FDl.filter((z) => z.foundations === l.id),
+                            let v = FDl.filter(
+                            (z) =>
+                              z.foundations === l.id ||
+                              (l.include || []).includes(z.id),
+                          ),
                               S = v.filter((L) => G[L.id]?.star).length;
                             if (!v.length || !l[J]) return null;
                             return s.default.createElement(
@@ -15383,6 +15410,11 @@ Error generating stack: ` +
                           O1,
                         ),
                         s.default.createElement(
+                          "p",
+                          { className: "muted src-credit" },
+                          "\u4F8B\u53E5\u8207\u642D\u914D\u8A9E\u6599\u4F86\u81EA Tatoeba\uFF08CC BY 2.0 FR\uFF09\uFF1B\u4E2D\u6587\u8B6F\u6587\u70BA\u793E\u7FA4\u7FFB\u8B6F\uFF0C\u90E8\u5206\u81EA\u52D5\u8F49\u70BA\u7E41\u9AD4\uFF0C\u672A\u9010\u53E5\u4EBA\u5DE5\u6821\u5C0D\u3002",
+                        ),
+                        s.default.createElement(
                           "details",
                           { className: "changelog" },
                           s.default.createElement(
@@ -15926,7 +15958,7 @@ Error generating stack: ` +
         "section",
         { className: "examples", "aria-label": "\u4F8B\u53E5" },
         r && s.default.createElement("h3", null, "\u4F8B\u53E5"),
-        e.examplesPending > 0 && s.default.createElement("p", { className: "muted" }, "來源例句待補：", e.examplesPending, " 句（不編造）"),
+        
         e.examples.map((i, c) =>
           s.default.createElement(
             "div",
@@ -15968,39 +16000,11 @@ Error generating stack: ` +
                       null,
                       s.default.createElement("span", null, i.en || ""),
                       s.default.createElement("br", null),
-                      i.zh ||
-                        s.default.createElement(
-                          "span",
-                          { className: "muted" },
-                          "\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC",
-                        ),
+                      i.zh || null,
                     )
                   : e.lang === "jp" || t === "zh"
-                    ? i.zh ||
-                      (i.en
-                        ? s.default.createElement(
-                            s.default.Fragment,
-                            null,
-                            i.en,
-                            " ",
-                            s.default.createElement(
-                              "span",
-                              { className: "muted" },
-                              "\uFF08\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC\uFF09",
-                            ),
-                          )
-                        : s.default.createElement(
-                            "span",
-                            { className: "muted" },
-                            "\u4E2D\u6587\u7FFB\u8B6F\u5F85\u88DC",
-                          ))
-                    : i.en ||
-                      i.zh ||
-                      s.default.createElement(
-                        "span",
-                        { className: "muted" },
-                        "\u7FFB\u8B6F\u5F85\u88DC",
-                      )
+                    ? i.zh || i.en || null
+                    : i.en || i.zh || null
                 : s.default.createElement(
                     "span",
                     { "aria-hidden": "true" },
@@ -16009,12 +16013,7 @@ Error generating stack: ` +
             ),
           ),
         ),
-        e.examples.some((i) => i.src === "tatoeba" && i.zh) &&
-          s.default.createElement(
-            "p",
-            { className: "muted src-note" },
-            "\u4F8B\u53E5\u4F86\u81EA Tatoeba\uFF08CC BY 2.0 FR\uFF09\uFF0C\u4E2D\u6587\u70BA\u793E\u7FA4\u7FFB\u8B6F\u4E26\u81EA\u52D5\u8F49\u70BA\u7E41\u9AD4\uFF0C\u672A\u9010\u53E5\u4EBA\u5DE5\u6821\u5C0D\u3002",
-          ),
+        
       )
     );
   }
@@ -17780,12 +17779,7 @@ Error generating stack: ` +
                       ),
                     ),
                   ),
-                  e.collocations.some((U) => U.src === "corpus") &&
-                    s.default.createElement(
-                      "p",
-                      { className: "muted" },
-                      "\u642D\u914D\u7531 Tatoeba \u65E5\u6587\u4F8B\u53E5\u8A9E\u6599\u7D71\u8A08\u800C\u5F97\uFF08\u81EA\u52D5\u6574\u7406\uFF0C\u975E\u4EBA\u5DE5\u5BE9\u5B9A\uFF0C\u7121\u4E2D\u6587\u91CB\u7FA9\uFF09\u3002",
-                    ),
+                  
                 )
               : s.default.createElement(
                   "p",

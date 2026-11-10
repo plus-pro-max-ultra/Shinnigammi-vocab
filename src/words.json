@@ -74049,6 +74049,38 @@
   "note": "Stift 另指細長的釘／銷（pin），口語亦指學徒；das Stift（修道院、基金會）是不同名詞。小寫 stift 另是動詞 stiften 的命令式（來源：de.wiktionary）。"
  },
  {
+  "id": "de-797",
+  "lang": "de",
+  "word": "die Tafel",
+  "reading": "ˈtaːfl̩",
+  "ipa": "/ˈtaːfl̩/",
+  "en": "bar (of chocolate); board",
+  "zh": "片、板（量詞，如一板巧克力）；黑板",
+  "grammar": "Substantiv, f · Plural: die Tafeln · 量詞用法：eine Tafel Schokolade（一板巧克力）",
+  "contentType": "word",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Tafel",
+  "examples": [
+   {
+    "text": "Tom kaufte eine Tafel Schokolade.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Tom bought a bar of chocolate.",
+    "src": "tatoeba",
+    "tid": "3103531",
+    "zhPending": true
+   },
+   {
+    "text": "Die Kinder streiten sich um eine Tafel Schokolade.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "The children are fighting over a bar of chocolate.",
+    "src": "tatoeba",
+    "tid": "14018371",
+    "zhPending": true
+   }
+  ],
+  "note": "例句／中文待補：缺 0 句來源例句、2 句已收例句中文；不編造，後續查核回補。",
+  "foundations": "units"
+ },
+ {
   "id": "jpl12-01",
   "lang": "jp",
   "word": "剃る",
