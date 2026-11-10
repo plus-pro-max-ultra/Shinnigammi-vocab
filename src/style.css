@@ -187,3 +187,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .detail-arrows{position:fixed;left:16px;right:16px;bottom:calc(10px + env(safe-area-inset-bottom, 0px));z-index:40;flex-wrap:nowrap;justify-content:center;margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:28px;background:rgba(31,35,42,.96);box-shadow:0 8px 24px rgba(0,0,0,.5)}
 .detail-arrows .word-actions{order:0;flex-basis:auto;justify-content:center;margin:0;gap:14px}
 .detail-screen{padding-bottom:96px}
+
+/* v15.10: header controls (random/TTS/options) moved into the bottom toolbar */
+.detail-arrows{left:8px;right:8px;padding:8px 10px}
+.detail-arrows .word-actions{gap:6px}
+.detail-arrows .word-actions button{width:36px;height:36px;font-size:17px}
+.detail-arrows .word-actions .fam-dot-btn{height:36px;padding:0 8px;font-size:12px}

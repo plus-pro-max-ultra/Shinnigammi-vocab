@@ -11132,6 +11132,7 @@ Error generating stack: ` +
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
     O1 = "__BUILD__",
     R1 = [
+      {"v": "v15.10", "d": "11/10", "items": ["單字頁右上三項功能（隨機排序、朗讀單字、單字選項）移入頁底操縱欄（MM 2026-11-10「右上的三個也移到控制欄」）；頂部只留返回與進度，其餘操作與滑動切換不變。"]},
       {"v": "v15.09", "d": "11/10", "items": ["單字頁排版調整（MM 2026-11-10 照片指示）：單字與讀音改為靠左排列；德文名詞性別改以 m.／f.／n. 標示；加入單字簿、書籤、熟悉度三項功能集中至頁底浮動操縱欄。", "移除單字頁「上一個／下一個」按鍵（MM 2026-11-10）：切換單字統一改用左右滑動。"]},
       {"v": "v15.08", "d": "11/10", "items": ["修正單字左右滑動不順（MM 2026-11-10）：詳情頁從任何位置起手都能滑動切換，補上 touch-action 與 overscroll 設定；字卡模式加方向判定，上下捲動不再干擾。"]},
       {"v": "v15.07", "d": "11/10", "items": ["德文基礎區新增「單位與量詞」分類（MM 手寫筆記 11 字）：der Liter、das Gramm、das Kilo、das Glas、die Flasche、der Becher、die Packung、die Dose、das Stück、die Tasse 原已在 Lektion 1／4／6，改以跨分類收錄（ID 不變、課程保留、進度共享）；die Tafel 新收錄（Wiktionary 音標詞形、2 句 Tatoeba 例句，中文待補）。", "移除單字詳情頁淺灰色註記文字（MM 2026-11-10）：例句來源註記、待補句數提示、翻譯待補佔位文字；來源授權標示移至設定頁保留，單字內容與來源資料不變。"]},
@@ -17431,31 +17432,6 @@ Error generating stack: ` +
             o || "\u5168\u90E8\u689D\u76EE",
           ),
         ),
-        s.default.createElement(
-          "div",
-          { className: "hdr-actions" },
-          s.default.createElement(
-            "button",
-            { "aria-label": "\u96A8\u6A5F\u6392\u5E8F", onClick: b },
-            s.default.createElement(Ic, { d: "M4 7h11M15 4l3 3-3 3M20 17H9M9 14l-3 3 3 3" }),
-          ),
-          s.default.createElement(
-            "button",
-            { "aria-label": "\u6717\u8B80\u55AE\u5B57", onClick: () => T(e) },
-            s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
-          ),
-          s.default.createElement(
-            "button",
-            { "aria-label": "\u55AE\u5B57\u9078\u9805", onClick: () => D(!N) },
-            s.default.createElement(Ic, {
-              dots: [
-                [5, 12],
-                [12, 12],
-                [19, 12],
-              ],
-            }),
-          ),
-        ),
       ),
       N &&
         s.default.createElement(
@@ -17954,6 +17930,27 @@ Error generating stack: ` +
             },
             s.default.createElement("i", { className: "dot level-" + c }),
             s.default.createElement("span", { className: "dot-label" }, Mt[c]),
+          ),
+          s.default.createElement(
+            "button",
+            { "aria-label": "\u96A8\u6A5F\u6392\u5E8F", onClick: b },
+            s.default.createElement(Ic, { d: "M4 7h11M15 4l3 3-3 3M20 17H9M9 14l-3 3 3 3" }),
+          ),
+          s.default.createElement(
+            "button",
+            { "aria-label": "\u6717\u8B80\u55AE\u5B57", onClick: () => T(e) },
+            s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
+          ),
+          s.default.createElement(
+            "button",
+            { "aria-label": "\u55AE\u5B57\u9078\u9805", onClick: () => D(!N) },
+            s.default.createElement(Ic, {
+              dots: [
+                [5, 12],
+                [12, 12],
+                [19, 12],
+              ],
+            }),
           ),
         ),
         ),
