@@ -17392,8 +17392,7 @@ Error generating stack: ` +
         className: "detail-screen",
         style: { "--word-size": j.size + "px" },
         onTouchStart: (U) => {
-          U.target.closest("button,a,input,textarea,select,label,summary") ||
-            (oe.current = { x: U.touches[0].clientX, y: U.touches[0].clientY });
+          oe.current = { x: U.touches[0].clientX, y: U.touches[0].clientY };
         },
         onTouchEnd: (U) => {
           if (!oe.current) return;
@@ -18735,14 +18734,24 @@ Error generating stack: ` +
                         },
                     onPointerDown: (A) => {
                       if (T) return;
-                      ((dragRef.current = { x: A.clientX, moved: !1 }),
+                      ((dragRef.current = {
+                        x: A.clientX,
+                        y: A.clientY,
+                        moved: !1,
+                        axis: null,
+                      }),
                         A.currentTarget.setPointerCapture?.(A.pointerId));
                     },
                     onPointerMove: (A) => {
                       let O = dragRef.current;
                       if (!O) return;
-                      let ne = A.clientX - O.x;
-                      (Math.abs(ne) > 8 && (O.moved = !0), setDragX(ne));
+                      let ne = A.clientX - O.x,
+                        pr = A.clientY - O.y;
+                      if (!O.axis && (Math.abs(ne) > 8 || Math.abs(pr) > 8))
+                        O.axis = Math.abs(ne) >= Math.abs(pr) ? "h" : "v";
+                      O.axis === "h"
+                        ? ((O.moved = !0), setDragX(ne))
+                        : dragX !== 0 && setDragX(0);
                     },
                     onPointerUp: () => {
                       let O = dragRef.current;
@@ -18750,7 +18759,12 @@ Error generating stack: ` +
                       dragRef.current = null;
                       let ne = dragX;
                       (setDragX(0),
-                        Math.abs(ne) > 90 ? _(ne > 0) : O.moved || D(!N));
+                        O.axis === "h" && Math.abs(ne) > 90
+                          ? _(ne > 0)
+                          : O.moved || D(!N));
+                    },
+                    onPointerCancel: () => {
+                      ((dragRef.current = null), setDragX(0));
                     },
                   },
                   s.default.createElement(
