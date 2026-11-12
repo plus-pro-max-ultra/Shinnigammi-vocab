@@ -19912,5 +19912,530 @@
   ],
   "note": "例句／中文待補：缺 0 句來源例句、2 句已收例句中文；不編造，後續查核回補。",
   "foundations": "units"
+ },
+ {
+  "id": "de-798",
+  "lang": "de",
+  "word": "die Nudel",
+  "en": "noodle; pasta",
+  "zh": "麵條；麵食",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine; plural Nudeln",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Nudel",
+  "examples": [
+   {
+    "text": "Ich esse Nudeln.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I eat noodles.",
+    "src": "tatoeba",
+    "tid": "349837",
+    "zhPending": true
+   },
+   {
+    "text": "Ich habe Lust auf Nudeln.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I fancy some pasta.",
+    "src": "tatoeba",
+    "tid": "10039732",
+    "zhPending": true
+   }
+  ],
+  "note": "依暫存區提交「Nudeln」收錄原形；實用多為複數 Nudeln。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈnuːdl̩",
+  "ipa": "/ˈnuːdl̩/"
+ },
+ {
+  "id": "de-799",
+  "lang": "de",
+  "word": "das Ausland",
+  "en": "foreign countries; abroad",
+  "zh": "國外",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter; no plural",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Ausland",
+  "examples": [
+   {
+    "text": "Tom ging ins Ausland.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Tom went abroad.",
+    "src": "tatoeba",
+    "tid": "7636906",
+    "zhPending": true
+   },
+   {
+    "text": "Ich möchte ins Ausland.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I want to go to another country.",
+    "src": "tatoeba",
+    "tid": "3795055",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈaʊ̯slant",
+  "ipa": "/ˈaʊ̯slant/"
+ },
+ {
+  "id": "de-800",
+  "lang": "de",
+  "word": "später",
+  "en": "later",
+  "zh": "稍後；之後",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "adverb",
+  "sourceUrl": "https://de.wiktionary.org/wiki/später",
+  "examples": [
+   {
+    "text": "Bis später!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Talk to you later.",
+    "src": "tatoeba",
+    "tid": "367027",
+    "zhPending": true
+   },
+   {
+    "text": "Wir reden später.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "We'll talk later.",
+    "src": "tatoeba",
+    "tid": "1898453",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈʃpɛːtɐ",
+  "ipa": "/ˈʃpɛːtɐ/"
+ },
+ {
+  "id": "de-801",
+  "lang": "de",
+  "word": "zusammen",
+  "en": "together; jointly",
+  "zh": "一起",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "adverb",
+  "sourceUrl": "https://de.wiktionary.org/wiki/zusammen",
+  "examples": [
+   {
+    "text": "Hallo zusammen!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Hello everyone!",
+    "src": "tatoeba",
+    "tid": "554583",
+    "zhPending": true
+   },
+   {
+    "text": "Wir waren zusammen.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "We were together.",
+    "src": "tatoeba",
+    "tid": "10733687",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "t͡suˈzamən",
+  "ipa": "/t͡suˈzamən/"
+ },
+ {
+  "id": "de-802",
+  "lang": "de",
+  "word": "studieren",
+  "en": "to study (at university/college)",
+  "zh": "（在大學）就讀；研究",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "verb · regular: du studierst, er studiert; studierte, hat studiert",
+  "sourceUrl": "https://de.wiktionary.org/wiki/studieren",
+  "examples": [
+   {
+    "text": "Ich studiere.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I am studying.",
+    "src": "tatoeba",
+    "tid": "750341",
+    "zhPending": true
+   },
+   {
+    "text": "Studiere!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Study!",
+    "src": "tatoeba",
+    "tid": "817420",
+    "zhPending": true
+   }
+  ],
+  "note": "依暫存區提交「studiere」收錄原形 studieren。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ʃtuˈdiːʁən",
+  "ipa": "/ʃtuˈdiːʁən/"
+ },
+ {
+  "id": "de-803",
+  "lang": "de",
+  "word": "gleichfalls",
+  "en": "likewise; same to you",
+  "zh": "同樣地（回應祝福用語）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "adverb",
+  "sourceUrl": "https://de.wiktionary.org/wiki/gleichfalls",
+  "examples": [
+   {
+    "text": "Danke, gleichfalls.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Thank you, too.",
+    "src": "tatoeba",
+    "tid": "1639405",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈɡlaɪ̯çˌfals",
+  "ipa": "/ˈɡlaɪ̯çˌfals/"
+ },
+ {
+  "id": "de-804",
+  "lang": "de",
+  "word": "satt",
+  "en": "full (not hungry); satiated",
+  "zh": "飽的",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "adjective",
+  "sourceUrl": "https://de.wiktionary.org/wiki/satt",
+  "examples": [
+   {
+    "text": "Tom ist satt.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Tom is full.",
+    "src": "tatoeba",
+    "tid": "5830153",
+    "zhPending": true
+   },
+   {
+    "text": "Bist du satt?",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Are you full?",
+    "src": "tatoeba",
+    "tid": "1371794",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "zat",
+  "ipa": "/zat/"
+ },
+ {
+  "id": "de-805",
+  "lang": "de",
+  "word": "die Lust",
+  "en": "desire; wish; pleasure",
+  "zh": "興致；慾望",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine; plural Lüste",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Lust",
+  "examples": [
+   {
+    "text": "Lust auf grünen Tee?",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Fancy some green tea?",
+    "src": "tatoeba",
+    "tid": "2861421",
+    "zhPending": true
+   },
+   {
+    "text": "Ich habe Lust auf Nudeln.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I fancy some pasta.",
+    "src": "tatoeba",
+    "tid": "10039732",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "lʊst",
+  "ipa": "/lʊst/"
+ },
+ {
+  "id": "de-806",
+  "lang": "de",
+  "word": "zum Wohl",
+  "en": "cheers (toast when drinking)",
+  "zh": "乾杯（祝酒）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "interjection / phrase",
+  "sourceUrl": "https://de.wiktionary.org/wiki/zum Wohl",
+  "examples": [
+   {
+    "text": "Zum Wohl!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Bottoms up!",
+    "src": "tatoeba",
+    "tid": "957535",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "t͡sʊm ˈvoːl",
+  "ipa": "/t͡sʊm ˈvoːl/"
+ },
+ {
+  "id": "de-807",
+  "lang": "de",
+  "word": "Prost",
+  "en": "cheers! (toast)",
+  "zh": "乾杯！",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "interjection; das Prost（名詞，祝酒）",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Prost",
+  "examples": [
+   {
+    "text": "Prost!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Bottoms up!",
+    "src": "tatoeba",
+    "tid": "433577",
+    "zhPending": true
+   },
+   {
+    "text": "Auf dein Wohl! Prost!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Here's to you! Cheers!",
+    "src": "tatoeba",
+    "tid": "2112135",
+    "zhPending": true
+   }
+  ],
+  "note": "感嘆詞用法為主；名詞 das Prost（複數 Proste）指祝酒一舉（來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "pʁoːst",
+  "ipa": "/pʁoːst/"
+ },
+ {
+  "id": "de-808",
+  "lang": "de",
+  "word": "das Gericht",
+  "en": "dish; court",
+  "zh": "菜餚；法院",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter; plural Gerichte",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Gericht",
+  "examples": [
+   {
+    "text": "Dieses Gericht ist sehr lecker.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "This dish is delicious.",
+    "src": "tatoeba",
+    "tid": "13599852",
+    "zhPending": true
+   },
+   {
+    "text": "Serviert dieses Restaurant vegane Gerichte?",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Does this restaurant serve vegan dishes?",
+    "src": "tatoeba",
+    "tid": "9049195",
+    "zhPending": true
+   }
+  ],
+  "note": "依暫存區提交複數「Gerichte」收錄原形；此處為「菜餚」義，另有「法院」義（來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ɡəˈʁɪçt",
+  "ipa": "/ɡəˈʁɪçt/"
+ },
+ {
+  "id": "de-809",
+  "lang": "de",
+  "word": "das Eisbein",
+  "en": "pork knuckle",
+  "zh": "德國豬腳",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter; plural Eisbeine",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Eisbein",
+  "examples": [
+   {
+    "text": "Kaum zu glauben, sie bestellte tatsächlich Eisbein mit Sauerkraut.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "As incredible as it may seem, she ordered a knuckle of ham with sauerkraut.",
+    "src": "tatoeba",
+    "tid": "1254984",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈaɪ̯sˌbaɪ̯n",
+  "ipa": "/ˈaɪ̯sˌbaɪ̯n/"
+ },
+ {
+  "id": "de-810",
+  "lang": "de",
+  "word": "das Sauerkraut",
+  "en": "sauerkraut",
+  "zh": "德式酸菜",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter; no plural",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Sauerkraut",
+  "examples": [
+   {
+    "text": "Ich liebe Sauerkraut.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I like sauerkraut.",
+    "src": "tatoeba",
+    "tid": "3390319",
+    "zhPending": true
+   },
+   {
+    "text": "Ich mag Sauerkraut.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "I like sauerkraut.",
+    "src": "tatoeba",
+    "tid": "3390318",
+    "zhPending": true
+   }
+  ],
+  "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈzaʊ̯ɐˌkʁaʊ̯t",
+  "ipa": "/ˈzaʊ̯ɐˌkʁaʊ̯t/"
+ },
+ {
+  "id": "de-811",
+  "lang": "de",
+  "word": "das Schnitzel",
+  "en": "cutlet; schnitzel",
+  "zh": "炸肉排",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter; plural Schnitzel",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schnitzel",
+  "examples": [],
+  "note": "雙語例句待補（來源句不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈʃnɪt͡sl̩",
+  "ipa": "/ˈʃnɪt͡sl̩/"
+ },
+ {
+  "id": "de-812",
+  "lang": "de",
+  "word": "das Rindergulasch",
+  "en": "beef goulash",
+  "zh": "燉牛肉（匈牙利式）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · neuter",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Rindergulasch",
+  "examples": [],
+  "note": "複數未見於來源，待補。雙語例句待補（來源句不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈʁɪndɐˌɡʊlaʃ",
+  "ipa": "/ˈʁɪndɐˌɡʊlaʃ/"
+ },
+ {
+  "id": "de-813",
+  "lang": "de",
+  "word": "der Krustenschweinebraten",
+  "en": "crusty roast pork (with crackling)",
+  "zh": "脆皮烤豬肉",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · masculine; plural Krustenschweinebraten",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Schweinebraten",
+  "examples": [],
+  "note": "無獨立詞典條目；依複合詞 Krusten- + Schweinebraten（der，de.wiktionary）推定詞性與複數，音標待補。雙語例句待補（來源句不足；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。"
+ },
+ {
+  "id": "de-814",
+  "lang": "de",
+  "word": "die Salzkartoffel",
+  "en": "boiled (salted) potato",
+  "zh": "鹽水煮馬鈴薯",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine; plural Salzkartoffeln",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Salzkartoffel",
+  "examples": [
+   {
+    "text": "Wir haben den ganzen Winter über Salzkartoffeln gegessen.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "We ate boiled potatoes all winter.",
+    "src": "tatoeba",
+    "tid": "5293423",
+    "zhPending": true
+   }
+  ],
+  "note": "依暫存區提交複數「Salzkartoffeln」收錄原形；實用多為複數。第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈzalt͡skaʁˌtɔfl̩",
+  "ipa": "/ˈzalt͡skaʁˌtɔfl̩/"
+ },
+ {
+  "id": "de-815",
+  "lang": "de",
+  "word": "die Roulade",
+  "en": "roulade; meat roll",
+  "zh": "肉捲",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine; plural Rouladen",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Roulade",
+  "examples": [],
+  "note": "依暫存區提交複數「Rouladen」收錄原形。雙語例句待補（現有來源句譯文不可靠，不採用；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ʁuˈlaːdə",
+  "ipa": "/ʁuˈlaːdə/"
+ },
+ {
+  "id": "de-816",
+  "lang": "de",
+  "word": "die Spätzle",
+  "en": "Spätzle (Swabian egg noodles)",
+  "zh": "德式麵疙瘩（施瓦本）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · plural only（慣用複數）",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Spätzle",
+  "examples": [
+   {
+    "text": "Spätzle sind eine Art deutscher Nudeln.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Spätzle are a type of German pasta.",
+    "src": "tatoeba",
+    "tid": "2580856",
+    "zhPending": true
+   },
+   {
+    "text": "Ein Leben ohne Spätzle ist möglich, aber sinnlos!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "A life without spaetzle is possible, but what's the point?",
+    "src": "tatoeba",
+    "tid": "7002992",
+    "zhPending": true
+   }
+  ],
+  "note": "僅複數形式使用（來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈʃpɛt͡slə",
+  "ipa": "/ˈʃpɛt͡slə/"
  }
 ]

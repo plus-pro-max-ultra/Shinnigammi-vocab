@@ -628,6 +628,158 @@
       "lang": "de",
       "word": "langsame",
       "note": "2026-10-28 提交暫緩：形式有歧義（疑為 langsam 變化形）且無上下文，待 MM 確認。當時未登入本檔（僅控制中心 v2.2.0 有紀錄），2026-11-09 恢復追蹤。授權依據未解決前勿處理、勿收錄。"
+    },
+    {
+      "ref": "s-1794292443939",
+      "lang": "de",
+      "word": "Nudeln",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Nudeln」，登錄為 die Nudel（de-798）"
+    },
+    {
+      "ref": "s-1794462663130",
+      "lang": "de",
+      "word": "Ausland",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Ausland」，登錄為 das Ausland（de-799）"
+    },
+    {
+      "ref": "s-1794462674832",
+      "lang": "de",
+      "word": "später",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「später」，登錄為 später（de-800）"
+    },
+    {
+      "ref": "s-1794462682825",
+      "lang": "de",
+      "word": "zusammen",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「zusammen」，登錄為 zusammen（de-801）"
+    },
+    {
+      "ref": "s-1794464921817",
+      "lang": "de",
+      "word": "studiere",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「studiere」，登錄為 studieren（de-802）"
+    },
+    {
+      "ref": "s-1794465088241",
+      "lang": "de",
+      "word": "gleichfalls",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「gleichfalls」，登錄為 gleichfalls（de-803）"
+    },
+    {
+      "ref": "s-1794465527830",
+      "lang": "de",
+      "word": "satt",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「satt」，登錄為 satt（de-804）"
+    },
+    {
+      "ref": "s-1794465737303",
+      "lang": "de",
+      "word": "Lust",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Lust」，登錄為 die Lust（de-805）"
+    },
+    {
+      "ref": "s-1794466297383",
+      "lang": "de",
+      "word": "Zum Wohl",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Zum Wohl」，登錄為 zum Wohl（de-806）"
+    },
+    {
+      "ref": "s-1794466350686",
+      "lang": "de",
+      "word": "Prost",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Prost」，登錄為 Prost（de-807）"
+    },
+    {
+      "ref": "s-1794467008034",
+      "lang": "de",
+      "word": "Gerichte",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Gerichte」，登錄為 das Gericht（de-808）"
+    },
+    {
+      "ref": "s-1794467023281",
+      "lang": "de",
+      "word": "Eisbein",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Eisbein」，登錄為 das Eisbein（de-809）"
+    },
+    {
+      "ref": "s-1794467043484",
+      "lang": "de",
+      "word": "Sauerkraut",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Sauerkraut」，登錄為 das Sauerkraut（de-810）"
+    },
+    {
+      "ref": "s-1794467086636",
+      "lang": "de",
+      "word": "schnitzel",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「schnitzel」，登錄為 das Schnitzel（de-811）"
+    },
+    {
+      "ref": "s-1794467167348",
+      "lang": "de",
+      "word": "Rindergulasch",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Rindergulasch」，登錄為 das Rindergulasch（de-812）"
+    },
+    {
+      "ref": "s-1794467207753",
+      "lang": "de",
+      "word": "Krustenschweinebraten",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Krustenschweinebraten」，登錄為 der Krustenschweinebraten（de-813）"
+    },
+    {
+      "ref": "s-1794467282048",
+      "lang": "de",
+      "word": "Salzkartoffeln",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Salzkartoffeln」，登錄為 die Salzkartoffel（de-814）"
+    },
+    {
+      "ref": "s-1794467329476",
+      "lang": "de",
+      "word": "Rouladen",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Rouladen」，登錄為 die Roulade（de-815）"
+    },
+    {
+      "ref": "s-1794467405145",
+      "lang": "de",
+      "word": "Spätzle",
+      "skip": true,
+      "filledAt": "2026-11-12T23:41:36Z",
+      "note": "使用者暫存「Spätzle」，登錄為 die Spätzle（de-816）"
     }
   ]
 }
