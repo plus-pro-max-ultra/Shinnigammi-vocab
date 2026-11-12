@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T07:06:07.349Z",
+ "updated": "2026-11-12T07:06:47.754Z",
  "items": [
   {
    "id": "s-1794292443939",
@@ -110,6 +110,13 @@
    "id": "s-1794467167348",
    "lang": "de",
    "word": "Rindergulasch",
+   "note": "",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "s-1794467207753",
+   "lang": "de",
+   "word": "Krustenschweinebraten",
    "note": "",
    "added": "2026-11-12"
   }
