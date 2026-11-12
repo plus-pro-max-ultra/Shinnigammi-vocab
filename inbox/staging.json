@@ -1,19 +1,26 @@
 {
- "updated": "2026-11-12T23:41:22.116Z",
- "items": [
-  {
-   "id": "s-1794466336111",
-   "lang": "de",
-   "word": "Mahzeit",
-   "note": "",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "s-1794467433595",
-   "lang": "de",
-   "word": "Maultschen",
-   "note": "",
-   "added": "2026-11-12"
-  }
- ]
+  "updated": "2026-11-12T23:41:22.116Z",
+  "items": [
+    {
+      "id": "s-1794466336111",
+      "lang": "de",
+      "word": "Mahzeit",
+      "note": "",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "s-1794467433595",
+      "lang": "de",
+      "word": "Maultschen",
+      "note": "",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "s-1794467207753",
+      "lang": "de",
+      "word": "Krustenschweinebraten",
+      "note": "核心資料無獨立來源：Duden／de.wiktionary／DWDS 均無此詞條目，詞性、複數、音標、釋義僅能依複合詞推定。依「核心資料未核實不收錄」保留暫存，待來源或 MM 確認。",
+      "added": "2026-11-12"
+    }
+  ]
 }
