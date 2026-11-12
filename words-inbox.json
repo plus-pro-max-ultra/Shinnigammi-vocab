@@ -635,7 +635,7 @@
       "word": "Nudeln",
       "skip": true,
       "filledAt": "2026-11-12T23:41:36Z",
-      "note": "使用者暫存「Nudeln」，登錄為 die Nudel（de-798）"
+      "note": "使用者暫存「Nudeln」，與既有詞條 de-581 die Nudel 重複，依先例記錄略過（v15.18 曾誤登 de-798，v15.20 撤回）。"
     },
     {
       "ref": "s-1794462663130",
@@ -667,7 +667,7 @@
       "word": "studiere",
       "skip": true,
       "filledAt": "2026-11-12T23:41:36Z",
-      "note": "使用者暫存「studiere」，登錄為 studieren（de-802）"
+      "note": "使用者暫存「studiere」，與既有詞條 de-242 studieren 重複，依先例記錄略過（v15.18 曾誤登 de-802，v15.20 撤回）。"
     },
     {
       "ref": "s-1794465088241",
@@ -715,7 +715,7 @@
       "word": "Gerichte",
       "skip": true,
       "filledAt": "2026-11-12T23:41:36Z",
-      "note": "使用者暫存「Gerichte」，登錄為 das Gericht（de-808）"
+      "note": "使用者暫存「Gerichte」，與既有詞條 de-530 das Gericht 重複，依先例記錄略過（v15.18 曾誤登 de-808，v15.20 撤回）。"
     },
     {
       "ref": "s-1794467023281",
@@ -739,7 +739,7 @@
       "word": "schnitzel",
       "skip": true,
       "filledAt": "2026-11-12T23:41:36Z",
-      "note": "使用者暫存「schnitzel」，登錄為 das Schnitzel（de-811）"
+      "note": "使用者暫存「schnitzel」，與既有詞條 de-765 das Schnitzel 重複，依先例記錄略過（v15.18 曾誤登 de-811，v15.20 撤回）。"
     },
     {
       "ref": "s-1794467167348",
