@@ -11849,6 +11849,8 @@ Error generating stack: ` +
         { id: "evening", name: "晚間生活與習慣" },
         { id: "town", name: "城鎮與問路" },
         { id: "health", name: "身體與感受" },
+        { id: "home", name: "居家與家電" },
+        { id: "hobbies", name: "興趣與休閒" },
         ...jm,
       ],
       entries: Object.fromEntries(
