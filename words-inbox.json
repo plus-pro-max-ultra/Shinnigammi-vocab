@@ -778,6 +778,22 @@
       "skip": true,
       "filledAt": "2026-11-12T23:41:36Z",
       "note": "使用者暫存「Spätzle」，登錄為 die Spätzle（de-816）"
+    },
+    {
+      "ref": "s-1794466336111",
+      "lang": "de",
+      "word": "Mahzeit",
+      "skip": true,
+      "filledAt": "2026-11-13T03:12:04Z",
+      "note": "使用者暫存「Mahzeit」，經 MM 2026-11-13 確認為 Mahlzeit，登錄為 die Mahlzeit（de-817）"
+    },
+    {
+      "ref": "s-1794467433595",
+      "lang": "de",
+      "word": "Maultschen",
+      "skip": true,
+      "filledAt": "2026-11-13T03:12:04Z",
+      "note": "使用者暫存「Maultschen」，經 MM 2026-11-13 確認為 Maultasche，登錄為 die Maultasche（de-818）"
     }
   ]
 }

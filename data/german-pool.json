@@ -20308,5 +20308,71 @@
   "note": "僅複數形式使用（來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
   "reading": "ˈʃpɛt͡slə",
   "ipa": "/ˈʃpɛt͡slə/"
+ },
+ {
+  "id": "de-817",
+  "lang": "de",
+  "word": "die Mahlzeit",
+  "en": "meal",
+  "zh": "膳食；一餐（亦作問候語「Mahlzeit!」）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Mahlzeit",
+  "examples": [
+   {
+    "text": "Mahlzeit!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Enjoy your meal!",
+    "src": "tatoeba",
+    "tid": "427045",
+    "zhPending": true
+   },
+   {
+    "text": "Japaner essen drei Mahlzeiten am Tag.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Japanese eat three meals a day.",
+    "src": "tatoeba",
+    "tid": "586474",
+    "zhPending": true
+   }
+  ],
+  "note": "使用者暫存拼字「Mahzeit」，經 MM 2026-11-13 確認為 Mahlzeit（陰性，複數 Mahlzeiten；來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈmaːlˌt͡saɪ̯t",
+  "ipa": "/ˈmaːlˌt͡saɪ̯t/"
+ },
+ {
+  "id": "de-818",
+  "lang": "de",
+  "word": "die Maultasche",
+  "en": "Maultasche (Swabian filled pasta pocket)",
+  "zh": "施瓦本餛飩（德式麵餃）",
+  "contentType": "word",
+  "themeId": "debook-L1",
+  "topic": "andere wichtige Wörter und Wendungen",
+  "grammar": "noun · feminine",
+  "sourceUrl": "https://de.wiktionary.org/wiki/Maultasche",
+  "examples": [
+   {
+    "text": "Was gibt es Besseres als eine Maultasche? Zwei Maultaschen!",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "What's better than one Maultasche? Two Maultaschen!",
+    "src": "tatoeba",
+    "tid": "7666097",
+    "zhPending": true
+   },
+   {
+    "text": "Seit unserem Urlaub im Schwarzwald sind Maultaschen mein Leibgericht.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "en": "Ever since our holiday in the Black Forest, Maultaschen has been my favourite food.",
+    "src": "tatoeba",
+    "tid": "5996808",
+    "zhPending": true
+   }
+  ],
+  "note": "使用者暫存拼字「Maultschen」，經 MM 2026-11-13 確認為 Maultasche（陰性，複數 Maultaschen；施瓦本麵食，來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "reading": "ˈmaʊ̯lˌtaʃə",
+  "ipa": "/ˈmaʊ̯lˌtaʃə/"
  }
 ]
