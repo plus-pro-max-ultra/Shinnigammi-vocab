@@ -11255,7 +11255,8 @@
     "en": "Copenhagen is the capital of Denmark.",
     "src": "tatoeba",
     "tid": "2310787",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "Länder und Sprachen",
@@ -11317,7 +11318,8 @@
     "en": "Vienna lies not in the centre of Austria, but at the country's periphery.",
     "src": "tatoeba",
     "tid": "4833997",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "Länder und Sprachen",
@@ -11348,7 +11350,8 @@
     "en": "The hammer and sickle are a symbol of communism.",
     "src": "tatoeba",
     "tid": "2067097",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "im Kurs",
@@ -11403,7 +11406,8 @@
     "en": "A broken mirror brings bad luck.",
     "src": "tatoeba",
     "tid": "10113813",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "andere wichtige Wörter und Wendungen",
@@ -11427,7 +11431,8 @@
     "en": "Is that a question or a statement?",
     "src": "tatoeba",
     "tid": "13660677",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "im Kurs",
@@ -11451,14 +11456,16 @@
     "en": "The word \"adverb\" is a noun.",
     "src": "tatoeba",
     "tid": "14016536",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Wie bildet man den Plural der Nomen?",
     "en": "How do you make nouns plural?",
     "src": "tatoeba",
     "tid": "2165464",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "im Kurs",
@@ -11482,14 +11489,16 @@
     "en": "I, she, and we are all personal pronouns.",
     "src": "tatoeba",
     "tid": "13398721",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich, du, er, sie, es, wir, ihr, sie sind Personalpronomen.",
     "en": "I, you, he, she, it, we, you, they are personal pronouns.",
     "src": "tatoeba",
     "tid": "827024",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "topic": "im Kurs",
@@ -11561,7 +11570,8 @@
     "src": "tatoeba",
     "tid": "10159135",
     "en": "I lost the receipt.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Kassenzettel",
@@ -11641,14 +11651,16 @@
     "src": "tatoeba",
     "tid": "3939920",
     "en": "Can we change the subject, please?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Könntest du bitte wegschauen, während ich meine Kleidung wechsle?",
     "src": "tatoeba",
     "tid": "13294879",
     "en": "Could you please look the other way while I change my clothes?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -12185,7 +12197,8 @@
     "src": "tatoeba",
     "tid": "13772947",
     "en": "Some chips, please.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · plural only",
@@ -12827,7 +12840,8 @@
     "src": "tatoeba",
     "tid": "10103453",
     "en": "The cucumber is green.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Gurken",
@@ -12941,7 +12955,8 @@
     "src": "tatoeba",
     "tid": "10692403",
     "en": "These are olives.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Oliven",
@@ -13027,7 +13042,8 @@
     "src": "tatoeba",
     "tid": "13709944",
     "en": "They're out of buns.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Brötchen",
@@ -13135,14 +13151,16 @@
     "src": "tatoeba",
     "tid": "8320841",
     "en": "I am eating chicken.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Das Hähnchen ist gekocht.",
     "src": "tatoeba",
     "tid": "7086981",
     "en": "The chicken is cooked.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Hähnchen",
@@ -13222,14 +13240,16 @@
     "src": "tatoeba",
     "tid": "12089212",
     "en": "We are grilling sausage.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Mögen Sie Würstchen?",
     "src": "tatoeba",
     "tid": "7290979",
     "en": "Do you like small sausages?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Würstchen",
@@ -13699,14 +13719,16 @@
     "src": "tatoeba",
     "tid": "11885055",
     "en": "I want cereal.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich mag Müsli.",
     "src": "tatoeba",
     "tid": "8342946",
     "en": "I like muesli.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Müsli",
@@ -13814,14 +13836,16 @@
     "src": "tatoeba",
     "tid": "7466907",
     "en": "Tom drank lemonade.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich hatte Limonade.",
     "src": "tatoeba",
     "tid": "1764357",
     "en": "I had lemonade.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Limonaden",
@@ -13957,14 +13981,16 @@
     "src": "tatoeba",
     "tid": "12825046",
     "en": "The butcher shop sells assorted cuts of meat.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "In der Metzgerei gibt es Fleisch.",
     "src": "tatoeba",
     "tid": "3748991",
     "en": "There's meat at the butcher's.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Metzgereien",
@@ -14044,14 +14070,16 @@
     "src": "tatoeba",
     "tid": "11483923",
     "en": "My cup's empty.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Der Becher ist leer.",
     "src": "tatoeba",
     "tid": "8300302",
     "en": "The cup is empty.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Becher",
@@ -14299,14 +14327,16 @@
     "src": "tatoeba",
     "tid": "12839580",
     "en": "I can't find a shopping trolley.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Kann ich diesen Einkaufswagen benutzen?",
     "src": "tatoeba",
     "tid": "6009224",
     "en": "Can I use this shopping trolley?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Einkaufswagen",
@@ -14649,14 +14679,16 @@
     "src": "tatoeba",
     "tid": "13749027",
     "en": "He takes singing lessons at a school of music.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Er nimmt Gesangsstunden an der Musikschule.",
     "src": "tatoeba",
     "tid": "13749026",
     "en": "He takes singing lessons at a school of music.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Musikschulen",
@@ -14736,14 +14768,16 @@
     "src": "tatoeba",
     "tid": "3324604",
     "en": "She works on computer.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Das Arbeiten mit dem neuen Computer war mir am Anfang zu beschwerlich.",
     "src": "tatoeba",
     "tid": "1691795",
     "en": "The new computer was too complicated for me to use at first.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -14978,14 +15012,16 @@
     "src": "tatoeba",
     "tid": "8857480",
     "en": "It's 4.15.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Es ist jetzt Viertel nach vier.",
     "src": "tatoeba",
     "tid": "2710557",
     "en": "It's a quarter after four.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -15020,14 +15056,16 @@
     "src": "tatoeba",
     "tid": "11784297",
     "en": "It was barely 4:30.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Es ist halb fünf Uhr morgens.",
     "src": "tatoeba",
     "tid": "12656162",
     "en": "It's half past four in the morning.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -15089,14 +15127,16 @@
     "src": "tatoeba",
     "tid": "12507114",
     "en": "It's ten past four now.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Es ist jetzt zehn Minuten nach vier.",
     "src": "tatoeba",
     "tid": "12507112",
     "en": "It's ten past four now.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -16064,14 +16104,16 @@
     "src": "tatoeba",
     "tid": "13838292",
     "en": "Thank you very much and goodbye!",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich muss jetzt gehen. Auf Wiederhören, Frau Schmitt!",
     "src": "tatoeba",
     "tid": "14061767",
     "en": "I have to go now. Goodbye, Mrs. Schmitt!",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -16254,7 +16296,8 @@
     "src": "tatoeba",
     "tid": "7906268",
     "en": "Tom is having a flat-warming party.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -16448,14 +16491,16 @@
     "src": "tatoeba",
     "tid": "3853938",
     "en": "I'd like to schedule an appointment.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich hätte gern für morgen einen Termin.",
     "src": "tatoeba",
     "tid": "3853940",
     "en": "I'd like to schedule an appointment for tomorrow.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -16736,14 +16781,16 @@
     "src": "tatoeba",
     "tid": "13425695",
     "en": "I play the saxophone.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Trompete und Posaune sind Blechblasinstrumente, Saxofon ein Holzblasinstrument.",
     "src": "tatoeba",
     "tid": "594948",
     "en": "Trumpets and trombones are brass instruments, while saxophones are woodwind instruments.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Saxofone",
@@ -16773,7 +16820,8 @@
     "src": "tatoeba",
     "tid": "7952371",
     "en": "Tom plays the trumpet.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Trompeten",
@@ -16883,14 +16931,16 @@
     "src": "tatoeba",
     "tid": "8459562",
     "en": "Warm regards.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Liebe Grüße!",
     "src": "tatoeba",
     "tid": "7748583",
     "en": "Greetings!",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -17333,7 +17383,8 @@
     "src": "tatoeba",
     "tid": "12592226",
     "en": "We're approaching the rendezvous point.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Treffpunkte",
@@ -17391,7 +17442,8 @@
     "src": "tatoeba",
     "tid": "5965521",
     "en": "I went to reception first.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Anmeldungen",
@@ -17976,14 +18028,16 @@
     "src": "tatoeba",
     "tid": "8626256",
     "en": "Playgrounds are empty.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Die Kinder rannten zum Spielplatz.",
     "src": "tatoeba",
     "tid": "9962204",
     "en": "The kids ran toward the playground.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Spielplätze",
@@ -18131,7 +18185,8 @@
     "src": "tatoeba",
     "tid": "12780091",
     "en": "That sounded good.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -18875,7 +18930,8 @@
     "src": "tatoeba",
     "tid": "4692195",
     "en": "Change the subject.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Betreffe",
@@ -18899,14 +18955,16 @@
     "src": "tatoeba",
     "tid": "7839561",
     "en": "What am I supposed to call you?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Wie soll ich dich anreden?",
     "src": "tatoeba",
     "tid": "7839560",
     "en": "What am I supposed to call you?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Anreden",
@@ -18936,7 +18994,8 @@
     "src": "tatoeba",
     "tid": "8459560",
     "en": "Warm regards.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -19009,7 +19068,8 @@
     "src": "tatoeba",
     "tid": "10794180",
     "en": "I like salami.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Salami",
@@ -19033,14 +19093,16 @@
     "src": "tatoeba",
     "tid": "8246323",
     "en": "A Vienna schnitzel, please.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich habe Schnitzel für das Abendessen gekauft.",
     "src": "tatoeba",
     "tid": "13166189",
     "en": "I bought schnitzel for dinner.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Schnitzel",
@@ -19064,14 +19126,16 @@
     "src": "tatoeba",
     "tid": "13638731",
     "en": "I love tomato soup.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Ich mag Tomatensuppe.",
     "src": "tatoeba",
     "tid": "7946222",
     "en": "I like tomato soup.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; plural Tomatensuppen",
@@ -19395,7 +19459,8 @@
     "src": "tatoeba",
     "tid": "5571204",
     "en": "Are you paying together or separately?",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "phrase",
@@ -19730,7 +19795,8 @@
     "src": "tatoeba",
     "tid": "1892353",
     "en": "That coffee shop is my favorite haunt.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Kaffeehäuser",
@@ -19760,7 +19826,8 @@
     "src": "tatoeba",
     "tid": "13223679",
     "en": "Think global, act local.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · neuter; plural Lokale",
@@ -19784,14 +19851,16 @@
     "src": "tatoeba",
     "tid": "10009947",
     "en": "Tom and Mary are sitting in the beer garden.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    },
    {
     "text": "Tom trifft seine Freunde im Biergarten.",
     "src": "tatoeba",
     "tid": "8801783",
     "en": "Tom's meeting his friends at a beer garden.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · masculine; plural Biergärten",
@@ -19844,7 +19913,8 @@
     "src": "tatoeba",
     "tid": "822491",
     "en": "The cafeteria was self-service.",
-    "zhPending": true
+    "zhPending": true,
+    "zh": "待補（來源無已核對直接中文譯文）"
    }
   ],
   "grammar": "noun · feminine; usually singular",
