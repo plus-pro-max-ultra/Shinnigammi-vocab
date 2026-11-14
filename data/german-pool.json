@@ -2106,7 +2106,8 @@
     "text": "Ihr Hobby ist Briefmarken sammeln.",
     "zh": "她的嗜好是集郵。",
     "src": "tatoeba",
-    "tid": "605807"
+    "tid": "605807",
+    "zhtid": "833078"
    }
   ],
   "topic": "im Kurs",
@@ -2234,7 +2235,8 @@
     "text": "Das Schwierige an der Ehe ist, dass wir die Vorzüge unserer Partnerin lieben, aber mit ihren Nachteilen leben müssen.",
     "zh": "婚姻的難處在於我們是和對方的優點談戀愛，卻和她的缺點生活在一起。",
     "src": "tatoeba",
-    "tid": "10324137"
+    "tid": "10324137",
+    "zhtid": "839123"
    }
   ],
   "topic": "im Kurs",
@@ -3560,7 +3562,8 @@
     "text": "Ich bin Kellnerin.",
     "zh": "我是跑堂。",
     "src": "tatoeba",
-    "tid": "10901366"
+    "tid": "10901366",
+    "zhtid": "10895462"
    }
   ],
   "topic": "Berufe und Arbeit",
@@ -4963,7 +4966,8 @@
     "text": "Europa, mit seinen vier klar getrennten Jahreszeiten, eignet sich am besten als Wohnort für die Menschheit.",
     "zh": "歐洲四季分明，是最適合人類居住的地區。",
     "src": "tatoeba",
-    "tid": "10164330"
+    "tid": "10164330",
+    "zhtid": "6142125"
    }
   ],
   "topic": "Informationen zur Person",
@@ -20012,11 +20016,10 @@
   "examples": [
    {
     "text": "Bis später!",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Talk to you later.",
+    "zh": "一會兒見！",
     "src": "tatoeba",
     "tid": "367027",
-    "zhPending": true
+    "zhtid": "337874"
    },
    {
     "text": "Wir reden später.",
@@ -20045,19 +20048,17 @@
   "examples": [
    {
     "text": "Hallo zusammen!",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Hello everyone!",
+    "zh": "大家好。",
     "src": "tatoeba",
     "tid": "554583",
-    "zhPending": true
+    "zhtid": "338827"
    },
    {
     "text": "Wir waren zusammen.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "We were together.",
+    "zh": "我們在一起。",
     "src": "tatoeba",
     "tid": "10733687",
-    "zhPending": true
+    "zhtid": "10733681"
    }
   ],
   "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20078,11 +20079,10 @@
   "examples": [
    {
     "text": "Danke, gleichfalls.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Thank you, too.",
+    "zh": "同樣感謝你。",
     "src": "tatoeba",
     "tid": "1639405",
-    "zhPending": true
+    "zhtid": "5624987"
    }
   ],
   "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20103,19 +20103,17 @@
   "examples": [
    {
     "text": "Tom ist satt.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Tom is full.",
+    "zh": "湯姆飽了。",
     "src": "tatoeba",
     "tid": "5830153",
-    "zhPending": true
+    "zhtid": "5780567"
    },
    {
     "text": "Bist du satt?",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Are you full?",
+    "zh": "你喫飽了嗎？",
     "src": "tatoeba",
     "tid": "1371794",
-    "zhPending": true
+    "zhtid": "1392375"
    }
   ],
   "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20144,11 +20142,10 @@
    },
    {
     "text": "Ich habe Lust auf Nudeln.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "I fancy some pasta.",
+    "zh": "我想喫麪條了。",
     "src": "tatoeba",
     "tid": "10039732",
-    "zhPending": true
+    "zhtid": "9987103"
    }
   ],
   "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20169,17 +20166,17 @@
   "examples": [
    {
     "text": "Zum Wohl!",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Bottoms up!",
+    "zh": "乾杯!",
     "src": "tatoeba",
     "tid": "957535",
-    "zhPending": true
+    "zhtid": "765577"
    },
    {
     "text": "Sie arbeitete lebenslang den Armen zum Wohle.",
     "zh": "她一生致力於爲窮人工作。",
     "src": "tatoeba",
-    "tid": "10810529"
+    "tid": "10810529",
+    "zhtid": "5911748"
    }
   ],
   "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20200,11 +20197,10 @@
   "examples": [
    {
     "text": "Prost!",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Bottoms up!",
+    "zh": "乾杯！",
     "src": "tatoeba",
     "tid": "433577",
-    "zhPending": true
+    "zhtid": "380278"
    },
    {
     "text": "Auf dein Wohl! Prost!",
@@ -20266,11 +20262,10 @@
    },
    {
     "text": "Ich mag Sauerkraut.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "I like sauerkraut.",
+    "zh": "我喜歡酸菜。",
     "src": "tatoeba",
     "tid": "3390318",
-    "zhPending": true
+    "zhtid": "10358807"
    }
   ],
   "note": "例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -20389,11 +20384,10 @@
    },
    {
     "text": "Japaner essen drei Mahlzeiten am Tag.",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "en": "Japanese eat three meals a day.",
+    "zh": "日本人每天喫三餐。",
     "src": "tatoeba",
     "tid": "586474",
-    "zhPending": true
+    "zhtid": "344780"
    }
   ],
   "note": "使用者暫存拼字「Mahzeit」，經 MM 2026-11-13 確認為 Mahlzeit（陰性，複數 Mahlzeiten；來源：de.wiktionary）。例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
