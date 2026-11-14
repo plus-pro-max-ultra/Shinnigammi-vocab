@@ -12987,10 +12987,13 @@ Error generating stack: ` +
           (C.onend = () => {
             if (typeof onend === "function") onend();
           }),
-          (C.onerror = () =>
+          (C.onerror = (ae) => {
+            if (ae && (ae.error === "interrupted" || ae.error === "canceled"))
+              return;
             qn(
               "\u6717\u8B80\u672A\u80FD\u5B8C\u6210\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002",
-            )),
+            );
+          }),
           window.speechSynthesis.speak(C),
           qn(
             "\u88DD\u7F6E\u5408\u6210\u8A9E\u97F3\uFF0C\u975E\u771F\u4EBA\u9304\u97F3\u3002",

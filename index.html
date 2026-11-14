@@ -89181,7 +89181,7 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v15.32 1115-0128 1115-0128",
+    O1 = "v15.32 1115-0133 1115-0133",
     R1 = [
       {"v": "v15.32", "d": "11/15", "items": ["單字頁操縱欄播放鍵改為依目前順序連播（MM 2026-11-15）：點一下開始逐字切換並播音，再點一下停止；播到最後一字自動停止；單字發音鍵仍播當前單字一次。", "暫時介面改為獨立彈窗（MM 2026-11-15）：單字設定（字體、朗讀速度、自動朗讀）、加入單字簿、個人筆記編輯改為覆於目前頁面上的彈窗（同熟悉度選擇的樣式），點背景關閉，底下頁面與位置保持不變。"]},
       {"v": "v15.10", "d": "11/10", "items": ["單字頁右上三項功能（隨機排序、朗讀單字、單字選項）移入頁底操縱欄（MM 2026-11-10「右上的三個也移到控制欄」）；頂部只留返回與進度，其餘操作與滑動切換不變。"]},
@@ -91038,10 +91038,13 @@ Error generating stack: ` +
           (C.onend = () => {
             if (typeof onend === "function") onend();
           }),
-          (C.onerror = () =>
+          (C.onerror = (ae) => {
+            if (ae && (ae.error === "interrupted" || ae.error === "canceled"))
+              return;
             qn(
               "\u6717\u8B80\u672A\u80FD\u5B8C\u6210\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002",
-            )),
+            );
+          }),
           window.speechSynthesis.speak(C),
           qn(
             "\u88DD\u7F6E\u5408\u6210\u8A9E\u97F3\uFF0C\u975E\u771F\u4EBA\u9304\u97F3\u3002",
