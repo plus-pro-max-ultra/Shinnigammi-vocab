@@ -89181,8 +89181,9 @@ Error generating stack: ` +
   } catch {}
   var _1 = (e) => e.contentType,
     L1 = (e) => (_1(e) === "phrase" ? "\u7247\u8A9E" : "\u55AE\u5B57"),
-    O1 = "v15.31 1114-1040 1114-1040",
+    O1 = "v15.32 1115-0125 1115-0125",
     R1 = [
+      {"v": "v15.32", "d": "11/15", "items": ["單字頁操縱欄播放鍵改為依目前順序連播（MM 2026-11-15）：點一下開始逐字切換並播音，再點一下停止；播到最後一字自動停止；單字發音鍵仍播當前單字一次。", "暫時介面改為獨立彈窗（MM 2026-11-15）：單字設定（字體、朗讀速度、自動朗讀）、加入單字簿、個人筆記編輯改為覆於目前頁面上的彈窗（同熟悉度選擇的樣式），點背景關閉，底下頁面與位置保持不變。"]},
       {"v": "v15.10", "d": "11/10", "items": ["單字頁右上三項功能（隨機排序、朗讀單字、單字選項）移入頁底操縱欄（MM 2026-11-10「右上的三個也移到控制欄」）；頂部只留返回與進度，其餘操作與滑動切換不變。"]},
       {"v": "v15.09", "d": "11/10", "items": ["單字頁排版調整（MM 2026-11-10 照片指示）：單字與讀音改為靠左排列；德文名詞性別改以 m.／f.／n. 標示；加入單字簿、書籤、熟悉度三項功能集中至頁底浮動操縱欄。", "移除單字頁「上一個／下一個」按鍵（MM 2026-11-10）：切換單字統一改用左右滑動。"]},
       {"v": "v15.08", "d": "11/10", "items": ["修正單字左右滑動不順（MM 2026-11-10）：詳情頁從任何位置起手都能滑動切換，補上 touch-action 與 overscroll 設定；字卡模式加方向判定，上下捲動不再干擾。"]},
@@ -91012,7 +91013,7 @@ Error generating stack: ` +
         : [],
       nt = V.find((l) => l.id === Vo[Yl]),
       ed = Vo.length > 0 && !!nt,
-      td = (l, z = l.word) => {
+      td = (l, z = l.word, onend) => {
         if (!("speechSynthesis" in window)) {
           qn("\u6B64\u700F\u89BD\u5668\u4E0D\u652F\u63F4\u6717\u8B80\u3002");
           return;
@@ -91034,6 +91035,9 @@ Error generating stack: ` +
         ((C.lang = v === "ja" ? "ja-JP" : "de-DE"),
           (C.voice = L),
           (C.rate = R.rate),
+          (C.onend = () => {
+            if (typeof onend === "function") onend();
+          }),
           (C.onerror = () =>
             qn(
               "\u6717\u8B80\u672A\u80FD\u5B8C\u6210\uFF0C\u8ACB\u518D\u8A66\u4E00\u6B21\u3002",
@@ -97403,7 +97407,48 @@ Error generating stack: ` +
       [ve, Je] = (0, s.useState)(!1),
       [G, ze] = (0, s.useState)(!1),
       oe = (0, s.useRef)(null);
+    let [seqPlay, setSeqPlay] = (0, s.useState)(!1),
+      seqRef = (0, s.useRef)(!1),
+      seqTimer = (0, s.useRef)(null),
+      seqLastId = (0, s.useRef)(e.id),
+      stopSeq = () => {
+        ((seqRef.current = !1),
+          setSeqPlay(!1),
+          seqTimer.current && clearTimeout(seqTimer.current),
+          "speechSynthesis" in window && window.speechSynthesis.cancel());
+      },
+      seqChain = () => {
+        T(e, undefined, () => {
+          if (!seqRef.current) return;
+          if (t >= r - 1) {
+            stopSeq();
+            return;
+          }
+          seqTimer.current = setTimeout(() => {
+            if (seqRef.current) p(1);
+          }, 550);
+        });
+      },
+      toggleSeq = () => {
+        if (seqRef.current) {
+          stopSeq();
+        } else {
+          ((seqRef.current = !0), setSeqPlay(!0), seqChain());
+        }
+      };
     ((0, s.useEffect)(() => {
+      if (seqLastId.current !== e.id) {
+        ((seqLastId.current = e.id), seqRef.current && seqChain());
+      }
+    }, [e.id]),
+      (0, s.useEffect)(
+        () => () => {
+          ((seqRef.current = !1),
+            seqTimer.current && clearTimeout(seqTimer.current));
+        },
+        [],
+      ),
+      (0, s.useEffect)(() => {
       let U = (P) => {
         P.target?.closest("input,textarea,select,button") ||
           (P.key === "ArrowLeft" && p(-1),
@@ -97470,8 +97515,8 @@ Error generating stack: ` +
       ),
       N &&
         s.default.createElement(
-          "div",
-          { className: "option-panel" },
+          Sm,
+          { title: "\u55AE\u5B57\u8A2D\u5B9A", onClose: () => D(!1) },
           s.default.createElement(
             "div",
             { className: "stepper-row" },
@@ -97627,9 +97672,8 @@ Error generating stack: ` +
         }),
       F &&
         s.default.createElement(
-          "div",
-          { className: "option-panel" },
-          s.default.createElement("h3", null, "\u52A0\u5165\u55AE\u5B57\u7C3F"),
+          Sm,
+          { title: "\u52A0\u5165\u55AE\u5B57\u7C3F", onClose: () => K(!1) },
           u.map((U) =>
             s.default.createElement(
               "label",
@@ -97871,7 +97915,8 @@ Error generating stack: ` +
             s.default.createElement("h3", null, "\u88DC\u5145"),
             s.default.createElement("p", null, e.grammar),
           ),
-        (w || a.note) &&
+        !w &&
+          a.note &&
           s.default.createElement(
             "label",
             { className: "field personal-note" },
@@ -97884,6 +97929,29 @@ Error generating stack: ` +
               value: a.note ?? "",
               onChange: (U) => i({ note: U.target.value }),
             }),
+          ),
+        w &&
+          s.default.createElement(
+            Sm,
+            { title: "\u500B\u4EBA\u7B46\u8A18", onClose: () => X(!1) },
+            s.default.createElement(
+              "label",
+              { className: "field personal-note" },
+              s.default.createElement("textarea", {
+                disabled: !k,
+                maxLength: 800,
+                autoFocus: !0,
+                placeholder:
+                  "\u8A18\u4E0B\u5BB9\u6613\u5FD8\u8A18\u7684\u5730\u65B9",
+                value: a.note ?? "",
+                onChange: (U) => i({ note: U.target.value }),
+              }),
+            ),
+            s.default.createElement(
+              "button",
+              { className: "primary-action", onClick: () => X(!1) },
+              "\u5B8C\u6210",
+            ),
           ),
         e.user &&
           s.default.createElement(
@@ -97973,7 +98041,13 @@ Error generating stack: ` +
           ),
           s.default.createElement(
             "button",
-            { "aria-label": "\u6717\u8B80\u55AE\u5B57", onClick: () => T(e) },
+            {
+              "aria-label": seqPlay
+                ? "\u505C\u6B62\u9023\u64AD"
+                : "\u4F9D\u76EE\u524D\u9806\u5E8F\u9023\u64AD",
+              className: seqPlay ? "chosen" : "",
+              onClick: toggleSeq,
+            },
             s.default.createElement(Ic, { d: "M8 5.5v13l11-6.5z" }),
           ),
           s.default.createElement(
