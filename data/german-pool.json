@@ -20110,7 +20110,7 @@
    },
    {
     "text": "Bist du satt?",
-    "zh": "你喫飽了嗎？",
+    "zh": "你吃飽了嗎？",
     "src": "tatoeba",
     "tid": "1371794",
     "zhtid": "1392375"
@@ -20142,7 +20142,7 @@
    },
    {
     "text": "Ich habe Lust auf Nudeln.",
-    "zh": "我想喫麪條了。",
+    "zh": "我想吃麵條了。",
     "src": "tatoeba",
     "tid": "10039732",
     "zhtid": "9987103"
@@ -20170,16 +20170,9 @@
     "src": "tatoeba",
     "tid": "957535",
     "zhtid": "765577"
-   },
-   {
-    "text": "Sie arbeitete lebenslang den Armen zum Wohle.",
-    "zh": "她一生致力於爲窮人工作。",
-    "src": "tatoeba",
-    "tid": "10810529",
-    "zhtid": "5911748"
    }
   ],
-  "note": "暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
+  "note": "暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）",
   "reading": "t͡sʊm ˈvoːl",
   "ipa": "/t͡sʊm ˈvoːl/"
  },
@@ -20384,7 +20377,7 @@
    },
    {
     "text": "Japaner essen drei Mahlzeiten am Tag.",
-    "zh": "日本人每天喫三餐。",
+    "zh": "日本人每天吃三餐。",
     "src": "tatoeba",
     "tid": "586474",
     "zhtid": "344780"
