@@ -2622,11 +2622,18 @@
     "text": "Die Zahl ist neunzehn.",
     "zh": "這個數字是十九。",
     "en": "The number is nineteen."
+   },
+   {
+    "text": "Ich heiratete als ich neunzehn Jahre alt war.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "784013",
+    "zhPending": true
    }
   ],
   "topic": "Zahlen",
   "foundations": "numerals",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-166",
@@ -2879,10 +2886,16 @@
     "text": "Wir sammeln Wörter.",
     "zh": "我們收集單字。",
     "en": "We collect words."
+   },
+   {
+    "text": "Ihr Hobby ist Briefmarken sammeln.",
+    "zh": "她的嗜好是集郵。",
+    "src": "tatoeba",
+    "tid": "605807"
    }
   ],
   "topic": "im Kurs",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-176",
@@ -3001,10 +3014,16 @@
     "text": "Meine Partnerin heißt Anna.",
     "zh": "我的夥伴叫 Anna。",
     "en": "My partner's name is Anna."
+   },
+   {
+    "text": "Das Schwierige an der Ehe ist, dass wir die Vorzüge unserer Partnerin lieben, aber mit ihren Nachteilen leben müssen.",
+    "zh": "婚姻的難處在於我們是和對方的優點談戀愛，卻和她的缺點生活在一起。",
+    "src": "tatoeba",
+    "tid": "10324137"
    }
   ],
   "topic": "im Kurs",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-181",
@@ -4321,10 +4340,16 @@
     "text": "Die Kellnerin ist hier.",
     "zh": "女服務生在這裡。",
     "en": "The waitress is here."
+   },
+   {
+    "text": "Ich bin Kellnerin.",
+    "zh": "我是跑堂。",
+    "src": "tatoeba",
+    "tid": "10901366"
    }
   ],
   "topic": "Berufe und Arbeit",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-229",
@@ -4473,10 +4498,17 @@
     "text": "Die Kollegin ist hier.",
     "zh": "女性同事在這裡。",
     "en": "The colleague is here."
+   },
+   {
+    "text": "Ich bin eine Kollegin von Tom.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12988059",
+    "zhPending": true
    }
   ],
   "topic": "Berufe und Arbeit",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-235",
@@ -5711,10 +5743,16 @@
     "text": "Mein Wohnort ist Berlin.",
     "zh": "我的居住地是柏林。",
     "en": "My place of residence is Berlin."
+   },
+   {
+    "text": "Europa, mit seinen vier klar getrennten Jahreszeiten, eignet sich am besten als Wohnort für die Menschheit.",
+    "zh": "歐洲四季分明，是最適合人類居住的地區。",
+    "src": "tatoeba",
+    "tid": "10164330"
    }
   ],
   "topic": "Informationen zur Person",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-282",
@@ -26198,7 +26236,20 @@
   "en": "the vertical; height",
   "zh": "縱向",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "彼は腹をたてた。",
+    "zh": "他生气了。",
+    "src": "tatoeba",
+    "tid": "83865"
+   },
+   {
+    "text": "生みたての卵が欲しい。",
+    "zh": "我想要一些新鲜的鸡蛋。",
+    "src": "tatoeba",
+    "tid": "142815"
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E7%B8%A6",
   "collocations": [
    {
@@ -26207,8 +26258,7 @@
     "src": "corpus",
     "n": 3
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-408",
@@ -26227,10 +26277,16 @@
     "zh": "請問您是留學生嗎？",
     "src": "tatoeba",
     "tid": "2412266"
+   },
+   {
+    "text": "３人の中国人留学生がその大学に入学が許された。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "235285",
+    "zhPending": true
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E7%95%99%E5%AD%A6%E7%94%9F",
-  "note": "第二句例句待補：原第二句與第一句重複（已移除），缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/%E7%95%99%E5%AD%A6%E7%94%9F"
  },
  {
   "id": "jp-409",
@@ -31265,10 +31321,17 @@
    {
     "zh": "臺灣的夜市很熱鬧。",
     "text": "台湾のナイトマーケットは、賑やかなものだ。"
+   },
+   {
+    "text": "私たちはにぎやかな通りを通りぬけた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "166255",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E8%B3%91%E3%82%84%E3%81%8B",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-528",
@@ -31415,7 +31478,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%EF%BC%B9%E3%82%B7%E3%83%A3%E3%83%84",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-532",
@@ -31506,7 +31569,20 @@
   "en": "to shine",
   "zh": "照射;撐(傘)",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "傘さす？",
+    "zh": "撐傘？",
+    "src": "tatoeba",
+    "tid": "11571542"
+   },
+   {
+    "text": "さすが！",
+    "zh": "不愧是你！",
+    "src": "tatoeba",
+    "tid": "8533915"
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E5%B7%AE%E3%81%99",
   "collocations": [
    {
@@ -31532,8 +31608,7 @@
   "masuReading": "さします",
   "vclass": "1",
   "vkind": "五段",
-  "vsrc": "JMdict",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "vsrc": "JMdict"
  },
  {
   "id": "jp-536",
@@ -31578,7 +31653,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%EF%BC%92%EF%BC%90%E6%97%A5",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-538",
@@ -33808,10 +33883,15 @@
     "zh": "我前天到達成田市。",
     "src": "tatoeba",
     "tid": "190602"
+   },
+   {
+    "text": "おとといきやがれ！",
+    "zh": "等猴年马月再来吧。",
+    "src": "tatoeba",
+    "tid": "347195"
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E4%B8%80%E6%98%A8%E6%97%A5",
-  "note": "第二句例句待補：原第二句與第一句重複（已移除），缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/%E4%B8%80%E6%98%A8%E6%97%A5"
  },
  {
   "id": "jp-591",
@@ -33824,7 +33904,21 @@
   "en": "tape",
   "zh": "膠帶;錄音帶",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "このビデオテープを１週間以内にお返しすることを約束します。",
+    "zh": "我保證在一個星期內把這盤錄影帶還給你。",
+    "src": "tatoeba",
+    "tid": "223278"
+   },
+   {
+    "text": "私はテープを買います。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "159466",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%83%86%E3%83%BC%E3%83%97",
   "loan": "外來語",
   "collocations": [
@@ -33840,8 +33934,7 @@
     "src": "corpus",
     "n": 2
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-592",
@@ -33854,7 +33947,15 @@
   "en": "(room) heater; stove",
   "zh": "暖爐",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "彼女は寒かったのでストーブを付けた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "90672",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96",
   "loan": "外來語",
   "collocations": [
@@ -33865,7 +33966,7 @@
     "n": 4
    }
   ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-593",
@@ -34000,7 +34101,7 @@
     "n": 3
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-597",
@@ -34111,10 +34212,24 @@
   "en": "tape recorder",
   "zh": "錄音機",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "このテープレコーダーは新しくない。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "223518",
+    "zhPending": true
+   },
+   {
+    "text": "これは君のテープレコーダーですか。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "218440",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%83%86%E3%83%BC%E3%83%97%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC",
-  "loan": "外來語",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "loan": "外來語"
  },
  {
   "id": "jp-601",
@@ -34369,10 +34484,16 @@
    {
     "zh": "上帝在六天內創造了世界。",
     "text": "神は、この世を６日間で創造した。"
+   },
+   {
+    "text": "大変申し訳ありませんが、個人的事情のためミーティングの日にちを３月６日に変更させて下さい。",
+    "zh": "真的很對不起，因為一些私人的理由，我想請你把見面日期改為三月六日。",
+    "src": "tatoeba",
+    "tid": "137256"
    }
   ],
   "sourceUrl": "https://jisho.org/search/%EF%BC%96%E6%97%A5",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-609",
@@ -36410,7 +36531,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E7%84%B6%E3%81%86%E3%81%97%E3%81%A6",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-668",
@@ -36492,10 +36613,17 @@
    {
     "zh": "假如能一個月之內還上的話，我可以把錢借給你。",
     "text": "一月以内に返してくれるというのなら、金、貸してもかまわないよ。"
+   },
+   {
+    "text": "一月は年の一番目の月です。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "190663",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%80%E6%9C%88",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-672",
@@ -36629,9 +36757,23 @@
   "en": "dictionary",
   "zh": "字典",
   "contentType": "word",
-  "examples": [],
-  "sourceUrl": "https://jisho.org/search/%E5%AD%97%E5%BC%95",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼女はいわゆる生き字引だ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "93191",
+    "zhPending": true
+   },
+   {
+    "text": "その老人は言わば生き字引だ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "206129",
+    "zhPending": true
+   }
+  ],
+  "sourceUrl": "https://jisho.org/search/%E5%AD%97%E5%BC%95"
  },
  {
   "id": "jp-676",
@@ -37223,7 +37365,22 @@
   "en": "airfield; airport; aerodrome",
   "zh": "機場",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "航空券は飛行場で受け取れますか。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "173436",
+    "zhPending": true
+   },
+   {
+    "text": "父がついでに私を飛行場まで送ってくれることになっている。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "84881",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E9%A3%9B%E8%A1%8C%E5%A0%B4",
   "similar": [
    {
@@ -37233,8 +37390,7 @@
     "refId": "jp-716",
     "src": "app"
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-694",
@@ -40146,6 +40302,13 @@
     "zh": "我父親經營外貿多年。",
     "src": "tatoeba",
     "tid": "162799"
+   },
+   {
+    "text": "ある貿易会社に勤めています。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "229779",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E8%B2%BF%E6%98%93",
@@ -40163,7 +40326,7 @@
     "n": 3
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-758",
@@ -41265,10 +41428,16 @@
     "zh": "日本有必要和西方各國接觸。",
     "src": "tatoeba",
     "tid": "122443"
+   },
+   {
+    "text": "西洋では個性は非常に重要である。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "142618",
+    "zhPending": true
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E8%A5%BF%E6%B4%8B",
-  "note": "第二句例句待補：原第二句與第一句重複（已移除），缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/%E8%A5%BF%E6%B4%8B"
  },
  {
   "id": "jp-785",
@@ -41388,9 +41557,17 @@
   "en": "vehicle; conveyance; (means of) transport",
   "zh": "交通工具",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "ここは公共の乗り物が不便だ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "224317",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E4%B9%97%E3%82%8A%E7%89%A9",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-789",
@@ -41409,10 +41586,16 @@
     "zh": "旅館房間裡的桌上有個西瓜。",
     "src": "tatoeba",
     "tid": "13540990"
+   },
+   {
+    "text": "日没後彼らはその旅館に着いた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "122840",
+    "zhPending": true
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E6%97%85%E9%A4%A8",
-  "note": "第二句例句待補：原第二句與第一句重複（已移除），缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/%E6%97%85%E9%A4%A8"
  },
  {
   "id": "jp-790",
@@ -41425,7 +41608,20 @@
   "en": "wood; woods; forest",
   "zh": "樹林",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "バナナと林檎を食べる。",
+    "zh": "吃香蕉和蘋果。",
+    "src": "tatoeba",
+    "tid": "13542269"
+   },
+   {
+    "text": "私は森林の中で道に迷った。",
+    "zh": "我在树林里迷路了。",
+    "src": "tatoeba",
+    "tid": "155699"
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E6%9E%97",
   "collocations": [
    {
@@ -41434,8 +41630,7 @@
     "src": "corpus",
     "n": 2
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-791",
@@ -41485,7 +41680,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%AD%E5%AD%A6%E6%A0%A1",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-793",
@@ -41571,6 +41766,13 @@
    {
     "zh": "瑪莉上的是天主教高中。",
     "text": "メアリーはカトリック系の高等学校へ行きました。"
+   },
+   {
+    "text": "彼は高等学校の生徒ではありません。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "107279",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
@@ -41583,7 +41785,7 @@
     "src": "app"
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-797",
@@ -41626,7 +41828,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%85%AC%E5%8B%99%E5%93%A1",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-799",
@@ -48534,6 +48736,13 @@
    {
     "zh": "貨物運到，我會通知你們的。",
     "text": "品物が到着しましたらご連絡いたします。"
+   },
+   {
+    "text": "その品物を１ダースにつき３ドルで買う。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "207047",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%93%81%E7%89%A9",
@@ -48545,7 +48754,7 @@
     "n": 3
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-953",
@@ -49056,6 +49265,13 @@
     "zh": "我發現了一隻翅膀受了重傷的鳥兒。",
     "src": "tatoeba",
     "tid": "189854"
+   },
+   {
+    "text": "彼女はそのかわいそうな小鳥の世話をした。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "92617",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%B0%8F%E9%B3%A5",
@@ -49073,7 +49289,7 @@
     "n": 2
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-966",
@@ -49692,7 +49908,20 @@
   "en": "surface",
   "zh": "表面;正面",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "酒は本心を表す。",
+    "zh": "酒后吐真言。",
+    "src": "tatoeba",
+    "tid": "12131497"
+   },
+   {
+    "text": "時刻表はありますか？",
+    "zh": "有时间表吗？",
+    "src": "tatoeba",
+    "tid": "8724681"
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E8%A1%A8",
   "collocations": [
    {
@@ -49713,8 +49942,7 @@
     "src": "corpus",
     "n": 3
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-982",
@@ -50072,7 +50300,15 @@
   "en": "assembly hall; meeting place; venue",
   "zh": "會場",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "会場は立すいの余地もないほどに聴衆で埋まっていた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "185219",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E4%BC%9A%E5%A0%B4",
   "collocations": [
    {
@@ -50088,7 +50324,7 @@
     "n": 2
    }
   ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-992",
@@ -50253,10 +50489,16 @@
    {
     "zh": "修飾名詞的東西（形容詞，或形容詞相等語）。",
     "text": "名詞を修飾するもの（形容詞、または形容詞相当語句）。"
+   },
+   {
+    "text": "気が遠くなるような長さなのか、 または明日かあさってまでなのか、 一生がどれだけの長さかなんて知るわけもない。",
+    "zh": "人生长短无法预知， 或者长得天荒地老，让人难耐 或者短暂如朝露，过了今天没明天。",
+    "src": "tatoeba",
+    "tid": "1501732"
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E5%8F%88%E3%81%AF",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-997",
@@ -50327,10 +50569,17 @@
     "zh": "爸爸說他明年就要被升為部門主管了。",
     "src": "tatoeba",
     "tid": "84325"
+   },
+   {
+    "text": "課長の奥さん、今旅行中なんだって。それで、鬼のいぬ間の洗濯とばかり、毎日飲み歩いているんだ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "186524",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E8%AA%B2%E9%95%B7",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-1000",
@@ -50424,9 +50673,17 @@
   "en": "rate; ratio; percentage",
   "zh": "比例",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "世界の人口は毎年平均２パーセントの割合で増えている。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "143426",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E5%89%B2%E5%90%88",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1004",
@@ -50578,7 +50835,15 @@
   "en": "auditorium; lecture hall",
   "zh": "禮堂",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "その教師は講堂に学生を集めた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "211408",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E8%AC%9B%E5%A0%82",
   "collocations": [
    {
@@ -50588,7 +50853,7 @@
     "n": 3
    }
   ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1009",
@@ -50634,10 +50899,16 @@
     "zh": "如果沒有電腦的話，我們的生活會是多麼的不方便呢！",
     "src": "tatoeba",
     "tid": "13964121"
+   },
+   {
+    "text": "ここは公共の乗り物が不便だ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "224317",
+    "zhPending": true
    }
   ],
-  "sourceUrl": "https://jisho.org/search/%E4%B8%8D%E4%BE%BF",
-  "note": "第二句例句待補：原第二句與第一句重複（已移除），缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/%E4%B8%8D%E4%BE%BF"
  },
  {
   "id": "jp-1011",
@@ -50831,7 +51102,7 @@
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E4%B8%8B%E7%9D%80",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1018",
@@ -56089,7 +56360,22 @@
   "en": "to grow hot (e.g. water); to boil",
   "zh": "沸騰",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "喜びでわくわくした。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "183564",
+    "zhPending": true
+   },
+   {
+    "text": "メグはわくわくしている。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "194638",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E6%B2%B8%E3%81%8F",
   "collocations": [
    {
@@ -56115,8 +56401,7 @@
   "masuReading": "わきます",
   "vclass": "1",
   "vkind": "五段",
-  "vsrc": "JMdict",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "vsrc": "JMdict"
  },
  {
   "id": "jp-1142",
@@ -56187,9 +56472,17 @@
   "en": "your husband; her husband",
   "zh": "(您的)丈夫",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "彼女はご主人と性格が合わないそうよ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "92838",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%81%94%E4%B8%BB%E4%BA%BA",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1145",
@@ -56344,9 +56637,21 @@
   "en": "Africa",
   "zh": "非洲",
   "contentType": "word",
-  "examples": [],
-  "sourceUrl": "https://jisho.org/search/%E9%98%BF%E5%BC%97%E5%88%A9%E5%8A%A0",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼はアフリカで生まれた。",
+    "zh": "他出生在非洲。",
+    "src": "tatoeba",
+    "tid": "114882"
+   },
+   {
+    "text": "アフリカに行ったことはありますか？",
+    "zh": "我去過非洲嗎？",
+    "src": "tatoeba",
+    "tid": "2724975"
+   }
+  ],
+  "sourceUrl": "https://jisho.org/search/%E9%98%BF%E5%BC%97%E5%88%A9%E5%8A%A0"
  },
  {
   "id": "jp-1150",
@@ -56705,10 +57010,17 @@
     "zh": "他們主要輸出的產品是紡織品，尤其以絲綢和綿為主。",
     "src": "tatoeba",
     "tid": "98482"
+   },
+   {
+    "text": "このブラウスは木綿製です。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "223239",
+    "zhPending": true
    }
   ],
   "sourceUrl": "https://jisho.org/search/%E6%9C%A8%E7%B6%BF",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "jp-1161",
@@ -57346,7 +57658,7 @@
     "n": 3
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1177",
@@ -57661,7 +57973,7 @@
   ],
   "sourceUrl": "https://jisho.org/search/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3",
   "loan": "外來語",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1187",
@@ -57690,7 +58002,7 @@
     "n": 3
    }
   ],
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句；第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1188",
@@ -57942,7 +58254,20 @@
   "en": "soon; shortly; before long",
   "zh": "馬上",
   "contentType": "phrase",
-  "examples": [],
+  "examples": [
+   {
+    "text": "もうすぐ春です。",
+    "zh": "春天快來了。",
+    "src": "tatoeba",
+    "tid": "685960"
+   },
+   {
+    "text": "もうすぐ３時だ。",
+    "zh": "將近三點了。",
+    "src": "tatoeba",
+    "tid": "194447"
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%82%82%E3%81%86%E7%9B%B4%E3%81%90",
   "parts": [
    {
@@ -57953,8 +58278,7 @@
     "w": "直ぐ",
     "m": "不遠、立刻"
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-1195",
@@ -58914,9 +59238,21 @@
   "en": "so; therefore; and",
   "zh": "因此",
   "contentType": "word",
-  "examples": [],
-  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%A7",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それでも地球は動く！",
+    "zh": "就算这样地球也照样转！",
+    "src": "tatoeba",
+    "tid": "6669052"
+   },
+   {
+    "text": "それでは、天気予報の時間です。",
+    "zh": "现在是天气预报的时间。",
+    "src": "tatoeba",
+    "tid": "1602097"
+   }
+  ],
+  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%A7"
  },
  {
   "id": "jp-1222",
@@ -59038,7 +59374,15 @@
   "en": "word processor",
   "zh": "文書處理機",
   "contentType": "word",
-  "examples": [],
+  "examples": [
+   {
+    "text": "コンピューターに比べて、ワープロは一つの目的にしか使えない。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "217268",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%83%AF%E3%83%BC%E3%83%97%E3%83%AD",
   "loan": "外來語",
   "collocations": [
@@ -59055,7 +59399,7 @@
     "n": 5
    }
   ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1226",
@@ -59354,9 +59698,21 @@
   "en": "besides; in addition; also",
   "zh": "而且",
   "contentType": "word",
-  "examples": [],
-  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%AB",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それについて議論しても無駄だ。",
+    "zh": "爭論是它是沒有用的。",
+    "src": "tatoeba",
+    "tid": "205678"
+   },
+   {
+    "text": "もし私がそれに似ているかもしれないならば…",
+    "zh": "如果我可以像那樣的話...",
+    "src": "tatoeba",
+    "tid": "4865239"
+   }
+  ],
+  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%AB"
  },
  {
   "id": "jp-1235",
@@ -59739,7 +60095,22 @@
   "en": "to be",
   "zh": "在;來;去(尊敬語)",
   "contentType": "phrase",
-  "examples": [],
+  "examples": [
+   {
+    "text": "おいでになるのを楽しみにしています。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "161851",
+    "zhPending": true
+   },
+   {
+    "text": "ゆうべはおいでになるかとお待ちしていました。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "192993",
+    "zhPending": true
+   }
+  ],
   "sourceUrl": "https://jisho.org/search/%E3%81%8A%E5%87%BA%E3%81%A7%E3%81%AB%E3%81%AA%E3%82%8B",
   "parts": [
    {
@@ -59750,8 +60121,7 @@
     "w": "になる",
     "m": "尊敬句式「～になる」"
    }
-  ],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  ]
  },
  {
   "id": "jp-1248",
@@ -66328,12 +66698,26 @@
   "contentType": "word",
   "themeId": "debook-L4",
   "topic": "Tageszeiten",
-  "examples": [],
+  "examples": [
+   {
+    "text": "Steht morgens früh auf.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12503936",
+    "zhPending": true
+   },
+   {
+    "text": "Stehe morgens früh auf.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12503935",
+    "zhPending": true
+   }
+  ],
   "grammar": "adverb",
   "reading": "ˈmɔʁɡn̩s",
   "ipa": "/ˈmɔʁɡn̩s/",
-  "sourceUrl": "https://de.wiktionary.org/wiki/morgens",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://de.wiktionary.org/wiki/morgens"
  },
  {
   "id": "de-535",
@@ -75394,8 +75778,20 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E7%8F%BE%E9%87%91",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "現金で払ったら、割引きがあるんだ？",
+    "zh": "用現金付的話會有折扣嗎?",
+    "src": "tatoeba",
+    "tid": "772989"
+   },
+   {
+    "text": "現金払いには１０パーセント割引いたします。",
+    "zh": "如用現金付款，我們給予九折優惠。",
+    "src": "tatoeba",
+    "tid": "174932"
+   }
+  ]
  },
  {
   "id": "jpl15-02",
@@ -75409,8 +75805,21 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E5%B0%8F%E9%8A%AD",
-  "examples": [],
-  "note": "讀音 こぜに；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "小銭持ってないわ。",
+    "zh": "我沒零錢。",
+    "src": "tatoeba",
+    "tid": "10068788"
+   },
+   {
+    "text": "小銭をお持ちですか。",
+    "zh": "有零钱吗？",
+    "src": "tatoeba",
+    "tid": "146927"
+   }
+  ],
+  "note": "讀音 こぜに"
  },
  {
   "id": "jpl15-03",
@@ -75424,8 +75833,20 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "クレジットカードで支払いたいのですが。",
+    "zh": "我想用信用卡支付。",
+    "src": "tatoeba",
+    "tid": "225436"
+   },
+   {
+    "text": "トムは買い物に行ったとき、ほぼ毎回クレジットカードを使う。",
+    "zh": "汤姆在去购物的时候，几乎每次都会用信用卡。",
+    "src": "tatoeba",
+    "tid": "1078939"
+   }
+  ]
  },
  {
   "id": "jpl15-04",
@@ -75439,8 +75860,20 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E6%94%AF%E6%89%95%E3%81%84",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "銀行振込でお支払いします。",
+    "zh": "我们会用银行转帐付款。",
+    "src": "tatoeba",
+    "tid": "179553"
+   },
+   {
+    "text": "トラベラーズチェックで支払います。",
+    "zh": "以旅行支票付款。",
+    "src": "tatoeba",
+    "tid": "199730"
+   }
+  ]
  },
  {
   "id": "jpl15-05",
@@ -75454,8 +75887,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E4%BC%9A%E8%A8%88",
-  "examples": [],
-  "note": "餐廳結帳說 お会計；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "お会計お願いします。",
+    "zh": "請結帳。",
+    "src": "tatoeba",
+    "tid": "1014812"
+   },
+   {
+    "text": "会計をお願いします。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "185330",
+    "zhPending": true
+   }
+  ],
+  "note": "餐廳結帳說 お会計"
  },
  {
   "id": "jpl15-06",
@@ -75484,8 +75931,16 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E4%BA%88%E7%AE%97",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "仏政府は国家予算の帳尻を合わせるよう納税者に挑むオンラインゲームを売り出した。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "5135",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl15-08",
@@ -75499,8 +75954,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E7%A8%8E%E9%87%91",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私は税金に二百ドル払った。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "155533",
+    "zhPending": true
+   },
+   {
+    "text": "父は税金の計算をしている。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "84428",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl15-09",
@@ -75514,8 +75983,21 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E5%89%B2%E5%BC%95",
-  "examples": [],
-  "note": "「2割引」是減20%,即打8折；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "現金で払ったら、割引きがあるんだ？",
+    "zh": "用現金付的話會有折扣嗎?",
+    "src": "tatoeba",
+    "tid": "772989"
+   },
+   {
+    "text": "現金払いには１０パーセント割引いたします。",
+    "zh": "如用現金付款，我們給予九折優惠。",
+    "src": "tatoeba",
+    "tid": "174932"
+   }
+  ],
+  "note": "「2割引」是減20%,即打8折"
  },
  {
   "id": "jpl15-10",
@@ -75529,8 +76011,16 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E7%89%B9%E5%A3%B2",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "毛皮のコートが特売中です。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "80177",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl15-11",
@@ -75544,8 +76034,21 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E6%B3%A8%E6%96%87",
-  "examples": [],
-  "note": "加 する 作動詞:注文する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ご注文はお決まりですか？",
+    "zh": "您决定好要下订单了吗？",
+    "src": "tatoeba",
+    "tid": "217064"
+   },
+   {
+    "text": "これは注文していません。",
+    "zh": "我没有预定这个。",
+    "src": "tatoeba",
+    "tid": "236972"
+   }
+  ],
+  "note": "加 する 作動詞:注文する"
  },
  {
   "id": "jpl15-12",
@@ -75589,8 +76092,20 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E8%A2%8B",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "袋は有りますか？",
+    "zh": "袋子有吗？",
+    "src": "tatoeba",
+    "tid": "2362311"
+   },
+   {
+    "text": "彼は手袋をはめている。",
+    "zh": "他戴着手套。",
+    "src": "tatoeba",
+    "tid": "104454"
+   }
+  ]
  },
  {
   "id": "jpl15-15",
@@ -75604,8 +76119,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E5%9C%A8%E5%BA%AB",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "石油の在庫がきれかかっている。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "142325",
+    "zhPending": true
+   },
+   {
+    "text": "申し訳ございません、その本は在庫切れになっております。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "206670",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl15-16",
@@ -75619,8 +76148,21 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E5%A3%B2%E3%82%8A%E5%88%87%E3%82%8C",
-  "examples": [],
-  "note": "常用 売り切れです(賣完了)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "今日のカスタードまんは売り切れ。",
+    "zh": "今天的奶黃包賣完了。",
+    "src": "tatoeba",
+    "tid": "13540122"
+   },
+   {
+    "text": "今日のカスタードまんは売り切れた。",
+    "zh": "今天的奶黃包賣完了。",
+    "src": "tatoeba",
+    "tid": "13540120"
+   }
+  ],
+  "note": "常用 売り切れです(賣完了)"
  },
  {
   "id": "jpl15-17",
@@ -75634,8 +76176,21 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E8%A9%A6%E7%9D%80",
-  "examples": [],
-  "note": "加 する 作動詞:試着する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "試着室はどこですか。",
+    "zh": "試衣間在哪裏？",
+    "src": "tatoeba",
+    "tid": "151002"
+   },
+   {
+    "text": "彼女はコートを試着しています。",
+    "zh": "她在试一件外衣。",
+    "src": "tatoeba",
+    "tid": "2362362"
+   }
+  ],
+  "note": "加 する 作動詞:試着する"
  },
  {
   "id": "jpl15-18",
@@ -75649,8 +76204,21 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E5%87%BA%E7%99%BA",
-  "examples": [],
-  "note": "加 する 作動詞；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私は出発します。",
+    "zh": "我要出发了。",
+    "src": "tatoeba",
+    "tid": "155975"
+   },
+   {
+    "text": "早く出発しよう。",
+    "zh": "赶快出发吧。",
+    "src": "tatoeba",
+    "tid": "140544"
+   }
+  ],
+  "note": "加 する 作動詞"
  },
  {
   "id": "jpl15-19",
@@ -75664,8 +76232,21 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E5%88%B0%E7%9D%80",
-  "examples": [],
-  "note": "加 する 作動詞；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "タクシーが到着した。",
+    "zh": "出租车到了。",
+    "src": "tatoeba",
+    "tid": "203734"
+   },
+   {
+    "text": "彼は時間内に到着した。",
+    "zh": "他及時趕到。",
+    "src": "tatoeba",
+    "tid": "2204454"
+   }
+  ],
+  "note": "加 する 作動詞"
  },
  {
   "id": "jpl15-20",
@@ -75679,8 +76260,20 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私は上野駅で乗り換えた。",
+    "zh": "我在上野站換火車。",
+    "src": "tatoeba",
+    "tid": "155809"
+   },
+   {
+    "text": "私たちはサラゴサで乗り換える。",
+    "zh": "我們要在薩拉戈薩轉車。",
+    "src": "tatoeba",
+    "tid": "8619486"
+   }
+  ]
  },
  {
   "id": "jpl15-21",
@@ -75709,8 +76302,20 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E3%83%9B%E3%83%BC%E3%83%A0",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ホームシックなの？",
+    "zh": "想家嗎？",
+    "src": "tatoeba",
+    "tid": "8703990"
+   },
+   {
+    "text": "電車は５番ホームに到着します。",
+    "zh": "列车将停靠在5号站台。",
+    "src": "tatoeba",
+    "tid": "13911169"
+   }
+  ]
  },
  {
   "id": "jpl15-23",
@@ -75754,8 +76359,20 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E7%B5%82%E9%9B%BB",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "終電は何時ですか？",
+    "zh": "末班车是几点？",
+    "src": "tatoeba",
+    "tid": "2869237"
+   },
+   {
+    "text": "急がないと終電逃すよ。",
+    "zh": "再不快点你就要赶不上末班车了。",
+    "src": "tatoeba",
+    "tid": "3119000"
+   }
+  ]
  },
  {
   "id": "jpl15-26",
@@ -75769,8 +76386,22 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E7%89%87%E9%81%93",
-  "examples": [],
-  "note": "往返是 往復；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "Ａ市からＢ市までのチケット、片道２まいください。",
+    "zh": "麻煩從A市到B市的兩張單程車票。",
+    "src": "tatoeba",
+    "tid": "234873"
+   },
+   {
+    "text": "往復旅行？片道だけです。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "4975",
+    "zhPending": true
+   }
+  ],
+  "note": "往返是 往復"
  },
  {
   "id": "jpl15-27",
@@ -75784,8 +76415,22 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E5%BE%80%E5%BE%A9",
-  "examples": [],
-  "note": "單程是 片道；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "各目的地までの往復料金は下記の通りです。",
+    "zh": "往返各地的收费如下。",
+    "src": "tatoeba",
+    "tid": "184609"
+   },
+   {
+    "text": "往復切符の料金は？",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "188542",
+    "zhPending": true
+   }
+  ],
+  "note": "單程是 片道"
  },
  {
   "id": "jpl15-28",
@@ -75799,8 +76444,20 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E6%96%99%E9%87%91",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "電気料金が値下がりした。",
+    "zh": "電費降價了。",
+    "src": "tatoeba",
+    "tid": "11878746"
+   },
+   {
+    "text": "バス料金はいくらですか。",
+    "zh": "公車票價多少錢？",
+    "src": "tatoeba",
+    "tid": "198033"
+   }
+  ]
  },
  {
   "id": "jpl15-29",
@@ -75814,8 +76471,21 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E6%A1%88%E5%86%85",
-  "examples": [],
-  "note": "案内所 是服務台；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "観光案内所はどこですか？",
+    "zh": "遊客諮詢處在哪裡?",
+    "src": "tatoeba",
+    "tid": "10650771"
+   },
+   {
+    "text": "観光案内所はどこですか。",
+    "zh": "遊客諮詢處在哪裡?",
+    "src": "tatoeba",
+    "tid": "183801"
+   }
+  ],
+  "note": "案内所 是服務台"
  },
  {
   "id": "jpl15-30",
@@ -75829,8 +76499,23 @@
   "contentType": "word",
   "themeId": "town",
   "sourceUrl": "https://jisho.org/search/%E4%B8%A1%E6%9B%BF",
-  "examples": [],
-  "note": "加 する 作動詞；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "両替したいんですが。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "77982",
+    "zhPending": true
+   },
+   {
+    "text": "この円の現金を、ドルに両替してください。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "222900",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する 作動詞"
  },
  {
   "id": "de-799",
@@ -76041,6 +76726,12 @@
     "src": "tatoeba",
     "tid": "957535",
     "zhPending": true
+   },
+   {
+    "text": "Sie arbeitete lebenslang den Armen zum Wohle.",
+    "zh": "她一生致力于为穷人工作。",
+    "src": "tatoeba",
+    "tid": "10810529"
    }
   ],
   "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
@@ -76306,8 +76997,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E5%B1%85%E9%96%93",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "いま暇？",
+    "zh": "现在有空吗？",
+    "src": "tatoeba",
+    "tid": "2752686"
+   },
+   {
+    "text": "払いました。",
+    "zh": "我付了錢。",
+    "src": "tatoeba",
+    "tid": "8405192"
+   }
+  ]
  },
  {
   "id": "jpl16-02",
@@ -76321,8 +77024,21 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E5%BA%8A",
-  "examples": [],
-  "note": "讀音 ゆか；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼は床に倒れた。",
+    "zh": "他倒在地上。",
+    "src": "tatoeba",
+    "tid": "104064"
+   },
+   {
+    "text": "床は血だらけだった。",
+    "zh": "地板上全是血。",
+    "src": "tatoeba",
+    "tid": "146468"
+   }
+  ],
+  "note": "讀音 ゆか"
  },
  {
   "id": "jpl16-03",
@@ -76336,8 +77052,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E5%A4%A9%E4%BA%95",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼は天井を青く塗った。",
+    "zh": "他把天花板刷成了蓝色。",
+    "src": "tatoeba",
+    "tid": "101935"
+   },
+   {
+    "text": "天井にハエがとまっている。",
+    "zh": "天花板上面有隻蒼蠅。",
+    "src": "tatoeba",
+    "tid": "125211"
+   }
+  ]
  },
  {
   "id": "jpl16-04",
@@ -76351,8 +77079,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E5%B1%8B%E6%A0%B9",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "僕は今屋根の上にいる。",
+    "zh": "我现在在屋顶上。",
+    "src": "tatoeba",
+    "tid": "7927724"
+   },
+   {
+    "text": "彼女は屋根から下りた。",
+    "zh": "她从屋顶上下来了。",
+    "src": "tatoeba",
+    "tid": "90985"
+   }
+  ]
  },
  {
   "id": "jpl16-05",
@@ -76366,8 +77106,16 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%83%99%E3%83%A9%E3%83%B3%E3%83%80",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ベランダにいるよ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "196723",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl16-06",
@@ -76381,8 +77129,21 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%BD%E3%83%95%E3%82%A1",
-  "examples": [],
-  "note": "Jisho 作 ソファ;也見 ソファー；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ソファーに腰をかけている。",
+    "zh": "我坐在沙发上。",
+    "src": "tatoeba",
+    "tid": "347229"
+   },
+   {
+    "text": "私はソファーに座っている。",
+    "zh": "我坐在沙发上。",
+    "src": "tatoeba",
+    "tid": "347219"
+   }
+  ],
+  "note": "Jisho 作 ソファ;也見 ソファー"
  },
  {
   "id": "jpl16-07",
@@ -76396,8 +77157,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E6%9E%95",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼は枕に頭を横たえた。",
+    "zh": "他把頭放在枕頭上。",
+    "src": "tatoeba",
+    "tid": "99767"
+   },
+   {
+    "text": "通販で理想的な枕が買えます。",
+    "zh": "可以用郵購買到理想的枕頭。",
+    "src": "tatoeba",
+    "tid": "125573"
+   }
+  ]
  },
  {
   "id": "jpl16-08",
@@ -76411,8 +77184,22 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8",
-  "examples": [],
-  "note": "讀音 でんしレンジ(混寫)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "この火事の原因は電子レンジだった。",
+    "zh": "这场火灾的起因是一个微波炉。",
+    "src": "tatoeba",
+    "tid": "13906395"
+   },
+   {
+    "text": "もう電子レンジは買い換えてもいい頃です。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "194018",
+    "zhPending": true
+   }
+  ],
+  "note": "讀音 でんしレンジ(混寫)"
  },
  {
   "id": "jpl16-09",
@@ -76441,8 +77228,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E6%B4%97%E6%BF%AF%E6%A9%9F",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私は洗濯機を直している。",
+    "zh": "我在修洗衣機。",
+    "src": "tatoeba",
+    "tid": "1683377"
+   },
+   {
+    "text": "この洗濯機は使えません。",
+    "zh": "您不能使用這台洗衣機。",
+    "src": "tatoeba",
+    "tid": "220784"
+   }
+  ]
  },
  {
   "id": "jpl16-11",
@@ -76456,8 +77255,21 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E6%8E%83%E9%99%A4%E6%A9%9F",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ネコは掃除機が大嫌い。",
+    "zh": "猫很讨厌吸尘器。",
+    "src": "tatoeba",
+    "tid": "574909"
+   },
+   {
+    "text": "私は床のほこりを掃除機で吸い取った。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "155838",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl16-12",
@@ -76471,8 +77283,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "うちの車にはエアコンが付いている。",
+    "zh": "我們的車配備了空調。",
+    "src": "tatoeba",
+    "tid": "228192"
+   },
+   {
+    "text": "外はひどく暑いので、エアコンの効いた家の中に一日中いたい気分だ。",
+    "zh": "因为外面太热了，现在只有想在有空调的家中呆一整天的心情。",
+    "src": "tatoeba",
+    "tid": "2305121"
+   }
+  ]
  },
  {
   "id": "jpl16-13",
@@ -76486,8 +77310,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E9%8D%8B",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "大きい鍋で汁を作った。",
+    "zh": "用大锅煲汤。",
+    "src": "tatoeba",
+    "tid": "3697664"
+   },
+   {
+    "text": "平なべを火からおろしなさい。",
+    "zh": "把平底鍋從火上拿開。",
+    "src": "tatoeba",
+    "tid": "83573"
+   }
+  ]
  },
  {
   "id": "jpl16-14",
@@ -76501,8 +77337,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E7%9A%BF",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "皿が必要だよ。",
+    "zh": "我需要盘子。",
+    "src": "tatoeba",
+    "tid": "8822144"
+   },
+   {
+    "text": "お皿は洗うから。",
+    "zh": "我要去洗碗了。",
+    "src": "tatoeba",
+    "tid": "8885672"
+   }
+  ]
  },
  {
   "id": "jpl16-15",
@@ -76516,8 +77364,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%B3%E3%83%83%E3%83%97",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このコップ誰の？",
+    "zh": "这是谁的杯子？",
+    "src": "tatoeba",
+    "tid": "3421609"
+   },
+   {
+    "text": "これ誰のコップ？",
+    "zh": "这是谁的杯子？",
+    "src": "tatoeba",
+    "tid": "3416307"
+   }
+  ]
  },
  {
   "id": "jpl16-16",
@@ -76531,8 +77391,20 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%BF%E3%82%AA%E3%83%AB",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "タオルは全く役に立たなかった。",
+    "zh": "毛巾完全没起作用。",
+    "src": "tatoeba",
+    "tid": "203850"
+   },
+   {
+    "text": "タオルをもう１枚お持ちします。",
+    "zh": "我再拿块毛巾过来。",
+    "src": "tatoeba",
+    "tid": "198212"
+   }
+  ]
  },
  {
   "id": "jpl16-17",
@@ -76546,8 +77418,16 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "朝はシャンプーしません。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "1167761",
+    "zhPending": true
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl16-18",
@@ -76561,8 +77441,15 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E6%B4%97%E5%89%A4",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "誤って洗剤を飲んでしまいました。",
+    "zh": "他误吞了洗衣粉。",
+    "src": "tatoeba",
+    "tid": "338236"
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl16-19",
@@ -76576,8 +77463,15 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%BC",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "服は畳むかハンガーにかけておかないと、くしゃくしゃになっちゃうよ。",
+    "zh": "若沒有將衣服摺起來或是掛在衣架上，會起皺紋。",
+    "src": "tatoeba",
+    "tid": "1130816"
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl16-20",
@@ -76591,8 +77485,15 @@
   "contentType": "word",
   "themeId": "home",
   "sourceUrl": "https://jisho.org/search/%E3%82%B4%E3%83%9F%E7%AE%B1",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ゴミ箱は空っぽだ。",
+    "zh": "垃圾桶空了。",
+    "src": "tatoeba",
+    "tid": "12725741"
+   }
+  ],
+  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl16-21",
@@ -76606,8 +77507,20 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E8%AA%AD%E6%9B%B8",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私の趣味は読書だ。",
+    "zh": "我的爱好是阅读。",
+    "src": "tatoeba",
+    "tid": "163364"
+   },
+   {
+    "text": "彼は読書で疲れていた。",
+    "zh": "他讀累了。",
+    "src": "tatoeba",
+    "tid": "101589"
+   }
+  ]
  },
  {
   "id": "jpl16-22",
@@ -76621,8 +77534,21 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1",
-  "examples": [],
-  "note": "通常只寫假名；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "今度一緒にカラオケ行かない？",
+    "zh": "下次能一起去卡拉OK吗？",
+    "src": "tatoeba",
+    "tid": "3052934"
+   },
+   {
+    "text": "カラオケはストレス解消によい。",
+    "zh": "卡拉OK對減輕壓力有益。",
+    "src": "tatoeba",
+    "tid": "226198"
+   }
+  ],
+  "note": "通常只寫假名"
  },
  {
   "id": "jpl16-23",
@@ -76636,8 +77562,21 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E5%8D%9A%E7%89%A9%E9%A4%A8",
-  "examples": [],
-  "note": "美術館(已學)是藝術類；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "１０分歩くと私達は博物館へ着いた。",
+    "zh": "我们走了十分钟就抵达了博物馆。",
+    "src": "tatoeba",
+    "tid": "235987"
+   },
+   {
+    "text": "博物館の警備員として働いています。",
+    "zh": "我的工作是博物館警衛。",
+    "src": "tatoeba",
+    "tid": "12703177"
+   }
+  ],
+  "note": "美術館(已學)是藝術類"
  },
  {
   "id": "jpl16-24",
@@ -76651,8 +77590,20 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E6%B8%A9%E6%B3%89",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "日本には温泉がたくさんある。",
+    "zh": "日本有很多温泉。",
+    "src": "tatoeba",
+    "tid": "3464976"
+   },
+   {
+    "text": "日本にはたくさんの温泉がある。",
+    "zh": "日本有很多温泉。",
+    "src": "tatoeba",
+    "tid": "122722"
+   }
+  ]
  },
  {
   "id": "jpl16-25",
@@ -76666,8 +77617,21 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "真っ昼間なのに、キャンプの外れの電柱に、電球がともっていた。",
+    "zh": "明明是大白天，營地外圍的電線桿上卻亮著一顆電燈泡。",
+    "src": "tatoeba",
+    "tid": "11011784"
+   },
+   {
+    "text": "ケンはキャンプ生活が好きだ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "225171",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl16-26",
@@ -76681,8 +77645,21 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E9%87%A3%E3%82%8A",
-  "examples": [],
-  "note": "動詞是 釣る(つる)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "釣りに行った。",
+    "zh": "我去釣魚了。",
+    "src": "tatoeba",
+    "tid": "125558"
+   },
+   {
+    "text": "父は釣りに行った。",
+    "zh": "我父親去釣魚了。",
+    "src": "tatoeba",
+    "tid": "467329"
+   }
+  ],
+  "note": "動詞是 釣る(つる)"
  },
  {
   "id": "jpl16-27",
@@ -76696,8 +77673,22 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ハイキングは中止にしたほうがいいわね。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "198348",
+    "zhPending": true
+   },
+   {
+    "text": "ぼくたちは明日ハイキングに行く予定なんだ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "196397",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl16-28",
@@ -76711,8 +77702,20 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E6%A5%BD%E5%99%A8",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "マヨネーズは楽器？",
+    "zh": "蛋黄酱是一种乐器吗？",
+    "src": "tatoeba",
+    "tid": "10612324"
+   },
+   {
+    "text": "マヨネーズは楽器ですか？",
+    "zh": "蛋黄酱是一种乐器吗？",
+    "src": "tatoeba",
+    "tid": "13540167"
+   }
+  ]
  },
  {
   "id": "jpl16-29",
@@ -76726,8 +77729,22 @@
   "contentType": "word",
   "themeId": "hobbies",
   "sourceUrl": "https://jisho.org/search/%E7%B7%A8%E3%81%BF%E7%89%A9",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "トムは編み物をするのが好きだ。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "199813",
+    "zhPending": true
+   },
+   {
+    "text": "彼女はせっせと編み物に精を出していた。",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "92651",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl16-30",

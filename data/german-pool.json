@@ -1837,11 +1837,18 @@
     "text": "Die Zahl ist neunzehn.",
     "zh": "這個數字是十九。",
     "en": "The number is nineteen."
+   },
+   {
+    "text": "Ich heiratete als ich neunzehn Jahre alt war.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "784013",
+    "zhPending": true
    }
   ],
   "topic": "Zahlen",
   "foundations": "numerals",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-166",
@@ -2094,10 +2101,16 @@
     "text": "Wir sammeln Wörter.",
     "zh": "我們收集單字。",
     "en": "We collect words."
+   },
+   {
+    "text": "Ihr Hobby ist Briefmarken sammeln.",
+    "zh": "她的嗜好是集郵。",
+    "src": "tatoeba",
+    "tid": "605807"
    }
   ],
   "topic": "im Kurs",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-176",
@@ -2216,10 +2229,16 @@
     "text": "Meine Partnerin heißt Anna.",
     "zh": "我的夥伴叫 Anna。",
     "en": "My partner's name is Anna."
+   },
+   {
+    "text": "Das Schwierige an der Ehe ist, dass wir die Vorzüge unserer Partnerin lieben, aber mit ihren Nachteilen leben müssen.",
+    "zh": "婚姻的難處在於我們是和對方的優點談戀愛，卻和她的缺點生活在一起。",
+    "src": "tatoeba",
+    "tid": "10324137"
    }
   ],
   "topic": "im Kurs",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-181",
@@ -3536,10 +3555,16 @@
     "text": "Die Kellnerin ist hier.",
     "zh": "女服務生在這裡。",
     "en": "The waitress is here."
+   },
+   {
+    "text": "Ich bin Kellnerin.",
+    "zh": "我是跑堂。",
+    "src": "tatoeba",
+    "tid": "10901366"
    }
   ],
   "topic": "Berufe und Arbeit",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-229",
@@ -3688,10 +3713,17 @@
     "text": "Die Kollegin ist hier.",
     "zh": "女性同事在這裡。",
     "en": "The colleague is here."
+   },
+   {
+    "text": "Ich bin eine Kollegin von Tom.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12988059",
+    "zhPending": true
    }
   ],
   "topic": "Berufe und Arbeit",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-235",
@@ -4926,10 +4958,16 @@
     "text": "Mein Wohnort ist Berlin.",
     "zh": "我的居住地是柏林。",
     "en": "My place of residence is Berlin."
+   },
+   {
+    "text": "Europa, mit seinen vier klar getrennten Jahreszeiten, eignet sich am besten als Wohnort für die Menschheit.",
+    "zh": "歐洲四季分明，是最適合人類居住的地區。",
+    "src": "tatoeba",
+    "tid": "10164330"
    }
   ],
   "topic": "Informationen zur Person",
-  "note": "第二句例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "第二句"
  },
  {
   "id": "de-282",
@@ -12161,12 +12199,26 @@
   "contentType": "word",
   "themeId": "debook-L4",
   "topic": "Tageszeiten",
-  "examples": [],
+  "examples": [
+   {
+    "text": "Steht morgens früh auf.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12503936",
+    "zhPending": true
+   },
+   {
+    "text": "Stehe morgens früh auf.",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "src": "tatoeba",
+    "tid": "12503935",
+    "zhPending": true
+   }
+  ],
   "grammar": "adverb",
   "reading": "ˈmɔʁɡn̩s",
   "ipa": "/ˈmɔʁɡn̩s/",
-  "sourceUrl": "https://de.wiktionary.org/wiki/morgens",
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://de.wiktionary.org/wiki/morgens"
  },
  {
   "id": "de-535",
@@ -20122,6 +20174,12 @@
     "src": "tatoeba",
     "tid": "957535",
     "zhPending": true
+   },
+   {
+    "text": "Sie arbeitete lebenslang den Armen zum Wohle.",
+    "zh": "她一生致力于为穷人工作。",
+    "src": "tatoeba",
+    "tid": "10810529"
    }
   ],
   "note": "第二句例句待補；例句中文翻譯待補（來源句無已核對直接中文譯文，不編造；依 MM 2026-10-29「例句可後補但單字先更新」指示先收錄）。暫存資料無課程資訊，暫放 Lektion 1「其他重要詞彙」，未對照課本核實，可待取得課本資料後調整。",
