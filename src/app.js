@@ -17489,7 +17489,7 @@ Error generating stack: ` +
         (D(!1), K(!1), X(!1), Je(!1), ze(!1), (oe.current = null));
       }, [e.id]),
       (0, s.useEffect)(() => {
-        j.autoPlay && k && T(e);
+        j.autoPlay && k && !seqRef.current && T(e);
       }, [e.id]));
     let R = [
       ["examples", "\u4F8B\u53E5"],
