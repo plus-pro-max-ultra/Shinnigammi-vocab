@@ -49917,15 +49917,7 @@
   "en": "surface",
   "zh": "表面;正面",
   "contentType": "word",
-  "examples": [
-   {
-    "text": "天気がよければ、パーティーは、おもてでやります。",
-    "zh": "若天氣許可的話，派對將會在戶外舉行。",
-    "src": "tatoeba",
-    "tid": "125185",
-    "zhtid": "3739017"
-   }
-  ],
+  "examples": [],
   "sourceUrl": "https://jisho.org/search/%E8%A1%A8",
   "collocations": [
    {
@@ -49947,7 +49939,7 @@
     "n": 3
    }
   ],
-  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
+  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-982",
@@ -59249,23 +59241,9 @@
   "en": "so; therefore; and",
   "zh": "因此",
   "contentType": "word",
-  "examples": [
-   {
-    "text": "それで十分だよ。",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "src": "tatoeba",
-    "tid": "205726",
-    "zhPending": true
-   },
-   {
-    "text": "それでいいよ。",
-    "zh": "待補（來源無已核對直接中文譯文）",
-    "src": "tatoeba",
-    "tid": "3488181",
-    "zhPending": true
-   }
-  ],
-  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%A7"
+  "examples": [],
+  "sourceUrl": "https://jisho.org/search/%E5%85%B6%E3%82%8C%E3%81%A7",
+  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jp-1222",
