@@ -77891,8 +77891,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このジャケットはきつい。",
+    "src": "tatoeba",
+    "tid": "223708",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "このジャケットを試着できますか。",
+    "src": "tatoeba",
+    "tid": "223704",
+    "zh": "我可以試穿這件外套嗎？",
+    "zhtid": "1261431"
+   }
+  ]
  },
  {
   "id": "jpl17-02",
@@ -77906,8 +77920,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このワンピース、着てみたいんだけど。",
+    "src": "tatoeba",
+    "tid": "10099953",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "このワンピースは、君の雰囲気にぴったりだね。",
+    "src": "tatoeba",
+    "tid": "222974",
+    "zh": "這條裙子很適合你的氣氛",
+    "zhtid": "2409683"
+   }
+  ]
  },
  {
   "id": "jpl17-03",
@@ -77966,8 +77994,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E5%88%B6%E6%9C%8D",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "学校では制服を着ています。",
+    "src": "tatoeba",
+    "tid": "10834875",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "アメリカの警官は青い制服を着ている。",
+    "src": "tatoeba",
+    "tid": "230217",
+    "zh": "美國警察穿藍色的制服。",
+    "zhtid": "5687172"
+   }
+  ]
  },
  {
   "id": "jpl17-07",
@@ -77981,8 +78023,22 @@
   "contentType": "word",
   "themeId": "shopping",
   "sourceUrl": "https://jisho.org/search/%E6%B0%B4%E7%9D%80",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それ、新しい水着なの？",
+    "src": "tatoeba",
+    "tid": "8767446",
+    "zh": "那是新泳衣嗎？",
+    "zhtid": "13651581"
+   },
+   {
+    "text": "私は新しい水着が気に入っている。",
+    "src": "tatoeba",
+    "tid": "155727",
+    "zh": "我很喜歡新泳衣。",
+    "zhtid": "13651582"
+   }
+  ]
  },
  {
   "id": "jpl17-08",
@@ -77996,8 +78052,22 @@
   "contentType": "word",
   "themeId": "food",
   "sourceUrl": "https://jisho.org/search/%E5%88%BA%E8%BA%AB",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "刺身もこう毎日だと飽きるな。",
+    "src": "tatoeba",
+    "tid": "701561",
+    "zh": "每天都這樣地吃生魚片真是太膩歪了。",
+    "zhtid": "2431715"
+   },
+   {
+    "text": "日本に来て初めて刺身を食べたんだ。",
+    "src": "tatoeba",
+    "tid": "154734",
+    "zh": "這是我來到日本以來第一次吃生魚片。",
+    "zhtid": "2394585"
+   }
+  ]
  },
  {
   "id": "jpl17-09",
@@ -78026,8 +78096,22 @@
   "contentType": "word",
   "themeId": "food",
   "sourceUrl": "https://jisho.org/search/%E8%B1%86%E8%85%90",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それは豆腐よ。",
+    "src": "tatoeba",
+    "tid": "11571571",
+    "zh": "那是豆腐。",
+    "zhtid": "3377901"
+   },
+   {
+    "text": "豆腐がこんなにおいしいなんて知らなかった。",
+    "src": "tatoeba",
+    "tid": "4064892",
+    "zh": "我以前不知道豆腐這麼好吃。",
+    "zhtid": "4147349"
+   }
+  ]
  },
  {
   "id": "jpl17-11",
@@ -78041,8 +78125,22 @@
   "contentType": "word",
   "themeId": "food",
   "sourceUrl": "https://jisho.org/search/%E9%85%B8%E3%81%A3%E3%81%B1%E3%81%84",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "レモンは酸っぱい。",
+    "src": "tatoeba",
+    "tid": "192323",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "このジュース、酸っぱいよ。",
+    "src": "tatoeba",
+    "tid": "223685",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl17-12",
@@ -78056,8 +78154,22 @@
   "contentType": "word",
   "themeId": "food",
   "sourceUrl": "https://jisho.org/search/%E6%BF%83%E3%81%84",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このスープ、濃いよ。",
+    "src": "tatoeba",
+    "tid": "11006044",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "父は濃いコーヒーが好きです。",
+    "src": "tatoeba",
+    "tid": "84397",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl17-13",
@@ -78071,7 +78183,22 @@
   "contentType": "word",
   "themeId": "food",
   "sourceUrl": "https://jisho.org/search/%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84",
-  "examples": [],
+  "examples": [
+   {
+    "text": "お腹いっぱい？",
+    "src": "tatoeba",
+    "tid": "8601946",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "ううん、もういいよ。お腹いっぱい。",
+    "src": "tatoeba",
+    "tid": "228315",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
   "parts": [
    {
     "w": "お腹",
@@ -78084,7 +78211,7 @@
     "r": "ippai"
    }
   ],
-  "note": "常用 お腹いっぱいです(吃飽了)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "note": "常用 お腹いっぱいです(吃飽了)"
  },
  {
   "id": "jpl17-14",
@@ -78098,8 +78225,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%95%99%E7%A7%91%E6%9B%B8",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "この教科書は簡単な英語で書かれた。",
+    "src": "tatoeba",
+    "tid": "339302",
+    "zh": "這本教科書是用簡單的英語寫的。",
+    "zhtid": "336621"
+   },
+   {
+    "text": "この学校では学生に教科書を支給しています。",
+    "src": "tatoeba",
+    "tid": "4919848",
+    "zh": "這所學校為學生提供教科書。",
+    "zhtid": "334982"
+   }
+  ]
  },
  {
   "id": "jpl17-15",
@@ -78143,8 +78284,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%88%90%E7%B8%BE",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼は、試験の成績を心配している。",
+    "src": "tatoeba",
+    "tid": "151087",
+    "zh": "他一直在擔心自己的考試成績。",
+    "zhtid": "3667756"
+   },
+   {
+    "text": "もっといい成績を得るように努力しなさい。",
+    "src": "tatoeba",
+    "tid": "193351",
+    "zh": "以更好的成績為目標去努力吧。",
+    "zhtid": "8688063"
+   }
+  ]
  },
  {
   "id": "jpl17-18",
@@ -78158,8 +78313,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%8D%98%E8%AA%9E",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "この単語はどう発音するの？",
+    "src": "tatoeba",
+    "tid": "220643",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "単語を2、3個知っているだけ。",
+    "src": "tatoeba",
+    "tid": "2981203",
+    "zh": "我只知道兩三個詞。",
+    "zhtid": "14098499"
+   }
+  ]
  },
  {
   "id": "jpl17-19",
@@ -78173,8 +78342,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%9A%97%E8%A8%98",
-  "examples": [],
-  "note": "加 する:暗記する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "来週までにその詩を暗記しなさい。",
+    "src": "tatoeba",
+    "tid": "78633",
+    "zh": "下週之前把這首詩背下來。",
+    "zhtid": "13942588"
+   },
+   {
+    "text": "私たちは同じ席の人と、誰が速く暗記できるか競争し、結局私が負けた。",
+    "src": "tatoeba",
+    "tid": "13537687",
+    "zh": "我們和同桌比賽看誰背書快，結果我輸了。",
+    "zhtid": "13535350"
+   }
+  ],
+  "note": "加 する:暗記する"
  },
  {
   "id": "jpl17-20",
@@ -78188,8 +78372,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%90%88%E6%A0%BC",
-  "examples": [],
-  "note": "加 する:合格する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "生徒は全員テストに合格しました。",
+    "src": "tatoeba",
+    "tid": "2979921",
+    "zh": "全部的學生們都考試及格了。",
+    "zhtid": "3065791"
+   },
+   {
+    "text": "田中さんは試験に合格したようだ。",
+    "src": "tatoeba",
+    "tid": "344723",
+    "zh": "田中好像考試合格了。",
+    "zhtid": "391442"
+   }
+  ],
+  "note": "加 する:合格する"
  },
  {
   "id": "jpl17-21",
@@ -78203,8 +78402,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%82%B9%E6%95%B0",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼は私たちよりよい点数を取った。",
+    "src": "tatoeba",
+    "tid": "1035161",
+    "zh": "他得到了比我們還高的分數。",
+    "zhtid": "402781"
+   },
+   {
+    "text": "テストで思った以上の点数を取れてとても嬉しかった。",
+    "src": "tatoeba",
+    "tid": "13492258",
+    "zh": "能考到比我預想的還高的成績，真是非常開心。",
+    "zhtid": "13877901"
+   }
+  ]
  },
  {
   "id": "jpl17-22",
@@ -78218,8 +78431,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%87%BA%E5%BC%B5",
-  "examples": [],
-  "note": "加 する:出張する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "たまに東京への出張もありますよ。",
+    "src": "tatoeba",
+    "tid": "11912973",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "彼はニューヨーク出張に行ってるよ。",
+    "src": "tatoeba",
+    "tid": "10094204",
+    "zh": "他去紐約出差了呢。",
+    "zhtid": "10273838"
+   }
+  ],
+  "note": "加 する:出張する"
  },
  {
   "id": "jpl17-23",
@@ -78233,8 +78461,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%B5%A6%E6%96%99",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "昨日、給料が入ったんだ。",
+    "src": "tatoeba",
+    "tid": "10002571",
+    "zh": "昨天我收到了薪水。",
+    "zhtid": "12615499"
+   },
+   {
+    "text": "彼はいい給料をもらっている。",
+    "src": "tatoeba",
+    "tid": "114726",
+    "zh": "他收入可觀。",
+    "zhtid": "1454454"
+   }
+  ]
  },
  {
   "id": "jpl17-24",
@@ -78248,8 +78490,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E4%B8%8A%E5%8F%B8",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "上司との約束をすっぽかした。",
+    "src": "tatoeba",
+    "tid": "146254",
+    "zh": "我打破了和我上司的約定。",
+    "zhtid": "8654623"
+   },
+   {
+    "text": "私の上司は辞職せざるを得なかった。",
+    "src": "tatoeba",
+    "tid": "163292",
+    "zh": "我的上司被逼迫辭職。",
+    "zhtid": "3065605"
+   }
+  ]
  },
  {
   "id": "jpl17-25",
@@ -78263,8 +78519,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%90%8C%E5%83%9A",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "トムは友達じゃないよ。ただの同僚さ。",
+    "src": "tatoeba",
+    "tid": "11695463",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "同僚が仕事のファイルを用意してくれた。",
+    "src": "tatoeba",
+    "tid": "13906227",
+    "zh": "同事為我準備好了工作文件。",
+    "zhtid": "13906221"
+   }
+  ]
  },
  {
   "id": "jpl17-26",
@@ -78278,8 +78548,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E8%B3%87%E6%96%99",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼女は本を書くための資料を集めています。",
+    "src": "tatoeba",
+    "tid": "86676",
+    "zh": "她在為一本書收集材料。",
+    "zhtid": "10613732"
+   },
+   {
+    "text": "本が書けるだけの資料はまだ集まっていない。",
+    "src": "tatoeba",
+    "tid": "81669",
+    "zh": "我還沒有收集到足夠的材料來寫一本書。",
+    "zhtid": "737169"
+   }
+  ]
  },
  {
   "id": "jpl17-27",
@@ -78308,8 +78592,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%9B%B8%E9%A1%9E",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "こちらの書類に目を通していただきたいのですが。",
+    "src": "tatoeba",
+    "tid": "217872",
+    "zh": "請你看看這些文件。",
+    "zhtid": "827518"
+   },
+   {
+    "text": "「それでは、金曜日の9時半に書類を取りに伺いますんで」「わかりました。それまでに揃えておきます」",
+    "src": "tatoeba",
+    "tid": "2990099",
+    "zh": "「那麼，我星期五九點半來取文件。」「明白了。到時候會準備好。」",
+    "zhtid": "13605581"
+   }
+  ]
  },
  {
   "id": "jpl17-29",
@@ -78323,8 +78621,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%85%85%E9%9B%BB",
-  "examples": [],
-  "note": "加 する:充電する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "携帯を充電する必要がある。",
+    "src": "tatoeba",
+    "tid": "1894022",
+    "zh": "我需要給手機充電。",
+    "zhtid": "5254711"
+   },
+   {
+    "text": "この辺りに携帯を充電できるところってありますか？",
+    "src": "tatoeba",
+    "tid": "2446302",
+    "zh": "這附近有沒有可以給手機充電的地方？",
+    "zhtid": "2448740"
+   }
+  ],
+  "note": "加 する:充電する"
  },
  {
   "id": "jpl17-30",
@@ -78338,7 +78651,15 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%94%BB%E9%9D%A2",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このゲームの目的は画面にあるすべての爆弾を爆発させることです。",
+    "src": "tatoeba",
+    "tid": "457939",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  }
 ]
