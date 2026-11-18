@@ -2333,5 +2333,122 @@
     "a": "Ich möchte einen Tee. (möchte + accusative: der Tee → einen Tee)"
    }
   ]
+ },
+ {
+  "id": "2026-11-19-jp",
+  "num": 18,
+  "date": "2026-11-19",
+  "lang": "jp",
+  "title": "Japanese - Lesson 18: Giving & receiving - te kureru",
+  "sections": [
+   {
+    "h": "Quick recall",
+    "en": "Quick recall (answers at the end):\n1. 友達に本を貸して___。(I lent my friend a book - for their benefit)\n2. 母に手伝って___。(I was helped by my mother)\n3. 「しゅっちょう」の漢字は?\n4. 筆箱(ふでばこ)の意味は?\n5. What does てあげる mean?\n\nAnswers: 1. あげました; 2. もらいました; 3. 出張 (business trip); 4. pencil case; 5. to do something for someone (the speaker does the favor).",
+    "zh": "暖身複習(答案在最後):\n1. 友達に本を貸して___。(我把書借給了朋友-為他做的)\n2. 母に手伝って___。(我請媽媽幫了忙)\n3. 「しゅっちょう」的漢字是?\n4. 筆箱(ふでばこ)是什麼意思?\n5. てあげる 是什麼意思?\n\n答案:1. あげました;2. もらいました;3. 出張(出差);4. 鉛筆盒;5. 為別人做~(自己動手做給對方)。"
+   },
+   {
+    "h": "Point 1: Verb te-form + kureru",
+    "en": "Point 1: Verb te-form + kureru - \"someone does something for me\"\nAdd くれる to the te-form: someone does something for me or for someone close to me, and I feel grateful. くれる is an ichidan verb: くれます, くれました.\nThe giver is the subject (が/は). The receiver is me (or my group), so 私に is usually left out.\n- 友達が宿題を手伝ってくれました。(My friend helped me with my homework.)\n- 母がケーキを作ってくれました。(My mother made a cake for me.)\n- 兄が駅まで送ってくれました。(My older brother gave me a ride to the station.)\nCareful: when YOU do the favor, use てあげる, not てくれる.",
+    "zh": "重點 1:動詞て形 + くれる - 「別人為我做~」\nて形接 くれる:別人為我(或我這邊的人)做某事,帶有感謝的心情。くれる 是一段動詞:くれます、くれました。\n給予的人是主語(が/は);接受的人是我(或我方),所以 私に 通常省略。\n- 友達が宿題を手伝ってくれました。(朋友幫我做作業。)\n- 母がケーキを作ってくれました。(媽媽做了蛋糕給我。)\n- 兄が駅まで送ってくれました。(哥哥開車送我到車站。)\n注意:自己為別人做時要用 てあげる,不是 てくれる。"
+   },
+   {
+    "h": "Point 2: Three viewpoints and politeness",
+    "en": "Point 2: Three viewpoints, and politeness\nThe same event has three tellings (you know the first two from Lesson 17):\n- 私が友達に本を貸してあげました。(I lent my friend a book.)\n- 友達が(私に)本を貸してくれました。(My friend lent me a book.)\n- 私は友達に本を貸してもらいました。(I had my friend lend me a book.)\nWhen the giver is a superior, use the respectful form てくださる (from 下さる): 先生が教えてくださいました。(The teacher taught me.)\nTo ask for a favor: てくれませんか - 手伝ってくれませんか。(Could you help me?)",
+    "zh": "重點 2:三種說法與禮貌\n同一件事有三種講法(前兩種第 17 課學過):\n- 私が友達に本を貸してあげました。(我把書借給了朋友。)\n- 友達が(私に)本を貸してくれました。(朋友把書借給了我。)\n- 私は友達に本を貸してもらいました。(我請朋友把書借給我。)\n給予的人是長輩、上司時,用尊敬形 てくださる(來自 下さる):先生が教えてくださいました。(老師教了我。)\n請求別人幫忙:てくれませんか - 手伝ってくれませんか。(可以幫我一下嗎?)"
+   },
+   {
+    "h": "New words (30)",
+    "en": "New words (30, all genuinely new - dedup vs canonical 2026-11-19, 2199 entries; readings verified via Jisho):\nGiving & receiving verbs:\n- あげる (あげる) - to give (to others)\n- もらう (もらう) - to receive\n- くれる (くれる) - to give (to me/us)\n- 頂く (いただく) - to receive (humble)\n- 下さる (くださる) - to give (honorific)\n- やる (やる) - to give (to juniors/animals/plants)\n- 贈る (おくる) - to give (as a gift)\n- 受け取る (うけとる) - to receive; to accept\n- 届く (とどく) - to arrive; to be delivered\nHelp & favors:\n- 祝う (いわう) - to celebrate; to congratulate\n- 助ける (たすける) - to save; to help\n- 助かる (たすかる) - to be saved; to be a help\n- 悩む (なやむ) - to worry; to be troubled\n- 甘える (あまえる) - to lean on someone's kindness\n- お願い (おねがい) - request; favor\n- 頼み (たのみ) - request; favor\n- 招待 (しょうたい) - invitation\nFeelings:\n- ありがたい (ありがたい) - grateful; welcome\n- 感謝 (かんしゃ) - gratitude; thanks\n- 感動 (かんどう) - being deeply moved\n- 迷惑 (めいわく) - nuisance; trouble\n- 笑顔 (えがお) - smiling face; smile\n- 抱きしめる (だきしめる) - to hug tight; to embrace\nGifts & secrets:\n- サプライズ (サプライズ) - surprise\n- 秘密 (ひみつ) - secret\n- 内緒 (ないしょ) - secret (casual)\n- 花束 (はなたば) - bouquet\n- 包装 (ほうそう) - wrapping; packing\n- 中身 (なかみ) - contents\n- カード (カード) - card",
+    "zh": "新單字(30 個,全部為新詞 - 已對照 2026-11-19 版字庫 2199 筆查重,讀音經 Jisho 核對):\n給予與接受動詞:\n- あげる(あげる)- 給(別人)\n- もらう(もらう)- 收到、得到\n- くれる(くれる)- 給我(們)\n- 頂く(いただく)- 領受(謙讓)\n- 下さる(くださる)- 給我(們)(尊敬)\n- やる(やる)- 給(對晚輩、動植物)\n- 贈る(おくる)- 贈送\n- 受け取る(うけとる)- 接收、收下\n- 届く(とどく)- 送達、抵達\n幫忙與拜託:\n- 祝う(いわう)- 慶祝\n- 助ける(たすける)- 救助、幫助\n- 助かる(たすかる)- 獲救、幫了大忙\n- 悩む(なやむ)- 煩惱\n- 甘える(あまえる)- 撒嬌、依賴\n- お願い(おねがい)- 拜託、請求\n- 頼み(たのみ)- 請託\n- 招待(しょうたい)- 招待、邀請\n心情:\n- ありがたい(ありがたい)- 值得感激的\n- 感謝(かんしゃ)- 感謝\n- 感動(かんどう)- 感動\n- 迷惑(めいわく)- 困擾、麻煩\n- 笑顔(えがお)- 笑臉\n- 抱きしめる(だきしめる)- 緊抱\n禮物與秘密:\n- サプライズ(サプライズ)- 驚喜\n- 秘密(ひみつ)- 秘密\n- 内緒(ないしょ)- 秘密(口語)\n- 花束(はなたば)- 花束\n- 包装(ほうそう)- 包裝\n- 中身(なかみ)- 裡面的東西\n- カード(カード)- 卡片"
+   },
+   {
+    "h": "Review words",
+    "en": "Review words (from your pool): 教える (jp-437), 貸す (jp-467), 手伝う (jp-1032), 作る (jp-246), 送る (jp-838), プレゼント (jp-1213)",
+    "zh": "複習單字(來自你的字庫):教える (jp-437)、貸す (jp-467)、手伝う (jp-1032)、作る (jp-246)、送る (jp-838)、プレゼント (jp-1213)"
+   },
+   {
+    "h": "Learn more",
+    "en": "Learn more:\nてくれる (Kanji Fortress, N5, with examples): https://kanjifortress.com/learn/grammar/n5-92cb0aa2\nてくれる (isori, N4): https://isori.space/grammar/n4-te-kureru/",
+    "zh": "延伸資源:\nてくれる(Kanji Fortress,N5,附例句):https://kanjifortress.com/learn/grammar/n5-92cb0aa2\nてくれる(isori,N4):https://isori.space/grammar/n4-te-kureru/"
+   }
+  ],
+  "words": [
+   "jpl18-01",
+   "jpl18-02",
+   "jpl18-03",
+   "jpl18-04",
+   "jpl18-05",
+   "jpl18-06",
+   "jpl18-07",
+   "jpl18-08",
+   "jpl18-09",
+   "jpl18-10",
+   "jpl18-11",
+   "jpl18-12",
+   "jpl18-13",
+   "jpl18-14",
+   "jpl18-15",
+   "jpl18-16",
+   "jpl18-17",
+   "jpl18-18",
+   "jpl18-19",
+   "jpl18-20",
+   "jpl18-21",
+   "jpl18-22",
+   "jpl18-23",
+   "jpl18-24",
+   "jpl18-25",
+   "jpl18-26",
+   "jpl18-27",
+   "jpl18-28",
+   "jpl18-29",
+   "jpl18-30",
+   "jp-437",
+   "jp-467",
+   "jp-1032",
+   "jp-246",
+   "jp-838",
+   "jp-1213"
+  ],
+  "grammar": [
+   {
+    "point": "Verb te-form + kureru",
+    "note": "Someone does something for me/us, with gratitude; the giver is the subject (が/は) and 私に is usually omitted; くれる is ichidan: くれます, くれました. Use てあげる when the speaker does the favor."
+   },
+   {
+    "point": "てくださる and てくれませんか",
+    "note": "For a superior giver use respectful てくださる (くださいました, from 下さる); てくれませんか asks for a favor."
+   }
+  ],
+  "practice": [
+   {
+    "q": "Fill in: 友達が手伝って___。(My friend helped me.)",
+    "a": "くれました"
+   },
+   {
+    "q": "With てくれる, who is the subject - the giver or the receiver?",
+    "a": "the giver"
+   },
+   {
+    "q": "Fill in (the giver is your teacher): 先生が教えて___。",
+    "a": "くださいました"
+   },
+   {
+    "q": "Translate: 母がケーキを作ってくれました。",
+    "a": "My mother made a cake for me."
+   },
+   {
+    "q": "Ask \"could you help me?\" with てくれませんか.",
+    "a": "手伝ってくれませんか。"
+   },
+   {
+    "q": "「はなたば」の漢字は?",
+    "a": "花束 (bouquet)"
+   },
+   {
+    "q": "Your turn: one てくれました, one favor request with てくれませんか, one new gift/favor word.",
+    "a": "Free writing; send to Instinct anytime for correction."
+   }
+  ]
  }
 ]
