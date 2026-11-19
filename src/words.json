@@ -78674,8 +78674,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%81%82%E3%81%92%E3%82%8B",
-  "examples": [],
-  "note": "漢字 上げる;對等或對下；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "このカメラあげるよ。",
+    "src": "tatoeba",
+    "tid": "178709",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "この本、君にあげるよ。",
+    "src": "tatoeba",
+    "tid": "1062147",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "漢字 上げる;對等或對下"
  },
  {
   "id": "jpl18-02",
@@ -78689,8 +78704,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%82%82%E3%82%89%E3%81%86",
-  "examples": [],
-  "note": "漢字 貰う,多寫假名；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "医者に診てもらうべきですよ。",
+    "src": "tatoeba",
+    "tid": "190902",
+    "zh": "你應該去看病。",
+    "zhtid": "3699941"
+   },
+   {
+    "text": "彼は月に三度、髪を切ってもらう。",
+    "src": "tatoeba",
+    "tid": "1174624",
+    "zh": "他一個月剪三次頭髮。",
+    "zhtid": "8685525"
+   }
+  ],
+  "note": "漢字 貰う,多寫假名"
  },
  {
   "id": "jpl18-03",
@@ -78704,8 +78734,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%81%8F%E3%82%8C%E3%82%8B",
-  "examples": [],
-  "note": "漢字 呉れる;勿混 暮れる(天黑)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "お塩取ってくれる？",
+    "src": "tatoeba",
+    "tid": "9828296",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "手伝ってくれるの？",
+    "src": "tatoeba",
+    "tid": "4272414",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "漢字 呉れる;勿混 暮れる(天黑)"
  },
  {
   "id": "jpl18-04",
@@ -78734,8 +78779,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E4%B8%8B%E3%81%95%E3%82%8B",
-  "examples": [],
-  "note": "くれる 的尊敬語;てくださいます；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "約束を守って下さるわね。",
+    "src": "tatoeba",
+    "tid": "79525",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "来て下さるだけでいいのです。",
+    "src": "tatoeba",
+    "tid": "78717",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "くれる 的尊敬語;てくださいます"
  },
  {
   "id": "jpl18-06",
@@ -78749,8 +78809,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%82%84%E3%82%8B",
-  "examples": [],
-  "note": "口語;也有「做」之意；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "５ドルをやる。",
+    "src": "tatoeba",
+    "tid": "235161",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "口語;也有「做」之意；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl18-07",
@@ -78779,8 +78847,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "能力に応じて働き、必要に応じて受け取る。",
+    "src": "tatoeba",
+    "tid": "8289057",
+    "zh": "各盡所能、按需分配。",
+    "zhtid": "8605825"
+   },
+   {
+    "text": "誕生日には、君はたくさんのプレゼントを受け取るだろうね。",
+    "src": "tatoeba",
+    "tid": "4897876",
+    "zh": "你生日那天會收到很多禮物。",
+    "zhtid": "793803"
+   }
+  ]
  },
  {
   "id": "jpl18-09",
@@ -78794,8 +78876,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%B1%8A%E3%81%8F",
-  "examples": [],
-  "note": "自動詞;「寄達」用 届ける；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それらがいつ届くかわかりますか。",
+    "src": "tatoeba",
+    "tid": "1077199",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "君から手紙が届くのが楽しみです。",
+    "src": "tatoeba",
+    "tid": "179088",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "自動詞;「寄達」用 届ける"
  },
  {
   "id": "jpl18-10",
@@ -78809,8 +78906,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%A5%9D%E3%81%86",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私たちはいっしょに祝うべきだ。",
+    "src": "tatoeba",
+    "tid": "4865314",
+    "zh": "我們應該一起慶祝。",
+    "zhtid": "4859541"
+   },
+   {
+    "text": "２月１４日、アメリカ人はバレンタインデーを祝う。",
+    "src": "tatoeba",
+    "tid": "235514",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl18-11",
@@ -78824,8 +78935,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%8A%A9%E3%81%91%E3%82%8B",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "心配しないで、助けるよ。",
+    "src": "tatoeba",
+    "tid": "7977674",
+    "zh": "不要擔心，我會幫你的。",
+    "zhtid": "8756291"
+   },
+   {
+    "text": "あなたを助けるのが私の義務です。",
+    "src": "tatoeba",
+    "tid": "231421",
+    "zh": "幫助你是我的責任。",
+    "zhtid": "472326"
+   }
+  ]
  },
  {
   "id": "jpl18-12",
@@ -78854,8 +78979,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%82%A9%E3%82%80",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "いろんな種類のみかんがあって、どれ買うか悩む。",
+    "src": "tatoeba",
+    "tid": "11024779",
+    "zh": "有各種不同種類的橘子，不知道該買哪一種。",
+    "zhtid": "13605588"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl18-14",
@@ -78884,8 +79017,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%81%8A%E9%A1%98%E3%81%84",
-  "examples": [],
-  "note": "加 する:お願いする；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "お願い…",
+    "src": "tatoeba",
+    "tid": "13082677",
+    "zh": "拜託……",
+    "zhtid": "13111507"
+   },
+   {
+    "text": "お勘定をお願いね。",
+    "src": "tatoeba",
+    "tid": "1266379",
+    "zh": "請把帳單給我好嗎？",
+    "zhtid": "836255"
+   }
+  ],
+  "note": "加 する:お願いする"
  },
  {
   "id": "jpl18-16",
@@ -78899,8 +79047,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E9%A0%BC%E3%81%BF",
-  "examples": [],
-  "note": "動詞是 頼む(たのむ)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "君に１つ頼みがある。",
+    "src": "tatoeba",
+    "tid": "157472",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "彼は彼らの頼みに耳を貸さなかった。",
+    "src": "tatoeba",
+    "tid": "101130",
+    "zh": "他對他們的請求置若罔聞。",
+    "zhtid": "8835117"
+   }
+  ],
+  "note": "動詞是 頼む(たのむ)"
  },
  {
   "id": "jpl18-17",
@@ -78914,8 +79077,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%8B%9B%E5%BE%85",
-  "examples": [],
-  "note": "加 する:招待する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "友達を招待しました。",
+    "src": "tatoeba",
+    "tid": "9964508",
+    "zh": "我邀請了我的朋友。",
+    "zhtid": "10182814"
+   },
+   {
+    "text": "彼女は彼の招待を断った。",
+    "src": "tatoeba",
+    "tid": "87297",
+    "zh": "她拒絕了他的邀請。",
+    "zhtid": "338417"
+   }
+  ],
+  "note": "加 する:招待する"
  },
  {
   "id": "jpl18-18",
@@ -78929,8 +79107,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%81%82%E3%82%8A%E3%81%8C%E3%81%9F%E3%81%84",
-  "examples": [],
-  "note": "漢字 有難い,多寫假名；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "早めに返事をもらえるとありがたいんだけど。",
+    "src": "tatoeba",
+    "tid": "9031978",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "漢字 有難い,多寫假名；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl18-19",
@@ -78944,8 +79130,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%84%9F%E8%AC%9D",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "とても感謝しています。",
+    "src": "tatoeba",
+    "tid": "200608",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "君は彼に感謝すべきだ。",
+    "src": "tatoeba",
+    "tid": "176990",
+    "zh": "你應該感謝他。",
+    "zhtid": "1780777"
+   }
+  ]
  },
  {
   "id": "jpl18-20",
@@ -78959,8 +79159,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%84%9F%E5%8B%95",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "彼はその話に深く感動した。",
+    "src": "tatoeba",
+    "tid": "112287",
+    "zh": "他被那個故事深深地感動了。",
+    "zhtid": "763070"
+   },
+   {
+    "text": "この映画を見て感動しない者はいない。",
+    "src": "tatoeba",
+    "tid": "222909",
+    "zh": "沒有人看了這部電影會不感動的。",
+    "zhtid": "565538"
+   }
+  ]
  },
  {
   "id": "jpl18-21",
@@ -78974,8 +79188,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E8%BF%B7%E6%83%91",
-  "examples": [],
-  "note": "也是 な形容詞:迷惑な；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "いつも迷惑かけてごめんなさい。",
+    "src": "tatoeba",
+    "tid": "3055353",
+    "zh": "我經常煩你，對不起。",
+    "zhtid": "9961497"
+   },
+   {
+    "text": "ご迷惑をおかけし、本当に申し訳ありません。",
+    "src": "tatoeba",
+    "tid": "9997548",
+    "zh": "給你添麻煩了，真的非常抱歉。",
+    "zhtid": "10157032"
+   }
+  ],
+  "note": "也是 な形容詞:迷惑な"
  },
  {
   "id": "jpl18-22",
@@ -78989,8 +79218,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%AC%91%E9%A1%94",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "笑顔を絶やさないで。",
+    "src": "tatoeba",
+    "tid": "3506593",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "笑顔で迎えてくれました。",
+    "src": "tatoeba",
+    "tid": "10551968",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl18-23",
@@ -79004,8 +79247,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E6%8A%B1%E3%81%8D%E3%81%97%E3%82%81%E3%82%8B",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "トムはマリーを抱きしめる。",
+    "src": "tatoeba",
+    "tid": "1585517",
+    "zh": "湯姆抱着瑪麗。",
+    "zhtid": "11235961"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl18-24",
@@ -79019,8 +79270,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "こんな嬉しいサプライズは久しぶりだ。",
+    "src": "tatoeba",
+    "tid": "2366103",
+    "zh": "我已經很久沒這麼驚喜過了。",
+    "zhtid": "2394543"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl18-25",
@@ -79034,8 +79293,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E7%A7%98%E5%AF%86",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "それは秘密です。",
+    "src": "tatoeba",
+    "tid": "204906",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "左側に秘密の通路がある。",
+    "src": "tatoeba",
+    "tid": "541897",
+    "zh": "在左邊有一條祕密通道。",
+    "zhtid": "503184"
+   }
+  ]
  },
  {
   "id": "jpl18-26",
@@ -79049,8 +79322,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%86%85%E7%B7%92",
-  "examples": [],
-  "note": "口語;「保密」内緒にする；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "内緒にしといてね。",
+    "src": "tatoeba",
+    "tid": "10459385",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "どうか内緒にして下さい。",
+    "src": "tatoeba",
+    "tid": "201615",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "口語;「保密」内緒にする"
  },
  {
   "id": "jpl18-27",
@@ -79079,8 +79367,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E5%8C%85%E8%A3%85",
-  "examples": [],
-  "note": "加 する:包装する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ギフト包装してもらえますか？",
+    "src": "tatoeba",
+    "tid": "12163582",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "クリスマスプレゼント用に包装してください。",
+    "src": "tatoeba",
+    "tid": "225458",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する:包装する"
  },
  {
   "id": "jpl18-29",
@@ -79094,8 +79397,23 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E4%B8%AD%E8%BA%AB",
-  "examples": [],
-  "note": "也寫 中味；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "箱の中身、知ってるよ。",
+    "src": "tatoeba",
+    "tid": "9489155",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "買い物リストの中身は全部確認した？",
+    "src": "tatoeba",
+    "tid": "9926689",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "也寫 中味"
  },
  {
   "id": "jpl18-30",
@@ -79109,7 +79427,21 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "https://jisho.org/search/%E3%82%AB%E3%83%BC%E3%83%89",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "カードを配ってください。",
+    "src": "tatoeba",
+    "tid": "226470",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "机の上に一枚のカードがある。",
+    "src": "tatoeba",
+    "tid": "183439",
+    "zh": "桌上放著一張卡片。",
+    "zhtid": "13557530"
+   }
+  ]
  }
 ]
