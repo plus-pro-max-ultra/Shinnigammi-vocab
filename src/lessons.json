@@ -2464,9 +2464,9 @@
     "zh": "第 17 課複習：durch、für、gegen、ohne、um 後面永遠接賓格，所以 der 變 den、ein 變 einen。Der Zug kommt um acht Uhr.（火車八點整到）對比 Er kommt gegen acht.（他八點左右到）。ohne 後面通常省略冠詞：ohne Auto。"
    },
    {
-    "h": "Five conjunctions, zero word-order work 五個連接詞，語序零負擔",
-    "en": "German has five common coordinating conjunctions worth memorizing as a set: und (and), oder (or), aber (but), denn (because), sondern (but rather). They join two clauses of equal rank and leave the word order of both sides untouched. The conjunction itself sits in \"position zero\": it does not count, so the next clause starts fresh with subject first and the verb in second position, exactly as if it stood alone. No inversion, no verb hopping to the end.",
-    "zh": "德文最常用的對等連接詞有五個，值得整組背起來：und（和）、oder（或）、aber（但是）、denn（因為）、sondern（而是）。它們連接兩個地位平等的子句，而且兩邊的語序完全不變。連接詞本身位於「第零位」：不算進子句，所以後面子句重新起算，主語在前、動詞在第二位，跟獨立句子一模一樣。沒有倒裝，動詞也不用跳到句尾。"
+    "h": "Five common conjunctions, zero word-order work 五個常用連接詞，語序零負擔",
+    "en": "Meet the five common coordinating conjunctions: und (and), oder (or), aber (but), denn (because), sondern (but rather). They join two clauses of equal rank and leave the word order of both sides untouched. The conjunction sits in \"position zero\": it does not count, so the next clause starts fresh with subject first and the verb in second position, exactly as if it stood alone. No inversion, no verb hopping to the end. (Other coordinators exist too, including two-part pairs like entweder ... oder and weder ... noch, and words like jedoch that behave differently; we leave those for later lessons.)",
+    "zh": "來認識五個常用的對等連接詞：und（和）、oder（或）、aber（但是）、denn（因為）、sondern（而是）。它們連接兩個地位平等的子句，而且兩邊的語序完全不變。連接詞本身位於「第零位」：不算進子句，所以後面子句重新起算，主語在前、動詞在第二位，跟獨立句子一模一樣。沒有倒裝，動詞也不用跳到句尾。（還有其他連接詞，包括 entweder ... oder、weder ... noch 這類成對的連接詞，以及 jedoch 這種行為不同的詞；這些留到以後的課。）"
    },
    {
     "h": "und, oder, aber 和、或、但是",
@@ -2515,7 +2515,7 @@
   "grammar": [
    {
     "point": "Coordinating conjunctions und, oder, aber, denn, sondern",
-    "note": "The five most common coordinating conjunctions; they sit in position zero and leave verb-second order untouched in both clauses."
+    "note": "The five common ones; they sit in position zero and leave verb-second order untouched in both clauses. Other coordinators exist (two-part pairs like entweder...oder, weder...noch; jedoch behaves differently) and are deferred to later lessons."
    },
    {
     "point": "denn vs. weil",
