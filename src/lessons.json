@@ -2450,5 +2450,111 @@
     "a": "Free writing; send to Instinct anytime for correction."
    }
   ]
+ },
+ {
+  "id": "2026-11-20-de",
+  "date": "2026-11-20",
+  "lang": "de",
+  "num": 18,
+  "title": "German Lesson 18 - Coordinating conjunctions: und, oder, aber, denn, sondern",
+  "sections": [
+   {
+    "h": "Warm-up recall 暖身複習",
+    "en": "From Lesson 17: durch, für, gegen, ohne and um are always followed by the accusative, so der becomes den and ein becomes einen. Der Zug kommt um acht Uhr. (at exactly eight) vs. Er kommt gegen acht. (around eight). And after ohne the article usually drops: ohne Auto.",
+    "zh": "第 17 課複習：durch、für、gegen、ohne、um 後面永遠接賓格，所以 der 變 den、ein 變 einen。Der Zug kommt um acht Uhr.（火車八點整到）對比 Er kommt gegen acht.（他八點左右到）。ohne 後面通常省略冠詞：ohne Auto。"
+   },
+   {
+    "h": "Five conjunctions, zero word-order work 五個連接詞，語序零負擔",
+    "en": "German has five common coordinating conjunctions worth memorizing as a set: und (and), oder (or), aber (but), denn (because), sondern (but rather). They join two clauses of equal rank and leave the word order of both sides untouched. The conjunction itself sits in \"position zero\": it does not count, so the next clause starts fresh with subject first and the verb in second position, exactly as if it stood alone. No inversion, no verb hopping to the end.",
+    "zh": "德文最常用的對等連接詞有五個，值得整組背起來：und（和）、oder（或）、aber（但是）、denn（因為）、sondern（而是）。它們連接兩個地位平等的子句，而且兩邊的語序完全不變。連接詞本身位於「第零位」：不算進子句，所以後面子句重新起算，主語在前、動詞在第二位，跟獨立句子一模一樣。沒有倒裝，動詞也不用跳到句尾。"
+   },
+   {
+    "h": "und, oder, aber 和、或、但是",
+    "en": "und adds, oder offers alternatives, aber contrasts: Sie spricht Deutsch und er spricht Englisch. (She speaks German and he speaks English.) Kommst du mit, oder bleibst du zu Hause? (Are you coming along, or are you staying home?) Das Foto ist alt, aber es ist schön. (The photo is old, but it is beautiful.) With the same subject on both sides, German can drop the repeat: Er schreibt eine E-Mail und macht ein Foto. (He writes an email and takes a photo.)",
+    "zh": "und 是加上、oder 是選項、aber 是轉折：Sie spricht Deutsch und er spricht Englisch.（她說德文，他說英文。）Kommst du mit, oder bleibst du zu Hause?（你要一起來，還是待在家？）Das Foto ist alt, aber es ist schön.（這張照片很舊，但很美。）兩邊主語相同時，德文可以省掉重複的主語：Er schreibt eine E-Mail und macht ein Foto.（他寫了一封電郵，又拍了一張照片。）"
+   },
+   {
+    "h": "denn - the coordinating because denn：不動語序的「因為」",
+    "en": "denn means because, but it is coordinating, so the verb stays in second position: Wir bleiben zu Hause, denn es regnet. (We are staying home, because it is raining.) Ich lerne Deutsch, denn ich arbeite in Berlin. (I am learning German because I work in Berlin.) You may have seen weil with the same meaning; weil follows different rules and sends the verb to the end, and we cover it in a later lesson. denn is also a touch more formal and written-sounding.",
+    "zh": "denn 意思是「因為」，但它是對等連接詞，所以動詞留在第二位：Wir bleiben zu Hause, denn es regnet.（我們待在家，因為在下雨。）Ich lerne Deutsch, denn ich arbeite in Berlin.（我學德文，因為我在柏林工作。）你可能見過意思相同的 weil；weil 的規則不同，動詞要放到句尾，之後的課再教。denn 也稍微正式、偏書面。"
+   },
+   {
+    "h": "sondern vs. aber 「而是」與「但是」",
+    "en": "sondern is \"but rather\": it works only after a negation and corrects it. Das ist kein Wort, sondern ein Satz. (That is not a word, but rather a sentence.) Er schreibt keinen Brief, sondern eine E-Mail. (He is not writing a letter, but rather an email.) For every other contrast, use aber. Test: if the first half has nicht or kein and the second half replaces it, choose sondern.",
+    "zh": "sondern 是「而是」：只能用在否定之後，用來纠正前句。Das ist kein Wort, sondern ein Satz.（那不是一個字，而是一句話。）Er schreibt keinen Brief, sondern eine E-Mail.（他寫的不是信，而是一封電郵。）其他所有對比都用 aber。判斷法：前半句有 nicht 或 kein、後半句是取而代之的說法，就選 sondern。"
+   },
+   {
+    "h": "Comma rules 逗號規則",
+    "en": "Always put a comma before aber, sondern and denn. Before und and oder there is usually no comma, though one is allowed for clarity in long sentences. Ich lerne Deutsch, denn es ist nützlich. Das Foto ist alt, aber schön. Kommst du mit oder bleibst du?",
+    "zh": "aber、sondern、denn 前面一定要加逗號；und、oder 前面通常不加，句子長、需要清楚時可以加。Ich lerne Deutsch, denn es ist nützlich.（我學德文，因為它有用。）Das Foto ist alt, aber schön.（照片雖舊但美。）Kommst du mit oder bleibst du?（你要來還是要留？）"
+   },
+   {
+    "h": "Review words from your pool 複習單字",
+    "en": "kommen - to come; lernen - to learn; sprechen - to speak; schreiben - to write; das Wort - word; das Foto - photo.",
+    "zh": "kommen：to come；lernen：to learn；sprechen：to speak；schreiben：to write；das Wort：word；das Foto：photo。"
+   },
+   {
+    "h": "Your turn 造句作業",
+    "en": "Write two short sentences: one with denn giving a reason, and one with sondern correcting a negation. Send them tomorrow and I will correct them.",
+    "zh": "寫兩個短句：一句用 denn 說明原因，一句用 sondern 纠正否定句。明天傳給我，我會批改。"
+   },
+   {
+    "h": "Closing 結語",
+    "en": "Questions or corrections are welcome anytime.",
+    "zh": "有問題或想修正的地方，隨時跟我說。"
+   }
+  ],
+  "words": [
+   "de-125",
+   "de-128",
+   "de-129",
+   "de-176",
+   "de-183",
+   "de-211"
+  ],
+  "grammar": [
+   {
+    "point": "Coordinating conjunctions und, oder, aber, denn, sondern",
+    "note": "The five most common coordinating conjunctions; they sit in position zero and leave verb-second order untouched in both clauses."
+   },
+   {
+    "point": "denn vs. weil",
+    "note": "denn = because with normal V2 order and a slightly formal tone; weil sends the verb to the end and is covered in a later lesson."
+   },
+   {
+    "point": "sondern vs. aber",
+    "note": "sondern = but rather, only after a negation it corrects; aber covers all other contrasts."
+   },
+   {
+    "point": "Comma before aber, sondern, denn",
+    "note": "Always; before und/oder usually no comma, optional for clarity."
+   }
+  ],
+  "practice": [
+   {
+    "q": "Ich bin müde, ___ ich arbeite weiter. (but)",
+    "a": "aber"
+   },
+   {
+    "q": "Wir bleiben zu Hause, ___ es regnet. (because, normal word order)",
+    "a": "denn"
+   },
+   {
+    "q": "After denn, the conjugated verb goes: (a) second position (b) end of the clause",
+    "a": "(a) second position - denn is coordinating"
+   },
+   {
+    "q": "Das ist kein Wort, ___ ein Satz. (but rather)",
+    "a": "sondern"
+   },
+   {
+    "q": "Kommst du mit, ___ bleibst du hier? (or)",
+    "a": "oder"
+   },
+   {
+    "q": "Add the comma: Ich lerne Deutsch denn es ist nützlich.",
+    "a": "Ich lerne Deutsch, denn es ist nützlich. (comma before denn)"
+   }
+  ]
  }
 ]
