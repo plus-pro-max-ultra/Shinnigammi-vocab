@@ -2556,5 +2556,122 @@
     "a": "Ich lerne Deutsch, denn es ist nützlich. (comma before denn)"
    }
   ]
+ },
+ {
+  "id": "2026-11-21-jp",
+  "num": 19,
+  "date": "2026-11-21",
+  "lang": "jp",
+  "title": "Japanese - Lesson 19: Feeling unwell - chau and jau",
+  "sections": [
+   {
+    "h": "Quick recall",
+    "en": "Quick recall (answers at the end):\n1. 友達が手伝って___。(My friend helped me.)\n2. 先生が教えて___。(The teacher taught me - respectful form)\n3. 「おねがい」の漢字は?\n4. 内緒(ないしょ)の意味は?\n5. With てくれる, who is the subject - the giver or the receiver?\n\nAnswers: 1. くれました; 2. くださいました; 3. お願い (request, favor); 4. secret (casual); 5. the giver.",
+    "zh": "暖身複習(答案在最後):\n1. 友達が手伝って___。(朋友幫了我。)\n2. 先生が教えて___。(老師教了我 - 尊敬形)\n3. 「おねがい」的漢字是?\n4. 内緒(ないしょ)是什麼意思?\n5. てくれる 的主語是誰 - 給的人還是收的人?\n\n答案:1. くれました;2. くださいました;3. お願い(拜託、請求);4. 秘密(口語);5. 給的人。"
+   },
+   {
+    "h": "Point 1: te-form + chau/jau",
+    "en": "Point 1: te-form + chau/jau - casual てしまう\nLesson 16 taught てしまう (do completely, or end up doing with regret). In everyday talk it contracts: てしまう becomes ちゃう, and でしまう becomes じゃう.\n- 食べてしまう → 食べちゃう; 行ってしまう → 行っちゃう; してしまう → しちゃう\n- 飲んでしまう → 飲んじゃう; 読んでしまう → 読んじゃう\nThe て or で disappears - ちゃう already contains it. If the dictionary form ends in ぶ, む, ぬ or ぐ, the te-form ends in で, so you get じゃう.\n- 財布を忘れちゃった。(I left my wallet behind. Oops.)\n- ジュースを全部飲んじゃった。(I drank all the juice.)",
+    "zh": "重點 1:て形 + ちゃう/じゃう - 口語的 てしまう\n第 16 課學過 てしまう(全部做完,或不小心做了、感到惋惜)。日常口語會縮約:てしまう 變 ちゃう、でしまう 變 じゃう。\n- 食べてしまう → 食べちゃう;行ってしまう → 行っちゃう;してしまう → しちゃう\n- 飲んでしまう → 飲んじゃう;読んでしまう → 読んじゃう\nて 和 で 會消失,因為 ちゃう 裡面已經包含了。字典形以 ぶ、む、ぬ、ぐ 結尾的動詞,て形以 で 結尾,所以變成 じゃう。\n- 財布を忘れちゃった。(我忘了帶錢包。哎呀。)\n- ジュースを全部飲んじゃった。(我把果汁全喝光了。)"
+   },
+   {
+    "h": "Point 2: Conjugation and register",
+    "en": "Point 2: Conjugation, and when not to use it\nちゃう/じゃう conjugate like regular godan u-verbs: ちゃった, ちゃいます, ちゃいました, ちゃわない, ちゃって.\nEven with ます (ちゃいました) it still sounds casual. In formal situations and in writing, use てしまいました: 書類をなくしてしまいました。(I lost the document.)\nThe meaning stays the same as てしまう: complete finish, or an accidental/regrettable result - context decides.\nOne caution: ちゃいけない is a different contraction, from てはいけない (must not, Lesson 13). Compare: 食べちゃった (I ate it up) vs. 食べちゃいけない (I must not eat it).",
+    "zh": "重點 2:變化方式與使用場合\nちゃう/じゃう 的變化跟一般五段う動詞一樣:ちゃった、ちゃいます、ちゃいました、ちゃわない、ちゃって。\n就算加 ます(ちゃいました)聽起來還是口語。正式場合和書面要用 てしまいました:書類をなくしてしまいました。(我把文件弄丟了。)\n意思和 てしまう 相同:徹底做完,或是不小心、感到惋惜的結果 - 由上下文決定。\n一個注意:ちゃいけない 是另一種縮約,來自 てはいけない(不可以,第 13 課)。比較:食べちゃった(把它吃光了)和 食べちゃいけない(不可以吃)。"
+   },
+   {
+    "h": "New words (30)",
+    "en": "New words (30, all genuinely new - dedup vs canonical 2026-11-21, 2229 entries; readings verified via Jisho):\nCondition:\n- 症状 (しょうじょう) - symptom\n- 体調 (たいちょう) - physical condition\n- 痛み (いたみ) - pain; ache\n- 疲れ (つかれ) - tiredness; fatigue\nSymptoms:\n- 微熱 (びねつ) - slight fever\n- 高熱 (こうねつ) - high fever\n- 寒気 (さむけ) - chill; the shivers\n- 眩暈 (めまい) - dizziness\n- 吐き気 (はきけ) - nausea\n- 鼻水 (はなみず) - runny nose; nasal mucus\n- 鼻づまり (はなづまり) - stuffy nose\n- 腹痛 (ふくつう) - stomachache; abdominal pain\n- 腰痛 (ようつう) - lower back pain\n- 肩こり (かたこり) - stiff shoulders\n- 筋肉痛 (きんにくつう) - muscle pain; sore muscles\n- 痒い (かゆい) - itchy\nInjuries:\n- 腫れる (はれる) - to swell; to become swollen\n- 吐く (はく) - to vomit; to throw up\n- 下痢 (げり) - diarrhea\n- 骨折 (こっせつ) - bone fracture\n- 捻挫 (ねんざ) - sprain\n- 切り傷 (きりきず) - cut; gash\n- 火傷 (やけど) - burn; scald\n- 日焼け (ひやけ) - sunburn; suntan\nTreatment & prevention:\n- 治す (なおす) - to cure; to heal\n- 治療 (ちりょう) - (medical) treatment\n- 検査 (けんさ) - examination; test\n- 処方箋 (しょほうせん) - prescription\n- 予防 (よぼう) - prevention\n- 手洗い (てあらい) - washing one's hands",
+    "zh": "新單字(30 個,全部為新詞 - 已對照 2026-11-21 版字庫 2229 筆查重,讀音經 Jisho 核對):\n身體狀態:\n- 症状(しょうじょう)- 症狀\n- 体調(たいちょう)- 身體狀況\n- 痛み(いたみ)- 疼痛\n- 疲れ(つかれ)- 疲倦、疲勞\n症狀:\n- 微熱(びねつ)- 低燒\n- 高熱(こうねつ)- 高燒\n- 寒気(さむけ)- 發冷、寒意\n- 眩暈(めまい)- 頭暈\n- 吐き気(はきけ)- 噁心想吐\n- 鼻水(はなみず)- 鼻涕\n- 鼻づまり(はなづまり)- 鼻塞\n- 腹痛(ふくつう)- 腹痛、肚子痛\n- 腰痛(ようつう)- 腰痛\n- 肩こり(かたこり)- 肩膀痠痛\n- 筋肉痛(きんにくつう)- 肌肉痠痛\n- 痒い(かゆい)- 癢的\n受傷:\n- 腫れる(はれる)- 腫起來\n- 吐く(はく)- 嘔吐\n- 下痢(げり)- 腹瀉\n- 骨折(こっせつ)- 骨折\n- 捻挫(ねんざ)- 扭傷\n- 切り傷(きりきず)- 割傷\n- 火傷(やけど)- 燙傷、燒傷\n- 日焼け(ひやけ)- 曬黑、曬傷\n治療與預防:\n- 治す(なおす)- 治好、治療\n- 治療(ちりょう)- 治療\n- 検査(けんさ)- 檢查\n- 処方箋(しょほうせん)- 處方箋\n- 予防(よぼう)- 預防\n- 手洗い(てあらい)- 洗手"
+   },
+   {
+    "h": "Review words",
+    "en": "Review words (from your pool): 忘れる (jp-673), 落とす (jp-918), 壊す (jp-929), 間違える (jp-1062), 飲む (jp-008), 食べる (jp-007)",
+    "zh": "複習單字(來自你的字庫):忘れる (jp-673)、落とす (jp-918)、壊す (jp-929)、間違える (jp-1062)、飲む (jp-008)、食べる (jp-007)"
+   },
+   {
+    "h": "Learn more",
+    "en": "Learn more:\nちゃう/じゃう (Easy JLPT News, N3, with common mistakes): https://easyjlptnews.com/learn/grammar/en/chau-jau\nてしまう/ちゃう (JLPTsensei, N4): https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86-te-shimau-%E3%81%A1%E3%82%83%E3%81%86-meaning/",
+    "zh": "延伸資源:\nちゃう/じゃう(Easy JLPT News,N3,附常見錯誤):https://easyjlptnews.com/learn/grammar/en/chau-jau\nてしまう/ちゃう(JLPTsensei,N4):https://jlptsensei.com/learn-japanese-grammar/%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86-te-shimau-%E3%81%A1%E3%82%83%E3%81%86-meaning/"
+   }
+  ],
+  "words": [
+   "jpl19-01",
+   "jpl19-02",
+   "jpl19-03",
+   "jpl19-04",
+   "jpl19-05",
+   "jpl19-06",
+   "jpl19-07",
+   "jpl19-08",
+   "jpl19-09",
+   "jpl19-10",
+   "jpl19-11",
+   "jpl19-12",
+   "jpl19-13",
+   "jpl19-14",
+   "jpl19-15",
+   "jpl19-16",
+   "jpl19-17",
+   "jpl19-18",
+   "jpl19-19",
+   "jpl19-20",
+   "jpl19-21",
+   "jpl19-22",
+   "jpl19-23",
+   "jpl19-24",
+   "jpl19-25",
+   "jpl19-26",
+   "jpl19-27",
+   "jpl19-28",
+   "jpl19-29",
+   "jpl19-30",
+   "jp-673",
+   "jp-918",
+   "jp-929",
+   "jp-1062",
+   "jp-008",
+   "jp-007"
+  ],
+  "grammar": [
+   {
+    "point": "te-form + ちゃう/じゃう (casual てしまう)",
+    "note": "てしまう → ちゃう, でしまう → じゃう; the て/で is absorbed. Dictionary forms ending ぶ/む/ぬ/ぐ give じゃう. Same meanings as てしまう: complete finish or accidental/regrettable result."
+   },
+   {
+    "point": "Conjugation and register",
+    "note": "Conjugates like a godan u-verb: ちゃった, ちゃいます, ちゃわない, ちゃって. Still casual even with ます; formal situations and writing use てしまいました. Distinct from ちゃいけない (= てはいけない, must not)."
+   }
+  ],
+  "practice": [
+   {
+    "q": "Make it casual: 食べてしまう → ?",
+    "a": "食べちゃう"
+   },
+   {
+    "q": "Make it casual: 読んでしまった → ?",
+    "a": "読んじゃった"
+   },
+   {
+    "q": "Choose: 飲んでしまった → (a) 飲んちゃった (b) 飲んじゃった",
+    "a": "(b) - the te-form ends in で"
+   },
+   {
+    "q": "Say it formally: 財布を落としちゃいました。→ ?",
+    "a": "財布を落としてしまいました。"
+   },
+   {
+    "q": "Writing an apology email to your boss: ちゃう or てしまう?",
+    "a": "てしまう (てしまいました) - ちゃう stays casual even with ます"
+   },
+   {
+    "q": "「めまい」の漢字は?",
+    "a": "眩暈 (dizziness)"
+   },
+   {
+    "q": "Your turn: one ちゃった, one じゃった, one new health word.",
+    "a": "Free writing; send to Instinct anytime for correction."
+   }
+  ]
  }
 ]
