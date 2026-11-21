@@ -79455,9 +79455,24 @@
   "en": "symptom",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "醫生常問 症状は?；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/症状",
+  "examples": [
+   {
+    "text": "どんな症状がありますか。",
+    "src": "tatoeba",
+    "tid": "199402",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "この症状はいつまで続くのですか。",
+    "src": "tatoeba",
+    "tid": "221124",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "醫生常問 症状は?"
  },
  {
   "id": "jpl19-02",
@@ -79470,9 +79485,24 @@
   "en": "physical condition",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "体調はどうですか(身體還好嗎)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/体調",
+  "examples": [
+   {
+    "text": "体調はいいよ。",
+    "src": "tatoeba",
+    "tid": "9034215",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "今日は昨日よりは体調がいい。",
+    "src": "tatoeba",
+    "tid": "171797",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "体調はどうですか(身體還好嗎)"
  },
  {
   "id": "jpl19-03",
@@ -79485,9 +79515,24 @@
   "en": "pain; ache",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "動詞 痛い(已學)的名詞形；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/痛み",
+  "examples": [
+   {
+    "text": "痛みがとれました。",
+    "src": "tatoeba",
+    "tid": "10654638",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "全身に痛みがある。",
+    "src": "tatoeba",
+    "tid": "1920460",
+    "zh": "我全身痠痛。",
+    "zhtid": "917936"
+   }
+  ],
+  "note": "動詞 痛い(已學)的名詞形"
  },
  {
   "id": "jpl19-04",
@@ -79500,7 +79545,7 @@
   "en": "tiredness; fatigue",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/疲れ",
   "examples": [],
   "note": "動詞是 疲れる(已學)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79515,9 +79560,17 @@
   "en": "slight fever",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "一般發燒是 熱(已學)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/微熱",
+  "examples": [
+   {
+    "text": "微熱があります。",
+    "src": "tatoeba",
+    "tid": "85582",
+    "zh": "我有點發燒。",
+    "zhtid": "10515480"
+   }
+  ],
+  "note": "一般發燒是 熱(已學)；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-06",
@@ -79530,7 +79583,7 @@
   "en": "high fever",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/高熱",
   "examples": [],
   "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79545,9 +79598,24 @@
   "en": "chill; the shivers",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "寒気がする(覺得發冷)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/寒気",
+  "examples": [
+   {
+    "text": "寒気がする。",
+    "src": "tatoeba",
+    "tid": "183996",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "すごく寒気がするんだ。",
+    "src": "tatoeba",
+    "tid": "9345708",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "寒気がする(覺得發冷)"
  },
  {
   "id": "jpl19-08",
@@ -79560,7 +79628,7 @@
   "en": "dizziness",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/眩暈",
   "examples": [],
   "note": "口語多寫假名 めまい；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79575,9 +79643,17 @@
   "en": "nausea",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "吐き気がする(覺得噁心)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/吐き気",
+  "examples": [
+   {
+    "text": "吐き気がします。",
+    "src": "tatoeba",
+    "tid": "124615",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "吐き気がする(覺得噁心)；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-10",
@@ -79590,9 +79666,24 @@
   "en": "runny nose; nasal mucus",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "鼻水が出る(流鼻涕)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/鼻水",
+  "examples": [
+   {
+    "text": "鼻水が出ます。",
+    "src": "tatoeba",
+    "tid": "85506",
+    "zh": "我流鼻涕。",
+    "zhtid": "9432378"
+   },
+   {
+    "text": "鼻水が出ている。",
+    "src": "tatoeba",
+    "tid": "85508",
+    "zh": "我流鼻涕。",
+    "zhtid": "9432378"
+   }
+  ],
+  "note": "鼻水が出る(流鼻涕)"
  },
  {
   "id": "jpl19-11",
@@ -79605,7 +79696,7 @@
   "en": "stuffy nose",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/鼻づまり",
   "examples": [],
   "note": "也寫 鼻詰まり；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79620,7 +79711,7 @@
   "en": "stomachache; abdominal pain",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/腹痛",
   "examples": [],
   "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79635,9 +79726,17 @@
   "en": "lower back pain",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/腰痛",
+  "examples": [
+   {
+    "text": "彼女は長年、腰痛で困っている。",
+    "src": "tatoeba",
+    "tid": "87838",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-14",
@@ -79650,7 +79749,7 @@
   "en": "stiff shoulders",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/肩こり",
   "examples": [],
   "note": "動詞 肩がこる；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79665,7 +79764,7 @@
   "en": "muscle pain; sore muscles",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/筋肉痛",
   "examples": [],
   "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79680,9 +79779,24 @@
   "en": "itchy",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "讀音 かゆい；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/痒い",
+  "examples": [
+   {
+    "text": "鼻が痒いよ。",
+    "src": "tatoeba",
+    "tid": "10218757",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "蚊に刺されて痒いよ。何か薬持ってない？",
+    "src": "tatoeba",
+    "tid": "886082",
+    "zh": "被蚊子叮了，好癢哦。你帶什麼藥了嗎？",
+    "zhtid": "2394837"
+   }
+  ],
+  "note": "讀音 かゆい"
  },
  {
   "id": "jpl19-17",
@@ -79695,7 +79809,7 @@
   "en": "to swell; to become swollen",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/腫れる",
   "examples": [],
   "note": "自動詞；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79710,7 +79824,7 @@
   "en": "to vomit; to throw up",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/吐く",
   "examples": [],
   "note": "另有讀音 つく(呼氣)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79725,7 +79839,7 @@
   "en": "diarrhea",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/下痢",
   "examples": [],
   "note": "下痢をする/下痢になる；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79740,9 +79854,24 @@
   "en": "bone fracture",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 する:骨折する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/骨折",
+  "examples": [
+   {
+    "text": "彼は左腕を骨折した。",
+    "src": "tatoeba",
+    "tid": "107005",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "右腕を骨折したみたいなんだ。",
+    "src": "tatoeba",
+    "tid": "9464056",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する:骨折する"
  },
  {
   "id": "jpl19-21",
@@ -79755,7 +79884,7 @@
   "en": "sprain",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
+  "sourceUrl": "https://jisho.org/search/捻挫",
   "examples": [],
   "note": "加 する:捻挫する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
  },
@@ -79770,9 +79899,17 @@
   "en": "cut; gash",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/切り傷",
+  "examples": [
+   {
+    "text": "ヒゲ剃りで切り傷ができちゃったんだ。",
+    "src": "tatoeba",
+    "tid": "9958139",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-23",
@@ -79785,9 +79922,24 @@
   "en": "burn; scald",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "讀音 やけど;加 する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/火傷",
+  "examples": [
+   {
+    "text": "指先を火傷しました。",
+    "src": "tatoeba",
+    "tid": "679941",
+    "zh": "我把我的指尖給燒傷了。",
+    "zhtid": "10350373"
+   },
+   {
+    "text": "彼女は左手に火傷をした。",
+    "src": "tatoeba",
+    "tid": "1754601",
+    "zh": "她的左手被燒傷了。",
+    "zhtid": "13878208"
+   }
+  ],
+  "note": "讀音 やけど;加 する"
  },
  {
   "id": "jpl19-24",
@@ -79800,9 +79952,24 @@
   "en": "sunburn; suntan",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 する:日焼けする；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/日焼け",
+  "examples": [
+   {
+    "text": "私は日焼けをした。",
+    "src": "tatoeba",
+    "tid": "2242473",
+    "zh": "我被曬傷了。",
+    "zhtid": "13972646"
+   },
+   {
+    "text": "日焼けをしたくないんだよ。",
+    "src": "tatoeba",
+    "tid": "154746",
+    "zh": "我不想曬黑。",
+    "zhtid": "429146"
+   }
+  ],
+  "note": "加 する:日焼けする"
  },
  {
   "id": "jpl19-25",
@@ -79815,9 +79982,24 @@
   "en": "to cure; to heal",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "病自己好是 治る(已學)；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/治す",
+  "examples": [
+   {
+    "text": "じっくりあせらずに治すことが大切です。",
+    "src": "tatoeba",
+    "tid": "216161",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "鍼治療は病気を治すことができると多くの人が信じています。",
+    "src": "tatoeba",
+    "tid": "2198232",
+    "zh": "很多人都相信針灸有治癒疾病的功效。",
+    "zhtid": "10514116"
+   }
+  ],
+  "note": "病自己好是 治る(已學)"
  },
  {
   "id": "jpl19-26",
@@ -79830,9 +80012,24 @@
   "en": "(medical) treatment",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 する:治療する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/治療",
+  "examples": [
+   {
+    "text": "医師は彼女のけがを治療した。",
+    "src": "tatoeba",
+    "tid": "190935",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "治療のためにも入院した方がいいですね。",
+    "src": "tatoeba",
+    "tid": "4793395",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する:治療する"
  },
  {
   "id": "jpl19-27",
@@ -79845,9 +80042,17 @@
   "en": "examination; test",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 する:検査する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/検査",
+  "examples": [
+   {
+    "text": "歯科医は歯を検査するためにレントゲンを撮ります。",
+    "src": "tatoeba",
+    "tid": "1148654",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する:検査する；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-28",
@@ -79860,9 +80065,24 @@
   "en": "prescription",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "也寫 処方せん；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/処方箋",
+  "examples": [
+   {
+    "text": "処方箋を書きますね。",
+    "src": "tatoeba",
+    "tid": "147572",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "この薬は、処方箋なしでは購入できません。",
+    "src": "tatoeba",
+    "tid": "11455395",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "也寫 処方せん"
  },
  {
   "id": "jpl19-29",
@@ -79875,9 +80095,17 @@
   "en": "prevention",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 する:予防する；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/予防",
+  "examples": [
+   {
+    "text": "流感の予防ワクチンの注射をした。",
+    "src": "tatoeba",
+    "tid": "78256",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 する:予防する；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl19-30",
@@ -79890,8 +80118,16 @@
   "en": "washing one's hands",
   "contentType": "word",
   "themeId": "daily",
-  "sourceUrl": "",
-  "examples": [],
-  "note": "加 お(お手洗い)會變「廁所」；例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "sourceUrl": "https://jisho.org/search/手洗い",
+  "examples": [
+   {
+    "text": "なんで手洗いをしなかったの？",
+    "src": "tatoeba",
+    "tid": "7989413",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "加 お(お手洗い)會變「廁所」；例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  }
 ]
