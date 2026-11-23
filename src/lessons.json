@@ -2813,5 +2813,113 @@
         "a": "Because the weather is cold, we are staying home."
       }
     ]
+  },
+  {
+    "id": "2026-11-24-jp",
+    "num": 20,
+    "date": "2026-11-24",
+    "lang": "jp",
+    "title": "Japanese - Lesson 20: ておく and てある (preparation and resulting states)",
+    "sections": [
+      {
+        "h": "Quick recall 快速複習",
+        "en": "R1. 症状（しょうじょう）\nR2. 腹痛（ふくつう）\nR3. 微熱（びねつ）\nR4. 絆創膏（ばんそうこう）\nR5. 下痢（げり）",
+        "zh": "R1. 症状（しょうじょう）\nR2. 腹痛（ふくつう）\nR3. 微熱（びねつ）\nR4. 絆創膏（ばんそうこう）\nR5. 下痢（げり）"
+      },
+      {
+        "h": "Point 1: ～ておく",
+        "en": "Verb (te form) + おく means you do something now to be ready for later: preparation, or doing something and leaving it done for a future purpose.\n\n旅行の前に、切符を買っておきます。(I will buy the ticket in advance, before the trip.)\n会議の前に、資料を読んでおきました。(I read the materials in advance, before the meeting.)\n台風が来る前に、食べ物を用意しておきましょう。(Let's prepare food in advance, before the typhoon comes.)",
+        "zh": "動詞て形 + おく:為了之後的需要,現在先把事情做好;或做好之後維持那個狀態。\n\n旅行の前に、切符を買っておきます。(旅行前,先把車票買好。)\n会議の前に、資料を読んでおきました。(會議前,我先把資料讀好了。)\n台風が来る前に、食べ物を用意しておきましょう。(颱風來之前,先把食物準備好吧。)"
+      },
+      {
+        "h": "Point 2: ～てある",
+        "en": "Transitive verb (te form) + ある describes a state you can see now, after someone did it on purpose. The doer is not mentioned, and the object takes が.\n\n窓が開けてあります。(The window has been opened. / It is open because someone opened it.)\n机の上に資料が置いてあります。(The documents have been placed on the desk.)\n\nCompare:\n窓が開いています。(The window is open. - just the state)\n窓が開けてあります。(The window has been opened. - the state, plus someone did it on purpose)",
+        "zh": "他動詞て形 + ある:描述某人刻意做完之後,現在還看得到的狀態。不提做的人是誰,受詞用 が。\n\n窓が開けてあります。(窗戶已經被打開了。/ 窗戶開著,是有人開的。)\n机の上に資料が置いてあります。(資料已經放在桌上了。)\n\n比較:\n窓が開いています。(窗戶開著。- 只有狀態)\n窓が開けてあります。(窗戶已被打開。- 狀態 + 有人刻意開的)"
+      },
+      {
+        "h": "New words 新單字",
+        "en": "Forecast terms 預報用語\njpl20-30. 予報 (よほう) [yohou] - forecast\njpl20-20. 最高気温 (さいこうきおん) [saikoukion] - high temperature (forecast)\njpl20-21. 最低気温 (さいていきおん) [saiteikion] - low temperature (forecast)\njpl20-22. 降水確率 (こうすいかくりつ) [kousuikakuritsu] - chance of precipitation\njpl20-01. 湿度 (しつど) [shitsudo] - humidity\njpl20-29. 雨量 (うりょう) [uryou] - rainfall\njpl20-23. 紫外線 (しがいせん) [shigaisen] - ultraviolet rays\n\nSky and precipitation 天空與降水\njpl20-02. 雨雲 (あまぐも) [amagumo] - rain cloud\njpl20-03. 雷 (かみなり) [kaminari] - lightning; thunder\njpl20-04. 雷雨 (らいう) [raiu] - thunderstorm\njpl20-26. 霧 (きり) [kiri] - fog\njpl20-25. 霜 (しも) [shimo] - frost\njpl20-27. 雹 (ひょう) [hyou] - hail\njpl20-28. 吹雪 (ふぶき) [fubuki] - snowstorm\n\nStorms and disasters 風暴與災害\njpl20-05. 暴風 (ぼうふう) [boufuu] - storm; windstorm\njpl20-06. 洪水 (こうずい) [kouzui] - flood\njpl20-07. 津波 (つなみ) [tsunami] - tsunami\njpl20-08. 避難 (ひなん) [hinan] - evacuation\njpl20-09. 警報 (けいほう) [keihou] - warning; alarm\njpl20-10. 注意報 (ちゅういほう) [chuuihou] - weather advisory\njpl20-24. 熱中症 (ねっちゅうしょう) [netchuushou] - heatstroke\n\nClimate and feel 氣候與感覺\njpl20-11. 気候 (きこう) [kikou] - climate\njpl20-12. 四季 (しき) [shiki] - the four seasons\njpl20-13. 肌寒い (はだざむい) [hadazamui] - chilly\njpl20-14. 乾燥 (かんそう) [kansou] - dryness; to dry\njpl20-15. 日差し (ひざし) [hizashi] - sunlight\njpl20-16. 日陰 (ひかげ) [hikage] - shade\n\nRainy-day gear 雨天裝備\njpl20-17. 折りたたみ傘 (おりたたみがさ) [oritatamigasa] - folding umbrella\njpl20-18. レインコート (レインコート) [reinkooto] - raincoat\njpl20-19. 長靴 (ながぐつ) [nagagutsu] - rubber boots; rain boots",
+        "zh": "terms 預報用語\njpl20-30. 予報 (よほう) - 預報\njpl20-20. 最高気温 (さいこうきおん) - 最高氣溫\njpl20-21. 最低気温 (さいていきおん) - 最低氣溫\njpl20-22. 降水確率 (こうすいかくりつ) - 降雨機率\njpl20-01. 湿度 (しつど) - 濕度\njpl20-29. 雨量 (うりょう) - 雨量\njpl20-23. 紫外線 (しがいせん) - 紫外線\n\nand precipitation 天空與降水\njpl20-02. 雨雲 (あまぐも) - 雨雲\njpl20-03. 雷 (かみなり) - 雷;閃電\njpl20-04. 雷雨 (らいう) - 雷雨\njpl20-26. 霧 (きり) - 霧\njpl20-25. 霜 (しも) - 霜\njpl20-27. 雹 (ひょう) - 冰雹\njpl20-28. 吹雪 (ふぶき) - 暴風雪\n\nand disasters 風暴與災害\njpl20-05. 暴風 (ぼうふう) - 暴風\njpl20-06. 洪水 (こうずい) - 洪水\njpl20-07. 津波 (つなみ) - 海嘯\njpl20-08. 避難 (ひなん) - 避難\njpl20-09. 警報 (けいほう) - 警報\njpl20-10. 注意報 (ちゅういほう) - (氣象)注意報\njpl20-24. 熱中症 (ねっちゅうしょう) - 中暑\n\nand feel 氣候與感覺\njpl20-11. 気候 (きこう) - 氣候\njpl20-12. 四季 (しき) - 四季\njpl20-13. 肌寒い (はだざむい) - 微涼的\njpl20-14. 乾燥 (かんそう) - 乾燥\njpl20-15. 日差し (ひざし) - 陽光;日照\njpl20-16. 日陰 (ひかげ) - 陰涼處\n\ngear 雨天裝備\njpl20-17. 折りたたみ傘 (おりたたみがさ) - 折疊傘\njpl20-18. レインコート (レインコート) - 雨衣\njpl20-19. 長靴 (ながぐつ) - 雨靴;長筒靴"
+      },
+      {
+        "h": "Review words 複習單字",
+        "en": "- jp-135 掃除（そうじ）- cleaning\n- jp-894 予約（よやく）- reservation\n- jp-231 買う（かう）- to buy\n- jp-452 開ける（あける）- to open\n- jp-484 閉める（しめる）- to close\n- jp-1071 片付ける（かたづける）- to tidy up",
+        "zh": "- jp-135 掃除（そうじ）- cleaning\n- jp-894 予約（よやく）- reservation\n- jp-231 買う（かう）- to buy\n- jp-452 開ける（あける）- to open\n- jp-484 閉める（しめる）- to close\n- jp-1071 片付ける（かたづける）- to tidy up"
+      }
+    ],
+    "words": [
+      "jpl20-01",
+      "jpl20-02",
+      "jpl20-03",
+      "jpl20-04",
+      "jpl20-05",
+      "jpl20-06",
+      "jpl20-07",
+      "jpl20-08",
+      "jpl20-09",
+      "jpl20-10",
+      "jpl20-11",
+      "jpl20-12",
+      "jpl20-13",
+      "jpl20-14",
+      "jpl20-15",
+      "jpl20-16",
+      "jpl20-17",
+      "jpl20-18",
+      "jpl20-19",
+      "jpl20-20",
+      "jpl20-21",
+      "jpl20-22",
+      "jpl20-23",
+      "jpl20-24",
+      "jpl20-25",
+      "jpl20-26",
+      "jpl20-27",
+      "jpl20-28",
+      "jpl20-29",
+      "jpl20-30",
+      "jp-135",
+      "jp-894",
+      "jp-231",
+      "jp-452",
+      "jp-484",
+      "jp-1071"
+    ],
+    "grammar": [
+      {
+        "point": "～ておく",
+        "note": "te-form + oku: do something in advance / as preparation for later"
+      },
+      {
+        "point": "～てある",
+        "note": "transitive te-form + aru: resulting visible state of a deliberate action; object takes ga; doer unmentioned"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Fill in: 旅行の前に切符を買って___。(buy in advance)",
+        "a": "おきます (買っておきます)"
+      },
+      {
+        "q": "Fill in: 窓が開けて___。(The window has been opened.)",
+        "a": "あります"
+      },
+      {
+        "q": "Make it \"in advance\": 予約します → ___",
+        "a": "予約しておきます"
+      },
+      {
+        "q": "Which is correct for \"The preparations have been done\" (visible result)? (a) 準備してあります (b) 準備しています",
+        "a": "(a) - てある shows the resulting state of a deliberate action"
+      },
+      {
+        "q": "Translate: 会議の前に資料を読んでおきました。",
+        "a": "I read the materials in advance, before the meeting. 我在會議前先把資料讀好了。"
+      },
+      {
+        "q": "Difference: 窓が開いています。 vs 窓が開けてあります。",
+        "a": "開いています is just the state; 開けてあります adds that someone opened it on purpose"
+      }
+    ]
   }
 ]
