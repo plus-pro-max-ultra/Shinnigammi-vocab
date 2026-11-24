@@ -2921,5 +2921,60 @@
         "a": "開いています is just the state; 開けてあります adds that someone opened it on purpose"
       }
     ]
+  },
+  {
+    "id": "2026-11-25-de",
+    "num": 20,
+    "date": "2026-11-25",
+    "lang": "de",
+    "title": "German Lesson 20 - dass: saying what you think, know, and heard",
+    "sections": [
+      {
+        "h": "Grammar: dass + verb at the end",
+        "en": "dass means \"that\" and packs a statement, opinion, or fact into a subordinate clause. You use it after verbs of saying, thinking, knowing, believing, and hearing:\n\nIch glaube, dass er krank ist. (I think that he is sick.)\nSie sagt, dass der Zug Verspätung hat. (She says that the train is delayed.)\nWir wissen, dass du morgen kommst. (We know that you are coming tomorrow.)\nIch finde, dass das Konzert gut ist. (I think the concert is good.)\n\nSame two rules as weil (Lesson 19):\n1. There is always a comma before dass.\n2. In the dass clause, the conjugated verb goes to the final position.\n\ndass also works with expressions like \"es ist wichtig\" (it is important):\nEs ist wichtig, dass du jeden Tag Deutsch lernst. (It is important that you learn German every day.)\n\ndass or das? Watch the spelling: dass with double s is the conjunction \"that\". das with one s is the article or \"this/that\". In the examples above, only the connecting word is dass.\n\nA note on certainty: speakers use dass when they are relatively sure. When you are not sure whether something is true, German uses ob (whether/if) instead. We will learn ob in a later lesson.\n\nScope note: today only dass after common verbs of saying and thinking. dass-clauses after adjectives and impersonal expressions (es ist wichtig, ...) follow the same rule and appear in the examples, but we practice them more later.",
+        "zh": "dass 相當於英文的 \"that\",把一個敘述、意見或事實裝進子句。常用在說、想、知道、相信、聽說這類動詞後面:\n\nIch glaube, dass er krank ist.(我想他生病了。)\nSie sagt, dass der Zug Verspätung hat.(她說火車誤點了。)\nWir wissen, dass du morgen kommst.(我們知道你明天會來。)\nIch finde, dass das Konzert gut ist.(我覺得這場音樂會不錯。)\n\n和 weil(第 19 課)一樣的兩條規則:\n1. dass 前面永遠有逗號。\n2. dass 子句裡,變化動詞放到最後的位置。\n\ndass 也可以接在「es ist wichtig」(很重要)這類表達後面:\nEs ist wichtig, dass du jeden Tag Deutsch lernst.(你每天學德文,這很重要。)\n\ndass 還是 das?注意拼法:雙 s 的 dass 是連接詞 \"that\";單 s 的 das 是冠詞或「這/那」。上面的例句裡,只有連接詞是 dass。\n\n確定程度小提醒:說話的人比較確定時用 dass;不確定事情是否為真時,德文用 ob(是否)。ob 之後的課程會教。\n\n範圍說明:今天只學 dass 接在常見的說與想動詞後面。接在形容詞和非人稱表達(es ist wichtig ...)後面的 dass 子句遵守同一條規則,例句裡有出現,之後再多練習。"
+      },
+      {
+        "h": "Review words 複習單字",
+        "en": "- sagen (de-174) - to say\n- glauben (de-717) - to believe; to think\n- wissen (de-753) - to know (a fact)\n- hören (de-169) - to hear; to listen\n- finden (de-391) - to find; to think (of an opinion)\n- die Nachricht (de-615) - message; news",
+        "zh": "- sagen (de-174) - to say\n- glauben (de-717) - to believe; to think\n- wissen (de-753) - to know (a fact)\n- hören (de-169) - to hear; to listen\n- finden (de-391) - to find; to think (of an opinion)\n- die Nachricht (de-615) - message; news"
+      }
+    ],
+    "words": [
+      "de-174",
+      "de-717",
+      "de-753",
+      "de-169",
+      "de-391",
+      "de-615"
+    ],
+    "grammar": [
+      {
+        "point": "dass (subordinating conjunction)",
+        "note": "verb to clause-final position; comma before dass; used after verbs of saying/thinking/knowing and es ist wichtig; dass when sure, ob (deferred) when unsure; spelling dass vs das"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Fill in the verb: Ich glaube, dass er heute ___. (comes)",
+        "a": "kommt - verb to the end: ... dass er heute kommt."
+      },
+      {
+        "q": "dass or denn? Sie sagt, ___ der Zug Verspätung hat.",
+        "a": "dass - she reports a fact; denn gives a reason."
+      },
+      {
+        "q": "Rewrite with dass: \"Das Wetter ist morgen kalt.\" -> Ich glaube, ...",
+        "a": "Ich glaube, dass das Wetter morgen kalt ist."
+      },
+      {
+        "q": "Which is correct? (a) Er sagt, dass er müde ist. (b) Er sagt, dass er ist müde.",
+        "a": "(a) - the conjugated verb goes to the final position."
+      },
+      {
+        "q": "Translate to English: Es ist wichtig, dass du jeden Tag Deutsch lernst.",
+        "a": "It is important that you learn German every day."
+      }
+    ]
   }
 ]
