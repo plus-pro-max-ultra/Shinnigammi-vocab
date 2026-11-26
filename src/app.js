@@ -16128,6 +16128,7 @@ Error generating stack: ` +
       [lm, slm] = (0, s.useState)("both"),
       d = {};
     let [ord, setOrd] = (0, s.useState)("asc");
+    let [flt, setFlt] = (0, s.useState)("all");
     (0, s.useEffect)(() => {
       if (n != null && sScr)
         requestAnimationFrame(() => {
@@ -16161,29 +16162,57 @@ Error generating stack: ` +
           s.default.createElement(
             "div",
             {
-              className: "chip-row lesson-ord",
+              className: "chip-row lesson-filter",
               role: "group",
-              "aria-label": "排序",
+              "aria-label": "篩選",
             },
             [
-              ["asc", "由舊到新"],
-              ["desc", "由新到舊"],
+              ["all", "全部"],
+              ["jp", "日文"],
+              ["de", "德文"],
+              ["rev", "複習"],
             ].map(([k, z]) =>
               s.default.createElement(
                 "button",
                 {
                   key: k,
-                  className: "chip" + (ord === k ? " on" : ""),
-                  onClick: () => setOrd(k),
+                  className: "chip" + (flt === k ? " on" : ""),
+                  "aria-pressed": flt === k,
+                  onClick: () => setFlt(k),
                 },
                 z,
               ),
             ),
           ),
           s.default.createElement(
+            "div",
+            {
+              className: "chip-row lesson-ord",
+              role: "group",
+              "aria-label": "排序",
+            },
+            s.default.createElement(
+              "button",
+              {
+                className: "chip on",
+                onClick: () => setOrd(ord === "asc" ? "desc" : "asc"),
+              },
+              ord === "asc" ? "由舊到新" : "由新到舊",
+            ),
+          ),
+          s.default.createElement(
             "section",
             { className: "lesson-group" },
             [...e]
+              .filter((v) =>
+                flt === "all"
+                  ? true
+                  : flt === "jp"
+                    ? v.lang === "jp"
+                    : flt === "de"
+                      ? v.lang === "de"
+                      : v.lang === "sun" || v.lang === "mixed",
+              )
               .sort((v, y) => {
                 let c =
                   (v.date < y.date ? -1 : v.date > y.date ? 1 : 0) ||
