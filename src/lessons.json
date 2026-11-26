@@ -3084,5 +3084,60 @@
         "a": "きました = change up to now; いきます = continuing into the future"
       }
     ]
+  },
+  {
+    "id": "2026-11-27-de",
+    "num": 21,
+    "date": "2026-11-27",
+    "lang": "de",
+    "title": "German Lesson 21 - ob: asking whether",
+    "sections": [
+      {
+        "h": "Grammar: ob + verb at the end",
+        "en": "A yes/no question is a question you can answer with yes or no. To tuck it inside another sentence, German uses ob, and the verb moves to the end:\n\nKommt er? -> Weißt du, ob er kommt? (Do you know whether he is coming?)\nBeginnt das Konzert um acht? -> Sie fragt, ob das Konzert um acht beginnt. (She asks whether the concert starts at eight.)\nHast du Zeit? -> Er fragt, ob ich Zeit habe. (He asks whether I have time.)\n\nThe same two rules as weil and dass:\n1. There is always a comma before ob.\n2. In the ob clause, the conjugated verb goes to the final position.\n\ndass or ob? (from Lesson 20)\n- dass: you are reporting something as a fact. Ich weiß, dass sie kommt. (I know that she is coming.)\n- ob: the answer is open, yes or no. Ich weiß nicht, ob sie kommt. (I don't know whether she is coming.)\n\nAn ob clause is also a polite, softer way to ask, common with colleagues:\nWeißt du, ob der Termin heute ist? (Do you know whether the appointment is today?)\n\nScope note: today only indirect yes/no questions with ob. Indirect questions with question words (wo, wann, warum ...) follow the same verb-at-the-end rule and come in a later lesson.",
+        "zh": "是非題就是能用「是」或「不是」回答的問題。要把它包進另一個句子裡,德文用 ob,動詞移到句尾:\n\nKommt er? -> Weißt du, ob er kommt?(你知道他會不會來嗎?)\nBeginnt das Konzert um acht? -> Sie fragt, ob das Konzert um acht beginnt.(她問音樂會是不是八點開始。)\nHast du Zeit? -> Er fragt, ob ich Zeit habe.(他問我有沒有空。)\n\n和 weil、dass 一樣的兩條規則:\n1. ob 前面永遠有逗號。\n2. ob 子句裡,變化動詞放到最後的位置。\n\ndass 還是 ob?(複習第 20 課)\n- dass:你在陳述一個事實。Ich weiß, dass sie kommt.(我知道她會來。)\n- ob:答案還不確定,是或否都有可能。Ich weiß nicht, ob sie kommt.(我不知道她會不會來。)\n\nob 子句也是比較客氣、委婉的問法,對同事很常用:\nWeißt du, ob der Termin heute ist?(你知道約會是不是今天嗎?)\n\n範圍說明:今天只學用 ob 的間接是非問句。用疑問詞的間接問句(wo、wann、warum ...)遵守同一條動詞置尾規則,之後的課程會教。"
+      },
+      {
+        "h": "Review words 複習單字",
+        "en": "- die Antwort (de-168) - answer\n- der Termin (de-263) - appointment\n- der Kollege (de-233) - colleague (male)\n- die Kollegin (de-234) - colleague (female)\n- das Konzert (de-380) - concert\n- verstehen (de-430) - to understand",
+        "zh": "- die Antwort (de-168) - answer\n- der Termin (de-263) - appointment\n- der Kollege (de-233) - colleague (male)\n- die Kollegin (de-234) - colleague (female)\n- das Konzert (de-380) - concert\n- verstehen (de-430) - to understand"
+      }
+    ],
+    "words": [
+      "de-168",
+      "de-263",
+      "de-233",
+      "de-234",
+      "de-380",
+      "de-430"
+    ],
+    "grammar": [
+      {
+        "point": "ob (subordinating conjunction)",
+        "note": "indirect yes/no questions; verb to clause-final position; comma before ob; dass (fact) vs ob (open yes/no); W-word indirect questions deferred"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Fill in the verb: Weißt du, ob er heute ___? (kommt)",
+        "a": "kommt - verb to the end."
+      },
+      {
+        "q": "dass or ob? Ich weiß nicht, ___ sie kommt.",
+        "a": "ob - the answer is open (yes or no)."
+      },
+      {
+        "q": "Rewrite with ob: \"Beginnt das Konzert um acht?\" -> Sie fragt, ...",
+        "a": "Sie fragt, ob das Konzert um acht beginnt."
+      },
+      {
+        "q": "Which is correct? (a) Er fragt, ob ich Zeit habe. (b) Er fragt, ob ich habe Zeit.",
+        "a": "(a) - the conjugated verb goes to the final position."
+      },
+      {
+        "q": "Translate to English: Ich weiß nicht, ob der Zug Verspätung hat.",
+        "a": "I don't know whether the train is delayed."
+      }
+    ]
   }
 ]
