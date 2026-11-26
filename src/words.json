@@ -80768,8 +80768,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "僕たち、横浜を観光したよ。",
+    "src": "tatoeba",
+    "tid": "9550094",
+    "zh": "我們去橫濱觀光了喔。",
+    "zhtid": "13632074"
+   },
+   {
+    "text": "彼は観光バスの運転手です。",
+    "src": "tatoeba",
+    "tid": "2237955",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl21-02",
@@ -80783,8 +80797,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "海外に行きたい。",
+    "src": "tatoeba",
+    "tid": "1200846",
+    "zh": "我想去外國。",
+    "zhtid": "382414"
+   },
+   {
+    "text": "彼は海外の事情に詳しい。",
+    "src": "tatoeba",
+    "tid": "109013",
+    "zh": "他知道很多外國事務。",
+    "zhtid": "805661"
+   }
+  ]
  },
  {
   "id": "jpl21-03",
@@ -80828,8 +80856,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "トムとメアリーは高級ホテルに宿泊した。",
+    "src": "tatoeba",
+    "tid": "8584097",
+    "zh": "湯姆和瑪麗入住了一家高檔酒店。",
+    "zhtid": "8709512"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-06",
@@ -80843,8 +80879,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "帰路の航空券を見せてください。",
+    "src": "tatoeba",
+    "tid": "183295",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-07",
@@ -80858,8 +80902,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "日帰りのツアーはありますか？",
+    "src": "tatoeba",
+    "tid": "9532889",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-08",
@@ -80873,8 +80925,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "私たちは箱根で一泊した。",
+    "src": "tatoeba",
+    "tid": "165346",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-09",
@@ -80888,8 +80948,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "パスポートをお持ちですか。",
+    "src": "tatoeba",
+    "tid": "1471198",
+    "zh": "有護照嗎？",
+    "zhtid": "13661154"
+   },
+   {
+    "text": "パスポートを見せて下さい。",
+    "src": "tatoeba",
+    "tid": "198084",
+    "zh": "請把您的護照給我看一下。",
+    "zhtid": "395562"
+   }
+  ]
  },
  {
   "id": "jpl21-10",
@@ -80948,8 +81022,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "案内所はどこですか。",
+    "src": "tatoeba",
+    "tid": "191237",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-14",
@@ -80978,8 +81060,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ここは免税店ですか。",
+    "src": "tatoeba",
+    "tid": "224277",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-16",
@@ -81023,8 +81113,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "入国の目的は何ですか。",
+    "src": "tatoeba",
+    "tid": "122070",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-19",
@@ -81058,8 +81156,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ご確認ください。",
+    "src": "tatoeba",
+    "tid": "217189",
+    "zh": "請確認。",
+    "zhtid": "8703930"
+   },
+   {
+    "text": "辞書で確認してごらん。",
+    "src": "tatoeba",
+    "tid": "8870888",
+    "zh": "查詞典。",
+    "zhtid": "6073917"
+   }
+  ]
  },
  {
   "id": "jpl21-21",
@@ -81073,8 +81185,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "観光客の数は近年大いに増加した。",
+    "src": "tatoeba",
+    "tid": "183797",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "アルメニアには観光客が大勢いますか。",
+    "src": "tatoeba",
+    "tid": "1782452",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl21-22",
@@ -81088,8 +81214,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "これは機内に持ち込めますか。",
+    "src": "tatoeba",
+    "tid": "218457",
+    "zh": "我能把這個東西帶到飛機上嗎？",
+    "zhtid": "1361975"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-23",
@@ -81103,8 +81237,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "飛行機は十分後に離陸します。",
+    "src": "tatoeba",
+    "tid": "85634",
+    "zh": "飛機十分鐘後起飛。",
+    "zhtid": "900256"
+   },
+   {
+    "text": "飛行機は離陸してすぐに見えなくなった。",
+    "src": "tatoeba",
+    "tid": "85607",
+    "zh": "飛機起飛後，很快就消失在了眼前。",
+    "zhtid": "5449365"
+   }
+  ]
  },
  {
   "id": "jpl21-24",
@@ -81118,8 +81266,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "明日、彼は月に着陸する。",
+    "src": "tatoeba",
+    "tid": "4895",
+    "zh": "明天，他將登上月球。",
+    "zhtid": "334910"
+   },
+   {
+    "text": "当機は安全に着陸しました。",
+    "src": "tatoeba",
+    "tid": "4212009",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl21-25",
@@ -81133,8 +81295,22 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "座席を予約しました。",
+    "src": "tatoeba",
+    "tid": "170829",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   },
+   {
+    "text": "座席のベルトをお締めください。",
+    "src": "tatoeba",
+    "tid": "170835",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ]
  },
  {
   "id": "jpl21-26",
@@ -81148,8 +81324,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "もし安全ベルトがなかったら、私は今日生きていないだろう。",
+    "src": "tatoeba",
+    "tid": "193766",
+    "zh": "如果當時沒用安全帶，我大概已不在人世了。",
+    "zhtid": "339936"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-27",
@@ -81163,8 +81347,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "非常口はどこにありますか。",
+    "src": "tatoeba",
+    "tid": "85758",
+    "zh": "緊急出口在哪裡？",
+    "zhtid": "616424"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-28",
@@ -81178,8 +81370,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "大雪のため電車は遅延していた。",
+    "src": "tatoeba",
+    "tid": "9958563",
+    "zh": "待補（來源無已核對直接中文譯文）",
+    "zhPending": true
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-29",
@@ -81193,8 +81393,16 @@
   "contentType": "word",
   "themeId": "daily",
   "sourceUrl": "",
-  "examples": [],
-  "note": "例句待補：缺 2 句來源例句；不編造（列入每日檢查回補）"
+  "examples": [
+   {
+    "text": "ボストン－シドニー間の直行便はありますか？",
+    "src": "tatoeba",
+    "tid": "3748885",
+    "zh": "請問波士頓和悉尼之間有直飛航班嗎？",
+    "zhtid": "8929167"
+   }
+  ],
+  "note": "例句待補：缺 1 句來源例句；不編造（列入每日檢查回補）"
  },
  {
   "id": "jpl21-30",
